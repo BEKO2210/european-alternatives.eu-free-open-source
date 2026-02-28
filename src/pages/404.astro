@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="404 – Seite nicht gefunden – FOSS Alternatives">
+  <div class="min-h-[70vh] flex items-center justify-center px-4">
+    <div class="text-center">
+      <div class="text-8xl font-bold gradient-text mb-4">404</div>
+      <h1 class="text-2xl font-bold mb-3" style="color: var(--color-text-primary)">
+        Seite nicht gefunden
+      </h1>
+      <p class="text-lg mb-8 max-w-md mx-auto" style="color: var(--color-text-secondary)">
+        Diese Seite existiert nicht — genau wie die Ausreden, proprietäre Software zu nutzen.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a
+          href={base}
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-all"
+        >
+          ← Zur Startseite
+        </a>
+        <a
+          href={`${base}tools`}
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline border border-indigo-500/50 text-indigo-400 hover:bg-indigo-500/10 transition-all"
+        >
+          Alle Tools ansehen
+        </a>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

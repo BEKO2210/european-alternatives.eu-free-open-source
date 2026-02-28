@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+import SearchModal from '../components/ui/SearchModal.astro';
+---
+
+<BaseLayout title="Impressum – FOSS Alternatives" description="Impressum der FOSS Alternatives Website.">
+  <SearchModal />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <h1 class="text-4xl font-bold mb-8" style="color: var(--color-text-primary)">Impressum</h1>
+
+    <div class="card p-6 space-y-6" style="color: var(--color-text-secondary)">
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Angaben gemäß § 5 TMG</h2>
+        <p>
+          FOSS Alternatives<br/>
+          Community-Projekt<br/>
+          Open-Source-Verzeichnis für freie Software-Alternativen
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Kontakt</h2>
+        <p>
+          GitHub: <a href="https://github.com/BEKO2210/european-alternatives.eu-free-open-source" target="_blank" rel="noopener noreferrer">BEKO2210/european-alternatives.eu-free-open-source</a>
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Haftungsausschluss</h2>
+        <h3 class="font-medium mt-3 mb-1" style="color: var(--color-text-primary)">Haftung für Inhalte</h3>
+        <p class="text-sm">
+          Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Community-Projekt sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.
+        </p>
+        <h3 class="font-medium mt-3 mb-1" style="color: var(--color-text-primary)">Haftung für Links</h3>
+        <p class="text-sm">
+          Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Urheberrecht</h2>
+        <p class="text-sm">
+          Der Code dieser Website steht unter der MIT-Lizenz. Die Inhalte (Texte, Beschreibungen) stehen unter der Creative Commons Attribution-ShareAlike 4.0 International Lizenz (CC BY-SA 4.0).
+        </p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

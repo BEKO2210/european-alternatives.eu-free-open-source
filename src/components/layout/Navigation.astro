@@ -1,0 +1,217 @@
+---
+const base = import.meta.env.BASE_URL;
+const currentPath = Astro.url.pathname;
+
+const navLinks = [
+  { href: `${base}kategorien`, label: 'Kategorien' },
+  { href: `${base}tools`, label: 'Tools' },
+  { href: `${base}vergleich`, label: 'Vergleich' },
+  { href: `${base}selbst-hosten`, label: 'Guides' },
+  { href: `${base}ueber-uns`, label: 'Über uns' },
+];
+
+function isActive(href: string): boolean {
+  return currentPath.startsWith(href);
+}
+---
+
+<nav
+  id="main-nav"
+  class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+  role="navigation"
+  aria-label="Hauptnavigation"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo -->
+      <a
+        href={base}
+        class="flex items-center gap-2 no-underline hover:no-underline"
+        aria-label="FOSS Alternatives Startseite"
+      >
+        <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="navShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#6366f1" />
+              <stop offset="100%" style="stop-color:#a855f7" />
+            </linearGradient>
+          </defs>
+          <path d="M16 2L4 7v8c0 7.73 5.12 14.96 12 17 6.88-2.04 12-9.27 12-17V7L16 2z" fill="url(#navShieldGrad)"/>
+          <path d="M13 16l-2-2-1.5 1.5L13 19l7-7-1.5-1.5L13 16z" fill="white"/>
+        </svg>
+        <span class="font-bold text-lg" style="color: var(--color-text-primary)">
+          FOSS <span class="gradient-text">Alternatives</span>
+        </span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <div class="hidden md:flex items-center gap-1">
+        {navLinks.map(link => (
+          <a
+            href={link.href}
+            class:list={[
+              'px-3 py-2 rounded-lg text-sm font-medium no-underline hover:no-underline transition-colors',
+              isActive(link.href)
+                ? 'text-indigo-400 bg-indigo-500/10'
+                : 'hover:bg-white/5'
+            ]}
+            style={!isActive(link.href) ? 'color: var(--color-text-secondary)' : undefined}
+          >
+            {link.label}
+          </a>
+        ))}
+      </div>
+
+      <!-- Right side: Search + Theme Toggle -->
+      <div class="flex items-center gap-2">
+        <!-- Search Button -->
+        <button
+          id="search-trigger"
+          class="flex items-center gap-2 px-3 py-1.5 rounded-lg border text-sm"
+          style="border-color: var(--color-border); color: var(--color-text-muted)"
+          aria-label="Suche öffnen (Strg+K)"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+          </svg>
+          <span class="hidden sm:inline">Suche...</span>
+          <kbd class="hidden sm:inline-flex items-center gap-1 px-1.5 py-0.5 text-xs rounded" style="background: var(--color-bg-tertiary); color: var(--color-text-muted)">
+            ⌘K
+          </kbd>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button
+          id="theme-toggle"
+          class="p-2 rounded-lg hover:bg-white/5 transition-colors"
+          aria-label="Farbschema wechseln"
+        >
+          <svg class="w-5 h-5 sun-icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--color-text-secondary)">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+          </svg>
+          <svg class="w-5 h-5 moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--color-text-secondary)">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Button -->
+        <button
+          id="mobile-menu-btn"
+          class="md:hidden p-2 rounded-lg hover:bg-white/5"
+          aria-label="Menü öffnen"
+          aria-expanded="false"
+        >
+          <svg class="w-6 h-6 menu-open" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--color-text-primary)">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+          <svg class="w-6 h-6 menu-close hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--color-text-primary)">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div
+    id="mobile-menu"
+    class="md:hidden hidden border-t"
+    style="background: var(--color-bg-secondary); border-color: var(--color-border)"
+  >
+    <div class="px-4 py-3 space-y-1">
+      {navLinks.map(link => (
+        <a
+          href={link.href}
+          class:list={[
+            'block px-3 py-2 rounded-lg text-sm font-medium no-underline hover:no-underline',
+            isActive(link.href)
+              ? 'text-indigo-400 bg-indigo-500/10'
+              : 'hover:bg-white/5'
+          ]}
+          style={!isActive(link.href) ? 'color: var(--color-text-secondary)' : undefined}
+        >
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </div>
+</nav>
+
+<script>
+  // Scroll-based glass effect
+  const nav = document.getElementById('main-nav');
+  if (nav) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 20) {
+        nav.classList.add('glass');
+        nav.style.borderBottom = `1px solid var(--color-border)`;
+      } else {
+        nav.classList.remove('glass');
+        nav.style.borderBottom = 'none';
+      }
+    });
+  }
+
+  // Theme toggle
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    const updateIcons = () => {
+      const theme = document.documentElement.getAttribute('data-theme');
+      const sunIcon = themeToggle.querySelector('.sun-icon') as HTMLElement;
+      const moonIcon = themeToggle.querySelector('.moon-icon') as HTMLElement;
+      if (sunIcon && moonIcon) {
+        if (theme === 'light') {
+          sunIcon.classList.remove('hidden');
+          moonIcon.classList.add('hidden');
+        } else {
+          sunIcon.classList.add('hidden');
+          moonIcon.classList.remove('hidden');
+        }
+      }
+    };
+
+    updateIcons();
+
+    themeToggle.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      updateIcons();
+    });
+  }
+
+  // Mobile menu
+  const mobileBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  if (mobileBtn && mobileMenu) {
+    mobileBtn.addEventListener('click', () => {
+      const isOpen = !mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden');
+      const openIcon = mobileBtn.querySelector('.menu-open') as HTMLElement;
+      const closeIcon = mobileBtn.querySelector('.menu-close') as HTMLElement;
+      if (openIcon && closeIcon) {
+        openIcon.classList.toggle('hidden');
+        closeIcon.classList.toggle('hidden');
+      }
+      mobileBtn.setAttribute('aria-expanded', String(!isOpen));
+    });
+  }
+
+  // Search trigger
+  const searchTrigger = document.getElementById('search-trigger');
+  if (searchTrigger) {
+    searchTrigger.addEventListener('click', () => {
+      const modal = document.getElementById('search-modal');
+      if (modal) modal.classList.remove('hidden');
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        const modal = document.getElementById('search-modal');
+        if (modal) modal.classList.remove('hidden');
+      }
+    });
+  }
+</script>

@@ -1,0 +1,146 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+import SearchModal from '../components/ui/SearchModal.astro';
+import CategoryGrid from '../components/categories/CategoryGrid.astro';
+import ToolCard from '../components/tools/ToolCard.astro';
+import { allTools } from '../data/tools/index';
+import { categories } from '../data/categories';
+import { getCategoriesWithToolCount, } from '../utils/categories';
+import { getFeaturedTools } from '../utils/tools';
+
+const base = import.meta.env.BASE_URL;
+const categoriesWithCount = getCategoriesWithToolCount(categories, allTools);
+const featuredTools = getFeaturedTools(allTools).slice(0, 6);
+const totalTools = allTools.length;
+const totalCategories = categories.length;
+const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
+---
+
+<BaseLayout title="FOSS Alternatives – Deine Freiheit. Dein Code. Deine Zukunft.">
+  <SearchModal />
+
+  <!-- Hero -->
+  <section class="gradient-bg-hero min-h-screen flex items-center justify-center pt-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm mb-8 animate-fade-in" style="background: var(--color-accent-green-glow); border: 1px solid rgba(34,197,94,0.3); color: #86efac">
+        🛡️ 100% Open Source · 100% Kostenlos
+      </div>
+
+      <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 animate-fade-in-up" style="color: var(--color-text-primary)">
+        Vergiss proprietäre Software.
+        <br />
+        <span class="gradient-text">Die Freiheit ist kostenlos.</span>
+      </h1>
+
+      <p class="text-lg sm:text-xl max-w-2xl mx-auto mb-10 animate-fade-in-up" style="color: var(--color-text-secondary); animation-delay: 0.1s">
+        {totalTools}+ FOSS-Alternativen zu Google, Microsoft, Adobe & Co. —
+        selbst hostbar, transparent, frei.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-fade-in-up" style="animation-delay: 0.2s">
+        <a
+          href={`${base}tools`}
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 transition-all"
+        >
+          Alle Tools entdecken
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+          </svg>
+        </a>
+        <a
+          href={`${base}kategorien`}
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline border border-indigo-500/50 text-indigo-400 hover:bg-indigo-500/10 transition-all"
+        >
+          Kategorien ansehen
+        </a>
+      </div>
+
+      <!-- Stats -->
+      <div class="flex flex-wrap items-center justify-center gap-4 animate-fade-in-up" style="animation-delay: 0.3s">
+        <span class="px-4 py-2 rounded-full text-sm font-medium" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border); color: var(--color-text-secondary)">
+          📦 {totalTools} Tools
+        </span>
+        <span class="px-4 py-2 rounded-full text-sm font-medium" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border); color: var(--color-text-secondary)">
+          📂 {totalCategories} Kategorien
+        </span>
+        <span class="px-4 py-2 rounded-full text-sm font-medium" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border); color: var(--color-text-secondary)">
+          📜 {uniqueLicenses} Lizenzen
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Tools -->
+  {featuredTools.length > 0 && (
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold mb-3" style="color: var(--color-text-primary)">
+          Empfohlene <span class="gradient-text">FOSS-Alternativen</span>
+        </h2>
+        <p style="color: var(--color-text-secondary)">
+          Unsere handverlesene Auswahl der besten Open-Source-Tools
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 stagger-fade">
+        {featuredTools.map((tool) => (
+          <ToolCard tool={tool} />
+        ))}
+      </div>
+      <div class="text-center mt-8">
+        <a
+          href={`${base}tools`}
+          class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
+        >
+          Alle {totalTools} Tools ansehen →
+        </a>
+      </div>
+    </section>
+  )}
+
+  <!-- Categories -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20" style="border-top: 1px solid var(--color-border)">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-3" style="color: var(--color-text-primary)">
+        Kategorien <span class="gradient-text">durchsuchen</span>
+      </h2>
+      <p style="color: var(--color-text-secondary)">
+        Finde die passende Open-Source-Alternative für deinen Anwendungsfall
+      </p>
+    </div>
+    <CategoryGrid categories={categoriesWithCount} />
+    <div class="text-center mt-8">
+      <a
+        href={`${base}kategorien`}
+        class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
+      >
+        Alle Kategorien ansehen →
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="card p-8 md:p-12 text-center" style="border-color: var(--color-border-accent)">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4" style="color: var(--color-text-primary)">
+        Proprietär war gestern.
+      </h2>
+      <p class="text-lg mb-8 max-w-2xl mx-auto" style="color: var(--color-text-secondary)">
+        Wechsle zu Open-Source-Software und gewinne die Kontrolle über deine Daten, deine Privatsphäre und deine digitale Zukunft zurück.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a
+          href={`${base}vergleich`}
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-all"
+        >
+          🔄 Alternativen finden
+        </a>
+        <a
+          href={`${base}selbst-hosten`}
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline border border-indigo-500/50 text-indigo-400 hover:bg-indigo-500/10 transition-all"
+        >
+          🏠 Selbst hosten lernen
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

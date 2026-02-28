@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import SearchModal from '../../components/ui/SearchModal.astro';
+import ToolGrid from '../../components/tools/ToolGrid.astro';
+import { allTools } from '../../data/tools/index';
+import { categories } from '../../data/categories';
+import { getCategoryBySlug } from '../../utils/categories';
+import { getToolsByCategory } from '../../utils/tools';
+
+export function getStaticPaths() {
+  return categories.map((cat) => ({
+    params: { slug: cat.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const base = import.meta.env.BASE_URL;
+const category = getCategoryBySlug(categories, slug!);
+
+if (!category) {
+  return Astro.redirect(`${base}kategorien`);
+}
+
+const tools = getToolsByCategory(allTools, slug!);
+---
+
+<BaseLayout title={`${category.name} – FOSS Alternatives`} description={category.description}>
+  <SearchModal />
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-sm" aria-label="Breadcrumb">
+      <ol class="flex items-center gap-2" style="color: var(--color-text-muted)">
+        <li><a href={base} class="hover:text-indigo-400">Startseite</a></li>
+        <li>/</li>
+        <li><a href={`${base}kategorien`} class="hover:text-indigo-400">Kategorien</a></li>
+        <li>/</li>
+        <li style="color: var(--color-text-primary)">{category.name}</li>
+      </ol>
+    </nav>
+
+    <!-- Header -->
+    <div class="mb-10">
+      <div class="flex items-center gap-4 mb-4">
+        <span class="text-5xl">{category.emoji}</span>
+        <div>
+          <h1 class="text-3xl font-bold" style="color: var(--color-text-primary)">
+            {category.name}
+          </h1>
+          <p class="text-sm mt-1" style="color: var(--color-accent-orange)">
+            Ersetzt: {category.replacesCategory}
+          </p>
+        </div>
+      </div>
+      <p class="text-lg max-w-3xl" style="color: var(--color-text-secondary)">
+        {category.description}
+      </p>
+      <div class="mt-4">
+        <span class="badge badge-foss">🛡️ {tools.length} Open-Source-Tools</span>
+      </div>
+    </div>
+
+    <!-- Tools Grid -->
+    <ToolGrid tools={tools} />
+  </div>
+</BaseLayout>

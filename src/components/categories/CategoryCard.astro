@@ -1,0 +1,37 @@
+---
+import type { Category } from '../../data/types';
+import { getCategoryColor } from '../../utils/categories';
+
+interface Props {
+  category: Category;
+}
+
+const { category } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const colorClasses = getCategoryColor(category.color);
+---
+
+<a
+  href={`${base}kategorie/${category.slug}`}
+  class:list={[
+    'block rounded-xl p-5 border bg-gradient-to-br transition-all duration-200 no-underline hover:no-underline',
+    'hover:transform hover:-translate-y-1 hover:shadow-lg',
+    colorClasses,
+  ]}
+>
+  <div class="text-3xl mb-3">{category.emoji}</div>
+  <h3 class="font-semibold text-sm mb-1" style="color: var(--color-text-primary)">
+    {category.name}
+  </h3>
+  {category.toolCount !== undefined && category.toolCount > 0 && (
+    <span class="inline-block px-2 py-0.5 rounded-full text-xs font-medium bg-indigo-500/20 text-indigo-300 mb-2">
+      {category.toolCount} Tools
+    </span>
+  )}
+  <p class="text-xs line-clamp-2 mb-2" style="color: var(--color-text-muted)">
+    {category.description}
+  </p>
+  <p class="text-xs" style="color: var(--color-accent-orange)">
+    Ersetzt: {category.replacesCategory}
+  </p>
+</a>

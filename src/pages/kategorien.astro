@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+import SearchModal from '../components/ui/SearchModal.astro';
+import CategoryGrid from '../components/categories/CategoryGrid.astro';
+import { allTools } from '../data/tools/index';
+import { categories } from '../data/categories';
+import { getCategoriesWithToolCount } from '../utils/categories';
+
+const categoriesWithCount = getCategoriesWithToolCount(categories, allTools);
+---
+
+<BaseLayout title="Alle Kategorien – FOSS Alternatives" description="Durchsuche alle Kategorien kostenloser Open-Source-Alternativen zu proprietärer Software.">
+  <SearchModal />
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <div class="mb-12">
+      <h1 class="text-4xl font-bold mb-4" style="color: var(--color-text-primary)">
+        Alle <span class="gradient-text">Kategorien</span>
+      </h1>
+      <p class="text-lg" style="color: var(--color-text-secondary)">
+        {categoriesWithCount.length} Kategorien mit {allTools.length}+ Open-Source-Tools — finde die perfekte Alternative für deinen Anwendungsfall.
+      </p>
+    </div>
+
+    <CategoryGrid categories={categoriesWithCount} />
+  </div>
+</BaseLayout>

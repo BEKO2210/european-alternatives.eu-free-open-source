@@ -1,0 +1,138 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+
+<div
+  id="search-modal"
+  class="hidden fixed inset-0 z-[100] flex items-start justify-center pt-[15vh]"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Suche"
+>
+  <!-- Backdrop -->
+  <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" id="search-backdrop"></div>
+
+  <!-- Modal -->
+  <div
+    class="relative w-full max-w-2xl mx-4 rounded-xl overflow-hidden shadow-2xl"
+    style="background: var(--color-bg-secondary); border: 1px solid var(--color-border)"
+  >
+    <div class="p-4">
+      <div class="flex items-center gap-3">
+        <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--color-text-muted)">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Tools, Kategorien oder proprietäre Software suchen..."
+          class="w-full bg-transparent outline-none text-base"
+          style="color: var(--color-text-primary)"
+          autocomplete="off"
+        />
+        <kbd
+          class="flex-shrink-0 px-2 py-1 text-xs rounded"
+          style="background: var(--color-bg-tertiary); color: var(--color-text-muted)"
+        >ESC</kbd>
+      </div>
+    </div>
+
+    <div
+      id="search-results"
+      class="max-h-[50vh] overflow-y-auto px-4 pb-4"
+      style="border-top: 1px solid var(--color-border)"
+    >
+      <div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">
+        Beginne zu tippen, um Tools und Kategorien zu finden...
+      </div>
+    </div>
+  </div>
+</div>
+
+<link href={`${base}pagefind/pagefind-ui.css`} rel="stylesheet" />
+
+<script>
+  const modal = document.getElementById('search-modal');
+  const backdrop = document.getElementById('search-backdrop');
+  const searchInput = document.getElementById('search-input') as HTMLInputElement;
+  const resultsContainer = document.getElementById('search-results');
+
+  function closeModal() {
+    modal?.classList.add('hidden');
+    if (searchInput) searchInput.value = '';
+    if (resultsContainer) {
+      resultsContainer.innerHTML = '<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">Beginne zu tippen, um Tools und Kategorien zu finden...</div>';
+    }
+  }
+
+  backdrop?.addEventListener('click', closeModal);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+  });
+
+  modal?.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  // When modal opens, focus input
+  const observer = new MutationObserver(() => {
+    if (modal && !modal.classList.contains('hidden')) {
+      searchInput?.focus();
+    }
+  });
+  if (modal) {
+    observer.observe(modal, { attributes: true, attributeFilter: ['class'] });
+  }
+
+  // Pagefind integration
+  let pagefind: { search: (query: string) => Promise<{ results: Array<{ data: () => Promise<{ url: string; meta: { title: string }; excerpt: string }> }> }> } | null = null;
+
+  async function initPagefind() {
+    if (pagefind) return;
+    try {
+      const base = import.meta.env.BASE_URL || '/';
+      pagefind = await import(/* @vite-ignore */ `${base}pagefind/pagefind.js`);
+    } catch {
+      // Pagefind not available in dev mode
+    }
+  }
+
+  searchInput?.addEventListener('input', async () => {
+    await initPagefind();
+    const query = searchInput.value.trim();
+
+    if (!query || !resultsContainer) {
+      if (resultsContainer) {
+        resultsContainer.innerHTML = '<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">Beginne zu tippen, um Tools und Kategorien zu finden...</div>';
+      }
+      return;
+    }
+
+    if (!pagefind) {
+      resultsContainer.innerHTML = '<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">Suche ist nur im Build-Modus verfügbar.</div>';
+      return;
+    }
+
+    const search = await pagefind.search(query);
+    const results = await Promise.all(
+      search.results.slice(0, 10).map((r: { data: () => Promise<{ url: string; meta: { title: string }; excerpt: string }> }) => r.data())
+    );
+
+    if (results.length === 0) {
+      resultsContainer.innerHTML = `<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">Keine Ergebnisse für &quot;${query}&quot;</div>`;
+      return;
+    }
+
+    resultsContainer.innerHTML = results
+      .map(
+        (r: { url: string; meta: { title: string }; excerpt: string }) => `
+        <a href="${r.url}" class="block p-3 rounded-lg hover:bg-white/5 transition-colors no-underline group">
+          <div class="font-medium text-sm" style="color: var(--color-text-primary)">${r.meta?.title ?? 'Untitled'}</div>
+          <div class="text-xs mt-1 line-clamp-2" style="color: var(--color-text-muted)">${r.excerpt ?? ''}</div>
+        </a>
+      `
+      )
+      .join('');
+  });
+</script>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://BEKO2210.github.io/european-alternatives.eu-free-open-source/sitemap-index.xml

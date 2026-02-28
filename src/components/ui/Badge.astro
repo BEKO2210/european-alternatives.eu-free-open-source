@@ -1,0 +1,21 @@
+---
+interface Props {
+  variant?: 'license' | 'selfhost' | 'foss' | 'difficulty' | 'replaces' | 'platform';
+  class?: string;
+}
+
+const { variant = 'foss', class: className = '' } = Astro.props;
+
+const variantClasses: Record<string, string> = {
+  license: 'badge',
+  selfhost: 'badge badge-selfhost',
+  foss: 'badge badge-foss',
+  difficulty: 'badge',
+  replaces: 'badge bg-orange-500/20 text-orange-400 border-orange-500/30',
+  platform: 'badge bg-slate-500/20 text-slate-300 border-slate-500/30',
+};
+---
+
+<span class:list={[variantClasses[variant], className]}>
+  <slot />
+</span>

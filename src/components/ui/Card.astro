@@ -1,0 +1,22 @@
+---
+interface Props {
+  href?: string;
+  class?: string;
+  padding?: string;
+}
+
+const { href, class: className = '', padding = 'p-6' } = Astro.props;
+---
+
+{href ? (
+  <a
+    href={href}
+    class:list={['card block no-underline hover:no-underline', padding, className]}
+  >
+    <slot />
+  </a>
+) : (
+  <div class:list={['card', padding, className]}>
+    <slot />
+  </div>
+)}

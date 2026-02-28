@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+import SearchModal from '../components/ui/SearchModal.astro';
+import { allTools } from '../data/tools/index';
+import { getAllReplacedTools } from '../utils/tools';
+
+const base = import.meta.env.BASE_URL;
+
+// Build a map: proprietary tool -> FOSS alternatives
+const replacementMap = new Map<string, typeof allTools>();
+allTools.forEach(tool => {
+  tool.replacesTools.forEach(propTool => {
+    if (!replacementMap.has(propTool)) {
+      replacementMap.set(propTool, []);
+    }
+    replacementMap.get(propTool)!.push(tool);
+  });
+});
+
+const popularReplacements = [
+  'Google Drive', 'Dropbox', 'Microsoft Office', 'Google Docs',
+  'Slack', 'WhatsApp', 'Zoom', 'Google Meet',
+  'Adobe Photoshop', 'Figma', 'Notion', 'Jira',
+  'GitHub', 'Google Analytics', 'ChatGPT', 'LastPass',
+  'Windows', 'Google Chrome',
+];
+
+const sortedEntries = Array.from(replacementMap.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+---
+
+<BaseLayout title="Vergleich: Proprietär vs. FOSS – FOSS Alternatives" description="Finde die passende Open-Source-Alternative zu proprietärer Software. Vergleiche Google, Microsoft, Adobe und mehr.">
+  <SearchModal />
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4" style="color: var(--color-text-primary)">
+        Proprietär ❌ → <span class="gradient-text">FOSS ✅</span>
+      </h1>
+      <p class="text-lg max-w-2xl mx-auto" style="color: var(--color-text-secondary)">
+        Welches proprietäre Tool willst du ersetzen? Finde die beste Open-Source-Alternative.
+      </p>
+    </div>
+
+    <!-- Search -->
+    <div class="max-w-xl mx-auto mb-10">
+      <input
+        type="text"
+        id="compare-search"
+        placeholder="Proprietäres Tool suchen (z.B. Google Drive, Slack, Photoshop)..."
+        class="w-full px-5 py-3 rounded-xl text-base outline-none"
+        style="background: var(--color-bg-secondary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+      />
+    </div>
+
+    <!-- Popular suggestions -->
+    <div class="flex flex-wrap justify-center gap-2 mb-12">
+      {popularReplacements.filter(p => replacementMap.has(p)).map(p => (
+        <button
+          class="compare-suggestion px-3 py-1.5 rounded-full text-xs font-medium transition-colors hover:bg-indigo-500/20 hover:text-indigo-300 hover:border-indigo-500/30"
+          style="background: var(--color-bg-secondary); color: var(--color-text-muted); border: 1px solid var(--color-border)"
+          data-term={p}
+        >
+          {p}
+        </button>
+      ))}
+    </div>
+
+    <!-- Results -->
+    <div id="compare-results" class="space-y-4">
+      {sortedEntries.map(([propTool, alternatives]) => (
+        <div
+          class="compare-row card p-5"
+          data-prop-tool={propTool.toLowerCase()}
+        >
+          <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+            <!-- Proprietary -->
+            <div class="flex items-center gap-2 sm:w-1/3">
+              <span class="text-red-400 text-lg">❌</span>
+              <span class="font-medium line-through" style="color: var(--color-text-muted)">{propTool}</span>
+            </div>
+
+            <div class="hidden sm:block" style="color: var(--color-text-muted)">→</div>
+
+            <!-- FOSS Alternatives -->
+            <div class="flex-1 flex flex-wrap gap-2">
+              {alternatives.map(alt => (
+                <a
+                  href={`${base}tool/${alt.slug}`}
+                  class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium no-underline hover:no-underline transition-colors"
+                  style="background: var(--color-accent-green-glow); border: 1px solid rgba(34,197,94,0.3); color: #86efac"
+                >
+                  <span class="text-green-400">✅</span>
+                  {alt.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  const searchInput = document.getElementById('compare-search') as HTMLInputElement;
+  const rows = document.querySelectorAll('.compare-row');
+  const suggestions = document.querySelectorAll('.compare-suggestion');
+
+  function filterRows(term: string) {
+    const q = term.toLowerCase();
+    rows.forEach(row => {
+      const el = row as HTMLElement;
+      const propTool = el.dataset.propTool ?? '';
+      el.style.display = !q || propTool.includes(q) ? '' : 'none';
+    });
+  }
+
+  searchInput?.addEventListener('input', () => filterRows(searchInput.value));
+
+  suggestions.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const term = (btn as HTMLElement).dataset.term ?? '';
+      if (searchInput) {
+        searchInput.value = term;
+        filterRows(term);
+      }
+    });
+  });
+</script>

@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+import SearchModal from '../components/ui/SearchModal.astro';
+---
+
+<BaseLayout title="Mitmachen – FOSS Alternatives" description="Erfahre, wie du zum FOSS Alternatives Projekt beitragen und neue Tools einreichen kannst.">
+  <SearchModal />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <h1 class="text-4xl font-bold mb-4" style="color: var(--color-text-primary)">
+      🤝 <span class="gradient-text">Mitmachen</span>
+    </h1>
+    <p class="text-lg mb-12" style="color: var(--color-text-secondary)">
+      Hilf mit, die größte Sammlung kostenloser Open-Source-Alternativen aufzubauen.
+    </p>
+
+    <div class="space-y-8">
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Neues Tool hinzufügen</h2>
+        <div class="space-y-4 text-sm" style="color: var(--color-text-secondary)">
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">1</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Repository forken</h3>
+              <p>Erstelle eine Kopie des Repositories auf deinem GitHub-Account.</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">2</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Tool-Datei anlegen oder ergänzen</h3>
+              <p>Erstelle einen neuen Eintrag in der passenden Datei unter <code class="px-1.5 py-0.5 rounded text-xs font-mono" style="background: var(--color-bg-tertiary)">src/data/tools/</code>. Nutze die bestehenden Einträge als Vorlage.</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">3</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Alle Felder ausfüllen</h3>
+              <p>Stelle sicher, dass jedes Feld ausgefüllt ist: Name, Beschreibung, Website, Lizenz, Kategorien, Plattformen, etc.</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">4</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Pull Request erstellen</h3>
+              <p>Erstelle einen PR mit einer kurzen Beschreibung des neuen Tools und warum es aufgenommen werden sollte.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Tool-Vorlage</h2>
+        <pre class="p-4 rounded-lg overflow-x-auto text-sm font-mono" style="background: var(--color-bg-tertiary); color: var(--color-text-secondary)"><code>{`{
+  id: 'tool-slug',
+  name: 'Tool Name',
+  slug: 'tool-slug',
+  tagline: 'Kurze Beschreibung (max 80 Zeichen)',
+  description: 'Ausführliche Beschreibung in 2-3 Sätzen.',
+  website: 'https://example.com',
+  github: 'https://github.com/org/repo',
+  license: 'MIT',
+  categories: ['kategorie-slug'],
+  replacesTools: ['Proprietäres Tool'],
+  selfHostable: true,
+  hostedService: 'https://hosted.example.com',
+  logoPlaceholderEmoji: '🔧',
+  stars: 1000,
+  lastUpdated: '2024-01-01',
+  tags: ['tag1', 'tag2'],
+  difficulty: 'einfach',
+  platforms: ['linux', 'docker', 'web'],
+  featured: false,
+  addedDate: '2024-01-01',
+}`}</code></pre>
+      </section>
+
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Kriterien für Aufnahme</h2>
+        <ul class="space-y-2 text-sm" style="color: var(--color-text-secondary)">
+          <li>✅ Die Software muss Open Source sein (anerkannte OSI-Lizenz)</li>
+          <li>✅ Es muss eine kostenlose Version geben (Community Edition reicht)</li>
+          <li>✅ Das Projekt muss aktiv gepflegt werden</li>
+          <li>✅ Die Software muss eine proprietäre Alternative ersetzen können</li>
+          <li>❌ Keine Abandonware oder archivierte Projekte</li>
+          <li>❌ Keine Source-Available-Lizenzen (SSPL, BSL, etc.)</li>
+        </ul>
+      </section>
+
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Andere Wege mitzuhelfen</h2>
+        <ul class="space-y-2 text-sm" style="color: var(--color-text-secondary)">
+          <li>🐛 <strong>Bug Reports:</strong> Melde Fehler als GitHub Issue</li>
+          <li>✏️ <strong>Texte verbessern:</strong> Beschreibungen überarbeiten oder ergänzen</li>
+          <li>⭐ <strong>Star-Zahlen aktualisieren:</strong> GitHub Stars regelmäßig updaten</li>
+          <li>📣 <strong>Teilen:</strong> Erzähl anderen von FOSS Alternatives</li>
+        </ul>
+      </section>
+
+      <div class="text-center pt-4">
+        <a
+          href="https://github.com/BEKO2210/european-alternatives.eu-free-open-source"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-all"
+        >
+          Zum GitHub Repository →
+        </a>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

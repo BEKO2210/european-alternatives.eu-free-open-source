@@ -1,0 +1,200 @@
+---
+import type { Tool, Category } from '../../data/types';
+import { getLicenseBadgeClass, getDifficultyBadgeClass, getDifficultyLabel, getRelatedTools } from '../../utils/tools';
+import ToolCard from './ToolCard.astro';
+
+interface Props {
+  tool: Tool;
+  allTools: Tool[];
+  categories: Category[];
+}
+
+const { tool, allTools, categories } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const licenseBadge = getLicenseBadgeClass(tool.license);
+const diffBadge = getDifficultyBadgeClass(tool.difficulty);
+const diffLabel = getDifficultyLabel(tool.difficulty);
+const relatedTools = getRelatedTools(allTools, tool, 3);
+
+const toolCategories = categories.filter(c => tool.categories.includes(c.slug));
+
+const platformLabels: Record<string, string> = {
+  linux: '🐧 Linux',
+  windows: '🪟 Windows',
+  macos: '🍎 macOS',
+  android: '🤖 Android',
+  ios: '📱 iOS',
+  web: '🌐 Web',
+  docker: '🐳 Docker',
+};
+---
+
+<article>
+  <!-- Breadcrumb -->
+  <nav class="mb-6 text-sm" aria-label="Breadcrumb">
+    <ol class="flex items-center gap-2" style="color: var(--color-text-muted)">
+      <li><a href={base} class="hover:text-indigo-400">Startseite</a></li>
+      <li>/</li>
+      {toolCategories[0] && (
+        <>
+          <li><a href={`${base}kategorie/${toolCategories[0].slug}`} class="hover:text-indigo-400">{toolCategories[0].name}</a></li>
+          <li>/</li>
+        </>
+      )}
+      <li style="color: var(--color-text-primary)">{tool.name}</li>
+    </ol>
+  </nav>
+
+  <!-- Header -->
+  <div class="flex flex-col sm:flex-row items-start gap-6 mb-8">
+    <div
+      class="w-20 h-20 rounded-2xl flex items-center justify-center text-4xl flex-shrink-0"
+      style="background: var(--color-bg-tertiary)"
+    >
+      {tool.logoPlaceholderEmoji ?? '📦'}
+    </div>
+    <div class="flex-1">
+      <div class="flex flex-wrap items-center gap-3 mb-2">
+        <h1 class="text-3xl font-bold" style="color: var(--color-text-primary)">{tool.name}</h1>
+        <span class="badge badge-foss">🛡️ Open Source</span>
+        <span class:list={['badge', licenseBadge]}>{tool.license}</span>
+      </div>
+      <p class="text-lg" style="color: var(--color-text-secondary)">{tool.tagline}</p>
+    </div>
+  </div>
+
+  <!-- Meta Grid -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+    <div class="card p-4">
+      <div class="text-xs mb-1" style="color: var(--color-text-muted)">Website</div>
+      <a href={tool.website} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-indigo-400 hover:text-indigo-300 truncate block">
+        {tool.website.replace('https://', '').replace('http://', '').replace(/\/$/, '')}
+      </a>
+    </div>
+    {tool.github && (
+      <div class="card p-4">
+        <div class="text-xs mb-1" style="color: var(--color-text-muted)">GitHub</div>
+        <a href={tool.github} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-indigo-400 hover:text-indigo-300 truncate block">
+          {tool.github.replace('https://github.com/', '')}
+        </a>
+      </div>
+    )}
+    <div class="card p-4">
+      <div class="text-xs mb-1" style="color: var(--color-text-muted)">Schwierigkeit</div>
+      <span class:list={['badge', diffBadge]}>{diffLabel}</span>
+    </div>
+    <div class="card p-4">
+      <div class="text-xs mb-1" style="color: var(--color-text-muted)">Letzte Prüfung</div>
+      <span class="text-sm font-medium" style="color: var(--color-text-primary)">{tool.lastUpdated}</span>
+    </div>
+  </div>
+
+  <!-- Description -->
+  <div class="card p-6 mb-8">
+    <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Beschreibung</h2>
+    <p class="leading-relaxed" style="color: var(--color-text-secondary)">{tool.description}</p>
+  </div>
+
+  <!-- Platforms -->
+  <div class="card p-6 mb-8">
+    <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Plattformen</h2>
+    <div class="flex flex-wrap gap-2">
+      {tool.platforms.map(p => (
+        <span class="badge bg-slate-500/20 text-slate-300 border-slate-500/30">
+          {platformLabels[p] ?? p}
+        </span>
+      ))}
+    </div>
+  </div>
+
+  <!-- Replaces -->
+  {tool.replacesTools.length > 0 && (
+    <div class="card p-6 mb-8">
+      <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">
+        Ersetzt folgende proprietäre Tools
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+        {tool.replacesTools.map(r => (
+          <div class="flex items-center gap-3 p-3 rounded-lg" style="background: var(--color-bg-tertiary)">
+            <span class="text-red-400">❌</span>
+            <span class="text-sm line-through" style="color: var(--color-text-muted)">{r}</span>
+            <span style="color: var(--color-text-muted)">→</span>
+            <span class="text-green-400">✅</span>
+            <span class="text-sm font-medium" style="color: var(--color-text-primary)">{tool.name}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- Self-hosting -->
+  {tool.selfHostable && (
+    <div class="card p-6 mb-8 border-indigo-500/30">
+      <h2 class="text-lg font-semibold mb-3 flex items-center gap-2" style="color: var(--color-text-primary)">
+        🏠 Selbst hosten
+      </h2>
+      <p class="text-sm mb-3" style="color: var(--color-text-secondary)">
+        {tool.name} kann auf eigener Infrastruktur betrieben werden. Besuche die offizielle Dokumentation für eine Installationsanleitung.
+      </p>
+      <a
+        href={tool.website}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-colors"
+      >
+        Zur Dokumentation →
+      </a>
+    </div>
+  )}
+
+  <!-- Categories -->
+  <div class="card p-6 mb-8">
+    <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Kategorien</h2>
+    <div class="flex flex-wrap gap-2">
+      {toolCategories.map(cat => (
+        <a
+          href={`${base}kategorie/${cat.slug}`}
+          class="badge bg-indigo-500/20 text-indigo-300 border-indigo-500/30 no-underline hover:no-underline hover:bg-indigo-500/30"
+        >
+          {cat.emoji} {cat.name}
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- Tags -->
+  {tool.tags.length > 0 && (
+    <div class="card p-6 mb-8">
+      <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Tags</h2>
+      <div class="flex flex-wrap gap-2">
+        {tool.tags.map(tag => (
+          <span class="px-2.5 py-1 rounded-full text-xs" style="background: var(--color-bg-tertiary); color: var(--color-text-muted)">
+            #{tag}
+          </span>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- Related Tools -->
+  {relatedTools.length > 0 && (
+    <div class="mb-8">
+      <h2 class="text-lg font-semibold mb-4" style="color: var(--color-text-primary)">Ähnliche Tools</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {relatedTools.map(t => (
+          <ToolCard tool={t} />
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- Back button -->
+  {toolCategories[0] && (
+    <a
+      href={`${base}kategorie/${toolCategories[0].slug}`}
+      class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
+    >
+      ← Zurück zu {toolCategories[0].name}
+    </a>
+  )}
+</article>

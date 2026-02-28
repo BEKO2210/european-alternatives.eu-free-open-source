@@ -1,0 +1,22 @@
+---
+import type { Category } from '../../data/types';
+import CategoryCard from './CategoryCard.astro';
+
+interface Props {
+  categories: Category[];
+  title?: string;
+}
+
+const { categories, title } = Astro.props;
+---
+
+<section>
+  {title && (
+    <h2 class="text-2xl font-bold mb-6" style="color: var(--color-text-primary)">{title}</h2>
+  )}
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 stagger-fade">
+    {categories.map((category) => (
+      <CategoryCard category={category} />
+    ))}
+  </div>
+</section>

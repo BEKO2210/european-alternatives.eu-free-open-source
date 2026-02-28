@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+import SearchModal from '../components/ui/SearchModal.astro';
+---
+
+<BaseLayout title="Datenschutz – FOSS Alternatives" description="Datenschutzerklärung der FOSS Alternatives Website.">
+  <SearchModal />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <h1 class="text-4xl font-bold mb-8" style="color: var(--color-text-primary)">Datenschutzerklärung</h1>
+
+    <div class="card p-6 space-y-6" style="color: var(--color-text-secondary)">
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Grundsatz</h2>
+        <p class="text-sm">
+          Diese Website wurde mit Blick auf maximalen Datenschutz entwickelt. Wir erheben keine personenbezogenen Daten, verwenden keine Cookies und setzen keine Tracking-Tools ein.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Hosting</h2>
+        <p class="text-sm">
+          Diese Website wird auf GitHub Pages gehostet. Beim Besuch dieser Website werden von GitHub automatisch Server-Logdateien erstellt, die Informationen wie die IP-Adresse, den verwendeten Browser und den Zeitpunkt des Zugriffs enthalten können. Weitere Informationen findest du in der <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von GitHub</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Cookies</h2>
+        <p class="text-sm">
+          Diese Website verwendet keine Cookies. Die einzige lokale Speicherung ist die Theme-Präferenz (Dark/Light Mode) im localStorage deines Browsers. Diese Information verlässt niemals deinen Browser.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Analytics & Tracking</h2>
+        <p class="text-sm">
+          Diese Website verwendet keinerlei Analytics- oder Tracking-Tools. Kein Google Analytics, kein Matomo, keine Pixel. Wir wissen nicht, wer diese Seite besucht, und das ist beabsichtigt.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Externe Links</h2>
+        <p class="text-sm">
+          Diese Website verlinkt auf externe Websites (Tool-Websites, GitHub-Repositories). Beim Klick auf diese Links gelten die Datenschutzbestimmungen der jeweiligen externen Seiten. Alle externen Links sind mit <code class="px-1 py-0.5 rounded text-xs font-mono" style="background: var(--color-bg-tertiary)">rel="noopener noreferrer"</code> gekennzeichnet.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Fonts</h2>
+        <p class="text-sm">
+          Alle Schriftarten (Inter, JetBrains Mono) werden selbst gehostet und nicht von externen CDNs geladen. Es werden keine Verbindungen zu Google Fonts oder anderen Font-Diensten hergestellt.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Deine Rechte</h2>
+        <p class="text-sm">
+          Da wir keine personenbezogenen Daten erheben, gibt es keine Daten, die wir löschen, berichtigen oder herausgeben könnten. Bei Fragen zu dieser Datenschutzerklärung kannst du ein Issue in unserem <a href="https://github.com/BEKO2210/european-alternatives.eu-free-open-source" target="_blank" rel="noopener noreferrer">GitHub Repository</a> erstellen.
+        </p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

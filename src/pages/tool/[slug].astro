@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import SearchModal from '../../components/ui/SearchModal.astro';
+import ToolDetail from '../../components/tools/ToolDetail.astro';
+import { allTools } from '../../data/tools/index';
+import { categories } from '../../data/categories';
+
+export function getStaticPaths() {
+  return allTools.map((tool) => ({
+    params: { slug: tool.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const base = import.meta.env.BASE_URL;
+const tool = allTools.find((t) => t.slug === slug);
+
+if (!tool) {
+  return Astro.redirect(`${base}tools`);
+}
+---
+
+<BaseLayout title={`${tool.name} – FOSS Alternatives`} description={tool.description}>
+  <SearchModal />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <ToolDetail tool={tool} allTools={allTools} categories={categories} />
+  </div>
+</BaseLayout>

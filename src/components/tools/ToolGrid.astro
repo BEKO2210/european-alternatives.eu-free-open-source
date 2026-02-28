@@ -1,0 +1,28 @@
+---
+import type { Tool } from '../../data/types';
+import ToolCard from './ToolCard.astro';
+
+interface Props {
+  tools: Tool[];
+  title?: string;
+}
+
+const { tools, title } = Astro.props;
+---
+
+<section>
+  {title && (
+    <h2 class="text-2xl font-bold mb-6" style="color: var(--color-text-primary)">{title}</h2>
+  )}
+  {tools.length === 0 ? (
+    <div class="text-center py-12" style="color: var(--color-text-muted)">
+      <p class="text-lg">Keine Tools gefunden.</p>
+    </div>
+  ) : (
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 stagger-fade">
+      {tools.map((tool) => (
+        <ToolCard tool={tool} />
+      ))}
+    </div>
+  )}
+</section>

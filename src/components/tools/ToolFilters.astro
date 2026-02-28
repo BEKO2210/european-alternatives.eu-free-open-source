@@ -1,0 +1,156 @@
+---
+import type { Category } from '../../data/types';
+
+interface Props {
+  categories: Category[];
+  licenses: string[];
+}
+
+const { categories, licenses } = Astro.props;
+---
+
+<div class="mb-8 p-4 rounded-xl" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border)">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    <!-- Search -->
+    <div>
+      <label for="filter-search" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Suche</label>
+      <input
+        type="text"
+        id="filter-search"
+        placeholder="Tool-Name..."
+        class="w-full px-3 py-2 rounded-lg text-sm outline-none"
+        style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+      />
+    </div>
+
+    <!-- Category -->
+    <div>
+      <label for="filter-category" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Kategorie</label>
+      <select
+        id="filter-category"
+        class="w-full px-3 py-2 rounded-lg text-sm outline-none"
+        style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+      >
+        <option value="">Alle Kategorien</option>
+        {categories.map(cat => (
+          <option value={cat.slug}>{cat.emoji} {cat.name}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- License -->
+    <div>
+      <label for="filter-license" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Lizenz</label>
+      <select
+        id="filter-license"
+        class="w-full px-3 py-2 rounded-lg text-sm outline-none"
+        style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+      >
+        <option value="">Alle Lizenzen</option>
+        {licenses.map(lic => (
+          <option value={lic}>{lic}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Sort -->
+    <div>
+      <label for="filter-sort" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Sortierung</label>
+      <select
+        id="filter-sort"
+        class="w-full px-3 py-2 rounded-lg text-sm outline-none"
+        style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+      >
+        <option value="name">Name (A-Z)</option>
+        <option value="stars">Beliebtheit (Stars)</option>
+        <option value="date">Neueste zuerst</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Quick filters -->
+  <div class="flex flex-wrap gap-2 mt-4">
+    <button
+      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors"
+      data-filter="selfhost"
+      style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
+    >
+      🏠 Nur selbst-hostbar
+    </button>
+    <button
+      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors"
+      data-filter="easy"
+      style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
+    >
+      ● Einfache Einrichtung
+    </button>
+    <button
+      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors"
+      data-filter="docker"
+      style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
+    >
+      🐳 Docker verfügbar
+    </button>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('filter-search') as HTMLInputElement;
+    const categorySelect = document.getElementById('filter-category') as HTMLSelectElement;
+    const licenseSelect = document.getElementById('filter-license') as HTMLSelectElement;
+    const sortSelect = document.getElementById('filter-sort') as HTMLSelectElement;
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const toolCards = document.querySelectorAll('[data-tool-card]');
+
+    const activeFilters = new Set<string>();
+
+    function applyFilters() {
+      const search = searchInput?.value.toLowerCase() ?? '';
+      const category = categorySelect?.value ?? '';
+      const license = licenseSelect?.value ?? '';
+
+      toolCards.forEach((card) => {
+        const el = card as HTMLElement;
+        const name = (el.dataset.toolName ?? '').toLowerCase();
+        const cats = (el.dataset.toolCategories ?? '').split(',');
+        const lic = el.dataset.toolLicense ?? '';
+        const selfHost = el.dataset.toolSelfhost === 'true';
+        const diff = el.dataset.toolDifficulty ?? '';
+        const platforms = (el.dataset.toolPlatforms ?? '').split(',');
+
+        let show = true;
+
+        if (search && !name.includes(search)) show = false;
+        if (category && !cats.includes(category)) show = false;
+        if (license && lic !== license) show = false;
+        if (activeFilters.has('selfhost') && !selfHost) show = false;
+        if (activeFilters.has('easy') && diff !== 'einfach') show = false;
+        if (activeFilters.has('docker') && !platforms.includes('docker')) show = false;
+
+        el.style.display = show ? '' : 'none';
+      });
+    }
+
+    searchInput?.addEventListener('input', applyFilters);
+    categorySelect?.addEventListener('change', applyFilters);
+    licenseSelect?.addEventListener('change', applyFilters);
+    sortSelect?.addEventListener('change', applyFilters);
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = (btn as HTMLElement).dataset.filter ?? '';
+        if (activeFilters.has(filter)) {
+          activeFilters.delete(filter);
+          (btn as HTMLElement).style.borderColor = 'var(--color-border)';
+          (btn as HTMLElement).style.color = 'var(--color-text-secondary)';
+        } else {
+          activeFilters.add(filter);
+          (btn as HTMLElement).style.borderColor = 'var(--color-border-accent)';
+          (btn as HTMLElement).style.color = 'var(--color-text-accent)';
+        }
+        applyFilters();
+      });
+    });
+  });
+</script>

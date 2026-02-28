@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+import SearchModal from '../components/ui/SearchModal.astro';
+import ToolCard from '../components/tools/ToolCard.astro';
+import ToolFilters from '../components/tools/ToolFilters.astro';
+import { allTools } from '../data/tools/index';
+import { categories } from '../data/categories';
+import { getUniquelicenses, sortTools } from '../utils/tools';
+
+const base = import.meta.env.BASE_URL;
+const sortedTools = sortTools(allTools, 'name');
+const licenses = getUniquelicenses(allTools);
+---
+
+<BaseLayout title="Alle Tools – FOSS Alternatives" description="Durchsuche alle kostenlosen Open-Source-Alternativen. Filter nach Kategorie, Lizenz, Plattform und mehr.">
+  <SearchModal />
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <div class="mb-8">
+      <h1 class="text-4xl font-bold mb-4" style="color: var(--color-text-primary)">
+        Alle <span class="gradient-text">Tools</span>
+      </h1>
+      <p class="text-lg" style="color: var(--color-text-secondary)">
+        {allTools.length} kostenlose Open-Source-Alternativen zu proprietärer Software.
+      </p>
+    </div>
+
+    <ToolFilters categories={categories} licenses={licenses} />
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 stagger-fade">
+      {sortedTools.map((tool) => (
+        <div
+          data-tool-card
+          data-tool-name={tool.name}
+          data-tool-categories={tool.categories.join(',')}
+          data-tool-license={tool.license}
+          data-tool-selfhost={String(tool.selfHostable)}
+          data-tool-difficulty={tool.difficulty}
+          data-tool-platforms={tool.platforms.join(',')}
+        >
+          <ToolCard tool={tool} />
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
