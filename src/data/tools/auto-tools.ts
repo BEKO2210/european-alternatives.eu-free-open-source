@@ -1874,6 +1874,231 @@ import type { Tool } from '../types';
     ],
     "featured": false,
     "addedDate": "2026-03-01"
+  },
+  {
+    "id": "payload",
+    "name": "Payload",
+    "slug": "payload",
+    "tagline": "Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers.",
+    "description": "Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.",
+    "website": "https://payloadcms.com",
+    "github": "https://github.com/payloadcms/payload",
+    "license": "MIT",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 40870,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "cms",
+      "content-management",
+      "content-management-system",
+      "express",
+      "graphql",
+      "headless",
+      "headless-cms"
+    ],
+    "difficulty": "einfach",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "onyx",
+    "name": "Onyx",
+    "slug": "onyx",
+    "tagline": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+    "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+    "website": "https://onyx.app",
+    "github": "https://github.com/onyx-dot-app/onyx",
+    "license": "MIT",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 17626,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "ai",
+      "ai-chat",
+      "chatgpt",
+      "chatui",
+      "enterprise-search",
+      "gen-ai",
+      "information-retrieval"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "tinacms",
+    "name": "Tinacms",
+    "slug": "tinacms",
+    "tagline": "A fully open-source headless CMS that supports Markdown and Visual Editing",
+    "description": "A fully open-source headless CMS that supports Markdown and Visual Editing",
+    "website": "https://tina.io",
+    "github": "https://github.com/tinacms/tinacms",
+    "license": "Apache-2.0",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 13176,
+    "lastUpdated": "2026-02-26",
+    "tags": [
+      "cms",
+      "content-management-system",
+      "forestry",
+      "markdown",
+      "nextjs",
+      "react",
+      "tina"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "casdoor",
+    "name": "Casdoor",
+    "slug": "casdoor",
+    "tagline": "An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting M...",
+    "description": "An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting MCP, A2A, OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD",
+    "website": "https://casdoor.org",
+    "github": "https://github.com/casdoor/casdoor",
+    "license": "Apache-2.0",
+    "categories": [
+      "backend-frameworks"
+    ],
+    "replacesTools": [
+      "Firebase",
+      "Supabase Pro"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "⚙️",
+    "stars": 13088,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "ai-gateway",
+      "auth",
+      "authentication",
+      "authn",
+      "casdoor",
+      "faceid",
+      "iam"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "cas",
+    "name": "Cas",
+    "slug": "cas",
+    "tagline": "Apereo CAS - Identity & Single Sign On for all earthlings and beyond.",
+    "description": "Apereo CAS - Identity & Single Sign On for all earthlings and beyond.",
+    "website": "https://apereo.github.io/cas/",
+    "github": "https://github.com/apereo/cas",
+    "license": "Apache-2.0",
+    "categories": [
+      "backend-frameworks"
+    ],
+    "replacesTools": [
+      "Firebase",
+      "Supabase Pro"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "⚙️",
+    "stars": 11293,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "authentication",
+      "authorization",
+      "aws",
+      "duosecurity",
+      "fido",
+      "identity-provider",
+      "java"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "dicedb",
+    "name": "Dicedb",
+    "slug": "dicedb",
+    "tagline": "Open-source, low-latency key/value engine built on Valkey with hierarchical storage tiers.",
+    "description": "Open-source, low-latency key/value engine built on Valkey with hierarchical storage tiers.",
+    "website": "https://dicedb.io/",
+    "github": "https://github.com/dicedb/dicedb",
+    "license": "MIT",
+    "categories": [
+      "datenbanken"
+    ],
+    "replacesTools": [
+      "Oracle",
+      "MSSQL"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🗄️",
+    "stars": 10694,
+    "lastUpdated": "2026-02-12",
+    "tags": [
+      "cache",
+      "database",
+      "key-value",
+      "key-value-store",
+      "nosql",
+      "redis",
+      "storage-engine"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
   }
 ]
 END_AUTO_TOOLS_JSON */
@@ -2974,6 +3199,138 @@ export const autoDiscoveredTools: Tool[] = [
     stars: 502,
     lastUpdated: '2026-02-26',
     tags: ['adblock', 'alerting', 'coredns', 'golang', 'homelab', 'internet-filtering', 'nftables'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'payload',
+    name: 'Payload',
+    slug: 'payload',
+    tagline: 'Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers.',
+    description:
+      'Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.',
+    website: 'https://payloadcms.com',
+    github: 'https://github.com/payloadcms/payload',
+    license: 'MIT',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 40870,
+    lastUpdated: '2026-03-01',
+    tags: ['cms', 'content-management', 'content-management-system', 'express', 'graphql', 'headless', 'headless-cms'],
+    difficulty: 'einfach',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'onyx',
+    name: 'Onyx',
+    slug: 'onyx',
+    tagline: 'Open Source AI Platform - AI Chat with advanced features that works with every LLM',
+    description:
+      'Open Source AI Platform - AI Chat with advanced features that works with every LLM',
+    website: 'https://onyx.app',
+    github: 'https://github.com/onyx-dot-app/onyx',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 17626,
+    lastUpdated: '2026-03-01',
+    tags: ['ai', 'ai-chat', 'chatgpt', 'chatui', 'enterprise-search', 'gen-ai', 'information-retrieval'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'tinacms',
+    name: 'Tinacms',
+    slug: 'tinacms',
+    tagline: 'A fully open-source headless CMS that supports Markdown and Visual Editing',
+    description:
+      'A fully open-source headless CMS that supports Markdown and Visual Editing',
+    website: 'https://tina.io',
+    github: 'https://github.com/tinacms/tinacms',
+    license: 'Apache-2.0',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 13176,
+    lastUpdated: '2026-02-26',
+    tags: ['cms', 'content-management-system', 'forestry', 'markdown', 'nextjs', 'react', 'tina'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'casdoor',
+    name: 'Casdoor',
+    slug: 'casdoor',
+    tagline: 'An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting M...',
+    description:
+      'An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting MCP, A2A, OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD',
+    website: 'https://casdoor.org',
+    github: 'https://github.com/casdoor/casdoor',
+    license: 'Apache-2.0',
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '⚙️',
+    stars: 13088,
+    lastUpdated: '2026-02-28',
+    tags: ['ai-gateway', 'auth', 'authentication', 'authn', 'casdoor', 'faceid', 'iam'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'cas',
+    name: 'Cas',
+    slug: 'cas',
+    tagline: 'Apereo CAS - Identity & Single Sign On for all earthlings and beyond.',
+    description:
+      'Apereo CAS - Identity & Single Sign On for all earthlings and beyond.',
+    website: 'https://apereo.github.io/cas/',
+    github: 'https://github.com/apereo/cas',
+    license: 'Apache-2.0',
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '⚙️',
+    stars: 11293,
+    lastUpdated: '2026-03-01',
+    tags: ['authentication', 'authorization', 'aws', 'duosecurity', 'fido', 'identity-provider', 'java'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'dicedb',
+    name: 'Dicedb',
+    slug: 'dicedb',
+    tagline: 'Open-source, low-latency key/value engine built on Valkey with hierarchical storage tiers.',
+    description:
+      'Open-source, low-latency key/value engine built on Valkey with hierarchical storage tiers.',
+    website: 'https://dicedb.io/',
+    github: 'https://github.com/dicedb/dicedb',
+    license: 'MIT',
+    categories: ['datenbanken'],
+    replacesTools: ['Oracle', 'MSSQL'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🗄️',
+    stars: 10694,
+    lastUpdated: '2026-02-12',
+    tags: ['cache', 'database', 'key-value', 'key-value-store', 'nosql', 'redis', 'storage-engine'],
     difficulty: 'mittel',
     platforms: ['linux', 'docker'],
     featured: false,
