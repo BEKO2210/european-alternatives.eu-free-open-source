@@ -7,7 +7,7 @@
 
 **Deine Freiheit. Dein Code. Deine Zukunft.**
 
-> Eine kuratierte Sammlung von 200+ kostenlosen Open-Source-Alternativen zu proprietärer Software — organisiert in 39 Kategorien, vollständig durchsuchbar, und mit dem Fokus auf Datenschutz und digitale Souveränität.
+> Eine kuratierte Sammlung von 280+ kostenlosen Open-Source-Alternativen zu proprietärer Software — organisiert in 39 Kategorien, vollständig durchsuchbar, und mit dem Fokus auf Datenschutz und digitale Souveränität. Neue Tools werden jeden Montag automatisch erkannt und hinzugefügt.
 
 🌐 **Live:** [BEKO2210.github.io/european-alternatives.eu-free-open-source](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
 
@@ -15,7 +15,8 @@
 
 ## ✨ Features
 
-- 📦 **200+ FOSS-Tools** in 39 Kategorien
+- 📦 **280+ FOSS-Tools** in 39 Kategorien (wächst automatisch)
+- 🤖 **Auto-Discovery** — neue Tools werden wöchentlich via GitHub API erkannt und hinzugefügt
 - 🔍 **Volltextsuche** mit Pagefind (statisch, kein Server nötig)
 - 🌙 **Dark/Light Mode** mit localStorage-Persistenz
 - 🔄 **Vergleichsseite**: Proprietär → FOSS Alternativen
@@ -109,11 +110,35 @@ src/
 ├── data/              # Typdefinitionen und Daten
 │   ├── types.ts       # Tool & Category Interfaces
 │   ├── categories.ts  # Alle 39 Kategorien
-│   └── tools/         # Tool-Dateien pro Kategorie
+│   └── tools/         # Tool-Dateien pro Kategorie + auto-tools.ts
 ├── pages/             # Astro-Seiten (File-based Routing)
 ├── styles/            # Global CSS + Animationen
 └── utils/             # Hilfs-Funktionen
+
+scripts/
+├── discover_tools.py      # Auto-Discovery: GitHub API → Tool-Einträge
+├── existing_slugs.json    # Bereits bekannte Slugs (Deduplizierung)
+└── new_tools_count.txt    # Ergebnis des letzten Laufs
+
+.github/workflows/
+├── deploy.yml             # Astro Build → GitHub Pages
+└── auto-discover.yml      # Wöchentliche Tool-Erkennung (Mo 06:00 UTC)
 ```
+
+---
+
+## 🤖 Automatische Tool-Erkennung
+
+Das Projekt enthält ein vollautonomes System zur Erkennung neuer FOSS-Tools:
+
+- **Wann:** Jeden Montag um 06:00 UTC (oder manuell via GitHub Actions)
+- **Wie:** Python-Script durchsucht die GitHub API mit 10 verschiedenen Queries
+- **Filter:** Mindestens 500 Sterne, nicht archiviert, keine Awesome-Lists/Tutorials
+- **Kategorisierung:** Automatisch anhand von GitHub Topics, Name und Beschreibung
+- **Sicherheit:** Build-Test vor dem Commit — bei Fehler automatischer Rollback
+- **Deployment:** Nach erfolgreichem Push wird GitHub Pages automatisch neu gebaut
+
+Manuell auslösen: GitHub Actions → "Auto-Discover FOSS Tools" → "Run workflow"
 
 ---
 
