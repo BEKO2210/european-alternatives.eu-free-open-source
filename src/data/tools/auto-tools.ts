@@ -2099,6 +2099,951 @@ import type { Tool } from '../types';
     ],
     "featured": false,
     "addedDate": "2026-03-01"
+  },
+  {
+    "id": "webstudio",
+    "name": "Webstudio",
+    "slug": "webstudio",
+    "tagline": "Open source website builder and Webflow alternative.",
+    "description": "Open source website builder and Webflow alternative. Webstudio is an advanced visual builder that connects to any headless CMS, supports all CSS properties, and can be hosted anywhere, including with us.",
+    "website": "https://webstudio.is",
+    "github": "https://github.com/webstudio-is/webstudio",
+    "license": "AGPL-3.0",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 8270,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "accessibility",
+      "alternative",
+      "cloudflare",
+      "cloudflare-workers",
+      "design",
+      "free",
+      "frontend"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "webiny-js",
+    "name": "Webiny Js",
+    "slug": "webiny-js",
+    "tagline": "Open-source serverless enterprise CMS.",
+    "description": "Open-source serverless enterprise CMS. Includes a headless CMS, page builder, form builder, and file manager. Easy to customize and expand. Deploys to AWS.",
+    "website": "https://www.webiny.com",
+    "github": "https://github.com/webiny/webiny-js",
+    "license": "MIT",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 7939,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "aws",
+      "aws-lambda",
+      "cloud",
+      "cms",
+      "graphql",
+      "headless",
+      "headless-cms"
+    ],
+    "difficulty": "einfach",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "coroot",
+    "name": "Coroot",
+    "slug": "coroot",
+    "tagline": "Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis.",
+    "description": "Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis. It combines metrics, logs, traces, continuous profiling, and SLO-based alerting with predefined dashboards and inspections.",
+    "website": "https://coroot.com",
+    "github": "https://github.com/coroot/coroot",
+    "license": "Apache-2.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 7446,
+    "lastUpdated": "2026-02-26",
+    "tags": [
+      "ai",
+      "alerting",
+      "apm",
+      "dashboard",
+      "database-monitoring",
+      "distributed-tracing",
+      "ebpf"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "evidently",
+    "name": "Evidently",
+    "slug": "evidently",
+    "tagline": "Evidently is ​​an open-source ML and LLM observability framework.",
+    "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
+    "website": "https://discord.gg/xZjKRaNp8b",
+    "github": "https://github.com/evidentlyai/evidently",
+    "license": "Apache-2.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 7253,
+    "lastUpdated": "2026-02-27",
+    "tags": [
+      "data-drift",
+      "data-quality",
+      "data-science",
+      "data-validation",
+      "generative-ai",
+      "hacktoberfest",
+      "html-report"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "hertzbeat",
+    "name": "Hertzbeat",
+    "slug": "hertzbeat",
+    "tagline": "An AI-powered next-generation open source real-time observability system.",
+    "description": "An AI-powered next-generation open source real-time observability system.",
+    "website": "https://hertzbeat.apache.org/",
+    "github": "https://github.com/apache/hertzbeat",
+    "license": "Apache-2.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 7106,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "agent",
+      "ai",
+      "alerting",
+      "database",
+      "grafana",
+      "linux",
+      "llm"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "openllmetry",
+    "name": "Openllmetry",
+    "slug": "openllmetry",
+    "tagline": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+    "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+    "website": "https://www.traceloop.com/openllmetry",
+    "github": "https://github.com/traceloop/openllmetry",
+    "license": "Apache-2.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 6867,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "artifical-intelligence",
+      "datascience",
+      "generative-ai",
+      "good-first-issue",
+      "good-first-issues",
+      "help-wanted",
+      "llm"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "oneuptime",
+    "name": "Oneuptime",
+    "slug": "oneuptime",
+    "tagline": "Complete open-source monitoring and observability platform.",
+    "description": "Complete open-source monitoring and observability platform.",
+    "website": "https://oneuptime.com",
+    "github": "https://github.com/OneUptime/oneuptime",
+    "license": "Apache-2.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 6528,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "devops",
+      "incident-management",
+      "incident-response",
+      "monitoring",
+      "observability",
+      "on-call",
+      "status-page"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "coze-loop",
+    "name": "Coze Loop",
+    "slug": "coze-loop",
+    "tagline": "Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing fu...",
+    "description": "Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.",
+    "website": "https://github.com/coze-dev/coze-loop",
+    "github": "https://github.com/coze-dev/coze-loop",
+    "license": "Apache-2.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 5332,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "agent",
+      "agent-evaluation",
+      "agent-observability",
+      "agentops",
+      "ai",
+      "coze",
+      "eino"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "helicone",
+    "name": "Helicone",
+    "slug": "helicone",
+    "tagline": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
+    "description": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
+    "website": "https://www.helicone.ai",
+    "github": "https://github.com/Helicone/helicone",
+    "license": "Apache-2.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 5164,
+    "lastUpdated": "2026-02-25",
+    "tags": [
+      "agent-monitoring",
+      "analytics",
+      "evaluation",
+      "gpt",
+      "langchain",
+      "large-language-models",
+      "llama-index"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "apostrophe",
+    "name": "Apostrophe",
+    "slug": "apostrophe",
+    "tagline": "A full-featured, open-source content management framework built with Node.js that empowers organizations by combining...",
+    "description": "A full-featured, open-source content management framework built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment.",
+    "website": "https://apostrophecms.com",
+    "github": "https://github.com/apostrophecms/apostrophe",
+    "license": "MIT",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 4529,
+    "lastUpdated": "2026-02-27",
+    "tags": [
+      "apostrophe",
+      "cms",
+      "cms-framework",
+      "jamstack",
+      "javascript",
+      "node",
+      "node-js"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "uptrace",
+    "name": "Uptrace",
+    "slug": "uptrace",
+    "tagline": "Open source APM: OpenTelemetry traces, metrics, and logs",
+    "description": "Open source APM: OpenTelemetry traces, metrics, and logs",
+    "website": "https://uptrace.dev/get/hosted/open-source-apm",
+    "github": "https://github.com/uptrace/uptrace",
+    "license": "AGPL-3.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 4109,
+    "lastUpdated": "2026-01-21",
+    "tags": [
+      "apm",
+      "application-monitoring",
+      "clickhouse",
+      "distributed-tracing",
+      "golang",
+      "logs",
+      "metrics"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "terminusdb",
+    "name": "Terminusdb",
+    "slug": "terminusdb",
+    "tagline": "TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and reasoning on stru...",
+    "description": "TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and reasoning on structured data.",
+    "website": "https://terminusdb.org",
+    "github": "https://github.com/terminusdb/terminusdb",
+    "license": "Apache-2.0",
+    "categories": [
+      "datenbanken"
+    ],
+    "replacesTools": [
+      "Oracle",
+      "MSSQL"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🗄️",
+    "stars": 3203,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "acid",
+      "cms",
+      "collaboration",
+      "database",
+      "document-database",
+      "graph-database",
+      "headless"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "pezzo",
+    "name": "Pezzo",
+    "slug": "pezzo",
+    "tagline": "🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant del...",
+    "description": "🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant delivery, collaboration, troubleshooting, observability and more.",
+    "website": "https://pezzo.ai",
+    "github": "https://github.com/pezzolabs/pezzo",
+    "license": "Apache-2.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 3191,
+    "lastUpdated": "2025-06-28",
+    "tags": [
+      "ai",
+      "devtools",
+      "gpt-3",
+      "gpt-4",
+      "hacktoberfest",
+      "javascript",
+      "langchain"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "lmnr",
+    "name": "Lmnr",
+    "slug": "lmnr",
+    "tagline": "Laminar - open-source observability platform purpose-built for AI agents. YC S24.",
+    "description": "Laminar - open-source observability platform purpose-built for AI agents. YC S24.",
+    "website": "https://laminar.sh",
+    "github": "https://github.com/lmnr-ai/lmnr",
+    "license": "Apache-2.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 2639,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-observability",
+      "aiops",
+      "analytics",
+      "developer-tools",
+      "evals"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "openlit",
+    "name": "Openlit",
+    "slug": "openlit",
+    "tagline": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluati...",
+    "description": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.",
+    "website": "https://docs.openlit.io",
+    "github": "https://github.com/openlit/openlit",
+    "license": "Apache-2.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 2254,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "ai-observability",
+      "amd-gpu",
+      "clickhouse",
+      "distributed-tracing",
+      "genai",
+      "gpu-monitoring",
+      "grafana"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "sveltia-cms",
+    "name": "Sveltia Cms",
+    "slug": "sveltia-cms",
+    "tagline": "Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support...",
+    "description": "Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source & free.",
+    "website": "https://sveltiacms.app/en/",
+    "github": "https://github.com/sveltia/sveltia-cms",
+    "license": "MIT",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 2169,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "cms",
+      "content-management",
+      "content-management-system",
+      "dam",
+      "dark-mode",
+      "decap-cms",
+      "digital-asset-management"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "vrite",
+    "name": "Vrite",
+    "slug": "vrite",
+    "tagline": "Open-source developer content platform",
+    "description": "Open-source developer content platform",
+    "website": "https://vrite.io",
+    "github": "https://github.com/vriteio/vrite",
+    "license": "MIT",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 1973,
+    "lastUpdated": "2025-10-28",
+    "tags": [
+      "blogging",
+      "cms",
+      "collaboration",
+      "content-management",
+      "documentation",
+      "headless",
+      "headless-cms"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "gigapipe",
+    "name": "Gigapipe",
+    "slug": "gigapipe",
+    "tagline": "⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :ro...",
+    "description": "⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :rocket: Indie All-in-One Opentelemetry, Loki, Prometheus, Tempo, Pyroscope On-Prem Alternative :star:",
+    "website": "https://gigapipe.com",
+    "github": "https://github.com/metrico/gigapipe",
+    "license": "AGPL-3.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 1635,
+    "lastUpdated": "2026-02-02",
+    "tags": [
+      "clickhouse",
+      "gigapipe",
+      "grafana",
+      "lgtm",
+      "logql",
+      "logs",
+      "loki"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "atomic-server",
+    "name": "Atomic Server",
+    "slug": "atomic-server",
+    "tagline": "An open source headless CMS / real-time database.",
+    "description": "An open source headless CMS / real-time database. Powerful table editor, full-text search, and SDKs for JS / React / Svelte.",
+    "website": "https://atomicserver.eu",
+    "github": "https://github.com/ontola/atomic-server",
+    "license": "MIT",
+    "categories": [
+      "datenbanken"
+    ],
+    "replacesTools": [
+      "Oracle",
+      "MSSQL"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🗄️",
+    "stars": 1506,
+    "lastUpdated": "2026-02-23",
+    "tags": [
+      "actix",
+      "atomic-data",
+      "cli",
+      "database",
+      "library",
+      "linked-data",
+      "rdf"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "sonicjs",
+    "name": "Sonicjs",
+    "slug": "sonicjs",
+    "tagline": "SonicJS - The edge-native headless CMS for Cloudflare Workers.",
+    "description": "SonicJS - The edge-native headless CMS for Cloudflare Workers. Sub-100ms response times, zero cold starts, TypeScript-first. Built on D1, R2, and Hono.",
+    "website": "https://sonicjs.com",
+    "github": "https://github.com/SonicJs-Org/sonicjs",
+    "license": "MIT",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 1478,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "api",
+      "backend",
+      "cloudflare-d1",
+      "cloudflare-r2",
+      "cloudflare-workers",
+      "cms",
+      "content-management"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "smartstore",
+    "name": "Smartstore",
+    "slug": "smartstore",
+    "tagline": "A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10",
+    "description": "A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10",
+    "website": "http://www.smartstore.com/",
+    "github": "https://github.com/smartstore/Smartstore",
+    "license": "AGPL-3.0",
+    "categories": [
+      "e-commerce"
+    ],
+    "replacesTools": [
+      "Shopify",
+      "Magento Commerce"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🛒",
+    "stars": 1465,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "asp-net",
+      "aspnet",
+      "aspnet-core",
+      "aspnetcore",
+      "azure",
+      "bootstrap",
+      "cms"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "grafana-operator",
+    "name": "Grafana Operator",
+    "slug": "grafana-operator",
+    "tagline": "An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/Op...",
+    "description": "An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/OpenShift CRs",
+    "website": "https://grafana.github.io/grafana-operator/docs/",
+    "github": "https://github.com/grafana/grafana-operator",
+    "license": "Apache-2.0",
+    "categories": [
+      "container"
+    ],
+    "replacesTools": [
+      "Docker Hub",
+      "Kubernetes EKS"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📦",
+    "stars": 1280,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "community",
+      "go",
+      "golang",
+      "grafana",
+      "grafana-operator",
+      "hacktober",
+      "k8s"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "measure",
+    "name": "Measure",
+    "slug": "measure",
+    "tagline": "Measure is an open-source tool to monitor mobile apps.",
+    "description": "Measure is an open-source tool to monitor mobile apps. We connect the dots between user actions, app events, network calls, logs, and errors to make debugging production issues easy!",
+    "website": "https://measure.sh",
+    "github": "https://github.com/measure-sh/measure",
+    "license": "Apache-2.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 1179,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "android",
+      "anr",
+      "crash",
+      "crash-reporting",
+      "crashlytics",
+      "flutter",
+      "ios"
+    ],
+    "difficulty": "einfach",
+    "platforms": [
+      "linux",
+      "android",
+      "ios"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "openam",
+    "name": "Openam",
+    "slug": "openam",
+    "tagline": "OpenAM is an open-source access management solution for identity authentication, authorization, and federation.",
+    "description": "OpenAM is an open-source access management solution for identity authentication, authorization, and federation. It provides single sign-on, adaptive authentication, and centralized policy control, enabling secure access to web, mobile, and cloud applications",
+    "website": "https://www.openidentityplatform.org/openam",
+    "github": "https://github.com/OpenIdentityPlatform/OpenAM",
+    "license": "MIT",
+    "categories": [
+      "backend-frameworks"
+    ],
+    "replacesTools": [
+      "Firebase",
+      "Supabase Pro"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "⚙️",
+    "stars": 865,
+    "lastUpdated": "2026-02-15",
+    "tags": [
+      "aaa",
+      "access",
+      "access-management",
+      "accounting",
+      "active-directory",
+      "authentication",
+      "authorization"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "apt",
+    "name": "Apt",
+    "slug": "apt",
+    "tagline": "AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security.",
+    "description": "AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security. Including but not limited to: built-in local exclusive ChatGPT, DeepSeek, Phi, Qwen and other models, one-click batch intelligent processing of pictures, videos, audio, etc.",
+    "website": "https://github.com/rnchg/APT",
+    "github": "https://github.com/rnchg/APT",
+    "license": "MIT",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 775,
+    "lastUpdated": "2025-12-13",
+    "tags": [
+      "ai",
+      "ai-framework",
+      "aigc",
+      "audio-processing",
+      "chatgpt",
+      "computer-vision",
+      "deep-learning"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
   }
 ]
 END_AUTO_TOOLS_JSON */
@@ -3333,6 +4278,556 @@ export const autoDiscoveredTools: Tool[] = [
     tags: ['cache', 'database', 'key-value', 'key-value-store', 'nosql', 'redis', 'storage-engine'],
     difficulty: 'mittel',
     platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'webstudio',
+    name: 'Webstudio',
+    slug: 'webstudio',
+    tagline: 'Open source website builder and Webflow alternative.',
+    description:
+      'Open source website builder and Webflow alternative. Webstudio is an advanced visual builder that connects to any headless CMS, supports all CSS properties, and can be hosted anywhere, including with us.',
+    website: 'https://webstudio.is',
+    github: 'https://github.com/webstudio-is/webstudio',
+    license: 'AGPL-3.0',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 8270,
+    lastUpdated: '2026-03-01',
+    tags: ['accessibility', 'alternative', 'cloudflare', 'cloudflare-workers', 'design', 'free', 'frontend'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'webiny-js',
+    name: 'Webiny Js',
+    slug: 'webiny-js',
+    tagline: 'Open-source serverless enterprise CMS.',
+    description:
+      'Open-source serverless enterprise CMS. Includes a headless CMS, page builder, form builder, and file manager. Easy to customize and expand. Deploys to AWS.',
+    website: 'https://www.webiny.com',
+    github: 'https://github.com/webiny/webiny-js',
+    license: 'MIT',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 7939,
+    lastUpdated: '2026-03-01',
+    tags: ['aws', 'aws-lambda', 'cloud', 'cms', 'graphql', 'headless', 'headless-cms'],
+    difficulty: 'einfach',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'coroot',
+    name: 'Coroot',
+    slug: 'coroot',
+    tagline: 'Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis.',
+    description:
+      'Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis. It combines metrics, logs, traces, continuous profiling, and SLO-based alerting with predefined dashboards and inspections.',
+    website: 'https://coroot.com',
+    github: 'https://github.com/coroot/coroot',
+    license: 'Apache-2.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 7446,
+    lastUpdated: '2026-02-26',
+    tags: ['ai', 'alerting', 'apm', 'dashboard', 'database-monitoring', 'distributed-tracing', 'ebpf'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'evidently',
+    name: 'Evidently',
+    slug: 'evidently',
+    tagline: 'Evidently is ​​an open-source ML and LLM observability framework.',
+    description:
+      'Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.',
+    website: 'https://discord.gg/xZjKRaNp8b',
+    github: 'https://github.com/evidentlyai/evidently',
+    license: 'Apache-2.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 7253,
+    lastUpdated: '2026-02-27',
+    tags: ['data-drift', 'data-quality', 'data-science', 'data-validation', 'generative-ai', 'hacktoberfest', 'html-report'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'macos'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'hertzbeat',
+    name: 'Hertzbeat',
+    slug: 'hertzbeat',
+    tagline: 'An AI-powered next-generation open source real-time observability system.',
+    description:
+      'An AI-powered next-generation open source real-time observability system.',
+    website: 'https://hertzbeat.apache.org/',
+    github: 'https://github.com/apache/hertzbeat',
+    license: 'Apache-2.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 7106,
+    lastUpdated: '2026-03-01',
+    tags: ['agent', 'ai', 'alerting', 'database', 'grafana', 'linux', 'llm'],
+    difficulty: 'mittel',
+    platforms: ['linux'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'openllmetry',
+    name: 'Openllmetry',
+    slug: 'openllmetry',
+    tagline: 'Open-source observability for your GenAI or LLM application, based on OpenTelemetry',
+    description:
+      'Open-source observability for your GenAI or LLM application, based on OpenTelemetry',
+    website: 'https://www.traceloop.com/openllmetry',
+    github: 'https://github.com/traceloop/openllmetry',
+    license: 'Apache-2.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 6867,
+    lastUpdated: '2026-03-01',
+    tags: ['artifical-intelligence', 'datascience', 'generative-ai', 'good-first-issue', 'good-first-issues', 'help-wanted', 'llm'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'oneuptime',
+    name: 'Oneuptime',
+    slug: 'oneuptime',
+    tagline: 'Complete open-source monitoring and observability platform.',
+    description:
+      'Complete open-source monitoring and observability platform.',
+    website: 'https://oneuptime.com',
+    github: 'https://github.com/OneUptime/oneuptime',
+    license: 'Apache-2.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 6528,
+    lastUpdated: '2026-03-01',
+    tags: ['devops', 'incident-management', 'incident-response', 'monitoring', 'observability', 'on-call', 'status-page'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'coze-loop',
+    name: 'Coze Loop',
+    slug: 'coze-loop',
+    tagline: 'Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing fu...',
+    description:
+      'Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.',
+    website: 'https://github.com/coze-dev/coze-loop',
+    github: 'https://github.com/coze-dev/coze-loop',
+    license: 'Apache-2.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 5332,
+    lastUpdated: '2026-02-28',
+    tags: ['agent', 'agent-evaluation', 'agent-observability', 'agentops', 'ai', 'coze', 'eino'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'helicone',
+    name: 'Helicone',
+    slug: 'helicone',
+    tagline: '🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓',
+    description:
+      '🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓',
+    website: 'https://www.helicone.ai',
+    github: 'https://github.com/Helicone/helicone',
+    license: 'Apache-2.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 5164,
+    lastUpdated: '2026-02-25',
+    tags: ['agent-monitoring', 'analytics', 'evaluation', 'gpt', 'langchain', 'large-language-models', 'llama-index'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'apostrophe',
+    name: 'Apostrophe',
+    slug: 'apostrophe',
+    tagline: 'A full-featured, open-source content management framework built with Node.js that empowers organizations by combining...',
+    description:
+      'A full-featured, open-source content management framework built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment.',
+    website: 'https://apostrophecms.com',
+    github: 'https://github.com/apostrophecms/apostrophe',
+    license: 'MIT',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 4529,
+    lastUpdated: '2026-02-27',
+    tags: ['apostrophe', 'cms', 'cms-framework', 'jamstack', 'javascript', 'node', 'node-js'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'uptrace',
+    name: 'Uptrace',
+    slug: 'uptrace',
+    tagline: 'Open source APM: OpenTelemetry traces, metrics, and logs',
+    description:
+      'Open source APM: OpenTelemetry traces, metrics, and logs',
+    website: 'https://uptrace.dev/get/hosted/open-source-apm',
+    github: 'https://github.com/uptrace/uptrace',
+    license: 'AGPL-3.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 4109,
+    lastUpdated: '2026-01-21',
+    tags: ['apm', 'application-monitoring', 'clickhouse', 'distributed-tracing', 'golang', 'logs', 'metrics'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'terminusdb',
+    name: 'Terminusdb',
+    slug: 'terminusdb',
+    tagline: 'TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and reasoning on stru...',
+    description:
+      'TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and reasoning on structured data.',
+    website: 'https://terminusdb.org',
+    github: 'https://github.com/terminusdb/terminusdb',
+    license: 'Apache-2.0',
+    categories: ['datenbanken'],
+    replacesTools: ['Oracle', 'MSSQL'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🗄️',
+    stars: 3203,
+    lastUpdated: '2026-03-01',
+    tags: ['acid', 'cms', 'collaboration', 'database', 'document-database', 'graph-database', 'headless'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'pezzo',
+    name: 'Pezzo',
+    slug: 'pezzo',
+    tagline: '🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant del...',
+    description:
+      '🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant delivery, collaboration, troubleshooting, observability and more.',
+    website: 'https://pezzo.ai',
+    github: 'https://github.com/pezzolabs/pezzo',
+    license: 'Apache-2.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 3191,
+    lastUpdated: '2025-06-28',
+    tags: ['ai', 'devtools', 'gpt-3', 'gpt-4', 'hacktoberfest', 'javascript', 'langchain'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'lmnr',
+    name: 'Lmnr',
+    slug: 'lmnr',
+    tagline: 'Laminar - open-source observability platform purpose-built for AI agents. YC S24.',
+    description:
+      'Laminar - open-source observability platform purpose-built for AI agents. YC S24.',
+    website: 'https://laminar.sh',
+    github: 'https://github.com/lmnr-ai/lmnr',
+    license: 'Apache-2.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 2639,
+    lastUpdated: '2026-03-01',
+    tags: ['agents', 'ai', 'ai-observability', 'aiops', 'analytics', 'developer-tools', 'evals'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'openlit',
+    name: 'Openlit',
+    slug: 'openlit',
+    tagline: 'Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluati...',
+    description:
+      'Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.',
+    website: 'https://docs.openlit.io',
+    github: 'https://github.com/openlit/openlit',
+    license: 'Apache-2.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 2254,
+    lastUpdated: '2026-03-01',
+    tags: ['ai-observability', 'amd-gpu', 'clickhouse', 'distributed-tracing', 'genai', 'gpu-monitoring', 'grafana'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'sveltia-cms',
+    name: 'Sveltia Cms',
+    slug: 'sveltia-cms',
+    tagline: 'Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support...',
+    description:
+      'Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source & free.',
+    website: 'https://sveltiacms.app/en/',
+    github: 'https://github.com/sveltia/sveltia-cms',
+    license: 'MIT',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 2169,
+    lastUpdated: '2026-03-01',
+    tags: ['cms', 'content-management', 'content-management-system', 'dam', 'dark-mode', 'decap-cms', 'digital-asset-management'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'vrite',
+    name: 'Vrite',
+    slug: 'vrite',
+    tagline: 'Open-source developer content platform',
+    description:
+      'Open-source developer content platform',
+    website: 'https://vrite.io',
+    github: 'https://github.com/vriteio/vrite',
+    license: 'MIT',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 1973,
+    lastUpdated: '2025-10-28',
+    tags: ['blogging', 'cms', 'collaboration', 'content-management', 'documentation', 'headless', 'headless-cms'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'gigapipe',
+    name: 'Gigapipe',
+    slug: 'gigapipe',
+    tagline: '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :ro...',
+    description:
+      '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :rocket: Indie All-in-One Opentelemetry, Loki, Prometheus, Tempo, Pyroscope On-Prem Alternative :star:',
+    website: 'https://gigapipe.com',
+    github: 'https://github.com/metrico/gigapipe',
+    license: 'AGPL-3.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 1635,
+    lastUpdated: '2026-02-02',
+    tags: ['clickhouse', 'gigapipe', 'grafana', 'lgtm', 'logql', 'logs', 'loki'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'atomic-server',
+    name: 'Atomic Server',
+    slug: 'atomic-server',
+    tagline: 'An open source headless CMS / real-time database.',
+    description:
+      'An open source headless CMS / real-time database. Powerful table editor, full-text search, and SDKs for JS / React / Svelte.',
+    website: 'https://atomicserver.eu',
+    github: 'https://github.com/ontola/atomic-server',
+    license: 'MIT',
+    categories: ['datenbanken'],
+    replacesTools: ['Oracle', 'MSSQL'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🗄️',
+    stars: 1506,
+    lastUpdated: '2026-02-23',
+    tags: ['actix', 'atomic-data', 'cli', 'database', 'library', 'linked-data', 'rdf'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'sonicjs',
+    name: 'Sonicjs',
+    slug: 'sonicjs',
+    tagline: 'SonicJS - The edge-native headless CMS for Cloudflare Workers.',
+    description:
+      'SonicJS - The edge-native headless CMS for Cloudflare Workers. Sub-100ms response times, zero cold starts, TypeScript-first. Built on D1, R2, and Hono.',
+    website: 'https://sonicjs.com',
+    github: 'https://github.com/SonicJs-Org/sonicjs',
+    license: 'MIT',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 1478,
+    lastUpdated: '2026-03-01',
+    tags: ['api', 'backend', 'cloudflare-d1', 'cloudflare-r2', 'cloudflare-workers', 'cms', 'content-management'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'smartstore',
+    name: 'Smartstore',
+    slug: 'smartstore',
+    tagline: 'A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10',
+    description:
+      'A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10',
+    website: 'http://www.smartstore.com/',
+    github: 'https://github.com/smartstore/Smartstore',
+    license: 'AGPL-3.0',
+    categories: ['e-commerce'],
+    replacesTools: ['Shopify', 'Magento Commerce'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🛒',
+    stars: 1465,
+    lastUpdated: '2026-02-28',
+    tags: ['asp-net', 'aspnet', 'aspnet-core', 'aspnetcore', 'azure', 'bootstrap', 'cms'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'grafana-operator',
+    name: 'Grafana Operator',
+    slug: 'grafana-operator',
+    tagline: 'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/Op...',
+    description:
+      'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/OpenShift CRs',
+    website: 'https://grafana.github.io/grafana-operator/docs/',
+    github: 'https://github.com/grafana/grafana-operator',
+    license: 'Apache-2.0',
+    categories: ['container'],
+    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📦',
+    stars: 1280,
+    lastUpdated: '2026-02-28',
+    tags: ['community', 'go', 'golang', 'grafana', 'grafana-operator', 'hacktober', 'k8s'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'measure',
+    name: 'Measure',
+    slug: 'measure',
+    tagline: 'Measure is an open-source tool to monitor mobile apps.',
+    description:
+      'Measure is an open-source tool to monitor mobile apps. We connect the dots between user actions, app events, network calls, logs, and errors to make debugging production issues easy!',
+    website: 'https://measure.sh',
+    github: 'https://github.com/measure-sh/measure',
+    license: 'Apache-2.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 1179,
+    lastUpdated: '2026-03-01',
+    tags: ['android', 'anr', 'crash', 'crash-reporting', 'crashlytics', 'flutter', 'ios'],
+    difficulty: 'einfach',
+    platforms: ['linux', 'android', 'ios'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'openam',
+    name: 'Openam',
+    slug: 'openam',
+    tagline: 'OpenAM is an open-source access management solution for identity authentication, authorization, and federation.',
+    description:
+      'OpenAM is an open-source access management solution for identity authentication, authorization, and federation. It provides single sign-on, adaptive authentication, and centralized policy control, enabling secure access to web, mobile, and cloud applications',
+    website: 'https://www.openidentityplatform.org/openam',
+    github: 'https://github.com/OpenIdentityPlatform/OpenAM',
+    license: 'MIT',
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '⚙️',
+    stars: 865,
+    lastUpdated: '2026-02-15',
+    tags: ['aaa', 'access', 'access-management', 'accounting', 'active-directory', 'authentication', 'authorization'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'apt',
+    name: 'Apt',
+    slug: 'apt',
+    tagline: 'AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security.',
+    description:
+      'AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security. Including but not limited to: built-in local exclusive ChatGPT, DeepSeek, Phi, Qwen and other models, one-click batch intelligent processing of pictures, videos, audio, etc.',
+    website: 'https://github.com/rnchg/APT',
+    github: 'https://github.com/rnchg/APT',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 775,
+    lastUpdated: '2025-12-13',
+    tags: ['ai', 'ai-framework', 'aigc', 'audio-processing', 'chatgpt', 'computer-vision', 'deep-learning'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'macos'],
     featured: false,
     addedDate: '2026-03-01',
   },
