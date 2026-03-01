@@ -1,3 +1,5 @@
+> **[English]** A curated directory of 293+ free and open-source alternatives to proprietary software like Google, Microsoft, and Adobe — organized in 39 categories, fully searchable, self-hostable. Built for the DACH region but useful for everyone. → [Live Site](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
+
 # 🛡️ FOSS Alternatives
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -7,7 +9,7 @@
 
 **Deine Freiheit. Dein Code. Deine Zukunft.**
 
-> Eine kuratierte Sammlung von 280+ kostenlosen Open-Source-Alternativen zu proprietärer Software — organisiert in 39 Kategorien, vollständig durchsuchbar, und mit dem Fokus auf Datenschutz und digitale Souveränität. Neue Tools werden jeden Montag automatisch erkannt und hinzugefügt.
+> Eine kuratierte Sammlung von 293+ kostenlosen Open-Source-Alternativen zu proprietärer Software — organisiert in 39 Kategorien, vollständig durchsuchbar, und mit dem Fokus auf Datenschutz und digitale Souveränität. Neue Tools werden jeden Montag automatisch erkannt und hinzugefügt.
 
 🌐 **Live:** [BEKO2210.github.io/european-alternatives.eu-free-open-source](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
 
@@ -15,7 +17,7 @@
 
 ## ✨ Features
 
-- 📦 **280+ FOSS-Tools** in 39 Kategorien (wächst automatisch)
+- 📦 **293+ FOSS-Tools** in 39 Kategorien (wächst automatisch)
 - 🤖 **Auto-Discovery** — neue Tools werden wöchentlich via GitHub API erkannt und hinzugefügt
 - 🔍 **Volltextsuche** mit Pagefind (statisch, kein Server nötig)
 - 🌙 **Dark/Light Mode** mit localStorage-Persistenz
@@ -146,6 +148,18 @@ Manuell auslösen: GitHub Actions → "Auto-Discover FOSS Tools" → "Run workfl
 
 - **Code:** [MIT License](LICENSE)
 - **Inhalte:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+---
+
+## 🤝 Community & Mitmachen
+
+[![GitHub Issues](https://img.shields.io/github/issues/BEKO2210/european-alternatives.eu-free-open-source)](https://github.com/BEKO2210/european-alternatives.eu-free-open-source/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/BEKO2210/european-alternatives.eu-free-open-source/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/BEKO2210/european-alternatives.eu-free-open-source)](https://github.com/BEKO2210/european-alternatives.eu-free-open-source/commits/main)
+
+- Lies den [Contributing Guide](CONTRIBUTING.md) um zu erfahren, wie du mitmachen kannst
+- Nutze die [Issue-Templates](https://github.com/BEKO2210/european-alternatives.eu-free-open-source/issues/new/choose) um Tools vorzuschlagen oder Fehler zu melden
+- Pull Requests sind jederzeit willkommen!
 
 ---
 
