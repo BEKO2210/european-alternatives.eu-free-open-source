@@ -940,6 +940,940 @@ import type { Tool } from '../types';
     ],
     "featured": false,
     "addedDate": "2026-03-01"
+  },
+  {
+    "id": "prompts-chat",
+    "name": "Prompts.chat",
+    "slug": "prompts-chat",
+    "tagline": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-...",
+    "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+    "website": "https://prompts.chat",
+    "github": "https://github.com/f/prompts.chat",
+    "license": "CC0-1.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 149301,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "awesome-list",
+      "chatgpt",
+      "chatgpt-prompts",
+      "claude",
+      "gemini"
+    ],
+    "difficulty": "einfach",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "langfuse",
+    "name": "Langfuse",
+    "slug": "langfuse",
+    "tagline": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets.",
+    "description": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23",
+    "website": "https://langfuse.com/docs",
+    "github": "https://github.com/langfuse/langfuse",
+    "license": "MIT",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 22445,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "analytics",
+      "autogen",
+      "evaluation",
+      "langchain",
+      "large-language-models",
+      "llama-index",
+      "llm"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "goreplay",
+    "name": "Goreplay",
+    "slug": "goreplay",
+    "tagline": "GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to con...",
+    "description": "GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.",
+    "website": "https://goreplay.org",
+    "github": "https://github.com/probelabs/goreplay",
+    "license": "MIT",
+    "categories": [
+      "dev-tools"
+    ],
+    "replacesTools": [
+      "JetBrains Suite",
+      "Visual Studio"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "⌨️",
+    "stars": 19249,
+    "lastUpdated": "2026-01-27",
+    "tags": [
+      "devops",
+      "go",
+      "qa",
+      "testing",
+      "testing-tools"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "self-hosting-guide",
+    "name": "Self Hosting Guide",
+    "slug": "self-hosting-guide",
+    "tagline": "Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applic...",
+    "description": "Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+    "website": "https://github.com/mikeroyal/Self-Hosting-Guide",
+    "github": "https://github.com/mikeroyal/Self-Hosting-Guide",
+    "license": "MIT",
+    "categories": [
+      "backend-frameworks"
+    ],
+    "replacesTools": [
+      "Firebase",
+      "Supabase Pro"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "⚙️",
+    "stars": 18784,
+    "lastUpdated": "2025-06-27",
+    "tags": [
+      "authentication",
+      "awesome",
+      "awesome-list",
+      "decentralized",
+      "docker-compose",
+      "home-assistant",
+      "home-automation"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "openobserve",
+    "name": "Openobserve",
+    "slug": "openobserve",
+    "tagline": "OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring.",
+    "description": "OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
+    "website": "https://openobserve.ai",
+    "github": "https://github.com/openobserve/openobserve",
+    "license": "AGPL-3.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 18036,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "analytics",
+      "apm",
+      "datadog",
+      "elasticsearch",
+      "grafana",
+      "jaeger",
+      "kibana"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "encore",
+    "name": "Encore",
+    "slug": "encore",
+    "tagline": "Open source framework for building robust type-safe distributed systems with declarative infrastructure",
+    "description": "Open source framework for building robust type-safe distributed systems with declarative infrastructure",
+    "website": "https://encore.dev",
+    "github": "https://github.com/encoredev/encore",
+    "license": "MPL-2.0",
+    "categories": [
+      "datenbanken"
+    ],
+    "replacesTools": [
+      "Oracle",
+      "MSSQL"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🗄️",
+    "stars": 11509,
+    "lastUpdated": "2026-02-27",
+    "tags": [
+      "api",
+      "aws",
+      "backend",
+      "backend-framework",
+      "cloud",
+      "cloud-native",
+      "database"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "meetily",
+    "name": "Meetily",
+    "slug": "meetily",
+    "tagline": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Olla...",
+    "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted,  Open-source Ai meeting note taker for macOS & Windows.",
+    "website": "https://meetily.ai",
+    "github": "https://github.com/Zackriya-Solutions/meetily",
+    "license": "MIT",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 10082,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "ai",
+      "ai-meeting-assistant",
+      "llm",
+      "local-ai",
+      "mac",
+      "meeting-minutes",
+      "meeting-notes"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "blinko",
+    "name": "Blinko",
+    "slug": "blinko",
+    "tagline": "An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .",
+    "description": "An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .",
+    "website": "https://blinko.space",
+    "github": "https://github.com/blinkospace/blinko",
+    "license": "GPL-3.0",
+    "categories": [
+      "notizen"
+    ],
+    "replacesTools": [
+      "Notion",
+      "Evernote",
+      "Obsidian"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📝",
+    "stars": 9510,
+    "lastUpdated": "2026-02-12",
+    "tags": [
+      "markdown",
+      "memos",
+      "nextjs",
+      "notebook",
+      "openai",
+      "postgres",
+      "react"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "hyperdx",
+    "name": "Hyperdx",
+    "slug": "hyperdx",
+    "tagline": "Resolve production issues, fast.",
+    "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
+    "website": "https://hyperdx.io/",
+    "github": "https://github.com/hyperdxio/hyperdx",
+    "license": "MIT",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 9346,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "alerting",
+      "analytics",
+      "apm",
+      "application-monitoring",
+      "clickhouse",
+      "dashboard",
+      "frontend-monitoring"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "highlight",
+    "name": "Highlight",
+    "slug": "highlight",
+    "tagline": "highlight.io: The open source, full-stack monitoring platform.",
+    "description": "highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging, distributed tracing, and more.",
+    "website": "https://app.highlight.io",
+    "github": "https://github.com/highlight/highlight",
+    "license": "MIT",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 9166,
+    "lastUpdated": "2026-02-27",
+    "tags": [
+      "apm",
+      "full-stack",
+      "golang",
+      "metrics",
+      "monitoring",
+      "observability",
+      "open-source"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "checkov",
+    "name": "Checkov",
+    "slug": "checkov",
+    "tagline": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container image...",
+    "description": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.",
+    "website": "https://www.checkov.io/",
+    "github": "https://github.com/bridgecrewio/checkov",
+    "license": "Apache-2.0",
+    "categories": [
+      "container"
+    ],
+    "replacesTools": [
+      "Docker Hub",
+      "Kubernetes EKS"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📦",
+    "stars": 8491,
+    "lastUpdated": "2026-02-24",
+    "tags": [
+      "aws",
+      "aws-security",
+      "azure",
+      "cloudformation",
+      "compliance",
+      "devops",
+      "gcp"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "openstatus",
+    "name": "Openstatus",
+    "slug": "openstatus",
+    "tagline": "🫖 Status page with uptime monitoring & API monitoring as code   🫖",
+    "description": "🫖 Status page with uptime monitoring & API monitoring as code   🫖",
+    "website": "https://openstatus.dev",
+    "github": "https://github.com/openstatusHQ/openstatus",
+    "license": "AGPL-3.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 8395,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "bun",
+      "drizzle-orm",
+      "monitoring",
+      "monitoring-as-code",
+      "nextjs",
+      "observability",
+      "on-call"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "lesspass",
+    "name": "Lesspass",
+    "slug": "lesspass",
+    "tagline": ":key: stateless open source password manager",
+    "description": ":key: stateless open source password manager",
+    "website": "https://www.lesspass.com",
+    "github": "https://github.com/lesspass/lesspass",
+    "license": "GPL-3.0",
+    "categories": [
+      "passwort-manager"
+    ],
+    "replacesTools": [
+      "LastPass",
+      "1Password"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🔑",
+    "stars": 5983,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "anonymous",
+      "lesspass",
+      "password",
+      "password-manager",
+      "passwords",
+      "privacy",
+      "self-hosted"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "oxicloud",
+    "name": "Oxicloud",
+    "slug": "oxicloud",
+    "tagline": "☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one ...",
+    "description": "☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one place. Built in Rust.",
+    "website": "https://github.com/DioCrafts/OxiCloud",
+    "github": "https://github.com/DioCrafts/OxiCloud",
+    "license": "MIT",
+    "categories": [
+      "cloud-speicher"
+    ],
+    "replacesTools": [
+      "Google Drive",
+      "Dropbox",
+      "OneDrive"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "☁️",
+    "stars": 2614,
+    "lastUpdated": "2026-02-26",
+    "tags": [
+      "cloud",
+      "cloud-storage",
+      "dropbox",
+      "file-share",
+      "file-sync",
+      "file-upload",
+      "nas"
+    ],
+    "difficulty": "einfach",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "projectsend",
+    "name": "Projectsend",
+    "slug": "projectsend",
+    "tagline": "ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and p...",
+    "description": "ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and privacy. It supports clients groups, system users roles, statistics, multiple languages, detailed logs... and much more!",
+    "website": "https://www.projectsend.org/",
+    "github": "https://github.com/projectsend/projectsend",
+    "license": "GPL-2.0",
+    "categories": [
+      "cloud-speicher"
+    ],
+    "replacesTools": [
+      "Google Drive",
+      "Dropbox",
+      "OneDrive"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "☁️",
+    "stars": 1825,
+    "lastUpdated": "2026-02-25",
+    "tags": [
+      "clients-oriented",
+      "file-sharing",
+      "free-software",
+      "open-source",
+      "php",
+      "projectsend",
+      "self-hosted"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "beecount",
+    "name": "Beecount",
+    "slug": "beecount",
+    "tagline": "🐝 开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud & self-hosted sync (S...",
+    "description": "🐝 开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud & self-hosted sync (Supabase/WebDAV/S3), AI-powered bookkeeping, cross-platform, privacy-first",
+    "website": "https://github.com/TNT-Likely/BeeCount",
+    "github": "https://github.com/TNT-Likely/BeeCount",
+    "license": "MIT",
+    "categories": [
+      "erp"
+    ],
+    "replacesTools": [
+      "SAP Business One",
+      "Oracle ERP"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🏭",
+    "stars": 1183,
+    "lastUpdated": "2026-02-27",
+    "tags": [
+      "account",
+      "accounting",
+      "accounting-app",
+      "chinese",
+      "expense-tracker",
+      "finance-app",
+      "flutter"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "bricksllm",
+    "name": "Bricksllm",
+    "slug": "bricksllm",
+    "tagline": "🔒 Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key.",
+    "description": "🔒 Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key. Get fine-grained access control and monitoring per user, application, or environment. Supports OpenAI, Azure OpenAI, Anthropic, vLLM, and open-source LLMs.",
+    "website": "https://trybricks.ai/",
+    "github": "https://github.com/bricks-cloud/BricksLLM",
+    "license": "MIT",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 1161,
+    "lastUpdated": "2025-01-05",
+    "tags": [
+      "ai",
+      "anthropic",
+      "api",
+      "artificial-intelligence",
+      "azure",
+      "docker",
+      "generative-ai"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "agent",
+    "name": "Agent",
+    "slug": "agent",
+    "tagline": "Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀",
+    "description": "Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀",
+    "website": "https://stakpak.dev",
+    "github": "https://github.com/stakpak/agent",
+    "license": "Apache-2.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 1038,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "agent",
+      "ai-agent",
+      "autonomous-agent",
+      "devops",
+      "devops-agents",
+      "devtool",
+      "generative-ai"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "sharkord",
+    "name": "Sharkord",
+    "slug": "sharkord",
+    "tagline": "Lightweight, self-hosted, open-source chat server with voice, video, text, and screen sharing.",
+    "description": "Lightweight, self-hosted, open-source chat server with voice, video, text, and screen sharing. Built for small groups who want privacy, simplicity, and full control over their data.",
+    "website": "https://sharkord.com",
+    "github": "https://github.com/Sharkord/sharkord",
+    "license": "MIT",
+    "categories": [
+      "kommunikation"
+    ],
+    "replacesTools": [
+      "WhatsApp",
+      "Slack",
+      "Microsoft Teams"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "💬",
+    "stars": 1037,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "bun",
+      "chat",
+      "data-ownership",
+      "mediasoup",
+      "messaging",
+      "privacy",
+      "realtime"
+    ],
+    "difficulty": "einfach",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "swetrix",
+    "name": "Swetrix",
+    "slug": "swetrix",
+    "tagline": "📈 Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error tracking ser...",
+    "description": "📈 Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error tracking service that you can host yourself or use in the cloud. Get started for free!",
+    "website": "https://swetrix.com",
+    "github": "https://github.com/Swetrix/swetrix",
+    "license": "AGPL-3.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "stars": 891,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "charts",
+      "clickhouse",
+      "docker",
+      "gdpr",
+      "google-analytics",
+      "metrics",
+      "monitoring"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "eclaire",
+    "name": "Eclaire",
+    "slug": "eclaire",
+    "tagline": "Local-first, open-source AI assistant for your data.",
+    "description": "Local-first, open-source AI assistant for your data. Unify tasks, notes, docs, photos, and bookmarks. Private, self-hosted, and extensible via APIs.",
+    "website": "https://eclaire.co",
+    "github": "https://github.com/eclaire-labs/eclaire",
+    "license": "MIT",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 810,
+    "lastUpdated": "2026-02-25",
+    "tags": [
+      "ai",
+      "ai-assistant",
+      "automation",
+      "bookmark-manager",
+      "bookmarks",
+      "data-extraction",
+      "document-processing"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "geopulse",
+    "name": "Geopulse",
+    "slug": "geopulse",
+    "tagline": "A self-hosted, privacy-first location tracking platform.",
+    "description": "A self-hosted, privacy-first location tracking platform. The perfect open-source alternative to Google Timeline with automatic trip detection, Immich integration, and detailed analytics.",
+    "website": "https://tess1o.github.io/geopulse/",
+    "github": "https://github.com/tess1o/geopulse",
+    "license": "MIT",
+    "categories": [
+      "analytics"
+    ],
+    "replacesTools": [
+      "Google Analytics",
+      "Mixpanel"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📊",
+    "stars": 613,
+    "lastUpdated": "2026-02-27",
+    "tags": [
+      "gps-tracker",
+      "gps-tracking",
+      "java",
+      "owntracks",
+      "postgis",
+      "postgis-database",
+      "postgres"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "thiss-link",
+    "name": "Thiss.link",
+    "slug": "thiss-link",
+    "tagline": "🔥 MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support",
+    "description": "🔥 MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support",
+    "website": "https://maglit.me",
+    "github": "https://github.com/NayamAmarshe/thiss.link",
+    "license": "AGPL-3.0",
+    "categories": [
+      "passwort-manager"
+    ],
+    "replacesTools": [
+      "LastPass",
+      "1Password"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🔑",
+    "stars": 594,
+    "lastUpdated": "2026-02-24",
+    "tags": [
+      "encryption",
+      "foss",
+      "free",
+      "linkshortener",
+      "nextjs",
+      "open-source",
+      "privacy"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "relay",
+    "name": "Relay",
+    "slug": "relay",
+    "tagline": "✉️ Open-Source Email API for Developers. Self-hosted Alternative to SES, Mailgun, SendGrid.",
+    "description": "✉️ Open-Source Email API for Developers. Self-hosted Alternative to SES, Mailgun, SendGrid.",
+    "website": "https://relay.hyvor.com",
+    "github": "https://github.com/hyvor/relay",
+    "license": "AGPL-3.0",
+    "categories": [
+      "email-server"
+    ],
+    "replacesTools": [
+      "Gmail-Server",
+      "Exchange"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📮",
+    "stars": 524,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "email",
+      "smtp"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
+  },
+  {
+    "id": "super",
+    "name": "Super",
+    "slug": "super",
+    "tagline": "📡 SPR: Open Source, secure, user friendly and fast wifi routers for your home.",
+    "description": "📡 SPR: Open Source, secure, user friendly and fast wifi routers for your home. One wifi password per device. Ad Blocking & Privacy Blocklists. Policy Based Network Access",
+    "website": "https://www.supernetworks.org/",
+    "github": "https://github.com/spr-networks/super",
+    "license": "BSD-3-Clause",
+    "categories": [
+      "vpn"
+    ],
+    "replacesTools": [
+      "NordVPN",
+      "ExpressVPN"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🛡️",
+    "stars": 502,
+    "lastUpdated": "2026-02-26",
+    "tags": [
+      "adblock",
+      "alerting",
+      "coredns",
+      "golang",
+      "homelab",
+      "internet-filtering",
+      "nftables"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-01"
   }
 ]
 END_AUTO_TOOLS_JSON */
@@ -1490,6 +2424,556 @@ export const autoDiscoveredTools: Tool[] = [
     stars: 644,
     lastUpdated: '2026-02-27',
     tags: ['fastapi', 'langchain', 'langggraph', 'langgraph-agents', 'langgraph-platform-alternative', 'opensource-langgraph-platform', 'postgres'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'prompts-chat',
+    name: 'Prompts.chat',
+    slug: 'prompts-chat',
+    tagline: 'f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-...',
+    description:
+      'f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.',
+    website: 'https://prompts.chat',
+    github: 'https://github.com/f/prompts.chat',
+    license: 'CC0-1.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 149301,
+    lastUpdated: '2026-03-01',
+    tags: ['ai', 'artificial-intelligence', 'awesome-list', 'chatgpt', 'chatgpt-prompts', 'claude', 'gemini'],
+    difficulty: 'einfach',
+    platforms: ['linux', 'macos'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'langfuse',
+    name: 'Langfuse',
+    slug: 'langfuse',
+    tagline: '🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets.',
+    description:
+      '🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23',
+    website: 'https://langfuse.com/docs',
+    github: 'https://github.com/langfuse/langfuse',
+    license: 'MIT',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 22445,
+    lastUpdated: '2026-02-28',
+    tags: ['analytics', 'autogen', 'evaluation', 'langchain', 'large-language-models', 'llama-index', 'llm'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'goreplay',
+    name: 'Goreplay',
+    slug: 'goreplay',
+    tagline: 'GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to con...',
+    description:
+      'GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.',
+    website: 'https://goreplay.org',
+    github: 'https://github.com/probelabs/goreplay',
+    license: 'MIT',
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '⌨️',
+    stars: 19249,
+    lastUpdated: '2026-01-27',
+    tags: ['devops', 'go', 'qa', 'testing', 'testing-tools'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'self-hosting-guide',
+    name: 'Self Hosting Guide',
+    slug: 'self-hosting-guide',
+    tagline: 'Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applic...',
+    description:
+      'Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.',
+    website: 'https://github.com/mikeroyal/Self-Hosting-Guide',
+    github: 'https://github.com/mikeroyal/Self-Hosting-Guide',
+    license: 'MIT',
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '⚙️',
+    stars: 18784,
+    lastUpdated: '2025-06-27',
+    tags: ['authentication', 'awesome', 'awesome-list', 'decentralized', 'docker-compose', 'home-assistant', 'home-automation'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'openobserve',
+    name: 'Openobserve',
+    slug: 'openobserve',
+    tagline: 'OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring.',
+    description:
+      'OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.',
+    website: 'https://openobserve.ai',
+    github: 'https://github.com/openobserve/openobserve',
+    license: 'AGPL-3.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 18036,
+    lastUpdated: '2026-03-01',
+    tags: ['analytics', 'apm', 'datadog', 'elasticsearch', 'grafana', 'jaeger', 'kibana'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'encore',
+    name: 'Encore',
+    slug: 'encore',
+    tagline: 'Open source framework for building robust type-safe distributed systems with declarative infrastructure',
+    description:
+      'Open source framework for building robust type-safe distributed systems with declarative infrastructure',
+    website: 'https://encore.dev',
+    github: 'https://github.com/encoredev/encore',
+    license: 'MPL-2.0',
+    categories: ['datenbanken'],
+    replacesTools: ['Oracle', 'MSSQL'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🗄️',
+    stars: 11509,
+    lastUpdated: '2026-02-27',
+    tags: ['api', 'aws', 'backend', 'backend-framework', 'cloud', 'cloud-native', 'database'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'meetily',
+    name: 'Meetily',
+    slug: 'meetily',
+    tagline: 'Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Olla...',
+    description:
+      'Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted,  Open-source Ai meeting note taker for macOS & Windows.',
+    website: 'https://meetily.ai',
+    github: 'https://github.com/Zackriya-Solutions/meetily',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 10082,
+    lastUpdated: '2026-02-28',
+    tags: ['ai', 'ai-meeting-assistant', 'llm', 'local-ai', 'mac', 'meeting-minutes', 'meeting-notes'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'windows', 'macos'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'blinko',
+    name: 'Blinko',
+    slug: 'blinko',
+    tagline: 'An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .',
+    description:
+      'An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .',
+    website: 'https://blinko.space',
+    github: 'https://github.com/blinkospace/blinko',
+    license: 'GPL-3.0',
+    categories: ['notizen'],
+    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📝',
+    stars: 9510,
+    lastUpdated: '2026-02-12',
+    tags: ['markdown', 'memos', 'nextjs', 'notebook', 'openai', 'postgres', 'react'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'hyperdx',
+    name: 'Hyperdx',
+    slug: 'hyperdx',
+    tagline: 'Resolve production issues, fast.',
+    description:
+      'Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.',
+    website: 'https://hyperdx.io/',
+    github: 'https://github.com/hyperdxio/hyperdx',
+    license: 'MIT',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 9346,
+    lastUpdated: '2026-02-28',
+    tags: ['alerting', 'analytics', 'apm', 'application-monitoring', 'clickhouse', 'dashboard', 'frontend-monitoring'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'highlight',
+    name: 'Highlight',
+    slug: 'highlight',
+    tagline: 'highlight.io: The open source, full-stack monitoring platform.',
+    description:
+      'highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging, distributed tracing, and more.',
+    website: 'https://app.highlight.io',
+    github: 'https://github.com/highlight/highlight',
+    license: 'MIT',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 9166,
+    lastUpdated: '2026-02-27',
+    tags: ['apm', 'full-stack', 'golang', 'metrics', 'monitoring', 'observability', 'open-source'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'checkov',
+    name: 'Checkov',
+    slug: 'checkov',
+    tagline: 'Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container image...',
+    description:
+      'Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.',
+    website: 'https://www.checkov.io/',
+    github: 'https://github.com/bridgecrewio/checkov',
+    license: 'Apache-2.0',
+    categories: ['container'],
+    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📦',
+    stars: 8491,
+    lastUpdated: '2026-02-24',
+    tags: ['aws', 'aws-security', 'azure', 'cloudformation', 'compliance', 'devops', 'gcp'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'openstatus',
+    name: 'Openstatus',
+    slug: 'openstatus',
+    tagline: '🫖 Status page with uptime monitoring & API monitoring as code   🫖',
+    description:
+      '🫖 Status page with uptime monitoring & API monitoring as code   🫖',
+    website: 'https://openstatus.dev',
+    github: 'https://github.com/openstatusHQ/openstatus',
+    license: 'AGPL-3.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 8395,
+    lastUpdated: '2026-02-28',
+    tags: ['bun', 'drizzle-orm', 'monitoring', 'monitoring-as-code', 'nextjs', 'observability', 'on-call'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'lesspass',
+    name: 'Lesspass',
+    slug: 'lesspass',
+    tagline: ':key: stateless open source password manager',
+    description:
+      ':key: stateless open source password manager',
+    website: 'https://www.lesspass.com',
+    github: 'https://github.com/lesspass/lesspass',
+    license: 'GPL-3.0',
+    categories: ['passwort-manager'],
+    replacesTools: ['LastPass', '1Password'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🔑',
+    stars: 5983,
+    lastUpdated: '2026-02-28',
+    tags: ['anonymous', 'lesspass', 'password', 'password-manager', 'passwords', 'privacy', 'self-hosted'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'oxicloud',
+    name: 'Oxicloud',
+    slug: 'oxicloud',
+    tagline: '☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one ...',
+    description:
+      '☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one place. Built in Rust.',
+    website: 'https://github.com/DioCrafts/OxiCloud',
+    github: 'https://github.com/DioCrafts/OxiCloud',
+    license: 'MIT',
+    categories: ['cloud-speicher'],
+    replacesTools: ['Google Drive', 'Dropbox', 'OneDrive'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '☁️',
+    stars: 2614,
+    lastUpdated: '2026-02-26',
+    tags: ['cloud', 'cloud-storage', 'dropbox', 'file-share', 'file-sync', 'file-upload', 'nas'],
+    difficulty: 'einfach',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'projectsend',
+    name: 'Projectsend',
+    slug: 'projectsend',
+    tagline: 'ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and p...',
+    description:
+      'ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and privacy. It supports clients groups, system users roles, statistics, multiple languages, detailed logs... and much more!',
+    website: 'https://www.projectsend.org/',
+    github: 'https://github.com/projectsend/projectsend',
+    license: 'GPL-2.0',
+    categories: ['cloud-speicher'],
+    replacesTools: ['Google Drive', 'Dropbox', 'OneDrive'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '☁️',
+    stars: 1825,
+    lastUpdated: '2026-02-25',
+    tags: ['clients-oriented', 'file-sharing', 'free-software', 'open-source', 'php', 'projectsend', 'self-hosted'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'beecount',
+    name: 'Beecount',
+    slug: 'beecount',
+    tagline: '🐝 开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud & self-hosted sync (S...',
+    description:
+      '🐝 开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud & self-hosted sync (Supabase/WebDAV/S3), AI-powered bookkeeping, cross-platform, privacy-first',
+    website: 'https://github.com/TNT-Likely/BeeCount',
+    github: 'https://github.com/TNT-Likely/BeeCount',
+    license: 'MIT',
+    categories: ['erp'],
+    replacesTools: ['SAP Business One', 'Oracle ERP'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🏭',
+    stars: 1183,
+    lastUpdated: '2026-02-27',
+    tags: ['account', 'accounting', 'accounting-app', 'chinese', 'expense-tracker', 'finance-app', 'flutter'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'bricksllm',
+    name: 'Bricksllm',
+    slug: 'bricksllm',
+    tagline: '🔒 Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key.',
+    description:
+      '🔒 Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key. Get fine-grained access control and monitoring per user, application, or environment. Supports OpenAI, Azure OpenAI, Anthropic, vLLM, and open-source LLMs.',
+    website: 'https://trybricks.ai/',
+    github: 'https://github.com/bricks-cloud/BricksLLM',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 1161,
+    lastUpdated: '2025-01-05',
+    tags: ['ai', 'anthropic', 'api', 'artificial-intelligence', 'azure', 'docker', 'generative-ai'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'agent',
+    name: 'Agent',
+    slug: 'agent',
+    tagline: 'Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀',
+    description:
+      'Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀',
+    website: 'https://stakpak.dev',
+    github: 'https://github.com/stakpak/agent',
+    license: 'Apache-2.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 1038,
+    lastUpdated: '2026-02-28',
+    tags: ['agent', 'ai-agent', 'autonomous-agent', 'devops', 'devops-agents', 'devtool', 'generative-ai'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'macos'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'sharkord',
+    name: 'Sharkord',
+    slug: 'sharkord',
+    tagline: 'Lightweight, self-hosted, open-source chat server with voice, video, text, and screen sharing.',
+    description:
+      'Lightweight, self-hosted, open-source chat server with voice, video, text, and screen sharing. Built for small groups who want privacy, simplicity, and full control over their data.',
+    website: 'https://sharkord.com',
+    github: 'https://github.com/Sharkord/sharkord',
+    license: 'MIT',
+    categories: ['kommunikation'],
+    replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '💬',
+    stars: 1037,
+    lastUpdated: '2026-03-01',
+    tags: ['bun', 'chat', 'data-ownership', 'mediasoup', 'messaging', 'privacy', 'realtime'],
+    difficulty: 'einfach',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'swetrix',
+    name: 'Swetrix',
+    slug: 'swetrix',
+    tagline: '📈 Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error tracking ser...',
+    description:
+      '📈 Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error tracking service that you can host yourself or use in the cloud. Get started for free!',
+    website: 'https://swetrix.com',
+    github: 'https://github.com/Swetrix/swetrix',
+    license: 'AGPL-3.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    stars: 891,
+    lastUpdated: '2026-03-01',
+    tags: ['charts', 'clickhouse', 'docker', 'gdpr', 'google-analytics', 'metrics', 'monitoring'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'eclaire',
+    name: 'Eclaire',
+    slug: 'eclaire',
+    tagline: 'Local-first, open-source AI assistant for your data.',
+    description:
+      'Local-first, open-source AI assistant for your data. Unify tasks, notes, docs, photos, and bookmarks. Private, self-hosted, and extensible via APIs.',
+    website: 'https://eclaire.co',
+    github: 'https://github.com/eclaire-labs/eclaire',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 810,
+    lastUpdated: '2026-02-25',
+    tags: ['ai', 'ai-assistant', 'automation', 'bookmark-manager', 'bookmarks', 'data-extraction', 'document-processing'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'geopulse',
+    name: 'Geopulse',
+    slug: 'geopulse',
+    tagline: 'A self-hosted, privacy-first location tracking platform.',
+    description:
+      'A self-hosted, privacy-first location tracking platform. The perfect open-source alternative to Google Timeline with automatic trip detection, Immich integration, and detailed analytics.',
+    website: 'https://tess1o.github.io/geopulse/',
+    github: 'https://github.com/tess1o/geopulse',
+    license: 'MIT',
+    categories: ['analytics'],
+    replacesTools: ['Google Analytics', 'Mixpanel'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📊',
+    stars: 613,
+    lastUpdated: '2026-02-27',
+    tags: ['gps-tracker', 'gps-tracking', 'java', 'owntracks', 'postgis', 'postgis-database', 'postgres'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'thiss-link',
+    name: 'Thiss.link',
+    slug: 'thiss-link',
+    tagline: '🔥 MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support',
+    description:
+      '🔥 MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support',
+    website: 'https://maglit.me',
+    github: 'https://github.com/NayamAmarshe/thiss.link',
+    license: 'AGPL-3.0',
+    categories: ['passwort-manager'],
+    replacesTools: ['LastPass', '1Password'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🔑',
+    stars: 594,
+    lastUpdated: '2026-02-24',
+    tags: ['encryption', 'foss', 'free', 'linkshortener', 'nextjs', 'open-source', 'privacy'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'relay',
+    name: 'Relay',
+    slug: 'relay',
+    tagline: '✉️ Open-Source Email API for Developers. Self-hosted Alternative to SES, Mailgun, SendGrid.',
+    description:
+      '✉️ Open-Source Email API for Developers. Self-hosted Alternative to SES, Mailgun, SendGrid.',
+    website: 'https://relay.hyvor.com',
+    github: 'https://github.com/hyvor/relay',
+    license: 'AGPL-3.0',
+    categories: ['email-server'],
+    replacesTools: ['Gmail-Server', 'Exchange'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📮',
+    stars: 524,
+    lastUpdated: '2026-02-28',
+    tags: ['email', 'smtp'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-01',
+  },
+  {
+    id: 'super',
+    name: 'Super',
+    slug: 'super',
+    tagline: '📡 SPR: Open Source, secure, user friendly and fast wifi routers for your home.',
+    description:
+      '📡 SPR: Open Source, secure, user friendly and fast wifi routers for your home. One wifi password per device. Ad Blocking & Privacy Blocklists. Policy Based Network Access',
+    website: 'https://www.supernetworks.org/',
+    github: 'https://github.com/spr-networks/super',
+    license: 'BSD-3-Clause',
+    categories: ['vpn'],
+    replacesTools: ['NordVPN', 'ExpressVPN'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🛡️',
+    stars: 502,
+    lastUpdated: '2026-02-26',
+    tags: ['adblock', 'alerting', 'coredns', 'golang', 'homelab', 'internet-filtering', 'nftables'],
     difficulty: 'mittel',
     platforms: ['linux', 'docker'],
     featured: false,
