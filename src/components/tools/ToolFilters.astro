@@ -1,5 +1,6 @@
 ---
 import type { Category } from '../../data/types';
+import { Icon } from 'astro-icon/components';
 
 interface Props {
   categories: Category[];
@@ -11,7 +12,6 @@ const { categories, licenses } = Astro.props;
 
 <div class="mb-8 p-4 rounded-xl" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border)">
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-    <!-- Search -->
     <div>
       <label for="filter-search" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Suche</label>
       <input
@@ -23,7 +23,6 @@ const { categories, licenses } = Astro.props;
       />
     </div>
 
-    <!-- Category -->
     <div>
       <label for="filter-category" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Kategorie</label>
       <select
@@ -33,12 +32,11 @@ const { categories, licenses } = Astro.props;
       >
         <option value="">Alle Kategorien</option>
         {categories.map(cat => (
-          <option value={cat.slug}>{cat.emoji} {cat.name}</option>
+          <option value={cat.slug}>{cat.name}</option>
         ))}
       </select>
     </div>
 
-    <!-- License -->
     <div>
       <label for="filter-license" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Lizenz</label>
       <select
@@ -53,7 +51,6 @@ const { categories, licenses } = Astro.props;
       </select>
     </div>
 
-    <!-- Sort -->
     <div>
       <label for="filter-sort" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Sortierung</label>
       <select
@@ -68,28 +65,30 @@ const { categories, licenses } = Astro.props;
     </div>
   </div>
 
-  <!-- Quick filters -->
   <div class="flex flex-wrap gap-2 mt-4">
     <button
-      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors"
+      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
       data-filter="selfhost"
       style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
     >
-      🏠 Nur selbst-hostbar
+      <Icon name="lucide:home" size={12} />
+      Nur selbst-hostbar
     </button>
     <button
-      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors"
+      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
       data-filter="easy"
       style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
     >
-      ● Einfache Einrichtung
+      <span class="w-2 h-2 rounded-full bg-green-400 inline-block"></span>
+      Einfache Einrichtung
     </button>
     <button
-      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors"
+      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
       data-filter="docker"
       style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
     >
-      🐳 Docker verfügbar
+      <Icon name="simple-icons:docker" size={12} />
+      Docker verf&uuml;gbar
     </button>
   </div>
 </div>

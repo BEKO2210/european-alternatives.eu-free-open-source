@@ -1,5 +1,6 @@
 ---
 import type { Tool } from '../../data/types';
+import { Icon } from 'astro-icon/components';
 import { getLicenseBadgeClass, getDifficultyBadgeClass, getDifficultyLabel } from '../../utils/tools';
 
 interface Props {
@@ -12,15 +13,26 @@ const licenseBadge = getLicenseBadgeClass(tool.license);
 const diffBadge = getDifficultyBadgeClass(tool.difficulty);
 const diffLabel = getDifficultyLabel(tool.difficulty);
 
-const platformIcons: Record<string, string> = {
-  linux: '🐧',
-  windows: '🪟',
-  macos: '🍎',
-  android: '🤖',
-  ios: '📱',
-  web: '🌐',
-  docker: '🐳',
+const platformMeta: Record<string, { icon: string; label: string }> = {
+  linux: { icon: 'simple-icons:linux', label: 'Linux' },
+  windows: { icon: 'simple-icons:windows', label: 'Windows' },
+  macos: { icon: 'simple-icons:apple', label: 'macOS' },
+  android: { icon: 'simple-icons:android', label: 'Android' },
+  ios: { icon: 'simple-icons:apple', label: 'iOS' },
+  web: { icon: 'lucide:globe', label: 'Web' },
+  docker: { icon: 'simple-icons:docker', label: 'Docker' },
 };
+
+function getToolColor(name: string): string {
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) {
+    hash = name.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const colors = ['#6366f1', '#a855f7', '#06b6d4', '#22c55e', '#f97316', '#ef4444', '#eab308', '#ec4899', '#8b5cf6', '#14b8a6'];
+  return colors[Math.abs(hash) % colors.length];
+}
+
+const toolColor = getToolColor(tool.name);
 ---
 
 <a
@@ -28,12 +40,22 @@ const platformIcons: Record<string, string> = {
   class="card block no-underline hover:no-underline group"
 >
   <div class="flex items-start gap-3 mb-3">
-    <!-- Logo / Emoji -->
     <div
-      class="w-12 h-12 rounded-xl flex items-center justify-center text-2xl flex-shrink-0"
+      class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden"
       style="background: var(--color-bg-tertiary)"
     >
-      {tool.logoPlaceholderEmoji ?? '📦'}
+      <img
+        src={`${base}logos/${tool.slug}.png`}
+        alt=""
+        class="w-8 h-8 object-contain tool-logo"
+        loading="lazy"
+      />
+      <span
+        class="tool-logo-fallback hidden items-center justify-center w-full h-full text-lg font-bold text-white rounded-xl"
+        style={`background: ${toolColor}`}
+      >
+        {tool.name.charAt(0).toUpperCase()}
+      </span>
     </div>
     <div class="min-w-0 flex-1">
       <h3 class="font-semibold text-base truncate" style="color: var(--color-text-primary)">
@@ -45,32 +67,40 @@ const platformIcons: Record<string, string> = {
     </div>
   </div>
 
-  <!-- Badges row -->
   <div class="flex flex-wrap gap-1.5 mb-3">
     <span class:list={['badge', licenseBadge]}>{tool.license}</span>
     <span class:list={['badge', diffBadge]}>{diffLabel}</span>
     {tool.selfHostable && (
-      <span class="badge badge-selfhost">🏠 Selbst hostbar</span>
+      <span class="badge badge-selfhost inline-flex items-center gap-1">
+        <Icon name="lucide:home" size={12} />
+        Selbst hostbar
+      </span>
     )}
   </div>
 
-  <!-- Replaces -->
   {tool.replacesTools.length > 0 && (
     <div class="flex flex-wrap gap-1 mb-3">
       {tool.replacesTools.map(r => (
         <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs bg-orange-500/10 text-orange-400">
-          ⚡ {r}
+          <Icon name="lucide:zap" size={10} />
+          {r}
         </span>
       ))}
     </div>
   )}
 
-  <!-- Platforms -->
   <div class="flex items-center justify-between">
-    <div class="flex gap-1">
-      {tool.platforms.map(p => (
-        <span class="text-sm" title={p}>{platformIcons[p] ?? p}</span>
-      ))}
+    <div class="flex gap-1.5 items-center">
+      {tool.platforms.map(p => {
+        const meta = platformMeta[p];
+        return meta ? (
+          <span class="w-4 h-4" style="color: var(--color-text-muted)" title={meta.label}>
+            <Icon name={meta.icon} size={16} />
+          </span>
+        ) : (
+          <span class="text-xs" style="color: var(--color-text-muted)">{p}</span>
+        );
+      })}
     </div>
     {tool.stars !== undefined && tool.stars > 0 && (
       <span class="flex items-center gap-1 text-xs" style="color: var(--color-text-muted)">
@@ -82,8 +112,17 @@ const platformIcons: Record<string, string> = {
     )}
   </div>
 
-  <!-- Hover CTA -->
   <div class="mt-3 pt-3 opacity-0 group-hover:opacity-100 transition-opacity text-center text-xs font-medium text-indigo-400" style="border-top: 1px solid var(--color-border)">
     Details ansehen →
   </div>
 </a>
+
+<script>
+  document.querySelectorAll('.tool-logo').forEach(img => {
+    (img as HTMLImageElement).addEventListener('error', function() {
+      this.style.display = 'none';
+      const fallback = this.nextElementSibling as HTMLElement;
+      if (fallback) fallback.style.display = 'flex';
+    });
+  });
+</script>

@@ -8,7 +8,7 @@ import SearchModal from '../components/ui/SearchModal.astro';
 
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
     <h1 class="text-4xl font-bold mb-4" style="color: var(--color-text-primary)">
-      🤝 <span class="gradient-text">Mitmachen</span>
+      <span class="gradient-text">Mitmachen</span>
     </h1>
     <p class="text-lg mb-12" style="color: var(--color-text-secondary)">
       Hilf mit, die größte Sammlung kostenloser Open-Source-Alternativen aufzubauen.
@@ -64,7 +64,7 @@ import SearchModal from '../components/ui/SearchModal.astro';
   replacesTools: ['Proprietäres Tool'],
   selfHostable: true,
   hostedService: 'https://hosted.example.com',
-  logoPlaceholderEmoji: '🔧',
+  logoPlaceholderEmoji: '',
   stars: 1000,
   lastUpdated: '2024-01-01',
   tags: ['tag1', 'tag2'],
@@ -78,22 +78,22 @@ import SearchModal from '../components/ui/SearchModal.astro';
       <section class="card p-6">
         <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Kriterien für Aufnahme</h2>
         <ul class="space-y-2 text-sm" style="color: var(--color-text-secondary)">
-          <li>✅ Die Software muss Open Source sein (anerkannte OSI-Lizenz)</li>
-          <li>✅ Es muss eine kostenlose Version geben (Community Edition reicht)</li>
-          <li>✅ Das Projekt muss aktiv gepflegt werden</li>
-          <li>✅ Die Software muss eine proprietäre Alternative ersetzen können</li>
-          <li>❌ Keine Abandonware oder archivierte Projekte</li>
-          <li>❌ Keine Source-Available-Lizenzen (SSPL, BSL, etc.)</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Die Software muss Open Source sein (anerkannte OSI-Lizenz)</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Es muss eine kostenlose Version geben (Community Edition reicht)</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Das Projekt muss aktiv gepflegt werden</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Die Software muss eine proprietäre Alternative ersetzen können</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg> Keine Abandonware oder archivierte Projekte</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg> Keine Source-Available-Lizenzen (SSPL, BSL, etc.)</li>
         </ul>
       </section>
 
       <section class="card p-6">
         <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Andere Wege mitzuhelfen</h2>
         <ul class="space-y-2 text-sm" style="color: var(--color-text-secondary)">
-          <li>🐛 <strong>Bug Reports:</strong> Melde Fehler als GitHub Issue</li>
-          <li>✏️ <strong>Texte verbessern:</strong> Beschreibungen überarbeiten oder ergänzen</li>
-          <li>⭐ <strong>Star-Zahlen aktualisieren:</strong> GitHub Stars regelmäßig updaten</li>
-          <li>📣 <strong>Teilen:</strong> Erzähl anderen von FOSS Alternatives</li>
+          <li><strong>Bug Reports:</strong> Melde Fehler als GitHub Issue</li>
+          <li><strong>Texte verbessern:</strong> Beschreibungen überarbeiten oder ergänzen</li>
+          <li><strong>Star-Zahlen aktualisieren:</strong> GitHub Stars regelmäßig updaten</li>
+          <li><strong>Teilen:</strong> Erzähl anderen von FOSS Alternatives</li>
         </ul>
       </section>
 

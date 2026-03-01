@@ -17,7 +17,11 @@
     "@astrojs/tailwind": "^5.1.0",
     "@fontsource/inter": "^5.0.16",
     "@fontsource/jetbrains-mono": "^5.0.18",
+    "@iconify-json/lucide": "^1.2.95",
+    "@iconify-json/simple-icons": "^1.2.71",
     "astro": "^4.5.0",
+    "astro-icon": "^1.1.5",
+    "lucide": "^0.575.0",
     "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
