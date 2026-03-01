@@ -1,0 +1,109 @@
+name: "Auto-Discover FOSS Tools"
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      min_stars:
+        description: "Minimum GitHub stars"
+        default: "500"
+      max_per_run:
+        description: "Maximum new tools per run"
+        default: "25"
+      dry_run:
+        description: "Dry run (true/false)"
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      # 2. Git identity
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # 3. Python setup
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install requests
+
+      # 4. Run discovery script
+      - name: Run FOSS tool discovery
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MIN_STARS: ${{ github.event.inputs.min_stars || '500' }}
+          MAX_PER_RUN: ${{ github.event.inputs.max_per_run || '25' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          REPO_ROOT: "."
+        run: python scripts/discover_tools.py
+
+      # 5. Read result
+      - name: Read new tools count
+        id: count
+        run: |
+          if [ -f scripts/new_tools_count.txt ]; then
+            COUNT=$(cat scripts/new_tools_count.txt)
+          else
+            COUNT=0
+          fi
+          echo "new_tools=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "Found $COUNT new tools"
+
+      # 6. Setup Node.js (only if new tools found)
+      - name: Set up Node.js 20
+        if: steps.count.outputs.new_tools != '0' && github.event.inputs.dry_run != 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install npm dependencies
+        if: steps.count.outputs.new_tools != '0' && github.event.inputs.dry_run != 'true'
+        run: npm ci
+
+      # 7. Build test
+      - name: Build test
+        id: build
+        if: steps.count.outputs.new_tools != '0' && github.event.inputs.dry_run != 'true'
+        run: npm run build
+        continue-on-error: true
+
+      # 8. Rollback on build failure
+      - name: Rollback on build failure
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo "Build failed! Rolling back generated files..."
+          git checkout -- src/data/tools/auto-tools.ts || true
+          git checkout -- src/data/tools/index.ts || true
+          git checkout -- scripts/existing_slugs.json || true
+          echo "Rollback complete. Website remains stable."
+          exit 1
+
+      # 9. Commit and push on success
+      - name: Commit and push changes
+        if: steps.count.outputs.new_tools != '0' && steps.build.outcome == 'success' && github.event.inputs.dry_run != 'true'
+        run: |
+          DATE=$(date -u +%Y-%m-%d)
+          COUNT=${{ steps.count.outputs.new_tools }}
+          git add src/data/tools/auto-tools.ts src/data/tools/index.ts scripts/existing_slugs.json scripts/new_tools_count.txt
+          git commit -m "🤖 Auto-Discovery: +${COUNT} FOSS Tools [${DATE}]
+
+          [skip ci]"
+          git push origin main

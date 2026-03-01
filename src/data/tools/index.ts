@@ -38,6 +38,7 @@ import { devToolsTools } from './dev-tools';
 import { backendFrameworksTools } from './backend-frameworks';
 import { ssgTools } from './ssg';
 import { kartenTools } from './karten';
+import { autoDiscoveredTools } from './auto-tools';
 
 export const allTools: Tool[] = [
   ...betriebssystemeTools,
@@ -79,4 +80,5 @@ export const allTools: Tool[] = [
   ...backendFrameworksTools,
   ...ssgTools,
   ...kartenTools,
+  ...autoDiscoveredTools,
 ];
