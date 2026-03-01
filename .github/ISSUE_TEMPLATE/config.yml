@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Allgemeine Fragen / Diskussionen"
+    url: https://github.com/BEKO2210/european-alternatives.eu-free-open-source/discussions
+    about: "Nutze GitHub Discussions für allgemeine Fragen und Vorschläge."

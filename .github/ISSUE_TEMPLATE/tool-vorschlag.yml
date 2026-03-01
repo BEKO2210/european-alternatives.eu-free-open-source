@@ -1,0 +1,144 @@
+name: "Tool-Vorschlag"
+description: "Schlage ein neues FOSS-Tool für die Sammlung vor."
+title: "[Tool-Vorschlag] "
+labels: ["enhancement", "new-tool"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du ein neues Tool vorschlagen möchtest!
+        Bitte fülle die folgenden Felder so vollständig wie möglich aus.
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: "Tool-Name"
+      description: "Der offizielle Name des Tools."
+      placeholder: "z.B. Nextcloud"
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: "Website-URL"
+      description: "Die offizielle Website des Tools."
+      placeholder: "https://example.com"
+    validations:
+      required: true
+
+  - type: input
+    id: github
+    attributes:
+      label: "GitHub-URL"
+      description: "Link zum GitHub-Repository (falls vorhanden)."
+      placeholder: "https://github.com/org/repo"
+    validations:
+      required: false
+
+  - type: input
+    id: license
+    attributes:
+      label: "Lizenz"
+      description: "Die Open-Source-Lizenz (SPDX-ID, z.B. MIT, GPL-3.0, AGPL-3.0, Apache-2.0)."
+      placeholder: "MIT"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Kategorie"
+      description: "In welche Kategorie passt das Tool am besten?"
+      options:
+        - "Betriebssysteme"
+        - "Bürosoftware"
+        - "Browser"
+        - "E-Mail-Clients"
+        - "E-Mail-Server & Dienste"
+        - "Cloud-Speicher & Sync"
+        - "Passwort-Manager"
+        - "Kommunikation & Chat"
+        - "Videokonferenzen"
+        - "Kalender & Kontakte"
+        - "Suchmaschinen"
+        - "Social Media"
+        - "Code-Hosting & Git"
+        - "CI/CD Pipelines"
+        - "Container & Orchestrierung"
+        - "Datenbanken"
+        - "CMS & Website-Builder"
+        - "E-Commerce"
+        - "Web-Analytics"
+        - "Monitoring & Observability"
+        - "VPN-Lösungen"
+        - "Firewall & Netzwerksicherheit"
+        - "KI & Machine Learning"
+        - "Notizen & Wissensmanagement"
+        - "Aufgaben- & Projektmanagement"
+        - "Video- & Audiobearbeitung"
+        - "Bildbearbeitung & Design"
+        - "Zeiterfassung"
+        - "ERP-Systeme"
+        - "CRM-Systeme"
+        - "Wiki & Dokumentation"
+        - "Backup-Lösungen"
+        - "DNS & Ad-Blocking"
+        - "Objekt- & Dateispeicher"
+        - "Medienserver"
+        - "Entwicklungstools & IDEs"
+        - "API & Backend-Frameworks"
+        - "Static-Site-Generatoren"
+        - "Kartendienste"
+    validations:
+      required: true
+
+  - type: input
+    id: replaces
+    attributes:
+      label: "Ersetzt welches proprietäre Tool?"
+      description: "Welche bekannten kommerziellen/proprietären Tools ersetzt dieses FOSS-Tool?"
+      placeholder: "z.B. Google Drive, Dropbox"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: self-hostable
+    attributes:
+      label: "Selbst hostbar?"
+      description: "Kann das Tool auf eigener Infrastruktur betrieben werden?"
+      options:
+        - "Ja"
+        - "Nein"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: "Schwierigkeitsgrad"
+      description: "Wie schwierig ist die Einrichtung/Nutzung?"
+      options:
+        - "einfach"
+        - "mittel"
+        - "fortgeschritten"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Beschreibung"
+      description: "Kurze Beschreibung des Tools (2-3 Sätze). Was macht es? Was zeichnet es aus?"
+      placeholder: "Nextcloud ist eine selbst hostbare Cloud-Plattform für Dateien, Kalender, Kontakte und mehr..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Warum sollte dieses Tool aufgenommen werden?"
+      description: "Was macht es besonders? Gibt es es noch nicht in der Sammlung?"
+      placeholder: "Aktive Community, regelmäßige Updates, gute Dokumentation..."
+    validations:
+      required: false

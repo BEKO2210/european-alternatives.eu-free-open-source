@@ -1,0 +1,53 @@
+name: "Fehler melden"
+description: "Melde falsche Informationen, kaputte Links oder veraltete Daten."
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du einen Fehler meldest!
+        Bitte beschreibe das Problem so genau wie möglich.
+
+  - type: dropdown
+    id: error-type
+    attributes:
+      label: "Art des Fehlers"
+      description: "Was für ein Problem hast du gefunden?"
+      options:
+        - "Veraltete Information"
+        - "Falscher Link / 404"
+        - "Falsche Lizenzangabe"
+        - "Falsche Kategorie"
+        - "Tool existiert nicht mehr"
+        - "Darstellungsfehler"
+        - "Sonstiges"
+    validations:
+      required: true
+
+  - type: input
+    id: affected-tool
+    attributes:
+      label: "Betroffenes Tool / Kategorie"
+      description: "Welches Tool oder welche Kategorie ist betroffen?"
+      placeholder: "z.B. Nextcloud, Kategorie: Cloud-Speicher"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Was ist falsch?"
+      description: "Beschreibe den Fehler so genau wie möglich."
+      placeholder: "Der GitHub-Link von Tool XYZ führt zu einem 404..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: "Korrekte Information / Quelle"
+      description: "Falls du die richtige Information hast, teile sie hier mit."
+      placeholder: "Der korrekte Link ist: https://..."
+    validations:
+      required: false
