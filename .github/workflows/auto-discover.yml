@@ -103,7 +103,5 @@ jobs:
           DATE=$(date -u +%Y-%m-%d)
           COUNT=${{ steps.count.outputs.new_tools }}
           git add src/data/tools/auto-tools.ts src/data/tools/index.ts scripts/existing_slugs.json scripts/new_tools_count.txt
-          git commit -m "🤖 Auto-Discovery: +${COUNT} FOSS Tools [${DATE}]
-
-          [skip ci]"
+          git commit -m "🤖 Auto-Discovery: +${COUNT} FOSS Tools [${DATE}]"
           git push origin main
