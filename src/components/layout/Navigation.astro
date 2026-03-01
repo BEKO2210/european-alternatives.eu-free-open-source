@@ -29,16 +29,7 @@ function isActive(href: string): boolean {
         class="flex items-center gap-2 no-underline hover:no-underline"
         aria-label="FOSS Alternatives Startseite"
       >
-        <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="navShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" style="stop-color:#6366f1" />
-              <stop offset="100%" style="stop-color:#a855f7" />
-            </linearGradient>
-          </defs>
-          <path d="M16 2L4 7v8c0 7.73 5.12 14.96 12 17 6.88-2.04 12-9.27 12-17V7L16 2z" fill="url(#navShieldGrad)"/>
-          <path d="M13 16l-2-2-1.5 1.5L13 19l7-7-1.5-1.5L13 16z" fill="white"/>
-        </svg>
+        <img src={`${base}icon.png`} alt="FOSS Alternatives" class="w-8 h-8 rounded-lg" />
         <span class="font-bold text-lg" style="color: var(--color-text-primary)">
           FOSS <span class="gradient-text">Alternatives</span>
         </span>

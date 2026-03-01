@@ -1,5 +1,6 @@
 ---
 import type { Tool, Category } from '../../data/types';
+import { Icon } from 'astro-icon/components';
 import { getLicenseBadgeClass, getDifficultyBadgeClass, getDifficultyLabel, getRelatedTools } from '../../utils/tools';
 import ToolCard from './ToolCard.astro';
 
@@ -18,19 +19,45 @@ const relatedTools = getRelatedTools(allTools, tool, 3);
 
 const toolCategories = categories.filter(c => tool.categories.includes(c.slug));
 
-const platformLabels: Record<string, string> = {
-  linux: '🐧 Linux',
-  windows: '🪟 Windows',
-  macos: '🍎 macOS',
-  android: '🤖 Android',
-  ios: '📱 iOS',
-  web: '🌐 Web',
-  docker: '🐳 Docker',
+const platformMeta: Record<string, { icon: string; label: string }> = {
+  linux: { icon: 'simple-icons:linux', label: 'Linux' },
+  windows: { icon: 'simple-icons:windows', label: 'Windows' },
+  macos: { icon: 'simple-icons:apple', label: 'macOS' },
+  android: { icon: 'simple-icons:android', label: 'Android' },
+  ios: { icon: 'simple-icons:apple', label: 'iOS' },
+  web: { icon: 'lucide:globe', label: 'Web' },
+  docker: { icon: 'simple-icons:docker', label: 'Docker' },
+};
+
+function getToolColor(name: string): string {
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) {
+    hash = name.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const colors = ['#6366f1', '#a855f7', '#06b6d4', '#22c55e', '#f97316', '#ef4444', '#eab308', '#ec4899', '#8b5cf6', '#14b8a6'];
+  return colors[Math.abs(hash) % colors.length];
+}
+
+const toolColor = getToolColor(tool.name);
+
+const categoryIconMap: Record<string, string> = {
+  'monitor': 'lucide:monitor', 'file-text': 'lucide:file-text', 'globe': 'lucide:globe',
+  'mail': 'lucide:mail', 'mailbox': 'lucide:inbox', 'cloud': 'lucide:cloud',
+  'key': 'lucide:key', 'message-circle': 'lucide:message-circle', 'video': 'lucide:video',
+  'calendar': 'lucide:calendar', 'search': 'lucide:search', 'smartphone': 'lucide:smartphone',
+  'git-branch': 'lucide:git-branch', 'refresh-cw': 'lucide:refresh-cw', 'package': 'lucide:package',
+  'database': 'lucide:database', 'layout': 'lucide:layout', 'shopping-cart': 'lucide:shopping-cart',
+  'bar-chart': 'lucide:bar-chart-2', 'activity': 'lucide:activity', 'shield': 'lucide:shield',
+  'flame': 'lucide:flame', 'cpu': 'lucide:cpu', 'edit': 'lucide:pencil',
+  'check-square': 'lucide:square-check', 'film': 'lucide:film', 'palette': 'lucide:palette',
+  'clock': 'lucide:clock', 'factory': 'lucide:building-2', 'handshake': 'lucide:handshake',
+  'book-open': 'lucide:book-open', 'save': 'lucide:save', 'ban': 'lucide:ban',
+  'archive': 'lucide:archive', 'music': 'lucide:music', 'terminal': 'lucide:terminal',
+  'settings': 'lucide:settings', 'rocket': 'lucide:rocket', 'map': 'lucide:map',
 };
 ---
 
 <article>
-  <!-- Breadcrumb -->
   <nav class="mb-6 text-sm" aria-label="Breadcrumb">
     <ol class="flex items-center gap-2" style="color: var(--color-text-muted)">
       <li><a href={base} class="hover:text-indigo-400">Startseite</a></li>
@@ -45,25 +72,36 @@ const platformLabels: Record<string, string> = {
     </ol>
   </nav>
 
-  <!-- Header -->
   <div class="flex flex-col sm:flex-row items-start gap-6 mb-8">
     <div
-      class="w-20 h-20 rounded-2xl flex items-center justify-center text-4xl flex-shrink-0"
+      class="w-20 h-20 rounded-2xl flex items-center justify-center flex-shrink-0 overflow-hidden"
       style="background: var(--color-bg-tertiary)"
     >
-      {tool.logoPlaceholderEmoji ?? '📦'}
+      <img
+        src={`${base}logos/${tool.slug}.png`}
+        alt=""
+        class="w-14 h-14 object-contain tool-logo-detail"
+      />
+      <span
+        class="tool-logo-detail-fallback hidden items-center justify-center w-full h-full text-3xl font-bold text-white rounded-2xl"
+        style={`background: ${toolColor}`}
+      >
+        {tool.name.charAt(0).toUpperCase()}
+      </span>
     </div>
     <div class="flex-1">
       <div class="flex flex-wrap items-center gap-3 mb-2">
         <h1 class="text-3xl font-bold" style="color: var(--color-text-primary)">{tool.name}</h1>
-        <span class="badge badge-foss">🛡️ Open Source</span>
+        <span class="badge badge-foss inline-flex items-center gap-1">
+          <Icon name="lucide:shield-check" size={14} />
+          Open Source
+        </span>
         <span class:list={['badge', licenseBadge]}>{tool.license}</span>
       </div>
       <p class="text-lg" style="color: var(--color-text-secondary)">{tool.tagline}</p>
     </div>
   </div>
 
-  <!-- Meta Grid -->
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
     <div class="card p-4">
       <div class="text-xs mb-1" style="color: var(--color-text-muted)">Website</div>
@@ -84,42 +122,43 @@ const platformLabels: Record<string, string> = {
       <span class:list={['badge', diffBadge]}>{diffLabel}</span>
     </div>
     <div class="card p-4">
-      <div class="text-xs mb-1" style="color: var(--color-text-muted)">Letzte Prüfung</div>
+      <div class="text-xs mb-1" style="color: var(--color-text-muted)">Letzte Pr&uuml;fung</div>
       <span class="text-sm font-medium" style="color: var(--color-text-primary)">{tool.lastUpdated}</span>
     </div>
   </div>
 
-  <!-- Description -->
   <div class="card p-6 mb-8">
     <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Beschreibung</h2>
     <p class="leading-relaxed" style="color: var(--color-text-secondary)">{tool.description}</p>
   </div>
 
-  <!-- Platforms -->
   <div class="card p-6 mb-8">
     <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Plattformen</h2>
     <div class="flex flex-wrap gap-2">
-      {tool.platforms.map(p => (
-        <span class="badge bg-slate-500/20 text-slate-300 border-slate-500/30">
-          {platformLabels[p] ?? p}
-        </span>
-      ))}
+      {tool.platforms.map(p => {
+        const meta = platformMeta[p];
+        return (
+          <span class="badge bg-slate-500/20 text-slate-300 border-slate-500/30 inline-flex items-center gap-1.5">
+            {meta ? <Icon name={meta.icon} size={14} /> : null}
+            {meta?.label ?? p}
+          </span>
+        );
+      })}
     </div>
   </div>
 
-  <!-- Replaces -->
   {tool.replacesTools.length > 0 && (
     <div class="card p-6 mb-8">
       <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">
-        Ersetzt folgende proprietäre Tools
+        Ersetzt folgende propriet&auml;re Tools
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
         {tool.replacesTools.map(r => (
           <div class="flex items-center gap-3 p-3 rounded-lg" style="background: var(--color-bg-tertiary)">
-            <span class="text-red-400">❌</span>
+            <span class="text-red-400"><Icon name="lucide:x-circle" size={18} /></span>
             <span class="text-sm line-through" style="color: var(--color-text-muted)">{r}</span>
-            <span style="color: var(--color-text-muted)">→</span>
-            <span class="text-green-400">✅</span>
+            <span style="color: var(--color-text-muted)">&rarr;</span>
+            <span class="text-green-400"><Icon name="lucide:check-circle" size={18} /></span>
             <span class="text-sm font-medium" style="color: var(--color-text-primary)">{tool.name}</span>
           </div>
         ))}
@@ -127,14 +166,14 @@ const platformLabels: Record<string, string> = {
     </div>
   )}
 
-  <!-- Self-hosting -->
   {tool.selfHostable && (
     <div class="card p-6 mb-8 border-indigo-500/30">
       <h2 class="text-lg font-semibold mb-3 flex items-center gap-2" style="color: var(--color-text-primary)">
-        🏠 Selbst hosten
+        <Icon name="lucide:home" size={20} />
+        Selbst hosten
       </h2>
       <p class="text-sm mb-3" style="color: var(--color-text-secondary)">
-        {tool.name} kann auf eigener Infrastruktur betrieben werden. Besuche die offizielle Dokumentation für eine Installationsanleitung.
+        {tool.name} kann auf eigener Infrastruktur betrieben werden. Besuche die offizielle Dokumentation f&uuml;r eine Installationsanleitung.
       </p>
       <a
         href={tool.website}
@@ -142,27 +181,26 @@ const platformLabels: Record<string, string> = {
         rel="noopener noreferrer"
         class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-colors"
       >
-        Zur Dokumentation →
+        Zur Dokumentation &rarr;
       </a>
     </div>
   )}
 
-  <!-- Categories -->
   <div class="card p-6 mb-8">
     <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Kategorien</h2>
     <div class="flex flex-wrap gap-2">
       {toolCategories.map(cat => (
         <a
           href={`${base}kategorie/${cat.slug}`}
-          class="badge bg-indigo-500/20 text-indigo-300 border-indigo-500/30 no-underline hover:no-underline hover:bg-indigo-500/30"
+          class="badge bg-indigo-500/20 text-indigo-300 border-indigo-500/30 no-underline hover:no-underline hover:bg-indigo-500/30 inline-flex items-center gap-1.5"
         >
-          {cat.emoji} {cat.name}
+          {categoryIconMap[cat.icon] && <Icon name={categoryIconMap[cat.icon]} size={14} />}
+          {cat.name}
         </a>
       ))}
     </div>
   </div>
 
-  <!-- Tags -->
   {tool.tags.length > 0 && (
     <div class="card p-6 mb-8">
       <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Tags</h2>
@@ -176,10 +214,9 @@ const platformLabels: Record<string, string> = {
     </div>
   )}
 
-  <!-- Related Tools -->
   {relatedTools.length > 0 && (
     <div class="mb-8">
-      <h2 class="text-lg font-semibold mb-4" style="color: var(--color-text-primary)">Ähnliche Tools</h2>
+      <h2 class="text-lg font-semibold mb-4" style="color: var(--color-text-primary)">&Auml;hnliche Tools</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         {relatedTools.map(t => (
           <ToolCard tool={t} />
@@ -188,13 +225,22 @@ const platformLabels: Record<string, string> = {
     </div>
   )}
 
-  <!-- Back button -->
   {toolCategories[0] && (
     <a
       href={`${base}kategorie/${toolCategories[0].slug}`}
       class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
     >
-      ← Zurück zu {toolCategories[0].name}
+      &larr; Zur&uuml;ck zu {toolCategories[0].name}
     </a>
   )}
 </article>
+
+<script>
+  document.querySelectorAll('.tool-logo-detail').forEach(img => {
+    (img as HTMLImageElement).addEventListener('error', function() {
+      this.style.display = 'none';
+      const fallback = this.nextElementSibling as HTMLElement;
+      if (fallback) fallback.style.display = 'flex';
+    });
+  });
+</script>

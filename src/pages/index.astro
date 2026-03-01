@@ -23,7 +23,7 @@ const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
   <section class="gradient-bg-hero min-h-screen flex items-center justify-center pt-16">
     <div class="max-w-4xl mx-auto px-4 text-center">
       <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm mb-8 animate-fade-in" style="background: var(--color-accent-green-glow); border: 1px solid rgba(34,197,94,0.3); color: #86efac">
-        🛡️ 100% Open Source · 100% Kostenlos
+        <svg class="w-4 h-4 inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 .56-.89l7-4a1 1 0 0 1 .88 0l7 4A1 1 0 0 1 20 6z"/><path d="m9 12 2 2 4-4"/></svg> 100% Open Source · 100% Kostenlos
       </div>
 
       <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 animate-fade-in-up" style="color: var(--color-text-primary)">
@@ -58,13 +58,13 @@ const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
       <!-- Stats -->
       <div class="flex flex-wrap items-center justify-center gap-4 animate-fade-in-up" style="animation-delay: 0.3s">
         <span class="px-4 py-2 rounded-full text-sm font-medium" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border); color: var(--color-text-secondary)">
-          📦 {totalTools} Tools
+          {totalTools} Tools
         </span>
         <span class="px-4 py-2 rounded-full text-sm font-medium" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border); color: var(--color-text-secondary)">
-          📂 {totalCategories} Kategorien
+          {totalCategories} Kategorien
         </span>
         <span class="px-4 py-2 rounded-full text-sm font-medium" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border); color: var(--color-text-secondary)">
-          📜 {uniqueLicenses} Lizenzen
+          {uniqueLicenses} Lizenzen
         </span>
       </div>
     </div>
@@ -132,13 +132,13 @@ const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
           href={`${base}vergleich`}
           class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-all"
         >
-          🔄 Alternativen finden
+          Alternativen finden
         </a>
         <a
           href={`${base}selbst-hosten`}
           class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline border border-indigo-500/50 text-indigo-400 hover:bg-indigo-500/10 transition-all"
         >
-          🏠 Selbst hosten lernen
+          Selbst hosten lernen
         </a>
       </div>
     </div>

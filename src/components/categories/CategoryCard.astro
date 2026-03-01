@@ -1,5 +1,6 @@
 ---
 import type { Category } from '../../data/types';
+import { Icon } from 'astro-icon/components';
 import { getCategoryColor } from '../../utils/categories';
 
 interface Props {
@@ -9,6 +10,24 @@ interface Props {
 const { category } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const colorClasses = getCategoryColor(category.color);
+
+const categoryIconMap: Record<string, string> = {
+  'monitor': 'lucide:monitor', 'file-text': 'lucide:file-text', 'globe': 'lucide:globe',
+  'mail': 'lucide:mail', 'mailbox': 'lucide:inbox', 'cloud': 'lucide:cloud',
+  'key': 'lucide:key', 'message-circle': 'lucide:message-circle', 'video': 'lucide:video',
+  'calendar': 'lucide:calendar', 'search': 'lucide:search', 'smartphone': 'lucide:smartphone',
+  'git-branch': 'lucide:git-branch', 'refresh-cw': 'lucide:refresh-cw', 'package': 'lucide:package',
+  'database': 'lucide:database', 'layout': 'lucide:layout', 'shopping-cart': 'lucide:shopping-cart',
+  'bar-chart': 'lucide:bar-chart-2', 'activity': 'lucide:activity', 'shield': 'lucide:shield',
+  'flame': 'lucide:flame', 'cpu': 'lucide:cpu', 'edit': 'lucide:pencil',
+  'check-square': 'lucide:square-check', 'film': 'lucide:film', 'palette': 'lucide:palette',
+  'clock': 'lucide:clock', 'factory': 'lucide:building-2', 'handshake': 'lucide:handshake',
+  'book-open': 'lucide:book-open', 'save': 'lucide:save', 'ban': 'lucide:ban',
+  'archive': 'lucide:archive', 'music': 'lucide:music', 'terminal': 'lucide:terminal',
+  'settings': 'lucide:settings', 'rocket': 'lucide:rocket', 'map': 'lucide:map',
+};
+
+const iconName = categoryIconMap[category.icon] ?? 'lucide:folder';
 ---
 
 <a
@@ -19,7 +38,9 @@ const colorClasses = getCategoryColor(category.color);
     colorClasses,
   ]}
 >
-  <div class="text-3xl mb-3">{category.emoji}</div>
+  <div class="mb-3" style="color: var(--color-text-primary)">
+    <Icon name={iconName} size={28} />
+  </div>
   <h3 class="font-semibold text-sm mb-1" style="color: var(--color-text-primary)">
     {category.name}
   </h3>
