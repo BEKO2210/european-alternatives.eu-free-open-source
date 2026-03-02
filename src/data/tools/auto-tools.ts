@@ -3044,6 +3044,532 @@ import type { Tool } from '../types';
     ],
     "featured": false,
     "addedDate": "2026-03-01"
+  },
+  {
+    "id": "nhost",
+    "name": "Nhost",
+    "slug": "nhost",
+    "tagline": "The Open Source Firebase Alternative with GraphQL.",
+    "description": "The Open Source Firebase Alternative with GraphQL.",
+    "website": "https://nhost.io",
+    "github": "https://github.com/nhost/nhost",
+    "license": "MIT",
+    "categories": [
+      "backend-frameworks"
+    ],
+    "replacesTools": [
+      "Firebase",
+      "Supabase Pro"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "⚙️",
+    "stars": 9089,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "authentication",
+      "backend",
+      "backend-as-a-service",
+      "database",
+      "firebase",
+      "flutter",
+      "graphql"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "swanlab",
+    "name": "Swanlab",
+    "slug": "swanlab",
+    "tagline": "⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool.",
+    "description": "⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultralytics / MMEngine / Keras etc.",
+    "website": "https://swanlab.cn",
+    "github": "https://github.com/SwanHubX/SwanLab",
+    "license": "Apache-2.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 3622,
+    "lastUpdated": "2026-03-02",
+    "tags": [
+      "data-science",
+      "deep-learning",
+      "llm",
+      "logging",
+      "machine-learning",
+      "mlops",
+      "model-versioning"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "lsp-ai",
+    "name": "Lsp Ai",
+    "slug": "lsp-ai",
+    "tagline": "LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist an...",
+    "description": "LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist and empower software engineers, not replace them.",
+    "website": "https://github.com/SilasMarvin/lsp-ai",
+    "github": "https://github.com/SilasMarvin/lsp-ai",
+    "license": "MIT",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 3140,
+    "lastUpdated": "2025-01-07",
+    "tags": [
+      "ai",
+      "auto-completion",
+      "developer-tools",
+      "ide",
+      "language-client",
+      "llama",
+      "llamacpp"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "octobase",
+    "name": "Octobase",
+    "slug": "octobase",
+    "tagline": "🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative.",
+    "description": "🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative. A light-weight, scalable, data engine written in Rust.",
+    "website": "https://octobase.dev",
+    "github": "https://github.com/toeverything/OctoBase",
+    "license": "AGPL-3.0",
+    "categories": [
+      "datenbanken"
+    ],
+    "replacesTools": [
+      "Oracle",
+      "MSSQL"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🗄️",
+    "stars": 1901,
+    "lastUpdated": "2025-03-05",
+    "tags": [
+      "collaborative",
+      "crdt",
+      "database",
+      "decentralized-storage",
+      "p2p",
+      "rust",
+      "self-contained"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "graft",
+    "name": "Graft",
+    "slug": "graft",
+    "tagline": "Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication...",
+    "description": "Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication—perfect for edge, offline-first, and distributed applications.",
+    "website": "https://graft.rs",
+    "github": "https://github.com/orbitinghail/graft",
+    "license": "Apache-2.0",
+    "categories": [
+      "datenbanken"
+    ],
+    "replacesTools": [
+      "Oracle",
+      "MSSQL"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🗄️",
+    "stars": 1409,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "database",
+      "edge",
+      "replication",
+      "sqlite",
+      "storage",
+      "storage-engine"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "audiomuse-ai",
+    "name": "Audiomuse Ai",
+    "slug": "audiomuse-ai",
+    "tagline": "AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to Jellyfin, Navidrom...",
+    "description": "AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to Jellyfin, Navidrome, LMS, Lyrion and Emby. Using powerful tools like Librosa and ONNX, it performs sonic analysis on your audio files locally, allowing you to curate the perfect playlist for any mood or occasion without relying on external APIs.",
+    "website": "https://neptunehub.github.io/AudioMuse-AI/",
+    "github": "https://github.com/NeptuneHub/AudioMuse-AI",
+    "license": "AGPL-3.0",
+    "categories": [
+      "container"
+    ],
+    "replacesTools": [
+      "Docker Hub",
+      "Kubernetes EKS"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📦",
+    "stars": 1319,
+    "lastUpdated": "2026-02-28",
+    "tags": [
+      "clap",
+      "docker",
+      "emby",
+      "jellyfin",
+      "jellyfin-plugin",
+      "k3s",
+      "kubernetes"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "learnhouse",
+    "name": "Learnhouse",
+    "slug": "learnhouse",
+    "tagline": "The Next-gen Open Source learning platform for everyone ✨",
+    "description": "The Next-gen Open Source learning platform for everyone ✨",
+    "website": "https://learnhouse.app",
+    "github": "https://github.com/learnhouse/learnhouse",
+    "license": "AGPL-3.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 1309,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "ai",
+      "ai-powered",
+      "api",
+      "cms",
+      "education",
+      "educational",
+      "headless"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "browserable",
+    "name": "Browserable",
+    "slug": "browserable",
+    "tagline": "Open source and self-hostable browser automation library for AI agents",
+    "description": "Open source and self-hostable browser automation library for AI agents",
+    "website": "https://browserable.ai",
+    "github": "https://github.com/browserable/browserable",
+    "license": "MIT",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "stars": 1162,
+    "lastUpdated": "2025-08-27",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "browser-automation",
+      "browser-use",
+      "browser-use-js",
+      "deep-research",
+      "javascript"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "alchemy-cms",
+    "name": "Alchemy Cms",
+    "slug": "alchemy-cms",
+    "tagline": "Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic server side re...",
+    "description": "Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic server side rendered or headless CMS.",
+    "website": "https://www.alchemy-cms.com",
+    "github": "https://github.com/AlchemyCMS/alchemy_cms",
+    "license": "BSD-3-Clause",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 890,
+    "lastUpdated": "2026-03-01",
+    "tags": [
+      "admin",
+      "alchemy-cms",
+      "cms",
+      "content-management-system",
+      "rails",
+      "rails-engine",
+      "ruby"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "mix-core",
+    "name": "Mix.core",
+    "slug": "mix-core",
+    "tagline": "🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches.",
+    "description": "🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches. Build any type of app with customizable APIs on ASP.NET Core/.NET Core. Completely open-source and designed for flexibility.",
+    "website": "https://mixcore.org",
+    "github": "https://github.com/mixcore/mix.core",
+    "license": "MIT",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 881,
+    "lastUpdated": "2026-01-29",
+    "tags": [
+      "angular",
+      "asp",
+      "asp-net-core",
+      "asp-net-core-content-management-system",
+      "bootstrap",
+      "cms",
+      "content-management-system"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "web"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "mesh",
+    "name": "Mesh",
+    "slug": "mesh",
+    "tagline": "Gentics Mesh - The open source headless CMS for developers",
+    "description": "Gentics Mesh - The open source headless CMS for developers",
+    "website": "https://getmesh.io",
+    "github": "https://github.com/gentics/mesh",
+    "license": "Apache-2.0",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 589,
+    "lastUpdated": "2026-02-26",
+    "tags": [
+      "api-first",
+      "cms",
+      "cms-api",
+      "gentics-mesh",
+      "graphql-api",
+      "headless-cms"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "truthy",
+    "name": "Truthy",
+    "slug": "truthy",
+    "tagline": "Open source headless CMS API written using NestJS, that has pre built modules like User Management, Role Management, ...",
+    "description": "Open source headless CMS API written using NestJS, that has pre built modules like User Management, Role Management, Permission Management, Email Module, Account Settings, OTP, Throttling, RBAC support, Localization, and many more.",
+    "website": "https://github.com/gobeam/truthy",
+    "github": "https://github.com/gobeam/truthy",
+    "license": "MIT",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 589,
+    "lastUpdated": "2025-02-01",
+    "tags": [
+      "api",
+      "api-rest",
+      "awesome-nestjs-boilerplate",
+      "boilerplate",
+      "cms",
+      "demo",
+      "headless-cms"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "flextype",
+    "name": "Flextype",
+    "slug": "flextype",
+    "tagline": "Modern Open Source Flat Files Content Management System.",
+    "description": "Modern Open Source Flat Files Content Management System.",
+    "website": "https://awilum.github.io/flextype",
+    "github": "https://github.com/flextype/flextype",
+    "license": "MIT",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 588,
+    "lastUpdated": "2022-11-19",
+    "tags": [
+      "api",
+      "cms",
+      "content",
+      "content-management",
+      "content-management-system",
+      "doctrine",
+      "flat-file"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
+  },
+  {
+    "id": "vaahcms",
+    "name": "Vaahcms",
+    "slug": "vaahcms",
+    "tagline": "VaahCMS is a laravel based open-source web application development platform shipped with a headless content managemen...",
+    "description": "VaahCMS is a laravel based open-source web application development platform shipped with a headless content management system (CMS).",
+    "website": "https://vaah.dev/cms",
+    "github": "https://github.com/webreinvent/vaahcms",
+    "license": "MIT",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "stars": 574,
+    "lastUpdated": "2026-02-16",
+    "tags": [
+      "admin",
+      "application",
+      "backend",
+      "buefy",
+      "bulma",
+      "cms",
+      "content-management"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-02"
   }
 ]
 END_AUTO_TOOLS_JSON */
@@ -4830,5 +5356,313 @@ export const autoDiscoveredTools: Tool[] = [
     platforms: ['linux', 'macos'],
     featured: false,
     addedDate: '2026-03-01',
+  },
+  {
+    id: 'nhost',
+    name: 'Nhost',
+    slug: 'nhost',
+    tagline: 'The Open Source Firebase Alternative with GraphQL.',
+    description:
+      'The Open Source Firebase Alternative with GraphQL.',
+    website: 'https://nhost.io',
+    github: 'https://github.com/nhost/nhost',
+    license: 'MIT',
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '⚙️',
+    stars: 9089,
+    lastUpdated: '2026-03-01',
+    tags: ['authentication', 'backend', 'backend-as-a-service', 'database', 'firebase', 'flutter', 'graphql'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'swanlab',
+    name: 'Swanlab',
+    slug: 'swanlab',
+    tagline: '⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool.',
+    description:
+      '⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultralytics / MMEngine / Keras etc.',
+    website: 'https://swanlab.cn',
+    github: 'https://github.com/SwanHubX/SwanLab',
+    license: 'Apache-2.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 3622,
+    lastUpdated: '2026-03-02',
+    tags: ['data-science', 'deep-learning', 'llm', 'logging', 'machine-learning', 'mlops', 'model-versioning'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'macos'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'lsp-ai',
+    name: 'Lsp Ai',
+    slug: 'lsp-ai',
+    tagline: 'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist an...',
+    description:
+      'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist and empower software engineers, not replace them.',
+    website: 'https://github.com/SilasMarvin/lsp-ai',
+    github: 'https://github.com/SilasMarvin/lsp-ai',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 3140,
+    lastUpdated: '2025-01-07',
+    tags: ['ai', 'auto-completion', 'developer-tools', 'ide', 'language-client', 'llama', 'llamacpp'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'macos'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'octobase',
+    name: 'Octobase',
+    slug: 'octobase',
+    tagline: '🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative.',
+    description:
+      '🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative. A light-weight, scalable, data engine written in Rust.',
+    website: 'https://octobase.dev',
+    github: 'https://github.com/toeverything/OctoBase',
+    license: 'AGPL-3.0',
+    categories: ['datenbanken'],
+    replacesTools: ['Oracle', 'MSSQL'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🗄️',
+    stars: 1901,
+    lastUpdated: '2025-03-05',
+    tags: ['collaborative', 'crdt', 'database', 'decentralized-storage', 'p2p', 'rust', 'self-contained'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'graft',
+    name: 'Graft',
+    slug: 'graft',
+    tagline: 'Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication...',
+    description:
+      'Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication—perfect for edge, offline-first, and distributed applications.',
+    website: 'https://graft.rs',
+    github: 'https://github.com/orbitinghail/graft',
+    license: 'Apache-2.0',
+    categories: ['datenbanken'],
+    replacesTools: ['Oracle', 'MSSQL'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🗄️',
+    stars: 1409,
+    lastUpdated: '2026-03-01',
+    tags: ['database', 'edge', 'replication', 'sqlite', 'storage', 'storage-engine'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'audiomuse-ai',
+    name: 'Audiomuse Ai',
+    slug: 'audiomuse-ai',
+    tagline: 'AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to Jellyfin, Navidrom...',
+    description:
+      'AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to Jellyfin, Navidrome, LMS, Lyrion and Emby. Using powerful tools like Librosa and ONNX, it performs sonic analysis on your audio files locally, allowing you to curate the perfect playlist for any mood or occasion without relying on external APIs.',
+    website: 'https://neptunehub.github.io/AudioMuse-AI/',
+    github: 'https://github.com/NeptuneHub/AudioMuse-AI',
+    license: 'AGPL-3.0',
+    categories: ['container'],
+    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📦',
+    stars: 1319,
+    lastUpdated: '2026-02-28',
+    tags: ['clap', 'docker', 'emby', 'jellyfin', 'jellyfin-plugin', 'k3s', 'kubernetes'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'learnhouse',
+    name: 'Learnhouse',
+    slug: 'learnhouse',
+    tagline: 'The Next-gen Open Source learning platform for everyone ✨',
+    description:
+      'The Next-gen Open Source learning platform for everyone ✨',
+    website: 'https://learnhouse.app',
+    github: 'https://github.com/learnhouse/learnhouse',
+    license: 'AGPL-3.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 1309,
+    lastUpdated: '2026-03-01',
+    tags: ['ai', 'ai-powered', 'api', 'cms', 'education', 'educational', 'headless'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'browserable',
+    name: 'Browserable',
+    slug: 'browserable',
+    tagline: 'Open source and self-hostable browser automation library for AI agents',
+    description:
+      'Open source and self-hostable browser automation library for AI agents',
+    website: 'https://browserable.ai',
+    github: 'https://github.com/browserable/browserable',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    stars: 1162,
+    lastUpdated: '2025-08-27',
+    tags: ['ai-agents', 'ai-tools', 'browser-automation', 'browser-use', 'browser-use-js', 'deep-research', 'javascript'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'alchemy-cms',
+    name: 'Alchemy Cms',
+    slug: 'alchemy-cms',
+    tagline: 'Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic server side re...',
+    description:
+      'Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic server side rendered or headless CMS.',
+    website: 'https://www.alchemy-cms.com',
+    github: 'https://github.com/AlchemyCMS/alchemy_cms',
+    license: 'BSD-3-Clause',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 890,
+    lastUpdated: '2026-03-01',
+    tags: ['admin', 'alchemy-cms', 'cms', 'content-management-system', 'rails', 'rails-engine', 'ruby'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'mix-core',
+    name: 'Mix.core',
+    slug: 'mix-core',
+    tagline: '🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches.',
+    description:
+      '🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches. Build any type of app with customizable APIs on ASP.NET Core/.NET Core. Completely open-source and designed for flexibility.',
+    website: 'https://mixcore.org',
+    github: 'https://github.com/mixcore/mix.core',
+    license: 'MIT',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 881,
+    lastUpdated: '2026-01-29',
+    tags: ['angular', 'asp', 'asp-net-core', 'asp-net-core-content-management-system', 'bootstrap', 'cms', 'content-management-system'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'web'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'mesh',
+    name: 'Mesh',
+    slug: 'mesh',
+    tagline: 'Gentics Mesh - The open source headless CMS for developers',
+    description:
+      'Gentics Mesh - The open source headless CMS for developers',
+    website: 'https://getmesh.io',
+    github: 'https://github.com/gentics/mesh',
+    license: 'Apache-2.0',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 589,
+    lastUpdated: '2026-02-26',
+    tags: ['api-first', 'cms', 'cms-api', 'gentics-mesh', 'graphql-api', 'headless-cms'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'truthy',
+    name: 'Truthy',
+    slug: 'truthy',
+    tagline: 'Open source headless CMS API written using NestJS, that has pre built modules like User Management, Role Management, ...',
+    description:
+      'Open source headless CMS API written using NestJS, that has pre built modules like User Management, Role Management, Permission Management, Email Module, Account Settings, OTP, Throttling, RBAC support, Localization, and many more.',
+    website: 'https://github.com/gobeam/truthy',
+    github: 'https://github.com/gobeam/truthy',
+    license: 'MIT',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 589,
+    lastUpdated: '2025-02-01',
+    tags: ['api', 'api-rest', 'awesome-nestjs-boilerplate', 'boilerplate', 'cms', 'demo', 'headless-cms'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'flextype',
+    name: 'Flextype',
+    slug: 'flextype',
+    tagline: 'Modern Open Source Flat Files Content Management System.',
+    description:
+      'Modern Open Source Flat Files Content Management System.',
+    website: 'https://awilum.github.io/flextype',
+    github: 'https://github.com/flextype/flextype',
+    license: 'MIT',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 588,
+    lastUpdated: '2022-11-19',
+    tags: ['api', 'cms', 'content', 'content-management', 'content-management-system', 'doctrine', 'flat-file'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-02',
+  },
+  {
+    id: 'vaahcms',
+    name: 'Vaahcms',
+    slug: 'vaahcms',
+    tagline: 'VaahCMS is a laravel based open-source web application development platform shipped with a headless content managemen...',
+    description:
+      'VaahCMS is a laravel based open-source web application development platform shipped with a headless content management system (CMS).',
+    website: 'https://vaah.dev/cms',
+    github: 'https://github.com/webreinvent/vaahcms',
+    license: 'MIT',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    stars: 574,
+    lastUpdated: '2026-02-16',
+    tags: ['admin', 'application', 'backend', 'buefy', 'bulma', 'cms', 'content-management'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-02',
   },
 ];
