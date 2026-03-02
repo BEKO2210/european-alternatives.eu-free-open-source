@@ -5,6 +5,22 @@ Alle wesentlichen Änderungen an diesem Projekt werden in dieser Datei dokumenti
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.1.0/)
 und dieses Projekt folgt [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.1.0] - 2026-03-02
+
+### Fixed
+
+- 12 falsche GitHub-Links in browser.ts und email-clients.ts korrigiert (zeigten auf falschen User statt auf offizielle Repos wie mozilla-firefox/firefox, brave/brave-browser, GNOME/geary, etc.)
+- MinIO als nicht-featured markiert und Hinweis auf Dual-Licensing-Modell (AGPL-3.0/kommerziell) ergänzt
+
+### Added
+
+- Auto-Discovery: 10 zusätzliche Suchqueries für unterrepräsentierte Kategorien (KI-Agenten, Notizen, Projektmanagement, Video/Audio, Bildbearbeitung, Backup, Medienserver, ERP, Wiki, Kalender)
+- Auto-Discovery: Neue Keyword-Mappings für KI-Assistenten (ai-agent, ai-assistant, chatbot, autonomous-agent, local-ai, ollama)
+- Auto-Discovery: logoUrl-Support — GitHub-Avatar des Repository-Owners wird als Tool-Logo verwendet
+- ToolCard und ToolDetail: Fallback-Kette für Logos (lokales PNG → GitHub-Avatar → Buchstaben-Fallback)
+
+---
+
 ## [1.0.0] - 2026-03-01
 
 ### Added

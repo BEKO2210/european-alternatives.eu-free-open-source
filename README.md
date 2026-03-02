@@ -134,7 +134,7 @@ scripts/
 Das Projekt enthält ein vollautonomes System zur Erkennung neuer FOSS-Tools:
 
 - **Wann:** Jeden Montag um 06:00 UTC (oder manuell via GitHub Actions)
-- **Wie:** Python-Script durchsucht die GitHub API mit 10 verschiedenen Queries
+- **Wie:** Python-Script durchsucht die GitHub API mit 20 verschiedenen Queries
 - **Filter:** Mindestens 500 Sterne, nicht archiviert, keine Awesome-Lists/Tutorials
 - **Kategorisierung:** Automatisch anhand von GitHub Topics, Name und Beschreibung
 - **Sicherheit:** Build-Test vor dem Commit — bei Fehler automatischer Rollback
