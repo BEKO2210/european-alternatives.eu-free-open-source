@@ -79,6 +79,7 @@ const categoryIconMap: Record<string, string> = {
     >
       <img
         src={`${base}logos/${tool.slug}.png`}
+        data-logo-url={tool.logoUrl ?? ''}
         alt=""
         class="w-14 h-14 object-contain tool-logo-detail"
       />
@@ -238,6 +239,12 @@ const categoryIconMap: Record<string, string> = {
 <script>
   document.querySelectorAll('.tool-logo-detail').forEach(img => {
     (img as HTMLImageElement).addEventListener('error', function() {
+      const logoUrl = this.dataset.logoUrl;
+      if (logoUrl && !this.dataset.triedLogoUrl) {
+        this.dataset.triedLogoUrl = 'true';
+        this.src = logoUrl;
+        return;
+      }
       this.style.display = 'none';
       const fallback = this.nextElementSibling as HTMLElement;
       if (fallback) fallback.style.display = 'flex';

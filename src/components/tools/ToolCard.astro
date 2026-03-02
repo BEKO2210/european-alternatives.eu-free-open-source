@@ -46,6 +46,7 @@ const toolColor = getToolColor(tool.name);
     >
       <img
         src={`${base}logos/${tool.slug}.png`}
+        data-logo-url={tool.logoUrl ?? ''}
         alt=""
         class="w-8 h-8 object-contain tool-logo"
         loading="lazy"
@@ -120,6 +121,12 @@ const toolColor = getToolColor(tool.name);
 <script>
   document.querySelectorAll('.tool-logo').forEach(img => {
     (img as HTMLImageElement).addEventListener('error', function() {
+      const logoUrl = this.dataset.logoUrl;
+      if (logoUrl && !this.dataset.triedLogoUrl) {
+        this.dataset.triedLogoUrl = 'true';
+        this.src = logoUrl;
+        return;
+      }
       this.style.display = 'none';
       const fallback = this.nextElementSibling as HTMLElement;
       if (fallback) fallback.style.display = 'flex';

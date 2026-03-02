@@ -36,6 +36,7 @@ DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 REPO_ROOT = os.environ.get("REPO_ROOT", ".")
 
 SEARCH_QUERIES = [
+    # Bestehende (bewaehrt)
     "self-hosted open-source alternative stars:>500",
     "open-source privacy self-hosted stars:>500",
     "open-source devops infrastructure stars:>1000",
@@ -46,6 +47,17 @@ SEARCH_QUERIES = [
     "open-source cms headless stars:>500",
     "open-source AI LLM self-hosted stars:>1000",
     "open-source database storage stars:>1000",
+    # Neue Queries fuer unterrepraesentierte Kategorien
+    "open-source note-taking knowledge-management stars:>500",
+    "open-source project-management kanban stars:>500",
+    "open-source video-editing audio-editing stars:>500",
+    "open-source image-editor graphic-design stars:>500",
+    "open-source backup disaster-recovery stars:>500",
+    "open-source media-server streaming stars:>500",
+    "open-source AI agent assistant stars:>500",
+    "open-source ERP accounting invoicing stars:>500",
+    "open-source wiki documentation platform stars:>500",
+    "open-source calendar scheduling self-hosted stars:>500",
 ]
 
 GITHUB_API = "https://api.github.com"
@@ -168,6 +180,9 @@ KEYWORD_TO_CATEGORY = {
     "nlp": "ki-ml", "neural-network": "ki-ml",
     "large-language-model": "ki-ml", "generative-ai": "ki-ml",
     "text-generation": "ki-ml", "image-generation": "ki-ml",
+    "ai-agent": "ki-ml", "ai-assistant": "ki-ml",
+    "chatbot": "ki-ml", "autonomous-agent": "ki-ml",
+    "local-ai": "ki-ml", "ollama": "ki-ml",
     # notizen
     "note-taking": "notizen", "notes": "notizen",
     "knowledge-management": "notizen", "knowledge-base": "notizen",
@@ -245,6 +260,8 @@ DESC_KEYWORD_TO_CATEGORY = {
     "analytics": "analytics", "web analytics": "analytics",
     "machine learning": "ki-ml", "artificial intelligence": "ki-ml",
     "llm": "ki-ml", "language model": "ki-ml",
+    "ai agent": "ki-ml", "ai assistant": "ki-ml",
+    "autonomous agent": "ki-ml", "chatbot": "ki-ml",
     "note": "notizen", "knowledge management": "notizen",
     "project management": "projektmanagement", "kanban": "projektmanagement",
     "task management": "projektmanagement",
@@ -586,6 +603,8 @@ def generate_auto_tools_ts(tools: list[dict], repo_root: str) -> None:
             lines.append(f"    hostedService: '{_ts_escape(tool['hostedService'])}',")
         if tool.get("logoPlaceholderEmoji"):
             lines.append(f"    logoPlaceholderEmoji: '{tool['logoPlaceholderEmoji']}',")
+        if tool.get("logoUrl"):
+            lines.append(f"    logoUrl: '{_ts_escape(tool['logoUrl'])}',")
         if tool.get("stars") is not None:
             lines.append(f"    stars: {tool['stars']},")
         lines.append(f"    lastUpdated: '{tool['lastUpdated']}',")
@@ -741,6 +760,7 @@ def filter_and_categorize(
         homepage = repo.get("homepage") or ""
         pushed_at = repo.get("pushed_at", today)
         html_url = repo.get("html_url", f"https://github.com/{full_name}")
+        owner_avatar = (repo.get("owner") or {}).get("avatar_url", "")
 
         # --- Filters ---
         if archived or disabled:
@@ -797,6 +817,7 @@ def filter_and_categorize(
             "replacesTools": CATEGORY_REPLACES.get(category, []),
             "selfHostable": True,
             "logoPlaceholderEmoji": CATEGORY_EMOJI.get(category, "🔧"),
+            "logoUrl": owner_avatar if owner_avatar else None,
             "stars": stars,
             "lastUpdated": pushed_at[:10] if pushed_at else today,
             "tags": tags,

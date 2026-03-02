@@ -9,7 +9,7 @@ export const emailClientTools: Tool[] = [
     description:
       'Thunderbird ist ein freier E-Mail-Client, der von der Mozilla Foundation entwickelt wird. Er bietet umfassende E-Mail-Verwaltung mit Unterstuetzung fuer IMAP, POP3 und SMTP, einen integrierten Kalender, Adressbuch und Chat-Funktionalitaet. Thunderbird unterstuetzt Ende-zu-Ende-Verschluesselung mit OpenPGP, bietet umfangreiche Filterfunktionen und laesst sich durch zahlreiche Add-ons erweitern. Mit der neuen Supernova-Oberflaeche wurde das Design grundlegend modernisiert.',
     website: 'https://www.thunderbird.net',
-    github: 'https://github.com/nicothin/nicothin-nicothin-nicothin',
+    github: 'https://github.com/thunderbird/thunderbird-desktop',
     license: 'MPL-2.0',
     categories: ['email-clients'],
     replacesTools: ['Outlook', 'Apple Mail'],
@@ -31,7 +31,7 @@ export const emailClientTools: Tool[] = [
     description:
       'Geary ist ein einfacher und moderner E-Mail-Client, der speziell fuer die GNOME-Desktop-Umgebung entwickelt wird. Er zeichnet sich durch eine aufgeraeumte, konversationsbasierte Benutzeroberflaeche aus, die E-Mail-Threads uebersichtlich darstellt. Geary unterstuetzt IMAP und SMTP, bietet eine schnelle Volltextsuche, HTML-E-Mail-Darstellung und automatische Erkennung von E-Mail-Anbieterkonfigurationen. Er eignet sich besonders fuer Nutzer, die einen unkomplizierten E-Mail-Client bevorzugen.',
     website: 'https://wiki.gnome.org/Apps/Geary',
-    github: 'https://github.com/nicothin/geary',
+    github: 'https://github.com/GNOME/geary',
     license: 'LGPL-2.1',
     categories: ['email-clients'],
     replacesTools: ['Outlook', 'Apple Mail'],
@@ -53,7 +53,7 @@ export const emailClientTools: Tool[] = [
     description:
       'GNOME Evolution ist eine umfassende Groupware-Anwendung, die E-Mail, Kalender, Aufgabenverwaltung, Kontakte und Memonotizen in einer Anwendung vereint. Es unterstuetzt Exchange-Server ueber EWS, CalDAV, CardDAV und GPG-Verschluesselung. Evolution bietet leistungsstarke Filterfunktionen, virtuelle Ordner (vFolders) und eine ausgefeilte Suche. Es eignet sich besonders fuer Nutzer in Unternehmensumgebungen, die eine vollstaendige Outlook-Alternative benoetigen.',
     website: 'https://wiki.gnome.org/Apps/Evolution',
-    github: 'https://github.com/nicothin/evolution',
+    github: 'https://github.com/GNOME/evolution',
     license: 'LGPL-2.1',
     categories: ['email-clients'],
     replacesTools: ['Outlook', 'Apple Mail'],
@@ -97,7 +97,7 @@ export const emailClientTools: Tool[] = [
     description:
       'Mutt ist ein textbasierter E-Mail-Client fuer das Terminal, der seit 1995 entwickelt wird und unter erfahrenen Linux-Nutzern einen legendaeren Ruf geniesst. Er unterstuetzt IMAP, POP3, SMTP, GPG-Verschluesselung, MIME-Anhaenge und Threading. Mutt ist extrem konfigurierbar und kann mit externen Programmen fuer Textbearbeitung, Adressbuch und Kalender kombiniert werden. Der Client ist blitzschnell, ressourcenschonend und laesst sich vollstaendig ueber die Tastatur bedienen.',
     website: 'http://www.mutt.org',
-    github: 'https://github.com/nicothin/mutt',
+    github: 'https://github.com/muttmua/mutt',
     license: 'GPL-2.0',
     categories: ['email-clients'],
     replacesTools: ['Outlook', 'Apple Mail'],
@@ -119,7 +119,7 @@ export const emailClientTools: Tool[] = [
     description:
       'aerc ist ein moderner, terminalbasierter E-Mail-Client, der von Drew DeVault (dem Gruender von SourceHut) entwickelt wird. Er bietet eine vim-aehnliche Tastaturbedienung, integriertes Patching und Git-Integration, einen eingebetteten Terminal-Emulator fuer HTML-E-Mails und Unterstuetzung fuer Tabs und geteilte Ansichten. aerc ist in Go geschrieben, unterstuetzt IMAP, Maildir, notmuch und SMTP und eignet sich besonders fuer Entwickler, die E-Mail-basierte Workflows nutzen.',
     website: 'https://aerc-mail.org',
-    github: 'https://github.com/nicothin/aerc',
+    github: 'https://github.com/rjarry/aerc',
     license: 'MIT',
     categories: ['email-clients'],
     replacesTools: ['Outlook', 'Apple Mail'],
