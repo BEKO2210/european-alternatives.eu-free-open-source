@@ -7,7 +7,7 @@ export const objektSpeicherTools: Tool[] = [
     slug: 'minio',
     tagline: 'Hochleistungs-Objektspeicher mit S3-Kompatibilitaet',
     description:
-      'MinIO ist ein hochleistungsfaehiger, S3-kompatibler Objektspeicher. Er ist fuer KI/ML-Workloads, Data Lakes und Cloud-native Anwendungen optimiert und bietet Erasure Coding, Verschluesselung, Versionierung und eine herausragende Lese-/Schreibgeschwindigkeit.',
+      'MinIO ist ein hochleistungsfaehiger, S3-kompatibler Objektspeicher. Er ist fuer KI/ML-Workloads, Data Lakes und Cloud-native Anwendungen optimiert und bietet Erasure Coding, Verschluesselung, Versionierung und eine herausragende Lese-/Schreibgeschwindigkeit. Hinweis: MinIO nutzt ein Dual-Licensing-Modell (AGPL-3.0 / kommerziell).',
     website: 'https://min.io',
     github: 'https://github.com/minio/minio',
     license: 'AGPL-3.0',
@@ -21,7 +21,7 @@ export const objektSpeicherTools: Tool[] = [
     tags: ['objektspeicher', 's3', 'cloud', 'erasure-coding', 'go'],
     difficulty: 'mittel',
     platforms: ['linux', 'windows', 'macos', 'docker'],
-    featured: true,
+    featured: false,
     addedDate: '2025-06-01',
   },
   {

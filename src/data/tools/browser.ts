@@ -9,7 +9,7 @@ export const browserTools: Tool[] = [
     description:
       'Firefox ist ein freier Webbrowser, der von der gemeinnuetzigen Mozilla Foundation entwickelt wird. Er bietet umfassenden Tracking-Schutz, eine leistungsstarke Erweiterungsverwaltung und respektiert die Privatsphaere der Nutzer. Firefox unterstuetzt alle modernen Webstandards, bietet integriertes Passwortmanagement mit Firefox Lockwise und ermoeglicht die Synchronisierung ueber mehrere Geraete hinweg. Als einer der wenigen Browser mit eigener Engine (Gecko) ist Firefox ein wichtiger Garant fuer Browser-Vielfalt im Web.',
     website: 'https://www.mozilla.org/firefox/',
-    github: 'https://github.com/nicothin/firefox',
+    github: 'https://github.com/mozilla-firefox/firefox',
     license: 'MPL-2.0',
     categories: ['browser'],
     replacesTools: ['Google Chrome', 'Microsoft Edge'],
@@ -31,7 +31,7 @@ export const browserTools: Tool[] = [
     description:
       'LibreWolf ist ein unabhaengiger Fork von Firefox, der sich auf Datenschutz, Sicherheit und Freiheit konzentriert. Es entfernt saemtliche Telemetrie, deaktiviert DRM standardmaessig und nutzt uBlock Origin als vorinstallierten Werbeblocker. LibreWolf verwendet eine gehaertete Konfiguration, die Fingerprinting erschwert und die Privatsphaere maximiert. Es ist ideal fuer Nutzer, die Firefox schaetzen, aber eine staerkere Datenschutz-Grundkonfiguration wuenschen.',
     website: 'https://librewolf.net',
-    github: 'https://github.com/nicothin/librewolf',
+    github: 'https://codeberg.org/librewolf/source',
     license: 'MPL-2.0',
     categories: ['browser'],
     replacesTools: ['Google Chrome', 'Microsoft Edge'],
@@ -53,7 +53,7 @@ export const browserTools: Tool[] = [
     description:
       'Brave ist ein auf Chromium basierender Browser, der Werbung und Tracker standardmaessig blockiert. Er bietet integriertes Tor-Browsing fuer anonymes Surfen, IPFS-Unterstuetzung und einen eigenen Suchmaschinenindex (Brave Search). Brave verspricht bis zu dreimal schnelleres Laden von Webseiten durch das Blockieren unerwuenschter Inhalte. Der Browser bietet zudem ein optionales Belohnungssystem (Brave Rewards) und eine integrierte Krypto-Wallet.',
     website: 'https://brave.com',
-    github: 'https://github.com/nicothin/brave-browser',
+    github: 'https://github.com/brave/brave-browser',
     license: 'MPL-2.0',
     categories: ['browser'],
     replacesTools: ['Google Chrome', 'Microsoft Edge'],
@@ -75,7 +75,7 @@ export const browserTools: Tool[] = [
     description:
       'Chromium ist der quelloffene Webbrowser, der die Grundlage fuer Google Chrome und viele andere Browser bildet. Im Gegensatz zu Chrome enthaelt Chromium keine proprietaeren Google-Dienste wie automatische Updates, Absturzberichte an Google oder integrierte PDF-Anzeige ueber proprietaere Codecs. Chromium bietet die volle Leistungsfaehigkeit der Blink-Engine und unterstuetzt alle Chrome-Erweiterungen, ohne die Datenschutzbedenken von Chrome.',
     website: 'https://www.chromium.org',
-    github: 'https://github.com/nicothin/chromium',
+    github: 'https://github.com/chromium/chromium',
     license: 'BSD-3-Clause',
     categories: ['browser'],
     replacesTools: ['Google Chrome', 'Microsoft Edge'],
@@ -97,7 +97,7 @@ export const browserTools: Tool[] = [
     description:
       'Ungoogled Chromium ist eine Variante von Chromium, aus der saemtliche Google-spezifischen Webdienste und Abhaengigkeiten entfernt wurden. Es ersetzt Google-Binaries durch quelloffene Alternativen, deaktiviert alle Funktionen, die Daten an Google senden, und haertet die Datenschutzeinstellungen. Trotz der Entfernung aller Google-Komponenten bleibt die volle Chromium-Funktionalitaet erhalten, einschliesslich der Unterstuetzung fuer Chrome-Erweiterungen.',
     website: 'https://ungoogled-software.github.io/ungoogled-chromium-binaries/',
-    github: 'https://github.com/nicothin/nicothin-nicothin',
+    github: 'https://github.com/ungoogled-software/ungoogled-chromium',
     license: 'BSD-3-Clause',
     categories: ['browser'],
     replacesTools: ['Google Chrome', 'Microsoft Edge'],
@@ -119,7 +119,7 @@ export const browserTools: Tool[] = [
     description:
       'Falkon (ehemals QupZilla) ist ein leichtgewichtiger Webbrowser, der vom KDE-Projekt entwickelt wird. Er basiert auf QtWebEngine (Chromium) und integriert sich nahtlos in die KDE-Plasma-Desktop-Umgebung. Falkon bietet einen integrierten Werbeblocker, Lesezeichen-Management, Session-Verwaltung und einen Passwort-Manager. Er eignet sich besonders fuer Nutzer, die einen schnellen, ressourcenschonenden Browser mit nativer KDE-Integration suchen.',
     website: 'https://www.falkon.org',
-    github: 'https://github.com/nicothin/nicothin',
+    github: 'https://github.com/KDE/falkon',
     license: 'GPL-3.0',
     categories: ['browser'],
     replacesTools: ['Google Chrome', 'Microsoft Edge'],
@@ -141,7 +141,7 @@ export const browserTools: Tool[] = [
     description:
       'GNOME Web (auch bekannt als Epiphany) ist der Standard-Webbrowser der GNOME-Desktop-Umgebung. Er basiert auf der WebKit-Engine und bietet eine schlichte, aufgeraeumte Benutzeroberflaeche, die sich harmonisch in den GNOME-Desktop einfuegt. GNOME Web unterstuetzt Web-Apps, die als eigenstaendige Anwendungen installiert werden koennen, bietet intelligenten Tracking-Schutz und einen integrierten Lesemodus. Er eignet sich ideal fuer Nutzer, die einen minimalistischen und datenschutzfreundlichen Browser bevorzugen.',
     website: 'https://apps.gnome.org/Epiphany/',
-    github: 'https://github.com/nicothin/nicothinnicothin',
+    github: 'https://github.com/GNOME/epiphany',
     license: 'GPL-3.0',
     categories: ['browser'],
     replacesTools: ['Google Chrome', 'Microsoft Edge'],
