@@ -4113,6 +4113,82 @@ import type { Tool } from '../types';
     ],
     "featured": false,
     "addedDate": "2026-03-03"
+  },
+  {
+    "id": "astroplate",
+    "name": "Astroplate",
+    "slug": "astroplate",
+    "tagline": "Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jum...",
+    "description": "Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jumpstart your Astro project. Get started with Astroplate and save yourself hours of work!",
+    "website": "https://zeon.studio/preview?project=astroplate",
+    "github": "https://github.com/zeon-studio/astroplate",
+    "license": "MIT",
+    "categories": [
+      "ssg"
+    ],
+    "replacesTools": [
+      "Webflow",
+      "Framer"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🚀",
+    "logoUrl": "https://avatars.githubusercontent.com/u/122345747?v=4",
+    "stars": 1018,
+    "lastUpdated": "2026-03-02",
+    "tags": [
+      "astro",
+      "astro-boilerplate",
+      "astro-template",
+      "astro-theme",
+      "astrobuild",
+      "boilerplate-template",
+      "jamstack"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-03"
+  },
+  {
+    "id": "nextplate",
+    "name": "Nextplate",
+    "slug": "nextplate",
+    "tagline": "Nextplate is a free starter template built with Next.js and TailwindCSS.",
+    "description": "Nextplate is a free starter template built with Next.js and TailwindCSS. It provides you with almost everything you need to jump-start your Next.js project. Try Nextplate and save yourself hours of work.",
+    "website": "https://zeon.studio/preview?project=nextplate",
+    "github": "https://github.com/zeon-studio/nextplate",
+    "license": "MIT",
+    "categories": [
+      "ssg"
+    ],
+    "replacesTools": [
+      "Webflow",
+      "Framer"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🚀",
+    "logoUrl": "https://avatars.githubusercontent.com/u/122345747?v=4",
+    "stars": 513,
+    "lastUpdated": "2026-02-25",
+    "tags": [
+      "boilerplate-template",
+      "jamstack",
+      "jamstack-theme",
+      "js-boilerplate",
+      "mit-license",
+      "next-js",
+      "nextjs-blog"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-03"
   }
 ]
 END_AUTO_TOOLS_JSON */
@@ -6525,6 +6601,52 @@ export const autoDiscoveredTools: Tool[] = [
     stars: 521,
     lastUpdated: '2025-10-07',
     tags: ['ai-chat', 'chat-sdk', 'chat-widget', 'chatbot', 'developer-tools', 'ejabberd', 'ethereum'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-03',
+  },
+  {
+    id: 'astroplate',
+    name: 'Astroplate',
+    slug: 'astroplate',
+    tagline: 'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jum...',
+    description:
+      'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jumpstart your Astro project. Get started with Astroplate and save yourself hours of work!',
+    website: 'https://zeon.studio/preview?project=astroplate',
+    github: 'https://github.com/zeon-studio/astroplate',
+    license: 'MIT',
+    categories: ['ssg'],
+    replacesTools: ['Webflow', 'Framer'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🚀',
+    logoUrl: 'https://avatars.githubusercontent.com/u/122345747?v=4',
+    stars: 1018,
+    lastUpdated: '2026-03-02',
+    tags: ['astro', 'astro-boilerplate', 'astro-template', 'astro-theme', 'astrobuild', 'boilerplate-template', 'jamstack'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-03',
+  },
+  {
+    id: 'nextplate',
+    name: 'Nextplate',
+    slug: 'nextplate',
+    tagline: 'Nextplate is a free starter template built with Next.js and TailwindCSS.',
+    description:
+      'Nextplate is a free starter template built with Next.js and TailwindCSS. It provides you with almost everything you need to jump-start your Next.js project. Try Nextplate and save yourself hours of work.',
+    website: 'https://zeon.studio/preview?project=nextplate',
+    github: 'https://github.com/zeon-studio/nextplate',
+    license: 'MIT',
+    categories: ['ssg'],
+    replacesTools: ['Webflow', 'Framer'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🚀',
+    logoUrl: 'https://avatars.githubusercontent.com/u/122345747?v=4',
+    stars: 513,
+    lastUpdated: '2026-02-25',
+    tags: ['boilerplate-template', 'jamstack', 'jamstack-theme', 'js-boilerplate', 'mit-license', 'next-js', 'nextjs-blog'],
     difficulty: 'mittel',
     platforms: ['linux', 'docker'],
     featured: false,
