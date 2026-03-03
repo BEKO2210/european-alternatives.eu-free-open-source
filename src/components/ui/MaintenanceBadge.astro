@@ -1,0 +1,28 @@
+---
+interface Props {
+  status?: 'active' | 'maintained' | 'slow' | 'restricted' | 'archived';
+  note?: string;
+}
+
+const { status, note } = Astro.props;
+
+if (!status) return;
+
+const badgeConfig: Record<string, { label: string; classes: string }> = {
+  active: { label: '✓ Aktiv gepflegt', classes: 'bg-green-500/20 text-green-400 border-green-500/30' },
+  maintained: { label: '✓ Maintained', classes: 'bg-blue-500/20 text-blue-400 border-blue-500/30' },
+  slow: { label: '⚡ Langsam gepflegt', classes: 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30' },
+  restricted: { label: '⚠ Eingeschränkt', classes: 'bg-orange-500/20 text-orange-400 border-orange-500/30' },
+  archived: { label: '✗ Archiviert', classes: 'bg-red-500/20 text-red-400 border-red-500/30' },
+};
+
+const config = badgeConfig[status];
+if (!config) return;
+---
+
+<span
+  class:list={['inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-medium border', config.classes]}
+  title={note ?? ''}
+>
+  {config.label}
+</span>
