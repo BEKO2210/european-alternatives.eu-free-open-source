@@ -40,6 +40,7 @@ const ogImageUrl = ogImage ?? `${Astro.site}${base}og-image.png`.replace(/\/\//g
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
 
     <title>{title}</title>
 
@@ -58,5 +59,33 @@ const ogImageUrl = ogImage ?? `${Astro.site}${base}og-image.png`.replace(/\/\//g
       <slot />
     </main>
     <Footer />
+
+    <!-- Scroll-to-Top Button -->
+    <button
+      id="scroll-to-top"
+      class="fixed bottom-6 right-6 z-50 hidden w-10 h-10 rounded-full bg-gray-800 hover:bg-gray-700 text-white shadow-lg transition-all duration-300 items-center justify-center"
+      aria-label="Zur&uuml;ck nach oben"
+      title="Zur&uuml;ck nach oben"
+    >
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+      </svg>
+    </button>
+    <script is:inline>
+      (function() {
+        var btn = document.getElementById('scroll-to-top');
+        if (!btn) return;
+        window.addEventListener('scroll', function() {
+          if (window.scrollY > 300) {
+            btn.style.display = 'flex';
+          } else {
+            btn.style.display = 'none';
+          }
+        });
+        btn.addEventListener('click', function() {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      })();
+    </script>
   </body>
 </html>
