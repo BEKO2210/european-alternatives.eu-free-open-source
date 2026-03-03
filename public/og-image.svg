@@ -1,0 +1,16 @@
+<svg width="720" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="50%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="420" fill="#0D1117"/>
+  <rect width="720" height="4" fill="url(#accent)"/>
+  <text x="360" y="180" text-anchor="middle" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="48" font-weight="700">FOSS Alternatives</text>
+  <text x="360" y="240" text-anchor="middle" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="20">342+ Tools · 39 Kategorien · DACH Open Source Directory</text>
+  <text x="360" y="290" text-anchor="middle" fill="#6366f1" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16">Deine Freiheit. Dein Code. Deine Zukunft.</text>
+  <rect x="260" y="330" width="200" height="1" fill="#30363d"/>
+  <text x="360" y="365" text-anchor="middle" fill="#484F58" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13">european-alternatives.eu</text>
+</svg>
