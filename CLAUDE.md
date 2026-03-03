@@ -10,7 +10,7 @@ Das Auto-Discovery-System ist **implementiert und läuft autonom**.
 Jeden Montag um 06:00 UTC werden neue FOSS-Tools automatisch erkannt, kategorisiert,
 in die Webseite eingefügt, gebaut und deployed — ohne manuellen Eingriff.
 
-**Aktueller Stand:** 346+ Tools in 40 Kategorien.
+**Aktueller Stand:** 350+ Tools in 40 Kategorien.
 
 ---
 
@@ -132,4 +132,34 @@ Keine neuen Kategorien erfinden.
 npm ci
 npm run build
 ```
-Muss fehlerfrei durchlaufen. 345+ Seiten werden generiert (Tools + Kategorien + statische Seiten).
+Muss fehlerfrei durchlaufen. 401 Seiten werden generiert (Tools + Kategorien + statische Seiten).
+
+---
+
+## Homepage-Randomisierung
+
+Die Startseite zeigt bei jedem Besuch **6 zufällige Tools** und **6 zufällige Kategorien**.
+
+### Architektur (Progressive Enhancement)
+```
+Build-Zeit:
+  Alle 350 Tools + alle 40 Kategorien als HTML-Divs rendern
+  Erste 6 je sichtbar (style=""), Rest versteckt (style="display:none")
+  Reihenfolge: Build-Time-Shuffle (Math.random)
+
+Client-Side (JS aktiv):
+  Fisher-Yates-Shuffle über ALLE Items
+  Alle verstecken → 6 zufällige anzeigen
+
+Fallback (JS deaktiviert/blockiert):
+  Erste 6 Build-Zeit-Items bleiben sichtbar
+```
+
+### Seitengroeße
+- **Unkomprimiert:** ~1.4 MB (alle 350 ToolCards + 40 CategoryCards im DOM)
+- **Gzipped:** ~118 KB (akzeptabel, HTML komprimiert sehr gut)
+
+### Wichtig
+- Alle Items werden aus den **echten Astro-Komponenten** (ToolCard, CategoryCard) gerendert
+- Kein client-seitiges Templating — die Karten sind vollstaendig server-side gerendert
+- Das `<script>` am Ende der Seite macht nur Shuffle + display toggle

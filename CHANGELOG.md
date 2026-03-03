@@ -5,6 +5,21 @@ Alle wesentlichen Änderungen an diesem Projekt werden in dieser Datei dokumenti
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.1.0/)
 und dieses Projekt folgt [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.3.1] - 2026-03-03
+
+### Changed
+
+- Homepage-Randomisierung shuffled jetzt aus **allen 350 Tools** und **allen 40 Kategorien** statt aus einem vorselektierten Pool (vorher: nur 18 Tools / 12 Kategorien als Kandidaten)
+- Alle Items werden als HTML im DOM gerendert, Client-Side Fisher-Yates-Shuffle waehlt 6 zufaellige aus
+- Seitengroesse: 1.4 MB roh, **118 KB gzipped** (akzeptabel)
+
+### Fixed
+
+- **Progressive Enhancement**: Erste 6 Tools und 6 Kategorien sind standardmaessig sichtbar (kein `display:none`), damit Nutzer ohne JavaScript keinen leeren Bereich sehen
+- JS-Fallback: Bei deaktiviertem/blockiertem JavaScript werden die 6 Build-Zeit-Items angezeigt statt eines leeren Grids
+
+---
+
 ## [1.3.0] - 2026-03-03
 
 ### Added
@@ -21,7 +36,7 @@ und dieses Projekt folgt [Semantic Versioning](https://semver.org/lang/de/).
 - Homepage: Statische Featured-Tools durch **6 zufaellige Tools** ersetzt (Client-Side JS, bei jedem Seitenbesuch neu)
 - Homepage: Alle Kategorien durch **6 zufaellige Kategorien** ersetzt (symmetrisches Grid)
 - MAX_PER_RUN von 25 auf 40 erhoeht (Workflow + Script)
-- Gesamtstatistik: 346+ Tools in 40 Kategorien, 401 Seiten
+- Gesamtstatistik: 350+ Tools in 40 Kategorien, 401 Seiten
 
 ---
 
