@@ -37,7 +37,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/coollabsio.png?size=128"
   },
   {
     "id": "dokploy",
@@ -74,7 +75,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/Dokploy.png?size=128"
   },
   {
     "id": "focalboard",
@@ -113,7 +115,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/mattermost-community.png?size=128"
   },
   {
     "id": "signoz",
@@ -151,7 +154,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/SigNoz.png?size=128"
   },
   {
     "id": "automatisch",
@@ -188,7 +192,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/automatisch.png?size=128"
   },
   {
     "id": "notesnook",
@@ -226,7 +231,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/streetwriters.png?size=128"
   },
   {
     "id": "documenso",
@@ -263,7 +269,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/documenso.png?size=128"
   },
   {
     "id": "openpanel",
@@ -299,7 +306,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/Openpanel-dev.png?size=128"
   },
   {
     "id": "colanode",
@@ -337,7 +345,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/colanode.png?size=128"
   },
   {
     "id": "peppermint",
@@ -374,7 +383,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/Peppermint-Lab.png?size=128"
   },
   {
     "id": "opengist",
@@ -411,7 +421,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/thomiceli.png?size=128"
   },
   {
     "id": "willow",
@@ -449,7 +460,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/HeyWillow.png?size=128"
   },
   {
     "id": "sorry-cypress",
@@ -487,7 +499,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/sorry-cypress.png?size=128"
   },
   {
     "id": "openrecall",
@@ -526,7 +539,8 @@ import type { Tool } from '../types';
       "macos"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/openrecall.png?size=128"
   },
   {
     "id": "checkcle",
@@ -564,7 +578,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/operacle.png?size=128"
   },
   {
     "id": "notediscovery",
@@ -602,7 +617,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/gamosoft.png?size=128"
   },
   {
     "id": "open-higgsfield-ai",
@@ -640,7 +656,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/Anil-matcha.png?size=128"
   },
   {
     "id": "litlyx",
@@ -677,7 +694,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/Litlyx.png?size=128"
   },
   {
     "id": "paddler",
@@ -714,7 +732,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/intentee.png?size=128"
   },
   {
     "id": "authgear-server",
@@ -751,7 +770,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/authgear.png?size=128"
   },
   {
     "id": "nixopus",
@@ -789,7 +809,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/raghavyuva.png?size=128"
   },
   {
     "id": "courselit",
@@ -827,7 +848,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/codelitdev.png?size=128"
   },
   {
     "id": "littlelink-server",
@@ -864,7 +886,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/timothystewart6.png?size=128"
   },
   {
     "id": "peekaping",
@@ -902,7 +925,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/0xfurai.png?size=128"
   },
   {
     "id": "aegra",
@@ -939,7 +963,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/ibbybuilds.png?size=128"
   },
   {
     "id": "prompts-chat",
@@ -977,7 +1002,8 @@ import type { Tool } from '../types';
       "macos"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/f.png?size=128"
   },
   {
     "id": "langfuse",
@@ -1015,7 +1041,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/langfuse.png?size=128"
   },
   {
     "id": "goreplay",
@@ -1050,7 +1077,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/probelabs.png?size=128"
   },
   {
     "id": "self-hosting-guide",
@@ -1087,7 +1115,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/mikeroyal.png?size=128"
   },
   {
     "id": "openobserve",
@@ -1125,7 +1154,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/openobserve.png?size=128"
   },
   {
     "id": "encore",
@@ -1162,7 +1192,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/encoredev.png?size=128"
   },
   {
     "id": "meetily",
@@ -1201,7 +1232,8 @@ import type { Tool } from '../types';
       "macos"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/Zackriya-Solutions.png?size=128"
   },
   {
     "id": "blinko",
@@ -1239,7 +1271,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/blinkospace.png?size=128"
   },
   {
     "id": "hyperdx",
@@ -1277,7 +1310,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/hyperdxio.png?size=128"
   },
   {
     "id": "highlight",
@@ -1315,7 +1349,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/highlight.png?size=128"
   },
   {
     "id": "checkov",
@@ -1352,7 +1387,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/bridgecrewio.png?size=128"
   },
   {
     "id": "openstatus",
@@ -1390,7 +1426,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/openstatusHQ.png?size=128"
   },
   {
     "id": "lesspass",
@@ -1427,7 +1464,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/lesspass.png?size=128"
   },
   {
     "id": "oxicloud",
@@ -1465,7 +1503,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/DioCrafts.png?size=128"
   },
   {
     "id": "projectsend",
@@ -1503,7 +1542,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/projectsend.png?size=128"
   },
   {
     "id": "beecount",
@@ -1540,7 +1580,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/TNT-Likely.png?size=128"
   },
   {
     "id": "bricksllm",
@@ -1578,7 +1619,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/bricks-cloud.png?size=128"
   },
   {
     "id": "agent",
@@ -1616,7 +1658,8 @@ import type { Tool } from '../types';
       "macos"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/stakpak.png?size=128"
   },
   {
     "id": "sharkord",
@@ -1654,7 +1697,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/Sharkord.png?size=128"
   },
   {
     "id": "swetrix",
@@ -1692,7 +1736,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/Swetrix.png?size=128"
   },
   {
     "id": "eclaire",
@@ -1730,7 +1775,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/eclaire-labs.png?size=128"
   },
   {
     "id": "geopulse",
@@ -1767,7 +1813,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/tess1o.png?size=128"
   },
   {
     "id": "thiss-link",
@@ -1804,7 +1851,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/NayamAmarshe.png?size=128"
   },
   {
     "id": "relay",
@@ -1836,7 +1884,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/hyvor.png?size=128"
   },
   {
     "id": "super",
@@ -1873,7 +1922,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/spr-networks.png?size=128"
   },
   {
     "id": "payload",
@@ -1911,7 +1961,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/payloadcms.png?size=128"
   },
   {
     "id": "onyx",
@@ -1949,7 +2000,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/onyx-dot-app.png?size=128"
   },
   {
     "id": "tinacms",
@@ -1987,7 +2039,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/tinacms.png?size=128"
   },
   {
     "id": "casdoor",
@@ -2024,7 +2077,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/casdoor.png?size=128"
   },
   {
     "id": "cas",
@@ -2061,7 +2115,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/apereo.png?size=128"
   },
   {
     "id": "dicedb",
@@ -2098,7 +2153,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/dicedb.png?size=128"
   },
   {
     "id": "webstudio",
@@ -2136,7 +2192,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/webstudio-is.png?size=128"
   },
   {
     "id": "webiny-js",
@@ -2174,7 +2231,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/webiny.png?size=128"
   },
   {
     "id": "coroot",
@@ -2212,7 +2270,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/coroot.png?size=128"
   },
   {
     "id": "evidently",
@@ -2250,7 +2309,8 @@ import type { Tool } from '../types';
       "macos"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/evidentlyai.png?size=128"
   },
   {
     "id": "hertzbeat",
@@ -2287,7 +2347,8 @@ import type { Tool } from '../types';
       "linux"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/apache.png?size=128"
   },
   {
     "id": "openllmetry",
@@ -2325,7 +2386,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/traceloop.png?size=128"
   },
   {
     "id": "oneuptime",
@@ -2363,7 +2425,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/OneUptime.png?size=128"
   },
   {
     "id": "coze-loop",
@@ -2401,7 +2464,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/coze-dev.png?size=128"
   },
   {
     "id": "helicone",
@@ -2439,7 +2503,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/Helicone.png?size=128"
   },
   {
     "id": "apostrophe",
@@ -2477,7 +2542,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/apostrophecms.png?size=128"
   },
   {
     "id": "uptrace",
@@ -2515,7 +2581,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/uptrace.png?size=128"
   },
   {
     "id": "terminusdb",
@@ -2552,7 +2619,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/terminusdb.png?size=128"
   },
   {
     "id": "pezzo",
@@ -2590,7 +2658,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/pezzolabs.png?size=128"
   },
   {
     "id": "lmnr",
@@ -2628,7 +2697,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/lmnr-ai.png?size=128"
   },
   {
     "id": "openlit",
@@ -2666,7 +2736,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/openlit.png?size=128"
   },
   {
     "id": "sveltia-cms",
@@ -2704,7 +2775,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/sveltia.png?size=128"
   },
   {
     "id": "vrite",
@@ -2742,7 +2814,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/vriteio.png?size=128"
   },
   {
     "id": "gigapipe",
@@ -2780,7 +2853,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/metrico.png?size=128"
   },
   {
     "id": "atomic-server",
@@ -2817,7 +2891,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/ontola.png?size=128"
   },
   {
     "id": "sonicjs",
@@ -2855,7 +2930,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/SonicJs-Org.png?size=128"
   },
   {
     "id": "smartstore",
@@ -2892,7 +2968,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/smartstore.png?size=128"
   },
   {
     "id": "grafana-operator",
@@ -2929,7 +3006,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/grafana.png?size=128"
   },
   {
     "id": "measure",
@@ -2968,7 +3046,8 @@ import type { Tool } from '../types';
       "ios"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/measure-sh.png?size=128"
   },
   {
     "id": "openam",
@@ -3005,7 +3084,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/OpenIdentityPlatform.png?size=128"
   },
   {
     "id": "apt",
@@ -3043,7 +3123,8 @@ import type { Tool } from '../types';
       "macos"
     ],
     "featured": false,
-    "addedDate": "2026-03-01"
+    "addedDate": "2026-03-01",
+    "logoUrl": "https://github.com/rnchg.png?size=128"
   },
   {
     "id": "nhost",
@@ -3080,7 +3161,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/nhost.png?size=128"
   },
   {
     "id": "swanlab",
@@ -3118,7 +3200,8 @@ import type { Tool } from '../types';
       "macos"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/SwanHubX.png?size=128"
   },
   {
     "id": "lsp-ai",
@@ -3156,7 +3239,8 @@ import type { Tool } from '../types';
       "macos"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/SilasMarvin.png?size=128"
   },
   {
     "id": "octobase",
@@ -3193,7 +3277,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/toeverything.png?size=128"
   },
   {
     "id": "graft",
@@ -3229,7 +3314,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/orbitinghail.png?size=128"
   },
   {
     "id": "audiomuse-ai",
@@ -3266,7 +3352,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/NeptuneHub.png?size=128"
   },
   {
     "id": "learnhouse",
@@ -3304,7 +3391,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/learnhouse.png?size=128"
   },
   {
     "id": "browserable",
@@ -3342,7 +3430,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/browserable.png?size=128"
   },
   {
     "id": "alchemy-cms",
@@ -3380,7 +3469,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/AlchemyCMS.png?size=128"
   },
   {
     "id": "mix-core",
@@ -3418,7 +3508,8 @@ import type { Tool } from '../types';
       "web"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/mixcore.png?size=128"
   },
   {
     "id": "mesh",
@@ -3455,7 +3546,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/gentics.png?size=128"
   },
   {
     "id": "truthy",
@@ -3493,7 +3585,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/gobeam.png?size=128"
   },
   {
     "id": "flextype",
@@ -3531,7 +3624,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/flextype.png?size=128"
   },
   {
     "id": "vaahcms",
@@ -3569,7 +3663,8 @@ import type { Tool } from '../types';
       "docker"
     ],
     "featured": false,
-    "addedDate": "2026-03-02"
+    "addedDate": "2026-03-02",
+    "logoUrl": "https://github.com/webreinvent.png?size=128"
   },
   {
     "id": "copilotkit",
@@ -4206,6 +4301,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['datenbanken'],
     replacesTools: ['Oracle', 'MSSQL'],
+        logoUrl: 'https://github.com/coollabsio.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🗄️',
     stars: 51179,
@@ -4228,6 +4324,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['datenbanken'],
     replacesTools: ['Oracle', 'MSSQL'],
+        logoUrl: 'https://github.com/Dokploy.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🗄️',
     stars: 31076,
@@ -4250,6 +4347,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['projektmanagement'],
     replacesTools: ['Asana', 'Monday', 'Jira', 'Trello'],
+        logoUrl: 'https://github.com/mattermost-community.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '✅',
     stars: 25913,
@@ -4272,6 +4370,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/SigNoz.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 25908,
@@ -4294,6 +4393,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['backend-frameworks'],
     replacesTools: ['Firebase', 'Supabase Pro'],
+        logoUrl: 'https://github.com/automatisch.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '⚙️',
     stars: 13732,
@@ -4316,6 +4416,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'GPL-3.0',
     categories: ['notizen'],
     replacesTools: ['Notion', 'Evernote', 'Obsidian'],
+        logoUrl: 'https://github.com/streetwriters.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📝',
     stars: 13732,
@@ -4338,6 +4439,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['datenbanken'],
     replacesTools: ['Oracle', 'MSSQL'],
+        logoUrl: 'https://github.com/documenso.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🗄️',
     stars: 12455,
@@ -4360,6 +4462,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['analytics'],
     replacesTools: ['Google Analytics', 'Mixpanel'],
+        logoUrl: 'https://github.com/Openpanel-dev.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📊',
     stars: 5398,
@@ -4382,6 +4485,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['kommunikation'],
     replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
+        logoUrl: 'https://github.com/colanode.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '💬',
     stars: 4615,
@@ -4404,6 +4508,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['crm'],
     replacesTools: ['Salesforce', 'HubSpot'],
+        logoUrl: 'https://github.com/Peppermint-Lab.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤝',
     stars: 3045,
@@ -4426,6 +4531,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['container'],
     replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+        logoUrl: 'https://github.com/thomiceli.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📦',
     stars: 3006,
@@ -4448,6 +4554,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/HeyWillow.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 2979,
@@ -4470,6 +4577,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/sorry-cypress.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 2814,
@@ -4492,6 +4600,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/openrecall.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 2759,
@@ -4514,6 +4623,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/operacle.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 2364,
@@ -4536,6 +4646,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['notizen'],
     replacesTools: ['Notion', 'Evernote', 'Obsidian'],
+        logoUrl: 'https://github.com/gamosoft.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📝',
     stars: 2353,
@@ -4558,6 +4669,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/Anil-matcha.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 2333,
@@ -4580,6 +4692,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['analytics'],
     replacesTools: ['Google Analytics', 'Mixpanel'],
+        logoUrl: 'https://github.com/Litlyx.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📊',
     stars: 1681,
@@ -4602,6 +4715,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/intentee.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 1471,
@@ -4624,6 +4738,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['backend-frameworks'],
     replacesTools: ['Firebase', 'Supabase Pro'],
+        logoUrl: 'https://github.com/authgear.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '⚙️',
     stars: 1431,
@@ -4646,6 +4761,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['ci-cd'],
     replacesTools: ['GitHub Actions', 'Jenkins', 'CircleCI'],
+        logoUrl: 'https://github.com/raghavyuva.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🔄',
     stars: 1375,
@@ -4668,6 +4784,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/codelitdev.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 1111,
@@ -4690,6 +4807,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['container'],
     replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+        logoUrl: 'https://github.com/timothystewart6.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📦',
     stars: 1105,
@@ -4712,6 +4830,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/0xfurai.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 1043,
@@ -4734,6 +4853,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['backend-frameworks'],
     replacesTools: ['Firebase', 'Supabase Pro'],
+        logoUrl: 'https://github.com/ibbybuilds.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '⚙️',
     stars: 644,
@@ -4756,6 +4876,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'CC0-1.0',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/f.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 149301,
@@ -4778,6 +4899,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/langfuse.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 22445,
@@ -4800,6 +4922,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['dev-tools'],
     replacesTools: ['JetBrains Suite', 'Visual Studio'],
+        logoUrl: 'https://github.com/probelabs.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '⌨️',
     stars: 19249,
@@ -4822,6 +4945,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['backend-frameworks'],
     replacesTools: ['Firebase', 'Supabase Pro'],
+        logoUrl: 'https://github.com/mikeroyal.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '⚙️',
     stars: 18784,
@@ -4844,6 +4968,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/openobserve.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 18036,
@@ -4866,6 +4991,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MPL-2.0',
     categories: ['datenbanken'],
     replacesTools: ['Oracle', 'MSSQL'],
+        logoUrl: 'https://github.com/encoredev.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🗄️',
     stars: 11509,
@@ -4888,6 +5014,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/Zackriya-Solutions.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 10082,
@@ -4910,6 +5037,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'GPL-3.0',
     categories: ['notizen'],
     replacesTools: ['Notion', 'Evernote', 'Obsidian'],
+        logoUrl: 'https://github.com/blinkospace.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📝',
     stars: 9510,
@@ -4932,6 +5060,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/hyperdxio.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 9346,
@@ -4954,6 +5083,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/highlight.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 9166,
@@ -4976,6 +5106,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['container'],
     replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+        logoUrl: 'https://github.com/bridgecrewio.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📦',
     stars: 8491,
@@ -4998,6 +5129,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/openstatusHQ.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 8395,
@@ -5020,6 +5152,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'GPL-3.0',
     categories: ['passwort-manager'],
     replacesTools: ['LastPass', '1Password'],
+        logoUrl: 'https://github.com/lesspass.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🔑',
     stars: 5983,
@@ -5042,6 +5175,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['cloud-speicher'],
     replacesTools: ['Google Drive', 'Dropbox', 'OneDrive'],
+        logoUrl: 'https://github.com/DioCrafts.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '☁️',
     stars: 2614,
@@ -5064,6 +5198,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'GPL-2.0',
     categories: ['cloud-speicher'],
     replacesTools: ['Google Drive', 'Dropbox', 'OneDrive'],
+        logoUrl: 'https://github.com/projectsend.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '☁️',
     stars: 1825,
@@ -5086,6 +5221,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['erp'],
     replacesTools: ['SAP Business One', 'Oracle ERP'],
+        logoUrl: 'https://github.com/TNT-Likely.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🏭',
     stars: 1183,
@@ -5108,6 +5244,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/bricks-cloud.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 1161,
@@ -5130,6 +5267,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/stakpak.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 1038,
@@ -5152,6 +5290,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['kommunikation'],
     replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
+        logoUrl: 'https://github.com/Sharkord.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '💬',
     stars: 1037,
@@ -5174,6 +5313,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/Swetrix.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 891,
@@ -5196,6 +5336,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/eclaire-labs.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 810,
@@ -5218,6 +5359,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['analytics'],
     replacesTools: ['Google Analytics', 'Mixpanel'],
+        logoUrl: 'https://github.com/tess1o.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📊',
     stars: 613,
@@ -5240,6 +5382,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['passwort-manager'],
     replacesTools: ['LastPass', '1Password'],
+        logoUrl: 'https://github.com/NayamAmarshe.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🔑',
     stars: 594,
@@ -5262,6 +5405,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['email-server'],
     replacesTools: ['Gmail-Server', 'Exchange'],
+        logoUrl: 'https://github.com/hyvor.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📮',
     stars: 524,
@@ -5284,6 +5428,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'BSD-3-Clause',
     categories: ['vpn'],
     replacesTools: ['NordVPN', 'ExpressVPN'],
+        logoUrl: 'https://github.com/spr-networks.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🛡️',
     stars: 502,
@@ -5306,6 +5451,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/payloadcms.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 40870,
@@ -5328,6 +5474,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/onyx-dot-app.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 17626,
@@ -5350,6 +5497,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/tinacms.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 13176,
@@ -5372,6 +5520,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['backend-frameworks'],
     replacesTools: ['Firebase', 'Supabase Pro'],
+        logoUrl: 'https://github.com/casdoor.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '⚙️',
     stars: 13088,
@@ -5394,6 +5543,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['backend-frameworks'],
     replacesTools: ['Firebase', 'Supabase Pro'],
+        logoUrl: 'https://github.com/apereo.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '⚙️',
     stars: 11293,
@@ -5416,6 +5566,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['datenbanken'],
     replacesTools: ['Oracle', 'MSSQL'],
+        logoUrl: 'https://github.com/dicedb.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🗄️',
     stars: 10694,
@@ -5438,6 +5589,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/webstudio-is.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 8270,
@@ -5460,6 +5612,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/webiny.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 7939,
@@ -5482,6 +5635,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/coroot.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 7446,
@@ -5504,6 +5658,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/evidentlyai.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 7253,
@@ -5526,6 +5681,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/apache.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 7106,
@@ -5548,6 +5704,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/traceloop.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 6867,
@@ -5570,6 +5727,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/OneUptime.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 6528,
@@ -5592,6 +5750,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/coze-dev.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 5332,
@@ -5614,6 +5773,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/Helicone.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 5164,
@@ -5636,6 +5796,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/apostrophecms.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 4529,
@@ -5658,6 +5819,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/uptrace.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 4109,
@@ -5680,6 +5842,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['datenbanken'],
     replacesTools: ['Oracle', 'MSSQL'],
+        logoUrl: 'https://github.com/terminusdb.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🗄️',
     stars: 3203,
@@ -5702,6 +5865,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/pezzolabs.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 3191,
@@ -5724,6 +5888,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/lmnr-ai.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 2639,
@@ -5746,6 +5911,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/openlit.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 2254,
@@ -5768,6 +5934,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/sveltia.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 2169,
@@ -5790,6 +5957,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/vriteio.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 1973,
@@ -5812,6 +5980,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/metrico.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 1635,
@@ -5834,6 +6003,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['datenbanken'],
     replacesTools: ['Oracle', 'MSSQL'],
+        logoUrl: 'https://github.com/ontola.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🗄️',
     stars: 1506,
@@ -5856,6 +6026,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/SonicJs-Org.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 1478,
@@ -5878,6 +6049,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['e-commerce'],
     replacesTools: ['Shopify', 'Magento Commerce'],
+        logoUrl: 'https://github.com/smartstore.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🛒',
     stars: 1465,
@@ -5900,6 +6072,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['container'],
     replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+        logoUrl: 'https://github.com/grafana.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📦',
     stars: 1280,
@@ -5922,6 +6095,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['monitoring'],
     replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+        logoUrl: 'https://github.com/measure-sh.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📈',
     stars: 1179,
@@ -5944,6 +6118,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['backend-frameworks'],
     replacesTools: ['Firebase', 'Supabase Pro'],
+        logoUrl: 'https://github.com/OpenIdentityPlatform.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '⚙️',
     stars: 865,
@@ -5966,6 +6141,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/rnchg.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 775,
@@ -5988,6 +6164,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['backend-frameworks'],
     replacesTools: ['Firebase', 'Supabase Pro'],
+        logoUrl: 'https://github.com/nhost.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '⚙️',
     stars: 9089,
@@ -6010,6 +6187,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/SwanHubX.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 3622,
@@ -6032,6 +6210,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/SilasMarvin.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 3140,
@@ -6054,6 +6233,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['datenbanken'],
     replacesTools: ['Oracle', 'MSSQL'],
+        logoUrl: 'https://github.com/toeverything.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🗄️',
     stars: 1901,
@@ -6076,6 +6256,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['datenbanken'],
     replacesTools: ['Oracle', 'MSSQL'],
+        logoUrl: 'https://github.com/orbitinghail.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🗄️',
     stars: 1409,
@@ -6098,6 +6279,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['container'],
     replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+        logoUrl: 'https://github.com/NeptuneHub.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '📦',
     stars: 1319,
@@ -6120,6 +6302,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'AGPL-3.0',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/learnhouse.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 1309,
@@ -6142,6 +6325,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['ki-ml'],
     replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+        logoUrl: 'https://github.com/browserable.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🤖',
     stars: 1162,
@@ -6164,6 +6348,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'BSD-3-Clause',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/AlchemyCMS.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 890,
@@ -6186,6 +6371,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/mixcore.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 881,
@@ -6208,6 +6394,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'Apache-2.0',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/gentics.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 589,
@@ -6230,6 +6417,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/gobeam.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 589,
@@ -6252,6 +6440,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/flextype.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 588,
@@ -6274,6 +6463,7 @@ export const autoDiscoveredTools: Tool[] = [
     license: 'MIT',
     categories: ['cms'],
     replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+        logoUrl: 'https://github.com/webreinvent.png?size=128',
     selfHostable: true,
     logoPlaceholderEmoji: '🌍',
     stars: 574,
