@@ -39,7 +39,7 @@ const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
 
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-fade-in-up" style="animation-delay: 0.2s">
         <a
-          href={`${base}tools`}
+          href={`${base}tools/`}
           class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 transition-all"
         >
           Alle Tools entdecken
@@ -48,7 +48,7 @@ const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
           </svg>
         </a>
         <a
-          href={`${base}kategorien`}
+          href={`${base}kategorien/`}
           class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline border border-indigo-500/50 text-indigo-400 hover:bg-indigo-500/10 transition-all"
         >
           Kategorien ansehen
@@ -88,7 +88,7 @@ const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
       </div>
       <div class="text-center mt-8">
         <a
-          href={`${base}tools`}
+          href={`${base}tools/`}
           class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
         >
           Alle {totalTools} Tools ansehen →
@@ -110,7 +110,7 @@ const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
     <CategoryGrid categories={categoriesWithCount} />
     <div class="text-center mt-8">
       <a
-        href={`${base}kategorien`}
+        href={`${base}kategorien/`}
         class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
       >
         Alle Kategorien ansehen →
@@ -129,13 +129,13 @@ const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
       </p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
         <a
-          href={`${base}vergleich`}
+          href={`${base}vergleich/`}
           class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-all"
         >
           Alternativen finden
         </a>
         <a
-          href={`${base}selbst-hosten`}
+          href={`${base}selbst-hosten/`}
           class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline border border-indigo-500/50 text-indigo-400 hover:bg-indigo-500/10 transition-all"
         >
           Selbst hosten lernen

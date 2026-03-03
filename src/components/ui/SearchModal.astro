@@ -85,6 +85,12 @@ const base = import.meta.env.BASE_URL;
     observer.observe(modal, { attributes: true, attributeFilter: ['class'] });
   }
 
+  function escapeHtml(str: string): string {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
   // Pagefind integration
   let pagefind: { search: (query: string) => Promise<{ results: Array<{ data: () => Promise<{ url: string; meta: { title: string }; excerpt: string }> }> }> } | null = null;
 
@@ -120,7 +126,7 @@ const base = import.meta.env.BASE_URL;
     );
 
     if (results.length === 0) {
-      resultsContainer.innerHTML = `<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">Keine Ergebnisse für &quot;${query}&quot;</div>`;
+      resultsContainer.innerHTML = `<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">Keine Ergebnisse für &quot;${escapeHtml(query)}&quot;</div>`;
       return;
     }
 

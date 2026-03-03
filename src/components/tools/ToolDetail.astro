@@ -64,7 +64,7 @@ const categoryIconMap: Record<string, string> = {
       <li>/</li>
       {toolCategories[0] && (
         <>
-          <li><a href={`${base}kategorie/${toolCategories[0].slug}`} class="hover:text-indigo-400">{toolCategories[0].name}</a></li>
+          <li><a href={`${base}kategorie/${toolCategories[0].slug}/`} class="hover:text-indigo-400">{toolCategories[0].name}</a></li>
           <li>/</li>
         </>
       )}
@@ -192,7 +192,7 @@ const categoryIconMap: Record<string, string> = {
     <div class="flex flex-wrap gap-2">
       {toolCategories.map(cat => (
         <a
-          href={`${base}kategorie/${cat.slug}`}
+          href={`${base}kategorie/${cat.slug}/`}
           class="badge bg-indigo-500/20 text-indigo-300 border-indigo-500/30 no-underline hover:no-underline hover:bg-indigo-500/30 inline-flex items-center gap-1.5"
         >
           {categoryIconMap[cat.icon] && <Icon name={categoryIconMap[cat.icon]} size={14} />}
@@ -228,7 +228,7 @@ const categoryIconMap: Record<string, string> = {
 
   {toolCategories[0] && (
     <a
-      href={`${base}kategorie/${toolCategories[0].slug}`}
+      href={`${base}kategorie/${toolCategories[0].slug}/`}
       class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
     >
       &larr; Zur&uuml;ck zu {toolCategories[0].name}

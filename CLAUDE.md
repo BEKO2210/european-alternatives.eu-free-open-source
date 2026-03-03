@@ -10,7 +10,7 @@ Das Auto-Discovery-System ist **implementiert und läuft autonom**.
 Jeden Montag um 06:00 UTC werden neue FOSS-Tools automatisch erkannt, kategorisiert,
 in die Webseite eingefügt, gebaut und deployed — ohne manuellen Eingriff.
 
-**Aktueller Stand:** 287 Tools (237 manuell kuratiert + 50 automatisch entdeckt) in 39 Kategorien.
+**Aktueller Stand:** 340 Tools in 39 Kategorien.
 
 ---
 
