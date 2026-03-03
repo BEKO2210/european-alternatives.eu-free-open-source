@@ -5,6 +5,29 @@ Alle wesentlichen Änderungen an diesem Projekt werden in dieser Datei dokumenti
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.1.0/)
 und dieses Projekt folgt [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.2.0] - 2026-03-03
+
+### Fixes
+
+- MinIO als "restricted" markiert (Web-UI hinter Enterprise-Paywall seit Mai 2025)
+- Redis, CockroachDB korrekt lizenz-bewertet und als restricted markiert
+
+### Features
+
+- Simple Icons Integration: echte SVG-Logos für 80+ Tools (inline, kein CDN)
+- Maintenance Status Badges (active/maintained/slow/restricted/archived)
+- Scroll-to-Top Button
+- OG-Image für Social Media Sharing
+- lastUpdated Warnung wenn Tool > 18 Monate nicht gepflegt
+- Twitter Image Meta-Tag ergänzt
+
+### Fixes
+
+- README Zahlenangaben aktualisiert (342+ Tools)
+- Meta-Tags / OG-Tags vervollständigt
+
+---
+
 ## [1.1.0] - 2026-03-02
 
 ### Fixed
