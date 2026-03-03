@@ -3962,6 +3962,157 @@ import type { Tool } from '../types';
     ],
     "featured": false,
     "addedDate": "2026-03-02"
+  },
+  {
+    "id": "idurar-erp-crm",
+    "name": "Idurar Erp Crm",
+    "slug": "idurar-erp-crm",
+    "tagline": "Free Open Source ERP CRM Software Accounting Invoicing | Node Js React",
+    "description": "Free Open Source ERP CRM Software Accounting Invoicing | Node Js React",
+    "website": "https://cloud.idurarapp.com",
+    "github": "https://github.com/idurar/idurar-erp-crm",
+    "license": "AGPL-3.0",
+    "categories": [
+      "erp"
+    ],
+    "replacesTools": [
+      "SAP Business One",
+      "Oracle ERP"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🏭",
+    "logoUrl": "https://avatars.githubusercontent.com/u/50052356?v=4",
+    "stars": 8214,
+    "lastUpdated": "2025-08-16",
+    "tags": [
+      "accounting",
+      "accounting-software",
+      "crm",
+      "crm-platform",
+      "crm-system",
+      "e-commerce",
+      "ecommerce"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-03"
+  },
+  {
+    "id": "openakita",
+    "name": "Openakita",
+    "slug": "openakita",
+    "tagline": "An open-source AI assistant framework with skills and agent architecture",
+    "description": "An open-source AI assistant framework with skills and agent architecture",
+    "website": "http://openakita.ai",
+    "github": "https://github.com/openakita/openakita",
+    "license": "Apache-2.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/258245504?v=4",
+    "stars": 908,
+    "lastUpdated": "2026-03-02",
+    "tags": [
+      "agent",
+      "ai",
+      "assistant",
+      "automation",
+      "claw",
+      "clawd",
+      "clawdbot"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-03"
+  },
+  {
+    "id": "hello-halo",
+    "name": "Hello Halo",
+    "slug": "hello-halo",
+    "tagline": "Open-source Claude Code GUI — like Claude Cowork.",
+    "description": "Open-source Claude Code GUI — like Claude Cowork. Visual AI assistant with remote access, file management, and built-in AI browser.",
+    "website": "https://hello-halo.cc/",
+    "github": "https://github.com/openkursar/hello-halo",
+    "license": "MIT",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/224754962?v=4",
+    "stars": 592,
+    "lastUpdated": "2026-03-02",
+    "tags": [
+      "agent",
+      "claudecode",
+      "cowork"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-03"
+  },
+  {
+    "id": "ethora",
+    "name": "Ethora",
+    "slug": "ethora",
+    "tagline": "Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪.",
+    "description": "Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪. React, Typescript, Python, XMPP. Build future apps with chat, AI agents and web3.",
+    "website": "https://ethora.com/",
+    "github": "https://github.com/dappros/ethora",
+    "license": "AGPL-3.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/63907257?v=4",
+    "stars": 521,
+    "lastUpdated": "2025-10-07",
+    "tags": [
+      "ai-chat",
+      "chat-sdk",
+      "chat-widget",
+      "chatbot",
+      "developer-tools",
+      "ejabberd",
+      "ethereum"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-03"
   }
 ]
 END_AUTO_TOOLS_JSON */
@@ -6286,5 +6437,97 @@ export const autoDiscoveredTools: Tool[] = [
     platforms: ['linux', 'docker'],
     featured: false,
     addedDate: '2026-03-02',
+  },
+  {
+    id: 'idurar-erp-crm',
+    name: 'Idurar Erp Crm',
+    slug: 'idurar-erp-crm',
+    tagline: 'Free Open Source ERP CRM Software Accounting Invoicing | Node Js React',
+    description:
+      'Free Open Source ERP CRM Software Accounting Invoicing | Node Js React',
+    website: 'https://cloud.idurarapp.com',
+    github: 'https://github.com/idurar/idurar-erp-crm',
+    license: 'AGPL-3.0',
+    categories: ['erp'],
+    replacesTools: ['SAP Business One', 'Oracle ERP'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🏭',
+    logoUrl: 'https://avatars.githubusercontent.com/u/50052356?v=4',
+    stars: 8214,
+    lastUpdated: '2025-08-16',
+    tags: ['accounting', 'accounting-software', 'crm', 'crm-platform', 'crm-system', 'e-commerce', 'ecommerce'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-03',
+  },
+  {
+    id: 'openakita',
+    name: 'Openakita',
+    slug: 'openakita',
+    tagline: 'An open-source AI assistant framework with skills and agent architecture',
+    description:
+      'An open-source AI assistant framework with skills and agent architecture',
+    website: 'http://openakita.ai',
+    github: 'https://github.com/openakita/openakita',
+    license: 'Apache-2.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/258245504?v=4',
+    stars: 908,
+    lastUpdated: '2026-03-02',
+    tags: ['agent', 'ai', 'assistant', 'automation', 'claw', 'clawd', 'clawdbot'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-03',
+  },
+  {
+    id: 'hello-halo',
+    name: 'Hello Halo',
+    slug: 'hello-halo',
+    tagline: 'Open-source Claude Code GUI — like Claude Cowork.',
+    description:
+      'Open-source Claude Code GUI — like Claude Cowork. Visual AI assistant with remote access, file management, and built-in AI browser.',
+    website: 'https://hello-halo.cc/',
+    github: 'https://github.com/openkursar/hello-halo',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/224754962?v=4',
+    stars: 592,
+    lastUpdated: '2026-03-02',
+    tags: ['agent', 'claudecode', 'cowork'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-03',
+  },
+  {
+    id: 'ethora',
+    name: 'Ethora',
+    slug: 'ethora',
+    tagline: 'Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪.',
+    description:
+      'Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪. React, Typescript, Python, XMPP. Build future apps with chat, AI agents and web3.',
+    website: 'https://ethora.com/',
+    github: 'https://github.com/dappros/ethora',
+    license: 'AGPL-3.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/63907257?v=4',
+    stars: 521,
+    lastUpdated: '2025-10-07',
+    tags: ['ai-chat', 'chat-sdk', 'chat-widget', 'chatbot', 'developer-tools', 'ejabberd', 'ethereum'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-03',
   },
 ];
