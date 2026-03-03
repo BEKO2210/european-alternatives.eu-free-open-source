@@ -23,6 +23,7 @@ export const eCommerceTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'woocommerce',
   },
   {
     id: 'prestashop',

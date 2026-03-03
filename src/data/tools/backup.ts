@@ -67,6 +67,7 @@ export const backupTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: false,
     addedDate: '2025-06-15',
+    simpleIconsSlug: 'duplicati',
   },
   {
     id: 'kopia',

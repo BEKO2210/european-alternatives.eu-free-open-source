@@ -46,6 +46,7 @@ export const wikiTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'bookstack',
   },
   {
     id: 'wikijs',

@@ -22,6 +22,7 @@ export const datenbankenTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'postgresql',
   },
   {
     id: 'mariadb',
@@ -45,6 +46,7 @@ export const datenbankenTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'mariadb',
   },
   {
     id: 'sqlite',
@@ -67,6 +69,7 @@ export const datenbankenTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'android', 'ios'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'sqlite',
   },
   {
     id: 'cockroachdb',
@@ -74,7 +77,7 @@ export const datenbankenTools: Tool[] = [
     slug: 'cockroachdb',
     tagline: 'Verteilte SQL-Datenbank mit globaler Konsistenz',
     description:
-      'CockroachDB ist eine verteilte SQL-Datenbank, die fuer Cloud-Anwendungen entwickelt wurde und sich durch horizontale Skalierung, automatische Replikation und starke Konsistenz auszeichnet. Sie ist PostgreSQL-kompatibel und bietet Geo-Partitionierung, automatisches Sharding und Selbstheilung bei Knotenausfaellen. CockroachDB kombiniert die Vertrautheit von SQL mit der Skalierbarkeit von NoSQL-Systemen.',
+      'CockroachDB ist eine verteilte SQL-Datenbank, die fuer Cloud-Anwendungen entwickelt wurde und sich durch horizontale Skalierung, automatische Replikation und starke Konsistenz auszeichnet. Sie ist PostgreSQL-kompatibel und bietet Geo-Partitionierung, automatisches Sharding und Selbstheilung bei Knotenausfaellen. Seit Ende 2024 ist die kostenlose CockroachDB Core Edition eingestellt. Nur noch Enterprise-Lizenz verfuegbar.',
     website: 'https://www.cockroachlabs.com',
     github: 'https://github.com/cockroachdb/cockroach',
     license: 'BSL-1.1',
@@ -90,6 +93,9 @@ export const datenbankenTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: false,
     addedDate: '2026-02-28',
+    maintenanceStatus: 'restricted',
+    maintenanceNote: 'Ende 2024: Kostenlose CockroachDB Core Edition eingestellt. Nur noch BSL-1.1 / Enterprise-Lizenz verfuegbar. Kein kostenloses Self-Hosting mehr moeglich.',
+    deprecatedReason: 'Kein kostenloses Core-Produkt mehr. Nur Enterprise-Lizenz.',
   },
   {
     id: 'timescaledb',
@@ -143,10 +149,10 @@ export const datenbankenTools: Tool[] = [
     slug: 'redis',
     tagline: 'Blitzschneller In-Memory-Datenstrukturspeicher',
     description:
-      'Redis ist ein Open-Source-In-Memory-Datenstrukturspeicher, der als Datenbank, Cache und Message-Broker eingesetzt wird. Er unterstuetzt vielfaeltige Datenstrukturen wie Strings, Hashes, Listen, Sets, Sorted Sets, Bitmaps und Streams. Redis bietet Persistenz, Replikation, Lua-Scripting, Transaktionen und Pub/Sub-Messaging. Dank seiner Geschwindigkeit ist Redis eine zentrale Komponente in vielen modernen Anwendungsarchitekturen.',
+      'Redis ist ein In-Memory-Datenstrukturspeicher, der als Datenbank, Cache und Message-Broker eingesetzt wird. Er unterstuetzt vielfaeltige Datenstrukturen wie Strings, Hashes, Listen, Sets, Sorted Sets, Bitmaps und Streams. Redis bietet Persistenz, Replikation, Lua-Scripting, Transaktionen und Pub/Sub-Messaging. Seit Maerz 2024 steht Redis unter SSPL/RSALv2 statt BSD. FOSS-Alternative: Valkey (Linux Foundation Fork).',
     website: 'https://redis.io',
     github: 'https://github.com/redis/redis',
-    license: 'BSD-3-Clause',
+    license: 'SSPL-1.0 / RSALv2',
     categories: ['datenbanken'],
     replacesTools: ['Oracle DB', 'Microsoft SQL Server'],
     selfHostable: true,
@@ -159,6 +165,10 @@ export const datenbankenTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    maintenanceStatus: 'restricted',
+    maintenanceNote: 'Seit Maerz 2024 unter SSPL/RSALv2 statt BSD-3-Clause. Nicht mehr OSI-konform. Valkey (Linux Foundation Fork) ist die empfohlene FOSS-Alternative.',
+    deprecatedReason: 'Lizenzwechsel zu SSPL/RSALv2 — keine OSI-konforme Open-Source-Lizenz mehr.',
+    simpleIconsSlug: 'redis',
   },
   {
     id: 'mongodb-community',
@@ -182,6 +192,7 @@ export const datenbankenTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'mongodb',
   },
   {
     id: 'neo4j-ce',

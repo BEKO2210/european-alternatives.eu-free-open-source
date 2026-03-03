@@ -22,6 +22,7 @@ export const buerosoftwareTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'libreoffice',
   },
   {
     id: 'onlyoffice',
@@ -45,6 +46,7 @@ export const buerosoftwareTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2025-01-15',
+    simpleIconsSlug: 'onlyoffice',
   },
   {
     id: 'collabora-online',
@@ -68,6 +70,7 @@ export const buerosoftwareTools: Tool[] = [
     platforms: ['web', 'docker'],
     featured: true,
     addedDate: '2025-02-01',
+    simpleIconsSlug: 'collaboraonline',
   },
   {
     id: 'apache-openoffice',

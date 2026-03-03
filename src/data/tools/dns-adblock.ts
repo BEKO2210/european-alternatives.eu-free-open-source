@@ -22,6 +22,7 @@ export const dnsAdblockTools: Tool[] = [
     platforms: ['linux', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'pihole',
   },
   {
     id: 'adguard-home',
@@ -44,6 +45,7 @@ export const dnsAdblockTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'adguard',
   },
   {
     id: 'unbound',

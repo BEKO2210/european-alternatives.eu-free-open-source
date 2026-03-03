@@ -23,6 +23,7 @@ export const erpTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'odoo',
   },
   {
     id: 'erpnext',
@@ -46,6 +47,7 @@ export const erpTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'erpnext',
   },
   {
     id: 'dolibarr',

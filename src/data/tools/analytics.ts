@@ -23,6 +23,7 @@ export const analyticsTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'plausible',
   },
   {
     id: 'matomo',
@@ -46,6 +47,7 @@ export const analyticsTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'matomo',
   },
   {
     id: 'umami',
@@ -69,6 +71,7 @@ export const analyticsTools: Tool[] = [
     platforms: ['web', 'linux', 'macos', 'docker'],
     featured: false,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'umami',
   },
   {
     id: 'fathom-lite',

@@ -23,6 +23,7 @@ export const videokonferenzenTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'jitsi',
   },
   {
     id: 'bigbluebutton',
@@ -46,6 +47,7 @@ export const videokonferenzenTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'bigbluebutton',
   },
   {
     id: 'openmeetings',

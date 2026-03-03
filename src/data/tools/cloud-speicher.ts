@@ -23,6 +23,7 @@ export const cloudSpeicherTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'nextcloud',
   },
   {
     id: 'seafile',
@@ -46,6 +47,7 @@ export const cloudSpeicherTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2025-01-15',
+    simpleIconsSlug: 'seafile',
   },
   {
     id: 'owncloud',

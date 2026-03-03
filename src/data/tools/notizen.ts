@@ -23,6 +23,7 @@ export const notizenTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'joplin',
   },
   {
     id: 'logseq',
@@ -46,6 +47,7 @@ export const notizenTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'android', 'ios'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'logseq',
   },
   {
     id: 'appflowy',

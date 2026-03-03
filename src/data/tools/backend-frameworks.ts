@@ -23,6 +23,7 @@ export const backendFrameworksTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'supabase',
   },
   {
     id: 'appwrite',
@@ -46,6 +47,7 @@ export const backendFrameworksTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'appwrite',
   },
   {
     id: 'pocketbase',
@@ -69,6 +71,7 @@ export const backendFrameworksTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2025-06-15',
+    simpleIconsSlug: 'pocketbase',
   },
   {
     id: 'nocodb',

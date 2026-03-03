@@ -23,6 +23,7 @@ export const suchmaschinenTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'searxng',
   },
   {
     id: 'whoogle-search',

@@ -23,6 +23,7 @@ export const ssgTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'astro',
   },
   {
     id: 'hugo',
@@ -45,6 +46,7 @@ export const ssgTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'hugo',
   },
   {
     id: 'eleventy',
@@ -67,6 +69,7 @@ export const ssgTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: false,
     addedDate: '2025-06-15',
+    simpleIconsSlug: 'eleventy',
   },
   {
     id: 'jekyll',
@@ -90,6 +93,7 @@ export const ssgTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: false,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'jekyll',
   },
   {
     id: 'zola',

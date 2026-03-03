@@ -1,4 +1,4 @@
-> **[English]** A curated directory of 340+ free and open-source alternatives to proprietary software like Google, Microsoft, and Adobe — organized in 39 categories, fully searchable, self-hostable. Built for the DACH region but useful for everyone. → [Live Site](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
+> **[English]** A curated directory of 342+ free and open-source alternatives to proprietary software like Google, Microsoft, and Adobe — organized in 39 categories, fully searchable, self-hostable. Built for the DACH region but useful for everyone. → [Live Site](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
 
 # 🛡️ FOSS Alternatives
 
@@ -9,7 +9,7 @@
 
 **Deine Freiheit. Dein Code. Deine Zukunft.**
 
-> Eine kuratierte Sammlung von 340+ kostenlosen Open-Source-Alternativen zu proprietärer Software — organisiert in 39 Kategorien, vollständig durchsuchbar, und mit dem Fokus auf Datenschutz und digitale Souveränität. Neue Tools werden jeden Montag automatisch erkannt und hinzugefügt.
+> Eine kuratierte Sammlung von 342+ kostenlosen Open-Source-Alternativen zu proprietärer Software — organisiert in 39 Kategorien, vollständig durchsuchbar, und mit dem Fokus auf Datenschutz und digitale Souveränität. Neue Tools werden jeden Montag automatisch erkannt und hinzugefügt.
 
 🌐 **Live:** [BEKO2210.github.io/european-alternatives.eu-free-open-source](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
 
@@ -17,7 +17,7 @@
 
 ## ✨ Features
 
-- 📦 **340+ FOSS-Tools** in 39 Kategorien (wächst automatisch)
+- 📦 **342+ FOSS-Tools** in 39 Kategorien (wächst automatisch)
 - 🤖 **Auto-Discovery** — neue Tools werden wöchentlich via GitHub API erkannt und hinzugefügt
 - 🔍 **Volltextsuche** mit Pagefind (statisch, kein Server nötig)
 - 🌙 **Dark/Light Mode** mit localStorage-Persistenz

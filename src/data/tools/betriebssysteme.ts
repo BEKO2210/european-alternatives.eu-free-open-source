@@ -22,6 +22,7 @@ export const betriebssystemeTools: Tool[] = [
     platforms: ['linux'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'ubuntu',
   },
   {
     id: 'debian',
@@ -44,6 +45,7 @@ export const betriebssystemeTools: Tool[] = [
     platforms: ['linux'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'debian',
   },
   {
     id: 'fedora',
@@ -66,6 +68,7 @@ export const betriebssystemeTools: Tool[] = [
     platforms: ['linux'],
     featured: true,
     addedDate: '2025-01-15',
+    simpleIconsSlug: 'fedora',
   },
   {
     id: 'linux-mint',
@@ -88,6 +91,7 @@ export const betriebssystemeTools: Tool[] = [
     platforms: ['linux'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'linuxmint',
   },
   {
     id: 'endeavouros',
@@ -198,6 +202,7 @@ export const betriebssystemeTools: Tool[] = [
     platforms: ['linux'],
     featured: true,
     addedDate: '2025-02-01',
+    simpleIconsSlug: 'nixos',
   },
   {
     id: 'freebsd',

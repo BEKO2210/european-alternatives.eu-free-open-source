@@ -23,6 +23,7 @@ export const kartenTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'openstreetmap',
   },
   {
     id: 'leafletjs',

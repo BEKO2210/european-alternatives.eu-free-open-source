@@ -45,6 +45,7 @@ export const kommunikationTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'android', 'ios'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'signal',
   },
   {
     id: 'xmpp-prosody',
@@ -90,6 +91,7 @@ export const kommunikationTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'rocketchat',
   },
   {
     id: 'mattermost',
@@ -113,6 +115,7 @@ export const kommunikationTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'mattermost',
   },
   {
     id: 'zulip',
@@ -136,6 +139,7 @@ export const kommunikationTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'android', 'ios', 'docker'],
     featured: false,
     addedDate: '2025-01-15',
+    simpleIconsSlug: 'zulip',
   },
   {
     id: 'jami',

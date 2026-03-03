@@ -22,6 +22,7 @@ export const medienserverTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'jellyfin',
   },
   {
     id: 'navidrome',

@@ -46,6 +46,7 @@ export const projektmanagementTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'openproject',
   },
   {
     id: 'taiga',
@@ -92,6 +93,7 @@ export const projektmanagementTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2025-07-01',
+    simpleIconsSlug: 'plane',
   },
   {
     id: 'leantime',

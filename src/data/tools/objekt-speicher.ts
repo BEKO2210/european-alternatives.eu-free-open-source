@@ -7,7 +7,7 @@ export const objektSpeicherTools: Tool[] = [
     slug: 'minio',
     tagline: 'Hochleistungs-Objektspeicher mit S3-Kompatibilitaet',
     description:
-      'MinIO ist ein hochleistungsfaehiger, S3-kompatibler Objektspeicher. Er ist fuer KI/ML-Workloads, Data Lakes und Cloud-native Anwendungen optimiert und bietet Erasure Coding, Verschluesselung, Versionierung und eine herausragende Lese-/Schreibgeschwindigkeit. Hinweis: MinIO nutzt ein Dual-Licensing-Modell (AGPL-3.0 / kommerziell).',
+      'MinIO ist ein hochleistungsfaehiger, S3-kompatibler Objektspeicher. Er ist fuer KI/ML-Workloads, Data Lakes und Cloud-native Anwendungen optimiert und bietet Erasure Coding, Verschluesselung, Versionierung und eine herausragende Lese-/Schreibgeschwindigkeit. Hinweis: MinIO nutzt ein Dual-Licensing-Modell (AGPL-3.0 / kommerziell). ⚠ Eingeschraenkt: MinIO hat 2025 das Web-UI aus der Community Edition entfernt. Alternativen: Garage, SeaweedFS, Ceph.',
     website: 'https://min.io',
     github: 'https://github.com/minio/minio',
     license: 'AGPL-3.0',
@@ -23,6 +23,9 @@ export const objektSpeicherTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: false,
     addedDate: '2025-06-01',
+    maintenanceStatus: 'restricted',
+    maintenanceNote: 'Seit Mai 2025: Web-UI aus Community-Edition entfernt. Admin-Funktionen nur noch per CLI oder Enterprise-Lizenz (ab $96.000/Jahr). Keine vorkompilierten Binaries mehr. Technisch AGPL v3, aber Community-Vertrauen stark beschaedigt.',
+    deprecatedReason: 'Web-UI hinter Enterprise-Paywall. Community Edition massiv eingeschraenkt.',
   },
   {
     id: 'ceph',
@@ -45,6 +48,7 @@ export const objektSpeicherTools: Tool[] = [
     platforms: ['linux', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'ceph',
   },
   {
     id: 'seaweedfs',

@@ -45,6 +45,7 @@ export const ciCdTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'drone',
   },
   {
     id: 'jenkins',
@@ -67,6 +68,7 @@ export const ciCdTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'jenkins',
   },
   {
     id: 'concourse-ci',
