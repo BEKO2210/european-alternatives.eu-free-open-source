@@ -15,10 +15,10 @@ export const GET: APIRoute = () => {
       (tool) => `
     <item>
       <title>${escapeXml(tool.name)}</title>
-      <link>${site}${base}/tool/${tool.slug}</link>
+      <link>${site}${base}/tool/${tool.slug}/</link>
       <description>${escapeXml(tool.tagline)}</description>
       <pubDate>${new Date(tool.addedDate).toUTCString()}</pubDate>
-      <guid isPermaLink="true">${site}${base}/tool/${tool.slug}</guid>
+      <guid isPermaLink="true">${site}${base}/tool/${tool.slug}/</guid>
       <category>${escapeXml(tool.categories[0] ?? '')}</category>
     </item>`
     )

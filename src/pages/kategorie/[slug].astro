@@ -18,7 +18,7 @@ const base = import.meta.env.BASE_URL;
 const category = getCategoryBySlug(categories, slug!);
 
 if (!category) {
-  return Astro.redirect(`${base}kategorien`);
+  return Astro.redirect(`${base}kategorien/`);
 }
 
 const tools = getToolsByCategory(allTools, slug!);
@@ -33,7 +33,7 @@ const tools = getToolsByCategory(allTools, slug!);
       <ol class="flex items-center gap-2" style="color: var(--color-text-muted)">
         <li><a href={base} class="hover:text-indigo-400">Startseite</a></li>
         <li>/</li>
-        <li><a href={`${base}kategorien`} class="hover:text-indigo-400">Kategorien</a></li>
+        <li><a href={`${base}kategorien/`} class="hover:text-indigo-400">Kategorien</a></li>
         <li>/</li>
         <li style="color: var(--color-text-primary)">{category.name}</li>
       </ol>

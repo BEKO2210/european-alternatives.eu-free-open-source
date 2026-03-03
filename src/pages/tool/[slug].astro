@@ -16,7 +16,7 @@ const base = import.meta.env.BASE_URL;
 const tool = allTools.find((t) => t.slug === slug);
 
 if (!tool) {
-  return Astro.redirect(`${base}tools`);
+  return Astro.redirect(`${base}tools/`);
 }
 ---
 

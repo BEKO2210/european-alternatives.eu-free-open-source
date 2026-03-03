@@ -58,7 +58,13 @@
     overflow-x: hidden;
   }
 
-  * {
+  body,
+  .card,
+  .badge,
+  nav,
+  a,
+  button,
+  input {
     transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
   }
 
