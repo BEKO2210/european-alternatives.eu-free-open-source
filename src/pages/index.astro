@@ -13,11 +13,10 @@ const totalTools = allTools.length;
 const totalCategories = categories.length;
 const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
 
-// Build-time shuffle to create a pool of candidates for client-side randomization
-const shuffledTools = [...allTools].sort(() => Math.random() - 0.5);
-const poolTools = shuffledTools.slice(0, 18);
-const shuffledCategories = [...categoriesWithCount].sort(() => Math.random() - 0.5);
-const poolCategories = shuffledCategories.slice(0, 12);
+// Build-time shuffle for NoJS fallback order (first 6 shown without JS)
+// Client-side JS re-shuffles all items and picks 6 random ones
+const allToolsShuffled = [...allTools].sort(() => Math.random() - 0.5);
+const allCategoriesShuffled = [...categoriesWithCount].sort(() => Math.random() - 0.5);
 ---
 
 <BaseLayout title="FOSS Alternatives – Deine Freiheit. Dein Code. Deine Zukunft.">
@@ -85,7 +84,7 @@ const poolCategories = shuffledCategories.slice(0, 12);
       </p>
     </div>
     <div id="random-tools-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 stagger-fade">
-      {poolTools.map((tool, i) => (
+      {allToolsShuffled.map((tool, i) => (
         <div class="random-tool-item" data-index={i} style={i >= 6 ? 'display:none' : ''}>
           <ToolCard tool={tool} />
         </div>
@@ -112,7 +111,7 @@ const poolCategories = shuffledCategories.slice(0, 12);
       </p>
     </div>
     <div id="random-categories-grid" class="grid grid-cols-2 md:grid-cols-3 gap-4 stagger-fade">
-      {poolCategories.map((cat, i) => (
+      {allCategoriesShuffled.map((cat, i) => (
         <div class="random-category-item" data-index={i} style={i >= 6 ? 'display:none' : ''}>
           <CategoryCard category={cat} />
         </div>
