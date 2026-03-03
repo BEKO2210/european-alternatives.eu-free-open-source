@@ -143,6 +143,10 @@ export const TOOL_ICON_MAP: Record<string, string> = {
   'plex': 'plex',
   'emby': 'emby',
   'kodi': 'kodi',
+  // Fotos
+  'immich': 'immich',
+  'ente': 'ente',
+  'piwigo': 'piwigo',
   // Karten
   'openstreetmap': 'openstreetmap',
   'maplibre': 'maplibre',

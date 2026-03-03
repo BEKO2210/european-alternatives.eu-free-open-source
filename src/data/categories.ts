@@ -430,4 +430,15 @@ export const categories: Category[] = [
     replacesCategory: 'Google Maps API, Mapbox',
     color: 'green',
   },
+  {
+    id: 'fotos',
+    slug: 'fotos',
+    name: 'Fotoverwaltung',
+    description:
+      'Selbst gehostete Fotoverwaltungs- und Galerie-Loesungen fuer private Fotosammlungen. Datenschutzfreundliche Alternativen zu Google Photos, iCloud Photos und Amazon Photos.',
+    icon: 'camera',
+    emoji: '📷',
+    replacesCategory: 'Google Photos, iCloud Photos, Amazon Photos',
+    color: 'rose',
+  },
 ];

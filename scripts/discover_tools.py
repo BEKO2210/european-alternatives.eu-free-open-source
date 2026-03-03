@@ -31,7 +31,7 @@ import requests
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 MIN_STARS = int(os.environ.get("MIN_STARS", "500"))
-MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "25"))
+MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "40"))
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 REPO_ROOT = os.environ.get("REPO_ROOT", ".")
 
@@ -58,6 +58,29 @@ SEARCH_QUERIES = [
     "open-source ERP accounting invoicing stars:>500",
     "open-source wiki documentation platform stars:>500",
     "open-source calendar scheduling self-hosted stars:>500",
+    # Fotos & Galerie
+    "open-source photo-management gallery self-hosted stars:>300",
+    "open-source google-photos alternative photo-backup stars:>300",
+    # Browser & Desktop
+    "open-source browser privacy chromium firefox stars:>1000",
+    # Code-Hosting & Git
+    "open-source git-server forge code-hosting stars:>500",
+    # Social Media / Fediverse
+    "open-source fediverse activitypub mastodon stars:>500",
+    # Video/Audio Bearbeitung
+    "open-source video-editor audio-editor multimedia stars:>500",
+    # Bildbearbeitung
+    "open-source image-editor graphic-design gimp stars:>500",
+    # Zeiterfassung
+    "open-source time-tracking timesheet self-hosted stars:>300",
+    # DNS & Ad-Block
+    "open-source dns-server adblock pihole self-hosted stars:>500",
+    # SSG (Static Site Generators)
+    "open-source static-site-generator jamstack stars:>500",
+    # Karten & GIS
+    "open-source maps geolocation openstreetmap stars:>500",
+    # Suchmaschinen
+    "open-source search-engine metasearch privacy stars:>300",
 ]
 
 GITHUB_API = "https://api.github.com"
@@ -95,7 +118,7 @@ VALID_CATEGORIES = [
     "notizen", "projektmanagement", "video-audio", "bildbearbeitung",
     "zeiterfassung", "erp", "crm", "wiki", "backup", "dns-adblock",
     "objekt-speicher", "medienserver", "dev-tools", "backend-frameworks",
-    "ssg", "karten",
+    "ssg", "karten", "fotos",
 ]
 
 # Mapping from keywords/topics to category slugs
@@ -241,6 +264,12 @@ KEYWORD_TO_CATEGORY = {
     # karten
     "maps": "karten", "geolocation": "karten",
     "openstreetmap": "karten", "gis": "karten", "geocoding": "karten",
+    # fotos
+    "photo-management": "fotos", "photo-gallery": "fotos",
+    "photo-backup": "fotos", "google-photos": "fotos",
+    "photo-library": "fotos", "image-gallery": "fotos",
+    "photo-sharing": "fotos", "photo-organizer": "fotos",
+    "google-photos-alternative": "fotos",
 }
 
 # Description keywords (lower priority - used when topics don't match)
@@ -289,6 +318,8 @@ DESC_KEYWORD_TO_CATEGORY = {
     "browser": "browser",
     "office": "buerosoftware",
     "operating system": "betriebssysteme",
+    "photo manag": "fotos", "photo gallery": "fotos",
+    "photo backup": "fotos", "google photos": "fotos",
     "self-hosted": None,
     "selfhosted": None,
     "self hosted": None,
@@ -312,6 +343,7 @@ CATEGORY_EMOJI = {
     "wiki": "📚", "backup": "💾", "dns-adblock": "🚫",
     "objekt-speicher": "🗃️", "medienserver": "🎵", "dev-tools": "⌨️",
     "backend-frameworks": "⚙️", "ssg": "🚀", "karten": "🗺️",
+    "fotos": "📷",
 }
 
 # replacesTools per category (from categories.ts replacesCategory)
@@ -355,6 +387,7 @@ CATEGORY_REPLACES = {
     "backend-frameworks": ["Firebase", "Supabase Pro"],
     "ssg": ["Webflow", "Framer"],
     "karten": ["Google Maps API", "Mapbox"],
+    "fotos": ["Google Photos", "iCloud Photos", "Amazon Photos"],
 }
 
 
