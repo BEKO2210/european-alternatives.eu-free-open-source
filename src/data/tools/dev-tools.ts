@@ -44,6 +44,7 @@ export const devToolsTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'neovim',
   },
   {
     id: 'helix',

@@ -23,6 +23,7 @@ export const cmsTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'wordpress',
   },
   {
     id: 'ghost',
@@ -46,6 +47,7 @@ export const cmsTools: Tool[] = [
     platforms: ['web', 'linux', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'ghost',
   },
   {
     id: 'strapi',
@@ -69,6 +71,7 @@ export const cmsTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'strapi',
   },
   {
     id: 'directus',
@@ -92,6 +95,7 @@ export const cmsTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: false,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'directus',
   },
   {
     id: 'payload-cms',

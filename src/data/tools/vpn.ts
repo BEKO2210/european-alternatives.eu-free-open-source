@@ -23,6 +23,7 @@ export const vpnTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'android', 'ios'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'wireguard',
   },
   {
     id: 'openvpn',
@@ -46,6 +47,7 @@ export const vpnTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'openvpn',
   },
   {
     id: 'headscale',

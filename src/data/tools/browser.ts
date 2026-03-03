@@ -22,6 +22,7 @@ export const browserTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'android', 'ios'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'firefoxbrowser',
   },
   {
     id: 'librewolf',
@@ -66,6 +67,7 @@ export const browserTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'android', 'ios'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'brave',
   },
   {
     id: 'chromium',
@@ -88,6 +90,7 @@ export const browserTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: false,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'chromium',
   },
   {
     id: 'ungoogled-chromium',

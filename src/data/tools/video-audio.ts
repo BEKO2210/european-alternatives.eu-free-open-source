@@ -22,6 +22,7 @@ export const videoAudioTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'kdenlive',
   },
   {
     id: 'openshot',
@@ -109,6 +110,7 @@ export const videoAudioTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'audacity',
   },
   {
     id: 'ardour',
@@ -175,5 +177,6 @@ export const videoAudioTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'obsstudio',
   },
 ];

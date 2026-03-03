@@ -23,6 +23,7 @@ export const codeHostingTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'forgejo',
   },
   {
     id: 'gitea',
@@ -46,6 +47,7 @@ export const codeHostingTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'gitea',
   },
   {
     id: 'gitlab-ce',
@@ -69,6 +71,7 @@ export const codeHostingTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'gitlab',
   },
   {
     id: 'gogs',

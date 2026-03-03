@@ -23,6 +23,7 @@ export const socialMediaTools: Tool[] = [
     platforms: ['web', 'linux', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'mastodon',
   },
   {
     id: 'pixelfed',
@@ -46,6 +47,7 @@ export const socialMediaTools: Tool[] = [
     platforms: ['web', 'linux', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'pixelfed',
   },
   {
     id: 'misskey',
@@ -92,6 +94,7 @@ export const socialMediaTools: Tool[] = [
     platforms: ['web', 'linux', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'lemmy',
   },
   {
     id: 'friendica',
@@ -138,6 +141,7 @@ export const socialMediaTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'peertube',
   },
   {
     id: 'diaspora',
@@ -161,5 +165,6 @@ export const socialMediaTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: false,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'diaspora',
   },
 ];

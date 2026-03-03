@@ -22,6 +22,7 @@ export const emailClientTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'thunderbird',
   },
   {
     id: 'geary',

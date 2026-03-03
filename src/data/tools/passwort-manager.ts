@@ -22,6 +22,7 @@ export const passwortManagerTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'android', 'ios', 'docker'],
     featured: true,
     addedDate: '2025-01-01',
+    simpleIconsSlug: 'vaultwarden',
   },
   {
     id: 'keepassxc',

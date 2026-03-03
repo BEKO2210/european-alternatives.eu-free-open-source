@@ -23,6 +23,7 @@ export const containerTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'docker',
   },
   {
     id: 'podman',
@@ -45,6 +46,7 @@ export const containerTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'podman',
   },
   {
     id: 'buildah',
@@ -89,6 +91,7 @@ export const containerTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'kubernetes',
   },
   {
     id: 'k3s',
@@ -133,6 +136,7 @@ export const containerTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'portainer',
   },
   {
     id: 'rancher',
@@ -155,5 +159,6 @@ export const containerTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: false,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'rancher',
   },
 ];

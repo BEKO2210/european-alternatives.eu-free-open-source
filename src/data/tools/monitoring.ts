@@ -23,6 +23,7 @@ export const monitoringTools: Tool[] = [
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'grafana',
   },
   {
     id: 'prometheus',
@@ -46,6 +47,7 @@ export const monitoringTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'prometheus',
   },
   {
     id: 'loki',

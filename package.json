@@ -22,6 +22,7 @@
     "astro": "^4.5.0",
     "astro-icon": "^1.1.5",
     "lucide": "^0.575.0",
+    "simple-icons": "^16.10.0",
     "tailwindcss": "^3.4.1"
   },
   "devDependencies": {

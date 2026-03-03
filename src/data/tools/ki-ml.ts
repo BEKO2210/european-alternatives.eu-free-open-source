@@ -23,6 +23,7 @@ export const kiMlTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'ollama',
   },
   {
     id: 'localai',
@@ -115,6 +116,7 @@ export const kiMlTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'docker'],
     featured: true,
     addedDate: '2026-02-28',
+    simpleIconsSlug: 'huggingface',
   },
   {
     id: 'anythingllm',

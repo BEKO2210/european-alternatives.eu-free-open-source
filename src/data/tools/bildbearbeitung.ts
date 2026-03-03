@@ -22,6 +22,7 @@ export const bildbearbeitungTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'gimp',
   },
   {
     id: 'inkscape',
@@ -44,6 +45,7 @@ export const bildbearbeitungTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'inkscape',
   },
   {
     id: 'krita',
@@ -66,6 +68,7 @@ export const bildbearbeitungTools: Tool[] = [
     platforms: ['linux', 'windows', 'macos', 'android'],
     featured: true,
     addedDate: '2025-06-01',
+    simpleIconsSlug: 'krita',
   },
   {
     id: 'darktable',
