@@ -86,7 +86,7 @@ const poolCategories = shuffledCategories.slice(0, 12);
     </div>
     <div id="random-tools-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 stagger-fade">
       {poolTools.map((tool, i) => (
-        <div class="random-tool-item" data-index={i} style="display:none">
+        <div class="random-tool-item" data-index={i} style={i >= 6 ? 'display:none' : ''}>
           <ToolCard tool={tool} />
         </div>
       ))}
@@ -113,7 +113,7 @@ const poolCategories = shuffledCategories.slice(0, 12);
     </div>
     <div id="random-categories-grid" class="grid grid-cols-2 md:grid-cols-3 gap-4 stagger-fade">
       {poolCategories.map((cat, i) => (
-        <div class="random-category-item" data-index={i} style="display:none">
+        <div class="random-category-item" data-index={i} style={i >= 6 ? 'display:none' : ''}>
           <CategoryCard category={cat} />
         </div>
       ))}
@@ -158,10 +158,14 @@ const poolCategories = shuffledCategories.slice(0, 12);
 <script>
   function showRandom(containerSelector: string, itemSelector: string, count: number) {
     const items = Array.from(document.querySelectorAll(containerSelector + ' ' + itemSelector)) as HTMLElement[];
+    // Hide all first (progressive enhancement: first 6 are visible by default for no-JS)
+    items.forEach(el => { el.style.display = 'none'; });
+    // Shuffle (Fisher-Yates)
     for (let i = items.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [items[i], items[j]] = [items[j], items[i]];
     }
+    // Show random selection
     items.slice(0, count).forEach(el => { el.style.display = ''; });
   }
   showRandom('#random-tools-grid', '.random-tool-item', 6);
