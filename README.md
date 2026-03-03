@@ -1,4 +1,4 @@
-> **[English]** A curated directory of 342+ free and open-source alternatives to proprietary software like Google, Microsoft, and Adobe — organized in 39 categories, fully searchable, self-hostable. Built for the DACH region but useful for everyone. → [Live Site](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
+> **[English]** A curated directory of 346+ free and open-source alternatives to proprietary software like Google, Microsoft, and Adobe — organized in 40 categories, fully searchable, self-hostable. Built for the DACH region but useful for everyone. → [Live Site](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
 
 # 🛡️ FOSS Alternatives
 
@@ -9,7 +9,7 @@
 
 **Deine Freiheit. Dein Code. Deine Zukunft.**
 
-> Eine kuratierte Sammlung von 342+ kostenlosen Open-Source-Alternativen zu proprietärer Software — organisiert in 39 Kategorien, vollständig durchsuchbar, und mit dem Fokus auf Datenschutz und digitale Souveränität. Neue Tools werden jeden Montag automatisch erkannt und hinzugefügt.
+> Eine kuratierte Sammlung von 346+ kostenlosen Open-Source-Alternativen zu proprietärer Software — organisiert in 40 Kategorien, vollständig durchsuchbar, und mit dem Fokus auf Datenschutz und digitale Souveränität. Neue Tools werden jeden Montag automatisch erkannt und hinzugefügt.
 
 🌐 **Live:** [BEKO2210.github.io/european-alternatives.eu-free-open-source](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
 
@@ -17,7 +17,7 @@
 
 ## ✨ Features
 
-- 📦 **342+ FOSS-Tools** in 39 Kategorien (wächst automatisch)
+- 📦 **346+ FOSS-Tools** in 40 Kategorien (wächst automatisch)
 - 🤖 **Auto-Discovery** — neue Tools werden wöchentlich via GitHub API erkannt und hinzugefügt
 - 🔍 **Volltextsuche** mit Pagefind (statisch, kein Server nötig)
 - 🌙 **Dark/Light Mode** mit localStorage-Persistenz
@@ -111,7 +111,7 @@ src/
 │   └── categories/    # CategoryCard, CategoryGrid
 ├── data/              # Typdefinitionen und Daten
 │   ├── types.ts       # Tool & Category Interfaces
-│   ├── categories.ts  # Alle 39 Kategorien
+│   ├── categories.ts  # Alle 40 Kategorien
 │   └── tools/         # Tool-Dateien pro Kategorie + auto-tools.ts
 ├── pages/             # Astro-Seiten (File-based Routing)
 ├── styles/            # Global CSS + Animationen
@@ -134,7 +134,7 @@ scripts/
 Das Projekt enthält ein vollautonomes System zur Erkennung neuer FOSS-Tools:
 
 - **Wann:** Jeden Montag um 06:00 UTC (oder manuell via GitHub Actions)
-- **Wie:** Python-Script durchsucht die GitHub API mit 20 verschiedenen Queries
+- **Wie:** Python-Script durchsucht die GitHub API mit 32 verschiedenen Queries
 - **Filter:** Mindestens 500 Sterne, nicht archiviert, keine Awesome-Lists/Tutorials
 - **Kategorisierung:** Automatisch anhand von GitHub Topics, Name und Beschreibung
 - **Sicherheit:** Build-Test vor dem Commit — bei Fehler automatischer Rollback
