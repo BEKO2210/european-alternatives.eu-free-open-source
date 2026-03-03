@@ -163,5 +163,8 @@ Manuell auslösen: GitHub Actions → "Auto-Discover FOSS Tools" → "Run workfl
 - Pull Requests sind jederzeit willkommen!
 
 ---
+## Star History
+
+[![Star History Chart](https://api.star-history.com/image?repos=BEKO2210/european-alternatives.eu-free-open-source&type=date&legend=top-left)](https://www.star-history.com/?repos=BEKO2210%2Feuropean-alternatives.eu-free-open-source&type=date&legend=top-left)
 
 Made with ❤️ for digital freedom
