@@ -5,6 +5,26 @@ Alle wesentlichen Änderungen an diesem Projekt werden in dieser Datei dokumenti
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.1.0/)
 und dieses Projekt folgt [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.3.0] - 2026-03-03
+
+### Added
+
+- Neue Kategorie **Fotoverwaltung** (`fotos`) — Google Photos, iCloud Photos, Amazon Photos Alternativen
+- 6 neue Foto-Tools: Immich, PhotoPrism, Ente, LibrePhotos, Piwigo, Lychee (mit Icons)
+- SimpleIcons-Mappings fuer Immich, Ente, Piwigo
+- PNG-Logos fuer PhotoPrism, LibrePhotos, Lychee heruntergeladen
+- 12 neue Such-Queries im Auto-Discovery-Workflow (32 total): Fotos, Browser, Git, Social Media, Video, Bild, Zeit, DNS, SSG, Karten, Suchmaschinen
+- Fotos-Kategorie komplett in discover_tools.py registriert (Keywords, Emoji, Replaces)
+
+### Changed
+
+- Homepage: Statische Featured-Tools durch **6 zufaellige Tools** ersetzt (Client-Side JS, bei jedem Seitenbesuch neu)
+- Homepage: Alle Kategorien durch **6 zufaellige Kategorien** ersetzt (symmetrisches Grid)
+- MAX_PER_RUN von 25 auf 40 erhoeht (Workflow + Script)
+- Gesamtstatistik: 346+ Tools in 40 Kategorien, 401 Seiten
+
+---
+
 ## [1.2.0] - 2026-03-03
 
 ### Fixes
