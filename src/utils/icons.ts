@@ -159,6 +159,13 @@ export const TOOL_ICON_MAP: Record<string, string> = {
   'peertube': 'peertube',
   'lemmy': 'lemmy',
   'diaspora': 'diaspora',
+  // Auto-discovered (SimpleIcons verfuegbar)
+  'coolify': 'coolify',
+  'nhost': 'nhost',
+  'apostrophe': 'apostrophe',
+  'payload': 'payloadcms',
+  'tinacms': 'tina',
+  'grafana-operator': 'grafana',
 };
 
 export function getSimpleIcon(toolSlug: string): { svg: string; color: string } | null {
