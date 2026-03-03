@@ -10,7 +10,7 @@ on:
         default: "500"
       max_per_run:
         description: "Maximum new tools per run"
-        default: "25"
+        default: "40"
       dry_run:
         description: "Dry run (true/false)"
         default: "false"
@@ -49,7 +49,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MIN_STARS: ${{ github.event.inputs.min_stars || '500' }}
-          MAX_PER_RUN: ${{ github.event.inputs.max_per_run || '25' }}
+          MAX_PER_RUN: ${{ github.event.inputs.max_per_run || '40' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           REPO_ROOT: "."
         run: python scripts/discover_tools.py

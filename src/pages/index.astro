@@ -1,19 +1,23 @@
 ---
 import BaseLayout from '../components/layout/BaseLayout.astro';
 import SearchModal from '../components/ui/SearchModal.astro';
-import CategoryGrid from '../components/categories/CategoryGrid.astro';
+import CategoryCard from '../components/categories/CategoryCard.astro';
 import ToolCard from '../components/tools/ToolCard.astro';
 import { allTools } from '../data/tools/index';
 import { categories } from '../data/categories';
-import { getCategoriesWithToolCount, } from '../utils/categories';
-import { getFeaturedTools } from '../utils/tools';
+import { getCategoriesWithToolCount } from '../utils/categories';
 
 const base = import.meta.env.BASE_URL;
 const categoriesWithCount = getCategoriesWithToolCount(categories, allTools);
-const featuredTools = getFeaturedTools(allTools).slice(0, 6);
 const totalTools = allTools.length;
 const totalCategories = categories.length;
 const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
+
+// Build-time shuffle to create a pool of candidates for client-side randomization
+const shuffledTools = [...allTools].sort(() => Math.random() - 0.5);
+const poolTools = shuffledTools.slice(0, 18);
+const shuffledCategories = [...categoriesWithCount].sort(() => Math.random() - 0.5);
+const poolCategories = shuffledCategories.slice(0, 12);
 ---
 
 <BaseLayout title="FOSS Alternatives – Deine Freiheit. Dein Code. Deine Zukunft.">
@@ -70,44 +74,50 @@ const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
     </div>
   </section>
 
-  <!-- Featured Tools -->
-  {featuredTools.length > 0 && (
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold mb-3" style="color: var(--color-text-primary)">
-          Empfohlene <span class="gradient-text">FOSS-Alternativen</span>
-        </h2>
-        <p style="color: var(--color-text-secondary)">
-          Unsere handverlesene Auswahl der besten Open-Source-Tools
-        </p>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 stagger-fade">
-        {featuredTools.map((tool) => (
+  <!-- Random Tools -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-3" style="color: var(--color-text-primary)">
+        Entdecke <span class="gradient-text">FOSS-Alternativen</span>
+      </h2>
+      <p style="color: var(--color-text-secondary)">
+        Zufaellig ausgewaehlte Open-Source-Tools — bei jedem Besuch neu
+      </p>
+    </div>
+    <div id="random-tools-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 stagger-fade">
+      {poolTools.map((tool, i) => (
+        <div class="random-tool-item" data-index={i} style="display:none">
           <ToolCard tool={tool} />
-        ))}
-      </div>
-      <div class="text-center mt-8">
-        <a
-          href={`${base}tools/`}
-          class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
-        >
-          Alle {totalTools} Tools ansehen →
-        </a>
-      </div>
-    </section>
-  )}
+        </div>
+      ))}
+    </div>
+    <div class="text-center mt-8">
+      <a
+        href={`${base}tools/`}
+        class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
+      >
+        Alle {totalTools} Tools ansehen →
+      </a>
+    </div>
+  </section>
 
-  <!-- Categories -->
+  <!-- Random Categories -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20" style="border-top: 1px solid var(--color-border)">
     <div class="text-center mb-12">
       <h2 class="text-3xl font-bold mb-3" style="color: var(--color-text-primary)">
-        Kategorien <span class="gradient-text">durchsuchen</span>
+        Kategorien <span class="gradient-text">entdecken</span>
       </h2>
       <p style="color: var(--color-text-secondary)">
-        Finde die passende Open-Source-Alternative für deinen Anwendungsfall
+        Stoebere durch unsere {totalCategories} Kategorien — bei jedem Besuch neu
       </p>
     </div>
-    <CategoryGrid categories={categoriesWithCount} />
+    <div id="random-categories-grid" class="grid grid-cols-2 md:grid-cols-3 gap-4 stagger-fade">
+      {poolCategories.map((cat, i) => (
+        <div class="random-category-item" data-index={i} style="display:none">
+          <CategoryCard category={cat} />
+        </div>
+      ))}
+    </div>
     <div class="text-center mt-8">
       <a
         href={`${base}kategorien/`}
@@ -144,3 +154,16 @@ const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
     </div>
   </section>
 </BaseLayout>
+
+<script>
+  function showRandom(containerSelector: string, itemSelector: string, count: number) {
+    const items = Array.from(document.querySelectorAll(containerSelector + ' ' + itemSelector)) as HTMLElement[];
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+    items.slice(0, count).forEach(el => { el.style.display = ''; });
+  }
+  showRandom('#random-tools-grid', '.random-tool-item', 6);
+  showRandom('#random-categories-grid', '.random-category-item', 6);
+</script>

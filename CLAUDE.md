@@ -10,7 +10,7 @@ Das Auto-Discovery-System ist **implementiert und läuft autonom**.
 Jeden Montag um 06:00 UTC werden neue FOSS-Tools automatisch erkannt, kategorisiert,
 in die Webseite eingefügt, gebaut und deployed — ohne manuellen Eingriff.
 
-**Aktueller Stand:** 340 Tools in 39 Kategorien.
+**Aktueller Stand:** 346+ Tools in 40 Kategorien.
 
 ---
 
@@ -19,8 +19,8 @@ in die Webseite eingefügt, gebaut und deployed — ohne manuellen Eingriff.
 ### Manuelle Tool-Daten
 ```
 src/data/types.ts              # Tool & Category Interfaces
-src/data/categories.ts         # 39 Kategorien mit Slugs
-src/data/tools/*.ts            # 39 Dateien, je eine pro Kategorie (237 Tools)
+src/data/categories.ts         # 40 Kategorien mit Slugs
+src/data/tools/*.ts            # 40 Dateien, je eine pro Kategorie (243 Tools)
 src/data/tools/index.ts        # Aggregiert alle Tools inkl. auto-tools
 ```
 
@@ -64,7 +64,7 @@ deploy.yml (GitHub Pages via workflow_dispatch)
 
 ### Auto-Discovery → Deploy
 - `auto-discover.yml` läuft wöchentlich (Mo 06:00 UTC) oder manuell
-- Findet neue Tools via GitHub API (10 Search-Queries)
+- Findet neue Tools via GitHub API (32 Search-Queries)
 - Schreibt nach `auto-tools.ts`, committed und pusht
 - **Wichtig:** GitHub's `GITHUB_TOKEN` löst keine weiteren Workflows aus.
   Daher triggert der Workflow `deploy.yml` explizit per API-Call (`workflow_dispatch`)
@@ -79,7 +79,7 @@ deploy.yml (GitHub Pages via workflow_dispatch)
 |---|---|---|
 | `GITHUB_TOKEN` | Secret | GitHub API Authentifizierung |
 | `MIN_STARS` | `500` | Mindestanzahl GitHub-Sterne |
-| `MAX_PER_RUN` | `25` | Maximale neue Tools pro Lauf |
+| `MAX_PER_RUN` | `40` | Maximale neue Tools pro Lauf |
 | `DRY_RUN` | `false` | Testlauf ohne Commit/Push |
 | `REPO_ROOT` | `.` | Projekt-Wurzelverzeichnis |
 
@@ -90,7 +90,7 @@ Der Auto-Discovery-Workflow kann jederzeit über GitHub Actions → "Auto-Discov
 
 ## Kategorien
 
-Ausschließlich die 39 Slugs aus `src/data/categories.ts` verwenden:
+Ausschließlich die 40 Slugs aus `src/data/categories.ts` verwenden:
 
 `betriebssysteme`, `buerosoftware`, `browser`, `email-clients`, `email-server`,
 `cloud-speicher`, `passwort-manager`, `kommunikation`, `videokonferenzen`, `kalender`,
@@ -98,7 +98,7 @@ Ausschließlich die 39 Slugs aus `src/data/categories.ts` verwenden:
 `cms`, `e-commerce`, `analytics`, `monitoring`, `vpn`, `firewall`, `ki-ml`, `notizen`,
 `projektmanagement`, `video-audio`, `bildbearbeitung`, `zeiterfassung`, `erp`, `crm`,
 `wiki`, `backup`, `dns-adblock`, `objekt-speicher`, `medienserver`, `dev-tools`,
-`backend-frameworks`, `ssg`, `karten`
+`backend-frameworks`, `ssg`, `karten`, `fotos`
 
 Keine neuen Kategorien erfinden.
 
@@ -132,4 +132,4 @@ Keine neuen Kategorien erfinden.
 npm ci
 npm run build
 ```
-Muss fehlerfrei durchlaufen. 337+ Seiten werden generiert (Tools + Kategorien + statische Seiten).
+Muss fehlerfrei durchlaufen. 345+ Seiten werden generiert (Tools + Kategorien + statische Seiten).
