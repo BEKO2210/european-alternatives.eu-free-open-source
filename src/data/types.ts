@@ -20,6 +20,10 @@ export interface Tool {
   platforms: ('web' | 'linux' | 'windows' | 'macos' | 'android' | 'ios' | 'docker')[];
   featured: boolean;
   addedDate: string;
+  maintenanceStatus?: 'active' | 'maintained' | 'slow' | 'restricted' | 'archived';
+  maintenanceNote?: string;
+  simpleIconsSlug?: string;
+  deprecatedReason?: string;
 }
 
 export interface Category {
