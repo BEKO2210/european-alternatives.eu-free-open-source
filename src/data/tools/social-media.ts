@@ -6,8 +6,11 @@ export const socialMediaTools: Tool[] = [
     name: 'Mastodon',
     slug: 'mastodon',
     tagline: 'Dezentrales soziales Netzwerk auf Basis von ActivityPub',
+    taglineEn: 'Decentralized social network based on ActivityPub',
     description:
       'Mastodon ist ein dezentrales, quelloffenes soziales Netzwerk, das auf dem ActivityPub-Protokoll basiert. Es besteht aus tausenden unabhaengigen Servern (Instanzen), die miteinander kommunizieren und zusammen das Fediverse bilden. Mastodon bietet chronologische Timelines ohne Algorithmen, keine Werbung und starke Moderationswerkzeuge. Nutzer koennen ihre eigene Instanz betreiben oder einer bestehenden beitreten.',
+    descriptionEn:
+      'Mastodon is a decentralized, open-source social network based on the ActivityPub protocol. It consists of thousands of independent servers (instances) that communicate with each other and together form the Fediverse. Mastodon offers chronological timelines without algorithms, no advertising, and strong moderation tools. Users can run their own instance or join an existing one.',
     website: 'https://joinmastodon.org',
     github: 'https://github.com/mastodon/mastodon',
     license: 'AGPL-3.0',
@@ -30,8 +33,11 @@ export const socialMediaTools: Tool[] = [
     name: 'Pixelfed',
     slug: 'pixelfed',
     tagline: 'Dezentrale Foto-Sharing-Plattform im Fediverse',
+    taglineEn: 'Decentralized photo-sharing platform in the Fediverse',
     description:
       'Pixelfed ist eine datenschutzfreundliche, dezentrale Alternative zu Instagram, die auf dem ActivityPub-Protokoll basiert. Die Plattform bietet Foto- und Video-Sharing mit Filtern, Stories, Sammlungen und einem chronologischen Feed ohne Werbung und Tracking. Pixelfed-Instanzen koennen mit Mastodon und anderen Fediverse-Diensten kommunizieren.',
+    descriptionEn:
+      'Pixelfed is a privacy-friendly, decentralized alternative to Instagram based on the ActivityPub protocol. The platform offers photo and video sharing with filters, stories, collections, and a chronological feed without advertising or tracking. Pixelfed instances can communicate with Mastodon and other Fediverse services.',
     website: 'https://pixelfed.org',
     github: 'https://github.com/pixelfed/pixelfed',
     license: 'AGPL-3.0',
@@ -54,8 +60,11 @@ export const socialMediaTools: Tool[] = [
     name: 'Misskey',
     slug: 'misskey',
     tagline: 'Funktionsreiche dezentrale Mikroblogging-Plattform',
+    taglineEn: 'Feature-rich decentralized microblogging platform',
     description:
       'Misskey ist eine aus Japan stammende, dezentrale Mikroblogging-Plattform, die ueber das ActivityPub-Protokoll mit dem Fediverse verbunden ist. Sie bietet eine moderne, anpassbare Oberflaeche mit Funktionen wie Drive (Dateispeicher), Seiten, Antennen, Clips und umfangreichen Reaktionsmoeglichkeiten mit benutzerdefinierten Emojis. Misskey zeichnet sich durch seine Vielseitigkeit und lebendige Community aus.',
+    descriptionEn:
+      'Misskey is a decentralized microblogging platform originating from Japan, connected to the Fediverse via the ActivityPub protocol. It offers a modern, customizable interface with features like Drive (file storage), pages, antennas, clips, and extensive reaction capabilities with custom emojis. Misskey stands out for its versatility and vibrant community.',
     website: 'https://misskey-hub.net',
     github: 'https://github.com/misskey-dev/misskey',
     license: 'AGPL-3.0',
@@ -77,8 +86,11 @@ export const socialMediaTools: Tool[] = [
     name: 'Lemmy',
     slug: 'lemmy',
     tagline: 'Dezentrale Link-Aggregation und Diskussionsplattform',
+    taglineEn: 'Decentralized link aggregation and discussion platform',
     description:
       'Lemmy ist eine dezentrale, quelloffene Alternative zu Reddit, die auf dem ActivityPub-Protokoll basiert. Nutzer koennen Communities erstellen, Links teilen, Beitraege verfassen und diskutieren. Durch die Foederation koennen Nutzer verschiedener Lemmy-Instanzen und anderer Fediverse-Dienste miteinander interagieren. Lemmy ist in Rust geschrieben und bietet eine schnelle, ressourcenschonende Plattform.',
+    descriptionEn:
+      'Lemmy is a decentralized, open-source alternative to Reddit based on the ActivityPub protocol. Users can create communities, share links, write posts, and engage in discussions. Through federation, users from different Lemmy instances and other Fediverse services can interact with each other. Lemmy is written in Rust and provides a fast, resource-efficient platform.',
     website: 'https://join-lemmy.org',
     github: 'https://github.com/LemmyNet/lemmy',
     license: 'AGPL-3.0',
@@ -101,8 +113,11 @@ export const socialMediaTools: Tool[] = [
     name: 'Friendica',
     slug: 'friendica',
     tagline: 'Dezentrales soziales Netzwerk mit breiter Protokollunterstuetzung',
+    taglineEn: 'Decentralized social network with broad protocol support',
     description:
       'Friendica ist ein dezentrales soziales Netzwerk, das neben ActivityPub auch Protokolle wie Diaspora und OStatus unterstuetzt. Es bietet umfangreiche Funktionen wie Veranstaltungskalender, Fotoalben, Gruppen, Kontaktverwaltung und die Moeglichkeit, Inhalte aus RSS-Feeds einzubinden. Friendica kann mit Mastodon, Diaspora, Pixelfed und vielen anderen Plattformen kommunizieren.',
+    descriptionEn:
+      'Friendica is a decentralized social network that supports ActivityPub as well as protocols like Diaspora and OStatus. It offers extensive features including event calendars, photo albums, groups, contact management, and the ability to integrate content from RSS feeds. Friendica can communicate with Mastodon, Diaspora, Pixelfed, and many other platforms.',
     website: 'https://friendi.ca',
     github: 'https://github.com/friendica/friendica',
     license: 'AGPL-3.0',
@@ -124,8 +139,11 @@ export const socialMediaTools: Tool[] = [
     name: 'PeerTube',
     slug: 'peertube',
     tagline: 'Dezentrale Video-Hosting-Plattform mit P2P-Streaming',
+    taglineEn: 'Decentralized video hosting platform with P2P streaming',
     description:
       'PeerTube ist eine dezentrale, foederierte Video-Hosting-Plattform, die von Framasoft entwickelt wird. Sie nutzt Peer-to-Peer-Technologie (WebTorrent/HLS) zur Reduzierung der Serverlast und unterstuetzt ActivityPub fuer die Vernetzung mit dem Fediverse. PeerTube bietet Live-Streaming, Playlists, Untertitel, Plugins und ermoeglicht es Creatorn, ihre Inhalte unabhaengig von grossen Plattformen zu veroeffentlichen.',
+    descriptionEn:
+      'PeerTube is a decentralized, federated video hosting platform developed by Framasoft. It uses peer-to-peer technology (WebTorrent/HLS) to reduce server load and supports ActivityPub for connecting with the Fediverse. PeerTube offers live streaming, playlists, subtitles, plugins, and enables creators to publish their content independently from major platforms.',
     website: 'https://joinpeertube.org',
     github: 'https://github.com/Chocobozzz/PeerTube',
     license: 'AGPL-3.0',
@@ -148,8 +166,11 @@ export const socialMediaTools: Tool[] = [
     name: 'Diaspora',
     slug: 'diaspora',
     tagline: 'Datenschutzorientiertes dezentrales soziales Netzwerk',
+    taglineEn: 'Privacy-oriented decentralized social network',
     description:
       'Diaspora ist eines der aeltesten dezentralen sozialen Netzwerke und wurde 2010 als datenschutzfreundliche Alternative zu Facebook gegruendet. Es basiert auf einem eigenen Foederationsprotokoll und ermoeglicht die Kommunikation zwischen unabhaengigen Servern (Pods). Diaspora bietet Aspekte (Kontaktgruppen), Hashtags, Erwaehungen und Reshares. Die Nutzer behalten volle Kontrolle ueber ihre Daten und Privatsphaere.',
+    descriptionEn:
+      'Diaspora is one of the oldest decentralized social networks, founded in 2010 as a privacy-friendly alternative to Facebook. It is based on its own federation protocol and enables communication between independent servers (pods). Diaspora offers aspects (contact groups), hashtags, mentions, and reshares. Users retain full control over their data and privacy.',
     website: 'https://diasporafoundation.org',
     github: 'https://github.com/diaspora/diaspora',
     license: 'AGPL-3.0',

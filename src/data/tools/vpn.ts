@@ -6,8 +6,11 @@ export const vpnTools: Tool[] = [
     name: 'WireGuard',
     slug: 'wireguard',
     tagline: 'Ultraschnelles und modernes VPN-Protokoll',
+    taglineEn: 'Ultra-fast and modern VPN protocol',
     description:
       'WireGuard ist ein extrem schlankes und schnelles VPN-Protokoll, das modernste Kryptographie einsetzt. Mit nur rund 4.000 Zeilen Code ist es deutlich einfacher zu auditieren als ältere VPN-Lösungen. WireGuard ist in den Linux-Kernel integriert und bietet hervorragende Performance bei minimaler Latenz. Es eignet sich für sichere Punkt-zu-Punkt-Verbindungen und Netzwerktunnel.',
+    descriptionEn:
+      'WireGuard is an extremely lean and fast VPN protocol that uses state-of-the-art cryptography. With only around 4,000 lines of code, it is significantly easier to audit than older VPN solutions. WireGuard is integrated into the Linux kernel and delivers excellent performance with minimal latency. It is ideal for secure point-to-point connections and network tunnels.',
     website: 'https://www.wireguard.com',
     github: 'https://github.com/WireGuard',
     license: 'GPL-2.0',
@@ -30,8 +33,11 @@ export const vpnTools: Tool[] = [
     name: 'OpenVPN',
     slug: 'openvpn',
     tagline: 'Bewährte Open-Source-VPN-Lösung mit breiter Unterstützung',
+    taglineEn: 'Proven open-source VPN solution with broad platform support',
     description:
       'OpenVPN ist die am weitesten verbreitete Open-Source-VPN-Lösung und seit über zwei Jahrzehnten ein Industriestandard für sichere Netzwerkverbindungen. Es unterstützt SSL/TLS-basierte Verschlüsselung, flexible Authentifizierungsmethoden und läuft auf nahezu jedem Betriebssystem. OpenVPN eignet sich sowohl für Site-to-Site-VPNs als auch für Remote-Access-Szenarien.',
+    descriptionEn:
+      'OpenVPN is the most widely used open-source VPN solution and has been an industry standard for secure network connections for over two decades. It supports SSL/TLS-based encryption, flexible authentication methods, and runs on virtually every operating system. OpenVPN is suitable for both site-to-site VPNs and remote access scenarios.',
     website: 'https://openvpn.net',
     github: 'https://github.com/OpenVPN/openvpn',
     license: 'GPL-2.0',
@@ -54,8 +60,11 @@ export const vpnTools: Tool[] = [
     name: 'Headscale (Tailscale OSS)',
     slug: 'headscale',
     tagline: 'Selbstgehosteter Koordinationsserver für Tailscale-Netzwerke',
+    taglineEn: 'Self-hosted coordination server for Tailscale networks',
     description:
       'Headscale ist eine Open-Source-Implementierung des Tailscale-Koordinationsservers, die es ermöglicht, ein WireGuard-basiertes Mesh-VPN vollständig selbst zu betreiben. Es bietet die gleiche benutzerfreundliche Erfahrung wie Tailscale, aber ohne Abhängigkeit von einem externen Dienst. Headscale unterstützt ACLs, DNS, MagicDNS und mehrere Benutzer.',
+    descriptionEn:
+      'Headscale is an open-source implementation of the Tailscale coordination server that allows you to run a WireGuard-based mesh VPN entirely on your own infrastructure. It provides the same user-friendly experience as Tailscale but without dependency on an external service. Headscale supports ACLs, DNS, MagicDNS, and multiple users.',
     website: 'https://headscale.net',
     github: 'https://github.com/juanfont/headscale',
     license: 'BSD-3-Clause',
@@ -77,8 +86,11 @@ export const vpnTools: Tool[] = [
     name: 'Outline VPN',
     slug: 'outline-vpn',
     tagline: 'Einfach einzurichtendes VPN von Jigsaw (Google)',
+    taglineEn: 'Easy-to-set-up VPN by Jigsaw (Google)',
     description:
       'Outline VPN ist ein benutzerfreundliches VPN-Tool, das von Jigsaw (einer Google-Tochter) entwickelt wurde, um Journalisten und Aktivisten sicheren Internetzugang zu ermöglichen. Es basiert auf dem Shadowsocks-Protokoll und lässt sich mit wenigen Klicks auf einem eigenen Server einrichten. Der Outline Manager vereinfacht die Verwaltung von Zugängen und Schlüsseln erheblich.',
+    descriptionEn:
+      'Outline VPN is a user-friendly VPN tool developed by Jigsaw (a Google subsidiary) to provide journalists and activists with secure internet access. It is based on the Shadowsocks protocol and can be set up on your own server with just a few clicks. The Outline Manager greatly simplifies the management of access credentials and keys.',
     website: 'https://getoutline.org',
     github: 'https://github.com/Jigsaw-Code/outline-server',
     license: 'Apache-2.0',
@@ -100,8 +112,11 @@ export const vpnTools: Tool[] = [
     name: 'n2n',
     slug: 'n2n',
     tagline: 'Peer-to-Peer-VPN für direkte Layer-2-Verbindungen',
+    taglineEn: 'Peer-to-peer VPN for direct Layer 2 connections',
     description:
       'n2n ist ein leichtgewichtiges Open-Source-VPN-Tool, das Peer-to-Peer-Verbindungen auf Layer 2 ermöglicht. Im Gegensatz zu herkömmlichen VPN-Lösungen baut n2n direkte Verbindungen zwischen den Endpunkten auf, ohne den gesamten Datenverkehr über einen zentralen Server zu leiten. Das Ergebnis ist ein virtuelles Netzwerk mit geringer Latenz, das sich ideal für verteilte Teams und IoT-Szenarien eignet.',
+    descriptionEn:
+      'n2n is a lightweight open-source VPN tool that enables peer-to-peer connections at Layer 2. Unlike traditional VPN solutions, n2n establishes direct connections between endpoints without routing all traffic through a central server. The result is a virtual network with low latency, making it ideal for distributed teams and IoT scenarios.',
     website: 'https://www.ntop.org/products/n2n/',
     github: 'https://github.com/ntop/n2n',
     license: 'GPL-3.0',

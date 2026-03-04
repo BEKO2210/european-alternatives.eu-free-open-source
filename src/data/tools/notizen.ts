@@ -6,8 +6,11 @@ export const notizenTools: Tool[] = [
     name: 'Joplin',
     slug: 'joplin',
     tagline: 'Sichere Open-Source-Notizen mit Ende-zu-Ende-Verschlüsselung',
+    taglineEn: 'Secure open-source notes with end-to-end encryption',
     description:
       'Joplin ist eine quelloffene Notiz- und Aufgabenverwaltung mit Markdown-Unterstützung und Ende-zu-Ende-Verschlüsselung. Notizen können über verschiedene Cloud-Dienste synchronisiert werden, darunter Nextcloud, Dropbox und OneDrive. Joplin bietet einen Web-Clipper für Browser, Tagging, Notizbücher und die Möglichkeit, Notizen als verschiedene Formate zu exportieren.',
+    descriptionEn:
+      'Joplin is an open-source note-taking and task management application with Markdown support and end-to-end encryption. Notes can be synchronized via various cloud services, including Nextcloud, Dropbox, and OneDrive. Joplin offers a web clipper for browsers, tagging, notebooks, and the ability to export notes in various formats.',
     website: 'https://joplinapp.org',
     github: 'https://github.com/laurent22/joplin',
     license: 'AGPL-3.0',
@@ -30,8 +33,11 @@ export const notizenTools: Tool[] = [
     name: 'Logseq',
     slug: 'logseq',
     tagline: 'Lokales Wissensmanagement mit bidirektionalen Verknüpfungen',
+    taglineEn: 'Local knowledge management with bidirectional linking',
     description:
       'Logseq ist ein datenschutzfreundliches Wissensmanagement-Tool, das Notizen als lokale Markdown- und Org-Mode-Dateien speichert. Es unterstützt bidirektionale Verknüpfungen, einen Wissensgraphen, Flashcards, Aufgabenverwaltung und eine Block-basierte Struktur. Logseq eignet sich hervorragend für persönliches Wissensmanagement, Zettelkasten und vernetzte Notizen.',
+    descriptionEn:
+      'Logseq is a privacy-focused knowledge management tool that stores notes as local Markdown and Org-Mode files. It supports bidirectional linking, a knowledge graph, flashcards, task management, and a block-based structure. Logseq is excellent for personal knowledge management, Zettelkasten, and interconnected notes.',
     website: 'https://logseq.com',
     github: 'https://github.com/logseq/logseq',
     license: 'AGPL-3.0',
@@ -54,8 +60,11 @@ export const notizenTools: Tool[] = [
     name: 'AppFlowy',
     slug: 'appflowy',
     tagline: 'Open-Source-Alternative zu Notion mit KI-Integration',
+    taglineEn: 'Open-source alternative to Notion with AI integration',
     description:
       'AppFlowy ist eine leistungsstarke Open-Source-Alternative zu Notion, die Datenschutz und Datenkontrolle in den Vordergrund stellt. Es bietet einen Block-Editor, Datenbanken, Kanban-Boards, einen Kalender und KI-gestützte Funktionen. AppFlowy ist in Rust und Flutter geschrieben, was für hohe Performance und native Benutzererfahrung auf allen Plattformen sorgt.',
+    descriptionEn:
+      'AppFlowy is a powerful open-source alternative to Notion that prioritizes privacy and data control. It offers a block editor, databases, Kanban boards, a calendar, and AI-powered features. AppFlowy is written in Rust and Flutter, ensuring high performance and a native user experience across all platforms.',
     website: 'https://appflowy.io',
     github: 'https://github.com/AppFlowy-IO/AppFlowy',
     license: 'AGPL-3.0',
@@ -77,8 +86,11 @@ export const notizenTools: Tool[] = [
     name: 'SiYuan',
     slug: 'siyuan',
     tagline: 'Lokales Wissensmanagement mit Block-Referenzen und Sync',
+    taglineEn: 'Local knowledge management with block references and sync',
     description:
       'SiYuan ist ein datenschutzfreundliches persönliches Wissensmanagement-System, das Daten lokal speichert und Ende-zu-Ende-verschlüsselte Synchronisation über eigene Cloud-Dienste bietet. Es unterstützt Block-Referenzen, einen Wissensgraphen, Flashcards, Datenbank-Tabellen und eine leistungsfähige Volltextsuche. Die What-You-See-Is-What-You-Get-Bearbeitung macht SiYuan besonders zugänglich.',
+    descriptionEn:
+      'SiYuan is a privacy-focused personal knowledge management system that stores data locally and offers end-to-end encrypted synchronization via your own cloud services. It supports block references, a knowledge graph, flashcards, database tables, and a powerful full-text search. The what-you-see-is-what-you-get editing makes SiYuan particularly accessible.',
     website: 'https://b3log.org/siyuan/en/',
     github: 'https://github.com/siyuan-note/siyuan',
     license: 'AGPL-3.0',
@@ -100,8 +112,11 @@ export const notizenTools: Tool[] = [
     name: 'Standard Notes',
     slug: 'standard-notes',
     tagline: 'Verschlüsselte Notizen mit Fokus auf Langlebigkeit',
+    taglineEn: 'Encrypted notes with a focus on longevity',
     description:
       'Standard Notes ist eine sichere Notiz-App, die Ende-zu-Ende-Verschlüsselung standardmäßig für alle Notizen aktiviert. Der Fokus liegt auf Einfachheit, Langlebigkeit und Datenschutz. Standard Notes unterstützt verschiedene Editoren (Markdown, Rich Text, Code), Tags, verschlüsselte Dateispeicherung und automatische Backups. Die App ist auf über 100 Jahre Datenbeständigkeit ausgelegt.',
+    descriptionEn:
+      'Standard Notes is a secure note-taking app that enables end-to-end encryption by default for all notes. The focus is on simplicity, longevity, and privacy. Standard Notes supports various editors (Markdown, Rich Text, Code), tags, encrypted file storage, and automatic backups. The app is designed for over 100 years of data durability.',
     website: 'https://standardnotes.com',
     github: 'https://github.com/standardnotes/app',
     license: 'AGPL-3.0',
@@ -123,8 +138,11 @@ export const notizenTools: Tool[] = [
     name: 'Trilium Notes',
     slug: 'trilium-notes',
     tagline: 'Hierarchisches Wissensmanagement für komplexe Notizstrukturen',
+    taglineEn: 'Hierarchical knowledge management for complex note structures',
     description:
       'Trilium Notes ist eine hierarchische Notiz-Anwendung, die sich auf den Aufbau umfangreicher persönlicher Wissensdatenbanken spezialisiert. Es bietet eine Baumstruktur für Notizen, WYSIWYG-Bearbeitung, Relationsdiagramme, Scripting-Fähigkeiten und eine leistungsstarke Volltextsuche. Trilium unterstützt sowohl Desktop- als auch Server-Installation mit Synchronisation zwischen mehreren Geräten.',
+    descriptionEn:
+      'Trilium Notes is a hierarchical note-taking application that specializes in building extensive personal knowledge bases. It offers a tree structure for notes, WYSIWYG editing, relation diagrams, scripting capabilities, and a powerful full-text search. Trilium supports both desktop and server installation with synchronization across multiple devices.',
     website: 'https://github.com/zadam/trilium',
     github: 'https://github.com/zadam/trilium',
     license: 'AGPL-3.0',

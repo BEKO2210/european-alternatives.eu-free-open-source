@@ -6,8 +6,11 @@ export const kommunikationTools: Tool[] = [
     name: 'Element/Matrix',
     slug: 'element-matrix',
     tagline: 'Dezentraler Messenger mit Ende-zu-Ende-Verschluesselung auf Matrix-Basis',
+    taglineEn: 'Decentralized messenger with end-to-end encryption based on Matrix',
     description:
       'Element ist der fuehrende Client fuer das Matrix-Protokoll, ein offenes, dezentrales Kommunikationsnetzwerk. Matrix ermoeglicht Ende-zu-Ende-verschluesselte Nachrichten, Sprach- und Videoanrufe sowie die Brueckenbildung zu anderen Plattformen wie Slack, Discord und IRC. Element bietet Raeume, Spaces, Threads und Dateiaustausch. Da Matrix foederiert ist, koennen Nutzer verschiedener Server miteinander kommunizieren. Element wird von Regierungen und Organisationen weltweit eingesetzt.',
+    descriptionEn:
+      'Element is the leading client for the Matrix protocol, an open, decentralized communication network. Matrix enables end-to-end encrypted messages, voice and video calls, and bridging to other platforms such as Slack, Discord, and IRC. Element offers rooms, spaces, threads, and file sharing. Since Matrix is federated, users on different servers can communicate with each other. Element is used by governments and organizations worldwide.',
     website: 'https://element.io',
     github: 'https://github.com/element-hq/element-web',
     license: 'Apache-2.0',
@@ -29,8 +32,11 @@ export const kommunikationTools: Tool[] = [
     name: 'Signal',
     slug: 'signal',
     tagline: 'Der Goldstandard fuer sichere private Kommunikation',
+    taglineEn: 'The gold standard for secure private communication',
     description:
       'Signal ist ein Ende-zu-Ende-verschluesselter Messenger, der von der gemeinnuetzigen Signal Foundation entwickelt wird. Er bietet verschluesselte Textnachrichten, Sprach- und Videoanrufe, Gruppen-Chats und den Austausch von Medien. Das Signal-Protokoll gilt als Goldstandard fuer sichere Kommunikation und wird auch von anderen Diensten verwendet. Signal sammelt minimal Metadaten, speichert keine Nachrichtenverlaeufe auf Servern und bietet Funktionen wie verschwindende Nachrichten und Bildschirmsperre.',
+    descriptionEn:
+      'Signal is an end-to-end encrypted messenger developed by the non-profit Signal Foundation. It offers encrypted text messages, voice and video calls, group chats, and media sharing. The Signal Protocol is considered the gold standard for secure communication and is also used by other services. Signal collects minimal metadata, does not store message histories on servers, and offers features such as disappearing messages and screen lock.',
     website: 'https://signal.org',
     github: 'https://github.com/signalapp/Signal-Desktop',
     license: 'AGPL-3.0',
@@ -52,8 +58,11 @@ export const kommunikationTools: Tool[] = [
     name: 'XMPP/Prosody',
     slug: 'xmpp-prosody',
     tagline: 'Offenes Messaging-Protokoll mit dem leichtgewichtigen Prosody-Server',
+    taglineEn: 'Open messaging protocol with the lightweight Prosody server',
     description:
       'XMPP (Extensible Messaging and Presence Protocol) ist ein offenes, dezentrales Kommunikationsprotokoll, und Prosody ist einer der beliebtesten XMPP-Server. Prosody ist in Lua geschrieben, ressourcenschonend und einfach zu konfigurieren. XMPP bietet mit OMEMO Ende-zu-Ende-Verschluesselung, Gruppen-Chats (MUC), Dateiaustausch und Sprach-/Videoanrufe ueber Jingle. Das foederierte Netzwerk ermoeglicht Kommunikation ueber Servergrenzen hinweg, aehnlich wie bei E-Mail.',
+    descriptionEn:
+      'XMPP (Extensible Messaging and Presence Protocol) is an open, decentralized communication protocol, and Prosody is one of the most popular XMPP servers. Prosody is written in Lua, resource-efficient, and easy to configure. XMPP offers end-to-end encryption via OMEMO, group chats (MUC), file sharing, and voice/video calls via Jingle. The federated network enables communication across server boundaries, similar to email.',
     website: 'https://prosody.im',
     github: 'https://github.com/bjc/prosody',
     license: 'MIT',
@@ -74,8 +83,11 @@ export const kommunikationTools: Tool[] = [
     name: 'Rocket.Chat',
     slug: 'rocket-chat',
     tagline: 'Vielseitige Team-Kommunikationsplattform mit umfangreichen Integrationen',
+    taglineEn: 'Versatile team communication platform with extensive integrations',
     description:
       'Rocket.Chat ist eine umfassende Open-Source-Kommunikationsplattform, die Team-Messaging, Sprach- und Videoanrufe, Dateifreigabe und Automatisierung in einer Anwendung vereint. Es bietet Kanaele, Direktnachrichten, Threads, Omnichannel-Kundenservice und eine Vielzahl von Integrationen mit Drittanbieter-Diensten. Rocket.Chat kann auf eigenen Servern gehostet werden und bietet Ende-zu-Ende-Verschluesselung, LDAP/SAML-Authentifizierung und umfangreiche Verwaltungsfunktionen.',
+    descriptionEn:
+      'Rocket.Chat is a comprehensive open-source communication platform that combines team messaging, voice and video calls, file sharing, and automation in a single application. It offers channels, direct messages, threads, omnichannel customer service, and a wide range of integrations with third-party services. Rocket.Chat can be hosted on your own servers and provides end-to-end encryption, LDAP/SAML authentication, and extensive administration features.',
     website: 'https://www.rocket.chat',
     github: 'https://github.com/RocketChat/Rocket.Chat',
     license: 'MIT',
@@ -98,8 +110,11 @@ export const kommunikationTools: Tool[] = [
     name: 'Mattermost',
     slug: 'mattermost',
     tagline: 'Sichere Slack-Alternative fuer Unternehmen und DevOps-Teams',
+    taglineEn: 'Secure Slack alternative for enterprises and DevOps teams',
     description:
       'Mattermost ist eine selbstgehostete Messaging-Plattform, die als sichere Alternative zu Slack fuer Unternehmen entwickelt wurde. Es bietet Kanaele, Direktnachrichten, Dateifreigabe, Sprach- und Videoanrufe sowie umfangreiche DevOps-Integrationen mit Jira, GitLab, Jenkins und vielen weiteren Tools. Mattermost unterstuetzt Playbooks fuer Incident Management, Boards fuer Projektmanagement und bietet eine leistungsstarke API. Die Team Edition ist kostenlos und vollstaendig selbst hostbar.',
+    descriptionEn:
+      'Mattermost is a self-hosted messaging platform designed as a secure alternative to Slack for enterprises. It offers channels, direct messages, file sharing, voice and video calls, and extensive DevOps integrations with Jira, GitLab, Jenkins, and many other tools. Mattermost supports Playbooks for incident management, Boards for project management, and provides a powerful API. The Team Edition is free and fully self-hostable.',
     website: 'https://mattermost.com',
     github: 'https://github.com/mattermost/mattermost',
     license: 'MIT / AGPL-3.0',
@@ -122,8 +137,11 @@ export const kommunikationTools: Tool[] = [
     name: 'Zulip',
     slug: 'zulip',
     tagline: 'Team-Chat mit einzigartigem Thread-Modell fuer produktive Kommunikation',
+    taglineEn: 'Team chat with a unique threading model for productive communication',
     description:
       'Zulip ist eine leistungsstarke Team-Kommunikationsplattform mit einem einzigartigen Topic-basierten Threading-Modell. Jede Nachricht gehoert zu einem spezifischen Topic innerhalb eines Streams, wodurch parallele Gespraeche uebersichtlich bleiben und asynchrone Kommunikation erleichtert wird. Zulip bietet umfangreiche Markdown-Unterstuetzung, Code-Syntax-Highlighting, Integrationen mit ueber 100 Diensten und eine leistungsstarke Suche. Es wird von Open-Source-Projekten, Unternehmen und Universitaeten weltweit eingesetzt.',
+    descriptionEn:
+      'Zulip is a powerful team communication platform with a unique topic-based threading model. Each message belongs to a specific topic within a stream, keeping parallel conversations organized and facilitating asynchronous communication. Zulip offers extensive Markdown support, code syntax highlighting, integrations with over 100 services, and a powerful search. It is used by open-source projects, enterprises, and universities worldwide.',
     website: 'https://zulip.com',
     github: 'https://github.com/zulip/zulip',
     license: 'Apache-2.0',
@@ -146,8 +164,11 @@ export const kommunikationTools: Tool[] = [
     name: 'Jami',
     slug: 'jami',
     tagline: 'Dezentraler Peer-to-Peer-Messenger ohne zentrale Server',
+    taglineEn: 'Decentralized peer-to-peer messenger without central servers',
     description:
       'Jami ist ein vollstaendig dezentraler, freier Kommunikationsdienst, der ohne zentrale Server auskommt. Alle Kommunikation erfolgt direkt zwischen den Teilnehmern (Peer-to-Peer) und wird Ende-zu-Ende verschluesselt. Jami bietet Textnachrichten, Sprach- und Videoanrufe, Bildschirmfreigabe und Dateiaustausch. Es ist ein offizielles GNU-Paket und wird von Savoir-faire Linux in Kanada entwickelt. Jami benoetigt weder Telefonnummer noch E-Mail-Adresse zur Registrierung.',
+    descriptionEn:
+      'Jami is a fully decentralized, free communication service that operates without central servers. All communication happens directly between participants (peer-to-peer) and is end-to-end encrypted. Jami offers text messages, voice and video calls, screen sharing, and file exchange. It is an official GNU package and is developed by Savoir-faire Linux in Canada. Jami requires neither a phone number nor an email address for registration.',
     website: 'https://jami.net',
     github: 'https://github.com/savoirfairelinux/jami-project',
     license: 'GPL-3.0',
@@ -168,8 +189,11 @@ export const kommunikationTools: Tool[] = [
     name: 'Briar',
     slug: 'briar',
     tagline: 'Sicherer Messenger fuer Aktivisten und Journalisten mit Tor-Unterstuetzung',
+    taglineEn: 'Secure messenger for activists and journalists with Tor support',
     description:
       'Briar ist ein hochsicherer Messenger, der speziell fuer Aktivisten, Journalisten und alle entwickelt wurde, die sichere Kommunikation benoetigen. Nachrichten werden ueber das Tor-Netzwerk, WLAN oder Bluetooth synchronisiert und koennen sogar ohne Internetverbindung uebertragen werden. Briar speichert alle Daten verschluesselt auf dem Geraet und bietet Blogs, Foren und private Gruppen. Das Projekt wird von akademischen Sicherheitsforschern entwickelt und wurde umfassend auditiert.',
+    descriptionEn:
+      'Briar is a highly secure messenger specifically designed for activists, journalists, and anyone who needs secure communication. Messages are synchronized via the Tor network, Wi-Fi, or Bluetooth and can even be transmitted without an internet connection. Briar stores all data encrypted on the device and offers blogs, forums, and private groups. The project is developed by academic security researchers and has been extensively audited.',
     website: 'https://briarproject.org',
     github: 'https://github.com/briar/briar',
     license: 'GPL-3.0',

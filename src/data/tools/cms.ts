@@ -6,8 +6,11 @@ export const cmsTools: Tool[] = [
     name: 'WordPress (Self-Hosted)',
     slug: 'wordpress-self-hosted',
     tagline: 'Das weltweit meistgenutzte Open-Source-CMS',
+    taglineEn: 'The world\'s most widely used open-source CMS',
     description:
       'WordPress ist das beliebteste Content-Management-System der Welt und betreibt über 40 % aller Websites. Die selbstgehostete Version bietet vollständige Kontrolle über Daten, Design und Funktionalität. Mit Tausenden von Themes und Plugins lässt sich nahezu jede Website realisieren – vom einfachen Blog bis zum komplexen Unternehmensauftritt.',
+    descriptionEn:
+      'WordPress is the most popular content management system in the world, powering over 40% of all websites. The self-hosted version offers complete control over data, design, and functionality. With thousands of themes and plugins, virtually any website can be built -- from simple blogs to complex enterprise sites.',
     website: 'https://wordpress.org',
     github: 'https://github.com/WordPress/WordPress',
     license: 'GPL-2.0',
@@ -30,8 +33,11 @@ export const cmsTools: Tool[] = [
     name: 'Ghost',
     slug: 'ghost',
     tagline: 'Moderne Publishing-Plattform für professionelle Inhalte',
+    taglineEn: 'Modern publishing platform for professional content',
     description:
       'Ghost ist eine leistungsstarke Open-Source-Publishing-Plattform, die speziell für professionelle Blogger, Journalisten und Content-Ersteller entwickelt wurde. Mit integriertem Newsletter-Versand, Mitgliederverwaltung und Bezahlsystem eignet sich Ghost ideal für den Aufbau einer unabhängigen Medienpräsenz.',
+    descriptionEn:
+      'Ghost is a powerful open-source publishing platform designed specifically for professional bloggers, journalists, and content creators. With built-in newsletter delivery, membership management, and payment systems, Ghost is ideal for building an independent media presence.',
     website: 'https://ghost.org',
     github: 'https://github.com/TryGhost/Ghost',
     license: 'MIT',
@@ -54,8 +60,11 @@ export const cmsTools: Tool[] = [
     name: 'Strapi',
     slug: 'strapi',
     tagline: 'Führendes Open-Source-Headless-CMS für Entwickler',
+    taglineEn: 'Leading open-source headless CMS for developers',
     description:
       'Strapi ist ein flexibles, quelloffenes Headless-CMS, das Entwicklern vollständige Kontrolle über ihre API gibt. Mit einer intuitiven Administrationsoberfläche können Inhalte einfach verwaltet werden, während die API-First-Architektur die nahtlose Integration in beliebige Frontend-Frameworks ermöglicht.',
+    descriptionEn:
+      'Strapi is a flexible, open-source headless CMS that gives developers full control over their API. With an intuitive admin interface, content can be easily managed, while the API-first architecture enables seamless integration with any frontend framework.',
     website: 'https://strapi.io',
     github: 'https://github.com/strapi/strapi',
     license: 'MIT',
@@ -78,8 +87,11 @@ export const cmsTools: Tool[] = [
     name: 'Directus',
     slug: 'directus',
     tagline: 'Open-Data-Plattform für jede SQL-Datenbank',
+    taglineEn: 'Open data platform for any SQL database',
     description:
       'Directus verwandelt jede SQL-Datenbank in eine vollwertige API mit einer eleganten Verwaltungsoberfläche. Als Headless-CMS bietet es REST- und GraphQL-Schnittstellen, granulare Rechteverwaltung und automatische Dateiverwaltung. Ideal für Teams, die bestehende Datenbanken ohne Einschränkungen verwalten möchten.',
+    descriptionEn:
+      'Directus transforms any SQL database into a full-featured API with an elegant management interface. As a headless CMS, it provides REST and GraphQL endpoints, granular access control, and automatic file management. Ideal for teams that want to manage existing databases without restrictions.',
     website: 'https://directus.io',
     github: 'https://github.com/directus/directus',
     license: 'GPL-3.0',
@@ -102,8 +114,11 @@ export const cmsTools: Tool[] = [
     name: 'Payload CMS',
     slug: 'payload-cms',
     tagline: 'TypeScript-natives Headless-CMS der nächsten Generation',
+    taglineEn: 'Next-generation TypeScript-native headless CMS',
     description:
       'Payload ist ein modernes, TypeScript-natives Headless-CMS, das sich direkt in Next.js-Anwendungen integriert. Es bietet eine codebasierte Konfiguration, leistungsstarke Zugriffskontrolle und einen visuellen Live-Editor. Entwickler schätzen die nahtlose Verbindung von CMS und Anwendungscode in einem einzigen Projekt.',
+    descriptionEn:
+      'Payload is a modern, TypeScript-native headless CMS that integrates directly into Next.js applications. It offers code-based configuration, powerful access control, and a visual live editor. Developers appreciate the seamless connection between CMS and application code in a single project.',
     website: 'https://payloadcms.com',
     github: 'https://github.com/payloadcms/payload',
     license: 'MIT',
@@ -125,8 +140,11 @@ export const cmsTools: Tool[] = [
     name: 'Wagtail',
     slug: 'wagtail',
     tagline: 'Elegantes Django-basiertes CMS für anspruchsvolle Websites',
+    taglineEn: 'Elegant Django-based CMS for sophisticated websites',
     description:
       'Wagtail ist ein leistungsfähiges Content-Management-System, das auf dem Django-Framework aufbaut. Es bietet eine intuitive Benutzeroberfläche für Redakteure, flexible Inhaltsmodelle und eine hervorragende Entwicklererfahrung. Wagtail wird von Organisationen wie Google, NASA und der britischen Regierung eingesetzt.',
+    descriptionEn:
+      'Wagtail is a powerful content management system built on the Django framework. It offers an intuitive user interface for editors, flexible content models, and an excellent developer experience. Wagtail is used by organizations such as Google, NASA, and the UK government.',
     website: 'https://wagtail.org',
     github: 'https://github.com/wagtail/wagtail',
     license: 'BSD-3-Clause',
@@ -148,8 +166,11 @@ export const cmsTools: Tool[] = [
     name: 'Plone',
     slug: 'plone',
     tagline: 'Enterprise-CMS mit erstklassiger Sicherheit und Workflows',
+    taglineEn: 'Enterprise CMS with first-class security and workflows',
     description:
       'Plone ist ein ausgereiftes Enterprise-Content-Management-System mit über 20 Jahren Entwicklungsgeschichte. Es bietet herausragende Sicherheit, leistungsfähige Workflow-Verwaltung und umfassende Barrierefreiheit. Plone wird weltweit von Regierungen, Universitäten und großen Unternehmen eingesetzt.',
+    descriptionEn:
+      'Plone is a mature enterprise content management system with over 20 years of development history. It offers outstanding security, powerful workflow management, and comprehensive accessibility. Plone is used worldwide by governments, universities, and large enterprises.',
     website: 'https://plone.org',
     github: 'https://github.com/plone/plone',
     license: 'GPL-2.0',
@@ -171,8 +192,11 @@ export const cmsTools: Tool[] = [
     name: 'TYPO3',
     slug: 'typo3',
     tagline: 'Professionelles Enterprise-CMS aus Europa',
+    taglineEn: 'Professional enterprise CMS from Europe',
     description:
       'TYPO3 ist ein leistungsstarkes Enterprise-CMS mit Ursprung in Europa und einer großen Community im deutschsprachigen Raum. Es eignet sich besonders für komplexe, mehrsprachige Unternehmenswebsites mit anspruchsvollen Redaktionsprozessen. TYPO3 bietet umfangreiche Erweiterungsmöglichkeiten und wird von zahlreichen DAX-Konzernen eingesetzt.',
+    descriptionEn:
+      'TYPO3 is a powerful enterprise CMS originating from Europe with a large community in German-speaking countries. It is particularly well-suited for complex, multilingual corporate websites with demanding editorial processes. TYPO3 offers extensive customization options and is used by numerous DAX-listed corporations.',
     website: 'https://typo3.org',
     github: 'https://github.com/TYPO3/typo3',
     license: 'GPL-2.0',

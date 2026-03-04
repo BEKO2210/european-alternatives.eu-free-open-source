@@ -6,8 +6,11 @@ export const videokonferenzenTools: Tool[] = [
     name: 'Jitsi Meet',
     slug: 'jitsi-meet',
     tagline: 'Sichere Videokonferenzen direkt im Browser',
+    taglineEn: 'Secure video conferencing directly in the browser',
     description:
       'Jitsi Meet ist eine vollstaendig verschluesselte, quelloffene Videokonferenzloesung, die direkt im Browser ohne Installation genutzt werden kann. Sie bietet Bildschirmfreigabe, Chat, Umfragen und die Moeglichkeit, eigene Server zu betreiben, um volle Kontrolle ueber die Daten zu behalten.',
+    descriptionEn:
+      'Jitsi Meet is a fully encrypted, open-source video conferencing solution that can be used directly in the browser without installation. It offers screen sharing, chat, polls, and the ability to run your own servers to maintain full control over your data.',
     website: 'https://meet.jit.si',
     github: 'https://github.com/jitsi/jitsi-meet',
     license: 'Apache-2.0',
@@ -30,8 +33,11 @@ export const videokonferenzenTools: Tool[] = [
     name: 'BigBlueButton',
     slug: 'bigbluebutton',
     tagline: 'Virtuelle Klassenzimmer und Online-Seminare',
+    taglineEn: 'Virtual classrooms and online seminars',
     description:
       'BigBlueButton ist ein Open-Source-Webkonferenzsystem, das speziell fuer den Bildungsbereich entwickelt wurde. Es bietet Echtzeit-Audio, Video, Bildschirmfreigabe, ein interaktives Whiteboard, Breakout-Raeume, Umfragen und integrierte Aufzeichnungsfunktionen fuer Online-Unterricht und Schulungen.',
+    descriptionEn:
+      'BigBlueButton is an open-source web conferencing system specifically designed for the education sector. It offers real-time audio, video, screen sharing, an interactive whiteboard, breakout rooms, polls, and built-in recording capabilities for online teaching and training.',
     website: 'https://bigbluebutton.org',
     github: 'https://github.com/bigbluebutton/bigbluebutton',
     license: 'LGPL-3.0',
@@ -54,8 +60,11 @@ export const videokonferenzenTools: Tool[] = [
     name: 'OpenMeetings',
     slug: 'openmeetings',
     tagline: 'Apache-Videokonferenz mit Dokumentenzusammenarbeit',
+    taglineEn: 'Apache video conferencing with document collaboration',
     description:
       'Apache OpenMeetings ist eine umfassende Webkonferenzloesung der Apache Software Foundation. Sie bietet Videokonferenzen, Instant Messaging, ein kollaboratives Whiteboard und Dokumentenbearbeitung in Echtzeit. Die Software laesst sich in bestehende Systeme integrieren und eignet sich fuer Meetings, Schulungen und Praesentationen.',
+    descriptionEn:
+      'Apache OpenMeetings is a comprehensive web conferencing solution by the Apache Software Foundation. It offers video conferencing, instant messaging, a collaborative whiteboard, and real-time document editing. The software integrates with existing systems and is suitable for meetings, training sessions, and presentations.',
     website: 'https://openmeetings.apache.org',
     github: 'https://github.com/apache/openmeetings',
     license: 'Apache-2.0',

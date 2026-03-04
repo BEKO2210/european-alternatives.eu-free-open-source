@@ -6,8 +6,11 @@ export const wikiTools: Tool[] = [
     name: 'MediaWiki',
     slug: 'mediawiki',
     tagline: 'Die Software hinter Wikipedia',
+    taglineEn: 'The software behind Wikipedia',
     description:
       'MediaWiki ist die quelloffene Wiki-Software, die Wikipedia und tausende andere Wikis weltweit antreibt. Sie bietet umfangreiche Erweiterungsmoeglichkeiten, Versionierung, Vorlagen, Medienverwaltung und Mehrsprachigkeit fuer kollaboratives Wissensmanagement.',
+    descriptionEn:
+      'MediaWiki is the open-source wiki software that powers Wikipedia and thousands of other wikis worldwide. It offers extensive extensibility, version control, templates, media management, and multilingual support for collaborative knowledge management.',
     website: 'https://www.mediawiki.org',
     github: 'https://github.com/wikimedia/mediawiki',
     license: 'GPL-2.0',
@@ -29,8 +32,11 @@ export const wikiTools: Tool[] = [
     name: 'BookStack',
     slug: 'bookstack',
     tagline: 'Einfache und uebersichtliche Wissensverwaltung',
+    taglineEn: 'Simple and well-organized knowledge management',
     description:
       'BookStack ist eine benutzerfreundliche, quelloffene Plattform zur Wissensverwaltung. Die Inhalte werden in Regale, Buecher und Kapitel organisiert. BookStack bietet einen WYSIWYG- und Markdown-Editor, Rollenbasierte Zugriffssteuerung und eine leistungsstarke Volltextsuche.',
+    descriptionEn:
+      'BookStack is a user-friendly, open-source platform for knowledge management. Content is organized into shelves, books, and chapters. BookStack offers a WYSIWYG and Markdown editor, role-based access control, and a powerful full-text search.',
     website: 'https://www.bookstackapp.com',
     github: 'https://github.com/BookStackApp/BookStack',
     license: 'MIT',
@@ -53,8 +59,11 @@ export const wikiTools: Tool[] = [
     name: 'Wiki.js',
     slug: 'wikijs',
     tagline: 'Modernes Wiki mit Git-Integration',
+    taglineEn: 'Modern wiki with Git integration',
     description:
       'Wiki.js ist ein modernes, leistungsstarkes Wiki auf Basis von Node.js. Es bietet einen visuellen Editor, Markdown-Unterstuetzung, Git-Synchronisation, Volltextsuche, Mehrsprachigkeit und zahlreiche Authentifizierungsoptionen fuer Teams und Unternehmen.',
+    descriptionEn:
+      'Wiki.js is a modern, powerful wiki built on Node.js. It offers a visual editor, Markdown support, Git synchronization, full-text search, multilingual capabilities, and numerous authentication options for teams and enterprises.',
     website: 'https://js.wiki',
     github: 'https://github.com/requarks/wiki',
     license: 'AGPL-3.0',
@@ -76,8 +85,11 @@ export const wikiTools: Tool[] = [
     name: 'Outline',
     slug: 'outline',
     tagline: 'Schnelles und schoenes Team-Wiki',
+    taglineEn: 'Fast and beautiful team wiki',
     description:
       'Outline ist ein schnelles, kollaboratives Team-Wiki mit einer eleganten Benutzeroberflaeche. Es bietet Echtzeit-Zusammenarbeit, verschachtelte Dokumentensammlungen, Slash-Befehle, API-Zugang und Integrationen mit Slack, Figma und weiteren Diensten.',
+    descriptionEn:
+      'Outline is a fast, collaborative team wiki with an elegant user interface. It offers real-time collaboration, nested document collections, slash commands, API access, and integrations with Slack, Figma, and other services.',
     website: 'https://www.getoutline.com',
     github: 'https://github.com/outline/outline',
     license: 'BSL-1.1',
@@ -99,8 +111,11 @@ export const wikiTools: Tool[] = [
     name: 'Documize',
     slug: 'documize',
     tagline: 'Intelligentes Dokumentenmanagement fuer Teams',
+    taglineEn: 'Intelligent document management for teams',
     description:
       'Documize ist eine quelloffene Plattform fuer Dokumentenmanagement und Wissensaustausch. Sie bietet Vorlagen, Kategorisierung, Versionierung, Kommentare und Berechtigungssteuerung und verbindet Dokumente aus verschiedenen Quellen in einem zentralen Hub.',
+    descriptionEn:
+      'Documize is an open-source platform for document management and knowledge sharing. It offers templates, categorization, versioning, comments, and permission control, connecting documents from various sources in a central hub.',
     website: 'https://www.documize.com',
     github: 'https://github.com/documize/community',
     license: 'AGPL-3.0',
@@ -122,8 +137,11 @@ export const wikiTools: Tool[] = [
     name: 'HedgeDoc',
     slug: 'hedgedoc',
     tagline: 'Kollaboratives Markdown-Editieren in Echtzeit',
+    taglineEn: 'Collaborative real-time Markdown editing',
     description:
       'HedgeDoc ist ein quelloffener, kollaborativer Markdown-Editor fuer Echtzeit-Zusammenarbeit. Mehrere Personen koennen gleichzeitig an einem Dokument arbeiten. Es bietet Praesentationsmodus, Diagramm-Unterstuetzung, Syntax-Highlighting und ist ideal fuer Meeting-Notizen und Dokumentation.',
+    descriptionEn:
+      'HedgeDoc is an open-source, collaborative Markdown editor for real-time collaboration. Multiple people can work on a document simultaneously. It offers presentation mode, diagram support, syntax highlighting, and is ideal for meeting notes and documentation.',
     website: 'https://hedgedoc.org',
     github: 'https://github.com/hedgedoc/hedgedoc',
     license: 'AGPL-3.0',

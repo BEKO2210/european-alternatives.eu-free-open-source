@@ -6,8 +6,11 @@ export const eCommerceTools: Tool[] = [
     name: 'WooCommerce',
     slug: 'woocommerce',
     tagline: 'Die meistgenutzte Open-Source-E-Commerce-Lösung für WordPress',
+    taglineEn: 'The most widely used open-source e-commerce solution for WordPress',
     description:
       'WooCommerce ist ein flexibles Open-Source-E-Commerce-Plugin für WordPress, das Millionen von Online-Shops weltweit betreibt. Es bietet umfangreiche Anpassungsmöglichkeiten durch Themes und Erweiterungen, integrierte Zahlungsabwicklung und eine nahtlose Verbindung mit dem WordPress-Ökosystem. Von kleinen Shops bis hin zu großen Marktplätzen ist WooCommerce vielseitig einsetzbar.',
+    descriptionEn:
+      'WooCommerce is a flexible open-source e-commerce plugin for WordPress that powers millions of online stores worldwide. It offers extensive customization options through themes and extensions, integrated payment processing, and seamless integration with the WordPress ecosystem. From small shops to large marketplaces, WooCommerce is versatile and adaptable.',
     website: 'https://woocommerce.com',
     github: 'https://github.com/woocommerce/woocommerce',
     license: 'GPL-3.0',
@@ -30,8 +33,11 @@ export const eCommerceTools: Tool[] = [
     name: 'PrestaShop',
     slug: 'prestashop',
     tagline: 'Europäische Open-Source-E-Commerce-Plattform',
+    taglineEn: 'European open-source e-commerce platform',
     description:
       'PrestaShop ist eine in Frankreich entwickelte Open-Source-E-Commerce-Plattform, die in Europa besonders beliebt ist. Mit über 300.000 aktiven Shops bietet sie umfangreiche Funktionen für Produktverwaltung, Bestellabwicklung und Marketing. Die Plattform unterstützt zahlreiche Sprachen und Währungen und ist damit ideal für den internationalen Handel.',
+    descriptionEn:
+      'PrestaShop is an open-source e-commerce platform developed in France that is particularly popular in Europe. With over 300,000 active shops, it offers extensive features for product management, order processing, and marketing. The platform supports numerous languages and currencies, making it ideal for international commerce.',
     website: 'https://www.prestashop.com',
     github: 'https://github.com/PrestaShop/PrestaShop',
     license: 'OSL-3.0',
@@ -53,8 +59,11 @@ export const eCommerceTools: Tool[] = [
     name: 'Saleor',
     slug: 'saleor',
     tagline: 'GraphQL-basierter Headless-Commerce für moderne Shops',
+    taglineEn: 'GraphQL-based headless commerce for modern shops',
     description:
       'Saleor ist eine moderne, API-first E-Commerce-Plattform, die vollständig auf GraphQL aufbaut. Entwickelt in Polen bietet Saleor eine hochleistungsfähige Architektur für Headless-Commerce, die sich nahtlos in jedes Frontend integrieren lässt. Mit Dashboard, Mehrkanal-Unterstützung und flexibler Produktmodellierung ist Saleor ideal für anspruchsvolle Commerce-Projekte.',
+    descriptionEn:
+      'Saleor is a modern, API-first e-commerce platform built entirely on GraphQL. Developed in Poland, Saleor provides a high-performance architecture for headless commerce that integrates seamlessly with any frontend. With a dashboard, multi-channel support, and flexible product modeling, Saleor is ideal for demanding commerce projects.',
     website: 'https://saleor.io',
     github: 'https://github.com/saleor/saleor',
     license: 'BSD-3-Clause',
@@ -76,8 +85,11 @@ export const eCommerceTools: Tool[] = [
     name: 'Solidus',
     slug: 'solidus',
     tagline: 'Flexibler Open-Source-Commerce auf Ruby on Rails',
+    taglineEn: 'Flexible open-source commerce on Ruby on Rails',
     description:
       'Solidus ist eine leistungsfähige Open-Source-E-Commerce-Plattform auf Basis von Ruby on Rails. Als Fork von Spree Commerce bietet Solidus eine stabile und gut getestete Grundlage für individuelle Shop-Lösungen. Die modulare Architektur ermöglicht es, jeden Aspekt des Shops an spezifische Geschäftsanforderungen anzupassen.',
+    descriptionEn:
+      'Solidus is a powerful open-source e-commerce platform built on Ruby on Rails. As a fork of Spree Commerce, Solidus provides a stable and well-tested foundation for custom shop solutions. Its modular architecture allows every aspect of the shop to be tailored to specific business requirements.',
     website: 'https://solidus.io',
     github: 'https://github.com/solidusio/solidus',
     license: 'BSD-3-Clause',
@@ -99,8 +111,11 @@ export const eCommerceTools: Tool[] = [
     name: 'OpenCart',
     slug: 'opencart',
     tagline: 'Benutzerfreundliche PHP-E-Commerce-Lösung',
+    taglineEn: 'User-friendly PHP e-commerce solution',
     description:
       'OpenCart ist ein benutzerfreundliches Open-Source-Shopsystem, das sich durch einfache Installation und Bedienung auszeichnet. Mit über 13.000 Erweiterungen und Themes im Marketplace bietet OpenCart eine große Auswahl an Anpassungsmöglichkeiten. Das integrierte Multi-Store-Management ermöglicht den Betrieb mehrerer Shops über eine einzige Installation.',
+    descriptionEn:
+      'OpenCart is a user-friendly open-source shop system distinguished by its easy installation and operation. With over 13,000 extensions and themes in the marketplace, OpenCart offers a wide range of customization options. The integrated multi-store management enables running multiple shops from a single installation.',
     website: 'https://www.opencart.com',
     github: 'https://github.com/opencart/opencart',
     license: 'GPL-3.0',
@@ -122,8 +137,11 @@ export const eCommerceTools: Tool[] = [
     name: 'Sylius',
     slug: 'sylius',
     tagline: 'Symfony-basiertes E-Commerce-Framework für Maßanfertigungen',
+    taglineEn: 'Symfony-based e-commerce framework for custom solutions',
     description:
       'Sylius ist ein modernes E-Commerce-Framework, das auf dem Symfony-Framework aufbaut. Es wurde speziell für Entwickler konzipiert, die maßgeschneiderte Shop-Lösungen benötigen. Mit seiner komponentenbasierten Architektur, umfangreichen API und erstklassiger Testabdeckung bietet Sylius eine solide Grundlage für komplexe E-Commerce-Projekte.',
+    descriptionEn:
+      'Sylius is a modern e-commerce framework built on the Symfony framework. It was specifically designed for developers who need custom shop solutions. With its component-based architecture, comprehensive API, and first-class test coverage, Sylius provides a solid foundation for complex e-commerce projects.',
     website: 'https://sylius.com',
     github: 'https://github.com/Sylius/Sylius',
     license: 'MIT',

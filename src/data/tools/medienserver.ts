@@ -6,8 +6,11 @@ export const medienserverTools: Tool[] = [
     name: 'Jellyfin',
     slug: 'jellyfin',
     tagline: 'Der freie Medienserver fuer Filme, Serien und Musik',
+    taglineEn: 'The free media server for movies, TV shows, and music',
     description:
       'Jellyfin ist ein vollstaendig freier und quelloffener Medienserver ohne jegliche Premium-Funktionen hinter einer Paywall. Er organisiert und streamt Filme, Serien, Musik und Live-TV an alle Geraete. Jellyfin bietet Benutzerverwaltung, Transkodierung und umfangreiche Metadaten.',
+    descriptionEn:
+      'Jellyfin is a completely free and open-source media server with no premium features behind a paywall. It organizes and streams movies, TV shows, music, and live TV to all devices. Jellyfin offers user management, transcoding, and comprehensive metadata.',
     website: 'https://jellyfin.org',
     github: 'https://github.com/jellyfin/jellyfin',
     license: 'GPL-2.0',
@@ -29,8 +32,11 @@ export const medienserverTools: Tool[] = [
     name: 'Navidrome',
     slug: 'navidrome',
     tagline: 'Leichtgewichtiger Musikserver mit moderner Oberflaeche',
+    taglineEn: 'Lightweight music server with a modern interface',
     description:
       'Navidrome ist ein leichtgewichtiger, quelloffener Musikserver und -streamer. Er unterstuetzt alle gaengigen Audioformate, bietet eine moderne Weboberflaeche, Subsonic-Kompatibilitaet, Mehrbenutzer-Unterstuetzung und ist extrem ressourcenschonend.',
+    descriptionEn:
+      'Navidrome is a lightweight, open-source music server and streamer. It supports all common audio formats, offers a modern web interface, Subsonic compatibility, multi-user support, and is extremely resource-efficient.',
     website: 'https://www.navidrome.org',
     github: 'https://github.com/navidrome/navidrome',
     license: 'GPL-3.0',
@@ -51,8 +57,11 @@ export const medienserverTools: Tool[] = [
     name: 'Ampache',
     slug: 'ampache',
     tagline: 'Webbasierte Audio- und Video-Streaming-Loesung',
+    taglineEn: 'Web-based audio and video streaming solution',
     description:
       'Ampache ist eine webbasierte Audio- und Video-Streaming-Anwendung mit langer Entwicklungsgeschichte. Sie bietet Musikbibliotheksverwaltung, Playlisten, Podcasts, Radio-Streams, Subsonic-API und unterstuetzt verschiedene Ausgabeformate fuer individuelles Musik-Streaming.',
+    descriptionEn:
+      'Ampache is a web-based audio and video streaming application with a long development history. It offers music library management, playlists, podcasts, radio streams, Subsonic API, and supports various output formats for personalized music streaming.',
     website: 'https://ampache.org',
     github: 'https://github.com/ampache/ampache',
     license: 'AGPL-3.0',
@@ -74,8 +83,11 @@ export const medienserverTools: Tool[] = [
     name: 'Funkwhale',
     slug: 'funkwhale',
     tagline: 'Dezentrale Musik-Streaming-Plattform im Fediverse',
+    taglineEn: 'Decentralized music streaming platform on the Fediverse',
     description:
       'Funkwhale ist eine dezentrale, foederierte Plattform zum Hosten, Teilen und Streamen von Musik und Podcasts. Sie basiert auf ActivityPub und ermoeglicht es Nutzern, ihre eigene Musikbibliothek zu verwalten, Playlists zu erstellen und Inhalte mit anderen Instanzen zu teilen. Funkwhale bietet Playlisten, Radios, eine Subsonic-API und eine moderne, intuitive Oberflaeche.',
+    descriptionEn:
+      'Funkwhale is a decentralized, federated platform for hosting, sharing, and streaming music and podcasts. It is based on ActivityPub and allows users to manage their own music library, create playlists, and share content with other instances. Funkwhale offers playlists, radios, a Subsonic API, and a modern, intuitive interface.',
     website: 'https://funkwhale.audio',
     github: 'https://dev.funkwhale.audio/funkwhale/funkwhale',
     license: 'AGPL-3.0',
@@ -97,8 +109,11 @@ export const medienserverTools: Tool[] = [
     name: 'Stremio',
     slug: 'stremio',
     tagline: 'Media-Center mit Add-on-basiertem Streaming',
+    taglineEn: 'Media center with add-on-based streaming',
     description:
       'Stremio ist ein modernes Media-Center, das Inhalte aus verschiedenen Quellen ueber Add-ons aggregiert. Es bietet einen eleganten Katalog fuer Filme, Serien und Kanäle, Untertitel-Unterstuetzung, Trakt-Integration und eine benutzerfreundliche Oberflaeche auf allen Plattformen.',
+    descriptionEn:
+      'Stremio is a modern media center that aggregates content from various sources via add-ons. It offers an elegant catalog for movies, TV shows, and channels, subtitle support, Trakt integration, and a user-friendly interface across all platforms.',
     website: 'https://www.stremio.com',
     github: 'https://github.com/Stremio/stremio-shell',
     license: 'GPL-3.0',

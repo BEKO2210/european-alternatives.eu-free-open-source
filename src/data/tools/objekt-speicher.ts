@@ -6,8 +6,11 @@ export const objektSpeicherTools: Tool[] = [
     name: 'MinIO',
     slug: 'minio',
     tagline: 'Hochleistungs-Objektspeicher mit S3-Kompatibilitaet',
+    taglineEn: 'High-performance object storage with S3 compatibility',
     description:
       'MinIO ist ein hochleistungsfaehiger, S3-kompatibler Objektspeicher. Er ist fuer KI/ML-Workloads, Data Lakes und Cloud-native Anwendungen optimiert und bietet Erasure Coding, Verschluesselung, Versionierung und eine herausragende Lese-/Schreibgeschwindigkeit. Hinweis: MinIO nutzt ein Dual-Licensing-Modell (AGPL-3.0 / kommerziell). ⚠ Eingeschraenkt: MinIO hat 2025 das Web-UI aus der Community Edition entfernt. Alternativen: Garage, SeaweedFS, Ceph.',
+    descriptionEn:
+      'MinIO is a high-performance, S3-compatible object storage system. It is optimized for AI/ML workloads, data lakes, and cloud-native applications, offering erasure coding, encryption, versioning, and outstanding read/write speeds. Note: MinIO uses a dual-licensing model (AGPL-3.0 / commercial). Warning: MinIO removed the Web UI from the Community Edition in 2025. Alternatives: Garage, SeaweedFS, Ceph.',
     website: 'https://min.io',
     github: 'https://github.com/minio/minio',
     license: 'AGPL-3.0',
@@ -32,8 +35,11 @@ export const objektSpeicherTools: Tool[] = [
     name: 'Ceph',
     slug: 'ceph',
     tagline: 'Verteilter Speicher fuer Block, Objekt und Dateisysteme',
+    taglineEn: 'Distributed storage for block, object, and file systems',
     description:
       'Ceph ist ein hochskalierbares, verteiltes Speichersystem, das Block-, Objekt- und Dateispeicher in einer einheitlichen Plattform vereint. Es bietet automatische Datenreplikation, Selbstheilung, S3-kompatiblen Objektspeicher und wird in grossen Cloud-Infrastrukturen eingesetzt.',
+    descriptionEn:
+      'Ceph is a highly scalable, distributed storage system that unifies block, object, and file storage in a single platform. It offers automatic data replication, self-healing, S3-compatible object storage, and is used in large-scale cloud infrastructures.',
     website: 'https://ceph.io',
     github: 'https://github.com/ceph/ceph',
     license: 'LGPL-2.1',
@@ -55,8 +61,11 @@ export const objektSpeicherTools: Tool[] = [
     name: 'SeaweedFS',
     slug: 'seaweedfs',
     tagline: 'Schnelles verteiltes Speichersystem fuer Milliarden Dateien',
+    taglineEn: 'Fast distributed storage system for billions of files',
     description:
       'SeaweedFS ist ein schnelles, verteiltes Speichersystem, das fuer die Speicherung von Milliarden kleiner Dateien optimiert ist. Es bietet S3-Kompatibilitaet, Filer mit POSIX-Semantik, Erasure Coding, Replikation und eine horizontale Skalierbarkeit.',
+    descriptionEn:
+      'SeaweedFS is a fast, distributed storage system optimized for storing billions of small files. It offers S3 compatibility, a filer with POSIX semantics, erasure coding, replication, and horizontal scalability.',
     website: 'https://seaweedfs.github.io',
     github: 'https://github.com/seaweedfs/seaweedfs',
     license: 'Apache-2.0',
@@ -77,8 +86,11 @@ export const objektSpeicherTools: Tool[] = [
     name: 'Garage',
     slug: 'garage',
     tagline: 'Leichtgewichtiger S3-kompatibler verteilter Speicher',
+    taglineEn: 'Lightweight S3-compatible distributed storage',
     description:
       'Garage ist ein leichtgewichtiger, quelloffener, S3-kompatibler verteilter Objektspeicher fuer selbst gehostete Infrastruktur. Er ist fuer den Betrieb auf heterogener Hardware und ueber mehrere Standorte hinweg konzipiert und bietet hohe Verfuegbarkeit bei geringem Ressourcenverbrauch.',
+    descriptionEn:
+      'Garage is a lightweight, open-source, S3-compatible distributed object storage for self-hosted infrastructure. It is designed to operate on heterogeneous hardware and across multiple locations, offering high availability with low resource consumption.',
     website: 'https://garagehq.deuxfleurs.fr',
     github: 'https://github.com/deuxfleurs-org/garage',
     license: 'AGPL-3.0',

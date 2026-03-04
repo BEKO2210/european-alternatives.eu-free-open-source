@@ -6,8 +6,10 @@ export const zeiterfassungTools: Tool[] = [
     name: 'Kimai',
     slug: 'kimai',
     tagline: 'Open-Source-Zeiterfassung fuer Teams und Freelancer',
+    taglineEn: 'Open-source time tracking for teams and freelancers',
     description:
       'Kimai ist eine freie, webbasierte Zeiterfassungssoftware mit langer Entwicklungsgeschichte. Sie bietet Projektverwaltung, Kundenzuordnung, Rechnungserstellung, umfangreiche Berichte und eine REST-API. Kimai eignet sich fuer Freelancer, kleine Teams und grosse Organisationen gleichermassen.',
+    descriptionEn: 'Kimai is a free, web-based time tracking software with a long development history. It offers project management, client assignment, invoice generation, comprehensive reports, and a REST API. Kimai is equally suited for freelancers, small teams, and large organizations.',
     website: 'https://www.kimai.org',
     github: 'https://github.com/kimai/kimai',
     license: 'AGPL-3.0',
@@ -29,8 +31,10 @@ export const zeiterfassungTools: Tool[] = [
     name: 'solidtime',
     slug: 'solidtime',
     tagline: 'Moderne Zeiterfassung mit elegantem Interface',
+    taglineEn: 'Modern time tracking with an elegant interface',
     description:
       'solidtime ist eine moderne, quelloffene Zeiterfassungsloesung mit einem eleganten und intuitiven Benutzerinterface. Sie bietet Projektzuordnung, Tags, detaillierte Auswertungen und eine uebersichtliche Kalenderansicht fuer produktives Arbeiten.',
+    descriptionEn: 'solidtime is a modern, open-source time tracking solution with an elegant and intuitive user interface. It offers project assignment, tags, detailed analytics, and a clear calendar view for productive work.',
     website: 'https://www.solidtime.io',
     github: 'https://github.com/solidtime-io/solidtime',
     license: 'AGPL-3.0',
@@ -52,8 +56,10 @@ export const zeiterfassungTools: Tool[] = [
     name: 'ActivityWatch',
     slug: 'activitywatch',
     tagline: 'Automatische Zeiterfassung und Produktivitaetsanalyse',
+    taglineEn: 'Automatic time tracking and productivity analysis',
     description:
       'ActivityWatch ist ein quelloffenes Tool zur automatischen Erfassung der Computernutzung. Es protokolliert aktive Anwendungen, besuchte Webseiten und Aktivitaetsmuster und liefert detaillierte Einblicke in das eigene Arbeitsverhalten, vollstaendig lokal und datenschutzfreundlich.',
+    descriptionEn: 'ActivityWatch is an open-source tool for automatic tracking of computer usage. It logs active applications, visited websites, and activity patterns, providing detailed insights into your own work behavior, entirely local and privacy-friendly.',
     website: 'https://activitywatch.net',
     github: 'https://github.com/ActivityWatch/activitywatch',
     license: 'MPL-2.0',
@@ -74,8 +80,10 @@ export const zeiterfassungTools: Tool[] = [
     name: 'Timetagger',
     slug: 'timetagger',
     tagline: 'Interaktive Zeiterfassung mit Tag-basiertem System',
+    taglineEn: 'Interactive time tracking with a tag-based system',
     description:
       'Timetagger ist ein schlankes, quelloffenes Zeiterfassungstool mit einem innovativen Tag-basierten Ansatz. Die intuitive Zeitleisten-Oberflaeche ermoeglicht schnelles Erfassen und Kategorisieren von Taetigkeiten. Berichte lassen sich nach Tags filtern und exportieren.',
+    descriptionEn: 'Timetagger is a lightweight, open-source time tracking tool with an innovative tag-based approach. The intuitive timeline interface enables quick recording and categorization of activities. Reports can be filtered by tags and exported.',
     website: 'https://timetagger.app',
     github: 'https://github.com/almarklein/timetagger',
     license: 'GPL-3.0',

@@ -119,7 +119,7 @@ const categoryIconMap: Record<string, string> = {
         <span class:list={['badge', licenseBadge]}>{tool.license}</span>
         {tool.maintenanceStatus && <MaintenanceBadge status={tool.maintenanceStatus} note={tool.maintenanceNote} />}
       </div>
-      <p class="text-lg" style="color: var(--color-text-secondary)">{tool.tagline}</p>
+      <p class="text-lg" style="color: var(--color-text-secondary)">{lang === 'en' && tool.taglineEn ? tool.taglineEn : tool.tagline}</p>
     </div>
   </div>
 
@@ -170,7 +170,7 @@ const categoryIconMap: Record<string, string> = {
 
   <div class="card p-6 mb-8">
     <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">{t('detail.description')}</h2>
-    <p class="leading-relaxed" style="color: var(--color-text-secondary)">{tool.description}</p>
+    <p class="leading-relaxed" style="color: var(--color-text-secondary)">{lang === 'en' && tool.descriptionEn ? tool.descriptionEn : tool.description}</p>
   </div>
 
   <div class="card p-6 mb-8">

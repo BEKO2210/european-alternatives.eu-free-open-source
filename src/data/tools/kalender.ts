@@ -6,8 +6,11 @@ export const kalenderTools: Tool[] = [
     name: 'Nextcloud Calendar',
     slug: 'nextcloud-calendar',
     tagline: 'Integrierte Kalenderverwaltung in der Nextcloud-Plattform',
+    taglineEn: 'Integrated calendar management within the Nextcloud platform',
     description:
       'Nextcloud Calendar ist die Kalender-App der Nextcloud-Plattform und bietet eine vollstaendige CalDAV-kompatible Kalenderloesung. Sie unterstuetzt mehrere Kalender, Terminfreigabe, Erinnerungen, wiederkehrende Termine und die Synchronisation mit mobilen Geraeten. Die nahtlose Integration in das Nextcloud-Oekosystem macht sie zur idealen Loesung fuer Teams und Einzelpersonen.',
+    descriptionEn:
+      'Nextcloud Calendar is the calendar app of the Nextcloud platform, providing a fully CalDAV-compatible calendar solution. It supports multiple calendars, event sharing, reminders, recurring events, and synchronization with mobile devices. Its seamless integration into the Nextcloud ecosystem makes it the ideal solution for teams and individuals.',
     website: 'https://apps.nextcloud.com/apps/calendar',
     github: 'https://github.com/nextcloud/calendar',
     license: 'AGPL-3.0',
@@ -29,8 +32,11 @@ export const kalenderTools: Tool[] = [
     name: 'Radicale',
     slug: 'radicale',
     tagline: 'Leichtgewichtiger CalDAV- und CardDAV-Server',
+    taglineEn: 'Lightweight CalDAV and CardDAV server',
     description:
       'Radicale ist ein minimalistischer, leichtgewichtiger CalDAV- und CardDAV-Server, der in Python geschrieben ist. Er benoetigt keine Datenbank, speichert Daten in einfachen Dateien und laesst sich mit wenigen Zeilen Konfiguration einrichten. Radicale eignet sich besonders fuer Einzelpersonen und kleine Teams, die eine unkomplizierte Kalender- und Kontaktsynchronisation benoetigen.',
+    descriptionEn:
+      'Radicale is a minimalist, lightweight CalDAV and CardDAV server written in Python. It requires no database, stores data in simple files, and can be set up with just a few lines of configuration. Radicale is particularly well-suited for individuals and small teams who need straightforward calendar and contact synchronization.',
     website: 'https://radicale.org',
     github: 'https://github.com/Kozea/Radicale',
     license: 'GPL-3.0',
@@ -51,8 +57,11 @@ export const kalenderTools: Tool[] = [
     name: 'Baikal',
     slug: 'baikal',
     tagline: 'Schlanker CalDAV- und CardDAV-Server mit Weboberflaeche',
+    taglineEn: 'Lean CalDAV and CardDAV server with web interface',
     description:
       'Baikal ist ein leichtgewichtiger CalDAV- und CardDAV-Server, der in PHP geschrieben ist und eine uebersichtliche Weboberflaeche zur Verwaltung bietet. Er unterstuetzt SQLite und MySQL als Datenbank-Backend und laesst sich einfach auf gaengigen Webservern installieren. Baikal ist ideal fuer alle, die eine selbst gehostete Kalender- und Kontaktloesung ohne grossen Aufwand betreiben moechten.',
+    descriptionEn:
+      'Baikal is a lightweight CalDAV and CardDAV server written in PHP that provides a clear web interface for administration. It supports SQLite and MySQL as database backends and can be easily installed on common web servers. Baikal is ideal for anyone who wants to run a self-hosted calendar and contact solution without much effort.',
     website: 'https://sabre.io/baikal/',
     github: 'https://github.com/sabre-io/Baikal',
     license: 'GPL-3.0',
@@ -73,8 +82,11 @@ export const kalenderTools: Tool[] = [
     name: 'EteSync',
     slug: 'etesync',
     tagline: 'Ende-zu-Ende-verschluesselte Kalender- und Kontaktsynchronisation',
+    taglineEn: 'End-to-end encrypted calendar and contact synchronization',
     description:
       'EteSync ist eine sichere, Ende-zu-Ende-verschluesselte Loesung zur Synchronisation von Kalendern, Kontakten und Aufgaben. Die Verschluesselung stellt sicher, dass selbst der Serverbetreiber keinen Zugriff auf die Daten hat. EteSync bietet native Apps fuer alle gaengigen Plattformen und laesst sich als eigener Server betreiben oder ueber den gehosteten Dienst nutzen.',
+    descriptionEn:
+      'EteSync is a secure, end-to-end encrypted solution for synchronizing calendars, contacts, and tasks. The encryption ensures that even the server operator has no access to the data. EteSync offers native apps for all major platforms and can be run as your own server or used via the hosted service.',
     website: 'https://www.etesync.com',
     github: 'https://github.com/etesync',
     license: 'AGPL-3.0',

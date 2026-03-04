@@ -6,8 +6,11 @@ export const codeHostingTools: Tool[] = [
     name: 'Forgejo',
     slug: 'forgejo',
     tagline: 'Community-getriebene Git-Hosting-Plattform',
+    taglineEn: 'Community-driven Git hosting platform',
     description:
       'Forgejo ist ein selbst hostbarer, leichtgewichtiger Git-Dienst, der als Community-Fork von Gitea entstanden ist. Er wird von der gemeinnuetzigen Organisation Codeberg e.V. unterstuetzt und bietet Issue-Tracking, Pull-Requests, Code-Review, CI/CD-Integration, Wikis und Paketregistrierung. Forgejo legt besonderen Wert auf Community-Governance und Unabhaengigkeit von kommerziellen Interessen.',
+    descriptionEn:
+      'Forgejo is a self-hostable, lightweight Git service that originated as a community fork of Gitea. It is supported by the non-profit organization Codeberg e.V. and offers issue tracking, pull requests, code review, CI/CD integration, wikis, and package registry. Forgejo places special emphasis on community governance and independence from commercial interests.',
     website: 'https://forgejo.org',
     github: 'https://codeberg.org/forgejo/forgejo',
     license: 'MIT',
@@ -30,8 +33,11 @@ export const codeHostingTools: Tool[] = [
     name: 'Gitea',
     slug: 'gitea',
     tagline: 'Schmerzfrei selbst gehosteter Git-Service',
+    taglineEn: 'Painless self-hosted Git service',
     description:
       'Gitea ist ein leichtgewichtiger, selbst hostbarer Git-Service, der in Go geschrieben ist. Er bietet eine umfassende Weboberlaeche mit Repository-Verwaltung, Issue-Tracking, Pull-Requests, Code-Review, CI/CD (Gitea Actions), Pakete-Registry und Wiki. Gitea zeichnet sich durch seinen geringen Ressourcenverbrauch aus und laesst sich sogar auf einem Raspberry Pi betreiben.',
+    descriptionEn:
+      'Gitea is a lightweight, self-hostable Git service written in Go. It provides a comprehensive web interface with repository management, issue tracking, pull requests, code review, CI/CD (Gitea Actions), package registry, and wiki. Gitea stands out for its low resource consumption and can even run on a Raspberry Pi.',
     website: 'https://about.gitea.com',
     github: 'https://github.com/go-gitea/gitea',
     license: 'MIT',
@@ -54,8 +60,11 @@ export const codeHostingTools: Tool[] = [
     name: 'GitLab CE',
     slug: 'gitlab-ce',
     tagline: 'Vollstaendige DevOps-Plattform als Open Source',
+    taglineEn: 'Complete DevOps platform as open source',
     description:
       'GitLab Community Edition ist eine umfassende DevOps-Plattform, die den gesamten Softwareentwicklungszyklus abdeckt. Sie bietet Git-Repository-Verwaltung, Issue-Tracking, CI/CD-Pipelines, Code-Review, Container-Registry, Wiki, Paketregistrierung und vieles mehr. GitLab CE ist die Open-Source-Variante von GitLab und kann auf eigenen Servern betrieben werden, um volle Kontrolle ueber den Quellcode und die Daten zu behalten.',
+    descriptionEn:
+      'GitLab Community Edition is a comprehensive DevOps platform that covers the entire software development lifecycle. It offers Git repository management, issue tracking, CI/CD pipelines, code review, container registry, wiki, package registry, and much more. GitLab CE is the open-source variant of GitLab and can be operated on your own servers to maintain full control over source code and data.',
     website: 'https://about.gitlab.com',
     github: 'https://gitlab.com/gitlab-org/gitlab-foss',
     license: 'MIT',
@@ -78,8 +87,11 @@ export const codeHostingTools: Tool[] = [
     name: 'Gogs',
     slug: 'gogs',
     tagline: 'Einfachster selbst gehosteter Git-Service',
+    taglineEn: 'Simplest self-hosted Git service',
     description:
       'Gogs ist ein extrem leichtgewichtiger, selbst gehosteter Git-Service, der in Go geschrieben ist und sich durch minimalen Ressourcenverbrauch auszeichnet. Er bietet Repository-Verwaltung, Issue-Tracking, Wiki, Webhooks und eine uebersichtliche Weboberlaeche. Gogs ist als einzelne Binaerdatei verfuegbar und laesst sich in wenigen Minuten auf nahezu jeder Plattform einrichten.',
+    descriptionEn:
+      'Gogs is an extremely lightweight, self-hosted Git service written in Go that stands out for its minimal resource consumption. It offers repository management, issue tracking, wiki, webhooks, and a clean web interface. Gogs is available as a single binary and can be set up in just a few minutes on virtually any platform.',
     website: 'https://gogs.io',
     github: 'https://github.com/gogs/gogs',
     license: 'MIT',
@@ -100,8 +112,11 @@ export const codeHostingTools: Tool[] = [
     name: 'SourceHut',
     slug: 'sourcehut',
     tagline: 'Minimalistische Software-Entwicklungsplattform',
+    taglineEn: 'Minimalist software development platform',
     description:
       'SourceHut ist eine minimalistische, schnelle und datenschutzfreundliche Software-Entwicklungsplattform. Sie bietet Git- und Mercurial-Hosting, Mailinglisten-basierte Code-Reviews, Issue-Tracker, CI/CD-Builds und Wikis. SourceHut verzichtet bewusst auf JavaScript in der Weboberlaeche und setzt auf einfache, standardbasierte Workflows. Die Plattform ist vollstaendig quelloffen und kann selbst gehostet werden.',
+    descriptionEn:
+      'SourceHut is a minimalist, fast, and privacy-friendly software development platform. It offers Git and Mercurial hosting, mailing list-based code reviews, issue tracker, CI/CD builds, and wikis. SourceHut deliberately avoids JavaScript in the web interface and relies on simple, standards-based workflows. The platform is fully open source and can be self-hosted.',
     website: 'https://sourcehut.org',
     github: 'https://git.sr.ht/~sircmpwn/core.sr.ht',
     license: 'AGPL-3.0',

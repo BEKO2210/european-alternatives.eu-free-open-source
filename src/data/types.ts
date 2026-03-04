@@ -3,7 +3,9 @@ export interface Tool {
   name: string;
   slug: string;
   tagline: string;
+  taglineEn?: string;
   description: string;
+  descriptionEn?: string;
   website: string;
   github?: string;
   license: string;

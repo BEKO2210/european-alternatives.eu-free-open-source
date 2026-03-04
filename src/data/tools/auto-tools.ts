@@ -4293,8 +4293,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'coolify',
     name: 'Coolify',
     slug: 'coolify',
-    tagline: 'An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, ...',
+    tagline: 'Eine quelloffene, selbst hostbare PaaS-Alternative zu Vercel, Heroku & Netlify fuer einfaches Deployment von statischen Seiten, ...',
+    taglineEn: 'An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, ...',
     description:
+      'Eine quelloffene, selbst hostbare PaaS-Alternative zu Vercel, Heroku & Netlify, mit der Sie einfach statische Seiten, Datenbanken, Full-Stack-Anwendungen und ueber 280 Ein-Klick-Dienste auf Ihren eigenen Servern bereitstellen koennen.',
+    descriptionEn:
       'An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.',
     website: 'https://coolify.io',
     github: 'https://github.com/coollabsio/coolify',
@@ -4316,8 +4319,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'dokploy',
     name: 'Dokploy',
     slug: 'dokploy',
-    tagline: 'Open Source Alternative to Vercel, Netlify and Heroku.',
+    tagline: 'Open-Source-Alternative zu Vercel, Netlify und Heroku.',
+    taglineEn: 'Open Source Alternative to Vercel, Netlify and Heroku.',
     description:
+      'Open-Source-Alternative zu Vercel, Netlify und Heroku.',
+    descriptionEn:
       'Open Source Alternative to Vercel, Netlify and Heroku.',
     website: 'https://dokploy.com/',
     github: 'https://github.com/Dokploy/dokploy',
@@ -4339,8 +4345,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'focalboard',
     name: 'Focalboard',
     slug: 'focalboard',
-    tagline: 'Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.',
+    tagline: 'Focalboard ist eine quelloffene, selbst gehostete Alternative zu Trello, Notion und Asana.',
+    taglineEn: 'Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.',
     description:
+      'Focalboard ist eine quelloffene, selbst gehostete Alternative zu Trello, Notion und Asana.',
+    descriptionEn:
       'Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.',
     website: 'https://www.focalboard.com',
     github: 'https://github.com/mattermost-community/focalboard',
@@ -4362,8 +4371,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'signoz',
     name: 'Signoz',
     slug: 'signoz',
-    tagline: 'SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single app...',
+    tagline: 'SigNoz ist eine quelloffene Observability-Plattform nativ fuer OpenTelemetry mit Logs, Traces und Metriken in einer einzigen App...',
+    taglineEn: 'SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single app...',
     description:
+      'SigNoz ist eine quelloffene Observability-Plattform nativ fuer OpenTelemetry mit Logs, Traces und Metriken in einer einzigen Anwendung. Eine Open-Source-Alternative zu DataDog, NewRelic usw. Open-Source-Tool fuer Application Performance Monitoring (APM) und Observability.',
+    descriptionEn:
       'SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool',
     website: 'https://signoz.io',
     github: 'https://github.com/SigNoz/signoz',
@@ -4385,8 +4397,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'automatisch',
     name: 'Automatisch',
     slug: 'automatisch',
-    tagline: 'The open source Zapier alternative. Build workflow automation without spending time and money.',
+    tagline: 'Die Open-Source-Alternative zu Zapier. Workflow-Automatisierung ohne Zeit- und Kostenaufwand erstellen.',
+    taglineEn: 'The open source Zapier alternative. Build workflow automation without spending time and money.',
     description:
+      'Die Open-Source-Alternative zu Zapier. Workflow-Automatisierung ohne Zeit- und Kostenaufwand erstellen.',
+    descriptionEn:
       'The open source Zapier alternative. Build workflow automation without spending time and money.',
     website: 'https://automatisch.io',
     github: 'https://github.com/automatisch/automatisch',
@@ -4408,8 +4423,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'notesnook',
     name: 'Notesnook',
     slug: 'notesnook',
-    tagline: 'A fully open source & end-to-end encrypted note taking alternative to Evernote.',
+    tagline: 'Eine vollstaendig quelloffene und Ende-zu-Ende-verschluesselte Notiz-Alternative zu Evernote.',
+    taglineEn: 'A fully open source & end-to-end encrypted note taking alternative to Evernote.',
     description:
+      'Eine vollstaendig quelloffene und Ende-zu-Ende-verschluesselte Notiz-Alternative zu Evernote.',
+    descriptionEn:
       'A fully open source & end-to-end encrypted note taking alternative to Evernote.',
     website: 'https://notesnook.com/',
     github: 'https://github.com/streetwriters/notesnook',
@@ -4431,8 +4449,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'documenso',
     name: 'Documenso',
     slug: 'documenso',
-    tagline: 'The Open Source DocuSign Alternative.',
+    tagline: 'Die Open-Source-Alternative zu DocuSign.',
+    taglineEn: 'The Open Source DocuSign Alternative.',
     description:
+      'Die Open-Source-Alternative zu DocuSign.',
+    descriptionEn:
       'The Open Source DocuSign Alternative.',
     website: 'https://documenso.com',
     github: 'https://github.com/documenso/documenso',
@@ -4454,8 +4475,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openpanel',
     name: 'Openpanel',
     slug: 'openpanel',
-    tagline: 'OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional ...',
+    tagline: 'OpenPanel ist eine quelloffene Web- und Produktanalyseplattform, eine Open-Source-Alternative zu Mixpanel mit optionalem ...',
+    taglineEn: 'OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional ...',
     description:
+      'OpenPanel ist eine quelloffene Web- und Produktanalyseplattform, eine Open-Source-Alternative zu Mixpanel mit optionalem Self-Hosting.',
+    descriptionEn:
       'OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.',
     website: 'https://openpanel.dev',
     github: 'https://github.com/Openpanel-dev/openpanel',
@@ -4477,8 +4501,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'colanode',
     name: 'Colanode',
     slug: 'colanode',
-    tagline: 'Open-source and local-first Slack and Notion alternative that puts you in control of your data',
+    tagline: 'Quelloffene und Local-First Alternative zu Slack und Notion, die Ihnen die Kontrolle ueber Ihre Daten gibt',
+    taglineEn: 'Open-source and local-first Slack and Notion alternative that puts you in control of your data',
     description:
+      'Quelloffene und Local-First Alternative zu Slack und Notion, die Ihnen die Kontrolle ueber Ihre Daten gibt.',
+    descriptionEn:
       'Open-source and local-first Slack and Notion alternative that puts you in control of your data',
     website: 'https://colanode.com',
     github: 'https://github.com/colanode/colanode',
@@ -4500,8 +4527,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'peppermint',
     name: 'Peppermint',
     slug: 'peppermint',
-    tagline: 'An open source issue management & help desk solution. A zendesk & jira alternative',
+    tagline: 'Eine quelloffene Issue-Management- und Helpdesk-Loesung. Eine Alternative zu Zendesk und Jira.',
+    taglineEn: 'An open source issue management & help desk solution. A zendesk & jira alternative',
     description:
+      'Eine quelloffene Issue-Management- und Helpdesk-Loesung. Eine Alternative zu Zendesk und Jira.',
+    descriptionEn:
       'An open source issue management & help desk solution. A zendesk & jira alternative',
     website: 'https://peppermint.sh',
     github: 'https://github.com/Peppermint-Lab/peppermint',
@@ -4523,8 +4553,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'opengist',
     name: 'Opengist',
     slug: 'opengist',
-    tagline: 'Self-hosted pastebin powered by Git, open-source alternative to Github Gist.',
+    tagline: 'Selbst gehosteter Pastebin-Dienst basierend auf Git, Open-Source-Alternative zu GitHub Gist.',
+    taglineEn: 'Self-hosted pastebin powered by Git, open-source alternative to Github Gist.',
     description:
+      'Selbst gehosteter Pastebin-Dienst basierend auf Git, Open-Source-Alternative zu GitHub Gist.',
+    descriptionEn:
       'Self-hosted pastebin powered by Git, open-source alternative to Github Gist.',
     website: 'https://opengist.io',
     github: 'https://github.com/thomiceli/opengist',
@@ -4546,8 +4579,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'willow',
     name: 'Willow',
     slug: 'willow',
-    tagline: 'Open source, local, and self-hosted Amazon Echo/Google Home competitive Voice Assistant alternative',
+    tagline: 'Quelloffene, lokale und selbst gehostete Sprachassistenten-Alternative zu Amazon Echo und Google Home',
+    taglineEn: 'Open source, local, and self-hosted Amazon Echo/Google Home competitive Voice Assistant alternative',
     description:
+      'Quelloffene, lokale und selbst gehostete Sprachassistenten-Alternative zu Amazon Echo und Google Home.',
+    descriptionEn:
       'Open source, local, and self-hosted Amazon Echo/Google Home competitive Voice Assistant alternative',
     website: 'https://heywillow.io/',
     github: 'https://github.com/HeyWillow/willow',
@@ -4569,8 +4605,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'sorry-cypress',
     name: 'Sorry Cypress',
     slug: 'sorry-cypress',
-    tagline: 'Open-source, free, self-hosted alternative to Cypress Dashboard',
+    tagline: 'Quelloffene, kostenlose und selbst gehostete Alternative zum Cypress Dashboard',
+    taglineEn: 'Open-source, free, self-hosted alternative to Cypress Dashboard',
     description:
+      'Quelloffene, kostenlose und selbst gehostete Alternative zum Cypress Dashboard.',
+    descriptionEn:
       'Open-source, free, self-hosted alternative to Cypress Dashboard',
     website: 'https://sorry-cypress.dev',
     github: 'https://github.com/sorry-cypress/sorry-cypress',
@@ -4592,8 +4631,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openrecall',
     name: 'Openrecall',
     slug: 'openrecall',
-    tagline: 'OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft\'s Windows Recall.',
+    tagline: 'OpenRecall ist eine vollstaendig quelloffene, datenschutzorientierte Alternative zu proprietaeren Loesungen wie Microsofts Windows Recall.',
+    taglineEn: 'OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft\'s Windows Recall.',
     description:
+      'OpenRecall ist eine vollstaendig quelloffene, datenschutzorientierte Alternative zu proprietaeren Loesungen wie Microsofts Windows Recall. Mit OpenRecall koennen Sie einfach auf Ihren digitalen Verlauf zugreifen und so Ihr Gedaechtnis und Ihre Produktivitaet verbessern, ohne Ihre Privatsphaere zu gefaehrden.',
+    descriptionEn:
       'OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft\'s Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memory and productivity without compromising your privacy.',
     website: 'https://github.com/openrecall/openrecall',
     github: 'https://github.com/openrecall/openrecall',
@@ -4615,8 +4657,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'checkcle',
     name: 'Checkcle',
     slug: 'checkcle',
-    tagline: 'CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, ...',
+    tagline: 'CheckCle ist eine selbst gehostete, quelloffene Monitoring-Plattform fuer nahtlose Echtzeit-Ueberwachung von Full-Stack-Systemen, Anwendungen, ...',
+    taglineEn: 'CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, ...',
     description:
+      'CheckCle ist eine selbst gehostete, quelloffene Monitoring-Plattform fuer nahtlose Echtzeit-Ueberwachung von Full-Stack-Systemen, Anwendungen und Infrastruktur. Sie bietet Echtzeit-Verfuegbarkeitsueberwachung, verteilte Pruefungen, Incident-Tracking und Benachrichtigungen. Ueberall einsetzbar.',
+    descriptionEn:
       'CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, and infrastructure. It provides real-time uptime monitoring, distributed checks, incident tracking, and alerts. All deployable anywhere.',
     website: 'https://checkcle.io',
     github: 'https://github.com/operacle/checkcle',
@@ -4638,8 +4683,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'notediscovery',
     name: 'Notediscovery',
     slug: 'notediscovery',
-    tagline: 'Your Self-Hosted Knowledge Base',
+    tagline: 'Ihre selbst gehostete Wissensdatenbank',
+    taglineEn: 'Your Self-Hosted Knowledge Base',
     description:
+      'Ihre selbst gehostete Wissensdatenbank.',
+    descriptionEn:
       'Your Self-Hosted Knowledge Base',
     website: 'https://www.notediscovery.com',
     github: 'https://github.com/gamosoft/NoteDiscovery',
@@ -4661,8 +4709,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'open-higgsfield-ai',
     name: 'Open Higgsfield Ai',
     slug: 'open-higgsfield-ai',
-    tagline: 'Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midj...',
+    tagline: 'Open-Source-Alternative zu Higgsfield AI — Kostenlose KI-Bildgenerierung und Filmstudio mit ueber 20 Modellen (Flux, SDXL, Midj...',
+    taglineEn: 'Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midj...',
     description:
+      'Open-Source-Alternative zu Higgsfield AI — Kostenlose KI-Bildgenerierung und Filmstudio mit ueber 20 Modellen (Flux, SDXL, Midjourney, Ideogram). Selbst gehostet, anpassbar, MIT-lizenziert.',
+    descriptionEn:
       'Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.',
     website: 'https://github.com/Anil-matcha/Open-Higgsfield-AI',
     github: 'https://github.com/Anil-matcha/Open-Higgsfield-AI',
@@ -4684,8 +4735,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'litlyx',
     name: 'Litlyx',
     slug: 'litlyx',
-    tagline: 'Powerful Analytics Solution. Setup in 30 seconds. Display all your data on a Simple, AI-powered dashboard. Fully self...',
+    tagline: 'Leistungsstarke Analytics-Loesung. Einrichtung in 30 Sekunden. Alle Daten auf einem einfachen, KI-gestuetzten Dashboard anzeigen. Vollstaendig selbst...',
+    taglineEn: 'Powerful Analytics Solution. Setup in 30 seconds. Display all your data on a Simple, AI-powered dashboard. Fully self...',
     description:
+      'Leistungsstarke Analytics-Loesung. Einrichtung in 30 Sekunden. Alle Daten auf einem einfachen, KI-gestuetzten Dashboard anzeigen. Vollstaendig selbst hostbar und DSGVO-konform. Alternative zu Google Analytics, MixPanel, Plausible, Umami und Matomo.',
+    descriptionEn:
       'Powerful Analytics Solution. Setup in 30 seconds. Display all your data on a Simple, AI-powered dashboard. Fully self-hostable and GDPR compliant. Alternative to Google Analytics, MixPanel, Plausible, Umami & Matomo.',
     website: 'https://litlyx.com',
     github: 'https://github.com/Litlyx/litlyx',
@@ -4707,8 +4761,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'paddler',
     name: 'Paddler',
     slug: 'paddler',
-    tagline: 'Open-source LLM load balancer and serving platform for self-hosting LLMs at scale 🏓🦙 Alternative to projects like llm...',
+    tagline: 'Quelloffener LLM-Load-Balancer und Serving-Plattform fuer Self-Hosting von LLMs im grossen Massstab. Alternative zu Projekten wie llm...',
+    taglineEn: 'Open-source LLM load balancer and serving platform for self-hosting LLMs at scale 🏓🦙 Alternative to projects like llm...',
     description:
+      'Quelloffener LLM-Load-Balancer und Serving-Plattform fuer Self-Hosting von LLMs im grossen Massstab. Alternative zu Projekten wie llm-d, Docker Model Runner usw., aber mit weniger beweglichen Teilen und einfachem Deployment basierend auf dem ggml-Oekosystem. Laeuft auf CPU und GPU.',
+    descriptionEn:
       'Open-source LLM load balancer and serving platform for self-hosting LLMs at scale 🏓🦙 Alternative to projects like llm-d, Docker Model Runner, etc but with less moving parts and simple deployments built around ggml ecosystem. Runs on CPU and GPU.',
     website: 'https://paddler.intentee.com',
     github: 'https://github.com/intentee/paddler',
@@ -4730,8 +4787,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'authgear-server',
     name: 'Authgear Server',
     slug: 'authgear-server',
-    tagline: 'Open source Auth0/Clerk/Firebase alternative.',
+    tagline: 'Open-Source-Alternative zu Auth0, Clerk und Firebase.',
+    taglineEn: 'Open source Auth0/Clerk/Firebase alternative.',
     description:
+      'Open-Source-Alternative zu Auth0, Clerk und Firebase. Passkeys, SSO, MFA, passwortlose und biometrische Anmeldung. Selbst gehostet oder in der Cloud. Enterprise-tauglich fuer SaaS- und Mobile-Apps.',
+    descriptionEn:
       'Open source Auth0/Clerk/Firebase alternative. Passkeys, SSO, MFA, passwordless, biometric login. Self-hosted or cloud. Enterprise-ready for SaaS & mobile apps',
     website: 'https://www.authgear.com',
     github: 'https://github.com/authgear/authgear-server',
@@ -4753,8 +4813,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'nixopus',
     name: 'Nixopus',
     slug: 'nixopus',
-    tagline: 'Open Source Alternative to vercel, heroku, netlify with simplified workflows',
+    tagline: 'Open-Source-Alternative zu Vercel, Heroku und Netlify mit vereinfachten Workflows',
+    taglineEn: 'Open Source Alternative to vercel, heroku, netlify with simplified workflows',
     description:
+      'Open-Source-Alternative zu Vercel, Heroku und Netlify mit vereinfachten Workflows.',
+    descriptionEn:
       'Open Source Alternative to vercel, heroku, netlify with simplified workflows',
     website: 'https://nixopus.com',
     github: 'https://github.com/raghavyuva/nixopus',
@@ -4776,8 +4839,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'courselit',
     name: 'Courselit',
     slug: 'courselit',
-    tagline: 'Create/Sell courses and digital downloads and publish blogs on your own branded website.',
+    tagline: 'Kurse und digitale Downloads erstellen und verkaufen sowie Blogs auf Ihrer eigenen Marken-Website veroeffentlichen.',
+    taglineEn: 'Create/Sell courses and digital downloads and publish blogs on your own branded website.',
     description:
+      'Kurse und digitale Downloads erstellen und verkaufen sowie Blogs auf Ihrer eigenen Marken-Website veroeffentlichen. Eine Open-Source-Alternative zu Teachable, Thinkific, Podia und aehnlichen Plattformen.',
+    descriptionEn:
       'Create/Sell courses and digital downloads and publish blogs on your own branded website. An open source alternative to Teachable, Thinkific, Podia and the likes.',
     website: 'https://courselit.app',
     github: 'https://github.com/codelitdev/courselit',
@@ -4799,8 +4865,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'littlelink-server',
     name: 'Littlelink Server',
     slug: 'littlelink-server',
-    tagline: 'A lightweight, open source, stateless, and self-hosted alternative to linktree in a Docker container!',
+    tagline: 'Eine leichtgewichtige, quelloffene, zustandslose und selbst gehostete Alternative zu Linktree im Docker-Container!',
+    taglineEn: 'A lightweight, open source, stateless, and self-hosted alternative to linktree in a Docker container!',
     description:
+      'Eine leichtgewichtige, quelloffene, zustandslose und selbst gehostete Alternative zu Linktree im Docker-Container!',
+    descriptionEn:
       'A lightweight, open source, stateless, and self-hosted alternative to linktree in a Docker container!',
     website: 'https://links.technotim.com',
     github: 'https://github.com/timothystewart6/littlelink-server',
@@ -4822,8 +4891,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'peekaping',
     name: 'Peekaping',
     slug: 'peekaping',
-    tagline: 'Open Source Uptime Kuma Alternative',
+    tagline: 'Open-Source-Alternative zu Uptime Kuma',
+    taglineEn: 'Open Source Uptime Kuma Alternative',
     description:
+      'Open-Source-Alternative zu Uptime Kuma.',
+    descriptionEn:
       'Open Source Uptime Kuma Alternative',
     website: 'https://peekaping.com',
     github: 'https://github.com/0xfurai/peekaping',
@@ -4845,8 +4917,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'aegra',
     name: 'Aegra',
     slug: 'aegra',
-    tagline: 'Open source LangGraph Platform alternative - Self-hosted AI agent backend with FastAPI and PostgreSQL.',
+    tagline: 'Open-Source-Alternative zur LangGraph-Plattform - Selbst gehostetes KI-Agenten-Backend mit FastAPI und PostgreSQL.',
+    taglineEn: 'Open source LangGraph Platform alternative - Self-hosted AI agent backend with FastAPI and PostgreSQL.',
     description:
+      'Open-Source-Alternative zur LangGraph-Plattform - Selbst gehostetes KI-Agenten-Backend mit FastAPI und PostgreSQL. Kein Anbieter-Lock-in, volle Kontrolle ueber Ihre Agenten-Infrastruktur.',
+    descriptionEn:
       'Open source LangGraph Platform alternative - Self-hosted AI agent backend with FastAPI and PostgreSQL. Zero vendor lock-in, full control over your agent infrastructure.',
     website: 'https://aegra.dev',
     github: 'https://github.com/ibbybuilds/aegra',
@@ -4868,8 +4943,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'prompts-chat',
     name: 'Prompts.chat',
     slug: 'prompts-chat',
-    tagline: 'f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-...',
+    tagline: 'Ehemals Awesome ChatGPT Prompts. Prompts aus der Community teilen, entdecken und sammeln. Kostenlos und quelloffen — selbst...',
+    taglineEn: 'f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-...',
     description:
+      'Ehemals Awesome ChatGPT Prompts. Prompts aus der Community teilen, entdecken und sammeln. Kostenlos und quelloffen — Self-Hosting fuer Ihre Organisation mit vollstaendigem Datenschutz.',
+    descriptionEn:
       'f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.',
     website: 'https://prompts.chat',
     github: 'https://github.com/f/prompts.chat',
@@ -4891,8 +4969,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'langfuse',
     name: 'Langfuse',
     slug: 'langfuse',
-    tagline: '🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets.',
+    tagline: 'Quelloffene LLM-Engineering-Plattform: LLM-Observability, Metriken, Evaluierungen, Prompt-Verwaltung, Playground, Datensaetze.',
+    taglineEn: '🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets.',
     description:
+      'Quelloffene LLM-Engineering-Plattform: LLM-Observability, Metriken, Evaluierungen, Prompt-Verwaltung, Playground, Datensaetze. Integriert sich mit OpenTelemetry, Langchain, OpenAI SDK, LiteLLM und weiteren. YC W23.',
+    descriptionEn:
       '🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23',
     website: 'https://langfuse.com/docs',
     github: 'https://github.com/langfuse/langfuse',
@@ -4914,8 +4995,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'goreplay',
     name: 'Goreplay',
     slug: 'goreplay',
-    tagline: 'GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to con...',
+    tagline: 'GoReplay ist ein quelloffenes Tool zum Aufzeichnen und Wiedergeben von Live-HTTP-Traffic in einer Testumgebung, um kon...',
+    taglineEn: 'GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to con...',
     description:
+      'GoReplay ist ein quelloffenes Tool zum Aufzeichnen und Wiedergeben von Live-HTTP-Traffic in einer Testumgebung, um Ihr System kontinuierlich mit echten Daten zu testen. Es kann verwendet werden, um das Vertrauen in Code-Deployments, Konfigurationsaenderungen und Infrastruktur-Aenderungen zu erhoehen.',
+    descriptionEn:
       'GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.',
     website: 'https://goreplay.org',
     github: 'https://github.com/probelabs/goreplay',
@@ -4937,8 +5021,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'self-hosting-guide',
     name: 'Self Hosting Guide',
     slug: 'self-hosting-guide',
-    tagline: 'Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applic...',
+    tagline: 'Self-Hosting-Leitfaden. Erfahren Sie alles ueber lokales Hosting (On-Premises und private Webserver) und die Verwaltung von Softwarean...',
+    taglineEn: 'Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applic...',
     description:
+      'Self-Hosting-Leitfaden. Erfahren Sie alles ueber lokales Hosting (On-Premises und private Webserver) und die Verwaltung von Softwareanwendungen durch Sie selbst oder Ihre Organisation. Einschliesslich Cloud, LLMs, WireGuard, Automatisierung, Home Assistant und Netzwerk.',
+    descriptionEn:
       'Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.',
     website: 'https://github.com/mikeroyal/Self-Hosting-Guide',
     github: 'https://github.com/mikeroyal/Self-Hosting-Guide',
@@ -4960,8 +5047,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openobserve',
     name: 'Openobserve',
     slug: 'openobserve',
-    tagline: 'OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring.',
+    tagline: 'OpenObserve ist eine Open-Source-Observability-Plattform fuer Logs, Metriken, Traces und Frontend-Monitoring.',
+    taglineEn: 'OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring.',
     description:
+      'OpenObserve ist eine Open-Source-Observability-Plattform fuer Logs, Metriken, Traces und Frontend-Monitoring. Eine kosteneffiziente Alternative zu Datadog, Splunk und Elasticsearch mit 140-fach geringeren Speicherkosten und Deployment als einzelne Binaerdatei.',
+    descriptionEn:
       'OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.',
     website: 'https://openobserve.ai',
     github: 'https://github.com/openobserve/openobserve',
@@ -4983,8 +5073,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'encore',
     name: 'Encore',
     slug: 'encore',
-    tagline: 'Open source framework for building robust type-safe distributed systems with declarative infrastructure',
+    tagline: 'Open-Source-Framework zum Erstellen robuster, typsicherer verteilter Systeme mit deklarativer Infrastruktur',
+    taglineEn: 'Open source framework for building robust type-safe distributed systems with declarative infrastructure',
     description:
+      'Open-Source-Framework zum Erstellen robuster, typsicherer verteilter Systeme mit deklarativer Infrastruktur',
+    descriptionEn:
       'Open source framework for building robust type-safe distributed systems with declarative infrastructure',
     website: 'https://encore.dev',
     github: 'https://github.com/encoredev/encore',
@@ -5006,8 +5099,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'meetily',
     name: 'Meetily',
     slug: 'meetily',
-    tagline: 'Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Olla...',
+    tagline: 'Datenschutz-zuerst KI-Meeting-Assistent mit 4x schnellerer Parakeet/Whisper-Live-Transkription, Sprechererkennung und Olla...',
+    taglineEn: 'Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Olla...',
     description:
+      'Datenschutz-zuerst KI-Meeting-Assistent mit 4x schnellerer Parakeet/Whisper-Live-Transkription, Sprechererkennung und Ollama-Zusammenfassung, entwickelt in Rust. 100% lokale Verarbeitung, keine Cloud erforderlich. Meetily (Meetly Ai - https://meetily.ai) ist der fuehrende selbst gehostete, quelloffene KI-Meeting-Protokollant fuer macOS und Windows.',
+    descriptionEn:
       'Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted,  Open-source Ai meeting note taker for macOS & Windows.',
     website: 'https://meetily.ai',
     github: 'https://github.com/Zackriya-Solutions/meetily',
@@ -5029,8 +5125,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'blinko',
     name: 'Blinko',
     slug: 'blinko',
-    tagline: 'An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .',
+    tagline: 'Ein quelloffenes, selbst gehostetes persoenliches KI-Notiz-Tool mit Fokus auf Datenschutz, entwickelt mit TypeScript.',
+    taglineEn: 'An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .',
     description:
+      'Ein quelloffenes, selbst gehostetes persoenliches KI-Notiz-Tool mit Fokus auf Datenschutz, entwickelt mit TypeScript.',
+    descriptionEn:
       'An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .',
     website: 'https://blinko.space',
     github: 'https://github.com/blinkospace/blinko',
@@ -5052,8 +5151,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'hyperdx',
     name: 'Hyperdx',
     slug: 'hyperdx',
-    tagline: 'Resolve production issues, fast.',
+    tagline: 'Produktionsprobleme schnell loesen.',
+    taglineEn: 'Resolve production issues, fast.',
     description:
+      'Produktionsprobleme schnell loesen. Eine Open-Source-Observability-Plattform, die Session-Replays, Logs, Metriken, Traces und Fehler vereint, basierend auf ClickHouse und OpenTelemetry.',
+    descriptionEn:
       'Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.',
     website: 'https://hyperdx.io/',
     github: 'https://github.com/hyperdxio/hyperdx',
@@ -5075,8 +5177,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'highlight',
     name: 'Highlight',
     slug: 'highlight',
-    tagline: 'highlight.io: The open source, full-stack monitoring platform.',
+    tagline: 'highlight.io: Die quelloffene Full-Stack-Monitoring-Plattform.',
+    taglineEn: 'highlight.io: The open source, full-stack monitoring platform.',
     description:
+      'highlight.io: Die quelloffene Full-Stack-Monitoring-Plattform. Fehlerueberwachung, Session-Replay, Logging, verteiltes Tracing und mehr.',
+    descriptionEn:
       'highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging, distributed tracing, and more.',
     website: 'https://app.highlight.io',
     github: 'https://github.com/highlight/highlight',
@@ -5098,8 +5203,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'checkov',
     name: 'Checkov',
     slug: 'checkov',
-    tagline: 'Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container image...',
+    tagline: 'Cloud-Fehlkonfigurationen verhindern und Schwachstellen zur Build-Zeit in Infrastructure-as-Code, Container-Images...',
+    taglineEn: 'Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container image...',
     description:
+      'Cloud-Fehlkonfigurationen verhindern und Schwachstellen zur Build-Zeit in Infrastructure-as-Code, Container-Images und Open-Source-Paketen finden mit Checkov von Bridgecrew.',
+    descriptionEn:
       'Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.',
     website: 'https://www.checkov.io/',
     github: 'https://github.com/bridgecrewio/checkov',
@@ -5121,8 +5229,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openstatus',
     name: 'Openstatus',
     slug: 'openstatus',
-    tagline: '🫖 Status page with uptime monitoring & API monitoring as code   🫖',
+    tagline: 'Statusseite mit Uptime-Monitoring und API-Monitoring als Code',
+    taglineEn: '🫖 Status page with uptime monitoring & API monitoring as code   🫖',
     description:
+      'Statusseite mit Uptime-Monitoring und API-Monitoring als Code',
+    descriptionEn:
       '🫖 Status page with uptime monitoring & API monitoring as code   🫖',
     website: 'https://openstatus.dev',
     github: 'https://github.com/openstatusHQ/openstatus',
@@ -5144,8 +5255,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'lesspass',
     name: 'Lesspass',
     slug: 'lesspass',
-    tagline: ':key: stateless open source password manager',
+    tagline: 'Zustandsloser Open-Source-Passwort-Manager',
+    taglineEn: ':key: stateless open source password manager',
     description:
+      'Zustandsloser Open-Source-Passwort-Manager',
+    descriptionEn:
       ':key: stateless open source password manager',
     website: 'https://www.lesspass.com',
     github: 'https://github.com/lesspass/lesspass',
@@ -5167,8 +5281,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'oxicloud',
     name: 'Oxicloud',
     slug: 'oxicloud',
-    tagline: '☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one ...',
+    tagline: 'Ultraschneller, sicherer und leichtgewichtiger selbst gehosteter Cloud-Speicher — Dateien, Fotos, Kalender und Kontakte an einem Ort...',
+    taglineEn: '☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one ...',
     description:
+      'Ultraschneller, sicherer und leichtgewichtiger selbst gehosteter Cloud-Speicher — Ihre Dateien, Fotos, Kalender und Kontakte an einem Ort. Entwickelt in Rust.',
+    descriptionEn:
       '☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one place. Built in Rust.',
     website: 'https://github.com/DioCrafts/OxiCloud',
     github: 'https://github.com/DioCrafts/OxiCloud',
@@ -5190,8 +5307,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'projectsend',
     name: 'Projectsend',
     slug: 'projectsend',
-    tagline: 'ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and p...',
+    tagline: 'ProjectSend ist eine kostenlose, quelloffene Software zum Teilen von Dateien mit Ihren Kunden, mit Fokus auf Benutzerfreundlichkeit und D...',
+    taglineEn: 'ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and p...',
     description:
+      'ProjectSend ist eine kostenlose, quelloffene Software zum Teilen von Dateien mit Ihren Kunden, mit Fokus auf Benutzerfreundlichkeit und Datenschutz. Sie unterstuetzt Kundengruppen, Systembenutzerrollen, Statistiken, mehrere Sprachen, detaillierte Protokolle... und vieles mehr!',
+    descriptionEn:
       'ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and privacy. It supports clients groups, system users roles, statistics, multiple languages, detailed logs... and much more!',
     website: 'https://www.projectsend.org/',
     github: 'https://github.com/projectsend/projectsend',
@@ -5213,8 +5333,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'beecount',
     name: 'Beecount',
     slug: 'beecount',
-    tagline: '🐝 开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud & self-hosted sync (S...',
+    tagline: 'Quelloffener Finanz-Tracker mit iCloud- und Self-Hosted-Synchronisierung (Supabase/WebDAV/S3), KI-gestuetzter Buchhaltung...',
+    taglineEn: '🐝 开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud & self-hosted sync (S...',
     description:
+      'Quelloffener Finanz-Tracker mit iCloud- und Self-Hosted-Synchronisierung (Supabase/WebDAV/S3), KI-gestuetzter Buchhaltung, plattformuebergreifend und mit Datenschutz-Fokus',
+    descriptionEn:
       '🐝 开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud & self-hosted sync (Supabase/WebDAV/S3), AI-powered bookkeeping, cross-platform, privacy-first',
     website: 'https://github.com/TNT-Likely/BeeCount',
     github: 'https://github.com/TNT-Likely/BeeCount',
@@ -5236,8 +5359,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'bricksllm',
     name: 'Bricksllm',
     slug: 'bricksllm',
-    tagline: '🔒 Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key.',
+    tagline: 'Enterprise-taugliches API-Gateway zur Ueberwachung und Durchsetzung von Kosten- oder Ratenlimits pro API-Schluessel.',
+    taglineEn: '🔒 Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key.',
     description:
+      'Enterprise-taugliches API-Gateway zur Ueberwachung und Durchsetzung von Kosten- oder Ratenlimits pro API-Schluessel. Erhalten Sie feingranulare Zugriffskontrolle und Monitoring pro Benutzer, Anwendung oder Umgebung. Unterstuetzt OpenAI, Azure OpenAI, Anthropic, vLLM und Open-Source-LLMs.',
+    descriptionEn:
       '🔒 Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key. Get fine-grained access control and monitoring per user, application, or environment. Supports OpenAI, Azure OpenAI, Anthropic, vLLM, and open-source LLMs.',
     website: 'https://trybricks.ai/',
     github: 'https://github.com/bricks-cloud/BricksLLM',
@@ -5259,8 +5385,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'agent',
     name: 'Agent',
     slug: 'agent',
-    tagline: 'Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀',
+    tagline: 'Code automatisch deployen. Ein quelloffener Agent, der rund um die Uhr auf Ihren Maschinen laeuft und Ihre Apps am Laufen haelt.',
+    taglineEn: 'Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀',
     description:
+      'Code automatisch deployen. Ein quelloffener Agent, der rund um die Uhr auf Ihren Maschinen laeuft und Ihre Apps am Laufen haelt.',
+    descriptionEn:
       'Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀',
     website: 'https://stakpak.dev',
     github: 'https://github.com/stakpak/agent',
@@ -5282,8 +5411,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'sharkord',
     name: 'Sharkord',
     slug: 'sharkord',
-    tagline: 'Lightweight, self-hosted, open-source chat server with voice, video, text, and screen sharing.',
+    tagline: 'Leichtgewichtiger, selbst gehosteter, quelloffener Chat-Server mit Sprach-, Video-, Text- und Bildschirmfreigabe.',
+    taglineEn: 'Lightweight, self-hosted, open-source chat server with voice, video, text, and screen sharing.',
     description:
+      'Leichtgewichtiger, selbst gehosteter, quelloffener Chat-Server mit Sprach-, Video-, Text- und Bildschirmfreigabe. Entwickelt fuer kleine Gruppen, die Datenschutz, Einfachheit und volle Kontrolle ueber ihre Daten wuenschen.',
+    descriptionEn:
       'Lightweight, self-hosted, open-source chat server with voice, video, text, and screen sharing. Built for small groups who want privacy, simplicity, and full control over their data.',
     website: 'https://sharkord.com',
     github: 'https://github.com/Sharkord/sharkord',
@@ -5305,8 +5437,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'swetrix',
     name: 'Swetrix',
     slug: 'swetrix',
-    tagline: '📈 Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error tracking ser...',
+    tagline: 'Swetrix ist ein cookie-freier, quelloffener, datenschutzorientierter Webanalyse-, Website-Geschwindigkeitsmonitoring- und Fehlerverfolgungs...',
+    taglineEn: '📈 Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error tracking ser...',
     description:
+      'Swetrix ist ein cookie-freier, quelloffener, datenschutzorientierter Webanalyse-, Website-Geschwindigkeitsmonitoring- und Fehlerverfolgungsdienst, den Sie selbst hosten oder in der Cloud nutzen koennen. Starten Sie kostenlos!',
+    descriptionEn:
       '📈 Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error tracking service that you can host yourself or use in the cloud. Get started for free!',
     website: 'https://swetrix.com',
     github: 'https://github.com/Swetrix/swetrix',
@@ -5328,8 +5463,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'eclaire',
     name: 'Eclaire',
     slug: 'eclaire',
-    tagline: 'Local-first, open-source AI assistant for your data.',
+    tagline: 'Local-First, quelloffener KI-Assistent fuer Ihre Daten.',
+    taglineEn: 'Local-first, open-source AI assistant for your data.',
     description:
+      'Local-First, quelloffener KI-Assistent fuer Ihre Daten. Vereinen Sie Aufgaben, Notizen, Dokumente, Fotos und Lesezeichen. Privat, selbst gehostet und erweiterbar ueber APIs.',
+    descriptionEn:
       'Local-first, open-source AI assistant for your data. Unify tasks, notes, docs, photos, and bookmarks. Private, self-hosted, and extensible via APIs.',
     website: 'https://eclaire.co',
     github: 'https://github.com/eclaire-labs/eclaire',
@@ -5351,8 +5489,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'geopulse',
     name: 'Geopulse',
     slug: 'geopulse',
-    tagline: 'A self-hosted, privacy-first location tracking platform.',
+    tagline: 'Eine selbst gehostete, datenschutzorientierte Standortverfolgungsplattform.',
+    taglineEn: 'A self-hosted, privacy-first location tracking platform.',
     description:
+      'Eine selbst gehostete, datenschutzorientierte Standortverfolgungsplattform. Die perfekte Open-Source-Alternative zu Google Timeline mit automatischer Fahrterkennung, Immich-Integration und detaillierten Analysen.',
+    descriptionEn:
       'A self-hosted, privacy-first location tracking platform. The perfect open-source alternative to Google Timeline with automatic trip detection, Immich integration, and detailed analytics.',
     website: 'https://tess1o.github.io/geopulse/',
     github: 'https://github.com/tess1o/geopulse',
@@ -5374,8 +5515,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'thiss-link',
     name: 'Thiss.link',
     slug: 'thiss-link',
-    tagline: '🔥 MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support',
+    tagline: 'MagLit - Datenschutzfreundlicher verschluesselter Link-Verkuerzer mit Passwortschutz und Torrent-Magnet-Links-Unterstuetzung',
+    taglineEn: '🔥 MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support',
     description:
+      'MagLit - Datenschutzfreundlicher verschluesselter Link-Verkuerzer mit Passwortschutz und Torrent-Magnet-Links-Unterstuetzung',
+    descriptionEn:
       '🔥 MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support',
     website: 'https://maglit.me',
     github: 'https://github.com/NayamAmarshe/thiss.link',
@@ -5397,8 +5541,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'relay',
     name: 'Relay',
     slug: 'relay',
-    tagline: '✉️ Open-Source Email API for Developers. Self-hosted Alternative to SES, Mailgun, SendGrid.',
+    tagline: 'Open-Source-E-Mail-API fuer Entwickler. Selbst gehostete Alternative zu SES, Mailgun, SendGrid.',
+    taglineEn: '✉️ Open-Source Email API for Developers. Self-hosted Alternative to SES, Mailgun, SendGrid.',
     description:
+      'Open-Source-E-Mail-API fuer Entwickler. Selbst gehostete Alternative zu SES, Mailgun, SendGrid.',
+    descriptionEn:
       '✉️ Open-Source Email API for Developers. Self-hosted Alternative to SES, Mailgun, SendGrid.',
     website: 'https://relay.hyvor.com',
     github: 'https://github.com/hyvor/relay',
@@ -5420,8 +5567,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'super',
     name: 'Super',
     slug: 'super',
-    tagline: '📡 SPR: Open Source, secure, user friendly and fast wifi routers for your home.',
+    tagline: 'SPR: Quelloffene, sichere, benutzerfreundliche und schnelle WLAN-Router fuer Ihr Zuhause.',
+    taglineEn: '📡 SPR: Open Source, secure, user friendly and fast wifi routers for your home.',
     description:
+      'SPR: Quelloffene, sichere, benutzerfreundliche und schnelle WLAN-Router fuer Ihr Zuhause. Ein WLAN-Passwort pro Geraet. Werbeblocker und Datenschutz-Sperrlisten. Richtlinienbasierter Netzwerkzugang',
+    descriptionEn:
       '📡 SPR: Open Source, secure, user friendly and fast wifi routers for your home. One wifi password per device. Ad Blocking & Privacy Blocklists. Policy Based Network Access',
     website: 'https://www.supernetworks.org/',
     github: 'https://github.com/spr-networks/super',
@@ -5443,8 +5593,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'payload',
     name: 'Payload',
     slug: 'payload',
-    tagline: 'Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers.',
+    tagline: 'Payload ist das quelloffene Fullstack-Next.js-Framework, das Ihnen sofortige Backend-Superkraefte verleiht.',
+    taglineEn: 'Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers.',
     description:
+      'Payload ist das quelloffene Fullstack-Next.js-Framework, das Ihnen sofortige Backend-Superkraefte verleiht. Erhalten Sie sofort ein vollstaendiges TypeScript-Backend und Admin-Panel. Nutzen Sie Payload als Headless CMS oder zum Erstellen leistungsstarker Anwendungen.',
+    descriptionEn:
       'Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.',
     website: 'https://payloadcms.com',
     github: 'https://github.com/payloadcms/payload',
@@ -5466,8 +5619,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'onyx',
     name: 'Onyx',
     slug: 'onyx',
-    tagline: 'Open Source AI Platform - AI Chat with advanced features that works with every LLM',
+    tagline: 'Open-Source-KI-Plattform - KI-Chat mit erweiterten Funktionen, der mit jedem LLM funktioniert',
+    taglineEn: 'Open Source AI Platform - AI Chat with advanced features that works with every LLM',
     description:
+      'Open-Source-KI-Plattform - KI-Chat mit erweiterten Funktionen, der mit jedem LLM funktioniert',
+    descriptionEn:
       'Open Source AI Platform - AI Chat with advanced features that works with every LLM',
     website: 'https://onyx.app',
     github: 'https://github.com/onyx-dot-app/onyx',
@@ -5489,8 +5645,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'tinacms',
     name: 'Tinacms',
     slug: 'tinacms',
-    tagline: 'A fully open-source headless CMS that supports Markdown and Visual Editing',
+    tagline: 'Ein vollstaendig quelloffenes Headless CMS mit Unterstuetzung fuer Markdown und visuelles Bearbeiten',
+    taglineEn: 'A fully open-source headless CMS that supports Markdown and Visual Editing',
     description:
+      'Ein vollstaendig quelloffenes Headless CMS mit Unterstuetzung fuer Markdown und visuelles Bearbeiten',
+    descriptionEn:
       'A fully open-source headless CMS that supports Markdown and Visual Editing',
     website: 'https://tina.io',
     github: 'https://github.com/tinacms/tinacms',
@@ -5512,8 +5671,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'casdoor',
     name: 'Casdoor',
     slug: 'casdoor',
-    tagline: 'An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting M...',
+    tagline: 'Ein quelloffener KI-orientierter Identity- und Access-Management (IAM) / KI-MCP-Gateway und Auth-Server mit Web-UI fuer M...',
+    taglineEn: 'An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting M...',
     description:
+      'Ein quelloffener KI-orientierter Identity- und Access-Management (IAM) / KI-MCP-Gateway und Auth-Server mit Web-UI, der MCP, A2A, OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace und Azure AD unterstuetzt',
+    descriptionEn:
       'An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting MCP, A2A, OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD',
     website: 'https://casdoor.org',
     github: 'https://github.com/casdoor/casdoor',
@@ -5535,8 +5697,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'cas',
     name: 'Cas',
     slug: 'cas',
-    tagline: 'Apereo CAS - Identity & Single Sign On for all earthlings and beyond.',
+    tagline: 'Apereo CAS - Identitaet und Single Sign-On fuer alle Erdenbuerger und darueber hinaus.',
+    taglineEn: 'Apereo CAS - Identity & Single Sign On for all earthlings and beyond.',
     description:
+      'Apereo CAS - Identitaet und Single Sign-On fuer alle Erdenbuerger und darueber hinaus.',
+    descriptionEn:
       'Apereo CAS - Identity & Single Sign On for all earthlings and beyond.',
     website: 'https://apereo.github.io/cas/',
     github: 'https://github.com/apereo/cas',
@@ -5558,8 +5723,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'dicedb',
     name: 'Dicedb',
     slug: 'dicedb',
-    tagline: 'Open-source, low-latency key/value engine built on Valkey with hierarchical storage tiers.',
+    tagline: 'Quelloffene Key/Value-Engine mit niedriger Latenz, aufgebaut auf Valkey mit hierarchischen Speicherebenen.',
+    taglineEn: 'Open-source, low-latency key/value engine built on Valkey with hierarchical storage tiers.',
     description:
+      'Quelloffene Key/Value-Engine mit niedriger Latenz, aufgebaut auf Valkey mit hierarchischen Speicherebenen.',
+    descriptionEn:
       'Open-source, low-latency key/value engine built on Valkey with hierarchical storage tiers.',
     website: 'https://dicedb.io/',
     github: 'https://github.com/dicedb/dicedb',
@@ -5581,8 +5749,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'webstudio',
     name: 'Webstudio',
     slug: 'webstudio',
-    tagline: 'Open source website builder and Webflow alternative.',
+    tagline: 'Open-Source-Website-Builder und Webflow-Alternative.',
+    taglineEn: 'Open source website builder and Webflow alternative.',
     description:
+      'Open-Source-Website-Builder und Webflow-Alternative. Webstudio ist ein fortschrittlicher visueller Builder, der sich mit jedem Headless-CMS verbinden laesst, alle CSS-Eigenschaften unterstuetzt und ueberall gehostet werden kann, auch bei uns.',
+    descriptionEn:
       'Open source website builder and Webflow alternative. Webstudio is an advanced visual builder that connects to any headless CMS, supports all CSS properties, and can be hosted anywhere, including with us.',
     website: 'https://webstudio.is',
     github: 'https://github.com/webstudio-is/webstudio',
@@ -5604,8 +5775,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'webiny-js',
     name: 'Webiny Js',
     slug: 'webiny-js',
-    tagline: 'Open-source serverless enterprise CMS.',
+    tagline: 'Open-Source serverloses Enterprise-CMS.',
+    taglineEn: 'Open-source serverless enterprise CMS.',
     description:
+      'Open-Source serverloses Enterprise-CMS. Umfasst ein Headless-CMS, Page-Builder, Formular-Builder und Dateimanager. Einfach anzupassen und zu erweitern. Wird auf AWS bereitgestellt.',
+    descriptionEn:
       'Open-source serverless enterprise CMS. Includes a headless CMS, page builder, form builder, and file manager. Easy to customize and expand. Deploys to AWS.',
     website: 'https://www.webiny.com',
     github: 'https://github.com/webiny/webiny-js',
@@ -5627,8 +5801,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'coroot',
     name: 'Coroot',
     slug: 'coroot',
-    tagline: 'Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis.',
+    tagline: 'Coroot ist ein Open-Source-Observability- und APM-Tool mit KI-gestuetzter Ursachenanalyse.',
+    taglineEn: 'Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis.',
     description:
+      'Coroot ist ein Open-Source-Observability- und APM-Tool mit KI-gestuetzter Ursachenanalyse. Es kombiniert Metriken, Logs, Traces, kontinuierliches Profiling und SLO-basiertes Alerting mit vorgefertigten Dashboards und Inspektionen.',
+    descriptionEn:
       'Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis. It combines metrics, logs, traces, continuous profiling, and SLO-based alerting with predefined dashboards and inspections.',
     website: 'https://coroot.com',
     github: 'https://github.com/coroot/coroot',
@@ -5650,8 +5827,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'evidently',
     name: 'Evidently',
     slug: 'evidently',
-    tagline: 'Evidently is ​​an open-source ML and LLM observability framework.',
+    tagline: 'Evidently ist ein Open-Source-Observability-Framework fuer ML und LLM.',
+    taglineEn: 'Evidently is ​​an open-source ML and LLM observability framework.',
     description:
+      'Evidently ist ein Open-Source-Observability-Framework fuer ML und LLM. Evaluierung, Tests und Ueberwachung jedes KI-gestuetzten Systems oder jeder Datenpipeline. Von tabellarischen Daten bis Gen AI. Ueber 100 Metriken.',
+    descriptionEn:
       'Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.',
     website: 'https://discord.gg/xZjKRaNp8b',
     github: 'https://github.com/evidentlyai/evidently',
@@ -5673,8 +5853,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'hertzbeat',
     name: 'Hertzbeat',
     slug: 'hertzbeat',
-    tagline: 'An AI-powered next-generation open source real-time observability system.',
+    tagline: 'Ein KI-gestuetztes Open-Source-Echtzeit-Observability-System der naechsten Generation.',
+    taglineEn: 'An AI-powered next-generation open source real-time observability system.',
     description:
+      'Ein KI-gestuetztes Open-Source-Echtzeit-Observability-System der naechsten Generation.',
+    descriptionEn:
       'An AI-powered next-generation open source real-time observability system.',
     website: 'https://hertzbeat.apache.org/',
     github: 'https://github.com/apache/hertzbeat',
@@ -5696,8 +5879,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openllmetry',
     name: 'Openllmetry',
     slug: 'openllmetry',
-    tagline: 'Open-source observability for your GenAI or LLM application, based on OpenTelemetry',
+    tagline: 'Open-Source-Observability fuer Ihre GenAI- oder LLM-Anwendung, basierend auf OpenTelemetry',
+    taglineEn: 'Open-source observability for your GenAI or LLM application, based on OpenTelemetry',
     description:
+      'Open-Source-Observability fuer Ihre GenAI- oder LLM-Anwendung, basierend auf OpenTelemetry',
+    descriptionEn:
       'Open-source observability for your GenAI or LLM application, based on OpenTelemetry',
     website: 'https://www.traceloop.com/openllmetry',
     github: 'https://github.com/traceloop/openllmetry',
@@ -5719,8 +5905,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'oneuptime',
     name: 'Oneuptime',
     slug: 'oneuptime',
-    tagline: 'Complete open-source monitoring and observability platform.',
+    tagline: 'Vollstaendige Open-Source-Monitoring- und Observability-Plattform.',
+    taglineEn: 'Complete open-source monitoring and observability platform.',
     description:
+      'Vollstaendige Open-Source-Monitoring- und Observability-Plattform.',
+    descriptionEn:
       'Complete open-source monitoring and observability platform.',
     website: 'https://oneuptime.com',
     github: 'https://github.com/OneUptime/oneuptime',
@@ -5742,8 +5931,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'coze-loop',
     name: 'Coze Loop',
     slug: 'coze-loop',
-    tagline: 'Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing fu...',
+    tagline: 'KI-Agent-Optimierungsplattform der naechsten Generation: Cozeloop loest Herausforderungen in der KI-Agent-Entwicklung...',
+    taglineEn: 'Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing fu...',
     description:
+      'KI-Agent-Optimierungsplattform der naechsten Generation: Cozeloop loest Herausforderungen in der KI-Agent-Entwicklung durch umfassende Lifecycle-Management-Funktionen von Entwicklung, Debugging und Evaluierung bis hin zur Ueberwachung.',
+    descriptionEn:
       'Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.',
     website: 'https://github.com/coze-dev/coze-loop',
     github: 'https://github.com/coze-dev/coze-loop',
@@ -5765,8 +5957,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'helicone',
     name: 'Helicone',
     slug: 'helicone',
-    tagline: '🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓',
+    tagline: 'Open-Source-LLM-Observability-Plattform. Eine Zeile Code zum Ueberwachen, Evaluieren und Experimentieren. YC W23',
+    taglineEn: '🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓',
     description:
+      'Open-Source-LLM-Observability-Plattform. Eine Zeile Code zum Ueberwachen, Evaluieren und Experimentieren. YC W23',
+    descriptionEn:
       '🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓',
     website: 'https://www.helicone.ai',
     github: 'https://github.com/Helicone/helicone',
@@ -5788,8 +5983,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'apostrophe',
     name: 'Apostrophe',
     slug: 'apostrophe',
-    tagline: 'A full-featured, open-source content management framework built with Node.js that empowers organizations by combining...',
+    tagline: 'Ein umfassendes Open-Source-Content-Management-Framework auf Basis von Node.js, das Organisationen durch die Kombination...',
+    taglineEn: 'A full-featured, open-source content management framework built with Node.js that empowers organizations by combining...',
     description:
+      'Ein umfassendes Open-Source-Content-Management-Framework auf Basis von Node.js, das Organisationen durch die Kombination von kontextbezogener Bearbeitung und Headless-Architektur in einer Full-Stack-JS-Umgebung staerkt.',
+    descriptionEn:
       'A full-featured, open-source content management framework built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment.',
     website: 'https://apostrophecms.com',
     github: 'https://github.com/apostrophecms/apostrophe',
@@ -5811,8 +6009,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'uptrace',
     name: 'Uptrace',
     slug: 'uptrace',
-    tagline: 'Open source APM: OpenTelemetry traces, metrics, and logs',
+    tagline: 'Open-Source-APM: OpenTelemetry-Traces, Metriken und Logs',
+    taglineEn: 'Open source APM: OpenTelemetry traces, metrics, and logs',
     description:
+      'Open-Source-APM: OpenTelemetry-Traces, Metriken und Logs',
+    descriptionEn:
       'Open source APM: OpenTelemetry traces, metrics, and logs',
     website: 'https://uptrace.dev/get/hosted/open-source-apm',
     github: 'https://github.com/uptrace/uptrace',
@@ -5834,8 +6035,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'terminusdb',
     name: 'Terminusdb',
     slug: 'terminusdb',
-    tagline: 'TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and reasoning on stru...',
+    tagline: 'TerminusDB ist eine verteilte, kollaborative Datenbank fuer den Aufbau, das Teilen, die Versionierung und das Schlussfolgern...',
+    taglineEn: 'TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and reasoning on stru...',
     description:
+      'TerminusDB ist eine verteilte, kollaborative Datenbank fuer den Aufbau, das Teilen, die Versionierung und das Schlussfolgern ueber strukturierte Daten.',
+    descriptionEn:
       'TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and reasoning on structured data.',
     website: 'https://terminusdb.org',
     github: 'https://github.com/terminusdb/terminusdb',
@@ -5857,8 +6061,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'pezzo',
     name: 'Pezzo',
     slug: 'pezzo',
-    tagline: '🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant del...',
+    tagline: 'Open-Source-LLMOps-Plattform fuer Entwickler zur Optimierung von Prompt-Design, Versionsverwaltung, sofortiger Bereitstellung...',
+    taglineEn: '🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant del...',
     description:
+      'Open-Source-LLMOps-Plattform fuer Entwickler zur Optimierung von Prompt-Design, Versionsverwaltung, sofortiger Bereitstellung, Zusammenarbeit, Fehlerbehebung, Observability und mehr.',
+    descriptionEn:
       '🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant delivery, collaboration, troubleshooting, observability and more.',
     website: 'https://pezzo.ai',
     github: 'https://github.com/pezzolabs/pezzo',
@@ -5880,8 +6087,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'lmnr',
     name: 'Lmnr',
     slug: 'lmnr',
-    tagline: 'Laminar - open-source observability platform purpose-built for AI agents. YC S24.',
+    tagline: 'Laminar - Open-Source-Observability-Plattform, speziell entwickelt fuer KI-Agenten. YC S24.',
+    taglineEn: 'Laminar - open-source observability platform purpose-built for AI agents. YC S24.',
     description:
+      'Laminar - Open-Source-Observability-Plattform, speziell entwickelt fuer KI-Agenten. YC S24.',
+    descriptionEn:
       'Laminar - open-source observability platform purpose-built for AI agents. YC S24.',
     website: 'https://laminar.sh',
     github: 'https://github.com/lmnr-ai/lmnr',
@@ -5903,8 +6113,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openlit',
     name: 'Openlit',
     slug: 'openlit',
-    tagline: 'Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluati...',
+    tagline: 'Open-Source-Plattform fuer KI-Engineering: OpenTelemetry-native LLM-Observability, GPU-Monitoring, Guardrails, Evaluierung...',
+    taglineEn: 'Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluati...',
     description:
+      'Open-Source-Plattform fuer KI-Engineering: OpenTelemetry-native LLM-Observability, GPU-Monitoring, Guardrails, Evaluierungen, Prompt-Management, Vault, Playground. Integration mit ueber 50 LLM-Anbietern, VectorDBs, Agent-Frameworks und GPUs.',
+    descriptionEn:
       'Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.',
     website: 'https://docs.openlit.io',
     github: 'https://github.com/openlit/openlit',
@@ -5926,8 +6139,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'sveltia-cms',
     name: 'Sveltia Cms',
     slug: 'sveltia-cms',
-    tagline: 'Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support...',
+    tagline: 'Git-basiertes Headless-CMS. Nachfolger von Netlify CMS (jetzt Decap CMS). Moderne UX, erstklassige i18n-Unterstuetzung, mobile Unterstuetzung...',
+    taglineEn: 'Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support...',
     description:
+      'Git-basiertes Headless-CMS. Nachfolger von Netlify CMS (jetzt Decap CMS). Moderne UX, erstklassige i18n-Unterstuetzung, mobile Unterstuetzung und Hunderte von Verbesserungen. Framework-unabhaengig, Open Source und kostenlos.',
+    descriptionEn:
       'Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source & free.',
     website: 'https://sveltiacms.app/en/',
     github: 'https://github.com/sveltia/sveltia-cms',
@@ -5949,8 +6165,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'vrite',
     name: 'Vrite',
     slug: 'vrite',
-    tagline: 'Open-source developer content platform',
+    tagline: 'Open-Source-Content-Plattform fuer Entwickler',
+    taglineEn: 'Open-source developer content platform',
     description:
+      'Open-Source-Content-Plattform fuer Entwickler',
+    descriptionEn:
       'Open-source developer content platform',
     website: 'https://vrite.io',
     github: 'https://github.com/vriteio/vrite',
@@ -5972,8 +6191,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'gigapipe',
     name: 'Gigapipe',
     slug: 'gigapipe',
-    tagline: '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :ro...',
+    tagline: 'Das Open-Source-Polyglot-Observability-Warehouse: Leicht, Schnell, Cloud-Nativ, Grafana-LGTMP-Drop-in-Alternative...',
+    taglineEn: '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :ro...',
     description:
+      'Das Open-Source-Polyglot-Observability-Warehouse: Leicht, Schnell, Cloud-Nativ, Grafana-LGTMP-Drop-in-Alternative. Unabhaengige All-in-One OpenTelemetry-, Loki-, Prometheus-, Tempo-, Pyroscope-On-Prem-Alternative.',
+    descriptionEn:
       '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :rocket: Indie All-in-One Opentelemetry, Loki, Prometheus, Tempo, Pyroscope On-Prem Alternative :star:',
     website: 'https://gigapipe.com',
     github: 'https://github.com/metrico/gigapipe',
@@ -5995,8 +6217,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'atomic-server',
     name: 'Atomic Server',
     slug: 'atomic-server',
-    tagline: 'An open source headless CMS / real-time database.',
+    tagline: 'Ein Open-Source-Headless-CMS / Echtzeit-Datenbank.',
+    taglineEn: 'An open source headless CMS / real-time database.',
     description:
+      'Ein Open-Source-Headless-CMS / Echtzeit-Datenbank. Leistungsstarker Tabelleneditor, Volltextsuche und SDKs fuer JS / React / Svelte.',
+    descriptionEn:
       'An open source headless CMS / real-time database. Powerful table editor, full-text search, and SDKs for JS / React / Svelte.',
     website: 'https://atomicserver.eu',
     github: 'https://github.com/ontola/atomic-server',
@@ -6018,8 +6243,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'sonicjs',
     name: 'Sonicjs',
     slug: 'sonicjs',
-    tagline: 'SonicJS - The edge-native headless CMS for Cloudflare Workers.',
+    tagline: 'SonicJS - Das Edge-native Headless-CMS fuer Cloudflare Workers.',
+    taglineEn: 'SonicJS - The edge-native headless CMS for Cloudflare Workers.',
     description:
+      'SonicJS - Das Edge-native Headless-CMS fuer Cloudflare Workers. Antwortzeiten unter 100 ms, keine Kaltstarts, TypeScript-first. Basiert auf D1, R2 und Hono.',
+    descriptionEn:
       'SonicJS - The edge-native headless CMS for Cloudflare Workers. Sub-100ms response times, zero cold starts, TypeScript-first. Built on D1, R2, and Hono.',
     website: 'https://sonicjs.com',
     github: 'https://github.com/SonicJs-Org/sonicjs',
@@ -6041,8 +6269,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'smartstore',
     name: 'Smartstore',
     slug: 'smartstore',
-    tagline: 'A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10',
+    tagline: 'Eine modulare, skalierbare und ultraschnelle Open-Source-All-in-One-eCommerce-Plattform auf Basis von ASP.NET Core 10',
+    taglineEn: 'A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10',
     description:
+      'Eine modulare, skalierbare und ultraschnelle Open-Source-All-in-One-eCommerce-Plattform auf Basis von ASP.NET Core 10',
+    descriptionEn:
       'A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10',
     website: 'http://www.smartstore.com/',
     github: 'https://github.com/smartstore/Smartstore',
@@ -6064,8 +6295,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'grafana-operator',
     name: 'Grafana Operator',
     slug: 'grafana-operator',
-    tagline: 'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/Op...',
+    tagline: 'Ein Operator fuer Grafana, der Grafana-Instanzen, Dashboards und Datenquellen ueber Kubernetes/OpenShift-CRs installiert und verwaltet...',
+    taglineEn: 'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/Op...',
     description:
+      'Ein Operator fuer Grafana, der Grafana-Instanzen, Dashboards und Datenquellen ueber Kubernetes/OpenShift-CRs installiert und verwaltet.',
+    descriptionEn:
       'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/OpenShift CRs',
     website: 'https://grafana.github.io/grafana-operator/docs/',
     github: 'https://github.com/grafana/grafana-operator',
@@ -6087,8 +6321,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'measure',
     name: 'Measure',
     slug: 'measure',
-    tagline: 'Measure is an open-source tool to monitor mobile apps.',
+    tagline: 'Measure ist ein Open-Source-Tool zur Ueberwachung mobiler Apps.',
+    taglineEn: 'Measure is an open-source tool to monitor mobile apps.',
     description:
+      'Measure ist ein Open-Source-Tool zur Ueberwachung mobiler Apps. Es verbindet Benutzeraktionen, App-Events, Netzwerkaufrufe, Logs und Fehler miteinander, um das Debugging von Produktionsproblemen zu erleichtern.',
+    descriptionEn:
       'Measure is an open-source tool to monitor mobile apps. We connect the dots between user actions, app events, network calls, logs, and errors to make debugging production issues easy!',
     website: 'https://measure.sh',
     github: 'https://github.com/measure-sh/measure',
@@ -6110,8 +6347,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openam',
     name: 'Openam',
     slug: 'openam',
-    tagline: 'OpenAM is an open-source access management solution for identity authentication, authorization, and federation.',
+    tagline: 'OpenAM ist eine Open-Source-Zugangsmanagement-Loesung fuer Identitaetsauthentifizierung, Autorisierung und Foederation.',
+    taglineEn: 'OpenAM is an open-source access management solution for identity authentication, authorization, and federation.',
     description:
+      'OpenAM ist eine Open-Source-Zugangsmanagement-Loesung fuer Identitaetsauthentifizierung, Autorisierung und Foederation. Es bietet Single Sign-On, adaptive Authentifizierung und zentrale Richtlinienverwaltung fuer sicheren Zugriff auf Web-, Mobil- und Cloud-Anwendungen.',
+    descriptionEn:
       'OpenAM is an open-source access management solution for identity authentication, authorization, and federation. It provides single sign-on, adaptive authentication, and centralized policy control, enabling secure access to web, mobile, and cloud applications',
     website: 'https://www.openidentityplatform.org/openam',
     github: 'https://github.com/OpenIdentityPlatform/OpenAM',
@@ -6133,8 +6373,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'apt',
     name: 'Apt',
     slug: 'apt',
-    tagline: 'AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security.',
+    tagline: 'KI-Produktivitaetstool - Kostenlos und Open Source, steigert die Benutzerproduktivitaet und schuetzt Privatsphaere und Datensicherheit.',
+    taglineEn: 'AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security.',
     description:
+      'KI-Produktivitaetstool - Kostenlos und Open Source, steigert die Benutzerproduktivitaet und schuetzt Privatsphaere und Datensicherheit. Unter anderem: integrierte lokale ChatGPT-, DeepSeek-, Phi-, Qwen- und andere Modelle, Ein-Klick-Stapelverarbeitung von Bildern, Videos, Audio usw.',
+    descriptionEn:
       'AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security. Including but not limited to: built-in local exclusive ChatGPT, DeepSeek, Phi, Qwen and other models, one-click batch intelligent processing of pictures, videos, audio, etc.',
     website: 'https://github.com/rnchg/APT',
     github: 'https://github.com/rnchg/APT',
@@ -6156,8 +6399,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'nhost',
     name: 'Nhost',
     slug: 'nhost',
-    tagline: 'The Open Source Firebase Alternative with GraphQL.',
+    tagline: 'Die Open-Source-Firebase-Alternative mit GraphQL.',
+    taglineEn: 'The Open Source Firebase Alternative with GraphQL.',
     description:
+      'Die Open-Source-Firebase-Alternative mit GraphQL.',
+    descriptionEn:
       'The Open Source Firebase Alternative with GraphQL.',
     website: 'https://nhost.io',
     github: 'https://github.com/nhost/nhost',
@@ -6179,8 +6425,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'swanlab',
     name: 'Swanlab',
     slug: 'swanlab',
-    tagline: '⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool.',
+    tagline: 'SwanLab - ein Open-Source-KI-Trainings-Tracking- und Visualisierungstool mit modernem Design.',
+    taglineEn: '⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool.',
     description:
+      'SwanLab - ein Open-Source-KI-Trainings-Tracking- und Visualisierungstool mit modernem Design. Unterstuetzt Cloud- und Self-Hosted-Nutzung. Integriert mit PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultralytics / MMEngine / Keras u.v.m.',
+    descriptionEn:
       '⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultralytics / MMEngine / Keras etc.',
     website: 'https://swanlab.cn',
     github: 'https://github.com/SwanHubX/SwanLab',
@@ -6202,8 +6451,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'lsp-ai',
     name: 'Lsp Ai',
     slug: 'lsp-ai',
-    tagline: 'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist an...',
+    tagline: 'LSP-AI ist ein Open-Source-Language-Server als Backend fuer KI-gestuetzte Funktionalitaet, entwickelt um Softwareentwickler zu unterstuetzen...',
+    taglineEn: 'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist an...',
     description:
+      'LSP-AI ist ein Open-Source-Language-Server, der als Backend fuer KI-gestuetzte Funktionalitaet dient und entwickelt wurde, um Softwareentwickler zu unterstuetzen und zu staerken, nicht um sie zu ersetzen.',
+    descriptionEn:
       'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist and empower software engineers, not replace them.',
     website: 'https://github.com/SilasMarvin/lsp-ai',
     github: 'https://github.com/SilasMarvin/lsp-ai',
@@ -6225,8 +6477,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'octobase',
     name: 'Octobase',
     slug: 'octobase',
-    tagline: '🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative.',
+    tagline: 'OctoBase ist die Open-Source-Datenbank hinter AFFiNE — local-first und dennoch kollaborativ.',
+    taglineEn: '🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative.',
     description:
+      'OctoBase ist die Open-Source-Datenbank hinter AFFiNE — local-first und dennoch kollaborativ. Eine leichtgewichtige, skalierbare Daten-Engine, geschrieben in Rust.',
+    descriptionEn:
       '🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative. A light-weight, scalable, data engine written in Rust.',
     website: 'https://octobase.dev',
     github: 'https://github.com/toeverything/OctoBase',
@@ -6248,8 +6503,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'graft',
     name: 'Graft',
     slug: 'graft',
-    tagline: 'Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication...',
+    tagline: 'Graft ist eine transaktionale Open-Source-Speicher-Engine, optimiert fuer verzoegerte, partielle und stark konsistente Replikation.',
+    taglineEn: 'Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication...',
     description:
+      'Graft ist eine transaktionale Open-Source-Speicher-Engine, optimiert fuer verzoegerte, partielle und stark konsistente Replikation — ideal fuer Edge-, Offline-First- und verteilte Anwendungen.',
+    descriptionEn:
       'Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication—perfect for edge, offline-first, and distributed applications.',
     website: 'https://graft.rs',
     github: 'https://github.com/orbitinghail/graft',
@@ -6271,8 +6529,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'audiomuse-ai',
     name: 'Audiomuse Ai',
     slug: 'audiomuse-ai',
-    tagline: 'AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to Jellyfin, Navidrom...',
+    tagline: 'AudioMuse-AI ist eine Open-Source-Docker-Umgebung fuer automatische Playlist-Erstellung in Jellyfin, Navidrome u.a.',
+    taglineEn: 'AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to Jellyfin, Navidrom...',
     description:
+      'AudioMuse-AI ist eine Open-Source-Docker-Umgebung, die automatische Playlist-Erstellung fuer Jellyfin, Navidrome, LMS, Lyrion und Emby ermoeglicht. Mit leistungsstarken Tools wie Librosa und ONNX fuehrt sie lokale Klanganalysen Ihrer Audiodateien durch, sodass Sie die perfekte Playlist fuer jede Stimmung und jeden Anlass erstellen koennen — ohne externe APIs.',
+    descriptionEn:
       'AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to Jellyfin, Navidrome, LMS, Lyrion and Emby. Using powerful tools like Librosa and ONNX, it performs sonic analysis on your audio files locally, allowing you to curate the perfect playlist for any mood or occasion without relying on external APIs.',
     website: 'https://neptunehub.github.io/AudioMuse-AI/',
     github: 'https://github.com/NeptuneHub/AudioMuse-AI',
@@ -6294,8 +6555,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'learnhouse',
     name: 'Learnhouse',
     slug: 'learnhouse',
-    tagline: 'The Next-gen Open Source learning platform for everyone ✨',
+    tagline: 'Die Open-Source-Lernplattform der naechsten Generation fuer alle.',
+    taglineEn: 'The Next-gen Open Source learning platform for everyone ✨',
     description:
+      'Die Open-Source-Lernplattform der naechsten Generation fuer alle.',
+    descriptionEn:
       'The Next-gen Open Source learning platform for everyone ✨',
     website: 'https://learnhouse.app',
     github: 'https://github.com/learnhouse/learnhouse',
@@ -6317,8 +6581,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'browserable',
     name: 'Browserable',
     slug: 'browserable',
-    tagline: 'Open source and self-hostable browser automation library for AI agents',
+    tagline: 'Open-Source- und selbst-hostbare Browser-Automatisierungsbibliothek fuer KI-Agenten.',
+    taglineEn: 'Open source and self-hostable browser automation library for AI agents',
     description:
+      'Open-Source- und selbst-hostbare Browser-Automatisierungsbibliothek fuer KI-Agenten.',
+    descriptionEn:
       'Open source and self-hostable browser automation library for AI agents',
     website: 'https://browserable.ai',
     github: 'https://github.com/browserable/browserable',
@@ -6340,8 +6607,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'alchemy-cms',
     name: 'Alchemy Cms',
     slug: 'alchemy-cms',
-    tagline: 'Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic server side re...',
+    tagline: 'Alchemy ist das Open-Source-Rails-CMS-Framework fuer das komponentenbasierte Web.',
+    taglineEn: 'Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic server side re...',
     description:
+      'Alchemy ist das Open-Source-Rails-CMS-Framework fuer das komponentenbasierte Web, das sowohl als klassisches serverseitig gerendertes als auch als Headless-CMS eingesetzt werden kann.',
+    descriptionEn:
       'Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic server side rendered or headless CMS.',
     website: 'https://www.alchemy-cms.com',
     github: 'https://github.com/AlchemyCMS/alchemy_cms',
@@ -6363,8 +6633,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'mix-core',
     name: 'Mix.core',
     slug: 'mix-core',
-    tagline: '🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches.',
+    tagline: 'Ein zukunftssicheres Enterprise-Web-CMS mit Headless- und Decoupled-Unterstuetzung.',
+    taglineEn: '🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches.',
     description:
+      'Ein zukunftssicheres Enterprise-Web-CMS mit Headless- und Decoupled-Unterstuetzung. Erstellen Sie jede Art von App mit anpassbaren APIs auf ASP.NET Core/.NET Core. Vollstaendig Open Source und auf Flexibilitaet ausgelegt.',
+    descriptionEn:
       '🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches. Build any type of app with customizable APIs on ASP.NET Core/.NET Core. Completely open-source and designed for flexibility.',
     website: 'https://mixcore.org',
     github: 'https://github.com/mixcore/mix.core',
@@ -6386,8 +6659,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'mesh',
     name: 'Mesh',
     slug: 'mesh',
-    tagline: 'Gentics Mesh - The open source headless CMS for developers',
+    tagline: 'Gentics Mesh — das Open-Source-Headless-CMS fuer Entwickler.',
+    taglineEn: 'Gentics Mesh - The open source headless CMS for developers',
     description:
+      'Gentics Mesh — das Open-Source-Headless-CMS fuer Entwickler.',
+    descriptionEn:
       'Gentics Mesh - The open source headless CMS for developers',
     website: 'https://getmesh.io',
     github: 'https://github.com/gentics/mesh',
@@ -6409,8 +6685,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'truthy',
     name: 'Truthy',
     slug: 'truthy',
-    tagline: 'Open source headless CMS API written using NestJS, that has pre built modules like User Management, Role Management, ...',
+    tagline: 'Open-Source-Headless-CMS-API auf Basis von NestJS mit vorgefertigten Modulen fuer Benutzer-, Rollen- und Rechteverwaltung.',
+    taglineEn: 'Open source headless CMS API written using NestJS, that has pre built modules like User Management, Role Management, ...',
     description:
+      'Open-Source-Headless-CMS-API auf Basis von NestJS mit vorgefertigten Modulen wie Benutzerverwaltung, Rollenverwaltung, Rechteverwaltung, E-Mail-Modul, Kontoeinstellungen, OTP, Throttling, RBAC-Unterstuetzung, Lokalisierung und vielem mehr.',
+    descriptionEn:
       'Open source headless CMS API written using NestJS, that has pre built modules like User Management, Role Management, Permission Management, Email Module, Account Settings, OTP, Throttling, RBAC support, Localization, and many more.',
     website: 'https://github.com/gobeam/truthy',
     github: 'https://github.com/gobeam/truthy',
@@ -6432,8 +6711,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'flextype',
     name: 'Flextype',
     slug: 'flextype',
-    tagline: 'Modern Open Source Flat Files Content Management System.',
+    tagline: 'Modernes Open-Source-Flat-File-Content-Management-System.',
+    taglineEn: 'Modern Open Source Flat Files Content Management System.',
     description:
+      'Modernes Open-Source-Flat-File-Content-Management-System.',
+    descriptionEn:
       'Modern Open Source Flat Files Content Management System.',
     website: 'https://awilum.github.io/flextype',
     github: 'https://github.com/flextype/flextype',
@@ -6455,8 +6737,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'vaahcms',
     name: 'Vaahcms',
     slug: 'vaahcms',
-    tagline: 'VaahCMS is a laravel based open-source web application development platform shipped with a headless content managemen...',
+    tagline: 'VaahCMS ist eine Laravel-basierte Open-Source-Plattform fuer Webanwendungen mit Headless-CMS.',
+    taglineEn: 'VaahCMS is a laravel based open-source web application development platform shipped with a headless content managemen...',
     description:
+      'VaahCMS ist eine Laravel-basierte Open-Source-Plattform fuer die Entwicklung von Webanwendungen, die mit einem Headless-Content-Management-System (CMS) ausgeliefert wird.',
+    descriptionEn:
       'VaahCMS is a laravel based open-source web application development platform shipped with a headless content management system (CMS).',
     website: 'https://vaah.dev/cms',
     github: 'https://github.com/webreinvent/vaahcms',
@@ -6478,8 +6763,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'copilotkit',
     name: 'Copilotkit',
     slug: 'copilotkit',
-    tagline: 'The Frontend for Agents & Generative UI. React + Angular',
+    tagline: 'Das Frontend fuer KI-Agenten und generative Benutzeroberflaechen. React + Angular.',
+    taglineEn: 'The Frontend for Agents & Generative UI. React + Angular',
     description:
+      'Das Frontend fuer KI-Agenten und generative Benutzeroberflaechen. React + Angular.',
+    descriptionEn:
       'The Frontend for Agents & Generative UI. React + Angular',
     website: 'https://docs.copilotkit.ai',
     github: 'https://github.com/CopilotKit/CopilotKit',
@@ -6501,8 +6789,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'jaaz',
     name: 'Jaaz',
     slug: 'jaaz',
-    tagline: 'The world\'s first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritize...',
+    tagline: 'Der weltweit erste Open-Source-Kreativassistent mit multimodaler Unterstuetzung — eine datenschutzfreundliche Alternative zu Canva und Manus.',
+    taglineEn: 'The world\'s first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritize...',
     description:
+      'Der weltweit erste Open-Source-Kreativassistent mit multimodaler Unterstuetzung — eine Alternative zu Canva und Manus, die Datenschutz priorisiert und lokal nutzbar ist.',
+    descriptionEn:
       'The world\'s first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.',
     website: 'https://jaaz.app',
     github: 'https://github.com/11cafe/jaaz',
@@ -6524,8 +6815,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'taskcafe',
     name: 'Taskcafe',
     slug: 'taskcafe',
-    tagline: 'An open source project management tool with Kanban boards',
+    tagline: 'Ein Open-Source-Projektmanagement-Tool mit Kanban-Boards.',
+    taglineEn: 'An open source project management tool with Kanban boards',
     description:
+      'Ein Open-Source-Projektmanagement-Tool mit Kanban-Boards.',
+    descriptionEn:
       'An open source project management tool with Kanban boards',
     website: 'https://github.com/JordanKnott/taskcafe',
     github: 'https://github.com/JordanKnott/taskcafe',
@@ -6547,8 +6841,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'silverbullet',
     name: 'Silverbullet',
     slug: 'silverbullet',
-    tagline: 'An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua',
+    tagline: 'Eine Open-Source-Produktivitaetsplattform auf Markdown-Basis, aufgeladen mit der Skript-Power von Lua.',
+    taglineEn: 'An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua',
     description:
+      'Eine Open-Source-Produktivitaetsplattform auf Markdown-Basis, aufgeladen mit der Skript-Power von Lua.',
+    descriptionEn:
       'An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua',
     website: 'https://silverbullet.md',
     github: 'https://github.com/silverbulletmd/silverbullet',
@@ -6570,8 +6867,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'ant-media-server',
     name: 'Ant Media Server',
     slug: 'ant-media-server',
-    tagline: 'Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive bitrate, tr...',
+    tagline: 'Ant Media Server — Streaming-Engine mit extrem niedriger Latenz ueber WebRTC (~0,5s), SRT, RTMP, HLS und CMAF.',
+    taglineEn: 'Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive bitrate, tr...',
     description:
+      'Ant Media Server — Streaming-Engine mit extrem niedriger Latenz ueber WebRTC (~0,5s), SRT, RTMP, HLS, CMAF, adaptiver Bitrate, Transcoding und Skalierung.',
+    descriptionEn:
       'Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive bitrate, transcoding & scaling',
     website: 'https://antmedia.io',
     github: 'https://github.com/ant-media/Ant-Media-Server',
@@ -6593,8 +6893,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'kaneo',
     name: 'Kaneo',
     slug: 'kaneo',
-    tagline: '🎯 All you need. Nothing you don\'t. Open source project management that works for you, not against you.',
+    tagline: 'Alles was Sie brauchen. Nichts, was Sie nicht brauchen. Open-Source-Projektmanagement, das fuer Sie arbeitet, nicht gegen Sie.',
+    taglineEn: '🎯 All you need. Nothing you don\'t. Open source project management that works for you, not against you.',
     description:
+      'Alles was Sie brauchen. Nichts, was Sie nicht brauchen. Open-Source-Projektmanagement, das fuer Sie arbeitet, nicht gegen Sie.',
+    descriptionEn:
       '🎯 All you need. Nothing you don\'t. Open source project management that works for you, not against you.',
     website: 'https://kaneo.app/',
     github: 'https://github.com/usekaneo/kaneo',
@@ -6616,8 +6919,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'actionview',
     name: 'Actionview',
     slug: 'actionview',
-    tagline: 'An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar...',
+    tagline: 'Ein Issue-Tracking-Tool auf Basis von Laravel+ReactJS fuer kleine und mittlere Unternehmen — Open Source und kostenlos, aehnlich wie Jira.',
+    taglineEn: 'An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar...',
     description:
+      'Ein Issue-Tracking-Tool auf Basis von Laravel+ReactJS fuer kleine und mittlere Unternehmen — Open Source und kostenlos, aehnlich wie Jira.',
+    descriptionEn:
       'An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar to Jira.',
     website: 'https://actionview.cn',
     github: 'https://github.com/lxerxa/actionview',
@@ -6639,8 +6945,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'bareos',
     name: 'Bareos',
     slug: 'bareos',
-    tagline: 'Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives, and recovers...',
+    tagline: 'Bareos ist eine netzwerkunabhaengige Open-Source-Backup-Loesung (AGPLv3), die Daten sichert, archiviert und wiederherstellt.',
+    taglineEn: 'Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives, and recovers...',
     description:
+      'Bareos ist eine netzwerkunabhaengige Open-Source-Backup-Loesung (lizenziert unter AGPLv3), die Daten aller gaengigen Betriebssysteme sichert, archiviert und wiederherstellt.',
+    descriptionEn:
       'Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives, and recovers data from all major operating systems.',
     website: 'http://www.bareos.org',
     github: 'https://github.com/bareos/bareos',
@@ -6662,8 +6971,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'project-management',
     name: 'Project Management',
     slug: 'project-management',
-    tagline: 'An open source Project management tool based on Laravel and Filament',
+    tagline: 'Ein Open-Source-Projektmanagement-Tool auf Basis von Laravel und Filament.',
+    taglineEn: 'An open source Project management tool based on Laravel and Filament',
     description:
+      'Ein Open-Source-Projektmanagement-Tool auf Basis von Laravel und Filament.',
+    descriptionEn:
       'An open source Project management tool based on Laravel and Filament',
     website: 'https://devaslanphp.github.io/project-management',
     github: 'https://github.com/devaslanphp/project-management',
@@ -6685,8 +6997,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'cubytext',
     name: 'Cubytext',
     slug: 'cubytext',
-    tagline: 'An open-source knowledge management app.',
+    tagline: 'Eine Open-Source-App fuer Wissensmanagement.',
+    taglineEn: 'An open-source knowledge management app.',
     description:
+      'Eine Open-Source-App fuer Wissensmanagement.',
+    descriptionEn:
       'An open-source knowledge management app.',
     website: 'https://github.com/vincentdchan/CubyText',
     github: 'https://github.com/vincentdchan/CubyText',
@@ -6708,8 +7023,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'idurar-erp-crm',
     name: 'Idurar Erp Crm',
     slug: 'idurar-erp-crm',
-    tagline: 'Free Open Source ERP CRM Software Accounting Invoicing | Node Js React',
+    tagline: 'Kostenlose Open-Source-ERP-CRM-Software fuer Buchhaltung und Rechnungsstellung mit Node.js und React.',
+    taglineEn: 'Free Open Source ERP CRM Software Accounting Invoicing | Node Js React',
     description:
+      'Kostenlose Open-Source-ERP-CRM-Software fuer Buchhaltung und Rechnungsstellung mit Node.js und React.',
+    descriptionEn:
       'Free Open Source ERP CRM Software Accounting Invoicing | Node Js React',
     website: 'https://cloud.idurarapp.com',
     github: 'https://github.com/idurar/idurar-erp-crm',
@@ -6731,8 +7049,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openakita',
     name: 'Openakita',
     slug: 'openakita',
-    tagline: 'An open-source AI assistant framework with skills and agent architecture',
+    tagline: 'Ein Open-Source-KI-Assistenz-Framework mit Skills- und Agenten-Architektur.',
+    taglineEn: 'An open-source AI assistant framework with skills and agent architecture',
     description:
+      'Ein Open-Source-KI-Assistenz-Framework mit Skills- und Agenten-Architektur.',
+    descriptionEn:
       'An open-source AI assistant framework with skills and agent architecture',
     website: 'http://openakita.ai',
     github: 'https://github.com/openakita/openakita',
@@ -6754,8 +7075,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'hello-halo',
     name: 'Hello Halo',
     slug: 'hello-halo',
-    tagline: 'Open-source Claude Code GUI — like Claude Cowork.',
+    tagline: 'Open-Source-GUI fuer Claude Code — aehnlich wie Claude Cowork.',
+    taglineEn: 'Open-source Claude Code GUI — like Claude Cowork.',
     description:
+      'Open-Source-GUI fuer Claude Code — aehnlich wie Claude Cowork. Visueller KI-Assistent mit Fernzugriff, Dateiverwaltung und integriertem KI-Browser.',
+    descriptionEn:
       'Open-source Claude Code GUI — like Claude Cowork. Visual AI assistant with remote access, file management, and built-in AI browser.',
     website: 'https://hello-halo.cc/',
     github: 'https://github.com/openkursar/hello-halo',
@@ -6777,8 +7101,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'ethora',
     name: 'Ethora',
     slug: 'ethora',
-    tagline: 'Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪.',
+    tagline: 'Open-Source-Engine fuer Chat, KI-Assistenten und Wallets.',
+    taglineEn: 'Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪.',
     description:
+      'Open-Source-Engine fuer Chat, KI-Assistenten und Wallets. React, Typescript, Python, XMPP. Erstellen Sie zukunftsfaehige Apps mit Chat, KI-Agenten und Web3.',
+    descriptionEn:
       'Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪. React, Typescript, Python, XMPP. Build future apps with chat, AI agents and web3.',
     website: 'https://ethora.com/',
     github: 'https://github.com/dappros/ethora',
@@ -6800,8 +7127,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'astroplate',
     name: 'Astroplate',
     slug: 'astroplate',
-    tagline: 'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jum...',
+    tagline: 'Astroplate ist ein kostenloses Starter-Template mit Astro, TailwindCSS und TypeScript fuer den schnellen Projektstart.',
+    taglineEn: 'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jum...',
     description:
+      'Astroplate ist ein kostenloses Starter-Template, erstellt mit Astro, TailwindCSS und TypeScript, das alles bietet, was Sie fuer den schnellen Start Ihres Astro-Projekts benoetigen. Starten Sie mit Astroplate und sparen Sie sich Stunden an Arbeit!',
+    descriptionEn:
       'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jumpstart your Astro project. Get started with Astroplate and save yourself hours of work!',
     website: 'https://zeon.studio/preview?project=astroplate',
     github: 'https://github.com/zeon-studio/astroplate',
@@ -6823,8 +7153,11 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'nextplate',
     name: 'Nextplate',
     slug: 'nextplate',
-    tagline: 'Nextplate is a free starter template built with Next.js and TailwindCSS.',
+    tagline: 'Nextplate ist ein kostenloses Starter-Template, erstellt mit Next.js und TailwindCSS.',
+    taglineEn: 'Nextplate is a free starter template built with Next.js and TailwindCSS.',
     description:
+      'Nextplate ist ein kostenloses Starter-Template, erstellt mit Next.js und TailwindCSS. Es bietet nahezu alles, was Sie fuer den schnellen Start Ihres Next.js-Projekts benoetigen. Probieren Sie Nextplate aus und sparen Sie sich Stunden an Arbeit.',
+    descriptionEn:
       'Nextplate is a free starter template built with Next.js and TailwindCSS. It provides you with almost everything you need to jump-start your Next.js project. Try Nextplate and save yourself hours of work.',
     website: 'https://zeon.studio/preview?project=nextplate',
     github: 'https://github.com/zeon-studio/nextplate',

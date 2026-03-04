@@ -6,8 +6,11 @@ export const emailServerTools: Tool[] = [
     name: 'Mailcow',
     slug: 'mailcow',
     tagline: 'Vollstaendige E-Mail-Server-Suite mit Docker-basierter Installation',
+    taglineEn: 'Complete email server suite with Docker-based installation',
     description:
       'Mailcow (mailcow: dockerized) ist eine umfassende, Docker-basierte E-Mail-Server-Loesung, die alle notwendigen Komponenten fuer einen vollwertigen Mailserver bereitstellt. Sie umfasst Postfix, Dovecot, SOGo Groupware, ClamAV Virenschutz, Rspamd Spamfilter und eine moderne Webadministrationsoberflaeche. Mailcow wird in Deutschland entwickelt und bietet automatische Let\'s-Encrypt-Zertifikate, Zwei-Faktor-Authentifizierung und eine umfangreiche API zur Verwaltung.',
+    descriptionEn:
+      'Mailcow (mailcow: dockerized) is a comprehensive, Docker-based email server solution that provides all the necessary components for a full-featured mail server. It includes Postfix, Dovecot, SOGo groupware, ClamAV antivirus, Rspamd spam filter, and a modern web administration interface. Mailcow is developed in Germany and offers automatic Let\'s Encrypt certificates, two-factor authentication, and an extensive API for management.',
     website: 'https://mailcow.email',
     github: 'https://github.com/mailcow/mailcow-dockerized',
     license: 'GPL-3.0',
@@ -28,8 +31,11 @@ export const emailServerTools: Tool[] = [
     name: 'Mail-in-a-Box',
     slug: 'mail-in-a-box',
     tagline: 'Ein-Klick-E-Mail-Server fuer Privatpersonen und kleine Teams',
+    taglineEn: 'One-click email server for individuals and small teams',
     description:
       'Mail-in-a-Box verwandelt einen frischen Ubuntu-Server mit einem einzigen Befehl in einen vollstaendig funktionierenden Mailserver. Es installiert und konfiguriert automatisch Postfix, Dovecot, Roundcube Webmail, Nextcloud, einen DNS-Server und automatische TLS-Zertifikate. Die Loesung richtet sich an technisch versierte Nutzer, die ihren eigenen Mailserver betreiben moechten, ohne jede Komponente einzeln einrichten zu muessen. Eine uebersichtliche Statusseite hilft bei der Diagnose.',
+    descriptionEn:
+      'Mail-in-a-Box transforms a fresh Ubuntu server into a fully functioning mail server with a single command. It automatically installs and configures Postfix, Dovecot, Roundcube webmail, Nextcloud, a DNS server, and automatic TLS certificates. The solution is aimed at technically proficient users who want to run their own mail server without having to set up each component individually. A clear status page helps with diagnostics.',
     website: 'https://mailinabox.email',
     github: 'https://github.com/mail-in-a-box/mailinabox',
     license: 'CC0-1.0',
@@ -50,8 +56,11 @@ export const emailServerTools: Tool[] = [
     name: 'iRedMail',
     slug: 'iredmail',
     tagline: 'Professioneller Open-Source-Mailserver mit Enterprise-Funktionen',
+    taglineEn: 'Professional open-source mail server with enterprise features',
     description:
       'iRedMail ist eine bewaehrte Open-Source-E-Mail-Server-Loesung, die Postfix, Dovecot, Amavisd-new, SpamAssassin und ClamAV zu einem umfassenden Mailserver kombiniert. Es unterstuetzt mehrere Backends fuer die Benutzerverwaltung (OpenLDAP, MySQL, PostgreSQL), bietet Greylisting, SPF/DKIM/DMARC-Validierung und eine webbasierte Administrationsoberflaeche (iRedAdmin). iRedMail eignet sich sowohl fuer kleine als auch fuer grosse Umgebungen und bietet optionale Enterprise-Funktionen.',
+    descriptionEn:
+      'iRedMail is a proven open-source email server solution that combines Postfix, Dovecot, Amavisd-new, SpamAssassin, and ClamAV into a comprehensive mail server. It supports multiple backends for user management (OpenLDAP, MySQL, PostgreSQL), offers greylisting, SPF/DKIM/DMARC validation, and a web-based administration interface (iRedAdmin). iRedMail is suitable for both small and large environments and offers optional enterprise features.',
     website: 'https://www.iredmail.org',
     github: 'https://github.com/iredmail/iRedMail',
     license: 'GPL-3.0',
@@ -72,8 +81,11 @@ export const emailServerTools: Tool[] = [
     name: 'Postfix+Dovecot',
     slug: 'postfix-dovecot',
     tagline: 'Die klassische Kombination fuer individuelle E-Mail-Server-Konfigurationen',
+    taglineEn: 'The classic combination for custom email server configurations',
     description:
       'Postfix als MTA (Mail Transfer Agent) und Dovecot als MDA (Mail Delivery Agent) bilden zusammen die am weitesten verbreitete Open-Source-Kombination fuer E-Mail-Server. Postfix ist bekannt fuer seine Sicherheit, Performance und Zuverlaessigkeit beim E-Mail-Versand und -Empfang. Dovecot stellt IMAP- und POP3-Dienste bereit und bietet leistungsstarke Sieve-Filterung. Zusammen ergeben sie einen hochgradig konfigurierbaren Mailserver, der den individuellen Anforderungen angepasst werden kann.',
+    descriptionEn:
+      'Postfix as MTA (Mail Transfer Agent) and Dovecot as MDA (Mail Delivery Agent) together form the most widely used open-source combination for email servers. Postfix is known for its security, performance, and reliability in sending and receiving email. Dovecot provides IMAP and POP3 services and offers powerful Sieve filtering. Together they create a highly configurable mail server that can be tailored to individual requirements.',
     website: 'https://www.postfix.org',
     github: 'https://github.com/vdukhovni/postfix',
     license: 'EPL-2.0 / MIT',
@@ -94,8 +106,11 @@ export const emailServerTools: Tool[] = [
     name: 'Stalwart Mail',
     slug: 'stalwart-mail',
     tagline: 'Moderner All-in-One-Mailserver in Rust geschrieben',
+    taglineEn: 'Modern all-in-one mail server written in Rust',
     description:
       'Stalwart Mail Server ist ein moderner, in Rust geschriebener E-Mail-Server, der JMAP, IMAP4 und SMTP in einer einzigen Anwendung vereint. Er bietet integriertes Spam- und Phishing-Filtering, DKIM/SPF/DMARC/ARC-Unterstuetzung, Sieve-Skriptfilterung und eine webbasierte Verwaltungsoberflaeche. Stalwart ist auf Performance und Sicherheit ausgelegt, verbraucht wenig Ressourcen und unterstuetzt verschiedene Storage-Backends wie SQLite, PostgreSQL und S3-kompatiblen Objektspeicher.',
+    descriptionEn:
+      'Stalwart Mail Server is a modern email server written in Rust that combines JMAP, IMAP4, and SMTP in a single application. It offers integrated spam and phishing filtering, DKIM/SPF/DMARC/ARC support, Sieve script filtering, and a web-based management interface. Stalwart is designed for performance and security, consumes few resources, and supports various storage backends such as SQLite, PostgreSQL, and S3-compatible object storage.',
     website: 'https://stalw.art',
     github: 'https://github.com/stalwartlabs/mail-server',
     license: 'AGPL-3.0',

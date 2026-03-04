@@ -6,8 +6,11 @@ export const datenbankenTools: Tool[] = [
     name: 'PostgreSQL',
     slug: 'postgresql',
     tagline: 'Die fortschrittlichste relationale Open-Source-Datenbank',
+    taglineEn: 'The most advanced open-source relational database',
     description:
       'PostgreSQL ist ein leistungsstarkes, objektrelationales Open-Source-Datenbanksystem mit ueber 35 Jahren aktiver Entwicklung. Es bietet vollstaendige ACID-Konformitaet, komplexe Abfragen, Fremdschluessel, Trigger, Views, Transaktionsintegritaet und Multiversion-Nebenlaeuflugkeitskontrolle (MVCC). PostgreSQL unterstuetzt JSON/JSONB, Volltextsuche, GIS-Daten (PostGIS), benutzerdefinierte Datentypen und ist fuer seine Zuverlaessigkeit und Datenintegritaet bekannt.',
+    descriptionEn:
+      'PostgreSQL is a powerful, object-relational open-source database system with over 35 years of active development. It offers full ACID compliance, complex queries, foreign keys, triggers, views, transactional integrity, and multiversion concurrency control (MVCC). PostgreSQL supports JSON/JSONB, full-text search, GIS data (PostGIS), user-defined data types, and is renowned for its reliability and data integrity.',
     website: 'https://www.postgresql.org',
     github: 'https://github.com/postgres/postgres',
     license: 'PostgreSQL',
@@ -29,8 +32,11 @@ export const datenbankenTools: Tool[] = [
     name: 'MariaDB',
     slug: 'mariadb',
     tagline: 'Community-entwickelter MySQL-Fork mit erweiterten Funktionen',
+    taglineEn: 'Community-developed MySQL fork with enhanced features',
     description:
       'MariaDB ist ein community-getriebener Fork von MySQL, der von den urspruenglichen MySQL-Entwicklern gefuehrt wird. Es ist binaekompatibel zu MySQL und bietet zusaetzliche Speicher-Engines (Aria, ColumnStore), verbesserte Replikation, Galera-Cluster fuer Multi-Master-Replikation und erweiterte Sicherheitsfunktionen. MariaDB wird von zahlreichen Linux-Distributionen als Standard-Datenbank eingesetzt und bietet eine zuverlaessige, leistungsstarke SQL-Datenbank.',
+    descriptionEn:
+      'MariaDB is a community-driven fork of MySQL, led by the original MySQL developers. It is binary-compatible with MySQL and offers additional storage engines (Aria, ColumnStore), improved replication, Galera Cluster for multi-master replication, and enhanced security features. MariaDB is used as the default database by numerous Linux distributions and provides a reliable, high-performance SQL database.',
     website: 'https://mariadb.org',
     github: 'https://github.com/MariaDB/server',
     license: 'GPL-2.0',
@@ -53,8 +59,11 @@ export const datenbankenTools: Tool[] = [
     name: 'SQLite',
     slug: 'sqlite',
     tagline: 'Eingebettete SQL-Datenbank ohne Server',
+    taglineEn: 'Embedded SQL database without a server',
     description:
       'SQLite ist die weltweit meistverbreitete Datenbank-Engine und laeuft als eingebettete Bibliothek direkt im Anwendungsprozess, ohne separaten Serverprozess. Die gesamte Datenbank wird in einer einzelnen Datei gespeichert, was sie extrem portabel macht. SQLite ist ACID-konform, unterstuetzt die meisten SQL-Standards und wird in unzaehligen Anwendungen, Mobilgeraeten, Browsern und Betriebssystemen eingesetzt.',
+    descriptionEn:
+      'SQLite is the most widely deployed database engine in the world, running as an embedded library directly within the application process without a separate server. The entire database is stored in a single file, making it extremely portable. SQLite is ACID-compliant, supports most SQL standards, and is used in countless applications, mobile devices, browsers, and operating systems.',
     website: 'https://www.sqlite.org',
     github: 'https://github.com/sqlite/sqlite',
     license: 'Public Domain',
@@ -76,8 +85,11 @@ export const datenbankenTools: Tool[] = [
     name: 'CockroachDB',
     slug: 'cockroachdb',
     tagline: 'Verteilte SQL-Datenbank mit globaler Konsistenz',
+    taglineEn: 'Distributed SQL database with global consistency',
     description:
       'CockroachDB ist eine verteilte SQL-Datenbank, die fuer Cloud-Anwendungen entwickelt wurde und sich durch horizontale Skalierung, automatische Replikation und starke Konsistenz auszeichnet. Sie ist PostgreSQL-kompatibel und bietet Geo-Partitionierung, automatisches Sharding und Selbstheilung bei Knotenausfaellen. Seit Ende 2024 ist die kostenlose CockroachDB Core Edition eingestellt. Nur noch Enterprise-Lizenz verfuegbar.',
+    descriptionEn:
+      'CockroachDB is a distributed SQL database designed for cloud applications, featuring horizontal scaling, automatic replication, and strong consistency. It is PostgreSQL-compatible and offers geo-partitioning, automatic sharding, and self-healing on node failures. Since late 2024, the free CockroachDB Core Edition has been discontinued. Only the Enterprise license is now available.',
     website: 'https://www.cockroachlabs.com',
     github: 'https://github.com/cockroachdb/cockroach',
     license: 'BSL-1.1',
@@ -102,8 +114,11 @@ export const datenbankenTools: Tool[] = [
     name: 'TimescaleDB',
     slug: 'timescaledb',
     tagline: 'Zeitreihendatenbank auf Basis von PostgreSQL',
+    taglineEn: 'Time-series database built on PostgreSQL',
     description:
       'TimescaleDB ist eine Open-Source-Zeitreihendatenbank, die als PostgreSQL-Erweiterung implementiert ist. Sie kombiniert die volle Leistungsfaehigkeit von SQL mit optimierten Speicher- und Abfragefunktionen fuer Zeitreihendaten. TimescaleDB bietet automatische Partitionierung (Hypertables), kontinuierliche Aggregation, Datenkomprimierung und nahtlose Integration mit dem gesamten PostgreSQL-Oekosystem.',
+    descriptionEn:
+      'TimescaleDB is an open-source time-series database implemented as a PostgreSQL extension. It combines the full power of SQL with optimized storage and query functions for time-series data. TimescaleDB offers automatic partitioning (hypertables), continuous aggregation, data compression, and seamless integration with the entire PostgreSQL ecosystem.',
     website: 'https://www.timescale.com',
     github: 'https://github.com/timescale/timescaledb',
     license: 'Apache-2.0',
@@ -125,8 +140,11 @@ export const datenbankenTools: Tool[] = [
     name: 'InfluxDB',
     slug: 'influxdb',
     tagline: 'Spezialisierte Zeitreihendatenbank fuer Metriken und Events',
+    taglineEn: 'Specialized time-series database for metrics and events',
     description:
       'InfluxDB ist eine spezialisierte Open-Source-Zeitreihendatenbank, die fuer hohe Schreibdurchsaetze und schnelle Abfragen von Zeitreihendaten optimiert ist. Sie wird haeufig fuer Monitoring, IoT-Sensorik, Echtzeit-Analyse und DevOps-Metriken eingesetzt. InfluxDB bietet eine eigene Abfragesprache (Flux), Datenkomprimierung, Retention Policies und nahtlose Integration mit Grafana, Telegraf und weiteren Tools des TICK-Stacks.',
+    descriptionEn:
+      'InfluxDB is a specialized open-source time-series database optimized for high write throughput and fast queries on time-series data. It is commonly used for monitoring, IoT sensor data, real-time analytics, and DevOps metrics. InfluxDB offers its own query language (Flux), data compression, retention policies, and seamless integration with Grafana, Telegraf, and other tools in the TICK stack.',
     website: 'https://www.influxdata.com',
     github: 'https://github.com/influxdata/influxdb',
     license: 'Apache-2.0',
@@ -148,8 +166,11 @@ export const datenbankenTools: Tool[] = [
     name: 'Redis',
     slug: 'redis',
     tagline: 'Blitzschneller In-Memory-Datenstrukturspeicher',
+    taglineEn: 'Lightning-fast in-memory data structure store',
     description:
       'Redis ist ein In-Memory-Datenstrukturspeicher, der als Datenbank, Cache und Message-Broker eingesetzt wird. Er unterstuetzt vielfaeltige Datenstrukturen wie Strings, Hashes, Listen, Sets, Sorted Sets, Bitmaps und Streams. Redis bietet Persistenz, Replikation, Lua-Scripting, Transaktionen und Pub/Sub-Messaging. Seit Maerz 2024 steht Redis unter SSPL/RSALv2 statt BSD. FOSS-Alternative: Valkey (Linux Foundation Fork).',
+    descriptionEn:
+      'Redis is an in-memory data structure store used as a database, cache, and message broker. It supports a wide range of data structures including strings, hashes, lists, sets, sorted sets, bitmaps, and streams. Redis offers persistence, replication, Lua scripting, transactions, and pub/sub messaging. Since March 2024, Redis is licensed under SSPL/RSALv2 instead of BSD. FOSS alternative: Valkey (Linux Foundation fork).',
     website: 'https://redis.io',
     github: 'https://github.com/redis/redis',
     license: 'SSPL-1.0 / RSALv2',
@@ -175,8 +196,11 @@ export const datenbankenTools: Tool[] = [
     name: 'MongoDB Community',
     slug: 'mongodb-community',
     tagline: 'Fuehrende dokumentenorientierte NoSQL-Datenbank',
+    taglineEn: 'Leading document-oriented NoSQL database',
     description:
       'MongoDB Community Edition ist eine dokumentenorientierte NoSQL-Datenbank, die Daten in flexiblen, JSON-aehnlichen Dokumenten (BSON) speichert. Sie bietet horizontale Skalierung durch Sharding, Replikation fuer Hochverfuegbarkeit, eine leistungsstarke Abfragesprache, Aggregations-Pipelines und Volltextsuche. MongoDB eignet sich besonders fuer Anwendungen mit sich aendernden Datenstrukturen und hohen Anforderungen an Flexibilitaet und Skalierbarkeit.',
+    descriptionEn:
+      'MongoDB Community Edition is a document-oriented NoSQL database that stores data in flexible, JSON-like documents (BSON). It offers horizontal scaling through sharding, replication for high availability, a powerful query language, aggregation pipelines, and full-text search. MongoDB is particularly well-suited for applications with evolving data structures and high demands for flexibility and scalability.',
     website: 'https://www.mongodb.com',
     github: 'https://github.com/mongodb/mongo',
     license: 'SSPL-1.0',
@@ -199,8 +223,11 @@ export const datenbankenTools: Tool[] = [
     name: 'Neo4j CE',
     slug: 'neo4j-ce',
     tagline: 'Fuehrende Graphdatenbank fuer vernetzte Daten',
+    taglineEn: 'Leading graph database for connected data',
     description:
       'Neo4j Community Edition ist die Open-Source-Version der weltweit fuehrenden Graphdatenbank. Sie speichert Daten als Knoten und Beziehungen und ermoeglicht mit der Abfragesprache Cypher intuitive Traversierungen komplexer Datenstrukturen. Neo4j eignet sich besonders fuer Empfehlungssysteme, Betrugserkennung, Wissensgraphen, Netzwerkanalyse und ueberall dort, wo Beziehungen zwischen Daten im Vordergrund stehen.',
+    descriptionEn:
+      'Neo4j Community Edition is the open-source version of the world\'s leading graph database. It stores data as nodes and relationships and enables intuitive traversals of complex data structures using the Cypher query language. Neo4j is particularly well-suited for recommendation engines, fraud detection, knowledge graphs, network analysis, and any scenario where relationships between data are paramount.',
     website: 'https://neo4j.com',
     github: 'https://github.com/neo4j/neo4j',
     license: 'GPL-3.0',
