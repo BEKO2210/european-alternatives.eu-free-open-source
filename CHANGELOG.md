@@ -5,6 +5,30 @@ Alle wesentlichen Änderungen an diesem Projekt werden in dieser Datei dokumenti
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.1.0/)
 und dieses Projekt folgt [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.4.0] - 2026-03-04
+
+### Added
+
+- Vollstaendige **englische Uebersetzung** der gesamten Webseite mit Astro's nativem i18n-System
+- DE/EN-Sprachumschalter (Toggle) in der Navigation
+- 13 englische Seitenvorlagen unter `src/pages/en/` (Index, Tools, Kategorien, About, Vergleich, Self-Hosting, Contribute, Impressum, Datenschutz, Lizenzuebersicht, 404, tool/[slug], category/[slug])
+- 266 uebersetzte UI-Strings in `src/i18n/ui.ts` inkl. aller 40 Kategorienamen und -beschreibungen
+- hreflang-Tags fuer SEO (DE/EN)
+- Sprachwechsel-Utility-Funktionen: getLangFromUrl, useTranslations, getLocalizedPath (`src/i18n/utils.ts`)
+- **Icons fuer alle 109 auto-discovered Tools**: GitHub-Owner-Avatare als PNG in `public/logos/` heruntergeladen
+- 6 neue SimpleIcon-Mappings (Coolify, Nhost, Apostrophe, Payload, TinaCMS, Grafana Operator)
+- logoUrl-Feld fuer 95 Auto-Tools ergaenzt — jedes Tool hat nun mindestens eine Icon-Quelle (PNG + logoUrl Fallback)
+- Star History Chart im README
+
+### Changed
+
+- Seitenanzahl: 401 → **806 Seiten** (Deutsch + Englisch)
+- Total Logos: **348 PNGs** im Projekt
+- Gesamtstatistik: 350+ Tools in 40 Kategorien, 806 Seiten, 2 Sprachen
+- Auto-Discovery: +2 neue FOSS-Tools (2026-03-03)
+
+---
+
 ## [1.3.1] - 2026-03-03
 
 ### Changed
