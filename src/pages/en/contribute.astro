@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import SearchModal from '../../components/ui/SearchModal.astro';
+---
+
+<BaseLayout title="Contribute – FOSS Alternatives" description="Learn how to contribute to the FOSS Alternatives project and submit new tools.">
+  <SearchModal />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <h1 class="text-4xl font-bold mb-4" style="color: var(--color-text-primary)">
+      <span class="gradient-text">Contribute</span>
+    </h1>
+    <p class="text-lg mb-12" style="color: var(--color-text-secondary)">
+      Help build the largest collection of free open-source alternatives.
+    </p>
+
+    <div class="space-y-8">
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Add a New Tool</h2>
+        <div class="space-y-4 text-sm" style="color: var(--color-text-secondary)">
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">1</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Fork the Repository</h3>
+              <p>Create a copy of the repository on your GitHub account.</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">2</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Create or Edit a Tool File</h3>
+              <p>Create a new entry in the appropriate file under <code class="px-1.5 py-0.5 rounded text-xs font-mono" style="background: var(--color-bg-tertiary)">src/data/tools/</code>. Use existing entries as templates.</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">3</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Fill in All Fields</h3>
+              <p>Make sure every field is filled in: name, description, website, license, categories, platforms, etc.</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">4</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Create a Pull Request</h3>
+              <p>Create a PR with a brief description of the new tool and why it should be included.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Acceptance Criteria</h2>
+        <ul class="space-y-2 text-sm" style="color: var(--color-text-secondary)">
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> The software must be open source (recognized OSI license)</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> There must be a free version (Community Edition is fine)</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> The project must be actively maintained</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> The software must be able to replace a proprietary alternative</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg> No abandonware or archived projects</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg> No source-available licenses (SSPL, BSL, etc.)</li>
+        </ul>
+      </section>
+
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Other Ways to Help</h2>
+        <ul class="space-y-2 text-sm" style="color: var(--color-text-secondary)">
+          <li><strong>Bug Reports:</strong> Report bugs as GitHub issues</li>
+          <li><strong>Improve Texts:</strong> Review or expand descriptions</li>
+          <li><strong>Update Star Counts:</strong> Keep GitHub stars up to date</li>
+          <li><strong>Share:</strong> Tell others about FOSS Alternatives</li>
+        </ul>
+      </section>
+
+      <div class="text-center pt-4">
+        <a
+          href="https://github.com/BEKO2210/european-alternatives.eu-free-open-source"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-all"
+        >
+          Go to GitHub Repository →
+        </a>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import SearchModal from '../../components/ui/SearchModal.astro';
+---
+
+<BaseLayout title="Legal Notice – FOSS Alternatives" description="Legal notice for the FOSS Alternatives website.">
+  <SearchModal />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <h1 class="text-4xl font-bold mb-8" style="color: var(--color-text-primary)">Legal Notice</h1>
+
+    <div class="card p-6 space-y-6" style="color: var(--color-text-secondary)">
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Information</h2>
+        <p>
+          FOSS Alternatives<br/>
+          Community Project<br/>
+          Open-source directory for free software alternatives
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Contact</h2>
+        <p>
+          GitHub: <a href="https://github.com/BEKO2210/european-alternatives.eu-free-open-source" target="_blank" rel="noopener noreferrer">BEKO2210/european-alternatives.eu-free-open-source</a>
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Disclaimer</h2>
+        <h3 class="font-medium mt-3 mb-1" style="color: var(--color-text-primary)">Liability for Content</h3>
+        <p class="text-sm">
+          The contents of this website have been created with the utmost care. However, we cannot guarantee the accuracy, completeness and timeliness of the content.
+        </p>
+        <h3 class="font-medium mt-3 mb-1" style="color: var(--color-text-primary)">Liability for Links</h3>
+        <p class="text-sm">
+          This website contains links to external third-party websites over whose content we have no influence. The respective provider or operator is always responsible for the content of the linked pages.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Copyright</h2>
+        <p class="text-sm">
+          The code of this website is licensed under the MIT License. The content (texts, descriptions) is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+        </p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

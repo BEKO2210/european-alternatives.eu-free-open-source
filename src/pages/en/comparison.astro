@@ -1,0 +1,125 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import SearchModal from '../../components/ui/SearchModal.astro';
+import { allTools } from '../../data/tools/index';
+
+const base = import.meta.env.BASE_URL;
+
+const replacementMap = new Map<string, typeof allTools>();
+allTools.forEach(tool => {
+  tool.replacesTools.forEach(propTool => {
+    if (!replacementMap.has(propTool)) {
+      replacementMap.set(propTool, []);
+    }
+    replacementMap.get(propTool)!.push(tool);
+  });
+});
+
+const popularReplacements = [
+  'Google Drive', 'Dropbox', 'Microsoft Office', 'Google Docs',
+  'Slack', 'WhatsApp', 'Zoom', 'Google Meet',
+  'Adobe Photoshop', 'Figma', 'Notion', 'Jira',
+  'GitHub', 'Google Analytics', 'ChatGPT', 'LastPass',
+  'Windows', 'Google Chrome',
+];
+
+const sortedEntries = Array.from(replacementMap.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+---
+
+<BaseLayout title="Comparison: Proprietary vs. FOSS – FOSS Alternatives" description="Find the right open-source alternative to proprietary software. Compare Google, Microsoft, Adobe and more.">
+  <SearchModal />
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4" style="color: var(--color-text-primary)">
+        Proprietary → <span class="gradient-text">FOSS</span>
+      </h1>
+      <p class="text-lg max-w-2xl mx-auto" style="color: var(--color-text-secondary)">
+        Which proprietary tool do you want to replace? Find the best open-source alternative.
+      </p>
+    </div>
+
+    <!-- Search -->
+    <div class="max-w-xl mx-auto mb-10">
+      <input
+        type="text"
+        id="compare-search"
+        placeholder="Search proprietary tool (e.g. Google Drive, Slack, Photoshop)..."
+        class="w-full px-5 py-3 rounded-xl text-base outline-none"
+        style="background: var(--color-bg-secondary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+      />
+    </div>
+
+    <!-- Popular suggestions -->
+    <div class="flex flex-wrap justify-center gap-2 mb-12">
+      {popularReplacements.filter(p => replacementMap.has(p)).map(p => (
+        <button
+          class="compare-suggestion px-3 py-1.5 rounded-full text-xs font-medium transition-colors hover:bg-indigo-500/20 hover:text-indigo-300 hover:border-indigo-500/30"
+          style="background: var(--color-bg-secondary); color: var(--color-text-muted); border: 1px solid var(--color-border)"
+          data-term={p}
+        >
+          {p}
+        </button>
+      ))}
+    </div>
+
+    <!-- Results -->
+    <div id="compare-results" class="space-y-4">
+      {sortedEntries.map(([propTool, alternatives]) => (
+        <div
+          class="compare-row card p-5"
+          data-prop-tool={propTool.toLowerCase()}
+        >
+          <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+            <div class="flex items-center gap-2 sm:w-1/3">
+              <svg class="w-5 h-5 text-red-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>
+              <span class="font-medium line-through" style="color: var(--color-text-muted)">{propTool}</span>
+            </div>
+
+            <div class="hidden sm:block" style="color: var(--color-text-muted)">→</div>
+
+            <div class="flex-1 flex flex-wrap gap-2">
+              {alternatives.map(alt => (
+                <a
+                  href={`${base}en/tool/${alt.slug}/`}
+                  class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium no-underline hover:no-underline transition-colors"
+                  style="background: var(--color-accent-green-glow); border: 1px solid rgba(34,197,94,0.3); color: #86efac"
+                >
+                  <svg class="w-4 h-4 text-green-400 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                  {alt.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  const searchInput = document.getElementById('compare-search') as HTMLInputElement;
+  const rows = document.querySelectorAll('.compare-row');
+  const suggestions = document.querySelectorAll('.compare-suggestion');
+
+  function filterRows(term: string) {
+    const q = term.toLowerCase();
+    rows.forEach(row => {
+      const el = row as HTMLElement;
+      const propTool = el.dataset.propTool ?? '';
+      el.style.display = !q || propTool.includes(q) ? '' : 'none';
+    });
+  }
+
+  searchInput?.addEventListener('input', () => filterRows(searchInput.value));
+
+  suggestions.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const term = (btn as HTMLElement).dataset.term ?? '';
+      if (searchInput) {
+        searchInput.value = term;
+        filterRows(term);
+      }
+    });
+  });
+</script>

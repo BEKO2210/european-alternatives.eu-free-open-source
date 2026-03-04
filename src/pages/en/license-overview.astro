@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import SearchModal from '../../components/ui/SearchModal.astro';
+---
+
+<BaseLayout title="License Overview – FOSS Alternatives" description="Understand the most common open-source licenses: MIT, GPL, AGPL, Apache, MPL and more.">
+  <SearchModal />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <h1 class="text-4xl font-bold mb-4" style="color: var(--color-text-primary)">
+      <span class="gradient-text">License Overview</span>
+    </h1>
+    <p class="text-lg mb-12" style="color: var(--color-text-secondary)">
+      Open-source licenses at a glance — what you can, must and cannot do.
+    </p>
+
+    <div class="space-y-6">
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="badge badge-mit">MIT</span>
+          <h2 class="text-lg font-semibold" style="color: var(--color-text-primary)">MIT License</h2>
+        </div>
+        <p class="text-sm mb-3" style="color: var(--color-text-secondary)">The most permissive standard license. Allows almost everything as long as the copyright notice is retained.</p>
+        <div class="grid grid-cols-3 gap-4 text-xs">
+          <div><strong class="text-green-400">Permitted:</strong><br/><span style="color: var(--color-text-muted)">Commercial use, modification, distribution, private use</span></div>
+          <div><strong class="text-yellow-400">Required:</strong><br/><span style="color: var(--color-text-muted)">Include license and copyright notice</span></div>
+          <div><strong class="text-red-400">Forbidden:</strong><br/><span style="color: var(--color-text-muted)">Author liability</span></div>
+        </div>
+      </div>
+
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="badge badge-apache">Apache-2.0</span>
+          <h2 class="text-lg font-semibold" style="color: var(--color-text-primary)">Apache License 2.0</h2>
+        </div>
+        <p class="text-sm mb-3" style="color: var(--color-text-secondary)">Similar to MIT but with explicit patent grant. Ideal for businesses.</p>
+        <div class="grid grid-cols-3 gap-4 text-xs">
+          <div><strong class="text-green-400">Permitted:</strong><br/><span style="color: var(--color-text-muted)">Commercial use, modification, distribution, patent use</span></div>
+          <div><strong class="text-yellow-400">Required:</strong><br/><span style="color: var(--color-text-muted)">Include license, document changes</span></div>
+          <div><strong class="text-red-400">Forbidden:</strong><br/><span style="color: var(--color-text-muted)">Trademark use, liability</span></div>
+        </div>
+      </div>
+
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="badge badge-gpl">GPL-3.0</span>
+          <h2 class="text-lg font-semibold" style="color: var(--color-text-primary)">GNU General Public License v3</h2>
+        </div>
+        <p class="text-sm mb-3" style="color: var(--color-text-secondary)">Copyleft license: derived works must also be published under GPL. Protects software freedom.</p>
+        <div class="grid grid-cols-3 gap-4 text-xs">
+          <div><strong class="text-green-400">Permitted:</strong><br/><span style="color: var(--color-text-muted)">Commercial use, modification, distribution</span></div>
+          <div><strong class="text-yellow-400">Required:</strong><br/><span style="color: var(--color-text-muted)">Publish source code, use same license</span></div>
+          <div><strong class="text-red-400">Forbidden:</strong><br/><span style="color: var(--color-text-muted)">Liability, proprietary sublicensing</span></div>
+        </div>
+      </div>
+
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="badge badge-agpl">AGPL-3.0</span>
+          <h2 class="text-lg font-semibold" style="color: var(--color-text-primary)">GNU Affero General Public License v3</h2>
+        </div>
+        <p class="text-sm mb-3" style="color: var(--color-text-secondary)">Like GPL, but also for server software: if you offer the software over a network, you must provide the source code.</p>
+        <div class="grid grid-cols-3 gap-4 text-xs">
+          <div><strong class="text-green-400">Permitted:</strong><br/><span style="color: var(--color-text-muted)">Commercial use, modification, distribution</span></div>
+          <div><strong class="text-yellow-400">Required:</strong><br/><span style="color: var(--color-text-muted)">Provide source code (even for network use)</span></div>
+          <div><strong class="text-red-400">Forbidden:</strong><br/><span style="color: var(--color-text-muted)">Liability, proprietary sublicensing</span></div>
+        </div>
+      </div>
+
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="badge badge-lgpl">LGPL-3.0</span>
+          <h2 class="text-lg font-semibold" style="color: var(--color-text-primary)">GNU Lesser General Public License v3</h2>
+        </div>
+        <p class="text-sm mb-3" style="color: var(--color-text-secondary)">Weaker copyleft: the library stays free, but programs using it may be proprietary.</p>
+        <div class="grid grid-cols-3 gap-4 text-xs">
+          <div><strong class="text-green-400">Permitted:</strong><br/><span style="color: var(--color-text-muted)">Commercial use, linking with proprietary code</span></div>
+          <div><strong class="text-yellow-400">Required:</strong><br/><span style="color: var(--color-text-muted)">Publish changes to the library</span></div>
+          <div><strong class="text-red-400">Forbidden:</strong><br/><span style="color: var(--color-text-muted)">Liability</span></div>
+        </div>
+      </div>
+
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="badge badge-mpl">MPL-2.0</span>
+          <h2 class="text-lg font-semibold" style="color: var(--color-text-primary)">Mozilla Public License 2.0</h2>
+        </div>
+        <p class="text-sm mb-3" style="color: var(--color-text-secondary)">File-level copyleft: modified files must stay under MPL, new files can be proprietary.</p>
+        <div class="grid grid-cols-3 gap-4 text-xs">
+          <div><strong class="text-green-400">Permitted:</strong><br/><span style="color: var(--color-text-muted)">Commercial use, modification, mixing with proprietary code</span></div>
+          <div><strong class="text-yellow-400">Required:</strong><br/><span style="color: var(--color-text-muted)">Disclose modified MPL files</span></div>
+          <div><strong class="text-red-400">Forbidden:</strong><br/><span style="color: var(--color-text-muted)">Liability, trademark use</span></div>
+        </div>
+      </div>
+
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="badge badge-bsd">BSD-2/3-Clause</span>
+          <h2 class="text-lg font-semibold" style="color: var(--color-text-primary)">BSD License</h2>
+        </div>
+        <p class="text-sm mb-3" style="color: var(--color-text-secondary)">Very permissive, similar to MIT. The 3-Clause variant additionally prohibits using the project name for advertising.</p>
+        <div class="grid grid-cols-3 gap-4 text-xs">
+          <div><strong class="text-green-400">Permitted:</strong><br/><span style="color: var(--color-text-muted)">Commercial use, modification, distribution</span></div>
+          <div><strong class="text-yellow-400">Required:</strong><br/><span style="color: var(--color-text-muted)">Include copyright notice</span></div>
+          <div><strong class="text-red-400">Forbidden:</strong><br/><span style="color: var(--color-text-muted)">Liability</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

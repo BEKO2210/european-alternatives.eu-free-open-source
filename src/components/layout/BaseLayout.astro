@@ -2,6 +2,7 @@
 import Navigation from './Navigation.astro';
 import Footer from './Footer.astro';
 import '../../styles/global.css';
+import { getLangFromUrl, useTranslations, getLocalizedPath } from '../../i18n/utils';
 
 interface Props {
   title: string;
@@ -9,14 +10,19 @@ interface Props {
   ogImage?: string;
 }
 
-const { title, description = 'FOSS Alternatives – Deine Freiheit. Dein Code. Deine Zukunft. Finde kostenlose Open-Source-Alternativen zu proprietärer Software.', ogImage } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const { title, description = t('layout.defaultDescription'), ogImage } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const base = import.meta.env.BASE_URL;
 const ogImageUrl = ogImage ?? `${Astro.site}${base}og-image.png`.replace(/\/\//g, '/').replace('https:/', 'https://');
+
+const deUrl = new URL(getLocalizedPath(Astro.url, 'de'), Astro.site);
+const enUrl = new URL(getLocalizedPath(Astro.url, 'en'), Astro.site);
 ---
 
 <!doctype html>
-<html lang="de">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,12 +35,18 @@ const ogImageUrl = ogImage ?? `${Astro.site}${base}og-image.png`.replace(/\/\//g
     <link rel="sitemap" href={`${base}sitemap-index.xml`} />
     <link rel="alternate" type="application/rss+xml" title="FOSS Alternatives RSS" href={`${base}rss.xml`} />
 
+    <!-- hreflang tags for SEO -->
+    <link rel="alternate" hreflang="de" href={deUrl} />
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="x-default" href={deUrl} />
+
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:locale" content={lang === 'de' ? 'de_DE' : 'en_US'} />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -53,7 +65,7 @@ const ogImageUrl = ogImage ?? `${Astro.site}${base}og-image.png`.replace(/\/\//g
     </script>
   </head>
   <body class="min-h-screen flex flex-col">
-    <a href="#main-content" class="skip-link">Zum Inhalt springen</a>
+    <a href="#main-content" class="skip-link">{t('layout.skipToContent')}</a>
     <Navigation />
     <main id="main-content" class="flex-1">
       <slot />
@@ -64,8 +76,8 @@ const ogImageUrl = ogImage ?? `${Astro.site}${base}og-image.png`.replace(/\/\//g
     <button
       id="scroll-to-top"
       class="fixed bottom-6 right-6 z-50 hidden w-10 h-10 rounded-full bg-gray-800 hover:bg-gray-700 text-white shadow-lg transition-all duration-300 items-center justify-center"
-      aria-label="Zur&uuml;ck nach oben"
-      title="Zur&uuml;ck nach oben"
+      aria-label={t('layout.backToTop')}
+      title={t('layout.backToTop')}
     >
       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />

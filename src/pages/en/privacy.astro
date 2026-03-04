@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import SearchModal from '../../components/ui/SearchModal.astro';
+---
+
+<BaseLayout title="Privacy Policy – FOSS Alternatives" description="Privacy policy for the FOSS Alternatives website.">
+  <SearchModal />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <h1 class="text-4xl font-bold mb-8" style="color: var(--color-text-primary)">Privacy Policy</h1>
+
+    <div class="card p-6 space-y-6" style="color: var(--color-text-secondary)">
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Principle</h2>
+        <p class="text-sm">
+          This website was developed with maximum privacy in mind. We do not collect personal data, do not use cookies and do not employ any tracking tools.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Hosting</h2>
+        <p class="text-sm">
+          This website is hosted on GitHub Pages. When visiting this website, GitHub automatically creates server log files that may contain information such as the IP address, the browser used and the time of access. For more information, see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Cookies</h2>
+        <p class="text-sm">
+          This website does not use cookies. The only local storage is the theme preference (Dark/Light Mode) in your browser's localStorage. This information never leaves your browser.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Analytics & Tracking</h2>
+        <p class="text-sm">
+          This website does not use any analytics or tracking tools. No Google Analytics, no Matomo, no pixels. We don't know who visits this site, and that's intentional.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">External Links</h2>
+        <p class="text-sm">
+          This website links to external websites (tool websites, GitHub repositories). When clicking these links, the privacy policies of the respective external sites apply. All external links are marked with <code class="px-1 py-0.5 rounded text-xs font-mono" style="background: var(--color-bg-tertiary)">rel="noopener noreferrer"</code>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Fonts</h2>
+        <p class="text-sm">
+          All fonts (Inter, JetBrains Mono) are self-hosted and not loaded from external CDNs. No connections to Google Fonts or other font services are made.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-2" style="color: var(--color-text-primary)">Your Rights</h2>
+        <p class="text-sm">
+          Since we do not collect personal data, there is no data we could delete, correct or share. If you have questions about this privacy policy, you can create an issue in our <a href="https://github.com/BEKO2210/european-alternatives.eu-free-open-source" target="_blank" rel="noopener noreferrer">GitHub Repository</a>.
+        </p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

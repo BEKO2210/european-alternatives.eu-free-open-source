@@ -1,12 +1,12 @@
 ---
-import BaseLayout from '../../components/layout/BaseLayout.astro';
-import SearchModal from '../../components/ui/SearchModal.astro';
-import ToolGrid from '../../components/tools/ToolGrid.astro';
-import { allTools } from '../../data/tools/index';
-import { categories } from '../../data/categories';
-import { getCategoryBySlug } from '../../utils/categories';
-import { getToolsByCategory } from '../../utils/tools';
-import { getLangFromUrl, useTranslations, getHomeHref } from '../../i18n/utils';
+import BaseLayout from '../../../components/layout/BaseLayout.astro';
+import SearchModal from '../../../components/ui/SearchModal.astro';
+import ToolGrid from '../../../components/tools/ToolGrid.astro';
+import { allTools } from '../../../data/tools/index';
+import { categories } from '../../../data/categories';
+import { getCategoryBySlug } from '../../../utils/categories';
+import { getToolsByCategory } from '../../../utils/tools';
+import { getLangFromUrl, useTranslations, getHomeHref, getCategoryName, getCategoryDescription, getCategoryReplaces } from '../../../i18n/utils';
 
 export function getStaticPaths() {
   return categories.map((cat) => ({
@@ -19,16 +19,20 @@ const base = import.meta.env.BASE_URL;
 const category = getCategoryBySlug(categories, slug!);
 
 if (!category) {
-  return Astro.redirect(`${base}kategorien/`);
+  return Astro.redirect(`${base}en/categories/`);
 }
 
 const tools = getToolsByCategory(allTools, slug!);
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const homeHref = getHomeHref(lang);
+
+const displayName = getCategoryName(category.slug, lang) || category.name;
+const displayDescription = getCategoryDescription(category.slug, lang) || category.description;
+const displayReplaces = getCategoryReplaces(category.slug, lang) || category.replacesCategory;
 ---
 
-<BaseLayout title={`${category.name} – FOSS Alternatives`} description={category.description}>
+<BaseLayout title={`${displayName} – FOSS Alternatives`} description={displayDescription}>
   <SearchModal />
 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
@@ -37,9 +41,9 @@ const homeHref = getHomeHref(lang);
       <ol class="flex items-center gap-2" style="color: var(--color-text-muted)">
         <li><a href={homeHref} class="hover:text-indigo-400">{t('catPage.home')}</a></li>
         <li>/</li>
-        <li><a href={`${base}kategorien/`} class="hover:text-indigo-400">{t('catPage.categories')}</a></li>
+        <li><a href={`${base}en/categories/`} class="hover:text-indigo-400">{t('catPage.categories')}</a></li>
         <li>/</li>
-        <li style="color: var(--color-text-primary)">{category.name}</li>
+        <li style="color: var(--color-text-primary)">{displayName}</li>
       </ol>
     </nav>
 
@@ -49,15 +53,15 @@ const homeHref = getHomeHref(lang);
         <span class="text-5xl">{category.emoji}</span>
         <div>
           <h1 class="text-3xl font-bold" style="color: var(--color-text-primary)">
-            {category.name}
+            {displayName}
           </h1>
           <p class="text-sm mt-1" style="color: var(--color-accent-orange)">
-            {t('catPage.replaces')} {category.replacesCategory}
+            {t('catPage.replaces')} {displayReplaces}
           </p>
         </div>
       </div>
       <p class="text-lg max-w-3xl" style="color: var(--color-text-secondary)">
-        {category.description}
+        {displayDescription}
       </p>
       <div class="mt-4">
         <span class="badge badge-foss">🛡️ {tools.length} {t('catPage.openSourceTools')}</span>
