@@ -6,8 +6,11 @@ export const fotosTools: Tool[] = [
     name: 'Immich',
     slug: 'immich',
     tagline: 'Selbst gehostete Foto- und Videoverwaltung mit mobiler App',
+    taglineEn: 'Self-hosted photo and video management with mobile app',
     description:
       'Immich ist eine leistungsstarke, selbst gehostete Loesung fuer Foto- und Videoverwaltung mit automatischem Backup von Mobilgeraeten. Es bietet Gesichtserkennung, Kartenansicht, Shared Albums und eine moderne Benutzeroberflaeche, die Google Photos sehr aehnlich ist.',
+    descriptionEn:
+      'Immich is a powerful, self-hosted solution for photo and video management with automatic backup from mobile devices. It offers facial recognition, map view, shared albums, and a modern user interface that closely resembles Google Photos.',
     website: 'https://immich.app',
     github: 'https://github.com/immich-app/immich',
     license: 'AGPL-3.0',
@@ -29,8 +32,11 @@ export const fotosTools: Tool[] = [
     name: 'PhotoPrism',
     slug: 'photoprism',
     tagline: 'KI-gestuetzte Fotoverwaltung fuer dezentrale Speicherung',
+    taglineEn: 'AI-powered photo management for decentralized storage',
     description:
       'PhotoPrism ist eine KI-gestuetzte Foto-App fuer die dezentrale Speicherung. Sie bietet automatische Bild-Klassifizierung, Gesichtserkennung, Geo-Tagging und unterstuetzt RAW-Formate. PhotoPrism laeuft auf Servern, NAS-Systemen und in der Cloud.',
+    descriptionEn:
+      'PhotoPrism is an AI-powered photo app for decentralized storage. It offers automatic image classification, facial recognition, geo-tagging, and supports RAW formats. PhotoPrism runs on servers, NAS systems, and in the cloud.',
     website: 'https://photoprism.app',
     github: 'https://github.com/photoprism/photoprism',
     license: 'AGPL-3.0',
@@ -51,8 +57,11 @@ export const fotosTools: Tool[] = [
     name: 'Ente',
     slug: 'ente',
     tagline: 'Ende-zu-Ende verschluesselte Foto-Speicherung und Backup',
+    taglineEn: 'End-to-end encrypted photo storage and backup',
     description:
       'Ente bietet Ende-zu-Ende-verschluesselte Foto- und Videospeicherung mit automatischem Backup. Es bietet Shared Albums, Familienkonten und eine elegante Benutzeroberflaeche. Ente ist vollstaendig quelloffen und bietet sowohl gehostete als auch selbst hostbare Optionen.',
+    descriptionEn:
+      'Ente provides end-to-end encrypted photo and video storage with automatic backup. It offers shared albums, family accounts, and an elegant user interface. Ente is fully open source and provides both hosted and self-hostable options.',
     website: 'https://ente.io',
     github: 'https://github.com/ente-io/ente',
     license: 'AGPL-3.0',
@@ -75,8 +84,11 @@ export const fotosTools: Tool[] = [
     name: 'LibrePhotos',
     slug: 'librephotos',
     tagline: 'Selbst gehostete Google-Photos-Alternative mit KI-Funktionen',
+    taglineEn: 'Self-hosted Google Photos alternative with AI features',
     description:
       'LibrePhotos ist eine selbst gehostete Open-Source-Fotoverwaltung mit KI-gestuetzter Gesichtserkennung, automatischer Gruppierung und Geo-Tagging. Es ist als Fork von Ownphotos entstanden und bietet eine moderne, Google-Photos-aehnliche Benutzeroberflaeche.',
+    descriptionEn:
+      'LibrePhotos is a self-hosted open-source photo management tool with AI-powered facial recognition, automatic grouping, and geo-tagging. It originated as a fork of Ownphotos and offers a modern, Google Photos-like user interface.',
     website: 'https://github.com/LibrePhotos/librephotos',
     github: 'https://github.com/LibrePhotos/librephotos',
     license: 'MIT',
@@ -97,8 +109,11 @@ export const fotosTools: Tool[] = [
     name: 'Piwigo',
     slug: 'piwigo',
     tagline: 'Bewaehrte Open-Source-Fotogalerie fuer Organisationen und Privatpersonen',
+    taglineEn: 'Proven open-source photo gallery for organizations and individuals',
     description:
       'Piwigo ist eine seit 2002 entwickelte Open-Source-Fotogalerie-Software. Sie bietet Albumverwaltung, Batch-Upload, Plugins, Themes und Benutzerrechteverwaltung. Piwigo ist besonders geeignet fuer Vereine, Schulen und Organisationen mit grossen Bildsammlungen.',
+    descriptionEn:
+      'Piwigo is an open-source photo gallery software developed since 2002. It offers album management, batch upload, plugins, themes, and user permission management. Piwigo is particularly suited for clubs, schools, and organizations with large image collections.',
     website: 'https://piwigo.org',
     github: 'https://github.com/Piwigo/Piwigo',
     license: 'GPL-2.0',
@@ -121,8 +136,11 @@ export const fotosTools: Tool[] = [
     name: 'Lychee',
     slug: 'lychee',
     tagline: 'Elegante, selbst gehostete Fotogalerie mit modernem Design',
+    taglineEn: 'Elegant, self-hosted photo gallery with modern design',
     description:
       'Lychee ist eine elegante, benutzerfreundliche Fotogalerie zum Selbsthosten. Sie bietet eine minimalistische Benutzeroberflaeche, Unterstuetzung fuer LivePhotos und Videos, GPS-Daten-Auswertung, Multi-User-Unterstuetzung und ein responsives Design.',
+    descriptionEn:
+      'Lychee is an elegant, user-friendly photo gallery for self-hosting. It offers a minimalist user interface, support for LivePhotos and videos, GPS data analysis, multi-user support, and a responsive design.',
     website: 'https://lychee.electerious.com',
     github: 'https://github.com/LycheeOrg/Lychee',
     license: 'MIT',

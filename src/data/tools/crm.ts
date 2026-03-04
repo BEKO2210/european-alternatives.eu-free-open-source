@@ -6,8 +6,10 @@ export const crmTools: Tool[] = [
     name: 'SuiteCRM',
     slug: 'suitecrm',
     tagline: 'Enterprise-taugliches Open-Source-CRM',
+    taglineEn: 'Enterprise-grade open-source CRM',
     description:
       'SuiteCRM ist ein funktionsreiches, quelloffenes CRM-System, das als vollwertige Alternative zu Salesforce entwickelt wurde. Es bietet Vertriebsautomatisierung, Marketing-Kampagnen, Kundenservice-Module, Berichtswesen und Workflow-Management fuer Unternehmen jeder Groesse.',
+    descriptionEn: 'SuiteCRM is a feature-rich, open-source CRM system developed as a full-fledged alternative to Salesforce. It offers sales automation, marketing campaigns, customer service modules, reporting, and workflow management for businesses of all sizes.',
     website: 'https://suitecrm.com',
     github: 'https://github.com/salesagility/SuiteCRM',
     license: 'AGPL-3.0',
@@ -29,8 +31,10 @@ export const crmTools: Tool[] = [
     name: 'EspoCRM',
     slug: 'espocrm',
     tagline: 'Flexibles CRM mit moderner Weboberflaeche',
+    taglineEn: 'Flexible CRM with a modern web interface',
     description:
       'EspoCRM ist ein flexibles, quelloffenes CRM-System mit einer modernen Single-Page-Weboberflaeche. Es bietet Kontaktverwaltung, Vertriebspipeline, E-Mail-Integration, Kalender, Aufgabenverwaltung und ist durch den Entity Manager leicht anpassbar.',
+    descriptionEn: 'EspoCRM is a flexible, open-source CRM system with a modern single-page web interface. It offers contact management, sales pipeline, email integration, calendar, task management, and is easily customizable through the Entity Manager.',
     website: 'https://www.espocrm.com',
     github: 'https://github.com/espocrm/espocrm',
     license: 'AGPL-3.0',
@@ -52,8 +56,10 @@ export const crmTools: Tool[] = [
     name: 'Twenty CRM',
     slug: 'twenty-crm',
     tagline: 'Modernes Open-Source-CRM der naechsten Generation',
+    taglineEn: 'Modern next-generation open-source CRM',
     description:
       'Twenty CRM ist ein modernes, quelloffenes CRM-System, das mit einer eleganten Benutzeroberflaeche und einer flexiblen Datenarchitektur ueberzeugt. Es bietet Kontaktverwaltung, Unternehmenspipeline, Aufgaben, E-Mail-Synchronisation und eine erweiterbare API.',
+    descriptionEn: 'Twenty CRM is a modern, open-source CRM system that impresses with an elegant user interface and a flexible data architecture. It offers contact management, company pipeline, tasks, email synchronization, and an extensible API.',
     website: 'https://twenty.com',
     github: 'https://github.com/twentyhq/twenty',
     license: 'AGPL-3.0',
@@ -75,8 +81,10 @@ export const crmTools: Tool[] = [
     name: 'Vtiger CE',
     slug: 'vtiger-ce',
     tagline: 'All-in-One-CRM fuer Vertrieb und Support',
+    taglineEn: 'All-in-one CRM for sales and support',
     description:
       'Vtiger Community Edition ist ein umfassendes Open-Source-CRM, das Vertrieb, Marketing und Kundensupport in einer einzigen Plattform vereint. Es bietet Lead-Management, Angebotserstellung, Ticketsystem, Wissensdatenbank und ausfuehrliche Vertriebsberichte.',
+    descriptionEn: 'Vtiger Community Edition is a comprehensive open-source CRM that combines sales, marketing, and customer support in a single platform. It offers lead management, quote generation, a ticket system, knowledge base, and detailed sales reports.',
     website: 'https://www.vtiger.com/open-source-crm/',
     github: 'https://github.com/AceProfessworksLimited/vtigercrm',
     license: 'VPL-1.1',

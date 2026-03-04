@@ -6,8 +6,11 @@ export const kartenTools: Tool[] = [
     name: 'OpenStreetMap',
     slug: 'openstreetmap',
     tagline: 'Die freie Weltkarte von der Community',
+    taglineEn: 'The free world map built by the community',
     description:
       'OpenStreetMap ist das groesste freie Kartenprojekt der Welt, erstellt und gepflegt von einer globalen Community. Es bietet detaillierte, frei nutzbare Geodaten fuer Karten, Navigation, Geocoding und raumbezogene Analysen ohne proprietaere Einschraenkungen.',
+    descriptionEn:
+      'OpenStreetMap is the largest free mapping project in the world, created and maintained by a global community. It provides detailed, freely usable geodata for maps, navigation, geocoding, and spatial analysis without proprietary restrictions.',
     website: 'https://www.openstreetmap.org',
     github: 'https://github.com/openstreetmap/openstreetmap-website',
     license: 'GPL-2.0',
@@ -30,8 +33,11 @@ export const kartenTools: Tool[] = [
     name: 'Leaflet.js',
     slug: 'leafletjs',
     tagline: 'Leichtgewichtige JavaScript-Kartenbibliothek',
+    taglineEn: 'Lightweight JavaScript map library',
     description:
       'Leaflet.js ist die fuehrende leichtgewichtige JavaScript-Bibliothek fuer interaktive Karten. Mit nur 42 KB bietet sie Marker, Popups, Tile-Layer, GeoJSON-Unterstuetzung und ein reiches Plugin-Oekosystem. Leaflet ist mobilfreundlich und funktioniert in allen modernen Browsern.',
+    descriptionEn:
+      'Leaflet.js is the leading lightweight JavaScript library for interactive maps. At only 42 KB, it provides markers, popups, tile layers, GeoJSON support, and a rich plugin ecosystem. Leaflet is mobile-friendly and works in all modern browsers.',
     website: 'https://leafletjs.com',
     github: 'https://github.com/Leaflet/Leaflet',
     license: 'BSD-2-Clause',
@@ -52,8 +58,11 @@ export const kartenTools: Tool[] = [
     name: 'OpenLayers',
     slug: 'openlayers',
     tagline: 'Leistungsstarke Kartenbibliothek fuer Webentwickler',
+    taglineEn: 'Powerful map library for web developers',
     description:
       'OpenLayers ist eine leistungsstarke, quelloffene JavaScript-Bibliothek fuer dynamische Karten im Web. Sie unterstuetzt OGC-Standards (WMS, WFS, WMTS), Vektorkarten, WebGL-Rendering, Projektionen und bietet umfangreiche Funktionen fuer GIS-Anwendungen und Geodatenvisualisierung.',
+    descriptionEn:
+      'OpenLayers is a powerful, open-source JavaScript library for dynamic web maps. It supports OGC standards (WMS, WFS, WMTS), vector maps, WebGL rendering, projections, and provides extensive features for GIS applications and geodata visualization.',
     website: 'https://openlayers.org',
     github: 'https://github.com/openlayers/openlayers',
     license: 'BSD-2-Clause',
@@ -74,8 +83,11 @@ export const kartenTools: Tool[] = [
     name: 'Nominatim',
     slug: 'nominatim',
     tagline: 'Geocoding und Reverse-Geocoding mit OpenStreetMap',
+    taglineEn: 'Geocoding and reverse geocoding with OpenStreetMap',
     description:
       'Nominatim ist ein Open-Source-Geocoding-Dienst, der OpenStreetMap-Daten verwendet, um Adressen in Koordinaten und umgekehrt umzuwandeln. Es bietet Volltextsuche, strukturierte Abfragen, Reverse-Geocoding und kann fuer unabhaengige Geocoding-Infrastruktur selbst gehostet werden.',
+    descriptionEn:
+      'Nominatim is an open-source geocoding service that uses OpenStreetMap data to convert addresses into coordinates and vice versa. It offers full-text search, structured queries, reverse geocoding, and can be self-hosted for independent geocoding infrastructure.',
     website: 'https://nominatim.org',
     github: 'https://github.com/osm-search/Nominatim',
     license: 'GPL-3.0',
@@ -97,8 +109,11 @@ export const kartenTools: Tool[] = [
     name: 'OSRM',
     slug: 'osrm',
     tagline: 'Hochleistungs-Routing-Engine fuer OpenStreetMap',
+    taglineEn: 'High-performance routing engine for OpenStreetMap',
     description:
       'OSRM (Open Source Routing Machine) ist eine hochleistungsfaehige Routing-Engine fuer kuerzeste Wege in Strassennetzen. Sie berechnet Routen in Millisekunden, bietet Entfernungsmatrizen, Reisezeitberechnung und Kartenabgleich und unterstuetzt Auto-, Fahrrad- und Fussprofile.',
+    descriptionEn:
+      'OSRM (Open Source Routing Machine) is a high-performance routing engine for shortest paths in road networks. It calculates routes in milliseconds, provides distance matrices, travel time calculations, and map matching, and supports car, bicycle, and pedestrian profiles.',
     website: 'https://project-osrm.org',
     github: 'https://github.com/Project-OSRM/osrm-backend',
     license: 'BSD-2-Clause',
@@ -120,8 +135,11 @@ export const kartenTools: Tool[] = [
     name: 'Valhalla',
     slug: 'valhalla',
     tagline: 'Multimodales Open-Source-Routing fuer alle Verkehrsmittel',
+    taglineEn: 'Multimodal open-source routing for all modes of transport',
     description:
       'Valhalla ist eine quelloffene, multimodale Routing-Engine, die Auto-, Fahrrad-, Fussgaenger- und OePNV-Routing unterstuetzt. Sie bietet Isochrone-Berechnung, Kartenabgleich, optimierte Routenplanung, Hoehenprofile und Wendeanweisungen fuer umfassende Mobilitaetsloesungen.',
+    descriptionEn:
+      'Valhalla is an open-source, multimodal routing engine that supports car, bicycle, pedestrian, and public transit routing. It offers isochrone calculations, map matching, optimized route planning, elevation profiles, and turn-by-turn directions for comprehensive mobility solutions.',
     website: 'https://valhalla.github.io/valhalla/',
     github: 'https://github.com/valhalla/valhalla',
     license: 'MIT',

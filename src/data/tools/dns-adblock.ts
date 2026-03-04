@@ -6,8 +6,11 @@ export const dnsAdblockTools: Tool[] = [
     name: 'Pi-hole',
     slug: 'pi-hole',
     tagline: 'Netzwerkweiter Werbeblocker auf DNS-Ebene',
+    taglineEn: 'Network-wide ad blocker at the DNS level',
     description:
       'Pi-hole ist ein netzwerkweiter Werbeblocker, der als DNS-Sinkhole fungiert. Er blockiert Werbung und Tracker fuer alle Geraete im Netzwerk ohne clientseitige Software. Pi-hole bietet ein uebersichtliches Web-Dashboard, detaillierte Statistiken und anpassbare Blocklisten.',
+    descriptionEn:
+      'Pi-hole is a network-wide ad blocker that acts as a DNS sinkhole. It blocks ads and trackers for all devices on the network without client-side software. Pi-hole offers a clear web dashboard, detailed statistics, and customizable block lists.',
     website: 'https://pi-hole.net',
     github: 'https://github.com/pi-hole/pi-hole',
     license: 'EUPL-1.2',
@@ -29,8 +32,11 @@ export const dnsAdblockTools: Tool[] = [
     name: 'AdGuard Home',
     slug: 'adguard-home',
     tagline: 'DNS-basierter Werbe- und Tracker-Blocker',
+    taglineEn: 'DNS-based ad and tracker blocker',
     description:
       'AdGuard Home ist ein netzwerkweiter Werbe- und Tracker-Blocker mit DNS-over-HTTPS, DNS-over-TLS und DNSCrypt-Unterstuetzung. Er bietet eine moderne Weboberflaeche, elterliche Kontrolle, Safe-Browsing-Funktionen und detaillierte Abfrageprotokolle.',
+    descriptionEn:
+      'AdGuard Home is a network-wide ad and tracker blocker with DNS-over-HTTPS, DNS-over-TLS, and DNSCrypt support. It offers a modern web interface, parental controls, safe browsing features, and detailed query logs.',
     website: 'https://adguard.com/de/adguard-home/overview.html',
     github: 'https://github.com/AdguardTeam/AdGuardHome',
     license: 'GPL-3.0',
@@ -52,8 +58,11 @@ export const dnsAdblockTools: Tool[] = [
     name: 'Unbound',
     slug: 'unbound',
     tagline: 'Validierender, rekursiver DNS-Resolver',
+    taglineEn: 'Validating, recursive DNS resolver',
     description:
       'Unbound ist ein validierender, rekursiver und cachender DNS-Resolver von NLnet Labs. Er bietet DNSSEC-Validierung, DNS-over-TLS, DNS-over-HTTPS und ist besonders fuer Datenschutz und Sicherheit optimiert. Unbound kann als lokaler DNS-Cache oder vollstaendiger Resolver eingesetzt werden.',
+    descriptionEn:
+      'Unbound is a validating, recursive, and caching DNS resolver by NLnet Labs. It offers DNSSEC validation, DNS-over-TLS, DNS-over-HTTPS, and is specifically optimized for privacy and security. Unbound can be used as a local DNS cache or a full resolver.',
     website: 'https://nlnetlabs.nl/projects/unbound/about/',
     github: 'https://github.com/NLnetLabs/unbound',
     license: 'BSD-3-Clause',
@@ -74,8 +83,11 @@ export const dnsAdblockTools: Tool[] = [
     name: 'BIND',
     slug: 'bind',
     tagline: 'Der Standard-DNS-Server im Internet',
+    taglineEn: 'The standard DNS server on the internet',
     description:
       'BIND (Berkeley Internet Name Domain) ist der am weitesten verbreitete DNS-Server weltweit. Er bietet volle Unterstuetzung fuer autoritative und rekursive DNS-Dienste, DNSSEC, DNS-over-TLS, Zonentransfers und ist der Industriestandard fuer DNS-Infrastruktur.',
+    descriptionEn:
+      'BIND (Berkeley Internet Name Domain) is the most widely used DNS server worldwide. It offers full support for authoritative and recursive DNS services, DNSSEC, DNS-over-TLS, zone transfers, and is the industry standard for DNS infrastructure.',
     website: 'https://www.isc.org/bind/',
     github: 'https://github.com/isc-projects/bind9',
     license: 'MPL-2.0',
@@ -96,8 +108,11 @@ export const dnsAdblockTools: Tool[] = [
     name: 'Technitium DNS',
     slug: 'technitium-dns',
     tagline: 'Vielseitiger DNS-Server mit Werbeblocker',
+    taglineEn: 'Versatile DNS server with ad blocker',
     description:
       'Technitium DNS Server ist ein quelloffener, vielseitiger DNS-Server mit eingebautem Werbeblocker. Er unterstuetzt DNS-over-HTTPS, DNS-over-TLS, DNSSEC, Split-Horizon-DNS und bietet eine intuitive Weboberflaeche fuer die Verwaltung von Zonen, Eintraegen und Blocklisten.',
+    descriptionEn:
+      'Technitium DNS Server is an open-source, versatile DNS server with a built-in ad blocker. It supports DNS-over-HTTPS, DNS-over-TLS, DNSSEC, split-horizon DNS, and offers an intuitive web interface for managing zones, records, and block lists.',
     website: 'https://technitium.com/dns/',
     github: 'https://github.com/TechnitiumSoftware/DnsServer',
     license: 'GPL-3.0',
