@@ -86,8 +86,11 @@ export const objektSpeicherTools: Tool[] = [
     name: 'Garage',
     slug: 'garage',
     tagline: 'Leichtgewichtiger S3-kompatibler verteilter Speicher',
+    taglineEn: 'Lightweight S3-compatible distributed storage',
     description:
       'Garage ist ein leichtgewichtiger, quelloffener, S3-kompatibler verteilter Objektspeicher fuer selbst gehostete Infrastruktur. Er ist fuer den Betrieb auf heterogener Hardware und ueber mehrere Standorte hinweg konzipiert und bietet hohe Verfuegbarkeit bei geringem Ressourcenverbrauch.',
+    descriptionEn:
+      'Garage is a lightweight, open-source, S3-compatible distributed object storage for self-hosted infrastructure. It is designed to operate on heterogeneous hardware and across multiple locations, offering high availability with low resource consumption.',
     website: 'https://garagehq.deuxfleurs.fr',
     github: 'https://github.com/deuxfleurs-org/garage',
     license: 'AGPL-3.0',
