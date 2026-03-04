@@ -6,8 +6,11 @@ export const ssgTools: Tool[] = [
     name: 'Astro',
     slug: 'astro',
     tagline: 'Das Web-Framework fuer inhaltsgetriebene Websites',
+    taglineEn: 'The web framework for content-driven websites',
     description:
       'Astro ist ein modernes Web-Framework, das standardmaessig minimales JavaScript ausliefert und auf Content-Websites optimiert ist. Es unterstuetzt Islands-Architektur, beliebige UI-Frameworks (React, Vue, Svelte), Markdown/MDX und bietet herausragende Performance durch serverseitiges Rendering.',
+    descriptionEn:
+      'Astro is a modern web framework that ships minimal JavaScript by default and is optimized for content websites. It supports Islands architecture, any UI framework (React, Vue, Svelte), Markdown/MDX, and delivers outstanding performance through server-side rendering.',
     website: 'https://astro.build',
     github: 'https://github.com/withastro/astro',
     license: 'MIT',
@@ -30,8 +33,11 @@ export const ssgTools: Tool[] = [
     name: 'Hugo',
     slug: 'hugo',
     tagline: 'Der schnellste Static-Site-Generator der Welt',
+    taglineEn: 'The world\'s fastest static site generator',
     description:
       'Hugo ist der schnellste Static-Site-Generator, geschrieben in Go. Er erzeugt komplette Websites in Millisekunden und bietet flexible Vorlagen, Taxonomien, Mehrsprachigkeit, Asset-Pipelines und ein ausgereiftes Theme-Oekosystem fuer Blogs, Dokumentation und mehr.',
+    descriptionEn:
+      'Hugo is the fastest static site generator, written in Go. It builds complete websites in milliseconds and offers flexible templates, taxonomies, multilingual support, asset pipelines, and a mature theme ecosystem for blogs, documentation, and more.',
     website: 'https://gohugo.io',
     github: 'https://github.com/gohugoio/hugo',
     license: 'Apache-2.0',
@@ -53,8 +59,11 @@ export const ssgTools: Tool[] = [
     name: 'Eleventy',
     slug: 'eleventy',
     tagline: 'Einfacher und flexibler Static-Site-Generator',
+    taglineEn: 'Simple and flexible static site generator',
     description:
       'Eleventy (11ty) ist ein einfacher, flexibler Static-Site-Generator, der auf Node.js basiert. Er unterstuetzt ueber zehn Template-Sprachen, hat keine clientseitige JavaScript-Abhaengigkeit und gibt Entwicklern volle Kontrolle ueber den generierten Output.',
+    descriptionEn:
+      'Eleventy (11ty) is a simple, flexible static site generator built on Node.js. It supports over ten template languages, has no client-side JavaScript dependency, and gives developers full control over the generated output.',
     website: 'https://www.11ty.dev',
     github: 'https://github.com/11ty/eleventy',
     license: 'MIT',
@@ -76,8 +85,11 @@ export const ssgTools: Tool[] = [
     name: 'Jekyll',
     slug: 'jekyll',
     tagline: 'Der Klassiker unter den Static-Site-Generatoren',
+    taglineEn: 'The classic among static site generators',
     description:
       'Jekyll ist ein bewaeherter Static-Site-Generator, der von GitHub Pages nativ unterstuetzt wird. Er transformiert Markdown und Liquid-Templates in statische Websites und bietet ein grosses Plugin-Oekosystem, Blogging-Funktionen und eine aktive Community.',
+    descriptionEn:
+      'Jekyll is a proven static site generator natively supported by GitHub Pages. It transforms Markdown and Liquid templates into static websites and offers a large plugin ecosystem, blogging features, and an active community.',
     website: 'https://jekyllrb.com',
     github: 'https://github.com/jekyll/jekyll',
     license: 'MIT',
@@ -100,8 +112,11 @@ export const ssgTools: Tool[] = [
     name: 'Zola',
     slug: 'zola',
     tagline: 'Schneller Static-Site-Generator als einzelne Binary',
+    taglineEn: 'Fast static site generator as a single binary',
     description:
       'Zola ist ein schneller Static-Site-Generator, der als einzelne ausfuehrbare Datei ohne Abhaengigkeiten ausgeliefert wird. Er bietet Sass-Kompilierung, Syntaxhervorhebung, Inhaltsverzeichnis-Generierung, Suchindex und Mehrsprachigkeit in einem kompakten Paket.',
+    descriptionEn:
+      'Zola is a fast static site generator delivered as a single executable with no dependencies. It offers Sass compilation, syntax highlighting, table of contents generation, search indexing, and multilingual support in a compact package.',
     website: 'https://www.getzola.org',
     github: 'https://github.com/getzola/zola',
     license: 'MIT',
@@ -122,8 +137,11 @@ export const ssgTools: Tool[] = [
     name: 'Next.js',
     slug: 'nextjs',
     tagline: 'Das React-Framework fuer Produktion',
+    taglineEn: 'The React framework for production',
     description:
       'Next.js ist ein leistungsstarkes React-Framework, das statische Generierung, serverseitiges Rendering und inkrementelle statische Regenerierung vereint. Es bietet Datei-basiertes Routing, API-Routes, Bildoptimierung, integrierte CSS-Unterstuetzung und Edge-Runtime fuer moderne Webanwendungen.',
+    descriptionEn:
+      'Next.js is a powerful React framework that combines static generation, server-side rendering, and incremental static regeneration. It offers file-based routing, API routes, image optimization, built-in CSS support, and Edge Runtime for modern web applications.',
     website: 'https://nextjs.org',
     github: 'https://github.com/vercel/next.js',
     license: 'MIT',

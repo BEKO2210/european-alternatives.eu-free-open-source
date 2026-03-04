@@ -6,8 +6,11 @@ export const backendFrameworksTools: Tool[] = [
     name: 'Supabase',
     slug: 'supabase',
     tagline: 'Open-Source-Alternative zu Firebase',
+    taglineEn: 'Open-source alternative to Firebase',
     description:
       'Supabase ist eine quelloffene Backend-as-a-Service-Plattform, die auf PostgreSQL aufbaut. Sie bietet Echtzeit-Datenbank, Authentifizierung, Dateispeicher, Edge Functions und automatisch generierte APIs. Supabase ermoeglicht es Entwicklern, schnell vollstaendige Backends aufzubauen.',
+    descriptionEn:
+      'Supabase is an open-source Backend-as-a-Service platform built on PostgreSQL. It offers a real-time database, authentication, file storage, Edge Functions, and automatically generated APIs. Supabase enables developers to quickly build complete backends.',
     website: 'https://supabase.com',
     github: 'https://github.com/supabase/supabase',
     license: 'Apache-2.0',
@@ -30,8 +33,11 @@ export const backendFrameworksTools: Tool[] = [
     name: 'Appwrite',
     slug: 'appwrite',
     tagline: 'Backend-Server fuer Web-, Mobil- und Flutter-Entwickler',
+    taglineEn: 'Backend server for web, mobile, and Flutter developers',
     description:
       'Appwrite ist eine quelloffene Backend-Plattform, die Authentifizierung, Datenbanken, Dateispeicher, Cloud Functions und Echtzeit-Kommunikation in einer einheitlichen API bereitstellt. Sie unterstuetzt zahlreiche Programmiersprachen und Frameworks fuer plattformuebergreifende Entwicklung.',
+    descriptionEn:
+      'Appwrite is an open-source backend platform that provides authentication, databases, file storage, Cloud Functions, and real-time communication through a unified API. It supports numerous programming languages and frameworks for cross-platform development.',
     website: 'https://appwrite.io',
     github: 'https://github.com/appwrite/appwrite',
     license: 'BSD-3-Clause',
@@ -54,8 +60,11 @@ export const backendFrameworksTools: Tool[] = [
     name: 'PocketBase',
     slug: 'pocketbase',
     tagline: 'Backend in einer einzigen Datei mit integrierter Datenbank',
+    taglineEn: 'Backend in a single file with integrated database',
     description:
       'PocketBase ist ein leichtgewichtiges Open-Source-Backend, das als einzelne ausfuehrbare Datei ausgeliefert wird. Es enthaelt eine eingebettete SQLite-Datenbank, Echtzeit-Subscriptions, Authentifizierung, Dateispeicher und eine Administrationsoberflaeche. Perfekt fuer kleine bis mittelgrosse Projekte, die ein schnelles und unkompliziertes Backend benoetigen.',
+    descriptionEn:
+      'PocketBase is a lightweight open-source backend delivered as a single executable file. It includes an embedded SQLite database, real-time subscriptions, authentication, file storage, and an admin dashboard. Perfect for small to medium-sized projects that need a fast and straightforward backend.',
     website: 'https://pocketbase.io',
     github: 'https://github.com/pocketbase/pocketbase',
     license: 'MIT',
@@ -78,8 +87,11 @@ export const backendFrameworksTools: Tool[] = [
     name: 'NocoDB',
     slug: 'nocodb',
     tagline: 'Open-Source-Alternative zu Airtable',
+    taglineEn: 'Open-source alternative to Airtable',
     description:
       'NocoDB verwandelt jede Datenbank in eine intelligente Tabellenkalkulation. Es bietet eine Airtable-aehnliche Oberflaeche, Formulare, Kanban-Ansichten, Galerieansichten, API-Zugang und Automatisierungen. NocoDB unterstuetzt PostgreSQL, MySQL, SQLite und weitere Datenbanken.',
+    descriptionEn:
+      'NocoDB turns any database into a smart spreadsheet. It offers an Airtable-like interface, forms, Kanban views, gallery views, API access, and automations. NocoDB supports PostgreSQL, MySQL, SQLite, and other databases.',
     website: 'https://nocodb.com',
     github: 'https://github.com/nocodb/nocodb',
     license: 'AGPL-3.0',
@@ -101,8 +113,11 @@ export const backendFrameworksTools: Tool[] = [
     name: 'Baserow',
     slug: 'baserow',
     tagline: 'Open-Source No-Code-Datenbankplattform',
+    taglineEn: 'Open-source no-code database platform',
     description:
       'Baserow ist eine quelloffene No-Code-Datenbankplattform und Airtable-Alternative. Sie bietet eine intuitive Tabellenoberflaeche, Formulare, Kanban-Ansichten, REST-API, Webhooks und Plugins. Baserow wird in den Niederlanden entwickelt und ist DSGVO-freundlich.',
+    descriptionEn:
+      'Baserow is an open-source no-code database platform and Airtable alternative. It offers an intuitive spreadsheet interface, forms, Kanban views, REST API, webhooks, and plugins. Baserow is developed in the Netherlands and is GDPR-friendly.',
     website: 'https://baserow.io',
     github: 'https://github.com/bram2w/baserow',
     license: 'MIT',
@@ -124,8 +139,11 @@ export const backendFrameworksTools: Tool[] = [
     name: 'Budibase',
     slug: 'budibase',
     tagline: 'Low-Code-Plattform fuer interne Geschaeftsanwendungen',
+    taglineEn: 'Low-code platform for internal business applications',
     description:
       'Budibase ist eine quelloffene Low-Code-Plattform zur schnellen Erstellung interner Geschaeftsanwendungen. Sie bietet Drag-and-Drop-App-Builder, Datenbankanbindung, Automatisierungen, Rollenbasierte Zugriffssteuerung und eine REST-API fuer individuelle Workflows.',
+    descriptionEn:
+      'Budibase is an open-source low-code platform for rapidly building internal business applications. It offers a drag-and-drop app builder, database connectivity, automations, role-based access control, and a REST API for custom workflows.',
     website: 'https://budibase.com',
     github: 'https://github.com/Budibase/budibase',
     license: 'GPL-3.0',

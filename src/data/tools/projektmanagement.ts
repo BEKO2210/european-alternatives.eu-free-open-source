@@ -6,8 +6,11 @@ export const projektmanagementTools: Tool[] = [
     name: 'Vikunja',
     slug: 'vikunja',
     tagline: 'Open-Source To-Do und Projektmanagement',
+    taglineEn: 'Open-source to-do and project management',
     description:
       'Vikunja ist eine quelloffene, selbst hostbare Aufgaben- und Projektmanagement-Anwendung. Sie bietet Kanban-Boards, Gantt-Diagramme, Kalenderansichten und vieles mehr, um Teams und Einzelpersonen bei der Organisation ihrer Arbeit zu unterstuetzen.',
+    descriptionEn:
+      'Vikunja is an open-source, self-hostable task and project management application. It offers Kanban boards, Gantt charts, calendar views, and much more to help teams and individuals organize their work.',
     website: 'https://vikunja.io',
     github: 'https://github.com/go-vikunja/vikunja',
     license: 'AGPL-3.0',
@@ -29,8 +32,11 @@ export const projektmanagementTools: Tool[] = [
     name: 'OpenProject',
     slug: 'openproject',
     tagline: 'Professionelles Projektmanagement aus Deutschland',
+    taglineEn: 'Professional project management from Germany',
     description:
       'OpenProject ist eine leistungsstarke Projektmanagement-Software aus Berlin. Sie umfasst klassische und agile Projektplanung, Zeiterfassung, Budgetverwaltung und Team-Kollaboration und ist besonders in Europa und im oeffentlichen Sektor weit verbreitet.',
+    descriptionEn:
+      'OpenProject is a powerful project management software from Berlin. It encompasses classical and agile project planning, time tracking, budget management, and team collaboration, and is particularly widespread in Europe and the public sector.',
     website: 'https://www.openproject.org',
     github: 'https://github.com/opf/openproject',
     license: 'GPL-3.0',
@@ -53,8 +59,11 @@ export const projektmanagementTools: Tool[] = [
     name: 'Taiga',
     slug: 'taiga',
     tagline: 'Agiles Projektmanagement fuer multifunktionale Teams',
+    taglineEn: 'Agile project management for cross-functional teams',
     description:
       'Taiga ist ein Open-Source-Projektmanagement-Tool fuer agile Entwicklerteams. Es unterstuetzt Scrum und Kanban und bietet Backlogs, Sprints, User Stories und Epics in einer intuitiven Benutzeroberflaeche.',
+    descriptionEn:
+      'Taiga is an open-source project management tool for agile development teams. It supports Scrum and Kanban and offers backlogs, sprints, user stories, and epics in an intuitive user interface.',
     website: 'https://taiga.io',
     github: 'https://github.com/taigaio/taiga-back',
     license: 'MPL-2.0',
@@ -76,8 +85,11 @@ export const projektmanagementTools: Tool[] = [
     name: 'Plane',
     slug: 'plane',
     tagline: 'Moderne Open-Source-Alternative zu Jira',
+    taglineEn: 'Modern open-source alternative to Jira',
     description:
       'Plane ist ein modernes, quelloffenes Projektmanagement-Werkzeug, das als direkte Alternative zu Jira entwickelt wurde. Es bietet Issue-Tracking, Zyklen, Module und eine ansprechende Benutzeroberflaeche fuer agile Teams.',
+    descriptionEn:
+      'Plane is a modern, open-source project management tool developed as a direct alternative to Jira. It offers issue tracking, cycles, modules, and an appealing user interface for agile teams.',
     website: 'https://plane.so',
     github: 'https://github.com/makeplane/plane',
     license: 'AGPL-3.0',
@@ -100,8 +112,11 @@ export const projektmanagementTools: Tool[] = [
     name: 'Leantime',
     slug: 'leantime',
     tagline: 'Strategisches Projektmanagement fuer wachsende Teams',
+    taglineEn: 'Strategic project management for growing teams',
     description:
       'Leantime ist ein Open-Source-Projektmanagement-System, das strategische Planung mit operativer Ausfuehrung verbindet. Es bietet Ideenboards, Roadmaps, Kanban-Boards und Zeiterfassung und eignet sich besonders fuer kleine und mittlere Unternehmen.',
+    descriptionEn:
+      'Leantime is an open-source project management system that connects strategic planning with operational execution. It offers idea boards, roadmaps, Kanban boards, and time tracking, and is particularly suited for small and medium-sized businesses.',
     website: 'https://leantime.io',
     github: 'https://github.com/Leantime/leantime',
     license: 'AGPL-3.0',
@@ -123,8 +138,11 @@ export const projektmanagementTools: Tool[] = [
     name: 'Wekan',
     slug: 'wekan',
     tagline: 'Open-Source Kanban-Board fuer Teams',
+    taglineEn: 'Open-source Kanban board for teams',
     description:
       'Wekan ist ein quelloffenes Kanban-Board, das eine leistungsfaehige und datenschutzfreundliche Alternative zu Trello darstellt. Es bietet Schwimmbahnen, Checklisten, Anhaenge und umfangreiche Automatisierungsmoeglichkeiten.',
+    descriptionEn:
+      'Wekan is an open-source Kanban board that provides a powerful and privacy-friendly alternative to Trello. It offers swimlanes, checklists, attachments, and extensive automation capabilities.',
     website: 'https://wekan.github.io',
     github: 'https://github.com/wekan/wekan',
     license: 'MIT',
@@ -146,8 +164,11 @@ export const projektmanagementTools: Tool[] = [
     name: 'Kanboard',
     slug: 'kanboard',
     tagline: 'Minimalistisches Kanban-Projektmanagement',
+    taglineEn: 'Minimalist Kanban project management',
     description:
       'Kanboard ist ein schlankes, minimalistisches Kanban-Projektmanagement-Tool. Es konzentriert sich auf Einfachheit und Effizienz und bietet Aufgabenverwaltung, Automatisierungen, Plugins und Integrationen mit minimalem Ressourcenverbrauch.',
+    descriptionEn:
+      'Kanboard is a lean, minimalist Kanban project management tool. It focuses on simplicity and efficiency, offering task management, automations, plugins, and integrations with minimal resource consumption.',
     website: 'https://kanboard.org',
     github: 'https://github.com/kanboard/kanboard',
     license: 'MIT',

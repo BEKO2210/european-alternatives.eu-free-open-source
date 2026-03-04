@@ -6,8 +6,10 @@ export const erpTools: Tool[] = [
     name: 'Odoo CE',
     slug: 'odoo-ce',
     tagline: 'Umfassende Open-Source-ERP-Suite',
+    taglineEn: 'Comprehensive open-source ERP suite',
     description:
       'Odoo Community Edition ist eine modulare, quelloffene ERP-Suite mit ueber 30 Kernmodulen fuer Buchhaltung, Lagerverwaltung, Fertigung, Einkauf und Vertrieb. Das belgische Unternehmen bietet ein riesiges Oekosystem an Erweiterungen und eine aktive Community.',
+    descriptionEn: 'Odoo Community Edition is a modular, open-source ERP suite with over 30 core modules for accounting, warehouse management, manufacturing, procurement, and sales. The Belgian company offers a vast ecosystem of extensions and an active community.',
     website: 'https://www.odoo.com',
     github: 'https://github.com/odoo/odoo',
     license: 'LGPL-3.0',
@@ -30,8 +32,10 @@ export const erpTools: Tool[] = [
     name: 'ERPNext',
     slug: 'erpnext',
     tagline: 'Vollstaendiges ERP-System fuer den Mittelstand',
+    taglineEn: 'Complete ERP system for small and medium-sized businesses',
     description:
       'ERPNext ist ein vollstaendiges, quelloffenes ERP-System, das Buchhaltung, HR, Fertigung, CRM, Vertrieb und Einkauf in einer integrierten Loesung vereint. Es ist besonders bei kleinen und mittleren Unternehmen beliebt und bietet eine moderne Weboberflaeche.',
+    descriptionEn: 'ERPNext is a complete, open-source ERP system that combines accounting, HR, manufacturing, CRM, sales, and procurement in an integrated solution. It is particularly popular with small and medium-sized businesses and offers a modern web interface.',
     website: 'https://erpnext.com',
     github: 'https://github.com/frappe/erpnext',
     license: 'GPL-3.0',
@@ -54,8 +58,10 @@ export const erpTools: Tool[] = [
     name: 'Dolibarr',
     slug: 'dolibarr',
     tagline: 'Modulares ERP und CRM fuer kleine Unternehmen',
+    taglineEn: 'Modular ERP and CRM for small businesses',
     description:
       'Dolibarr ist ein modulares Open-Source-ERP- und CRM-System aus Frankreich. Es bietet Rechnungsstellung, Lagerverwaltung, Auftragsbearbeitung, Personalverwaltung und Buchhaltung und ist durch seine Modularitaet ideal fuer kleine und mittlere Unternehmen.',
+    descriptionEn: 'Dolibarr is a modular open-source ERP and CRM system from France. It offers invoicing, warehouse management, order processing, HR management, and accounting, and is ideal for small and medium-sized businesses due to its modularity.',
     website: 'https://www.dolibarr.org',
     github: 'https://github.com/Dolibarr/dolibarr',
     license: 'GPL-3.0',
@@ -77,8 +83,10 @@ export const erpTools: Tool[] = [
     name: 'Tryton',
     slug: 'tryton',
     tagline: 'Dreischichtiges Business-Applikations-Framework',
+    taglineEn: 'Three-tier business application framework',
     description:
       'Tryton ist ein dreischichtiges Open-Source-ERP-Framework mit hohem Fokus auf Modularitaet und Sauberkeit des Codes. Es bietet Buchhaltung, Bestandsverwaltung, Einkauf, Verkauf und Projektmanagement und eignet sich besonders fuer Unternehmen mit individuellen Anforderungen.',
+    descriptionEn: 'Tryton is a three-tier open-source ERP framework with a strong focus on modularity and code cleanliness. It offers accounting, inventory management, purchasing, sales, and project management, making it particularly suitable for businesses with individual requirements.',
     website: 'https://www.tryton.org',
     github: 'https://github.com/tryton/tryton',
     license: 'GPL-3.0',

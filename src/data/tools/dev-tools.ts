@@ -6,8 +6,11 @@ export const devToolsTools: Tool[] = [
     name: 'VSCodium',
     slug: 'vscodium',
     tagline: 'VS Code ohne Microsoft-Telemetrie',
+    taglineEn: 'VS Code without Microsoft telemetry',
     description:
       'VSCodium ist eine freie, quelloffene Distribution von Microsofts VS Code Editor ohne Telemetrie und proprietaere Erweiterungen. Es bietet denselben leistungsstarken Editor mit Extensions, integriertem Terminal, Git-Integration und IntelliSense, jedoch vollstaendig frei von Tracking.',
+    descriptionEn:
+      'VSCodium is a free, open-source distribution of Microsoft\'s VS Code editor without telemetry and proprietary extensions. It offers the same powerful editor with extensions, integrated terminal, Git integration, and IntelliSense, completely free from tracking.',
     website: 'https://vscodium.com',
     github: 'https://github.com/VSCodium/vscodium',
     license: 'MIT',
@@ -28,8 +31,11 @@ export const devToolsTools: Tool[] = [
     name: 'Neovim',
     slug: 'neovim',
     tagline: 'Hypererweiterbarer Vim-basierter Texteditor',
+    taglineEn: 'Hyper-extensible Vim-based text editor',
     description:
       'Neovim ist ein hypererweiterbarer Texteditor, der auf Vim aufbaut und moderne Funktionen wie Lua-Scripting, eingebauten LSP-Client, Tree-sitter-Integration und asynchrone Plugin-Architektur bietet. Er ist extrem schnell und vollstaendig ueber Konfiguration anpassbar.',
+    descriptionEn:
+      'Neovim is a hyper-extensible text editor built on Vim, offering modern features such as Lua scripting, a built-in LSP client, Tree-sitter integration, and an asynchronous plugin architecture. It is extremely fast and fully customizable through configuration.',
     website: 'https://neovim.io',
     github: 'https://github.com/neovim/neovim',
     license: 'Apache-2.0',
@@ -51,8 +57,11 @@ export const devToolsTools: Tool[] = [
     name: 'Helix',
     slug: 'helix',
     tagline: 'Postmoderner Terminal-Editor in Rust',
+    taglineEn: 'Post-modern terminal editor written in Rust',
     description:
       'Helix ist ein moderner, in Rust geschriebener Terminal-Texteditor mit eingebautem LSP-Support, Tree-sitter-basierter Syntaxhervorhebung und einem Kakoune-inspirierten Bearbeitungsmodell. Er bietet Multiple Selections, integrierte Dateisuche und funktioniert ohne Plugin-System direkt einsatzbereit.',
+    descriptionEn:
+      'Helix is a modern terminal text editor written in Rust with built-in LSP support, Tree-sitter-based syntax highlighting, and a Kakoune-inspired editing model. It offers multiple selections, integrated file search, and works out of the box without a plugin system.',
     website: 'https://helix-editor.com',
     github: 'https://github.com/helix-editor/helix',
     license: 'MPL-2.0',
@@ -73,8 +82,11 @@ export const devToolsTools: Tool[] = [
     name: 'Eclipse',
     slug: 'eclipse',
     tagline: 'Etablierte IDE fuer Java und mehr',
+    taglineEn: 'Established IDE for Java and beyond',
     description:
       'Eclipse ist eine etablierte, quelloffene Entwicklungsumgebung, die vor allem fuer Java-Entwicklung bekannt ist, aber auch C/C++, PHP, Python und weitere Sprachen unterstuetzt. Sie bietet umfangreiche Refactoring-Werkzeuge, Debugger, Plugin-Oekosystem und Enterprise-Funktionen.',
+    descriptionEn:
+      'Eclipse is an established, open-source development environment primarily known for Java development, but also supporting C/C++, PHP, Python, and other languages. It offers extensive refactoring tools, a debugger, a plugin ecosystem, and enterprise features.',
     website: 'https://www.eclipse.org/ide/',
     github: 'https://github.com/eclipse-platform/eclipse.platform',
     license: 'EPL-2.0',
@@ -95,8 +107,11 @@ export const devToolsTools: Tool[] = [
     name: 'IntelliJ IDEA CE',
     slug: 'intellij-idea-ce',
     tagline: 'Community-Edition der fuehrenden Java-IDE',
+    taglineEn: 'Community edition of the leading Java IDE',
     description:
       'IntelliJ IDEA Community Edition ist die kostenlose, quelloffene Version der fuehrenden Java-IDE von JetBrains. Sie bietet intelligente Code-Vervollstaendigung, umfangreiche Refactoring-Tools, eingebauten Debugger, Versionskontrolle und Unterstuetzung fuer Kotlin, Groovy und Scala.',
+    descriptionEn:
+      'IntelliJ IDEA Community Edition is the free, open-source version of the leading Java IDE by JetBrains. It offers intelligent code completion, extensive refactoring tools, a built-in debugger, version control, and support for Kotlin, Groovy, and Scala.',
     website: 'https://www.jetbrains.com/idea/',
     github: 'https://github.com/JetBrains/intellij-community',
     license: 'Apache-2.0',
@@ -117,8 +132,11 @@ export const devToolsTools: Tool[] = [
     name: 'Zed',
     slug: 'zed',
     tagline: 'Blitzschneller Code-Editor mit KI-Integration',
+    taglineEn: 'Lightning-fast code editor with AI integration',
     description:
       'Zed ist ein hochperformanter, in Rust geschriebener Code-Editor mit Fokus auf Geschwindigkeit und Zusammenarbeit. Er bietet Echtzeit-Kollaboration, integrierte KI-Unterstuetzung, Tree-sitter-basierte Syntaxhervorhebung, LSP-Support und GPU-beschleunigtes Rendering.',
+    descriptionEn:
+      'Zed is a high-performance code editor written in Rust with a focus on speed and collaboration. It offers real-time collaboration, integrated AI support, Tree-sitter-based syntax highlighting, LSP support, and GPU-accelerated rendering.',
     website: 'https://zed.dev',
     github: 'https://github.com/zed-industries/zed',
     license: 'GPL-3.0',

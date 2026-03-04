@@ -6,8 +6,11 @@ export const backupTools: Tool[] = [
     name: 'Restic',
     slug: 'restic',
     tagline: 'Schnelles und sicheres Backup-Programm',
+    taglineEn: 'Fast and secure backup program',
     description:
       'Restic ist ein schnelles, sicheres und effizientes Backup-Programm. Es unterstuetzt Verschluesselung, Deduplizierung und verschiedene Speicher-Backends wie lokale Verzeichnisse, SFTP, S3 und weitere Cloud-Dienste. Restic erstellt Snapshots und ermoeglicht einfache Wiederherstellung.',
+    descriptionEn:
+      'Restic is a fast, secure, and efficient backup program. It supports encryption, deduplication, and various storage backends such as local directories, SFTP, S3, and other cloud services. Restic creates snapshots and enables easy restoration.',
     website: 'https://restic.net',
     github: 'https://github.com/restic/restic',
     license: 'BSD-2-Clause',
@@ -28,8 +31,11 @@ export const backupTools: Tool[] = [
     name: 'BorgBackup',
     slug: 'borgbackup',
     tagline: 'Deduplizierendes Backup mit Kompression und Verschluesselung',
+    taglineEn: 'Deduplicating backup with compression and encryption',
     description:
       'BorgBackup ist ein deduplizierendes Backup-Programm mit optionaler Kompression und authentifizierter Verschluesselung. Es ist extrem speichereffizient, unterstuetzt SSH-basierte Remote-Backups und bietet flexible Aufbewahrungsrichtlinien fuer zuverlaessige Datensicherung.',
+    descriptionEn:
+      'BorgBackup is a deduplicating backup program with optional compression and authenticated encryption. It is extremely storage-efficient, supports SSH-based remote backups, and offers flexible retention policies for reliable data protection.',
     website: 'https://www.borgbackup.org',
     github: 'https://github.com/borgbackup/borg',
     license: 'BSD-3-Clause',
@@ -50,8 +56,11 @@ export const backupTools: Tool[] = [
     name: 'Duplicati',
     slug: 'duplicati',
     tagline: 'Cloud-Backup mit Weboberflaeche',
+    taglineEn: 'Cloud backup with web interface',
     description:
       'Duplicati ist eine kostenlose Backup-Software mit Weboberflaeche, die verschluesselte, inkrementelle und komprimierte Backups auf ueber 20 Cloud-Speicher-Dienste ermoeglicht. Es bietet Zeitplanung, E-Mail-Benachrichtigungen und AES-256-Verschluesselung.',
+    descriptionEn:
+      'Duplicati is a free backup software with a web interface that enables encrypted, incremental, and compressed backups to over 20 cloud storage services. It offers scheduling, email notifications, and AES-256 encryption.',
     website: 'https://www.duplicati.com',
     github: 'https://github.com/duplicati/duplicati',
     license: 'LGPL-2.1',
@@ -74,8 +83,11 @@ export const backupTools: Tool[] = [
     name: 'Kopia',
     slug: 'kopia',
     tagline: 'Plattformuebergreifendes Backup mit Snapshots',
+    taglineEn: 'Cross-platform backup with snapshots',
     description:
       'Kopia ist ein plattformuebergreifendes Backup-Tool mit Fokus auf Geschwindigkeit und Sicherheit. Es bietet Ende-zu-Ende-Verschluesselung, Deduplizierung, Kompression, Snapshot-Richtlinien und unterstuetzt zahlreiche Speicher-Backends inklusive Cloud-Dienste.',
+    descriptionEn:
+      'Kopia is a cross-platform backup tool focused on speed and security. It offers end-to-end encryption, deduplication, compression, snapshot policies, and supports numerous storage backends including cloud services.',
     website: 'https://kopia.io',
     github: 'https://github.com/kopia/kopia',
     license: 'Apache-2.0',
@@ -96,8 +108,11 @@ export const backupTools: Tool[] = [
     name: 'Bacula CE',
     slug: 'bacula-ce',
     tagline: 'Enterprise-Backup-Loesung fuer Netzwerke',
+    taglineEn: 'Enterprise backup solution for networks',
     description:
       'Bacula Community Edition ist eine leistungsfaehige, netzwerkbasierte Backup-Loesung fuer heterogene Umgebungen. Sie bietet automatisierte Backups, Medien-Management, Tape-Unterstuetzung und eine Client-Server-Architektur fuer die Sicherung grosser Infrastrukturen.',
+    descriptionEn:
+      'Bacula Community Edition is a powerful, network-based backup solution for heterogeneous environments. It offers automated backups, media management, tape support, and a client-server architecture for backing up large infrastructures.',
     website: 'https://www.bacula.org',
     github: 'https://github.com/bacula-web/bacula-web',
     license: 'AGPL-3.0',
