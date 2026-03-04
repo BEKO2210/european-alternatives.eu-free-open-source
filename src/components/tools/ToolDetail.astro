@@ -1,10 +1,11 @@
 ---
 import type { Tool, Category } from '../../data/types';
 import { Icon } from 'astro-icon/components';
-import { getLicenseBadgeClass, getDifficultyBadgeClass, getDifficultyLabel, getRelatedTools } from '../../utils/tools';
+import { getLicenseBadgeClass, getDifficultyBadgeClass, getRelatedTools } from '../../utils/tools';
 import { getSimpleIcon } from '../../utils/icons';
 import MaintenanceBadge from '../ui/MaintenanceBadge.astro';
 import ToolCard from './ToolCard.astro';
+import { getLangFromUrl, useTranslations, getHomeHref, getCategoryName } from '../../i18n/utils';
 
 interface Props {
   tool: Tool;
@@ -14,9 +15,12 @@ interface Props {
 
 const { tool, allTools, categories } = Astro.props;
 const base = import.meta.env.BASE_URL;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const homeHref = getHomeHref(lang);
 const licenseBadge = getLicenseBadgeClass(tool.license);
 const diffBadge = getDifficultyBadgeClass(tool.difficulty);
-const diffLabel = getDifficultyLabel(tool.difficulty);
+const diffLabel = t(`difficulty.${tool.difficulty}` as any);
 const relatedTools = getRelatedTools(allTools, tool, 3);
 const simpleIcon = getSimpleIcon(tool.simpleIconsSlug ?? tool.slug);
 
@@ -25,6 +29,8 @@ const monthsAgo = lastUpdatedDate ? Math.floor((Date.now() - lastUpdatedDate.get
 const isStale = monthsAgo > 18;
 
 const toolCategories = categories.filter(c => tool.categories.includes(c.slug));
+const toolPath = t('path.tool');
+const categoryPath = t('path.category');
 
 const platformMeta: Record<string, { icon: string; label: string }> = {
   linux: { icon: 'simple-icons:linux', label: 'Linux' },
@@ -67,11 +73,11 @@ const categoryIconMap: Record<string, string> = {
 <article>
   <nav class="mb-6 text-sm" aria-label="Breadcrumb">
     <ol class="flex items-center gap-2" style="color: var(--color-text-muted)">
-      <li><a href={base} class="hover:text-indigo-400">Startseite</a></li>
+      <li><a href={homeHref} class="hover:text-indigo-400">{t('detail.home')}</a></li>
       <li>/</li>
       {toolCategories[0] && (
         <>
-          <li><a href={`${base}kategorie/${toolCategories[0].slug}/`} class="hover:text-indigo-400">{toolCategories[0].name}</a></li>
+          <li><a href={`${base}${categoryPath}/${toolCategories[0].slug}/`} class="hover:text-indigo-400">{getCategoryName(toolCategories[0].slug, lang) || toolCategories[0].name}</a></li>
           <li>/</li>
         </>
       )}
@@ -123,11 +129,11 @@ const categoryIconMap: Record<string, string> = {
         <span class="text-orange-400 text-lg flex-shrink-0">&#9888;</span>
         <div>
           <p class="font-semibold text-sm text-orange-400 mb-1">
-            {tool.maintenanceStatus === 'restricted' ? 'Eingeschr\u00E4nkt' : 'Archiviert'}
+            {tool.maintenanceStatus === 'restricted' ? t('detail.restricted') : t('detail.archived')}
           </p>
           <p class="text-sm" style="color: var(--color-text-secondary)">{tool.maintenanceNote}</p>
           {tool.deprecatedReason && (
-            <p class="text-xs mt-2" style="color: var(--color-text-muted)">Grund: {tool.deprecatedReason}</p>
+            <p class="text-xs mt-2" style="color: var(--color-text-muted)">{t('detail.reason')} {tool.deprecatedReason}</p>
           )}
         </div>
       </div>
@@ -136,39 +142,39 @@ const categoryIconMap: Record<string, string> = {
 
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
     <div class="card p-4">
-      <div class="text-xs mb-1" style="color: var(--color-text-muted)">Website</div>
+      <div class="text-xs mb-1" style="color: var(--color-text-muted)">{t('detail.website')}</div>
       <a href={tool.website} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-indigo-400 hover:text-indigo-300 truncate block">
         {tool.website.replace('https://', '').replace('http://', '').replace(/\/$/, '')}
       </a>
     </div>
     {tool.github && (
       <div class="card p-4">
-        <div class="text-xs mb-1" style="color: var(--color-text-muted)">GitHub</div>
+        <div class="text-xs mb-1" style="color: var(--color-text-muted)">{t('detail.github')}</div>
         <a href={tool.github} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-indigo-400 hover:text-indigo-300 truncate block">
           {tool.github.replace('https://github.com/', '')}
         </a>
       </div>
     )}
     <div class="card p-4">
-      <div class="text-xs mb-1" style="color: var(--color-text-muted)">Schwierigkeit</div>
+      <div class="text-xs mb-1" style="color: var(--color-text-muted)">{t('detail.difficulty')}</div>
       <span class:list={['badge', diffBadge]}>{diffLabel}</span>
     </div>
     <div class="card p-4">
-      <div class="text-xs mb-1" style="color: var(--color-text-muted)">Letzte Pr&uuml;fung</div>
+      <div class="text-xs mb-1" style="color: var(--color-text-muted)">{t('detail.lastCheck')}</div>
       <span class:list={['text-sm font-medium', isStale ? 'text-orange-400' : '']} style={isStale ? '' : 'color: var(--color-text-primary)'}>
         {tool.lastUpdated}
-        {isStale && <span class="text-xs block mt-1">&#9888; &Uuml;ber 18 Monate alt</span>}
+        {isStale && <span class="text-xs block mt-1">{t('detail.staleWarning')}</span>}
       </span>
     </div>
   </div>
 
   <div class="card p-6 mb-8">
-    <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Beschreibung</h2>
+    <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">{t('detail.description')}</h2>
     <p class="leading-relaxed" style="color: var(--color-text-secondary)">{tool.description}</p>
   </div>
 
   <div class="card p-6 mb-8">
-    <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Plattformen</h2>
+    <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">{t('detail.platforms')}</h2>
     <div class="flex flex-wrap gap-2">
       {tool.platforms.map(p => {
         const meta = platformMeta[p];
@@ -185,7 +191,7 @@ const categoryIconMap: Record<string, string> = {
   {tool.replacesTools.length > 0 && (
     <div class="card p-6 mb-8">
       <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">
-        Ersetzt folgende propriet&auml;re Tools
+        {t('detail.replacesTools')}
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
         {tool.replacesTools.map(r => (
@@ -205,10 +211,10 @@ const categoryIconMap: Record<string, string> = {
     <div class="card p-6 mb-8 border-indigo-500/30">
       <h2 class="text-lg font-semibold mb-3 flex items-center gap-2" style="color: var(--color-text-primary)">
         <Icon name="lucide:home" size={20} />
-        Selbst hosten
+        {t('detail.selfHost')}
       </h2>
       <p class="text-sm mb-3" style="color: var(--color-text-secondary)">
-        {tool.name} kann auf eigener Infrastruktur betrieben werden. Besuche die offizielle Dokumentation f&uuml;r eine Installationsanleitung.
+        {tool.name} {t('detail.selfHostText')}
       </p>
       <a
         href={tool.website}
@@ -216,21 +222,21 @@ const categoryIconMap: Record<string, string> = {
         rel="noopener noreferrer"
         class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-colors"
       >
-        Zur Dokumentation &rarr;
+        {t('detail.toDocs')}
       </a>
     </div>
   )}
 
   <div class="card p-6 mb-8">
-    <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Kategorien</h2>
+    <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">{t('detail.categories')}</h2>
     <div class="flex flex-wrap gap-2">
       {toolCategories.map(cat => (
         <a
-          href={`${base}kategorie/${cat.slug}/`}
+          href={`${base}${categoryPath}/${cat.slug}/`}
           class="badge bg-indigo-500/20 text-indigo-300 border-indigo-500/30 no-underline hover:no-underline hover:bg-indigo-500/30 inline-flex items-center gap-1.5"
         >
           {categoryIconMap[cat.icon] && <Icon name={categoryIconMap[cat.icon]} size={14} />}
-          {cat.name}
+          {getCategoryName(cat.slug, lang) || cat.name}
         </a>
       ))}
     </div>
@@ -238,7 +244,7 @@ const categoryIconMap: Record<string, string> = {
 
   {tool.tags.length > 0 && (
     <div class="card p-6 mb-8">
-      <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">Tags</h2>
+      <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">{t('detail.tags')}</h2>
       <div class="flex flex-wrap gap-2">
         {tool.tags.map(tag => (
           <span class="px-2.5 py-1 rounded-full text-xs" style="background: var(--color-bg-tertiary); color: var(--color-text-muted)">
@@ -251,10 +257,10 @@ const categoryIconMap: Record<string, string> = {
 
   {relatedTools.length > 0 && (
     <div class="mb-8">
-      <h2 class="text-lg font-semibold mb-4" style="color: var(--color-text-primary)">&Auml;hnliche Tools</h2>
+      <h2 class="text-lg font-semibold mb-4" style="color: var(--color-text-primary)">{t('detail.relatedTools')}</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {relatedTools.map(t => (
-          <ToolCard tool={t} />
+        {relatedTools.map(rt => (
+          <ToolCard tool={rt} />
         ))}
       </div>
     </div>
@@ -262,10 +268,10 @@ const categoryIconMap: Record<string, string> = {
 
   {toolCategories[0] && (
     <a
-      href={`${base}kategorie/${toolCategories[0].slug}/`}
+      href={`${base}${categoryPath}/${toolCategories[0].slug}/`}
       class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
     >
-      &larr; Zur&uuml;ck zu {toolCategories[0].name}
+      {t('detail.backTo')} {getCategoryName(toolCategories[0].slug, lang) || toolCategories[0].name}
     </a>
   )}
 </article>

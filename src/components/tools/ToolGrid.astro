@@ -1,6 +1,7 @@
 ---
 import type { Tool } from '../../data/types';
 import ToolCard from './ToolCard.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
 interface Props {
   tools: Tool[];
@@ -8,6 +9,8 @@ interface Props {
 }
 
 const { tools, title } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <section>
@@ -16,7 +19,7 @@ const { tools, title } = Astro.props;
   )}
   {tools.length === 0 ? (
     <div class="text-center py-12" style="color: var(--color-text-muted)">
-      <p class="text-lg">Keine Tools gefunden.</p>
+      <p class="text-lg">{t('grid.noTools')}</p>
     </div>
   ) : (
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 stagger-fade">

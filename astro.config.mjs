@@ -9,4 +9,11 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [tailwind(), icon(), sitemap()],
   output: 'static',
+  i18n: {
+    defaultLocale: 'de',
+    locales: ['de', 'en'],
+    routing: {
+      prefixDefaultLocale: false,
+    },
+  },
 });

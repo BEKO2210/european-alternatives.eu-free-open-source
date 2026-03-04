@@ -1,6 +1,7 @@
 ---
 import type { Category } from '../../data/types';
 import { Icon } from 'astro-icon/components';
+import { getLangFromUrl, useTranslations, getCategoryName } from '../../i18n/utils';
 
 interface Props {
   categories: Category[];
@@ -8,43 +9,45 @@ interface Props {
 }
 
 const { categories, licenses } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <div class="mb-8 p-4 rounded-xl" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border)">
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
     <div>
-      <label for="filter-search" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Suche</label>
+      <label for="filter-search" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">{t('filters.search')}</label>
       <input
         type="text"
         id="filter-search"
-        placeholder="Tool-Name..."
+        placeholder={t('filters.searchPlaceholder')}
         class="w-full px-3 py-2 rounded-lg text-sm outline-none"
         style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
       />
     </div>
 
     <div>
-      <label for="filter-category" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Kategorie</label>
+      <label for="filter-category" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">{t('filters.category')}</label>
       <select
         id="filter-category"
         class="w-full px-3 py-2 rounded-lg text-sm outline-none"
         style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
       >
-        <option value="">Alle Kategorien</option>
+        <option value="">{t('filters.allCategories')}</option>
         {categories.map(cat => (
-          <option value={cat.slug}>{cat.name}</option>
+          <option value={cat.slug}>{getCategoryName(cat.slug, lang) || cat.name}</option>
         ))}
       </select>
     </div>
 
     <div>
-      <label for="filter-license" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Lizenz</label>
+      <label for="filter-license" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">{t('filters.license')}</label>
       <select
         id="filter-license"
         class="w-full px-3 py-2 rounded-lg text-sm outline-none"
         style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
       >
-        <option value="">Alle Lizenzen</option>
+        <option value="">{t('filters.allLicenses')}</option>
         {licenses.map(lic => (
           <option value={lic}>{lic}</option>
         ))}
@@ -52,15 +55,15 @@ const { categories, licenses } = Astro.props;
     </div>
 
     <div>
-      <label for="filter-sort" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">Sortierung</label>
+      <label for="filter-sort" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">{t('filters.sort')}</label>
       <select
         id="filter-sort"
         class="w-full px-3 py-2 rounded-lg text-sm outline-none"
         style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
       >
-        <option value="name">Name (A-Z)</option>
-        <option value="stars">Beliebtheit (Stars)</option>
-        <option value="date">Neueste zuerst</option>
+        <option value="name">{t('filters.sortName')}</option>
+        <option value="stars">{t('filters.sortStars')}</option>
+        <option value="date">{t('filters.sortDate')}</option>
       </select>
     </div>
   </div>
@@ -72,7 +75,7 @@ const { categories, licenses } = Astro.props;
       style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
     >
       <Icon name="lucide:home" size={12} />
-      Nur selbst-hostbar
+      {t('filters.selfHostOnly')}
     </button>
     <button
       class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
@@ -80,7 +83,7 @@ const { categories, licenses } = Astro.props;
       style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
     >
       <span class="w-2 h-2 rounded-full bg-green-400 inline-block"></span>
-      Einfache Einrichtung
+      {t('filters.easySetup')}
     </button>
     <button
       class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
@@ -88,7 +91,7 @@ const { categories, licenses } = Astro.props;
       style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
     >
       <Icon name="simple-icons:docker" size={12} />
-      Docker verf&uuml;gbar
+      {t('filters.dockerAvailable')}
     </button>
   </div>
 </div>

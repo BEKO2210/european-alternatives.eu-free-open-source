@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import SearchModal from '../../components/ui/SearchModal.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="Self-Hosting – Why & How – FOSS Alternatives" description="Learn why self-hosting protects your privacy and how to build your own infrastructure with open-source software.">
+  <SearchModal />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <h1 class="text-4xl font-bold mb-4" style="color: var(--color-text-primary)">
+      Self <span class="gradient-text">Hosting</span>
+    </h1>
+    <p class="text-lg mb-12" style="color: var(--color-text-secondary)">
+      Why you should run your own infrastructure — and how to get started.
+    </p>
+
+    <article class="prose-custom space-y-8">
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Why Self-Hosting?</h2>
+        <div class="space-y-3 text-sm leading-relaxed" style="color: var(--color-text-secondary)">
+          <p><strong style="color: var(--color-text-primary)">Privacy & Data Protection:</strong> Your data stays on your servers. No third party has access to your emails, files or messages.</p>
+          <p><strong style="color: var(--color-text-primary)">Full Control:</strong> You decide about updates, configuration and access. No unexpected changes to terms of service.</p>
+          <p><strong style="color: var(--color-text-primary)">Cost Savings:</strong> Many FOSS tools are free. The only costs are server operating costs, which are often cheaper than SaaS subscriptions.</p>
+          <p><strong style="color: var(--color-text-primary)">Digital Sovereignty:</strong> You are not dependent on a single provider. No vendor lock-in problems.</p>
+          <p><strong style="color: var(--color-text-primary)">Learning Experience:</strong> Self-hosting teaches valuable knowledge about networks, server administration and IT security.</p>
+        </div>
+      </section>
+
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">How to Get Started?</h2>
+        <div class="space-y-4 text-sm" style="color: var(--color-text-secondary)">
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">1</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Choose a Server</h3>
+              <p>Start with an affordable VPS (Virtual Private Server) from Hetzner, Netcup or Contabo. A server with 2 vCPU, 4 GB RAM is enough for many services.</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">2</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Install an Operating System</h3>
+              <p>Install a Linux system like Ubuntu Server or Debian. Most FOSS tools run best on Linux.</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">3</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Install Docker</h3>
+              <p>Docker makes installing most FOSS services a breeze. A simple <code class="px-1.5 py-0.5 rounded text-xs font-mono" style="background: var(--color-bg-tertiary)">docker compose up -d</code> is often all it takes.</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">4</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Set Up a Reverse Proxy</h3>
+              <p>Use Caddy, Traefik or Nginx as a reverse proxy to run multiple services under one domain with automatic HTTPS.</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">5</span>
+            <div>
+              <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Don't Forget Backups!</h3>
+              <p>Set up automatic backups, e.g. with <a href={`${base}en/tool/restic/`}>Restic</a> or <a href={`${base}en/tool/borgbackup/`}>BorgBackup</a>. Regularly test your restores.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Recommended Starter Stack</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead>
+              <tr style="border-bottom: 1px solid var(--color-border)">
+                <th class="text-left py-2 font-medium" style="color: var(--color-text-muted)">Use Case</th>
+                <th class="text-left py-2 font-medium" style="color: var(--color-text-muted)">FOSS Solution</th>
+                <th class="text-left py-2 font-medium" style="color: var(--color-text-muted)">Replaces</th>
+              </tr>
+            </thead>
+            <tbody style="color: var(--color-text-secondary)">
+              <tr style="border-bottom: 1px solid var(--color-border)">
+                <td class="py-2">Cloud Storage</td>
+                <td class="py-2"><a href={`${base}en/tool/nextcloud/`}>Nextcloud</a></td>
+                <td class="py-2">Google Drive, Dropbox</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--color-border)">
+                <td class="py-2">Passwords</td>
+                <td class="py-2"><a href={`${base}en/tool/vaultwarden/`}>Vaultwarden</a></td>
+                <td class="py-2">LastPass, 1Password</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--color-border)">
+                <td class="py-2">Chat</td>
+                <td class="py-2"><a href={`${base}en/tool/element/`}>Element/Matrix</a></td>
+                <td class="py-2">Slack, Teams</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--color-border)">
+                <td class="py-2">Monitoring</td>
+                <td class="py-2"><a href={`${base}en/tool/uptime-kuma/`}>Uptime Kuma</a></td>
+                <td class="py-2">Pingdom, StatusCake</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--color-border)">
+                <td class="py-2">Analytics</td>
+                <td class="py-2"><a href={`${base}en/tool/umami/`}>Umami</a></td>
+                <td class="py-2">Google Analytics</td>
+              </tr>
+              <tr>
+                <td class="py-2">DNS/Adblock</td>
+                <td class="py-2"><a href={`${base}en/tool/pi-hole/`}>Pi-hole</a></td>
+                <td class="py-2">Google DNS</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="text-center pt-4">
+        <a
+          href={`${base}en/tools/`}
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-all"
+        >
+          Discover all self-hostable tools →
+        </a>
+      </div>
+    </article>
+  </div>
+</BaseLayout>

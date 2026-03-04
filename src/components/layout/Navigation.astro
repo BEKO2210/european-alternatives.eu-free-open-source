@@ -1,13 +1,19 @@
 ---
+import LanguageToggle from '../ui/LanguageToggle.astro';
+import { getLangFromUrl, useTranslations, getHomeHref } from '../../i18n/utils';
+
 const base = import.meta.env.BASE_URL;
 const currentPath = Astro.url.pathname;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const homeHref = getHomeHref(lang);
 
 const navLinks = [
-  { href: `${base}kategorien/`, label: 'Kategorien' },
-  { href: `${base}tools/`, label: 'Tools' },
-  { href: `${base}vergleich/`, label: 'Vergleich' },
-  { href: `${base}selbst-hosten/`, label: 'Guides' },
-  { href: `${base}ueber-uns/`, label: 'Über uns' },
+  { href: `${base}${t('nav.href.categories')}`, label: t('nav.categories') },
+  { href: `${base}${t('nav.href.tools')}`, label: t('nav.tools') },
+  { href: `${base}${t('nav.href.comparison')}`, label: t('nav.comparison') },
+  { href: `${base}${t('nav.href.guides')}`, label: t('nav.guides') },
+  { href: `${base}${t('nav.href.about')}`, label: t('nav.about') },
 ];
 
 function isActive(href: string): boolean {
@@ -19,15 +25,15 @@ function isActive(href: string): boolean {
   id="main-nav"
   class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
   role="navigation"
-  aria-label="Hauptnavigation"
+  aria-label={t('nav.mainNav')}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
       <!-- Logo -->
       <a
-        href={base}
+        href={homeHref}
         class="flex items-center gap-2 no-underline hover:no-underline"
-        aria-label="FOSS Alternatives Startseite"
+        aria-label={t('nav.home')}
       >
         <img src={`${base}icon.png`} alt="FOSS Alternatives" class="w-8 h-8 rounded-lg" />
         <span class="font-bold text-lg" style="color: var(--color-text-primary)">
@@ -53,19 +59,24 @@ function isActive(href: string): boolean {
         ))}
       </div>
 
-      <!-- Right side: Search + Theme Toggle -->
+      <!-- Right side: Lang Toggle + Search + Theme Toggle -->
       <div class="flex items-center gap-2">
+        <!-- Language Toggle -->
+        <div class="hidden sm:block">
+          <LanguageToggle />
+        </div>
+
         <!-- Search Button -->
         <button
           id="search-trigger"
           class="flex items-center gap-2 px-3 py-1.5 rounded-lg border text-sm"
           style="border-color: var(--color-border); color: var(--color-text-muted)"
-          aria-label="Suche öffnen (Strg+K)"
+          aria-label={t('nav.searchOpen')}
         >
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
           </svg>
-          <span class="hidden sm:inline">Suche...</span>
+          <span class="hidden sm:inline">{t('nav.search')}</span>
           <kbd class="hidden sm:inline-flex items-center gap-1 px-1.5 py-0.5 text-xs rounded" style="background: var(--color-bg-tertiary); color: var(--color-text-muted)" id="search-shortcut-hint">
             ⌘K
           </kbd>
@@ -75,7 +86,7 @@ function isActive(href: string): boolean {
         <button
           id="theme-toggle"
           class="p-2 rounded-lg hover:bg-white/5 transition-colors"
-          aria-label="Farbschema wechseln"
+          aria-label={t('nav.themeToggle')}
         >
           <svg class="w-5 h-5 sun-icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--color-text-secondary)">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
@@ -89,7 +100,7 @@ function isActive(href: string): boolean {
         <button
           id="mobile-menu-btn"
           class="md:hidden p-2 rounded-lg hover:bg-white/5"
-          aria-label="Menü öffnen"
+          aria-label={t('nav.menuOpen')}
           aria-expanded="false"
         >
           <svg class="w-6 h-6 menu-open" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--color-text-primary)">
@@ -124,6 +135,10 @@ function isActive(href: string): boolean {
           {link.label}
         </a>
       ))}
+      <!-- Language toggle in mobile menu -->
+      <div class="sm:hidden px-3 py-2 flex items-center gap-2">
+        <LanguageToggle />
+      </div>
     </div>
   </div>
 </nav>

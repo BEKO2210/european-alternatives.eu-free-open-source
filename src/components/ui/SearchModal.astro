@@ -1,5 +1,9 @@
 ---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
 const base = import.meta.env.BASE_URL;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <div
@@ -7,7 +11,10 @@ const base = import.meta.env.BASE_URL;
   class="hidden fixed inset-0 z-[100] flex items-start justify-center pt-[15vh]"
   role="dialog"
   aria-modal="true"
-  aria-label="Suche"
+  aria-label={t('search.label')}
+  data-hint={t('search.hint')}
+  data-no-results={t('search.noResults')}
+  data-build-only={t('search.buildOnly')}
 >
   <!-- Backdrop -->
   <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" id="search-backdrop"></div>
@@ -25,7 +32,7 @@ const base = import.meta.env.BASE_URL;
         <input
           id="search-input"
           type="text"
-          placeholder="Tools, Kategorien oder proprietäre Software suchen..."
+          placeholder={t('search.placeholder')}
           class="w-full bg-transparent outline-none text-base"
           style="color: var(--color-text-primary)"
           autocomplete="off"
@@ -43,7 +50,7 @@ const base = import.meta.env.BASE_URL;
       style="border-top: 1px solid var(--color-border)"
     >
       <div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">
-        Beginne zu tippen, um Tools und Kategorien zu finden...
+        {t('search.hint')}
       </div>
     </div>
   </div>
@@ -57,11 +64,15 @@ const base = import.meta.env.BASE_URL;
   const searchInput = document.getElementById('search-input') as HTMLInputElement;
   const resultsContainer = document.getElementById('search-results');
 
+  const hintText = modal?.dataset.hint || 'Start typing to find tools and categories...';
+  const noResultsText = modal?.dataset.noResults || 'No results for';
+  const buildOnlyText = modal?.dataset.buildOnly || 'Search is only available in build mode.';
+
   function closeModal() {
     modal?.classList.add('hidden');
     if (searchInput) searchInput.value = '';
     if (resultsContainer) {
-      resultsContainer.innerHTML = '<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">Beginne zu tippen, um Tools und Kategorien zu finden...</div>';
+      resultsContainer.innerHTML = `<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">${hintText}</div>`;
     }
   }
 
@@ -110,13 +121,13 @@ const base = import.meta.env.BASE_URL;
 
     if (!query || !resultsContainer) {
       if (resultsContainer) {
-        resultsContainer.innerHTML = '<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">Beginne zu tippen, um Tools und Kategorien zu finden...</div>';
+        resultsContainer.innerHTML = `<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">${hintText}</div>`;
       }
       return;
     }
 
     if (!pagefind) {
-      resultsContainer.innerHTML = '<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">Suche ist nur im Build-Modus verfügbar.</div>';
+      resultsContainer.innerHTML = `<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">${buildOnlyText}</div>`;
       return;
     }
 
@@ -126,7 +137,7 @@ const base = import.meta.env.BASE_URL;
     );
 
     if (results.length === 0) {
-      resultsContainer.innerHTML = `<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">Keine Ergebnisse für &quot;${escapeHtml(query)}&quot;</div>`;
+      resultsContainer.innerHTML = `<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">${noResultsText} &quot;${escapeHtml(query)}&quot;</div>`;
       return;
     }
 

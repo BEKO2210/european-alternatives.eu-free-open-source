@@ -1,0 +1,167 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import SearchModal from '../../components/ui/SearchModal.astro';
+import CategoryCard from '../../components/categories/CategoryCard.astro';
+import ToolCard from '../../components/tools/ToolCard.astro';
+import { allTools } from '../../data/tools/index';
+import { categories } from '../../data/categories';
+import { getCategoriesWithToolCount } from '../../utils/categories';
+
+const base = import.meta.env.BASE_URL;
+const categoriesWithCount = getCategoriesWithToolCount(categories, allTools);
+const totalTools = allTools.length;
+const totalCategories = categories.length;
+const uniqueLicenses = new Set(allTools.map(t => t.license)).size;
+
+const allToolsShuffled = [...allTools].sort(() => Math.random() - 0.5);
+const allCategoriesShuffled = [...categoriesWithCount].sort(() => Math.random() - 0.5);
+---
+
+<BaseLayout title="FOSS Alternatives – Your Freedom. Your Code. Your Future.">
+  <SearchModal />
+
+  <!-- Hero -->
+  <section class="gradient-bg-hero min-h-screen flex items-center justify-center pt-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm mb-8 animate-fade-in" style="background: var(--color-accent-green-glow); border: 1px solid rgba(34,197,94,0.3); color: #86efac">
+        <svg class="w-4 h-4 inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 .56-.89l7-4a1 1 0 0 1 .88 0l7 4A1 1 0 0 1 20 6z"/><path d="m9 12 2 2 4-4"/></svg> 100% Open Source · 100% Free
+      </div>
+
+      <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 animate-fade-in-up" style="color: var(--color-text-primary)">
+        Forget proprietary software.
+        <br />
+        <span class="gradient-text">Freedom is free.</span>
+      </h1>
+
+      <p class="text-lg sm:text-xl max-w-2xl mx-auto mb-10 animate-fade-in-up" style="color: var(--color-text-secondary); animation-delay: 0.1s">
+        {totalTools}+ FOSS alternatives to Google, Microsoft, Adobe & more —
+        self-hostable, transparent, free.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-fade-in-up" style="animation-delay: 0.2s">
+        <a
+          href={`${base}en/tools/`}
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 transition-all"
+        >
+          Discover all tools
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+          </svg>
+        </a>
+        <a
+          href={`${base}en/categories/`}
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline border border-indigo-500/50 text-indigo-400 hover:bg-indigo-500/10 transition-all"
+        >
+          Browse categories
+        </a>
+      </div>
+
+      <!-- Stats -->
+      <div class="flex flex-wrap items-center justify-center gap-4 animate-fade-in-up" style="animation-delay: 0.3s">
+        <span class="px-4 py-2 rounded-full text-sm font-medium" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border); color: var(--color-text-secondary)">
+          {totalTools} Tools
+        </span>
+        <span class="px-4 py-2 rounded-full text-sm font-medium" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border); color: var(--color-text-secondary)">
+          {totalCategories} Categories
+        </span>
+        <span class="px-4 py-2 rounded-full text-sm font-medium" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border); color: var(--color-text-secondary)">
+          {uniqueLicenses} Licenses
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Random Tools -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-3" style="color: var(--color-text-primary)">
+        Discover <span class="gradient-text">FOSS Alternatives</span>
+      </h2>
+      <p style="color: var(--color-text-secondary)">
+        Randomly selected open-source tools — different on every visit
+      </p>
+    </div>
+    <div id="random-tools-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 stagger-fade">
+      {allToolsShuffled.map((tool, i) => (
+        <div class="random-tool-item" data-index={i} style={i >= 6 ? 'display:none' : ''}>
+          <ToolCard tool={tool} />
+        </div>
+      ))}
+    </div>
+    <div class="text-center mt-8">
+      <a
+        href={`${base}en/tools/`}
+        class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
+      >
+        View all {totalTools} tools →
+      </a>
+    </div>
+  </section>
+
+  <!-- Random Categories -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20" style="border-top: 1px solid var(--color-border)">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-3" style="color: var(--color-text-primary)">
+        Browse <span class="gradient-text">Categories</span>
+      </h2>
+      <p style="color: var(--color-text-secondary)">
+        Explore our {totalCategories} categories — different on every visit
+      </p>
+    </div>
+    <div id="random-categories-grid" class="grid grid-cols-2 md:grid-cols-3 gap-4 stagger-fade">
+      {allCategoriesShuffled.map((cat, i) => (
+        <div class="random-category-item" data-index={i} style={i >= 6 ? 'display:none' : ''}>
+          <CategoryCard category={cat} />
+        </div>
+      ))}
+    </div>
+    <div class="text-center mt-8">
+      <a
+        href={`${base}en/categories/`}
+        class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
+      >
+        View all categories →
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="card p-8 md:p-12 text-center" style="border-color: var(--color-border-accent)">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4" style="color: var(--color-text-primary)">
+        Proprietary was yesterday.
+      </h2>
+      <p class="text-lg mb-8 max-w-2xl mx-auto" style="color: var(--color-text-secondary)">
+        Switch to open-source software and regain control over your data, your privacy and your digital future.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a
+          href={`${base}en/comparison/`}
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-all"
+        >
+          Find alternatives
+        </a>
+        <a
+          href={`${base}en/self-hosting/`}
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline border border-indigo-500/50 text-indigo-400 hover:bg-indigo-500/10 transition-all"
+        >
+          Learn self-hosting
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  function showRandom(containerSelector: string, itemSelector: string, count: number) {
+    const items = Array.from(document.querySelectorAll(containerSelector + ' ' + itemSelector)) as HTMLElement[];
+    items.forEach(el => { el.style.display = 'none'; });
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+    items.slice(0, count).forEach(el => { el.style.display = ''; });
+  }
+  showRandom('#random-tools-grid', '.random-tool-item', 6);
+  showRandom('#random-categories-grid', '.random-category-item', 6);
+</script>

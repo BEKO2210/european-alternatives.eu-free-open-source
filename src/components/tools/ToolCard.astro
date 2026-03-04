@@ -1,9 +1,10 @@
 ---
 import type { Tool } from '../../data/types';
 import { Icon } from 'astro-icon/components';
-import { getLicenseBadgeClass, getDifficultyBadgeClass, getDifficultyLabel } from '../../utils/tools';
+import { getLicenseBadgeClass, getDifficultyBadgeClass } from '../../utils/tools';
 import { getSimpleIcon } from '../../utils/icons';
 import MaintenanceBadge from '../ui/MaintenanceBadge.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
 interface Props {
   tool: Tool;
@@ -11,16 +12,20 @@ interface Props {
 
 const { tool } = Astro.props;
 const base = import.meta.env.BASE_URL;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 const licenseBadge = getLicenseBadgeClass(tool.license);
 const diffBadge = getDifficultyBadgeClass(tool.difficulty);
-const diffLabel = getDifficultyLabel(tool.difficulty);
+const diffLabel = t(`difficulty.${tool.difficulty}` as any);
 const simpleIcon = getSimpleIcon(tool.simpleIconsSlug ?? tool.slug);
 
 const lastUpdatedDate = tool.lastUpdated ? new Date(tool.lastUpdated) : null;
-const monthNames = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
-const lastUpdatedLabel = lastUpdatedDate ? `${monthNames[lastUpdatedDate.getMonth()]} ${lastUpdatedDate.getFullYear()}` : null;
+const monthKey = lastUpdatedDate ? `tool.months.${lastUpdatedDate.getMonth()}` as any : null;
+const lastUpdatedLabel = lastUpdatedDate && monthKey ? `${t(monthKey)} ${lastUpdatedDate.getFullYear()}` : null;
 const monthsAgo = lastUpdatedDate ? Math.floor((Date.now() - lastUpdatedDate.getTime()) / (1000 * 60 * 60 * 24 * 30)) : 0;
 const isStale = monthsAgo > 18;
+
+const toolPath = t('path.tool');
 
 const platformMeta: Record<string, { icon: string; label: string }> = {
   linux: { icon: 'simple-icons:linux', label: 'Linux' },
@@ -45,7 +50,7 @@ const toolColor = getToolColor(tool.name);
 ---
 
 <a
-  href={`${base}tool/${tool.slug}/`}
+  href={`${base}${toolPath}/${tool.slug}/`}
   class="card block no-underline hover:no-underline group"
 >
   <div class="flex items-start gap-3 mb-3 relative">
@@ -94,7 +99,7 @@ const toolColor = getToolColor(tool.name);
     {tool.selfHostable && (
       <span class="badge badge-selfhost inline-flex items-center gap-1">
         <Icon name="lucide:home" size={12} />
-        Selbst hostbar
+        {t('tool.selfHostable')}
       </span>
     )}
   </div>
@@ -126,7 +131,7 @@ const toolColor = getToolColor(tool.name);
     <div class="flex items-center gap-2">
       {lastUpdatedLabel && (
         <span class:list={['text-[10px]', isStale ? 'text-orange-400' : '']} style={isStale ? '' : 'color: var(--color-text-muted)'}>
-          Zuletzt: {lastUpdatedLabel}
+          {t('tool.lastUpdated')} {lastUpdatedLabel}
         </span>
       )}
       {tool.stars !== undefined && tool.stars > 0 && (
@@ -141,7 +146,7 @@ const toolColor = getToolColor(tool.name);
   </div>
 
   <div class="mt-3 pt-3 opacity-0 group-hover:opacity-100 transition-opacity text-center text-xs font-medium text-indigo-400" style="border-top: 1px solid var(--color-border)">
-    Details ansehen →
+    {t('tool.viewDetails')}
   </div>
 </a>
 

@@ -1,0 +1,90 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import SearchModal from '../../components/ui/SearchModal.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="About – FOSS Alternatives" description="Learn more about the FOSS Alternatives project and our mission for digital freedom.">
+  <SearchModal />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+    <h1 class="text-4xl font-bold mb-4" style="color: var(--color-text-primary)">
+      About <span class="gradient-text">FOSS Alternatives</span>
+    </h1>
+    <p class="text-lg mb-12" style="color: var(--color-text-secondary)">
+      Your freedom. Your code. Your future.
+    </p>
+
+    <div class="space-y-8">
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-3" style="color: var(--color-text-primary)">Our Mission</h2>
+        <p class="leading-relaxed" style="color: var(--color-text-secondary)">
+          FOSS Alternatives is a community project with the goal of providing everyone access to high-quality, free and open-source software. We believe that software freedom is a fundamental right of the digital society.
+        </p>
+        <p class="leading-relaxed mt-3" style="color: var(--color-text-secondary)">
+          Our curated collection helps individuals, companies and organizations switch from proprietary solutions to open alternatives — without vendor lock-in, without surveillance, without hidden costs.
+        </p>
+      </section>
+
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-3" style="color: var(--color-text-primary)">Why Open Source?</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm" style="color: var(--color-text-secondary)">
+          <div class="p-4 rounded-lg" style="background: var(--color-bg-tertiary)">
+            <strong style="color: var(--color-text-primary)">Transparency</strong>
+            <p class="mt-1">The source code is visible. Anyone can verify what the software does — no hidden trackers or backdoors.</p>
+          </div>
+          <div class="p-4 rounded-lg" style="background: var(--color-bg-tertiary)">
+            <strong style="color: var(--color-text-primary)">Security</strong>
+            <p class="mt-1">Thousands of eyes review the code. Security vulnerabilities are quickly discovered and fixed.</p>
+          </div>
+          <div class="p-4 rounded-lg" style="background: var(--color-bg-tertiary)">
+            <strong style="color: var(--color-text-primary)">Community</strong>
+            <p class="mt-1">Open source is developed and improved by global communities — for everyone, by everyone.</p>
+          </div>
+          <div class="p-4 rounded-lg" style="background: var(--color-bg-tertiary)">
+            <strong style="color: var(--color-text-primary)">Sustainability</strong>
+            <p class="mt-1">FOSS cannot simply be discontinued. The code lives on, even when companies disappear.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-3" style="color: var(--color-text-primary)">Contribute</h2>
+        <p class="leading-relaxed mb-4" style="color: var(--color-text-secondary)">
+          FOSS Alternatives is an open-source project and thrives on community contributions. You can help in many ways:
+        </p>
+        <ul class="space-y-2 text-sm" style="color: var(--color-text-secondary)">
+          <li>Suggest new tools or update existing entries</li>
+          <li>Report bugs or submit improvements</li>
+          <li>Translate the website or improve texts</li>
+          <li>Share the project and spread the word</li>
+        </ul>
+        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+          <a
+            href={`${base}en/contribute/`}
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-all"
+          >
+            Contribution Guide →
+          </a>
+          <a
+            href="https://github.com/BEKO2210/european-alternatives.eu-free-open-source"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-medium no-underline hover:no-underline border border-indigo-500/50 text-indigo-400 hover:bg-indigo-500/10 transition-all"
+          >
+            GitHub Repository →
+          </a>
+        </div>
+      </section>
+
+      <section class="card p-6">
+        <h2 class="text-xl font-semibold mb-3" style="color: var(--color-text-primary)">License</h2>
+        <p class="text-sm" style="color: var(--color-text-secondary)">
+          <strong>Code:</strong> MIT License<br/>
+          <strong>Content:</strong> Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+        </p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>
