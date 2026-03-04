@@ -6321,10 +6321,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'measure',
     name: 'Measure',
     slug: 'measure',
-    tagline: 'Measure is an open-source tool to monitor mobile apps.',
+    tagline: 'Measure ist ein Open-Source-Tool zur Ueberwachung mobiler Apps.',
     taglineEn: 'Measure is an open-source tool to monitor mobile apps.',
     description:
-      'Measure is an open-source tool to monitor mobile apps. We connect the dots between user actions, app events, network calls, logs, and errors to make debugging production issues easy!',
+      'Measure ist ein Open-Source-Tool zur Ueberwachung mobiler Apps. Es verbindet Benutzeraktionen, App-Events, Netzwerkaufrufe, Logs und Fehler miteinander, um das Debugging von Produktionsproblemen zu erleichtern.',
     descriptionEn:
       'Measure is an open-source tool to monitor mobile apps. We connect the dots between user actions, app events, network calls, logs, and errors to make debugging production issues easy!',
     website: 'https://measure.sh',
@@ -6347,10 +6347,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openam',
     name: 'Openam',
     slug: 'openam',
-    tagline: 'OpenAM is an open-source access management solution for identity authentication, authorization, and federation.',
+    tagline: 'OpenAM ist eine Open-Source-Zugangsmanagement-Loesung fuer Identitaetsauthentifizierung, Autorisierung und Foederation.',
     taglineEn: 'OpenAM is an open-source access management solution for identity authentication, authorization, and federation.',
     description:
-      'OpenAM is an open-source access management solution for identity authentication, authorization, and federation. It provides single sign-on, adaptive authentication, and centralized policy control, enabling secure access to web, mobile, and cloud applications',
+      'OpenAM ist eine Open-Source-Zugangsmanagement-Loesung fuer Identitaetsauthentifizierung, Autorisierung und Foederation. Es bietet Single Sign-On, adaptive Authentifizierung und zentrale Richtlinienverwaltung fuer sicheren Zugriff auf Web-, Mobil- und Cloud-Anwendungen.',
     descriptionEn:
       'OpenAM is an open-source access management solution for identity authentication, authorization, and federation. It provides single sign-on, adaptive authentication, and centralized policy control, enabling secure access to web, mobile, and cloud applications',
     website: 'https://www.openidentityplatform.org/openam',
@@ -6373,10 +6373,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'apt',
     name: 'Apt',
     slug: 'apt',
-    tagline: 'AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security.',
+    tagline: 'KI-Produktivitaetstool - Kostenlos und Open Source, steigert die Benutzerproduktivitaet und schuetzt Privatsphaere und Datensicherheit.',
     taglineEn: 'AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security.',
     description:
-      'AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security. Including but not limited to: built-in local exclusive ChatGPT, DeepSeek, Phi, Qwen and other models, one-click batch intelligent processing of pictures, videos, audio, etc.',
+      'KI-Produktivitaetstool - Kostenlos und Open Source, steigert die Benutzerproduktivitaet und schuetzt Privatsphaere und Datensicherheit. Unter anderem: integrierte lokale ChatGPT-, DeepSeek-, Phi-, Qwen- und andere Modelle, Ein-Klick-Stapelverarbeitung von Bildern, Videos, Audio usw.',
     descriptionEn:
       'AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security. Including but not limited to: built-in local exclusive ChatGPT, DeepSeek, Phi, Qwen and other models, one-click batch intelligent processing of pictures, videos, audio, etc.',
     website: 'https://github.com/rnchg/APT',
@@ -6399,10 +6399,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'nhost',
     name: 'Nhost',
     slug: 'nhost',
-    tagline: 'The Open Source Firebase Alternative with GraphQL.',
+    tagline: 'Die Open-Source-Firebase-Alternative mit GraphQL.',
     taglineEn: 'The Open Source Firebase Alternative with GraphQL.',
     description:
-      'The Open Source Firebase Alternative with GraphQL.',
+      'Die Open-Source-Firebase-Alternative mit GraphQL.',
     descriptionEn:
       'The Open Source Firebase Alternative with GraphQL.',
     website: 'https://nhost.io',
@@ -6425,10 +6425,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'swanlab',
     name: 'Swanlab',
     slug: 'swanlab',
-    tagline: '⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool.',
+    tagline: 'SwanLab - ein Open-Source-KI-Trainings-Tracking- und Visualisierungstool mit modernem Design.',
     taglineEn: '⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool.',
     description:
-      '⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultralytics / MMEngine / Keras etc.',
+      'SwanLab - ein Open-Source-KI-Trainings-Tracking- und Visualisierungstool mit modernem Design. Unterstuetzt Cloud- und Self-Hosted-Nutzung. Integriert mit PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultralytics / MMEngine / Keras u.v.m.',
     descriptionEn:
       '⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultralytics / MMEngine / Keras etc.',
     website: 'https://swanlab.cn',
@@ -6451,10 +6451,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'lsp-ai',
     name: 'Lsp Ai',
     slug: 'lsp-ai',
-    tagline: 'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist an...',
+    tagline: 'LSP-AI ist ein Open-Source-Language-Server als Backend fuer KI-gestuetzte Funktionalitaet, entwickelt um Softwareentwickler zu unterstuetzen...',
     taglineEn: 'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist an...',
     description:
-      'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist and empower software engineers, not replace them.',
+      'LSP-AI ist ein Open-Source-Language-Server, der als Backend fuer KI-gestuetzte Funktionalitaet dient und entwickelt wurde, um Softwareentwickler zu unterstuetzen und zu staerken, nicht um sie zu ersetzen.',
     descriptionEn:
       'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist and empower software engineers, not replace them.',
     website: 'https://github.com/SilasMarvin/lsp-ai',
@@ -6867,10 +6867,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'ant-media-server',
     name: 'Ant Media Server',
     slug: 'ant-media-server',
-    tagline: 'Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive bitrate, tr...',
+    tagline: 'Ant Media Server — Streaming-Engine mit extrem niedriger Latenz ueber WebRTC (~0,5s), SRT, RTMP, HLS und CMAF.',
     taglineEn: 'Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive bitrate, tr...',
     description:
-      'Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive bitrate, transcoding & scaling',
+      'Ant Media Server — Streaming-Engine mit extrem niedriger Latenz ueber WebRTC (~0,5s), SRT, RTMP, HLS, CMAF, adaptiver Bitrate, Transcoding und Skalierung.',
     descriptionEn:
       'Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive bitrate, transcoding & scaling',
     website: 'https://antmedia.io',
@@ -6893,10 +6893,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'kaneo',
     name: 'Kaneo',
     slug: 'kaneo',
-    tagline: '🎯 All you need. Nothing you don\'t. Open source project management that works for you, not against you.',
+    tagline: 'Alles was Sie brauchen. Nichts, was Sie nicht brauchen. Open-Source-Projektmanagement, das fuer Sie arbeitet, nicht gegen Sie.',
     taglineEn: '🎯 All you need. Nothing you don\'t. Open source project management that works for you, not against you.',
     description:
-      '🎯 All you need. Nothing you don\'t. Open source project management that works for you, not against you.',
+      'Alles was Sie brauchen. Nichts, was Sie nicht brauchen. Open-Source-Projektmanagement, das fuer Sie arbeitet, nicht gegen Sie.',
     descriptionEn:
       '🎯 All you need. Nothing you don\'t. Open source project management that works for you, not against you.',
     website: 'https://kaneo.app/',
@@ -6919,10 +6919,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'actionview',
     name: 'Actionview',
     slug: 'actionview',
-    tagline: 'An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar...',
+    tagline: 'Ein Issue-Tracking-Tool auf Basis von Laravel+ReactJS fuer kleine und mittlere Unternehmen — Open Source und kostenlos, aehnlich wie Jira.',
     taglineEn: 'An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar...',
     description:
-      'An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar to Jira.',
+      'Ein Issue-Tracking-Tool auf Basis von Laravel+ReactJS fuer kleine und mittlere Unternehmen — Open Source und kostenlos, aehnlich wie Jira.',
     descriptionEn:
       'An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar to Jira.',
     website: 'https://actionview.cn',
@@ -6945,10 +6945,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'bareos',
     name: 'Bareos',
     slug: 'bareos',
-    tagline: 'Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives, and recovers...',
+    tagline: 'Bareos ist eine netzwerkunabhaengige Open-Source-Backup-Loesung (AGPLv3), die Daten sichert, archiviert und wiederherstellt.',
     taglineEn: 'Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives, and recovers...',
     description:
-      'Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives, and recovers data from all major operating systems.',
+      'Bareos ist eine netzwerkunabhaengige Open-Source-Backup-Loesung (lizenziert unter AGPLv3), die Daten aller gaengigen Betriebssysteme sichert, archiviert und wiederherstellt.',
     descriptionEn:
       'Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives, and recovers data from all major operating systems.',
     website: 'http://www.bareos.org',
@@ -6971,10 +6971,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'project-management',
     name: 'Project Management',
     slug: 'project-management',
-    tagline: 'An open source Project management tool based on Laravel and Filament',
+    tagline: 'Ein Open-Source-Projektmanagement-Tool auf Basis von Laravel und Filament.',
     taglineEn: 'An open source Project management tool based on Laravel and Filament',
     description:
-      'An open source Project management tool based on Laravel and Filament',
+      'Ein Open-Source-Projektmanagement-Tool auf Basis von Laravel und Filament.',
     descriptionEn:
       'An open source Project management tool based on Laravel and Filament',
     website: 'https://devaslanphp.github.io/project-management',
@@ -6997,10 +6997,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'cubytext',
     name: 'Cubytext',
     slug: 'cubytext',
-    tagline: 'An open-source knowledge management app.',
+    tagline: 'Eine Open-Source-App fuer Wissensmanagement.',
     taglineEn: 'An open-source knowledge management app.',
     description:
-      'An open-source knowledge management app.',
+      'Eine Open-Source-App fuer Wissensmanagement.',
     descriptionEn:
       'An open-source knowledge management app.',
     website: 'https://github.com/vincentdchan/CubyText',
@@ -7023,10 +7023,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'idurar-erp-crm',
     name: 'Idurar Erp Crm',
     slug: 'idurar-erp-crm',
-    tagline: 'Free Open Source ERP CRM Software Accounting Invoicing | Node Js React',
+    tagline: 'Kostenlose Open-Source-ERP-CRM-Software fuer Buchhaltung und Rechnungsstellung mit Node.js und React.',
     taglineEn: 'Free Open Source ERP CRM Software Accounting Invoicing | Node Js React',
     description:
-      'Free Open Source ERP CRM Software Accounting Invoicing | Node Js React',
+      'Kostenlose Open-Source-ERP-CRM-Software fuer Buchhaltung und Rechnungsstellung mit Node.js und React.',
     descriptionEn:
       'Free Open Source ERP CRM Software Accounting Invoicing | Node Js React',
     website: 'https://cloud.idurarapp.com',
@@ -7049,10 +7049,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openakita',
     name: 'Openakita',
     slug: 'openakita',
-    tagline: 'An open-source AI assistant framework with skills and agent architecture',
+    tagline: 'Ein Open-Source-KI-Assistenz-Framework mit Skills- und Agenten-Architektur.',
     taglineEn: 'An open-source AI assistant framework with skills and agent architecture',
     description:
-      'An open-source AI assistant framework with skills and agent architecture',
+      'Ein Open-Source-KI-Assistenz-Framework mit Skills- und Agenten-Architektur.',
     descriptionEn:
       'An open-source AI assistant framework with skills and agent architecture',
     website: 'http://openakita.ai',
@@ -7075,10 +7075,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'hello-halo',
     name: 'Hello Halo',
     slug: 'hello-halo',
-    tagline: 'Open-source Claude Code GUI — like Claude Cowork.',
+    tagline: 'Open-Source-GUI fuer Claude Code — aehnlich wie Claude Cowork.',
     taglineEn: 'Open-source Claude Code GUI — like Claude Cowork.',
     description:
-      'Open-source Claude Code GUI — like Claude Cowork. Visual AI assistant with remote access, file management, and built-in AI browser.',
+      'Open-Source-GUI fuer Claude Code — aehnlich wie Claude Cowork. Visueller KI-Assistent mit Fernzugriff, Dateiverwaltung und integriertem KI-Browser.',
     descriptionEn:
       'Open-source Claude Code GUI — like Claude Cowork. Visual AI assistant with remote access, file management, and built-in AI browser.',
     website: 'https://hello-halo.cc/',
@@ -7101,10 +7101,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'ethora',
     name: 'Ethora',
     slug: 'ethora',
-    tagline: 'Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪.',
+    tagline: 'Open-Source-Engine fuer Chat, KI-Assistenten und Wallets.',
     taglineEn: 'Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪.',
     description:
-      'Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪. React, Typescript, Python, XMPP. Build future apps with chat, AI agents and web3.',
+      'Open-Source-Engine fuer Chat, KI-Assistenten und Wallets. React, Typescript, Python, XMPP. Erstellen Sie zukunftsfaehige Apps mit Chat, KI-Agenten und Web3.',
     descriptionEn:
       'Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪. React, Typescript, Python, XMPP. Build future apps with chat, AI agents and web3.',
     website: 'https://ethora.com/',
@@ -7127,10 +7127,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'astroplate',
     name: 'Astroplate',
     slug: 'astroplate',
-    tagline: 'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jum...',
+    tagline: 'Astroplate ist ein kostenloses Starter-Template mit Astro, TailwindCSS und TypeScript fuer den schnellen Projektstart.',
     taglineEn: 'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jum...',
     description:
-      'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jumpstart your Astro project. Get started with Astroplate and save yourself hours of work!',
+      'Astroplate ist ein kostenloses Starter-Template, erstellt mit Astro, TailwindCSS und TypeScript, das alles bietet, was Sie fuer den schnellen Start Ihres Astro-Projekts benoetigen. Starten Sie mit Astroplate und sparen Sie sich Stunden an Arbeit!',
     descriptionEn:
       'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jumpstart your Astro project. Get started with Astroplate and save yourself hours of work!',
     website: 'https://zeon.studio/preview?project=astroplate',
@@ -7153,10 +7153,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'nextplate',
     name: 'Nextplate',
     slug: 'nextplate',
-    tagline: 'Nextplate is a free starter template built with Next.js and TailwindCSS.',
+    tagline: 'Nextplate ist ein kostenloses Starter-Template, erstellt mit Next.js und TailwindCSS.',
     taglineEn: 'Nextplate is a free starter template built with Next.js and TailwindCSS.',
     description:
-      'Nextplate is a free starter template built with Next.js and TailwindCSS. It provides you with almost everything you need to jump-start your Next.js project. Try Nextplate and save yourself hours of work.',
+      'Nextplate ist ein kostenloses Starter-Template, erstellt mit Next.js und TailwindCSS. Es bietet nahezu alles, was Sie fuer den schnellen Start Ihres Next.js-Projekts benoetigen. Probieren Sie Nextplate aus und sparen Sie sich Stunden an Arbeit.',
     descriptionEn:
       'Nextplate is a free starter template built with Next.js and TailwindCSS. It provides you with almost everything you need to jump-start your Next.js project. Try Nextplate and save yourself hours of work.',
     website: 'https://zeon.studio/preview?project=nextplate',
