@@ -6,8 +6,11 @@ export const ciCdTools: Tool[] = [
     name: 'Woodpecker CI',
     slug: 'woodpecker-ci',
     tagline: 'Community-Fork von Drone mit Container-nativer CI/CD',
+    taglineEn: 'Community fork of Drone with container-native CI/CD',
     description:
       'Woodpecker CI ist ein quelloffenes Continuous-Integration-System, das als Community-Fork von Drone CI entstanden ist. Es nutzt Container fuer die Ausfuehrung von Pipelines und unterstuetzt Docker, Kubernetes und lokale Backends. Die Konfiguration erfolgt ueber einfache YAML-Dateien, und es bietet native Integration mit Gitea, Forgejo, GitHub, GitLab und Bitbucket. Woodpecker ist leichtgewichtig und einfach einzurichten.',
+    descriptionEn:
+      'Woodpecker CI is an open-source continuous integration system that originated as a community fork of Drone CI. It uses containers for pipeline execution and supports Docker, Kubernetes, and local backends. Configuration is done via simple YAML files, and it offers native integration with Gitea, Forgejo, GitHub, GitLab, and Bitbucket. Woodpecker is lightweight and easy to set up.',
     website: 'https://woodpecker-ci.org',
     github: 'https://github.com/woodpecker-ci/woodpecker',
     license: 'Apache-2.0',
@@ -28,8 +31,11 @@ export const ciCdTools: Tool[] = [
     name: 'Drone CI',
     slug: 'drone-ci',
     tagline: 'Container-native CI/CD-Plattform mit YAML-Pipelines',
+    taglineEn: 'Container-native CI/CD platform with YAML pipelines',
     description:
       'Drone ist eine moderne, container-native CI/CD-Plattform, die Pipelines in isolierten Docker-Containern ausfuehrt. Die Konfiguration erfolgt ueber eine einzige YAML-Datei im Repository, und jeder Schritt laeuft in einem eigenen Container. Drone unterstuetzt zahlreiche Quellcode-Verwaltungen, bietet ein Plugin-System und skaliert von Einzelprojekten bis hin zu Unternehmensumgebungen.',
+    descriptionEn:
+      'Drone is a modern, container-native CI/CD platform that executes pipelines in isolated Docker containers. Configuration is done via a single YAML file in the repository, and each step runs in its own container. Drone supports numerous source code management systems, offers a plugin system, and scales from individual projects to enterprise environments.',
     website: 'https://www.drone.io',
     github: 'https://github.com/harness/drone',
     license: 'Apache-2.0',
@@ -52,8 +58,11 @@ export const ciCdTools: Tool[] = [
     name: 'Jenkins',
     slug: 'jenkins',
     tagline: 'Der etablierteste Open-Source-Automatisierungsserver',
+    taglineEn: 'The most established open-source automation server',
     description:
       'Jenkins ist der weltweit meistverbreitete Open-Source-Automatisierungsserver fuer Continuous Integration und Continuous Delivery. Mit ueber 1.800 Plugins bietet Jenkins eine nahezu unbegrenzte Erweiterbarkeit und unterstuetzt praktisch jede Programmiersprache, jedes Build-Tool und jede Deployment-Umgebung. Jenkins-Pipelines koennen als Code (Jenkinsfile) definiert werden und ermoeglichen komplexe Build-, Test- und Deployment-Workflows.',
+    descriptionEn:
+      'Jenkins is the world\'s most widely used open-source automation server for continuous integration and continuous delivery. With over 1,800 plugins, Jenkins offers nearly unlimited extensibility and supports virtually every programming language, build tool, and deployment environment. Jenkins pipelines can be defined as code (Jenkinsfile) and enable complex build, test, and deployment workflows.',
     website: 'https://www.jenkins.io',
     github: 'https://github.com/jenkinsci/jenkins',
     license: 'MIT',
@@ -75,8 +84,11 @@ export const ciCdTools: Tool[] = [
     name: 'Concourse CI',
     slug: 'concourse-ci',
     tagline: 'Pipeline-basiertes CI/CD-System mit deklarativer Konfiguration',
+    taglineEn: 'Pipeline-based CI/CD system with declarative configuration',
     description:
       'Concourse ist ein Open-Source-CI/CD-System, das auf dem Konzept von Ressourcen, Jobs und Pipelines basiert. Jede Pipeline wird als deklarative YAML-Konfiguration definiert, und alle Builds laufen in isolierten Containern. Concourse behandelt Pipelines als erstklassige Objekte und visualisiert sie als interaktive Diagramme. Das System ist zustandslos konzipiert und eignet sich besonders fuer komplexe, reproduzierbare Build-Workflows.',
+    descriptionEn:
+      'Concourse is an open-source CI/CD system based on the concepts of resources, jobs, and pipelines. Each pipeline is defined as a declarative YAML configuration, and all builds run in isolated containers. Concourse treats pipelines as first-class objects and visualizes them as interactive diagrams. The system is designed to be stateless and is particularly well suited for complex, reproducible build workflows.',
     website: 'https://concourse-ci.org',
     github: 'https://github.com/concourse/concourse',
     license: 'Apache-2.0',
@@ -97,8 +109,11 @@ export const ciCdTools: Tool[] = [
     name: 'GoCD',
     slug: 'gocd',
     tagline: 'Continuous-Delivery-Server mit visueller Pipeline-Modellierung',
+    taglineEn: 'Continuous delivery server with visual pipeline modeling',
     description:
       'GoCD ist ein Open-Source-Continuous-Delivery-Server von Thoughtworks, der speziell fuer komplexe Deployment-Pipelines entwickelt wurde. Er bietet eine visuelle Darstellung der gesamten Wertschoepfungskette (Value Stream Map), native Unterstuetzung fuer parallele und sequentielle Ausfuehrung sowie Umgebungsmanagement. GoCD ermoeglicht es, den gesamten Weg vom Commit bis zur Produktion zu modellieren und zu ueberwachen.',
+    descriptionEn:
+      'GoCD is an open-source continuous delivery server by Thoughtworks, specifically designed for complex deployment pipelines. It offers a visual representation of the entire value stream (Value Stream Map), native support for parallel and sequential execution, and environment management. GoCD enables modeling and monitoring the entire path from commit to production.',
     website: 'https://www.gocd.org',
     github: 'https://github.com/gocd/gocd',
     license: 'Apache-2.0',
@@ -119,8 +134,11 @@ export const ciCdTools: Tool[] = [
     name: 'Tekton',
     slug: 'tekton',
     tagline: 'Cloud-natives CI/CD-Framework fuer Kubernetes',
+    taglineEn: 'Cloud-native CI/CD framework for Kubernetes',
     description:
       'Tekton ist ein leistungsstarkes, cloud-natives CI/CD-Framework, das direkt auf Kubernetes laeuft. Es stellt Pipelines als Kubernetes Custom Resources bereit und nutzt die native Skalierbarkeit und Infrastruktur von Kubernetes. Tekton bietet wiederverwendbare Tasks, Pipeline-Ressourcen, Trigger und einen Katalog von Community-Tasks. Es ist ein Projekt der Continuous Delivery Foundation und eignet sich besonders fuer cloud-native Entwicklungsteams.',
+    descriptionEn:
+      'Tekton is a powerful, cloud-native CI/CD framework that runs directly on Kubernetes. It provides pipelines as Kubernetes Custom Resources and leverages the native scalability and infrastructure of Kubernetes. Tekton offers reusable tasks, pipeline resources, triggers, and a catalog of community tasks. It is a project of the Continuous Delivery Foundation and is particularly well suited for cloud-native development teams.',
     website: 'https://tekton.dev',
     github: 'https://github.com/tektoncd/pipeline',
     license: 'Apache-2.0',

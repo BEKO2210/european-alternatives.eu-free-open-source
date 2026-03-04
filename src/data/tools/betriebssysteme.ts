@@ -6,8 +6,11 @@ export const betriebssystemeTools: Tool[] = [
     name: 'Ubuntu',
     slug: 'ubuntu',
     tagline: 'Das beliebteste Linux-Betriebssystem fuer Einsteiger und Profis',
+    taglineEn: 'The most popular Linux operating system for beginners and professionals',
     description:
       'Ubuntu ist eine der bekanntesten Linux-Distributionen und wird von Canonical Ltd. entwickelt. Es bietet eine benutzerfreundliche Oberflaeche, umfangreiche Softwareverwaltung ueber Snap und APT sowie langfristigen Support (LTS) fuer bis zu fuenf Jahre. Ubuntu eignet sich hervorragend fuer Desktop-Nutzer, Server und Cloud-Umgebungen und wird von einer grossen Community unterstuetzt.',
+    descriptionEn:
+      'Ubuntu is one of the most well-known Linux distributions, developed by Canonical Ltd. It offers a user-friendly interface, comprehensive software management via Snap and APT, and long-term support (LTS) for up to five years. Ubuntu is ideal for desktop users, servers, and cloud environments, and is backed by a large community.',
     website: 'https://ubuntu.com',
     github: 'https://github.com/canonical',
     license: 'GPL-2.0 / Diverse',
@@ -29,8 +32,11 @@ export const betriebssystemeTools: Tool[] = [
     name: 'Debian',
     slug: 'debian',
     tagline: 'Das universelle Betriebssystem – stabil, frei und zuverlaessig',
+    taglineEn: 'The universal operating system – stable, free, and reliable',
     description:
       'Debian ist eines der aeltesten und einflussreichsten Linux-Betriebssysteme. Es bildet die Grundlage fuer viele andere Distributionen wie Ubuntu und Linux Mint. Debian ist bekannt fuer seine herausragende Stabilitaet, sein riesiges Software-Repository mit ueber 59.000 Paketen und sein striktes Engagement fuer freie Software. Es eignet sich besonders fuer Server, aber auch fuer den Desktop-Einsatz.',
+    descriptionEn:
+      'Debian is one of the oldest and most influential Linux operating systems. It serves as the foundation for many other distributions such as Ubuntu and Linux Mint. Debian is known for its outstanding stability, its massive software repository with over 59,000 packages, and its strict commitment to free software. It is particularly well-suited for servers, but also for desktop use.',
     website: 'https://www.debian.org',
     github: 'https://github.com/debian',
     license: 'DFSG-kompatibel / Diverse',
@@ -52,8 +58,11 @@ export const betriebssystemeTools: Tool[] = [
     name: 'Fedora',
     slug: 'fedora',
     tagline: 'Innovatives Linux-Betriebssystem mit aktuellster Software',
+    taglineEn: 'Innovative Linux operating system with cutting-edge software',
     description:
       'Fedora wird von der Community mit Unterstuetzung von Red Hat entwickelt und gilt als eine der innovativsten Linux-Distributionen. Es bietet stets aktuelle Softwareversionen, den GNOME-Desktop in seiner Reinform und modernste Technologien wie Wayland, PipeWire und Flatpak. Fedora dient als Basis fuer Red Hat Enterprise Linux und eignet sich ideal fuer Entwickler und technikaffine Nutzer.',
+    descriptionEn:
+      'Fedora is developed by the community with support from Red Hat and is considered one of the most innovative Linux distributions. It always provides the latest software versions, the GNOME desktop in its pure form, and cutting-edge technologies such as Wayland, PipeWire, and Flatpak. Fedora serves as the basis for Red Hat Enterprise Linux and is ideal for developers and tech-savvy users.',
     website: 'https://fedoraproject.org',
     github: 'https://github.com/fedora-infra',
     license: 'MIT / GPL / Diverse',
@@ -75,8 +84,11 @@ export const betriebssystemeTools: Tool[] = [
     name: 'Linux Mint',
     slug: 'linux-mint',
     tagline: 'Elegant, komfortabel und einsteigerfreundlich',
+    taglineEn: 'Elegant, comfortable, and beginner-friendly',
     description:
       'Linux Mint ist eine auf Ubuntu basierende Distribution, die besonderen Wert auf Benutzerfreundlichkeit und ein klassisches Desktop-Erlebnis legt. Mit dem hauseigenen Cinnamon-Desktop bietet Mint eine vertraute Oberflaeche fuer Windows-Umsteiger. Es enthaelt vorinstallierte Multimedia-Codecs, eine einfache Softwareverwaltung und zahlreiche eigene Werkzeuge, die den taeglichen Umgang erleichtern.',
+    descriptionEn:
+      'Linux Mint is an Ubuntu-based distribution that places special emphasis on user-friendliness and a classic desktop experience. With its in-house Cinnamon desktop, Mint offers a familiar interface for users switching from Windows. It includes pre-installed multimedia codecs, straightforward software management, and numerous custom tools that simplify daily use.',
     website: 'https://linuxmint.com',
     github: 'https://github.com/linuxmint',
     license: 'GPL-2.0 / Diverse',
@@ -98,8 +110,11 @@ export const betriebssystemeTools: Tool[] = [
     name: 'EndeavourOS',
     slug: 'endeavouros',
     tagline: 'Ein terminalzentriertes Arch-Linux fuer alle',
+    taglineEn: 'A terminal-centric Arch Linux for everyone',
     description:
       'EndeavourOS ist eine benutzerfreundliche Arch-Linux-basierte Distribution, die den Einstieg in die Arch-Welt erleichtert. Es bietet einen grafischen Installer, eine hilfsbereite Community und die volle Leistungsfaehigkeit der Arch-Repositories inklusive AUR. EndeavourOS setzt auf eine minimalistische Grundinstallation, die der Nutzer nach eigenen Wuenschen erweitern kann.',
+    descriptionEn:
+      'EndeavourOS is a user-friendly Arch Linux-based distribution that makes getting started with the Arch ecosystem easier. It offers a graphical installer, a helpful community, and the full power of the Arch repositories including the AUR. EndeavourOS relies on a minimalist base installation that users can customize according to their own preferences.',
     website: 'https://endeavouros.com',
     github: 'https://github.com/endeavouros-team',
     license: 'GPL / Diverse',
@@ -120,8 +135,11 @@ export const betriebssystemeTools: Tool[] = [
     name: 'openSUSE Tumbleweed',
     slug: 'opensuse-tumbleweed',
     tagline: 'Stabile Rolling-Release-Distribution mit automatischen Tests',
+    taglineEn: 'Stable rolling-release distribution with automated testing',
     description:
       'openSUSE Tumbleweed ist eine Rolling-Release-Distribution, die stets die aktuellsten stabilen Softwareversionen bereitstellt. Jedes Update wird durch das automatisierte Testsystem openQA gruendlich geprueft, bevor es veroeffentlicht wird. Tumbleweed bietet das leistungsstarke Konfigurationstool YaST, das Btrfs-Dateisystem mit automatischen Snapshots und Unterstuetzung fuer verschiedene Desktop-Umgebungen.',
+    descriptionEn:
+      'openSUSE Tumbleweed is a rolling-release distribution that always provides the latest stable software versions. Every update is thoroughly tested by the automated openQA testing system before release. Tumbleweed offers the powerful YaST configuration tool, the Btrfs file system with automatic snapshots, and support for various desktop environments.',
     website: 'https://get.opensuse.org/tumbleweed/',
     github: 'https://github.com/openSUSE',
     license: 'GPL / Diverse',
@@ -142,8 +160,11 @@ export const betriebssystemeTools: Tool[] = [
     name: 'Manjaro',
     slug: 'manjaro',
     tagline: 'Benutzerfreundliches Arch-Linux mit kuratierter Softwareauswahl',
+    taglineEn: 'User-friendly Arch Linux with a curated software selection',
     description:
       'Manjaro ist eine auf Arch Linux basierende Distribution, die dessen Rolling-Release-Modell mit zusaetzlicher Stabilitaet kombiniert. Software wird vor der Freigabe zusaetzlich getestet, und ein grafischer Installer sowie Hardwareerkennung erleichtern die Einrichtung. Manjaro unterstuetzt mehrere Desktop-Umgebungen wie KDE Plasma, GNOME und Xfce und bietet Zugang zum AUR.',
+    descriptionEn:
+      'Manjaro is an Arch Linux-based distribution that combines its rolling-release model with additional stability. Software is tested further before release, and a graphical installer along with hardware detection simplify the setup process. Manjaro supports multiple desktop environments such as KDE Plasma, GNOME, and Xfce, and provides access to the AUR.',
     website: 'https://manjaro.org',
     github: 'https://github.com/manjaro',
     license: 'GPL / Diverse',
@@ -164,8 +185,11 @@ export const betriebssystemeTools: Tool[] = [
     name: 'Pop!_OS',
     slug: 'pop-os',
     tagline: 'Von System76 entwickeltes Linux fuer Kreative und Entwickler',
+    taglineEn: 'Linux developed by System76 for creatives and developers',
     description:
       'Pop!_OS wird vom Hardwarehersteller System76 entwickelt und basiert auf Ubuntu. Es zeichnet sich durch ein durchdachtes Fenstermanagement mit Auto-Tiling, hervorragende GPU-Unterstuetzung fuer NVIDIA und AMD sowie eine optimierte Benutzererfahrung aus. Pop!_OS richtet sich besonders an Entwickler, Wissenschaftler und Kreative, die ein produktives Arbeitsumfeld benoetigen.',
+    descriptionEn:
+      'Pop!_OS is developed by hardware manufacturer System76 and is based on Ubuntu. It features a well-designed window management system with auto-tiling, excellent GPU support for NVIDIA and AMD, and an optimized user experience. Pop!_OS is aimed particularly at developers, scientists, and creatives who need a productive work environment.',
     website: 'https://pop.system76.com',
     github: 'https://github.com/pop-os',
     license: 'GPL-2.0 / Diverse',
@@ -186,8 +210,11 @@ export const betriebssystemeTools: Tool[] = [
     name: 'NixOS',
     slug: 'nixos',
     tagline: 'Deklarativ konfiguriertes Linux mit reproduzierbaren Builds',
+    taglineEn: 'Declaratively configured Linux with reproducible builds',
     description:
       'NixOS ist eine einzigartige Linux-Distribution, die auf dem Nix-Paketmanager basiert. Das gesamte System wird deklarativ in einer Konfigurationsdatei beschrieben und kann reproduzierbar aufgebaut werden. Aenderungen koennen jederzeit zurueckgerollt werden, und verschiedene Softwareversionen koennen parallel installiert sein. NixOS eignet sich besonders fuer DevOps, Systemadministration und Nutzer, die volle Kontrolle ueber ihr System wuenschen.',
+    descriptionEn:
+      'NixOS is a unique Linux distribution built on the Nix package manager. The entire system is described declaratively in a configuration file and can be built reproducibly. Changes can be rolled back at any time, and different software versions can be installed in parallel. NixOS is particularly well-suited for DevOps, system administration, and users who want full control over their system.',
     website: 'https://nixos.org',
     github: 'https://github.com/NixOS/nixpkgs',
     license: 'MIT',
@@ -209,8 +236,11 @@ export const betriebssystemeTools: Tool[] = [
     name: 'FreeBSD',
     slug: 'freebsd',
     tagline: 'Leistungsstarkes Unix-Betriebssystem mit hervorragender Netzwerkleistung',
+    taglineEn: 'Powerful Unix operating system with outstanding network performance',
     description:
       'FreeBSD ist ein freies Unix-Betriebssystem mit einer langen Geschichte und einem Ruf fuer Zuverlaessigkeit, Sicherheit und hohe Netzwerkleistung. Es wird von grossen Unternehmen wie Netflix und WhatsApp eingesetzt. FreeBSD bietet das ZFS-Dateisystem, Jails fuer Containerisierung, ein Ports-System fuer Softwareverwaltung und eine hervorragende Dokumentation. Es unterscheidet sich grundlegend von Linux-Distributionen.',
+    descriptionEn:
+      'FreeBSD is a free Unix operating system with a long history and a reputation for reliability, security, and high network performance. It is used by major companies such as Netflix and WhatsApp. FreeBSD offers the ZFS file system, Jails for containerization, a Ports system for software management, and excellent documentation. It differs fundamentally from Linux distributions.',
     website: 'https://www.freebsd.org',
     github: 'https://github.com/freebsd/freebsd-src',
     license: 'BSD-2-Clause',

@@ -6,8 +6,10 @@ export const bildbearbeitungTools: Tool[] = [
     name: 'GIMP',
     slug: 'gimp',
     tagline: 'Das freie Bildbearbeitungsprogramm',
+    taglineEn: 'The free image editing program',
     description:
       'GIMP (GNU Image Manipulation Program) ist ein leistungsfaehiges, quelloffenes Bildbearbeitungsprogramm. Es bietet umfangreiche Werkzeuge fuer Retusche, Fotomontage, Farbkorrektur und Grafikdesign und ist die bekannteste freie Alternative zu Adobe Photoshop.',
+    descriptionEn: 'GIMP (GNU Image Manipulation Program) is a powerful, open-source image editing program. It offers extensive tools for retouching, photo compositing, color correction, and graphic design, and is the most well-known free alternative to Adobe Photoshop.',
     website: 'https://www.gimp.org',
     github: 'https://github.com/GNOME/gimp',
     license: 'GPL-3.0',

@@ -6,8 +6,11 @@ export const passwortManagerTools: Tool[] = [
     name: 'Vaultwarden',
     slug: 'vaultwarden',
     tagline: 'Leichtgewichtige selbstgehostete Bitwarden-kompatible Passwortverwaltung',
+    taglineEn: 'Lightweight self-hosted Bitwarden-compatible password management',
     description:
       'Vaultwarden (frueher Bitwarden_RS) ist eine leichtgewichtige, in Rust geschriebene Implementierung der Bitwarden-Server-API. Es ermoeglicht das Selbsthosten eines vollstaendigen Passwort-Managers, der mit allen offiziellen Bitwarden-Clients kompatibel ist. Vaultwarden verbraucht deutlich weniger Ressourcen als der offizielle Bitwarden-Server und bietet dennoch alle Premium-Funktionen wie TOTP, Dateiabhaenge und Organisationen. Ideal fuer Privatpersonen und kleine Teams, die ihre Passwoerter selbst verwalten moechten.',
+    descriptionEn:
+      'Vaultwarden (formerly Bitwarden_RS) is a lightweight implementation of the Bitwarden server API written in Rust. It enables self-hosting a full-featured password manager that is compatible with all official Bitwarden clients. Vaultwarden consumes significantly fewer resources than the official Bitwarden server while still offering all premium features such as TOTP, file attachments, and organizations. Ideal for individuals and small teams who want to manage their passwords themselves.',
     website: 'https://github.com/dani-garcia/vaultwarden',
     github: 'https://github.com/dani-garcia/vaultwarden',
     license: 'AGPL-3.0',
@@ -29,8 +32,11 @@ export const passwortManagerTools: Tool[] = [
     name: 'KeePassXC',
     slug: 'keepassxc',
     tagline: 'Plattformuebergreifender Offline-Passwort-Manager mit KDBX-Datenbank',
+    taglineEn: 'Cross-platform offline password manager with KDBX database',
     description:
       'KeePassXC ist ein plattformuebergreifender, quelloffener Passwort-Manager, der Passwoerter in einer lokal verschluesselten KDBX-Datenbank speichert. Er bietet einen integrierten Passwort-Generator, TOTP-Unterstuetzung, Browser-Integration ueber eine Erweiterung, SSH-Agent-Integration und YubiKey/OnlyKey-Unterstuetzung. Die Datenbank kann ueber beliebige Cloud-Speicher synchronisiert werden. KeePassXC speichert keine Daten auf fremden Servern und gibt dem Nutzer volle Kontrolle ueber seine Passwoerter.',
+    descriptionEn:
+      'KeePassXC is a cross-platform, open-source password manager that stores passwords in a locally encrypted KDBX database. It offers a built-in password generator, TOTP support, browser integration via an extension, SSH agent integration, and YubiKey/OnlyKey support. The database can be synchronized via any cloud storage service. KeePassXC does not store data on third-party servers, giving users full control over their passwords.',
     website: 'https://keepassxc.org',
     github: 'https://github.com/keepassxreboot/keepassxc',
     license: 'GPL-3.0',
@@ -51,8 +57,11 @@ export const passwortManagerTools: Tool[] = [
     name: 'Padloc',
     slug: 'padloc',
     tagline: 'Moderner Open-Source-Passwort-Manager mit elegantem Design',
+    taglineEn: 'Modern open-source password manager with elegant design',
     description:
       'Padloc ist ein moderner, quelloffener Passwort-Manager mit einer intuitiven und eleganten Benutzeroberflaeche. Er bietet Ende-zu-Ende-Verschluesselung, plattformuebergreifende Synchronisation, sichere Passwort-Generierung und die Moeglichkeit, Passwoerter in Gruppen zu organisieren und mit Teammitgliedern zu teilen. Padloc kann als gehosteter Dienst oder selbst gehostet genutzt werden und bietet Web-, Desktop- und Mobile-Apps fuer alle gaengigen Plattformen.',
+    descriptionEn:
+      'Padloc is a modern, open-source password manager with an intuitive and elegant user interface. It offers end-to-end encryption, cross-platform synchronization, secure password generation, and the ability to organize passwords into groups and share them with team members. Padloc can be used as a hosted service or self-hosted, and provides web, desktop, and mobile apps for all major platforms.',
     website: 'https://padloc.app',
     github: 'https://github.com/padloc/padloc',
     license: 'AGPL-3.0',
@@ -74,8 +83,11 @@ export const passwortManagerTools: Tool[] = [
     name: 'Passbolt Community',
     slug: 'passbolt',
     tagline: 'Team-Passwort-Manager mit Fokus auf Zusammenarbeit und Sicherheit',
+    taglineEn: 'Team password manager focused on collaboration and security',
     description:
       'Passbolt ist ein quelloffener Passwort-Manager, der speziell fuer Teams und Organisationen entwickelt wurde. Er basiert auf OpenPGP-Verschluesselung und ermoeglicht das sichere Teilen von Passwoertern innerhalb von Gruppen mit feingranularen Zugriffsrechten. Passbolt bietet eine Browser-Erweiterung, JSON-API, LDAP/AD-Integration und Audit-Logs. Die Community Edition ist kostenlos selbst hostbar und wird in Luxemburg entwickelt, was europaeische Datenschutzstandards gewaehrleistet.',
+    descriptionEn:
+      'Passbolt is an open-source password manager specifically designed for teams and organizations. It is based on OpenPGP encryption and enables secure sharing of passwords within groups with fine-grained access controls. Passbolt offers a browser extension, JSON API, LDAP/AD integration, and audit logs. The Community Edition is free to self-host and is developed in Luxembourg, ensuring European data protection standards.',
     website: 'https://www.passbolt.com',
     github: 'https://github.com/passbolt/passbolt_api',
     license: 'AGPL-3.0',

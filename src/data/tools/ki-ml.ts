@@ -6,8 +6,11 @@ export const kiMlTools: Tool[] = [
     name: 'Ollama',
     slug: 'ollama',
     tagline: 'Große Sprachmodelle lokal und unkompliziert ausführen',
+    taglineEn: 'Run large language models locally with ease',
     description:
       'Ollama ermöglicht es, große Sprachmodelle wie Llama, Mistral, Gemma und viele weitere lokal auf dem eigenen Rechner auszuführen. Die Installation ist denkbar einfach, und Modelle können mit einem einzigen Befehl heruntergeladen und gestartet werden. Ollama bietet eine REST-API und ist kompatibel mit der OpenAI-API, was die Integration in bestehende Anwendungen erleichtert.',
+    descriptionEn:
+      'Ollama allows you to run large language models such as Llama, Mistral, Gemma, and many more locally on your own machine. Installation is remarkably simple, and models can be downloaded and started with a single command. Ollama provides a REST API and is compatible with the OpenAI API, making integration into existing applications straightforward.',
     website: 'https://ollama.com',
     github: 'https://github.com/ollama/ollama',
     license: 'MIT',
@@ -30,8 +33,11 @@ export const kiMlTools: Tool[] = [
     name: 'LocalAI',
     slug: 'localai',
     tagline: 'Lokale OpenAI-kompatible API für verschiedene KI-Modelle',
+    taglineEn: 'Local OpenAI-compatible API for various AI models',
     description:
       'LocalAI ist ein selbstgehosteter, OpenAI-kompatibler API-Server, der verschiedene KI-Modelle lokal ausführen kann – ohne GPU-Anforderung. Es unterstützt Textgenerierung, Bildgenerierung, Audio-Transkription, Embeddings und mehr. LocalAI fungiert als Drop-in-Ersatz für die OpenAI-API und ermöglicht es, bestehende Anwendungen ohne Code-Änderungen auf lokale Modelle umzustellen.',
+    descriptionEn:
+      'LocalAI is a self-hosted, OpenAI-compatible API server that can run various AI models locally — without requiring a GPU. It supports text generation, image generation, audio transcription, embeddings, and more. LocalAI serves as a drop-in replacement for the OpenAI API, allowing existing applications to switch to local models without code changes.',
     website: 'https://localai.io',
     github: 'https://github.com/mudler/LocalAI',
     license: 'MIT',
@@ -53,8 +59,11 @@ export const kiMlTools: Tool[] = [
     name: 'Stable Diffusion WebUI',
     slug: 'stable-diffusion-webui',
     tagline: 'Leistungsstarke Benutzeroberfläche für KI-Bildgenerierung',
+    taglineEn: 'Powerful user interface for AI image generation',
     description:
       'Stable Diffusion WebUI (AUTOMATIC1111) ist die beliebteste Benutzeroberfläche zur lokalen Ausführung von Stable-Diffusion-Modellen für KI-Bildgenerierung. Es bietet Text-zu-Bild, Bild-zu-Bild, Inpainting, Outpainting, Upscaling und zahlreiche Erweiterungen. Mit ControlNet, LoRA-Unterstützung und einem integrierten Modell-Browser bietet es professionelle Werkzeuge für kreative KI-Arbeit.',
+    descriptionEn:
+      'Stable Diffusion WebUI (AUTOMATIC1111) is the most popular user interface for running Stable Diffusion models locally for AI image generation. It offers text-to-image, image-to-image, inpainting, outpainting, upscaling, and numerous extensions. With ControlNet, LoRA support, and an integrated model browser, it provides professional tools for creative AI work.',
     website: 'https://github.com/AUTOMATIC1111/stable-diffusion-webui',
     github: 'https://github.com/AUTOMATIC1111/stable-diffusion-webui',
     license: 'AGPL-3.0',
@@ -76,8 +85,11 @@ export const kiMlTools: Tool[] = [
     name: 'Text Generation WebUI',
     slug: 'text-generation-webui',
     tagline: 'Vielseitige Oberfläche für lokale Sprachmodelle',
+    taglineEn: 'Versatile interface for local language models',
     description:
       'Text Generation WebUI (oobabooga) ist eine umfassende Gradio-basierte Benutzeroberfläche zum lokalen Ausführen großer Sprachmodelle. Es unterstützt Modelle in verschiedenen Formaten (GGUF, GPTQ, AWQ, EXL2) und bietet Chat-, Notebook- und Instruct-Modi. Mit Extensions für Sprachsynthese, Charaktere und API-Zugang ist es eine vielseitige Plattform für die lokale KI-Nutzung.',
+    descriptionEn:
+      'Text Generation WebUI (oobabooga) is a comprehensive Gradio-based user interface for running large language models locally. It supports models in various formats (GGUF, GPTQ, AWQ, EXL2) and offers chat, notebook, and instruct modes. With extensions for speech synthesis, characters, and API access, it is a versatile platform for local AI usage.',
     website: 'https://github.com/oobabooga/text-generation-webui',
     github: 'https://github.com/oobabooga/text-generation-webui',
     license: 'AGPL-3.0',
@@ -99,8 +111,11 @@ export const kiMlTools: Tool[] = [
     name: 'Hugging Face Transformers',
     slug: 'hugging-face-transformers',
     tagline: 'Die führende Bibliothek für vortrainierte KI-Modelle',
+    taglineEn: 'The leading library for pre-trained AI models',
     description:
       'Hugging Face Transformers ist die umfassendste Open-Source-Bibliothek für Natural Language Processing, Computer Vision und Audioverarbeitung. Sie bietet Zugang zu Tausenden vortrainierter Modelle, eine einheitliche API für Training und Inferenz sowie nahtlose Integration mit PyTorch, TensorFlow und JAX. Transformers ist der De-facto-Standard für die Arbeit mit modernen KI-Modellen.',
+    descriptionEn:
+      'Hugging Face Transformers is the most comprehensive open-source library for natural language processing, computer vision, and audio processing. It provides access to thousands of pre-trained models, a unified API for training and inference, and seamless integration with PyTorch, TensorFlow, and JAX. Transformers is the de facto standard for working with modern AI models.',
     website: 'https://huggingface.co/transformers',
     github: 'https://github.com/huggingface/transformers',
     license: 'Apache-2.0',
@@ -123,8 +138,11 @@ export const kiMlTools: Tool[] = [
     name: 'AnythingLLM',
     slug: 'anythingllm',
     tagline: 'All-in-One-Desktop-App für lokale und Cloud-basierte LLMs',
+    taglineEn: 'All-in-one desktop app for local and cloud-based LLMs',
     description:
       'AnythingLLM ist eine All-in-One-Anwendung, die es ermöglicht, beliebige Dokumente in einen intelligenten Chatbot zu verwandeln. Es unterstützt lokale Modelle (über Ollama, LM Studio) und Cloud-Anbieter, bietet RAG (Retrieval Augmented Generation), Agentenfunktionen und Multi-User-Zugang. Die Desktop-App erfordert keine technische Einrichtung und ist sofort einsatzbereit.',
+    descriptionEn:
+      'AnythingLLM is an all-in-one application that allows you to turn any documents into an intelligent chatbot. It supports local models (via Ollama, LM Studio) and cloud providers, offers RAG (Retrieval Augmented Generation), agent capabilities, and multi-user access. The desktop app requires no technical setup and is ready to use immediately.',
     website: 'https://anythingllm.com',
     github: 'https://github.com/Mintplex-Labs/anything-llm',
     license: 'MIT',
@@ -146,8 +164,11 @@ export const kiMlTools: Tool[] = [
     name: 'Open WebUI',
     slug: 'open-webui',
     tagline: 'Elegante Benutzeroberfläche für Ollama und OpenAI-kompatible APIs',
+    taglineEn: 'Elegant user interface for Ollama and OpenAI-compatible APIs',
     description:
       'Open WebUI (ehemals Ollama WebUI) ist eine funktionsreiche und benutzerfreundliche selbstgehostete Web-Oberfläche für die Interaktion mit LLMs. Es unterstützt Ollama und OpenAI-kompatible APIs, bietet Chatverlauf, Modellverwaltung, RAG-Integration, Websuche und eine Prompt-Bibliothek. Die Oberfläche erinnert an ChatGPT und macht den Umstieg auf lokale Modelle besonders einfach.',
+    descriptionEn:
+      'Open WebUI (formerly Ollama WebUI) is a feature-rich and user-friendly self-hosted web interface for interacting with LLMs. It supports Ollama and OpenAI-compatible APIs, offers chat history, model management, RAG integration, web search, and a prompt library. The interface resembles ChatGPT and makes switching to local models particularly easy.',
     website: 'https://openwebui.com',
     github: 'https://github.com/open-webui/open-webui',
     license: 'MIT',
@@ -169,8 +190,11 @@ export const kiMlTools: Tool[] = [
     name: 'LibreChat',
     slug: 'librechat',
     tagline: 'Universelle Chat-Oberfläche für alle KI-Anbieter',
+    taglineEn: 'Universal chat interface for all AI providers',
     description:
       'LibreChat ist eine Open-Source-Chat-Oberfläche, die mehrere KI-Anbieter und -Modelle in einer einheitlichen Benutzeroberfläche vereint. Es unterstützt OpenAI, Anthropic, Google, lokale Modelle und viele weitere Anbieter gleichzeitig. Mit Plugins, Dateianhängen, Multi-User-Verwaltung und Konversationshistorie bietet LibreChat eine vollwertige, selbstgehostete Alternative zu kommerziellen KI-Chat-Diensten.',
+    descriptionEn:
+      'LibreChat is an open-source chat interface that unifies multiple AI providers and models in a single user interface. It supports OpenAI, Anthropic, Google, local models, and many other providers simultaneously. With plugins, file attachments, multi-user management, and conversation history, LibreChat offers a full-featured, self-hosted alternative to commercial AI chat services.',
     website: 'https://www.librechat.ai',
     github: 'https://github.com/danny-avila/LibreChat',
     license: 'MIT',
@@ -192,8 +216,11 @@ export const kiMlTools: Tool[] = [
     name: 'Jan',
     slug: 'jan',
     tagline: 'Offline-fähige Desktop-App für lokale KI-Nutzung',
+    taglineEn: 'Offline-capable desktop app for local AI usage',
     description:
       'Jan ist eine Open-Source-Desktop-Anwendung, die es ermöglicht, KI-Modelle vollständig offline auf dem eigenen Computer auszuführen. Mit einer ChatGPT-ähnlichen Oberfläche können Nutzer lokale Modelle herunterladen, chatten und Extensions installieren. Jan unterstützt auch Remote-APIs und bietet einen lokalen API-Server, der kompatibel mit dem OpenAI-Standard ist.',
+    descriptionEn:
+      'Jan is an open-source desktop application that allows you to run AI models completely offline on your own computer. With a ChatGPT-like interface, users can download local models, chat, and install extensions. Jan also supports remote APIs and provides a local API server that is compatible with the OpenAI standard.',
     website: 'https://jan.ai',
     github: 'https://github.com/janhq/jan',
     license: 'AGPL-3.0',

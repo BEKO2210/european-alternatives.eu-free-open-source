@@ -6,8 +6,11 @@ export const buerosoftwareTools: Tool[] = [
     name: 'LibreOffice',
     slug: 'libreoffice',
     tagline: 'Die fuehrende freie Office-Suite fuer Dokumente, Tabellen und Praesentationen',
+    taglineEn: 'The leading free office suite for documents, spreadsheets, and presentations',
     description:
       'LibreOffice ist die bekannteste freie Office-Suite und umfasst Textverarbeitung (Writer), Tabellenkalkulation (Calc), Praesentationen (Impress), Zeichnungen (Draw), Datenbanken (Base) und Formeln (Math). Es unterstuetzt das OpenDocument-Format nativ und bietet gute Kompatibilitaet mit Microsoft-Office-Formaten. LibreOffice wird von der Document Foundation entwickelt und ist auf allen gaengigen Plattformen verfuegbar.',
+    descriptionEn:
+      'LibreOffice is the most well-known free office suite and includes word processing (Writer), spreadsheets (Calc), presentations (Impress), drawings (Draw), databases (Base), and formulas (Math). It natively supports the OpenDocument format and offers good compatibility with Microsoft Office formats. LibreOffice is developed by the Document Foundation and is available on all major platforms.',
     website: 'https://www.libreoffice.org',
     github: 'https://github.com/LibreOffice/core',
     license: 'MPL-2.0',
@@ -29,8 +32,11 @@ export const buerosoftwareTools: Tool[] = [
     name: 'OnlyOffice',
     slug: 'onlyoffice',
     tagline: 'Moderne Office-Suite mit hervorragender Microsoft-Office-Kompatibilitaet',
+    taglineEn: 'Modern office suite with excellent Microsoft Office compatibility',
     description:
       'OnlyOffice ist eine leistungsstarke Office-Suite, die sich durch exzellente Kompatibilitaet mit Microsoft-Office-Formaten (DOCX, XLSX, PPTX) auszeichnet. Es bietet Dokumentenbearbeitung, Tabellenkalkulation und Praesentationen sowohl als Desktop-Anwendung als auch als webbasierte Loesung. Die Community Edition kann selbst gehostet werden und laesst sich in Nextcloud, ownCloud und andere Plattformen integrieren.',
+    descriptionEn:
+      'OnlyOffice is a powerful office suite distinguished by its excellent compatibility with Microsoft Office formats (DOCX, XLSX, PPTX). It offers document editing, spreadsheets, and presentations both as a desktop application and as a web-based solution. The Community Edition can be self-hosted and integrates with Nextcloud, ownCloud, and other platforms.',
     website: 'https://www.onlyoffice.com',
     github: 'https://github.com/ONLYOFFICE/DocumentServer',
     license: 'AGPL-3.0',
@@ -53,8 +59,11 @@ export const buerosoftwareTools: Tool[] = [
     name: 'Collabora Online',
     slug: 'collabora-online',
     tagline: 'LibreOffice im Browser fuer kollaboratives Arbeiten',
+    taglineEn: 'LibreOffice in the browser for collaborative work',
     description:
       'Collabora Online ist die webbasierte Version von LibreOffice und ermoeglicht die gemeinsame Bearbeitung von Dokumenten, Tabellen und Praesentationen direkt im Browser. Es laesst sich nahtlos in Nextcloud, ownCloud und andere Plattformen integrieren. Collabora Online bietet Echtzeit-Kollaboration, Kommentarfunktionen und unterstuetzt alle gaengigen Office-Formate. Die Loesung kann selbst gehostet werden und gewaehrleistet volle Datenkontrolle.',
+    descriptionEn:
+      'Collabora Online is the web-based version of LibreOffice, enabling collaborative editing of documents, spreadsheets, and presentations directly in the browser. It integrates seamlessly with Nextcloud, ownCloud, and other platforms. Collabora Online offers real-time collaboration, commenting features, and supports all common office formats. The solution can be self-hosted, ensuring full data control.',
     website: 'https://www.collaboraoffice.com',
     github: 'https://github.com/CollaboraOnline/online',
     license: 'MPL-2.0',
@@ -77,8 +86,11 @@ export const buerosoftwareTools: Tool[] = [
     name: 'Apache OpenOffice',
     slug: 'apache-openoffice',
     tagline: 'Bewaehrte freie Office-Suite der Apache Software Foundation',
+    taglineEn: 'Proven free office suite by the Apache Software Foundation',
     description:
       'Apache OpenOffice ist eine freie Office-Suite unter der Schirmherrschaft der Apache Software Foundation. Sie umfasst Textverarbeitung, Tabellenkalkulation, Praesentationen, Zeichnungen, Datenbanken und einen Formeleditor. OpenOffice war ein Wegbereiter fuer freie Buerosoftware und unterstuetzt das OpenDocument-Format. Es eignet sich fuer Nutzer, die eine stabile und erprobte Office-Loesung bevorzugen.',
+    descriptionEn:
+      'Apache OpenOffice is a free office suite under the umbrella of the Apache Software Foundation. It includes word processing, spreadsheets, presentations, drawings, databases, and a formula editor. OpenOffice was a pioneer in free office software and supports the OpenDocument format. It is suitable for users who prefer a stable and well-established office solution.',
     website: 'https://www.openoffice.org',
     github: 'https://github.com/apache/openoffice',
     license: 'Apache-2.0',
@@ -99,8 +111,11 @@ export const buerosoftwareTools: Tool[] = [
     name: 'CryptPad',
     slug: 'cryptpad',
     tagline: 'Ende-zu-Ende-verschluesselte Office-Suite fuer kollaboratives Arbeiten',
+    taglineEn: 'End-to-end encrypted office suite for collaborative work',
     description:
       'CryptPad ist eine datenschutzorientierte, webbasierte Office-Suite, die alle Inhalte Ende-zu-Ende verschluesselt. Es bietet kollaborative Editoren fuer Dokumente, Tabellen, Praesentationen, Kanban-Boards, Formulare und Whiteboards. Der Anbieter hat keinen Zugriff auf die Inhalte der Nutzer. CryptPad wird in Frankreich entwickelt und eignet sich besonders fuer Teams und Organisationen, die hohen Wert auf Datenschutz legen.',
+    descriptionEn:
+      'CryptPad is a privacy-focused, web-based office suite that encrypts all content end-to-end. It offers collaborative editors for documents, spreadsheets, presentations, Kanban boards, forms, and whiteboards. The provider has no access to user content. CryptPad is developed in France and is particularly well-suited for teams and organizations that place a high value on data privacy.',
     website: 'https://cryptpad.org',
     github: 'https://github.com/cryptpad/cryptpad',
     license: 'AGPL-3.0',

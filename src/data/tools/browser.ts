@@ -6,8 +6,11 @@ export const browserTools: Tool[] = [
     name: 'Firefox',
     slug: 'firefox',
     tagline: 'Der unabhaengige Open-Source-Browser von Mozilla',
+    taglineEn: 'The independent open-source browser by Mozilla',
     description:
       'Firefox ist ein freier Webbrowser, der von der gemeinnuetzigen Mozilla Foundation entwickelt wird. Er bietet umfassenden Tracking-Schutz, eine leistungsstarke Erweiterungsverwaltung und respektiert die Privatsphaere der Nutzer. Firefox unterstuetzt alle modernen Webstandards, bietet integriertes Passwortmanagement mit Firefox Lockwise und ermoeglicht die Synchronisierung ueber mehrere Geraete hinweg. Als einer der wenigen Browser mit eigener Engine (Gecko) ist Firefox ein wichtiger Garant fuer Browser-Vielfalt im Web.',
+    descriptionEn:
+      'Firefox is a free web browser developed by the non-profit Mozilla Foundation. It offers comprehensive tracking protection, a powerful extension management system, and respects user privacy. Firefox supports all modern web standards, provides integrated password management with Firefox Lockwise, and enables synchronization across multiple devices. As one of the few browsers with its own engine (Gecko), Firefox is an important guarantor of browser diversity on the web.',
     website: 'https://www.mozilla.org/firefox/',
     github: 'https://github.com/mozilla-firefox/firefox',
     license: 'MPL-2.0',
@@ -29,8 +32,11 @@ export const browserTools: Tool[] = [
     name: 'LibreWolf',
     slug: 'librewolf',
     tagline: 'Datenschutzoptimierter Firefox-Fork ohne Telemetrie',
+    taglineEn: 'Privacy-optimized Firefox fork without telemetry',
     description:
       'LibreWolf ist ein unabhaengiger Fork von Firefox, der sich auf Datenschutz, Sicherheit und Freiheit konzentriert. Es entfernt saemtliche Telemetrie, deaktiviert DRM standardmaessig und nutzt uBlock Origin als vorinstallierten Werbeblocker. LibreWolf verwendet eine gehaertete Konfiguration, die Fingerprinting erschwert und die Privatsphaere maximiert. Es ist ideal fuer Nutzer, die Firefox schaetzen, aber eine staerkere Datenschutz-Grundkonfiguration wuenschen.',
+    descriptionEn:
+      'LibreWolf is an independent fork of Firefox that focuses on privacy, security, and freedom. It removes all telemetry, disables DRM by default, and uses uBlock Origin as a pre-installed ad blocker. LibreWolf employs a hardened configuration that makes fingerprinting more difficult and maximizes privacy. It is ideal for users who appreciate Firefox but want a stronger privacy-focused default configuration.',
     website: 'https://librewolf.net',
     github: 'https://codeberg.org/librewolf/source',
     license: 'MPL-2.0',
@@ -51,8 +57,11 @@ export const browserTools: Tool[] = [
     name: 'Brave',
     slug: 'brave',
     tagline: 'Schneller Browser mit integriertem Werbe- und Tracking-Schutz',
+    taglineEn: 'Fast browser with built-in ad and tracking protection',
     description:
       'Brave ist ein auf Chromium basierender Browser, der Werbung und Tracker standardmaessig blockiert. Er bietet integriertes Tor-Browsing fuer anonymes Surfen, IPFS-Unterstuetzung und einen eigenen Suchmaschinenindex (Brave Search). Brave verspricht bis zu dreimal schnelleres Laden von Webseiten durch das Blockieren unerwuenschter Inhalte. Der Browser bietet zudem ein optionales Belohnungssystem (Brave Rewards) und eine integrierte Krypto-Wallet.',
+    descriptionEn:
+      'Brave is a Chromium-based browser that blocks ads and trackers by default. It offers integrated Tor browsing for anonymous surfing, IPFS support, and its own search engine index (Brave Search). Brave promises up to three times faster page loading by blocking unwanted content. The browser also provides an optional rewards system (Brave Rewards) and a built-in crypto wallet.',
     website: 'https://brave.com',
     github: 'https://github.com/brave/brave-browser',
     license: 'MPL-2.0',
@@ -74,8 +83,11 @@ export const browserTools: Tool[] = [
     name: 'Chromium',
     slug: 'chromium',
     tagline: 'Der quelloffene Browser, auf dem Google Chrome basiert',
+    taglineEn: 'The open-source browser that Google Chrome is built upon',
     description:
       'Chromium ist der quelloffene Webbrowser, der die Grundlage fuer Google Chrome und viele andere Browser bildet. Im Gegensatz zu Chrome enthaelt Chromium keine proprietaeren Google-Dienste wie automatische Updates, Absturzberichte an Google oder integrierte PDF-Anzeige ueber proprietaere Codecs. Chromium bietet die volle Leistungsfaehigkeit der Blink-Engine und unterstuetzt alle Chrome-Erweiterungen, ohne die Datenschutzbedenken von Chrome.',
+    descriptionEn:
+      'Chromium is the open-source web browser that forms the foundation for Google Chrome and many other browsers. Unlike Chrome, Chromium does not include proprietary Google services such as automatic updates, crash reports sent to Google, or integrated PDF viewing via proprietary codecs. Chromium offers the full power of the Blink engine and supports all Chrome extensions without the privacy concerns of Chrome.',
     website: 'https://www.chromium.org',
     github: 'https://github.com/chromium/chromium',
     license: 'BSD-3-Clause',
@@ -97,8 +109,11 @@ export const browserTools: Tool[] = [
     name: 'Ungoogled Chromium',
     slug: 'ungoogled-chromium',
     tagline: 'Chromium komplett ohne Google-Abhaengigkeiten',
+    taglineEn: 'Chromium completely free of Google dependencies',
     description:
       'Ungoogled Chromium ist eine Variante von Chromium, aus der saemtliche Google-spezifischen Webdienste und Abhaengigkeiten entfernt wurden. Es ersetzt Google-Binaries durch quelloffene Alternativen, deaktiviert alle Funktionen, die Daten an Google senden, und haertet die Datenschutzeinstellungen. Trotz der Entfernung aller Google-Komponenten bleibt die volle Chromium-Funktionalitaet erhalten, einschliesslich der Unterstuetzung fuer Chrome-Erweiterungen.',
+    descriptionEn:
+      'Ungoogled Chromium is a variant of Chromium from which all Google-specific web services and dependencies have been removed. It replaces Google binaries with open-source alternatives, disables all features that send data to Google, and hardens privacy settings. Despite the removal of all Google components, full Chromium functionality is retained, including support for Chrome extensions.',
     website: 'https://ungoogled-software.github.io/ungoogled-chromium-binaries/',
     github: 'https://github.com/ungoogled-software/ungoogled-chromium',
     license: 'BSD-3-Clause',
@@ -119,8 +134,11 @@ export const browserTools: Tool[] = [
     name: 'Falkon',
     slug: 'falkon',
     tagline: 'Leichtgewichtiger KDE-Browser mit QtWebEngine',
+    taglineEn: 'Lightweight KDE browser with QtWebEngine',
     description:
       'Falkon (ehemals QupZilla) ist ein leichtgewichtiger Webbrowser, der vom KDE-Projekt entwickelt wird. Er basiert auf QtWebEngine (Chromium) und integriert sich nahtlos in die KDE-Plasma-Desktop-Umgebung. Falkon bietet einen integrierten Werbeblocker, Lesezeichen-Management, Session-Verwaltung und einen Passwort-Manager. Er eignet sich besonders fuer Nutzer, die einen schnellen, ressourcenschonenden Browser mit nativer KDE-Integration suchen.',
+    descriptionEn:
+      'Falkon (formerly QupZilla) is a lightweight web browser developed by the KDE project. It is based on QtWebEngine (Chromium) and integrates seamlessly into the KDE Plasma desktop environment. Falkon offers a built-in ad blocker, bookmark management, session management, and a password manager. It is particularly well-suited for users looking for a fast, resource-efficient browser with native KDE integration.',
     website: 'https://www.falkon.org',
     github: 'https://github.com/KDE/falkon',
     license: 'GPL-3.0',
@@ -141,8 +159,11 @@ export const browserTools: Tool[] = [
     name: 'GNOME Web',
     slug: 'gnome-web',
     tagline: 'Eleganter GNOME-Browser mit WebKit-Engine',
+    taglineEn: 'Elegant GNOME browser with WebKit engine',
     description:
       'GNOME Web (auch bekannt als Epiphany) ist der Standard-Webbrowser der GNOME-Desktop-Umgebung. Er basiert auf der WebKit-Engine und bietet eine schlichte, aufgeraeumte Benutzeroberflaeche, die sich harmonisch in den GNOME-Desktop einfuegt. GNOME Web unterstuetzt Web-Apps, die als eigenstaendige Anwendungen installiert werden koennen, bietet intelligenten Tracking-Schutz und einen integrierten Lesemodus. Er eignet sich ideal fuer Nutzer, die einen minimalistischen und datenschutzfreundlichen Browser bevorzugen.',
+    descriptionEn:
+      'GNOME Web (also known as Epiphany) is the default web browser of the GNOME desktop environment. It is based on the WebKit engine and offers a clean, streamlined user interface that blends harmoniously into the GNOME desktop. GNOME Web supports web apps that can be installed as standalone applications, provides intelligent tracking protection, and includes a built-in reading mode. It is ideal for users who prefer a minimalist and privacy-friendly browser.',
     website: 'https://apps.gnome.org/Epiphany/',
     github: 'https://github.com/GNOME/epiphany',
     license: 'GPL-3.0',

@@ -83,7 +83,7 @@ const toolColor = getToolColor(tool.name);
         {tool.name}
       </h3>
       <p class="text-xs truncate" style="color: var(--color-text-secondary)">
-        {tool.tagline}
+        {lang === 'en' && tool.taglineEn ? tool.taglineEn : tool.tagline}
       </p>
     </div>
     {tool.maintenanceStatus && (

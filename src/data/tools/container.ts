@@ -6,8 +6,11 @@ export const containerTools: Tool[] = [
     name: 'Docker (Moby)',
     slug: 'docker-moby',
     tagline: 'Die Open-Source-Container-Engine hinter Docker',
+    taglineEn: 'The open-source container engine behind Docker',
     description:
       'Moby ist das quelloffene Projekt hinter Docker und stellt die Kernkomponenten fuer die Container-Erstellung und -Verwaltung bereit. Es umfasst die Container-Runtime, Build-Tools, Netzwerk- und Speichertreiber sowie Orchestrierungsfunktionen. Moby ermoeglicht es Entwicklern, Anwendungen in leichtgewichtigen, portablen Containern zu verpacken und auf jeder Infrastruktur auszufuehren.',
+    descriptionEn:
+      'Moby is the open-source project behind Docker, providing the core components for container creation and management. It includes the container runtime, build tools, network and storage drivers, and orchestration capabilities. Moby enables developers to package applications in lightweight, portable containers and run them on any infrastructure.',
     website: 'https://mobyproject.org',
     github: 'https://github.com/moby/moby',
     license: 'Apache-2.0',
@@ -30,8 +33,11 @@ export const containerTools: Tool[] = [
     name: 'Podman',
     slug: 'podman',
     tagline: 'Daemonlose Container-Engine als Docker-Alternative',
+    taglineEn: 'Daemonless container engine as a Docker alternative',
     description:
       'Podman ist eine daemonlose Container-Engine von Red Hat, die Docker-kompatibel ist und ohne Root-Rechte betrieben werden kann. Im Gegensatz zu Docker benoetigt Podman keinen laufenden Daemon-Prozess, was die Sicherheit erhoeht. Podman unterstuetzt Pods (Gruppen von Containern), ist OCI-kompatibel und kann Docker-Compose-Dateien direkt verwenden. Es bietet zudem native Integration mit systemd fuer den Produktionseinsatz.',
+    descriptionEn:
+      'Podman is a daemonless container engine by Red Hat that is Docker-compatible and can be operated without root privileges. Unlike Docker, Podman does not require a running daemon process, which enhances security. Podman supports pods (groups of containers), is OCI-compatible, and can directly use Docker Compose files. It also offers native integration with systemd for production use.',
     website: 'https://podman.io',
     github: 'https://github.com/containers/podman',
     license: 'Apache-2.0',
@@ -53,8 +59,11 @@ export const containerTools: Tool[] = [
     name: 'Buildah',
     slug: 'buildah',
     tagline: 'Spezialisiertes Tool zum Bauen von OCI-Container-Images',
+    taglineEn: 'Specialized tool for building OCI container images',
     description:
       'Buildah ist ein spezialisiertes Open-Source-Tool zum Erstellen von OCI- und Docker-kompatiblen Container-Images. Es kann Images aus Dockerfiles oder interaktiv ueber die Kommandozeile bauen und benoetigt weder einen Daemon noch Root-Rechte. Buildah ist besonders nuetzlich in CI/CD-Pipelines und ermoeglicht eine feinkoernige Kontrolle ueber den Image-Build-Prozess. Es arbeitet nahtlos mit Podman und Skopeo zusammen.',
+    descriptionEn:
+      'Buildah is a specialized open-source tool for creating OCI and Docker-compatible container images. It can build images from Dockerfiles or interactively via the command line and requires neither a daemon nor root privileges. Buildah is particularly useful in CI/CD pipelines and enables fine-grained control over the image build process. It works seamlessly with Podman and Skopeo.',
     website: 'https://buildah.io',
     github: 'https://github.com/containers/buildah',
     license: 'Apache-2.0',
@@ -75,8 +84,11 @@ export const containerTools: Tool[] = [
     name: 'Kubernetes',
     slug: 'kubernetes',
     tagline: 'Container-Orchestrierung im Industriestandard',
+    taglineEn: 'Industry-standard container orchestration',
     description:
       'Kubernetes (K8s) ist die fuehrende Open-Source-Plattform zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von containerisierten Anwendungen. Urspruenglich von Google entwickelt, wird es heute von der Cloud Native Computing Foundation verwaltet. Kubernetes bietet Service-Discovery, Load-Balancing, automatische Skalierung, Rolling Updates, Konfigurationsmanagement und Self-Healing. Es ist der De-facto-Standard fuer Container-Orchestrierung.',
+    descriptionEn:
+      'Kubernetes (K8s) is the leading open-source platform for automating the deployment, scaling, and management of containerized applications. Originally developed by Google, it is now managed by the Cloud Native Computing Foundation. Kubernetes offers service discovery, load balancing, auto-scaling, rolling updates, configuration management, and self-healing. It is the de facto standard for container orchestration.',
     website: 'https://kubernetes.io',
     github: 'https://github.com/kubernetes/kubernetes',
     license: 'Apache-2.0',
@@ -98,8 +110,11 @@ export const containerTools: Tool[] = [
     name: 'k3s',
     slug: 'k3s',
     tagline: 'Leichtgewichtige Kubernetes-Distribution fuer Edge und IoT',
+    taglineEn: 'Lightweight Kubernetes distribution for edge and IoT',
     description:
       'k3s ist eine zertifizierte, leichtgewichtige Kubernetes-Distribution von Rancher/SUSE, die fuer Edge-Computing, IoT-Geraete und ressourcenbeschraenkte Umgebungen optimiert ist. Sie verpackt Kubernetes in eine einzelne Binaerdatei unter 100 MB, ersetzt etcd durch SQLite als Standardspeicher und beinhaltet Traefik als Ingress-Controller. k3s ist vollstaendig kompatibel mit Standard-Kubernetes und eignet sich auch hervorragend fuer Entwicklungsumgebungen.',
+    descriptionEn:
+      'k3s is a certified, lightweight Kubernetes distribution by Rancher/SUSE, optimized for edge computing, IoT devices, and resource-constrained environments. It packages Kubernetes into a single binary under 100 MB, replaces etcd with SQLite as the default storage, and includes Traefik as an ingress controller. k3s is fully compatible with standard Kubernetes and is also excellent for development environments.',
     website: 'https://k3s.io',
     github: 'https://github.com/k3s-io/k3s',
     license: 'Apache-2.0',
@@ -120,8 +135,11 @@ export const containerTools: Tool[] = [
     name: 'Portainer CE',
     slug: 'portainer-ce',
     tagline: 'Webbasierte Verwaltungsoberflaeche fuer Container',
+    taglineEn: 'Web-based management interface for containers',
     description:
       'Portainer Community Edition ist eine webbasierte Verwaltungsoberflaeche fuer Docker, Docker Swarm und Kubernetes. Es ermoeglicht die Verwaltung von Containern, Images, Netzwerken und Volumes ueber eine intuitive grafische Oberflaeche, ohne Kommandozeilenkenntnisse zu erfordern. Portainer bietet Benutzerverwaltung, Rollenbasierte Zugriffskontrolle, Stack-Verwaltung und App-Templates fuer die schnelle Bereitstellung gaengiger Anwendungen.',
+    descriptionEn:
+      'Portainer Community Edition is a web-based management interface for Docker, Docker Swarm, and Kubernetes. It enables the management of containers, images, networks, and volumes through an intuitive graphical interface without requiring command-line knowledge. Portainer offers user management, role-based access control, stack management, and app templates for quick deployment of common applications.',
     website: 'https://www.portainer.io',
     github: 'https://github.com/portainer/portainer',
     license: 'Zlib',
@@ -143,8 +161,11 @@ export const containerTools: Tool[] = [
     name: 'Rancher',
     slug: 'rancher',
     tagline: 'Multi-Cluster-Kubernetes-Management-Plattform',
+    taglineEn: 'Multi-cluster Kubernetes management platform',
     description:
       'Rancher ist eine vollstaendige Open-Source-Plattform zur Verwaltung von Kubernetes-Clustern in jeder Infrastruktur. Es bietet eine zentrale Verwaltungsoberflaeche fuer mehrere Kubernetes-Cluster, Benutzerverwaltung, Monitoring, Logging, CI/CD-Integration und einen Anwendungskatalog. Rancher unterstuetzt alle zertifizierten Kubernetes-Distributionen und vereinfacht die Bereitstellung und den Betrieb von Kubernetes-Umgebungen im Unternehmen.',
+    descriptionEn:
+      'Rancher is a complete open-source platform for managing Kubernetes clusters across any infrastructure. It provides a centralized management interface for multiple Kubernetes clusters, user management, monitoring, logging, CI/CD integration, and an application catalog. Rancher supports all certified Kubernetes distributions and simplifies the deployment and operation of Kubernetes environments in the enterprise.',
     website: 'https://www.rancher.com',
     github: 'https://github.com/rancher/rancher',
     license: 'Apache-2.0',

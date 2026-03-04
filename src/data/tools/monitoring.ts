@@ -6,8 +6,11 @@ export const monitoringTools: Tool[] = [
     name: 'Grafana OSS',
     slug: 'grafana-oss',
     tagline: 'Das führende Open-Source-Dashboard für Monitoring und Observability',
+    taglineEn: 'The leading open-source dashboard for monitoring and observability',
     description:
       'Grafana ist die weltweit meistgenutzte Open-Source-Plattform für Monitoring und Observability. Sie ermöglicht die Visualisierung von Metriken, Logs und Traces aus zahlreichen Datenquellen in anpassbaren Dashboards. Mit leistungsstarken Alarmierungsfunktionen, Annotationen und Team-Zusammenarbeit ist Grafana das Herzstück moderner Monitoring-Stacks.',
+    descriptionEn:
+      'Grafana is the world\'s most widely used open-source platform for monitoring and observability. It enables the visualization of metrics, logs, and traces from numerous data sources in customizable dashboards. With powerful alerting features, annotations, and team collaboration, Grafana is the centerpiece of modern monitoring stacks.',
     website: 'https://grafana.com/oss/grafana/',
     github: 'https://github.com/grafana/grafana',
     license: 'AGPL-3.0',
@@ -30,8 +33,11 @@ export const monitoringTools: Tool[] = [
     name: 'Prometheus',
     slug: 'prometheus',
     tagline: 'Cloud-natives Monitoring- und Alerting-System',
+    taglineEn: 'Cloud-native monitoring and alerting system',
     description:
       'Prometheus ist ein leistungsstarkes Open-Source-Monitoring-System, das speziell für Cloud-native Umgebungen entwickelt wurde. Es sammelt Metriken über ein Pull-Modell, speichert sie in einer effizienten Zeitreihendatenbank und bietet eine mächtige Abfragesprache (PromQL). Als CNCF-Graduierungsprojekt ist Prometheus der De-facto-Standard für Kubernetes-Monitoring.',
+    descriptionEn:
+      'Prometheus is a powerful open-source monitoring system designed specifically for cloud-native environments. It collects metrics via a pull model, stores them in an efficient time-series database, and offers a powerful query language (PromQL). As a CNCF graduated project, Prometheus is the de facto standard for Kubernetes monitoring.',
     website: 'https://prometheus.io',
     github: 'https://github.com/prometheus/prometheus',
     license: 'Apache-2.0',
@@ -54,8 +60,11 @@ export const monitoringTools: Tool[] = [
     name: 'Loki',
     slug: 'loki',
     tagline: 'Effizientes Log-Aggregationssystem inspiriert von Prometheus',
+    taglineEn: 'Efficient log aggregation system inspired by Prometheus',
     description:
       'Grafana Loki ist ein horizontal skalierbares, hochverfügbares Log-Aggregationssystem, das von Prometheus inspiriert wurde. Im Gegensatz zu anderen Log-Systemen indiziert Loki nur Metadaten und Labels, nicht den vollständigen Log-Inhalt, was es besonders kosteneffizient macht. Die nahtlose Integration mit Grafana ermöglicht eine einheitliche Ansicht von Metriken und Logs.',
+    descriptionEn:
+      'Grafana Loki is a horizontally scalable, highly available log aggregation system inspired by Prometheus. Unlike other log systems, Loki only indexes metadata and labels, not the full log content, making it particularly cost-efficient. Seamless integration with Grafana enables a unified view of metrics and logs.',
     website: 'https://grafana.com/oss/loki/',
     github: 'https://github.com/grafana/loki',
     license: 'AGPL-3.0',
@@ -77,8 +86,11 @@ export const monitoringTools: Tool[] = [
     name: 'Zabbix',
     slug: 'zabbix',
     tagline: 'Enterprise-Monitoring für Netzwerke, Server und Cloud',
+    taglineEn: 'Enterprise monitoring for networks, servers, and cloud',
     description:
       'Zabbix ist eine umfassende Open-Source-Monitoring-Lösung für Netzwerke, Server, virtuelle Maschinen und Cloud-Dienste. Mit automatischer Erkennung, flexiblen Benachrichtigungen, leistungsfähigen Visualisierungen und verteiltem Monitoring bietet Zabbix eine Enterprise-taugliche Überwachung für IT-Infrastrukturen jeder Größe.',
+    descriptionEn:
+      'Zabbix is a comprehensive open-source monitoring solution for networks, servers, virtual machines, and cloud services. With automatic discovery, flexible notifications, powerful visualizations, and distributed monitoring, Zabbix provides enterprise-grade surveillance for IT infrastructures of any size.',
     website: 'https://www.zabbix.com',
     github: 'https://github.com/zabbix/zabbix',
     license: 'GPL-2.0',
@@ -100,8 +112,11 @@ export const monitoringTools: Tool[] = [
     name: 'Checkmk Raw',
     slug: 'checkmk-raw',
     tagline: 'Deutsches Enterprise-Monitoring mit umfangreicher Autoerkennung',
+    taglineEn: 'German enterprise monitoring with comprehensive auto-discovery',
     description:
       'Checkmk Raw Edition ist die kostenlose Open-Source-Version der in Deutschland entwickelten Monitoring-Software Checkmk. Sie bietet automatische Erkennung von Hosts und Services, regelbasierte Konfiguration und über 2.000 offizielle Plugins. Checkmk ist besonders im deutschsprachigen Raum weit verbreitet und eignet sich für das Monitoring komplexer IT-Landschaften.',
+    descriptionEn:
+      'Checkmk Raw Edition is the free open-source version of the monitoring software Checkmk, developed in Germany. It offers automatic discovery of hosts and services, rule-based configuration, and over 2,000 official plugins. Checkmk is particularly widespread in German-speaking countries and is well-suited for monitoring complex IT landscapes.',
     website: 'https://checkmk.com',
     github: 'https://github.com/Checkmk/checkmk',
     license: 'GPL-2.0',
@@ -123,8 +138,11 @@ export const monitoringTools: Tool[] = [
     name: 'Icinga 2',
     slug: 'icinga2',
     tagline: 'Flexibles Open-Source-Monitoring mit Cluster-Unterstützung',
+    taglineEn: 'Flexible open-source monitoring with cluster support',
     description:
       'Icinga 2 ist ein skalierbares und erweiterbares Open-Source-Monitoring-System, das aus einem Fork von Nagios entstanden ist. Es bietet eine moderne Architektur mit Cluster-Unterstützung, REST-API, verteiltem Monitoring und einer leistungsfähigen Abfragesprache. Das zugehörige Icinga Web 2 bietet eine moderne Benutzeroberfläche für Dashboards und Berichte.',
+    descriptionEn:
+      'Icinga 2 is a scalable and extensible open-source monitoring system that originated as a fork of Nagios. It offers a modern architecture with cluster support, REST API, distributed monitoring, and a powerful query language. The accompanying Icinga Web 2 provides a modern user interface for dashboards and reports.',
     website: 'https://icinga.com',
     github: 'https://github.com/Icinga/icinga2',
     license: 'GPL-2.0',
@@ -146,8 +164,11 @@ export const monitoringTools: Tool[] = [
     name: 'Nagios Core',
     slug: 'nagios-core',
     tagline: 'Der Klassiker unter den Open-Source-Monitoring-Systemen',
+    taglineEn: 'The classic among open-source monitoring systems',
     description:
       'Nagios Core ist das ursprüngliche Open-Source-Monitoring-System und seit über zwei Jahrzehnten ein Industriestandard für IT-Infrastruktur-Überwachung. Es bietet Host- und Service-Monitoring, Benachrichtigungen, Event-Handler und ein umfangreiches Plugin-Ökosystem. Nagios hat eine riesige Community und dient als Grundlage für viele weitere Monitoring-Lösungen.',
+    descriptionEn:
+      'Nagios Core is the original open-source monitoring system and has been an industry standard for IT infrastructure monitoring for over two decades. It offers host and service monitoring, notifications, event handlers, and an extensive plugin ecosystem. Nagios has a huge community and serves as the foundation for many other monitoring solutions.',
     website: 'https://www.nagios.org',
     github: 'https://github.com/NagiosEnterprises/nagioscore',
     license: 'GPL-2.0',
@@ -169,8 +190,11 @@ export const monitoringTools: Tool[] = [
     name: 'Netdata',
     slug: 'netdata',
     tagline: 'Echtzeit-Performance-Monitoring mit automatischen Dashboards',
+    taglineEn: 'Real-time performance monitoring with automatic dashboards',
     description:
       'Netdata ist ein leistungsstarkes Echtzeit-Monitoring-Tool, das Tausende von Metriken pro Sekunde erfasst und in sofort verfügbaren Dashboards visualisiert. Die Installation dauert nur wenige Sekunden, und Netdata erkennt automatisch Anwendungen, Container und Systemdienste. Mit Machine-Learning-basierter Anomalieerkennung bietet es intelligente Einblicke in die Systemgesundheit.',
+    descriptionEn:
+      'Netdata is a powerful real-time monitoring tool that captures thousands of metrics per second and visualizes them in instantly available dashboards. Installation takes only a few seconds, and Netdata automatically discovers applications, containers, and system services. With machine-learning-based anomaly detection, it provides intelligent insights into system health.',
     website: 'https://www.netdata.cloud',
     github: 'https://github.com/netdata/netdata',
     license: 'GPL-3.0',
@@ -192,8 +216,11 @@ export const monitoringTools: Tool[] = [
     name: 'Uptime Kuma',
     slug: 'uptime-kuma',
     tagline: 'Selbstgehostetes Uptime-Monitoring mit elegantem Dashboard',
+    taglineEn: 'Self-hosted uptime monitoring with an elegant dashboard',
     description:
       'Uptime Kuma ist ein benutzerfreundliches, selbstgehostetes Monitoring-Tool, das die Verfügbarkeit von Websites, APIs und Diensten überwacht. Mit einer modernen Oberfläche, Unterstützung für HTTP, TCP, DNS, MQTT und viele weitere Protokolle sowie integrierten Benachrichtigungen über zahlreiche Kanäle ist Uptime Kuma die ideale Lösung für einfaches Verfügbarkeitsmonitoring.',
+    descriptionEn:
+      'Uptime Kuma is a user-friendly, self-hosted monitoring tool that monitors the availability of websites, APIs, and services. With a modern interface, support for HTTP, TCP, DNS, MQTT, and many other protocols, as well as built-in notifications through numerous channels, Uptime Kuma is the ideal solution for simple availability monitoring.',
     website: 'https://uptime.kuma.pet',
     github: 'https://github.com/louislam/uptime-kuma',
     license: 'MIT',
@@ -215,8 +242,11 @@ export const monitoringTools: Tool[] = [
     name: 'Gatus',
     slug: 'gatus',
     tagline: 'Automatisierte Health-Checks mit konfigurierbarer Statusseite',
+    taglineEn: 'Automated health checks with a configurable status page',
     description:
       'Gatus ist ein leichtgewichtiges Health-Check-Tool, das automatisierte Endpunkt-Überwachung mit einer konfigurierbaren Statusseite kombiniert. Es unterstützt HTTP, TCP, ICMP, DNS und STARTTLS-Checks und kann Benachrichtigungen über Slack, Teams, PagerDuty und weitere Dienste senden. Die gesamte Konfiguration erfolgt über eine einzige YAML-Datei.',
+    descriptionEn:
+      'Gatus is a lightweight health check tool that combines automated endpoint monitoring with a configurable status page. It supports HTTP, TCP, ICMP, DNS, and STARTTLS checks and can send notifications via Slack, Teams, PagerDuty, and other services. The entire configuration is managed through a single YAML file.',
     website: 'https://gatus.io',
     github: 'https://github.com/TwiN/gatus',
     license: 'Apache-2.0',

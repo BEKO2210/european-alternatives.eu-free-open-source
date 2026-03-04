@@ -6,8 +6,11 @@ export const suchmaschinenTools: Tool[] = [
     name: 'SearXNG',
     slug: 'searxng',
     tagline: 'Datenschutzfreundliche Metasuchmaschine',
+    taglineEn: 'Privacy-friendly metasearch engine',
     description:
       'SearXNG ist eine freie, datenschutzfreundliche Metasuchmaschine, die Ergebnisse von ueber 70 Suchmaschinen aggregiert, ohne Nutzeraktivitaeten zu verfolgen. Sie bietet umfangreiche Anpassungsmoeglichkeiten, unterstuetzt verschiedene Ausgabeformate und laesst sich einfach selbst hosten. SearXNG ist der aktiv weiterentwickelte Fork von SearX.',
+    descriptionEn:
+      'SearXNG is a free, privacy-friendly metasearch engine that aggregates results from over 70 search engines without tracking user activity. It offers extensive customization options, supports various output formats, and can be easily self-hosted. SearXNG is the actively maintained fork of SearX.',
     website: 'https://docs.searxng.org',
     github: 'https://github.com/searxng/searxng',
     license: 'AGPL-3.0',
@@ -30,8 +33,11 @@ export const suchmaschinenTools: Tool[] = [
     name: 'Whoogle Search',
     slug: 'whoogle-search',
     tagline: 'Google-Ergebnisse ohne Tracking und Werbung',
+    taglineEn: 'Google results without tracking and ads',
     description:
       'Whoogle Search ist ein selbst hostbarer Proxy fuer die Google-Suche, der Suchergebnisse ohne Werbung, Tracking oder JavaScript-Abhaengigkeiten liefert. Die Anfragen werden ueber den eigenen Server geleitet, sodass Google die IP-Adresse der Nutzer nicht sieht. Whoogle bietet eine schlichte, schnelle Oberflaeche mit den gewohnten Google-Ergebnissen.',
+    descriptionEn:
+      'Whoogle Search is a self-hostable proxy for Google Search that delivers search results without ads, tracking, or JavaScript dependencies. Queries are routed through your own server, so Google never sees the users\' IP addresses. Whoogle provides a clean, fast interface with the familiar Google results.',
     website: 'https://github.com/benbusby/whoogle-search',
     github: 'https://github.com/benbusby/whoogle-search',
     license: 'MIT',
@@ -52,8 +58,11 @@ export const suchmaschinenTools: Tool[] = [
     name: 'YaCy',
     slug: 'yacy',
     tagline: 'Dezentrale Peer-to-Peer-Suchmaschine',
+    taglineEn: 'Decentralized peer-to-peer search engine',
     description:
       'YaCy ist eine vollstaendig dezentrale Suchmaschine, die auf einem Peer-to-Peer-Netzwerk basiert. Jeder Teilnehmer betreibt seinen eigenen Suchknoten und traegt zum gemeinsamen Index bei. Es gibt keinen zentralen Server und keine zentrale Instanz, die Suchanfragen kontrolliert oder ueberwacht. YaCy eignet sich besonders fuer Intranet-Suche und datenschutzbewusste Nutzer.',
+    descriptionEn:
+      'YaCy is a fully decentralized search engine based on a peer-to-peer network. Each participant operates their own search node and contributes to a shared index. There is no central server or central authority controlling or monitoring search queries. YaCy is particularly well suited for intranet search and privacy-conscious users.',
     website: 'https://yacy.net',
     github: 'https://github.com/yacy/yacy_search_server',
     license: 'GPL-2.0',
@@ -74,8 +83,11 @@ export const suchmaschinenTools: Tool[] = [
     name: 'MetaGer',
     slug: 'metager',
     tagline: 'Deutsche Metasuchmaschine mit Fokus auf Datenschutz',
+    taglineEn: 'German metasearch engine with a focus on privacy',
     description:
       'MetaGer ist eine deutsche Metasuchmaschine, die vom gemeinnuetzigen Verein SUMA-EV betrieben wird. Sie kombiniert Ergebnisse mehrerer Suchmaschinen, speichert keine Nutzerprofile und bietet einen integrierten Anonymisierungsdienst. MetaGer steht als Open-Source-Projekt zur Verfuegung und kann auch selbst gehostet werden. Der Quellcode ist oeffentlich einsehbar.',
+    descriptionEn:
+      'MetaGer is a German metasearch engine operated by the non-profit organization SUMA-EV. It combines results from multiple search engines, does not store user profiles, and offers a built-in anonymization service. MetaGer is available as an open-source project and can also be self-hosted. The source code is publicly accessible.',
     website: 'https://metager.de',
     github: 'https://gitlab.metager.de/open-source/MetaGer',
     license: 'AGPL-3.0',

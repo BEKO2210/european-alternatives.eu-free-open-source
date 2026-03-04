@@ -6,8 +6,11 @@ export const firewallTools: Tool[] = [
     name: 'pfSense CE',
     slug: 'pfsense-ce',
     tagline: 'Leistungsstarke Open-Source-Firewall und Router-Distribution',
+    taglineEn: 'Powerful open-source firewall and router distribution',
     description:
       'pfSense Community Edition ist eine der bekanntesten Open-Source-Firewall- und Router-Distributionen auf Basis von FreeBSD. Sie bietet Stateful Packet Inspection, VPN-Unterstützung (IPsec, OpenVPN, WireGuard), Traffic Shaping, Load Balancing und ein umfangreiches Paketmanagement-System. pfSense wird weltweit von Unternehmen und Heimanwendern für die Netzwerksicherheit eingesetzt.',
+    descriptionEn:
+      'pfSense Community Edition is one of the most well-known open-source firewall and router distributions based on FreeBSD. It offers stateful packet inspection, VPN support (IPsec, OpenVPN, WireGuard), traffic shaping, load balancing, and an extensive package management system. pfSense is used worldwide by businesses and home users for network security.',
     website: 'https://www.pfsense.org',
     github: 'https://github.com/pfsense/pfsense',
     license: 'Apache-2.0',
@@ -29,8 +32,11 @@ export const firewallTools: Tool[] = [
     name: 'OPNsense',
     slug: 'opnsense',
     tagline: 'Moderne FreeBSD-basierte Firewall mit wöchentlichen Updates',
+    taglineEn: 'Modern FreeBSD-based firewall with weekly updates',
     description:
       'OPNsense ist eine Open-Source-Firewall- und Routing-Plattform auf FreeBSD-Basis, die als Fork von pfSense entstanden ist. Sie zeichnet sich durch eine moderne Benutzeroberfläche, wöchentliche Sicherheitsupdates, integriertes Intrusion Detection mit Suricata und eine REST-API für Automatisierung aus. OPNsense wird in den Niederlanden entwickelt und hat eine starke europäische Community.',
+    descriptionEn:
+      'OPNsense is an open-source firewall and routing platform based on FreeBSD, created as a fork of pfSense. It features a modern user interface, weekly security updates, integrated intrusion detection with Suricata, and a REST API for automation. OPNsense is developed in the Netherlands and has a strong European community.',
     website: 'https://opnsense.org',
     github: 'https://github.com/opnsense/core',
     license: 'BSD-2-Clause',
@@ -52,8 +58,11 @@ export const firewallTools: Tool[] = [
     name: 'CrowdSec',
     slug: 'crowdsec',
     tagline: 'Kollaborative Open-Source-Sicherheit durch Crowd-Intelligence',
+    taglineEn: 'Collaborative open-source security through crowd intelligence',
     description:
       'CrowdSec ist ein modernes Open-Source-Sicherheitstool, das auf kollaborativer Bedrohungserkennung basiert. Es analysiert Logs in Echtzeit, erkennt bösartige Verhaltensweisen und teilt Bedrohungsinformationen mit der Community. CrowdSec unterstützt zahlreiche Bouncers (Abwehrmechanismen) für verschiedene Dienste und bietet eine zentrale Konsole zur Verwaltung mehrerer Instanzen.',
+    descriptionEn:
+      'CrowdSec is a modern open-source security tool based on collaborative threat detection. It analyzes logs in real time, detects malicious behavior, and shares threat intelligence with the community. CrowdSec supports numerous bouncers (defense mechanisms) for various services and provides a central console for managing multiple instances.',
     website: 'https://www.crowdsec.net',
     github: 'https://github.com/crowdsecurity/crowdsec',
     license: 'MIT',
@@ -75,8 +84,11 @@ export const firewallTools: Tool[] = [
     name: 'Fail2ban',
     slug: 'fail2ban',
     tagline: 'Automatischer Schutz vor Brute-Force-Angriffen',
+    taglineEn: 'Automatic protection against brute-force attacks',
     description:
       'Fail2ban ist ein bewährtes Open-Source-Tool zum Schutz von Linux-Servern vor Brute-Force-Angriffen. Es überwacht Log-Dateien auf fehlgeschlagene Anmeldeversuche und sperrt verdächtige IP-Adressen automatisch über iptables oder andere Firewall-Backends. Mit flexiblen Filtern und Aktionen lässt sich Fail2ban für SSH, Apache, Nginx und viele weitere Dienste konfigurieren.',
+    descriptionEn:
+      'Fail2ban is a proven open-source tool for protecting Linux servers against brute-force attacks. It monitors log files for failed login attempts and automatically bans suspicious IP addresses via iptables or other firewall backends. With flexible filters and actions, Fail2ban can be configured for SSH, Apache, Nginx, and many other services.',
     website: 'https://www.fail2ban.org',
     github: 'https://github.com/fail2ban/fail2ban',
     license: 'GPL-2.0',
@@ -98,8 +110,11 @@ export const firewallTools: Tool[] = [
     name: 'UFW',
     slug: 'ufw',
     tagline: 'Unkomplizierte Firewall für einfache Linux-Serversicherheit',
+    taglineEn: 'Uncomplicated firewall for simple Linux server security',
     description:
       'UFW (Uncomplicated Firewall) ist ein benutzerfreundliches Frontend für iptables, das die Konfiguration von Linux-Firewalls erheblich vereinfacht. Mit intuitiven Befehlen können Regeln für eingehenden und ausgehenden Datenverkehr schnell erstellt werden. UFW ist standardmäßig in Ubuntu enthalten und eignet sich hervorragend für Einsteiger, die ihren Server grundlegend absichern möchten.',
+    descriptionEn:
+      'UFW (Uncomplicated Firewall) is a user-friendly frontend for iptables that greatly simplifies the configuration of Linux firewalls. With intuitive commands, rules for incoming and outgoing traffic can be quickly created. UFW is included by default in Ubuntu and is excellent for beginners who want to provide basic security for their server.',
     website: 'https://launchpad.net/ufw',
     github: 'https://github.com/jbq/ufw',
     license: 'GPL-3.0',
@@ -121,8 +136,11 @@ export const firewallTools: Tool[] = [
     name: 'Snort',
     slug: 'snort',
     tagline: 'Weltweit führendes Open-Source-Intrusion-Detection-System',
+    taglineEn: 'World-leading open-source intrusion detection system',
     description:
       'Snort ist das weltweit am meisten eingesetzte Open-Source-Intrusion-Detection- und Prevention-System (IDS/IPS). Es analysiert den Netzwerkverkehr in Echtzeit, erkennt Angriffe und kann automatisch Gegenmaßnahmen einleiten. Snort 3 bietet eine modernisierte Architektur mit Multi-Threading-Unterstützung und einer flexiblen Regelsprache für die Erkennung von Bedrohungen.',
+    descriptionEn:
+      'Snort is the most widely deployed open-source intrusion detection and prevention system (IDS/IPS) in the world. It analyzes network traffic in real time, detects attacks, and can automatically initiate countermeasures. Snort 3 offers a modernized architecture with multi-threading support and a flexible rule language for threat detection.',
     website: 'https://www.snort.org',
     github: 'https://github.com/snort3/snort3',
     license: 'GPL-2.0',
@@ -144,8 +162,11 @@ export const firewallTools: Tool[] = [
     name: 'Suricata',
     slug: 'suricata',
     tagline: 'Hochleistungs-IDS/IPS mit Multi-Threading-Architektur',
+    taglineEn: 'High-performance IDS/IPS with multi-threading architecture',
     description:
       'Suricata ist ein leistungsstarkes Open-Source-IDS/IPS- und Netzwerk-Monitoring-Tool, das von der OISF (Open Information Security Foundation) entwickelt wird. Es bietet Multi-Threading für hohe Durchsatzraten, Unterstützung für Snort-kompatible Regeln, Protokollerkennung, Datei-Extraktion und Integration mit Elasticsearch. Suricata eignet sich für Enterprise-Umgebungen mit hohem Datenaufkommen.',
+    descriptionEn:
+      'Suricata is a powerful open-source IDS/IPS and network monitoring tool developed by the OISF (Open Information Security Foundation). It offers multi-threading for high throughput rates, support for Snort-compatible rules, protocol detection, file extraction, and integration with Elasticsearch. Suricata is suited for enterprise environments with high data volumes.',
     website: 'https://suricata.io',
     github: 'https://github.com/OISF/suricata',
     license: 'GPL-2.0',
@@ -167,8 +188,11 @@ export const firewallTools: Tool[] = [
     name: 'OpenSnitch',
     slug: 'opensnitch',
     tagline: 'Anwendungsfirewall für Linux-Desktops',
+    taglineEn: 'Application firewall for Linux desktops',
     description:
       'OpenSnitch ist eine GNU/Linux-Anwendungsfirewall, die dem Nutzer die Kontrolle darüber gibt, welche Programme Netzwerkverbindungen aufbauen dürfen. Inspiriert von der macOS-Firewall Little Snitch zeigt OpenSnitch bei jeder ausgehenden Verbindung einen Dialog an und ermöglicht es, dauerhafte Regeln für Anwendungen zu erstellen. Die zentrale Verwaltung mehrerer Systeme ist über einen Daemon möglich.',
+    descriptionEn:
+      'OpenSnitch is a GNU/Linux application firewall that gives users control over which programs are allowed to establish network connections. Inspired by the macOS firewall Little Snitch, OpenSnitch displays a dialog for every outgoing connection and allows creating persistent rules for applications. Centralized management of multiple systems is possible through a daemon.',
     website: 'https://github.com/evilsocket/opensnitch',
     github: 'https://github.com/evilsocket/opensnitch',
     license: 'GPL-3.0',

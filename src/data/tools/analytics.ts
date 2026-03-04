@@ -6,8 +6,11 @@ export const analyticsTools: Tool[] = [
     name: 'Plausible CE',
     slug: 'plausible-ce',
     tagline: 'Datenschutzfreundliche Web-Analyse ohne Cookies',
+    taglineEn: 'Privacy-friendly web analytics without cookies',
     description:
       'Plausible Community Edition ist ein leichtgewichtiges, datenschutzfreundliches Analyse-Tool aus der EU. Es kommt vollständig ohne Cookies aus und ist DSGVO-konform ohne Cookie-Banner. Das Skript ist unter 1 KB groß und beeinträchtigt die Seitengeschwindigkeit nicht. Plausible bietet ein klares Dashboard mit allen wichtigen Metriken auf einen Blick.',
+    descriptionEn:
+      'Plausible Community Edition is a lightweight, privacy-friendly analytics tool from the EU. It works entirely without cookies and is GDPR-compliant without a cookie banner. The script is under 1 KB and does not affect page speed. Plausible offers a clear dashboard with all important metrics at a glance.',
     website: 'https://plausible.io',
     github: 'https://github.com/plausible/analytics',
     license: 'AGPL-3.0',
@@ -30,8 +33,11 @@ export const analyticsTools: Tool[] = [
     name: 'Matomo',
     slug: 'matomo',
     tagline: 'Umfassende Web-Analyse mit voller Datenkontrolle',
+    taglineEn: 'Comprehensive web analytics with full data control',
     description:
       'Matomo (ehemals Piwik) ist die führende Open-Source-Alternative zu Google Analytics und wird von über einer Million Websites weltweit eingesetzt. Mit Sitz in Neuseeland und starker europäischer Nutzerbasis bietet Matomo vollständige Datenhoheit, Heatmaps, Session-Recording und E-Commerce-Tracking. Es ist DSGVO-konform konfigurierbar und bietet umfangreiche Berichtsfunktionen.',
+    descriptionEn:
+      'Matomo (formerly Piwik) is the leading open-source alternative to Google Analytics and is used by over one million websites worldwide. Based in New Zealand with a strong European user base, Matomo offers complete data sovereignty, heatmaps, session recording, and e-commerce tracking. It is configurable for GDPR compliance and provides extensive reporting features.',
     website: 'https://matomo.org',
     github: 'https://github.com/matomo-org/matomo',
     license: 'GPL-3.0',
@@ -54,8 +60,11 @@ export const analyticsTools: Tool[] = [
     name: 'Umami',
     slug: 'umami',
     tagline: 'Einfache, schnelle und datenschutzfreundliche Analyse',
+    taglineEn: 'Simple, fast, and privacy-friendly analytics',
     description:
       'Umami ist ein schlankes, datenschutzfreundliches Web-Analyse-Tool, das eine saubere Alternative zu Google Analytics bietet. Es sammelt nur die wichtigsten Metriken, speichert keine personenbezogenen Daten und benötigt kein Cookie-Banner. Die moderne Oberfläche ist responsiv und ermöglicht die Verwaltung mehrerer Websites in einem Dashboard.',
+    descriptionEn:
+      'Umami is a lean, privacy-friendly web analytics tool that offers a clean alternative to Google Analytics. It collects only the most essential metrics, stores no personal data, and requires no cookie banner. The modern interface is responsive and allows managing multiple websites in a single dashboard.',
     website: 'https://umami.is',
     github: 'https://github.com/umami-software/umami',
     license: 'MIT',
@@ -78,8 +87,11 @@ export const analyticsTools: Tool[] = [
     name: 'Fathom Lite',
     slug: 'fathom-lite',
     tagline: 'Minimalistische Web-Analyse mit Fokus auf Privatsphäre',
+    taglineEn: 'Minimalist web analytics with a focus on privacy',
     description:
       'Fathom Lite ist die kostenlose Open-Source-Version von Fathom Analytics und bietet eine minimalistische, datenschutzfreundliche Webanalyse. Es verzichtet auf Cookies und personenbezogene Daten und liefert dennoch aussagekräftige Statistiken über Seitenaufrufe, Referrer und Top-Inhalte. Ideal für Websitebetreiber, die nur die wesentlichen Kennzahlen benötigen.',
+    descriptionEn:
+      'Fathom Lite is the free open-source version of Fathom Analytics and provides minimalist, privacy-friendly web analytics. It forgoes cookies and personal data while still delivering meaningful statistics on page views, referrers, and top content. Ideal for website operators who only need the essential metrics.',
     website: 'https://usefathom.com',
     github: 'https://github.com/usefathom/fathom',
     license: 'MIT',
@@ -101,8 +113,11 @@ export const analyticsTools: Tool[] = [
     name: 'PostHog CE',
     slug: 'posthog-ce',
     tagline: 'All-in-One Product-Analytics-Plattform',
+    taglineEn: 'All-in-one product analytics platform',
     description:
       'PostHog Community Edition ist eine umfassende Product-Analytics-Plattform, die Ereignisverfolgung, Feature-Flags, Session-Recording und A/B-Tests in einem Tool vereint. PostHog ermöglicht es Produktteams, datengetriebene Entscheidungen zu treffen, ohne Nutzerdaten an Dritte weitergeben zu müssen. Die Plattform lässt sich vollständig selbst hosten.',
+    descriptionEn:
+      'PostHog Community Edition is a comprehensive product analytics platform that combines event tracking, feature flags, session recording, and A/B testing in a single tool. PostHog enables product teams to make data-driven decisions without having to share user data with third parties. The platform can be fully self-hosted.',
     website: 'https://posthog.com',
     github: 'https://github.com/PostHog/posthog',
     license: 'MIT',
@@ -124,8 +139,11 @@ export const analyticsTools: Tool[] = [
     name: 'Ackee',
     slug: 'ackee',
     tagline: 'Selbstgehostete Node.js-Analyse mit schönem Dashboard',
+    taglineEn: 'Self-hosted Node.js analytics with a beautiful dashboard',
     description:
       'Ackee ist ein selbstgehostetes, datenschutzfreundliches Analyse-Tool, das auf Node.js und MongoDB aufbaut. Es bietet ein ansprechendes Dashboard zur Visualisierung von Websitestatistiken, verfolgt keine einzelnen Nutzer und anonymisiert alle Daten. Ackee eignet sich besonders für Entwickler, die eine einfache und elegante Analyselösung suchen.',
+    descriptionEn:
+      'Ackee is a self-hosted, privacy-friendly analytics tool built on Node.js and MongoDB. It provides an appealing dashboard for visualizing website statistics, does not track individual users, and anonymizes all data. Ackee is particularly well-suited for developers looking for a simple and elegant analytics solution.',
     website: 'https://ackee.electerious.com',
     github: 'https://github.com/electerious/Ackee',
     license: 'MIT',

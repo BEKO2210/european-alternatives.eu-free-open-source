@@ -6,8 +6,11 @@ export const cloudSpeicherTools: Tool[] = [
     name: 'Nextcloud',
     slug: 'nextcloud',
     tagline: 'Die fuehrende selbstgehostete Cloud-Plattform fuer Dateien und Zusammenarbeit',
+    taglineEn: 'The leading self-hosted cloud platform for files and collaboration',
     description:
       'Nextcloud ist die beliebteste selbstgehostete Cloud-Loesung und bietet Dateispeicherung, Synchronisation, Kalender, Kontakte, E-Mail-Integration und umfangreiche Kollaborationswerkzeuge. Ueber den integrierten App-Store kann die Funktionalitaet mit hunderten Erweiterungen ausgebaut werden, darunter OnlyOffice, Talk (Videokonferenzen) und Groupware. Nextcloud wird in Deutschland entwickelt, ist DSGVO-konform und wird von Unternehmen, Behoerden und Privatpersonen weltweit eingesetzt.',
+    descriptionEn:
+      'Nextcloud is the most popular self-hosted cloud solution, offering file storage, synchronization, calendar, contacts, email integration, and extensive collaboration tools. Its built-in app store allows extending functionality with hundreds of extensions, including OnlyOffice, Talk (video conferencing), and groupware. Nextcloud is developed in Germany, is GDPR-compliant, and is used by businesses, government agencies, and individuals worldwide.',
     website: 'https://nextcloud.com',
     github: 'https://github.com/nextcloud/server',
     license: 'AGPL-3.0',
@@ -30,8 +33,11 @@ export const cloudSpeicherTools: Tool[] = [
     name: 'Seafile',
     slug: 'seafile',
     tagline: 'Hochleistungs-Cloud-Speicher mit effizienter Dateisynchronisation',
+    taglineEn: 'High-performance cloud storage with efficient file synchronization',
     description:
       'Seafile ist eine leistungsstarke Open-Source-Cloud-Speicher-Loesung, die sich durch besonders schnelle und zuverlaessige Dateisynchronisation auszeichnet. Die einzigartige Architektur basiert auf einem eigenen Dateisystem und Blockdeduplication, was zu geringerem Speicherverbrauch und schnelleren Transfers fuehrt. Seafile bietet Ende-zu-Ende-Verschluesselung fuer Bibliotheken, Versionierung, Dateisperren und eine WebDAV-Schnittstelle. Es eignet sich besonders fuer Umgebungen mit grossen Datenmengen.',
+    descriptionEn:
+      'Seafile is a powerful open-source cloud storage solution that excels at fast and reliable file synchronization. Its unique architecture is based on a custom file system and block deduplication, resulting in lower storage consumption and faster transfers. Seafile offers end-to-end encryption for libraries, versioning, file locking, and a WebDAV interface. It is particularly well-suited for environments with large amounts of data.',
     website: 'https://www.seafile.com',
     github: 'https://github.com/haiwen/seafile',
     license: 'AGPL-3.0',
@@ -54,8 +60,11 @@ export const cloudSpeicherTools: Tool[] = [
     name: 'ownCloud',
     slug: 'owncloud',
     tagline: 'Bewaeherter Cloud-Speicher mit Enterprise-Fokus und Infinite Scale',
+    taglineEn: 'Proven cloud storage with enterprise focus and Infinite Scale',
     description:
       'ownCloud ist eine bewaehrte Open-Source-Cloud-Speicher-Loesung, die mit der neuen Infinite-Scale-Architektur grundlegend ueberarbeitet wurde. Die in Go geschriebene Plattform bietet native Spaces fuer Projektordner, feingranulare Berechtigungen, effiziente Dateisynchronisation und eine moderne Weboberflaeche. ownCloud wird in Deutschland entwickelt und richtet sich besonders an Unternehmen und Organisationen mit hohen Anforderungen an Datensicherheit und Compliance.',
+    descriptionEn:
+      'ownCloud is a proven open-source cloud storage solution that has been fundamentally redesigned with the new Infinite Scale architecture. The platform, written in Go, offers native Spaces for project folders, fine-grained permissions, efficient file synchronization, and a modern web interface. ownCloud is developed in Germany and is particularly aimed at enterprises and organizations with high requirements for data security and compliance.',
     website: 'https://owncloud.com',
     github: 'https://github.com/owncloud/ocis',
     license: 'Apache-2.0',
@@ -77,8 +86,11 @@ export const cloudSpeicherTools: Tool[] = [
     name: 'Syncthing',
     slug: 'syncthing',
     tagline: 'Dezentrale Dateisynchronisation ohne Cloud-Server',
+    taglineEn: 'Decentralized file synchronization without cloud servers',
     description:
       'Syncthing ist ein dezentrales, kontinuierliches Dateisynchronisations-Programm, das Dateien direkt zwischen Geraeten synchronisiert – ohne zentralen Server. Alle Daten werden mit TLS verschluesselt uebertragen und verlassen niemals die eigenen Geraete. Syncthing bietet Versionierung, selektive Synchronisation, Ignorierungsmuster und eine webbasierte Benutzeroberflaeche. Es eignet sich hervorragend als Dropbox-Ersatz fuer Nutzer, die volle Kontrolle ueber ihre Daten behalten moechten.',
+    descriptionEn:
+      'Syncthing is a decentralized, continuous file synchronization program that syncs files directly between devices — without a central server. All data is transmitted with TLS encryption and never leaves your own devices. Syncthing offers versioning, selective synchronization, ignore patterns, and a web-based user interface. It is an excellent Dropbox replacement for users who want to maintain full control over their data.',
     website: 'https://syncthing.net',
     github: 'https://github.com/syncthing/syncthing',
     license: 'MPL-2.0',
@@ -99,8 +111,11 @@ export const cloudSpeicherTools: Tool[] = [
     name: 'Rclone',
     slug: 'rclone',
     tagline: 'Universelles Kommandozeilen-Tool fuer Cloud-Speicher-Verwaltung',
+    taglineEn: 'Universal command-line tool for cloud storage management',
     description:
       'Rclone ist ein vielseitiges Kommandozeilen-Programm zur Verwaltung und Synchronisation von Dateien zwischen lokalen Speichern und ueber 70 Cloud-Speicher-Anbietern. Es bietet Verschluesselung, Kompression, Caching und kann Cloud-Speicher als lokales Dateisystem einbinden (mount). Rclone unterstuetzt Synchronisation, Kopieren, Verschieben und Serverside-Kopien. Es eignet sich ideal fuer Backups, Datenmigration und die Verwaltung mehrerer Cloud-Speicher von der Kommandozeile aus.',
+    descriptionEn:
+      'Rclone is a versatile command-line program for managing and synchronizing files between local storage and over 70 cloud storage providers. It offers encryption, compression, caching, and can mount cloud storage as a local file system. Rclone supports synchronization, copying, moving, and server-side copies. It is ideal for backups, data migration, and managing multiple cloud storage services from the command line.',
     website: 'https://rclone.org',
     github: 'https://github.com/rclone/rclone',
     license: 'MIT',
