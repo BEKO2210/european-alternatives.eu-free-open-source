@@ -10,7 +10,7 @@ Das Auto-Discovery-System ist **implementiert und läuft autonom**.
 Jeden Montag um 06:00 UTC werden neue FOSS-Tools automatisch erkannt, kategorisiert,
 in die Webseite eingefügt, gebaut und deployed — ohne manuellen Eingriff.
 
-**Aktueller Stand:** 350+ Tools in 40 Kategorien.
+**Aktueller Stand:** 350+ Tools in 40 Kategorien, 2 Sprachen (DE/EN), 806 Seiten.
 
 ---
 
@@ -20,7 +20,7 @@ in die Webseite eingefügt, gebaut und deployed — ohne manuellen Eingriff.
 ```
 src/data/types.ts              # Tool & Category Interfaces
 src/data/categories.ts         # 40 Kategorien mit Slugs
-src/data/tools/*.ts            # 40 Dateien, je eine pro Kategorie (243 Tools)
+src/data/tools/*.ts            # 40 Dateien, je eine pro Kategorie (241 Tools)
 src/data/tools/index.ts        # Aggregiert alle Tools inkl. auto-tools
 ```
 
@@ -36,6 +36,15 @@ src/data/tools/auto-tools.ts   # Automatisch generierte Tool-Einträge (akkumuli
 ```
 .github/workflows/deploy.yml          # Astro Build → GitHub Pages
 .github/workflows/auto-discover.yml   # Wöchentliche Tool-Erkennung
+```
+
+### Internationalisierung (i18n)
+```
+astro.config.mjs                           # i18n: defaultLocale 'de', locales ['de', 'en']
+src/i18n/ui.ts                             # 266 UI-Strings (DE/EN) + Kategorie-Uebersetzungen
+src/i18n/utils.ts                          # getLangFromUrl, useTranslations, getLocalizedPath
+src/components/ui/LanguageToggle.astro     # DE/EN Toggle in der Navigation
+src/pages/en/                              # 13 englische Seitenvorlagen
 ```
 
 ### Datenfluss
@@ -127,12 +136,18 @@ Keine neuen Kategorien erfinden.
 3. `scripts/new_tools_count.txt` zeigt Ergebnis des letzten Laufs
 4. Dry-Run über UI: `dry_run: true` — findet Tools, committed aber nicht
 
+### Uebersetzungen pflegen
+- UI-Strings: Keys in `src/i18n/ui.ts` unter dem jeweiligen Sprach-Objekt (`de`/`en`) ergaenzen
+- Kategorie-Uebersetzungen: `categoryTranslations` in `src/i18n/ui.ts` pflegen
+- Neue Seiten: Entsprechende `.astro`-Datei unter `src/pages/en/` anlegen
+- Pfad-Mappings: `deToEn`-Map in `src/i18n/utils.ts` erweitern falls neue Seitenpfade hinzukommen
+
 ### Build lokal testen
 ```bash
 npm ci
 npm run build
 ```
-Muss fehlerfrei durchlaufen. 401 Seiten werden generiert (Tools + Kategorien + statische Seiten).
+Muss fehlerfrei durchlaufen. 806 Seiten werden generiert (Tools + Kategorien + statische Seiten, jeweils DE + EN).
 
 ---
 
@@ -143,7 +158,7 @@ Die Startseite zeigt bei jedem Besuch **6 zufällige Tools** und **6 zufällige 
 ### Architektur (Progressive Enhancement)
 ```
 Build-Zeit:
-  Alle 350 Tools + alle 40 Kategorien als HTML-Divs rendern
+  Alle 350+ Tools + alle 40 Kategorien als HTML-Divs rendern
   Erste 6 je sichtbar (style=""), Rest versteckt (style="display:none")
   Reihenfolge: Build-Time-Shuffle (Math.random)
 
@@ -156,7 +171,7 @@ Fallback (JS deaktiviert/blockiert):
 ```
 
 ### Seitengroeße
-- **Unkomprimiert:** ~1.4 MB (alle 350 ToolCards + 40 CategoryCards im DOM)
+- **Unkomprimiert:** ~1.4 MB (alle 350+ ToolCards + 40 CategoryCards im DOM)
 - **Gzipped:** ~118 KB (akzeptabel, HTML komprimiert sehr gut)
 
 ### Wichtig

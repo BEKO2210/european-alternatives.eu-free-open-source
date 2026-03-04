@@ -1,4 +1,4 @@
-> **[English]** A curated directory of 350+ free and open-source alternatives to proprietary software like Google, Microsoft, and Adobe — organized in 40 categories, fully searchable, self-hostable. Built for the DACH region but useful for everyone. → [Live Site](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
+> **[English]** A curated directory of 350+ free and open-source alternatives to proprietary software like Google, Microsoft, and Adobe — organized in 40 categories, fully searchable, self-hostable, available in German and English. Built for the DACH region but useful for everyone. → [Live Site](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
 
 # 🛡️ FOSS Alternatives
 
@@ -9,7 +9,7 @@
 
 **Deine Freiheit. Dein Code. Deine Zukunft.**
 
-> Eine kuratierte Sammlung von 350+ kostenlosen Open-Source-Alternativen zu proprietärer Software — organisiert in 40 Kategorien, vollständig durchsuchbar, und mit dem Fokus auf Datenschutz und digitale Souveränität. Neue Tools werden jeden Montag automatisch erkannt und hinzugefügt.
+> Eine kuratierte Sammlung von 350+ kostenlosen Open-Source-Alternativen zu proprietärer Software — organisiert in 40 Kategorien, vollständig durchsuchbar, zweisprachig (DE/EN), und mit dem Fokus auf Datenschutz und digitale Souveränität. Neue Tools werden jeden Montag automatisch erkannt und hinzugefügt.
 
 🌐 **Live:** [BEKO2210.github.io/european-alternatives.eu-free-open-source](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
 
@@ -22,6 +22,7 @@
 - 🎲 **Dynamische Startseite** — 6 zufällige Tools und 6 zufällige Kategorien bei jedem Besuch (Progressive Enhancement, funktioniert auch ohne JS)
 - 🔍 **Volltextsuche** mit Pagefind (statisch, kein Server nötig)
 - 🌙 **Dark/Light Mode** mit localStorage-Persistenz
+- 🌍 **Mehrsprachig** — Deutsch und Englisch mit Sprachumschalter (DE/EN Toggle)
 - 🔄 **Vergleichsseite**: Proprietär → FOSS Alternativen
 - 📱 **Responsive Design** (Mobile-First)
 - ♿ **WCAG 2.1 AA** Accessibility
@@ -107,14 +108,18 @@ npm run preview
 src/
 ├── components/         # Astro-Komponenten
 │   ├── layout/        # BaseLayout, Navigation, Footer
-│   ├── ui/            # Badge, Button, Card, SearchModal
+│   ├── ui/            # Badge, Button, Card, SearchModal, LanguageToggle
 │   ├── tools/         # ToolCard, ToolGrid, ToolDetail, ToolFilters
 │   └── categories/    # CategoryCard, CategoryGrid
 ├── data/              # Typdefinitionen und Daten
 │   ├── types.ts       # Tool & Category Interfaces
 │   ├── categories.ts  # Alle 40 Kategorien
 │   └── tools/         # Tool-Dateien pro Kategorie + auto-tools.ts
+├── i18n/              # Internationalisierung (DE/EN)
+│   ├── ui.ts          # 266 übersetzte UI-Strings
+│   └── utils.ts       # Sprach-Erkennung und Pfad-Übersetzung
 ├── pages/             # Astro-Seiten (File-based Routing)
+│   └── en/            # Englische Seiten (13 Vorlagen)
 ├── styles/            # Global CSS + Animationen
 └── utils/             # Hilfs-Funktionen
 
