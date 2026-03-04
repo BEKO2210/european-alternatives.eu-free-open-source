@@ -109,8 +109,11 @@ export const medienserverTools: Tool[] = [
     name: 'Stremio',
     slug: 'stremio',
     tagline: 'Media-Center mit Add-on-basiertem Streaming',
+    taglineEn: 'Media center with add-on-based streaming',
     description:
       'Stremio ist ein modernes Media-Center, das Inhalte aus verschiedenen Quellen ueber Add-ons aggregiert. Es bietet einen eleganten Katalog fuer Filme, Serien und Kanäle, Untertitel-Unterstuetzung, Trakt-Integration und eine benutzerfreundliche Oberflaeche auf allen Plattformen.',
+    descriptionEn:
+      'Stremio is a modern media center that aggregates content from various sources via add-ons. It offers an elegant catalog for movies, TV shows, and channels, subtitle support, Trakt integration, and a user-friendly interface across all platforms.',
     website: 'https://www.stremio.com',
     github: 'https://github.com/Stremio/stremio-shell',
     license: 'GPL-3.0',

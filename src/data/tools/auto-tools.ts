@@ -6191,10 +6191,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'gigapipe',
     name: 'Gigapipe',
     slug: 'gigapipe',
-    tagline: '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :ro...',
+    tagline: 'Das Open-Source-Polyglot-Observability-Warehouse: Leicht, Schnell, Cloud-Nativ, Grafana-LGTMP-Drop-in-Alternative...',
     taglineEn: '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :ro...',
     description:
-      '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :rocket: Indie All-in-One Opentelemetry, Loki, Prometheus, Tempo, Pyroscope On-Prem Alternative :star:',
+      'Das Open-Source-Polyglot-Observability-Warehouse: Leicht, Schnell, Cloud-Nativ, Grafana-LGTMP-Drop-in-Alternative. Unabhaengige All-in-One OpenTelemetry-, Loki-, Prometheus-, Tempo-, Pyroscope-On-Prem-Alternative.',
     descriptionEn:
       '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :rocket: Indie All-in-One Opentelemetry, Loki, Prometheus, Tempo, Pyroscope On-Prem Alternative :star:',
     website: 'https://gigapipe.com',
@@ -6217,10 +6217,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'atomic-server',
     name: 'Atomic Server',
     slug: 'atomic-server',
-    tagline: 'An open source headless CMS / real-time database.',
+    tagline: 'Ein Open-Source-Headless-CMS / Echtzeit-Datenbank.',
     taglineEn: 'An open source headless CMS / real-time database.',
     description:
-      'An open source headless CMS / real-time database. Powerful table editor, full-text search, and SDKs for JS / React / Svelte.',
+      'Ein Open-Source-Headless-CMS / Echtzeit-Datenbank. Leistungsstarker Tabelleneditor, Volltextsuche und SDKs fuer JS / React / Svelte.',
     descriptionEn:
       'An open source headless CMS / real-time database. Powerful table editor, full-text search, and SDKs for JS / React / Svelte.',
     website: 'https://atomicserver.eu',
@@ -6243,10 +6243,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'sonicjs',
     name: 'Sonicjs',
     slug: 'sonicjs',
-    tagline: 'SonicJS - The edge-native headless CMS for Cloudflare Workers.',
+    tagline: 'SonicJS - Das Edge-native Headless-CMS fuer Cloudflare Workers.',
     taglineEn: 'SonicJS - The edge-native headless CMS for Cloudflare Workers.',
     description:
-      'SonicJS - The edge-native headless CMS for Cloudflare Workers. Sub-100ms response times, zero cold starts, TypeScript-first. Built on D1, R2, and Hono.',
+      'SonicJS - Das Edge-native Headless-CMS fuer Cloudflare Workers. Antwortzeiten unter 100 ms, keine Kaltstarts, TypeScript-first. Basiert auf D1, R2 und Hono.',
     descriptionEn:
       'SonicJS - The edge-native headless CMS for Cloudflare Workers. Sub-100ms response times, zero cold starts, TypeScript-first. Built on D1, R2, and Hono.',
     website: 'https://sonicjs.com',
@@ -6269,10 +6269,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'smartstore',
     name: 'Smartstore',
     slug: 'smartstore',
-    tagline: 'A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10',
+    tagline: 'Eine modulare, skalierbare und ultraschnelle Open-Source-All-in-One-eCommerce-Plattform auf Basis von ASP.NET Core 10',
     taglineEn: 'A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10',
     description:
-      'A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10',
+      'Eine modulare, skalierbare und ultraschnelle Open-Source-All-in-One-eCommerce-Plattform auf Basis von ASP.NET Core 10',
     descriptionEn:
       'A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10',
     website: 'http://www.smartstore.com/',
@@ -6295,10 +6295,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'grafana-operator',
     name: 'Grafana Operator',
     slug: 'grafana-operator',
-    tagline: 'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/Op...',
+    tagline: 'Ein Operator fuer Grafana, der Grafana-Instanzen, Dashboards und Datenquellen ueber Kubernetes/OpenShift-CRs installiert und verwaltet...',
     taglineEn: 'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/Op...',
     description:
-      'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/OpenShift CRs',
+      'Ein Operator fuer Grafana, der Grafana-Instanzen, Dashboards und Datenquellen ueber Kubernetes/OpenShift-CRs installiert und verwaltet.',
     descriptionEn:
       'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/OpenShift CRs',
     website: 'https://grafana.github.io/grafana-operator/docs/',
@@ -6815,10 +6815,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'taskcafe',
     name: 'Taskcafe',
     slug: 'taskcafe',
-    tagline: 'An open source project management tool with Kanban boards',
+    tagline: 'Ein Open-Source-Projektmanagement-Tool mit Kanban-Boards.',
     taglineEn: 'An open source project management tool with Kanban boards',
     description:
-      'An open source project management tool with Kanban boards',
+      'Ein Open-Source-Projektmanagement-Tool mit Kanban-Boards.',
     descriptionEn:
       'An open source project management tool with Kanban boards',
     website: 'https://github.com/JordanKnott/taskcafe',
@@ -6841,10 +6841,10 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'silverbullet',
     name: 'Silverbullet',
     slug: 'silverbullet',
-    tagline: 'An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua',
+    tagline: 'Eine Open-Source-Produktivitaetsplattform auf Markdown-Basis, aufgeladen mit der Skript-Power von Lua.',
     taglineEn: 'An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua',
     description:
-      'An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua',
+      'Eine Open-Source-Produktivitaetsplattform auf Markdown-Basis, aufgeladen mit der Skript-Power von Lua.',
     descriptionEn:
       'An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua',
     website: 'https://silverbullet.md',
