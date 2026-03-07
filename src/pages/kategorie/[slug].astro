@@ -35,9 +35,9 @@ const homeHref = getHomeHref(lang);
     <!-- Breadcrumb -->
     <nav class="mb-6 text-sm" aria-label="Breadcrumb">
       <ol class="flex items-center gap-2" style="color: var(--color-text-muted)">
-        <li><a href={homeHref} class="hover:text-indigo-400">{t('catPage.home')}</a></li>
+        <li><a href={homeHref} class="hover:text-red-400">{t('catPage.home')}</a></li>
         <li>/</li>
-        <li><a href={`${base}kategorien/`} class="hover:text-indigo-400">{t('catPage.categories')}</a></li>
+        <li><a href={`${base}kategorien/`} class="hover:text-red-400">{t('catPage.categories')}</a></li>
         <li>/</li>
         <li style="color: var(--color-text-primary)">{category.name}</li>
       </ol>

@@ -98,6 +98,7 @@ export const ui = {
     'detail.restricted': 'Eingeschränkt',
     'detail.archived': 'Archiviert',
     'detail.reason': 'Grund:',
+    'detail.preview': 'Vorschau',
 
     // ToolFilters
     'filters.search': 'Suche',
@@ -243,6 +244,7 @@ export const ui = {
     'detail.restricted': 'Limited',
     'detail.archived': 'Archived',
     'detail.reason': 'Reason:',
+    'detail.preview': 'Preview',
 
     // ToolFilters
     'filters.search': 'Search',

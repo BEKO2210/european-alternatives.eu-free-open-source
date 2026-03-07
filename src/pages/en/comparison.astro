@@ -54,7 +54,7 @@ const sortedEntries = Array.from(replacementMap.entries()).sort((a, b) => a[0].l
     <div class="flex flex-wrap justify-center gap-2 mb-12">
       {popularReplacements.filter(p => replacementMap.has(p)).map(p => (
         <button
-          class="compare-suggestion px-3 py-1.5 rounded-full text-xs font-medium transition-colors hover:bg-indigo-500/20 hover:text-indigo-300 hover:border-indigo-500/30"
+          class="compare-suggestion px-3 py-1.5 rounded-full text-xs font-medium transition-colors hover:bg-red-500/20 hover:text-red-300 hover:border-red-500/30"
           style="background: var(--color-bg-secondary); color: var(--color-text-muted); border: 1px solid var(--color-border)"
           data-term={p}
         >

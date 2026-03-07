@@ -49,7 +49,7 @@ function isActive(href: string): boolean {
             class:list={[
               'px-3 py-2 rounded-lg text-sm font-medium no-underline hover:no-underline transition-colors',
               isActive(link.href)
-                ? 'text-indigo-400 bg-indigo-500/10'
+                ? 'text-red-400 bg-red-500/10'
                 : 'hover:bg-white/5'
             ]}
             style={!isActive(link.href) ? 'color: var(--color-text-secondary)' : undefined}
@@ -127,7 +127,7 @@ function isActive(href: string): boolean {
           class:list={[
             'block px-3 py-2 rounded-lg text-sm font-medium no-underline hover:no-underline',
             isActive(link.href)
-              ? 'text-indigo-400 bg-indigo-500/10'
+              ? 'text-red-400 bg-red-500/10'
               : 'hover:bg-white/5'
           ]}
           style={!isActive(link.href) ? 'color: var(--color-text-secondary)' : undefined}

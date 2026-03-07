@@ -10,37 +10,37 @@
 
 @layer base {
   :root {
-    --color-bg-primary: #0a0a0f;
-    --color-bg-secondary: #111119;
-    --color-bg-tertiary: #1a1a2e;
-    --color-bg-card: #13131f;
-    --color-border: #2a2a3e;
-    --color-border-accent: #4f46e5;
-    --color-primary: #6366f1;
-    --color-primary-hover: #4f46e5;
-    --color-primary-glow: rgba(99, 102, 241, 0.15);
+    --color-bg-primary: #0a0a0a;
+    --color-bg-secondary: #111111;
+    --color-bg-tertiary: #1a1a1a;
+    --color-bg-card: #141414;
+    --color-border: #2a2a2a;
+    --color-border-accent: #dc2626;
+    --color-primary: #ef4444;
+    --color-primary-hover: #dc2626;
+    --color-primary-glow: rgba(239, 68, 68, 0.15);
     --color-accent-green: #22c55e;
     --color-accent-green-glow: rgba(34, 197, 94, 0.1);
-    --color-accent-purple: #a855f7;
+    --color-accent-purple: #f87171;
     --color-accent-orange: #f97316;
-    --color-accent-cyan: #06b6d4;
-    --color-text-primary: #f1f5f9;
-    --color-text-secondary: #94a3b8;
-    --color-text-muted: #64748b;
-    --color-text-accent: #818cf8;
+    --color-accent-cyan: #fb923c;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #d1d5db;
+    --color-text-muted: #9ca3af;
+    --color-text-accent: #f87171;
   }
 
   [data-theme='light'] {
-    --color-bg-primary: #f8fafc;
-    --color-bg-secondary: #ffffff;
-    --color-bg-tertiary: #f1f5f9;
-    --color-bg-card: #ffffff;
-    --color-border: #e2e8f0;
-    --color-border-accent: #6366f1;
-    --color-text-primary: #0f172a;
-    --color-text-secondary: #475569;
-    --color-text-muted: #94a3b8;
-    --color-text-accent: #6366f1;
+    --color-bg-primary: #0a0a0a;
+    --color-bg-secondary: #111111;
+    --color-bg-tertiary: #1a1a1a;
+    --color-bg-card: #141414;
+    --color-border: #2a2a2a;
+    --color-border-accent: #dc2626;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #d1d5db;
+    --color-text-muted: #9ca3af;
+    --color-text-accent: #f87171;
   }
 
   html {
@@ -69,8 +69,8 @@
   }
 
   ::selection {
-    background-color: rgba(99, 102, 241, 0.3);
-    color: #f1f5f9;
+    background-color: rgba(239, 68, 68, 0.3);
+    color: #ffffff;
   }
 
   :focus-visible {
@@ -91,7 +91,7 @@
 
 @layer components {
   .gradient-text {
-    background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #06b6d4 100%);
+    background: linear-gradient(135deg, #ef4444 0%, #f87171 50%, #fca5a5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -99,9 +99,9 @@
 
   .gradient-bg-hero {
     background:
-      radial-gradient(ellipse at 20% 50%, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
-      radial-gradient(ellipse at 80% 20%, rgba(168, 85, 247, 0.12) 0%, transparent 50%),
-      radial-gradient(ellipse at 50% 80%, rgba(6, 182, 212, 0.1) 0%, transparent 50%),
+      radial-gradient(ellipse at 20% 50%, rgba(239, 68, 68, 0.12) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 20%, rgba(248, 113, 113, 0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 80%, rgba(252, 165, 165, 0.06) 0%, transparent 50%),
       var(--color-bg-primary);
     background-size: 200% 200%;
     animation: gradientShift 15s ease infinite;
@@ -161,21 +161,21 @@
   }
 
   .badge-gpl {
-    background-color: rgba(99, 102, 241, 0.2);
-    color: #818cf8;
-    border-color: rgba(99, 102, 241, 0.3);
+    background-color: rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+    border-color: rgba(239, 68, 68, 0.3);
   }
 
   .badge-agpl {
-    background-color: rgba(168, 85, 247, 0.2);
-    color: #c084fc;
-    border-color: rgba(168, 85, 247, 0.3);
+    background-color: rgba(239, 68, 68, 0.15);
+    color: #f87171;
+    border-color: rgba(239, 68, 68, 0.25);
   }
 
   .badge-lgpl {
-    background-color: rgba(6, 182, 212, 0.2);
-    color: #22d3ee;
-    border-color: rgba(6, 182, 212, 0.3);
+    background-color: rgba(239, 68, 68, 0.1);
+    color: #fca5a5;
+    border-color: rgba(239, 68, 68, 0.2);
   }
 
   .badge-mpl {
@@ -191,9 +191,9 @@
   }
 
   .badge-selfhost {
-    background-color: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border-color: rgba(99, 102, 241, 0.3);
+    background-color: rgba(239, 68, 68, 0.15);
+    color: #fca5a5;
+    border-color: rgba(239, 68, 68, 0.25);
   }
 
   .badge-foss {
@@ -220,11 +220,11 @@
   .glass {
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    background-color: rgba(10, 10, 15, 0.8);
+    background-color: rgba(10, 10, 10, 0.85);
   }
 
   [data-theme='light'] .glass {
-    background-color: rgba(248, 250, 252, 0.8);
+    background-color: rgba(10, 10, 10, 0.85);
   }
 
   .skip-link {

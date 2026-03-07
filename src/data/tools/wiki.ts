@@ -105,6 +105,9 @@ export const wikiTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: true,
     addedDate: '2025-06-01',
+    maintenanceStatus: 'restricted',
+    maintenanceNote: 'Outline verwendet BSL-1.1 (Business Source License), die keine OSI-konforme Open-Source-Lizenz ist. Kommerzielle Nutzung ist eingeschraenkt. FOSS-Alternativen: BookStack (MIT), Wiki.js (AGPL-3.0), HedgeDoc (AGPL-3.0).',
+    deprecatedReason: 'BSL-1.1 ist keine OSI-konforme Open-Source-Lizenz. Kommerzielle Nutzung eingeschraenkt.',
   },
   {
     id: 'documize',

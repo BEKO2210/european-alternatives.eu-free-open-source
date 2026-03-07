@@ -53,6 +53,8 @@ function getToolColor(name: string): string {
 
 const toolColor = getToolColor(tool.name);
 
+const previewImageUrl = tool.previewImage || `https://image.thum.io/get/width/1280/crop/800/noanimate/${tool.website}`;
+
 const categoryIconMap: Record<string, string> = {
   'monitor': 'lucide:monitor', 'file-text': 'lucide:file-text', 'globe': 'lucide:globe',
   'mail': 'lucide:mail', 'mailbox': 'lucide:inbox', 'cloud': 'lucide:cloud',
@@ -73,11 +75,11 @@ const categoryIconMap: Record<string, string> = {
 <article>
   <nav class="mb-6 text-sm" aria-label="Breadcrumb">
     <ol class="flex items-center gap-2" style="color: var(--color-text-muted)">
-      <li><a href={homeHref} class="hover:text-indigo-400">{t('detail.home')}</a></li>
+      <li><a href={homeHref} class="hover:text-red-400">{t('detail.home')}</a></li>
       <li>/</li>
       {toolCategories[0] && (
         <>
-          <li><a href={`${base}${categoryPath}/${toolCategories[0].slug}/`} class="hover:text-indigo-400">{getCategoryName(toolCategories[0].slug, lang) || toolCategories[0].name}</a></li>
+          <li><a href={`${base}${categoryPath}/${toolCategories[0].slug}/`} class="hover:text-red-400">{getCategoryName(toolCategories[0].slug, lang) || toolCategories[0].name}</a></li>
           <li>/</li>
         </>
       )}
@@ -143,14 +145,14 @@ const categoryIconMap: Record<string, string> = {
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
     <div class="card p-4">
       <div class="text-xs mb-1" style="color: var(--color-text-muted)">{t('detail.website')}</div>
-      <a href={tool.website} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-indigo-400 hover:text-indigo-300 truncate block">
+      <a href={tool.website} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-red-400 hover:text-red-300 truncate block">
         {tool.website.replace('https://', '').replace('http://', '').replace(/\/$/, '')}
       </a>
     </div>
     {tool.github && (
       <div class="card p-4">
         <div class="text-xs mb-1" style="color: var(--color-text-muted)">{t('detail.github')}</div>
-        <a href={tool.github} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-indigo-400 hover:text-indigo-300 truncate block">
+        <a href={tool.github} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-red-400 hover:text-red-300 truncate block">
           {tool.github.replace('https://github.com/', '')}
         </a>
       </div>
@@ -171,6 +173,22 @@ const categoryIconMap: Record<string, string> = {
   <div class="card p-6 mb-8">
     <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">{t('detail.description')}</h2>
     <p class="leading-relaxed" style="color: var(--color-text-secondary)">{lang === 'en' && tool.descriptionEn ? tool.descriptionEn : tool.description}</p>
+  </div>
+
+  <div class="card p-6 mb-8">
+    <h2 class="text-lg font-semibold mb-4 flex items-center gap-2" style="color: var(--color-text-primary)">
+      <Icon name="lucide:monitor" size={20} />
+      {t('detail.preview')}
+    </h2>
+    <div class="rounded-lg overflow-hidden border" style="border-color: var(--color-border)">
+      <img
+        src={previewImageUrl}
+        alt={`${tool.name} Preview`}
+        class="w-full h-auto tool-preview-img"
+        loading="lazy"
+        style="background: #111; min-height: 200px;"
+      />
+    </div>
   </div>
 
   <div class="card p-6 mb-8">
@@ -208,7 +226,7 @@ const categoryIconMap: Record<string, string> = {
   )}
 
   {tool.selfHostable && (
-    <div class="card p-6 mb-8 border-indigo-500/30">
+    <div class="card p-6 mb-8 border-red-500/30">
       <h2 class="text-lg font-semibold mb-3 flex items-center gap-2" style="color: var(--color-text-primary)">
         <Icon name="lucide:home" size={20} />
         {t('detail.selfHost')}
@@ -220,7 +238,7 @@ const categoryIconMap: Record<string, string> = {
         href={tool.website}
         target="_blank"
         rel="noopener noreferrer"
-        class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-colors"
+        class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium no-underline hover:no-underline bg-red-600 hover:bg-red-500 text-white transition-colors"
       >
         {t('detail.toDocs')}
       </a>
@@ -233,7 +251,7 @@ const categoryIconMap: Record<string, string> = {
       {toolCategories.map(cat => (
         <a
           href={`${base}${categoryPath}/${cat.slug}/`}
-          class="badge bg-indigo-500/20 text-indigo-300 border-indigo-500/30 no-underline hover:no-underline hover:bg-indigo-500/30 inline-flex items-center gap-1.5"
+          class="badge bg-red-500/20 text-red-300 border-red-500/30 no-underline hover:no-underline hover:bg-red-500/30 inline-flex items-center gap-1.5"
         >
           {categoryIconMap[cat.icon] && <Icon name={categoryIconMap[cat.icon]} size={14} />}
           {getCategoryName(cat.slug, lang) || cat.name}
@@ -269,7 +287,7 @@ const categoryIconMap: Record<string, string> = {
   {toolCategories[0] && (
     <a
       href={`${base}${categoryPath}/${toolCategories[0].slug}/`}
-      class="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 hover:text-indigo-300 no-underline hover:no-underline"
+      class="inline-flex items-center gap-2 text-sm font-medium text-red-400 hover:text-red-300 no-underline hover:no-underline"
     >
       {t('detail.backTo')} {getCategoryName(toolCategories[0].slug, lang) || toolCategories[0].name}
     </a>
@@ -288,6 +306,13 @@ const categoryIconMap: Record<string, string> = {
       this.style.display = 'none';
       const fallback = this.nextElementSibling as HTMLElement;
       if (fallback) fallback.style.display = 'flex';
+    });
+  });
+
+  document.querySelectorAll('.tool-preview-img').forEach(img => {
+    (img as HTMLImageElement).addEventListener('error', function() {
+      const parent = this.closest('.card');
+      if (parent) parent.style.display = 'none';
     });
   });
 </script>

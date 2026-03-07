@@ -100,5 +100,8 @@ export const crmTools: Tool[] = [
     platforms: ['web', 'linux', 'docker'],
     featured: false,
     addedDate: '2025-07-15',
+    maintenanceStatus: 'restricted',
+    maintenanceNote: 'Vtiger CE verwendet VPL-1.1 (Vtiger Public License), die keine OSI-konforme Open-Source-Lizenz ist. FOSS-Alternativen: SuiteCRM (AGPL-3.0), EspoCRM (AGPL-3.0), Twenty CRM (AGPL-3.0).',
+    deprecatedReason: 'VPL-1.1 ist keine OSI-konforme Open-Source-Lizenz.',
   },
 ];
