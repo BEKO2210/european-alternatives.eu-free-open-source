@@ -217,6 +217,9 @@ export const datenbankenTools: Tool[] = [
     featured: true,
     addedDate: '2026-02-28',
     simpleIconsSlug: 'mongodb',
+    maintenanceStatus: 'restricted',
+    maintenanceNote: 'Seit Oktober 2018 unter SSPL-1.0 (Server Side Public License) statt AGPL-3.0. SSPL ist keine OSI-konforme Open-Source-Lizenz. FOSS-Alternative: FerretDB (MongoDB-kompatibel, Apache-2.0).',
+    deprecatedReason: 'Lizenzwechsel zu SSPL-1.0 — keine OSI-konforme Open-Source-Lizenz mehr.',
   },
   {
     id: 'neo4j-ce',

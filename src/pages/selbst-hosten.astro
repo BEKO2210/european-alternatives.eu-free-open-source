@@ -34,35 +34,35 @@ const base = import.meta.env.BASE_URL;
         <h2 class="text-xl font-semibold mb-4" style="color: var(--color-text-primary)">Wie starte ich?</h2>
         <div class="space-y-4 text-sm" style="color: var(--color-text-secondary)">
           <div class="flex gap-4">
-            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">1</span>
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-red-500/20 text-red-300">1</span>
             <div>
               <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Server wählen</h3>
               <p>Starte mit einem günstigen VPS (Virtual Private Server) bei Hetzner, Netcup oder Contabo. Ein Server mit 2 vCPU, 4 GB RAM reicht für viele Dienste.</p>
             </div>
           </div>
           <div class="flex gap-4">
-            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">2</span>
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-red-500/20 text-red-300">2</span>
             <div>
               <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Betriebssystem installieren</h3>
               <p>Installiere ein Linux-System wie Ubuntu Server oder Debian. Die meisten FOSS-Tools laufen auf Linux am besten.</p>
             </div>
           </div>
           <div class="flex gap-4">
-            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">3</span>
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-red-500/20 text-red-300">3</span>
             <div>
               <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Docker installieren</h3>
               <p>Docker macht die Installation der meisten FOSS-Dienste zum Kinderspiel. Ein <code class="px-1.5 py-0.5 rounded text-xs font-mono" style="background: var(--color-bg-tertiary)">docker compose up -d</code> reicht oft aus.</p>
             </div>
           </div>
           <div class="flex gap-4">
-            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">4</span>
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-red-500/20 text-red-300">4</span>
             <div>
               <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Reverse Proxy einrichten</h3>
               <p>Nutze Caddy, Traefik oder Nginx als Reverse Proxy, um mehrere Dienste unter einer Domain mit automatischem HTTPS zu betreiben.</p>
             </div>
           </div>
           <div class="flex gap-4">
-            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-indigo-500/20 text-indigo-300">5</span>
+            <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-red-500/20 text-red-300">5</span>
             <div>
               <h3 class="font-medium mb-1" style="color: var(--color-text-primary)">Backups nicht vergessen!</h3>
               <p>Richte automatische Backups ein, z.B. mit <a href={`${base}tool/restic/`}>Restic</a> oder <a href={`${base}tool/borgbackup/`}>BorgBackup</a>. Teste regelmäßig die Wiederherstellung.</p>
@@ -123,7 +123,7 @@ const base = import.meta.env.BASE_URL;
       <div class="text-center pt-4">
         <a
           href={`${base}tools/`}
-          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-indigo-600 hover:bg-indigo-500 text-white transition-all"
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium no-underline hover:no-underline bg-red-600 hover:bg-red-500 text-white transition-all"
         >
           Alle selbst-hostbaren Tools entdecken →
         </a>

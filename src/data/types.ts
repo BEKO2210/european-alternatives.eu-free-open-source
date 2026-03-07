@@ -26,6 +26,7 @@ export interface Tool {
   maintenanceNote?: string;
   simpleIconsSlug?: string;
   deprecatedReason?: string;
+  previewImage?: string;
 }
 
 export interface Category {

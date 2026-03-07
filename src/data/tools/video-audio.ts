@@ -94,8 +94,11 @@ export const videoAudioTools: Tool[] = [
     tags: ['video', 'farbkorrektur', 'vfx', 'audio', 'professionell'],
     difficulty: 'fortgeschritten',
     platforms: ['linux', 'windows', 'macos'],
-    featured: true,
+    featured: false,
     addedDate: '2025-06-01',
+    maintenanceStatus: 'restricted',
+    maintenanceNote: 'DaVinci Resolve ist proprietaere Software mit einer kostenlosen Edition. Der Quellcode ist nicht verfuegbar. Keine Open-Source-Lizenz. FOSS-Alternativen: Kdenlive, Shotcut, OpenShot.',
+    deprecatedReason: 'Proprietaere Software — kein Open Source. Nur kostenlose Version verfuegbar, kein Quellzugang.',
   },
   {
     id: 'audacity',
