@@ -201,6 +201,7 @@ export const projektmanagementTools: Tool[] = [
     categories: ['projektmanagement'],
     replacesTools: ['Excel Spreadsheets', 'Google Sheets'],
     selfHostable: true,
+    logoUrl: 'https://raw.githubusercontent.com/BEKO2210/Prepper_Log/main/public/icons/icon-128x128.png',
     logoPlaceholderEmoji: '📦',
     lastUpdated: '2026-03-10',
     tags: ['pwa', 'vorratsverwaltung', 'offline', 'barcode', 'typescript', 'react'],
