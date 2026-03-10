@@ -185,4 +185,28 @@ export const projektmanagementTools: Tool[] = [
     featured: false,
     addedDate: '2025-06-01',
   },
+  {
+    id: 'preptrack',
+    name: 'PrepTrack',
+    slug: 'preptrack',
+    tagline: 'Open-Source Vorratsverwaltung und Notfallvorsorge-App',
+    taglineEn: 'Open-source supply management and emergency preparedness app',
+    description:
+      'PrepTrack ist eine kostenlose, werbefreie Progressive Web App zur Verwaltung von Notfallvorraeten, Lagerbestaenden und Vorratshaltung. Sie bietet Barcode-Scanning, Ablaufdatum-Tracking mit farbcodierten Warnungen, lokale Benachrichtigungen, Verbrauchsprotokollierung und funktioniert komplett offline dank IndexedDB-Speicherung.',
+    descriptionEn:
+      'PrepTrack is a free, ad-free Progressive Web App for managing emergency supplies, stockpiles, and pantry items. It offers barcode scanning, expiration date tracking with color-coded warnings, local notifications, consumption logging, and works completely offline thanks to IndexedDB storage.',
+    website: 'https://beko2210.github.io/Prepper_Log/',
+    github: 'https://github.com/BEKO2210/Prepper_Log',
+    license: 'Apache-2.0',
+    categories: ['projektmanagement'],
+    replacesTools: ['Excel Spreadsheets', 'Google Sheets'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📦',
+    lastUpdated: '2026-03-10',
+    tags: ['pwa', 'vorratsverwaltung', 'offline', 'barcode', 'typescript', 'react'],
+    difficulty: 'einfach',
+    platforms: ['web', 'android', 'ios'],
+    featured: false,
+    addedDate: '2026-03-10',
+  },
 ];
