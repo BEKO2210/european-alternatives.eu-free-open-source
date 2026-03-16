@@ -4323,6 +4323,160 @@ import type { Tool } from '../types';
     ],
     "featured": false,
     "addedDate": "2026-03-07"
+  },
+  {
+    "id": "mlflow",
+    "name": "Mlflow",
+    "slug": "mlflow",
+    "tagline": "The open source AI engineering platform for agents, LLMs, and ML models.",
+    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
+    "website": "https://mlflow.org",
+    "github": "https://github.com/mlflow/mlflow",
+    "license": "Apache-2.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/39938107?v=4",
+    "stars": 24778,
+    "lastUpdated": "2026-03-16",
+    "tags": [
+      "agentops",
+      "agents",
+      "ai",
+      "ai-governance",
+      "apache-spark",
+      "evaluation",
+      "langchain"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-16"
+  },
+  {
+    "id": "db-gpt",
+    "name": "Db Gpt",
+    "slug": "db-gpt",
+    "tagline": "open-source agentic AI data assistant for the next generation of AI + Data products.",
+    "description": "open-source agentic AI data assistant for the next generation of AI + Data products.",
+    "website": "http://docs.dbgpt.cn",
+    "github": "https://github.com/eosphoros-ai/DB-GPT",
+    "license": "MIT",
+    "categories": [
+      "datenbanken"
+    ],
+    "replacesTools": [
+      "Oracle",
+      "MSSQL"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🗄️",
+    "logoUrl": "https://avatars.githubusercontent.com/u/140580304?v=4",
+    "stars": 18267,
+    "lastUpdated": "2026-03-16",
+    "tags": [
+      "agents",
+      "bgi",
+      "database",
+      "deepseek",
+      "gpt",
+      "gpt-4",
+      "hacktoberfest"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-16"
+  },
+  {
+    "id": "speech-to-speech",
+    "name": "Speech To Speech",
+    "slug": "speech-to-speech",
+    "tagline": "Build local voice agents with open-source models",
+    "description": "Build local voice agents with open-source models",
+    "website": "https://github.com/huggingface/speech-to-speech",
+    "github": "https://github.com/huggingface/speech-to-speech",
+    "license": "Apache-2.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/25720743?v=4",
+    "stars": 4576,
+    "lastUpdated": "2026-03-12",
+    "tags": [
+      "ai",
+      "assistant",
+      "language-model",
+      "machine-learning",
+      "python",
+      "speech",
+      "speech-synthesis"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-16"
+  },
+  {
+    "id": "chaterm",
+    "name": "Chaterm",
+    "slug": "chaterm",
+    "tagline": "Open source AI native terminal for Cloud and Infrastructure",
+    "description": "Open source AI native terminal for Cloud and Infrastructure",
+    "website": "https://chaterm.ai",
+    "github": "https://github.com/chaterm/Chaterm",
+    "license": "MIT",
+    "categories": [
+      "dev-tools"
+    ],
+    "replacesTools": [
+      "JetBrains Suite",
+      "Visual Studio"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "⌨️",
+    "logoUrl": "https://avatars.githubusercontent.com/u/206796645?v=4",
+    "stars": 2496,
+    "lastUpdated": "2026-03-16",
+    "tags": [
+      "aiagent",
+      "bastion",
+      "codex-cli",
+      "cursor",
+      "cyberark",
+      "devops",
+      "pam"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-16"
   }
 ]
 END_AUTO_TOOLS_JSON */
@@ -6903,5 +7057,97 @@ export const autoDiscoveredTools: Tool[] = [
     platforms: ['linux', 'docker'],
     featured: false,
     addedDate: '2026-03-07',
+  },
+  {
+    id: 'mlflow',
+    name: 'Mlflow',
+    slug: 'mlflow',
+    tagline: 'The open source AI engineering platform for agents, LLMs, and ML models.',
+    description:
+      'The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.',
+    website: 'https://mlflow.org',
+    github: 'https://github.com/mlflow/mlflow',
+    license: 'Apache-2.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/39938107?v=4',
+    stars: 24778,
+    lastUpdated: '2026-03-16',
+    tags: ['agentops', 'agents', 'ai', 'ai-governance', 'apache-spark', 'evaluation', 'langchain'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'macos'],
+    featured: false,
+    addedDate: '2026-03-16',
+  },
+  {
+    id: 'db-gpt',
+    name: 'Db Gpt',
+    slug: 'db-gpt',
+    tagline: 'open-source agentic AI data assistant for the next generation of AI + Data products.',
+    description:
+      'open-source agentic AI data assistant for the next generation of AI + Data products.',
+    website: 'http://docs.dbgpt.cn',
+    github: 'https://github.com/eosphoros-ai/DB-GPT',
+    license: 'MIT',
+    categories: ['datenbanken'],
+    replacesTools: ['Oracle', 'MSSQL'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🗄️',
+    logoUrl: 'https://avatars.githubusercontent.com/u/140580304?v=4',
+    stars: 18267,
+    lastUpdated: '2026-03-16',
+    tags: ['agents', 'bgi', 'database', 'deepseek', 'gpt', 'gpt-4', 'hacktoberfest'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-16',
+  },
+  {
+    id: 'speech-to-speech',
+    name: 'Speech To Speech',
+    slug: 'speech-to-speech',
+    tagline: 'Build local voice agents with open-source models',
+    description:
+      'Build local voice agents with open-source models',
+    website: 'https://github.com/huggingface/speech-to-speech',
+    github: 'https://github.com/huggingface/speech-to-speech',
+    license: 'Apache-2.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/25720743?v=4',
+    stars: 4576,
+    lastUpdated: '2026-03-12',
+    tags: ['ai', 'assistant', 'language-model', 'machine-learning', 'python', 'speech', 'speech-synthesis'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'macos'],
+    featured: false,
+    addedDate: '2026-03-16',
+  },
+  {
+    id: 'chaterm',
+    name: 'Chaterm',
+    slug: 'chaterm',
+    tagline: 'Open source AI native terminal for Cloud and Infrastructure',
+    description:
+      'Open source AI native terminal for Cloud and Infrastructure',
+    website: 'https://chaterm.ai',
+    github: 'https://github.com/chaterm/Chaterm',
+    license: 'MIT',
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '⌨️',
+    logoUrl: 'https://avatars.githubusercontent.com/u/206796645?v=4',
+    stars: 2496,
+    lastUpdated: '2026-03-16',
+    tags: ['aiagent', 'bastion', 'codex-cli', 'cursor', 'cyberark', 'devops', 'pam'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-16',
   },
 ];
