@@ -4477,6 +4477,84 @@ import type { Tool } from '../types';
     ],
     "featured": false,
     "addedDate": "2026-03-16"
+  },
+  {
+    "id": "mission-control",
+    "name": "Mission Control",
+    "slug": "mission-control",
+    "tagline": "Open-source dashboard for AI agent orchestration.",
+    "description": "Open-source dashboard for AI agent orchestration. Manage agent fleets, dispatch tasks, track costs, and coordinate multi-agent workflows. Self-hosted, zero dependencies, SQLite-powered.",
+    "website": "https://mc.builderz.dev",
+    "github": "https://github.com/builderz-labs/mission-control",
+    "license": "MIT",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/108542510?v=4",
+    "stars": 3053,
+    "lastUpdated": "2026-03-23",
+    "tags": [
+      "agent-orchestration",
+      "ai-agents",
+      "ai-automation",
+      "ai-dashboard",
+      "claude",
+      "dashboard",
+      "developer-tools"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-23"
+  },
+  {
+    "id": "insights-lm-public",
+    "name": "Insights Lm Public",
+    "slug": "insights-lm-public",
+    "tagline": "Open-source, self-hosted alternative to NotebookLM.",
+    "description": "Open-source, self-hosted alternative to NotebookLM. Chat with your documents, generate audio summaries, and ground AI in your own sources—built with Supabase and N8N on a React frontend.",
+    "website": "https://www.theaiautomators.com/",
+    "github": "https://github.com/theaiautomators/insights-lm-public",
+    "license": "MIT",
+    "categories": [
+      "kommunikation"
+    ],
+    "replacesTools": [
+      "WhatsApp",
+      "Slack",
+      "Microsoft Teams"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "💬",
+    "logoUrl": "https://avatars.githubusercontent.com/u/215132130?v=4",
+    "stars": 501,
+    "lastUpdated": "2026-01-16",
+    "tags": [
+      "loveable",
+      "n8n",
+      "notebooklm",
+      "rag",
+      "rag-chatbot",
+      "react",
+      "research-tool"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-03-23"
   }
 ]
 END_AUTO_TOOLS_JSON */
@@ -7149,5 +7227,51 @@ export const autoDiscoveredTools: Tool[] = [
     platforms: ['linux', 'docker'],
     featured: false,
     addedDate: '2026-03-16',
+  },
+  {
+    id: 'mission-control',
+    name: 'Mission Control',
+    slug: 'mission-control',
+    tagline: 'Open-source dashboard for AI agent orchestration.',
+    description:
+      'Open-source dashboard for AI agent orchestration. Manage agent fleets, dispatch tasks, track costs, and coordinate multi-agent workflows. Self-hosted, zero dependencies, SQLite-powered.',
+    website: 'https://mc.builderz.dev',
+    github: 'https://github.com/builderz-labs/mission-control',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/108542510?v=4',
+    stars: 3053,
+    lastUpdated: '2026-03-23',
+    tags: ['agent-orchestration', 'ai-agents', 'ai-automation', 'ai-dashboard', 'claude', 'dashboard', 'developer-tools'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-23',
+  },
+  {
+    id: 'insights-lm-public',
+    name: 'Insights Lm Public',
+    slug: 'insights-lm-public',
+    tagline: 'Open-source, self-hosted alternative to NotebookLM.',
+    description:
+      'Open-source, self-hosted alternative to NotebookLM. Chat with your documents, generate audio summaries, and ground AI in your own sources—built with Supabase and N8N on a React frontend.',
+    website: 'https://www.theaiautomators.com/',
+    github: 'https://github.com/theaiautomators/insights-lm-public',
+    license: 'MIT',
+    categories: ['kommunikation'],
+    replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '💬',
+    logoUrl: 'https://avatars.githubusercontent.com/u/215132130?v=4',
+    stars: 501,
+    lastUpdated: '2026-01-16',
+    tags: ['loveable', 'n8n', 'notebooklm', 'rag', 'rag-chatbot', 'react', 'research-tool'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-03-23',
   },
 ];
