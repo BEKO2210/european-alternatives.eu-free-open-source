@@ -4555,6 +4555,44 @@ import type { Tool } from '../types';
     ],
     "featured": false,
     "addedDate": "2026-03-23"
+  },
+  {
+    "id": "pmm",
+    "name": "Pmm",
+    "slug": "pmm",
+    "tagline": "Percona Monitoring and Management: an open source database monitoring, observability and management tool",
+    "description": "Percona Monitoring and Management: an open source database monitoring, observability and management tool",
+    "website": "https://www.percona.com/software/database-tools/percona-monitoring-and-management",
+    "github": "https://github.com/percona/pmm",
+    "license": "AGPL-3.0",
+    "categories": [
+      "monitoring"
+    ],
+    "replacesTools": [
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📈",
+    "logoUrl": "https://avatars.githubusercontent.com/u/1683025?v=4",
+    "stars": 1003,
+    "lastUpdated": "2026-04-06",
+    "tags": [
+      "database",
+      "database-management",
+      "hacktoberfest",
+      "monitoring",
+      "observability",
+      "pmm"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-04-06"
   }
 ]
 END_AUTO_TOOLS_JSON */
@@ -7273,5 +7311,28 @@ export const autoDiscoveredTools: Tool[] = [
     platforms: ['linux', 'docker'],
     featured: false,
     addedDate: '2026-03-23',
+  },
+  {
+    id: 'pmm',
+    name: 'Pmm',
+    slug: 'pmm',
+    tagline: 'Percona Monitoring and Management: an open source database monitoring, observability and management tool',
+    description:
+      'Percona Monitoring and Management: an open source database monitoring, observability and management tool',
+    website: 'https://www.percona.com/software/database-tools/percona-monitoring-and-management',
+    github: 'https://github.com/percona/pmm',
+    license: 'AGPL-3.0',
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📈',
+    logoUrl: 'https://avatars.githubusercontent.com/u/1683025?v=4',
+    stars: 1003,
+    lastUpdated: '2026-04-06',
+    tags: ['database', 'database-management', 'hacktoberfest', 'monitoring', 'observability', 'pmm'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-04-06',
   },
 ];
