@@ -4593,6 +4593,239 @@ import type { Tool } from '../types';
     ],
     "featured": false,
     "addedDate": "2026-04-06"
+  },
+  {
+    "id": "analytics",
+    "name": "Analytics",
+    "slug": "analytics",
+    "tagline": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+    "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+    "website": "https://plausible.io",
+    "github": "https://github.com/plausible/analytics",
+    "license": "AGPL-3.0",
+    "categories": [
+      "analytics"
+    ],
+    "replacesTools": [
+      "Google Analytics",
+      "Mixpanel"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📊",
+    "logoUrl": "https://avatars.githubusercontent.com/u/54802774?v=4",
+    "stars": 24574,
+    "lastUpdated": "2026-04-13",
+    "tags": [
+      "analytics",
+      "analytics-dashboard",
+      "clickhouse",
+      "elixir",
+      "google-analytics",
+      "marketing",
+      "open-source-analytics"
+    ],
+    "difficulty": "einfach",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-04-13"
+  },
+  {
+    "id": "open-generative-ai",
+    "name": "Open Generative Ai",
+    "slug": "open-generative-ai",
+    "tagline": "Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 2...",
+    "description": "Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.",
+    "website": "https://dev.muapi.ai/open-generative-ai",
+    "github": "https://github.com/Anil-matcha/Open-Generative-AI",
+    "license": "MIT",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/4326215?v=4",
+    "stars": 4608,
+    "lastUpdated": "2026-04-13",
+    "tags": [
+      "ai-art-generator",
+      "ai-image-generation",
+      "ai-video-generation",
+      "cinematic",
+      "content-creation",
+      "creative-tools",
+      "flux-1"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-04-13"
+  },
+  {
+    "id": "mirotalk",
+    "name": "Mirotalk",
+    "slug": "mirotalk",
+    "tagline": "🚀 Self-hosted open-source WebRTC video conferencing platform built on peer-to-peer (P2P) architecture for fast, secur...",
+    "description": "🚀 Self-hosted open-source WebRTC video conferencing platform built on peer-to-peer (P2P) architecture for fast, secure real-time communication with end-to-end privacy.",
+    "website": "https://p2p.mirotalk.com",
+    "github": "https://github.com/miroslavpejic85/mirotalk",
+    "license": "AGPL-3.0",
+    "categories": [
+      "videokonferenzen"
+    ],
+    "replacesTools": [
+      "Zoom",
+      "Google Meet",
+      "Teams"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📹",
+    "logoUrl": "https://avatars.githubusercontent.com/u/70838434?v=4",
+    "stars": 4384,
+    "lastUpdated": "2026-04-13",
+    "tags": [
+      "conferencing",
+      "decentralized",
+      "docker-image",
+      "hacktoberfest",
+      "html-css-javascript",
+      "javascript",
+      "livechat"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-04-13"
+  },
+  {
+    "id": "mirotalksfu",
+    "name": "Mirotalksfu",
+    "slug": "mirotalksfu",
+    "tagline": "🏆 Self-hosted open-source WebRTC video conferencing platform for real-time communication and collaboration.",
+    "description": "🏆 Self-hosted open-source WebRTC video conferencing platform for real-time communication and collaboration. A modern Zoom alternative built on SFU architecture.",
+    "website": "https://sfu.mirotalk.com",
+    "github": "https://github.com/miroslavpejic85/mirotalksfu",
+    "license": "AGPL-3.0",
+    "categories": [
+      "videokonferenzen"
+    ],
+    "replacesTools": [
+      "Zoom",
+      "Google Meet",
+      "Teams"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📹",
+    "logoUrl": "https://avatars.githubusercontent.com/u/70838434?v=4",
+    "stars": 2932,
+    "lastUpdated": "2026-04-13",
+    "tags": [
+      "collaboration",
+      "docker",
+      "jitsi-meet",
+      "live-streaming",
+      "mediasoup",
+      "mirotalk",
+      "open-source"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-04-13"
+  },
+  {
+    "id": "openmontage",
+    "name": "Openmontage",
+    "slug": "openmontage",
+    "tagline": "World's first open-source, agentic video production system.",
+    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+    "website": "https://github.com/calesthio/OpenMontage",
+    "github": "https://github.com/calesthio/OpenMontage",
+    "license": "AGPL-3.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/213189893?v=4",
+    "stars": 1547,
+    "lastUpdated": "2026-04-12",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "claude",
+      "copilot",
+      "cursor",
+      "elevenlabs"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-04-13"
+  },
+  {
+    "id": "mirotalkc2c",
+    "name": "Mirotalkc2c",
+    "slug": "mirotalkc2c",
+    "tagline": "✨ Self-hosted open-source WebRTC cam-to-cam peer-to-peer video calling platform for immersive 1-to-1 real-time commun...",
+    "description": "✨ Self-hosted open-source WebRTC cam-to-cam peer-to-peer video calling platform for immersive 1-to-1 real-time communication with end-to-end privacy. Each room is limited to two participants for maximum security.",
+    "website": "https://c2c.mirotalk.com",
+    "github": "https://github.com/miroslavpejic85/mirotalkc2c",
+    "license": "AGPL-3.0",
+    "categories": [
+      "videokonferenzen"
+    ],
+    "replacesTools": [
+      "Zoom",
+      "Google Meet",
+      "Teams"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📹",
+    "logoUrl": "https://avatars.githubusercontent.com/u/70838434?v=4",
+    "stars": 504,
+    "lastUpdated": "2026-04-12",
+    "tags": [
+      "collaboration",
+      "e2e-encryption",
+      "embedable",
+      "iframe",
+      "low-latency",
+      "mirotalk",
+      "online-meeting"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-04-13"
   }
 ]
 END_AUTO_TOOLS_JSON */
@@ -7334,5 +7567,143 @@ export const autoDiscoveredTools: Tool[] = [
     platforms: ['linux', 'docker'],
     featured: false,
     addedDate: '2026-04-06',
+  },
+  {
+    id: 'analytics',
+    name: 'Analytics',
+    slug: 'analytics',
+    tagline: 'Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.',
+    description:
+      'Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.',
+    website: 'https://plausible.io',
+    github: 'https://github.com/plausible/analytics',
+    license: 'AGPL-3.0',
+    categories: ['analytics'],
+    replacesTools: ['Google Analytics', 'Mixpanel'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📊',
+    logoUrl: 'https://avatars.githubusercontent.com/u/54802774?v=4',
+    stars: 24574,
+    lastUpdated: '2026-04-13',
+    tags: ['analytics', 'analytics-dashboard', 'clickhouse', 'elixir', 'google-analytics', 'marketing', 'open-source-analytics'],
+    difficulty: 'einfach',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-04-13',
+  },
+  {
+    id: 'open-generative-ai',
+    name: 'Open Generative Ai',
+    slug: 'open-generative-ai',
+    tagline: 'Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 2...',
+    description:
+      'Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.',
+    website: 'https://dev.muapi.ai/open-generative-ai',
+    github: 'https://github.com/Anil-matcha/Open-Generative-AI',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/4326215?v=4',
+    stars: 4608,
+    lastUpdated: '2026-04-13',
+    tags: ['ai-art-generator', 'ai-image-generation', 'ai-video-generation', 'cinematic', 'content-creation', 'creative-tools', 'flux-1'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-04-13',
+  },
+  {
+    id: 'mirotalk',
+    name: 'Mirotalk',
+    slug: 'mirotalk',
+    tagline: '🚀 Self-hosted open-source WebRTC video conferencing platform built on peer-to-peer (P2P) architecture for fast, secur...',
+    description:
+      '🚀 Self-hosted open-source WebRTC video conferencing platform built on peer-to-peer (P2P) architecture for fast, secure real-time communication with end-to-end privacy.',
+    website: 'https://p2p.mirotalk.com',
+    github: 'https://github.com/miroslavpejic85/mirotalk',
+    license: 'AGPL-3.0',
+    categories: ['videokonferenzen'],
+    replacesTools: ['Zoom', 'Google Meet', 'Teams'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📹',
+    logoUrl: 'https://avatars.githubusercontent.com/u/70838434?v=4',
+    stars: 4384,
+    lastUpdated: '2026-04-13',
+    tags: ['conferencing', 'decentralized', 'docker-image', 'hacktoberfest', 'html-css-javascript', 'javascript', 'livechat'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-04-13',
+  },
+  {
+    id: 'mirotalksfu',
+    name: 'Mirotalksfu',
+    slug: 'mirotalksfu',
+    tagline: '🏆 Self-hosted open-source WebRTC video conferencing platform for real-time communication and collaboration.',
+    description:
+      '🏆 Self-hosted open-source WebRTC video conferencing platform for real-time communication and collaboration. A modern Zoom alternative built on SFU architecture.',
+    website: 'https://sfu.mirotalk.com',
+    github: 'https://github.com/miroslavpejic85/mirotalksfu',
+    license: 'AGPL-3.0',
+    categories: ['videokonferenzen'],
+    replacesTools: ['Zoom', 'Google Meet', 'Teams'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📹',
+    logoUrl: 'https://avatars.githubusercontent.com/u/70838434?v=4',
+    stars: 2932,
+    lastUpdated: '2026-04-13',
+    tags: ['collaboration', 'docker', 'jitsi-meet', 'live-streaming', 'mediasoup', 'mirotalk', 'open-source'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-04-13',
+  },
+  {
+    id: 'openmontage',
+    name: 'Openmontage',
+    slug: 'openmontage',
+    tagline: 'World\'s first open-source, agentic video production system.',
+    description:
+      'World\'s first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.',
+    website: 'https://github.com/calesthio/OpenMontage',
+    github: 'https://github.com/calesthio/OpenMontage',
+    license: 'AGPL-3.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/213189893?v=4',
+    stars: 1547,
+    lastUpdated: '2026-04-12',
+    tags: ['agent', 'agentic-ai', 'ai', 'claude', 'copilot', 'cursor', 'elevenlabs'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-04-13',
+  },
+  {
+    id: 'mirotalkc2c',
+    name: 'Mirotalkc2c',
+    slug: 'mirotalkc2c',
+    tagline: '✨ Self-hosted open-source WebRTC cam-to-cam peer-to-peer video calling platform for immersive 1-to-1 real-time commun...',
+    description:
+      '✨ Self-hosted open-source WebRTC cam-to-cam peer-to-peer video calling platform for immersive 1-to-1 real-time communication with end-to-end privacy. Each room is limited to two participants for maximum security.',
+    website: 'https://c2c.mirotalk.com',
+    github: 'https://github.com/miroslavpejic85/mirotalkc2c',
+    license: 'AGPL-3.0',
+    categories: ['videokonferenzen'],
+    replacesTools: ['Zoom', 'Google Meet', 'Teams'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📹',
+    logoUrl: 'https://avatars.githubusercontent.com/u/70838434?v=4',
+    stars: 504,
+    lastUpdated: '2026-04-12',
+    tags: ['collaboration', 'e2e-encryption', 'embedable', 'iframe', 'low-latency', 'mirotalk', 'online-meeting'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-04-13',
   },
 ];
