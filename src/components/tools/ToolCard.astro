@@ -150,17 +150,21 @@ const toolColor = getToolColor(tool.name);
 </a>
 
 <script>
-  document.querySelectorAll('.tool-logo').forEach(img => {
-    (img as HTMLImageElement).addEventListener('error', function() {
-      const logoUrl = this.dataset.logoUrl;
-      if (logoUrl && !this.dataset.triedLogoUrl) {
-        this.dataset.triedLogoUrl = 'true';
-        this.src = logoUrl;
+  document.querySelectorAll('.tool-logo').forEach(node => {
+    const img = node as HTMLImageElement;
+    const handleError = () => {
+      const logoUrl = img.dataset.logoUrl;
+      if (logoUrl && !img.dataset.triedLogoUrl) {
+        img.dataset.triedLogoUrl = 'true';
+        img.src = logoUrl;
         return;
       }
-      this.style.display = 'none';
-      const fallback = this.nextElementSibling as HTMLElement;
+      img.style.display = 'none';
+      const fallback = img.nextElementSibling as HTMLElement | null;
       if (fallback) fallback.style.display = 'flex';
-    });
+    };
+    img.addEventListener('error', handleError);
+    // Catch errors that fired before this deferred script attached the listener
+    if (img.complete && img.naturalWidth === 0) handleError();
   });
 </script>

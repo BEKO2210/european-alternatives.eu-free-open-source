@@ -53,7 +53,7 @@ function getToolColor(name: string): string {
 
 const toolColor = getToolColor(tool.name);
 
-const previewImageUrl = tool.previewImage || `https://image.thum.io/get/width/1280/crop/800/noanimate/${tool.website}`;
+const previewImageUrl = tool.previewImage || `https://s.wordpress.com/mshots/v1/${encodeURIComponent(tool.website)}?w=1280&h=800`;
 
 const categoryIconMap: Record<string, string> = {
   'monitor': 'lucide:monitor', 'file-text': 'lucide:file-text', 'globe': 'lucide:globe',
@@ -294,24 +294,30 @@ const categoryIconMap: Record<string, string> = {
 </article>
 
 <script>
-  document.querySelectorAll('.tool-logo-detail').forEach(img => {
-    (img as HTMLImageElement).addEventListener('error', function() {
-      const logoUrl = this.dataset.logoUrl;
-      if (logoUrl && !this.dataset.triedLogoUrl) {
-        this.dataset.triedLogoUrl = 'true';
-        this.src = logoUrl;
+  document.querySelectorAll('.tool-logo-detail').forEach(node => {
+    const img = node as HTMLImageElement;
+    const handleError = () => {
+      const logoUrl = img.dataset.logoUrl;
+      if (logoUrl && !img.dataset.triedLogoUrl) {
+        img.dataset.triedLogoUrl = 'true';
+        img.src = logoUrl;
         return;
       }
-      this.style.display = 'none';
-      const fallback = this.nextElementSibling as HTMLElement;
+      img.style.display = 'none';
+      const fallback = img.nextElementSibling as HTMLElement | null;
       if (fallback) fallback.style.display = 'flex';
-    });
+    };
+    img.addEventListener('error', handleError);
+    if (img.complete && img.naturalWidth === 0) handleError();
   });
 
-  document.querySelectorAll('.tool-preview-img').forEach(img => {
-    (img as HTMLImageElement).addEventListener('error', function() {
-      const parent = this.closest('.card');
+  document.querySelectorAll('.tool-preview-img').forEach(node => {
+    const img = node as HTMLImageElement;
+    const handleError = () => {
+      const parent = img.closest('.card') as HTMLElement | null;
       if (parent) parent.style.display = 'none';
-    });
+    };
+    img.addEventListener('error', handleError);
+    if (img.complete && img.naturalWidth === 0) handleError();
   });
 </script>
