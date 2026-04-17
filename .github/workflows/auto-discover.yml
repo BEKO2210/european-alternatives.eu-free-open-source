@@ -1,8 +1,10 @@
 name: "Auto-Discover FOSS Tools"
 
 on:
-  schedule:
-    - cron: "0 6 * * 1"
+  # Automatic weekly schedule disabled - tools are curated manually now.
+  # Re-enable by uncommenting the `schedule` block below.
+  # schedule:
+  #   - cron: "0 6 * * 1"
   workflow_dispatch:
     inputs:
       min_stars:
