@@ -1,12 +1,16 @@
 ---
 import LanguageToggle from '../ui/LanguageToggle.astro';
-import { getLangFromUrl, useTranslations, getHomeHref } from '../../i18n/utils';
+import { getLangFromUrl, useTranslations, getHomeHref, getLocalizedPath } from '../../i18n/utils';
 
 const base = import.meta.env.BASE_URL;
 const currentPath = Astro.url.pathname;
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const homeHref = getHomeHref(lang);
+const targetLang = lang === 'en' ? 'de' : 'en';
+const targetLangPath = getLocalizedPath(Astro.url, targetLang);
+const targetLangLabel = targetLang.toUpperCase();
+const langSwitchAria = lang === 'en' ? 'Auf Deutsch wechseln' : 'Switch to English';
 
 const navLinks = [
   { href: `${base}${t('nav.href.categories')}`, label: t('nav.categories') },
@@ -61,10 +65,20 @@ function isActive(href: string): boolean {
 
       <!-- Right side: Lang Toggle + Search + Theme Toggle -->
       <div class="flex items-center gap-2">
-        <!-- Language Toggle -->
+        <!-- Language Toggle (desktop) -->
         <div class="hidden sm:block">
           <LanguageToggle />
         </div>
+
+        <!-- Compact language switch (mobile) -->
+        <a
+          href={targetLangPath}
+          class="sm:hidden inline-flex items-center justify-center w-9 h-9 rounded-lg text-xs font-semibold no-underline hover:no-underline hover:bg-white/5 transition-colors"
+          style="border: 1px solid var(--color-border); color: var(--color-text-secondary)"
+          aria-label={langSwitchAria}
+        >
+          {targetLangLabel}
+        </a>
 
         <!-- Search Button -->
         <button
@@ -135,10 +149,6 @@ function isActive(href: string): boolean {
           {link.label}
         </a>
       ))}
-      <!-- Language toggle in mobile menu -->
-      <div class="sm:hidden px-3 py-2 flex items-center gap-2">
-        <LanguageToggle />
-      </div>
     </div>
   </div>
 </nav>
