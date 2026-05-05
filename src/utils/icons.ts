@@ -56,8 +56,6 @@ export const TOOL_ICON_MAP: Record<string, string> = {
   'postgresql': 'postgresql',
   'mysql': 'mysql',
   'mariadb': 'mariadb',
-  'mongodb-community': 'mongodb',
-  'redis': 'redis',
   'sqlite': 'sqlite',
   'clickhouse': 'clickhouse',
   // CMS
