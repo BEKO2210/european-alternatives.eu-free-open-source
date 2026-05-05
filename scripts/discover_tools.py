@@ -90,6 +90,63 @@ HEADERS = {
 if GITHUB_TOKEN:
     HEADERS["Authorization"] = f"Bearer {GITHUB_TOKEN}"
 
+# SPDX IDs of OSI-approved / FSF-free licenses we accept.
+# Anything not on this list (BSL-1.1, SSPL-1.0, "Commons Clause"-modified
+# Apache, custom non-OSI licenses, "NOASSERTION", proprietary, ...) is
+# rejected outright instead of being silently re-labelled as MIT.
+ALLOWED_LICENSE_SPDX = {
+    "0BSD",
+    "AGPL-3.0", "AGPL-3.0-only", "AGPL-3.0-or-later",
+    "Apache-2.0",
+    "Artistic-2.0",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSL-1.0",  # Boost Software License (NOT to be confused with BSL-1.1)
+    "CC-BY-4.0", "CC-BY-SA-4.0", "CC0-1.0",
+    "ECL-2.0",
+    "EPL-1.0", "EPL-2.0",
+    "EUPL-1.1", "EUPL-1.2",
+    "GPL-2.0", "GPL-2.0-only", "GPL-2.0-or-later",
+    "GPL-3.0", "GPL-3.0-only", "GPL-3.0-or-later",
+    "ISC",
+    "LGPL-2.0", "LGPL-2.0-only", "LGPL-2.0-or-later",
+    "LGPL-2.1", "LGPL-2.1-only", "LGPL-2.1-or-later",
+    "LGPL-3.0", "LGPL-3.0-only", "LGPL-3.0-or-later",
+    "MIT", "MIT-0",
+    "MPL-2.0",
+    "OFL-1.1",
+    "OSL-3.0",
+    "PostgreSQL",
+    "Unlicense",
+    "Zlib",
+}
+
+# Slugs that have been explicitly removed from the catalog because the
+# upstream license is non-FOSS or otherwise unsuitable. The discovery
+# script must never re-add these, even if GitHub returns them.
+BLOCKED_SLUGS = {
+    "davinci-resolve",      # Proprietary, no source available
+    "mongodb-community",    # SSPL-1.0 (not OSI-approved)
+    "mongo",                # MongoDB upstream repo name
+    "redis",                # SSPL-1.0 / RSALv2 since March 2024
+    "redis-stack",
+    "cockroachdb",          # BSL-1.1, free Core edition discontinued
+    "cockroach",
+    "outline",              # BSL-1.1 (not OSI-approved)
+    "vtiger-ce",            # VPL-1.1 (not OSI-approved)
+    "vtigercrm",
+    "elasticsearch",        # SSPL/Elastic License (dual-licensed, not OSI)
+    "kibana",
+    "sentry",               # BSL-1.1 since 2019
+    "terraform",            # BSL-1.1 since Aug 2023 — use OpenTofu instead
+    "vault",                # HashiCorp BSL since Aug 2023
+    "consul",               # HashiCorp BSL since Aug 2023
+    "nomad",                # HashiCorp BSL since Aug 2023
+    "boundary",             # HashiCorp BSL since Aug 2023
+    "packer",               # HashiCorp BSL since Aug 2023
+    "waypoint",             # HashiCorp BSL since Aug 2023
+}
+
 # Repos to exclude (awesome-lists, tutorials, demos, etc.)
 EXCLUDE_PATTERNS = [
     r"^awesome[-_]",
@@ -808,6 +865,17 @@ def filter_and_categorize(
         slug = make_slug(name)
         if slug in known_slugs:
             continue
+        if slug in BLOCKED_SLUGS:
+            log(f"  Skipped (blocklisted slug, non-FOSS upstream): {full_name}")
+            continue
+
+        # --- License gate ---
+        # Reject anything that isn't on the OSI/FSF allowlist. GitHub's
+        # spdx_id is "NOASSERTION" when no LICENSE file is detected, which
+        # we already mapped to "Unknown". Either way, refuse to guess.
+        if license_spdx not in ALLOWED_LICENSE_SPDX:
+            log(f"  Skipped (non-FOSS or unknown license '{license_spdx}'): {full_name}")
+            continue
 
         # --- Categorize ---
         category = categorize_repo(topics, name, description)
@@ -845,7 +913,7 @@ def filter_and_categorize(
             "description": description.strip(),
             "website": website,
             "github": html_url,
-            "license": license_spdx if license_spdx != "Unknown" else "MIT",
+            "license": license_spdx,
             "categories": [category],
             "replacesTools": CATEGORY_REPLACES.get(category, []),
             "selfHostable": True,
