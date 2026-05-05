@@ -313,11 +313,45 @@ const categoryIconMap: Record<string, string> = {
 
   document.querySelectorAll('.tool-preview-img').forEach(node => {
     const img = node as HTMLImageElement;
+    const originalSrc = img.src;
+    // mshots returns a small "still generating" placeholder on the first
+    // request to a fresh URL (typically 400x300 px). Poll with a
+    // cache-buster until the real screenshot arrives so users don't have
+    // to manually refresh the page.
+    const isMshots = /s\.wordpress\.com\/mshots\//.test(originalSrc);
+    const requestedWidth = 1280;
+    const placeholderThreshold = 800; // anything narrower than this is the placeholder
+    const maxRetries = 10;
+    let retries = 0;
+
+    const isPlaceholder = () =>
+      img.naturalWidth > 0 && img.naturalWidth < placeholderThreshold;
+
+    const retry = () => {
+      if (retries >= maxRetries) return;
+      retries++;
+      const sep = originalSrc.includes('?') ? '&' : '?';
+      img.src = `${originalSrc}${sep}cb=${Date.now()}`;
+    };
+
     const handleError = () => {
       const parent = img.closest('.card') as HTMLElement | null;
       if (parent) parent.style.display = 'none';
     };
+
+    const handleLoad = () => {
+      if (isMshots && isPlaceholder()) {
+        // exponential-ish backoff: ~2s, 3s, 4s, ... capped
+        const delay = Math.min(2000 + retries * 1000, 8000);
+        setTimeout(retry, delay);
+      }
+    };
+
     img.addEventListener('error', handleError);
-    if (img.complete && img.naturalWidth === 0) handleError();
+    img.addEventListener('load', handleLoad);
+    if (img.complete) {
+      if (img.naturalWidth === 0) handleError();
+      else handleLoad();
+    }
   });
 </script>
