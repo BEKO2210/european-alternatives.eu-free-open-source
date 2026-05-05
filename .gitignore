@@ -24,3 +24,7 @@ Thumbs.db
 
 # Pagefind (generated at build time)
 public/pagefind/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
