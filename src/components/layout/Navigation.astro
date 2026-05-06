@@ -41,7 +41,7 @@ function isActive(href: string): boolean {
       >
         <img src={`${base}icon.png`} alt="FOSS Alternatives" class="w-8 h-8 rounded-lg" />
         <span class="font-bold text-lg" style="color: var(--color-text-primary)">
-          FOSS <span class="gradient-text">Alternatives</span>
+          FOSS <span class="nav-logo-gradient">Alternatives</span>
         </span>
       </a>
 
@@ -237,3 +237,20 @@ function isActive(href: string): boolean {
     });
   }
 </script>
+
+<style>
+  /* Logo gradient: white → red, opposite of the .gradient-text
+     used by section headlines. */
+  .nav-logo-gradient {
+    background: linear-gradient(135deg, #ffffff 0%, #fca5a5 60%, #ef4444 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  [data-theme='light'] .nav-logo-gradient {
+    background: linear-gradient(135deg, #1f2937 0%, #f87171 60%, #ef4444 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+</style>
