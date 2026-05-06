@@ -143,6 +143,20 @@
   .hero-bg.hero-bg-light {
     display: var(--hero-light-display);
   }
+  /* Animated mobile-dark variant: only shown on mobile in dark theme.
+     Sits on top of the .hero-bg-dark <picture>, which still renders
+     desktop-dark.png on wider viewports and serves as a poster
+     fallback before the video starts playing or if it fails. */
+  .hero-bg.hero-bg-dark-video {
+    display: none;
+    object-fit: cover;
+    object-position: center;
+  }
+  @media (max-width: 767px) {
+    [data-theme='dark'] .hero-bg.hero-bg-dark-video {
+      display: block;
+    }
+  }
   .hero-scrim {
     background:
       radial-gradient(
