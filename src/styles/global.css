@@ -107,6 +107,26 @@
     animation: gradientShift 15s ease infinite;
   }
 
+  /* Hero background images. Dark by default; light variant fades in
+     when the page is in light theme. The image fills the section and
+     uses object-fit:cover so any aspect-ratio mismatch crops the image
+     (decorative outer hexagons), never the layout. */
+  .hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .hero-bg-light {
+    display: none;
+  }
+  [data-theme='light'] .hero-bg-dark {
+    display: none;
+  }
+  [data-theme='light'] .hero-bg-light {
+    display: block;
+  }
+
   @keyframes gradientShift {
     0%,
     100% {
