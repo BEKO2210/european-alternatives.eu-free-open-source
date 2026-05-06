@@ -114,6 +114,9 @@ export const ui = {
     'filters.selfHostOnly': 'Nur selbst-hostbar',
     'filters.easySetup': 'Einfache Einrichtung',
     'filters.dockerAvailable': 'Docker verfügbar',
+    'filters.viewGrid': 'Karten',
+    'filters.viewList': 'Liste',
+    'filters.viewToggleLabel': 'Ansicht',
 
     // SearchModal
     'search.placeholder': 'Tools, Kategorien oder proprietäre Software suchen...',
@@ -260,6 +263,9 @@ export const ui = {
     'filters.selfHostOnly': 'Self-hostable only',
     'filters.easySetup': 'Easy setup',
     'filters.dockerAvailable': 'Docker available',
+    'filters.viewGrid': 'Cards',
+    'filters.viewList': 'List',
+    'filters.viewToggleLabel': 'View',
 
     // SearchModal
     'search.placeholder': 'Search tools, categories or proprietary software...',
