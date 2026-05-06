@@ -30,8 +30,11 @@ import requests
 # ---------------------------------------------------------------------------
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-MIN_STARS = int(os.environ.get("MIN_STARS", "500"))
-MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "40"))
+# Defaults tuned for steady weekly growth toward a 1000+ tool catalog.
+# Override via env vars on a one-shot bulk run if you want to harvest
+# more at once (keep an eye on GitHub API rate limits).
+MIN_STARS = int(os.environ.get("MIN_STARS", "200"))
+MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "150"))
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 REPO_ROOT = os.environ.get("REPO_ROOT", ".")
 
@@ -81,6 +84,50 @@ SEARCH_QUERIES = [
     "open-source maps geolocation openstreetmap stars:>500",
     # Suchmaschinen
     "open-source search-engine metasearch privacy stars:>300",
+    # --- Long-tail queries (added for the 1000+ catalog goal) ---
+    # Privacy / encryption / e2ee / decentralised
+    "open-source end-to-end encryption messenger stars:>200",
+    "open-source decentralized peer-to-peer p2p stars:>200",
+    "open-source matrix xmpp federated stars:>200",
+    "open-source tor onion privacy stars:>200",
+    # Productivity / personal info management
+    "open-source todo task self-hosted stars:>200",
+    "open-source bookmark read-later self-hosted stars:>200",
+    "open-source rss feed reader stars:>200",
+    "open-source habit tracker self-hosted stars:>150",
+    # Smart home / IoT / home server
+    "open-source home-automation smart-home stars:>300",
+    "open-source iot self-hosted stars:>200",
+    # Education / accessibility / a11y
+    "open-source learning education self-hosted stars:>200",
+    "open-source accessibility a11y screen-reader stars:>200",
+    # Finance / personal accounting
+    "open-source personal-finance budgeting self-hosted stars:>200",
+    "open-source invoice billing self-hosted stars:>200",
+    # Document / PDF / signing
+    "open-source pdf editor self-hosted stars:>200",
+    "open-source document-signing esign self-hosted stars:>200",
+    # E-mail / newsletter
+    "open-source newsletter mailing-list self-hosted stars:>200",
+    # Forms / surveys
+    "open-source form-builder survey self-hosted stars:>200",
+    # Music / podcast / audio book
+    "open-source podcast self-hosted stars:>200",
+    "open-source audiobook self-hosted stars:>200",
+    # Workout / health
+    "open-source fitness workout self-hosted stars:>150",
+    # Translation / localisation
+    "open-source translation localization self-hosted stars:>200",
+    # Whiteboard / diagramming / mind-maps
+    "open-source whiteboard diagram self-hosted stars:>200",
+    "open-source mind-map note-taking self-hosted stars:>200",
+    # Scheduling / appointment booking
+    "open-source booking appointment scheduling self-hosted stars:>200",
+    # Recipe / cooking
+    "open-source recipe cooking self-hosted stars:>150",
+    # Misc / collaboration
+    "open-source collaboration whiteboard self-hosted stars:>200",
+    "open-source helpdesk ticket self-hosted stars:>200",
 ]
 
 GITHUB_API = "https://api.github.com"
@@ -857,9 +904,18 @@ def filter_and_categorize(
             continue
         if stars < MIN_STARS:
             continue
-        if len(description.strip()) < 15:
-            continue
         if is_excluded_repo(name):
+            continue
+
+        # Tool catalog rule: every entry must show *something* to the
+        # user. We require BOTH a usable description (>= 15 chars) AND an
+        # owner avatar URL we can fall back to as a logo. If either is
+        # missing we'd render an empty card, which is worse than nothing.
+        clean_desc = description.strip()
+        if len(clean_desc) < 15:
+            continue
+        if not owner_avatar:
+            log(f"  Skipped (no owner avatar to use as logo): {full_name}")
             continue
 
         slug = make_slug(name)

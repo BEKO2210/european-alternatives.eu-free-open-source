@@ -155,15 +155,29 @@ scripts/
 Das Projekt enthält ein vollautonomes System zur Erkennung neuer FOSS-Tools:
 
 - **Wann:** Jeden Montag um 06:00 UTC (oder manuell via GitHub Actions)
-- **Wie:** Python-Script durchsucht die GitHub API mit 32 verschiedenen Queries
-- **Filter:** Mindestens 500 Sterne, nicht archiviert, keine Awesome-Lists/Tutorials
+- **Wie:** Python-Script durchsucht die GitHub API mit ~60 verschiedenen Queries (Mainstream + Long-Tail-Nischen wie E2E-Crypto, P2P/Federated, Smart Home, Personal Finance, Learning/A11y, Whiteboards, Booking, Recipes, …)
+- **Star-Schwelle:** Standard 200 (war früher 500), durch ENV-Variable `MIN_STARS` änderbar
+- **Pflicht-Eigenschaften pro Tool:** Beschreibung ≥ 15 Zeichen UND Owner-Avatar (Logo) — sonst wird der Eintrag verworfen, damit kein leerer Karten-Stub im Katalog landet
 - **Lizenz-Gate:** Nur Repos mit einer Lizenz aus der OSI/FSF-Allowlist (MIT, Apache-2.0, GPL-2.0/3.0, AGPL-3.0, LGPL, MPL-2.0, BSD-2/3, ISC, EUPL, Unlicense, Public Domain, …) werden aufgenommen. „Unknown"/`NOASSERTION`, SSPL, BSL-1.1, VPL, Custom-Lizenzen werden grundsätzlich abgelehnt — kein stilles Umetikettieren als MIT mehr.
 - **Slug-Blocklist:** Bekannte Re-Lizenzierungen (Redis SSPL, MongoDB SSPL, CockroachDB BSL, Sentry BSL, Elastic SSPL, kompletter HashiCorp-BSL-Stack, Outline BSL, Vtiger VPL …) sind dauerhaft ausgeschlossen, auch wenn die GitHub-API sie liefert.
 - **Kategorisierung:** Automatisch anhand von GitHub Topics, Name und Beschreibung
 - **Sicherheit:** Build-Test vor dem Commit — bei Fehler automatischer Rollback
 - **Deployment:** Nach erfolgreichem Push wird GitHub Pages automatisch neu gebaut
 
-Manuell auslösen: GitHub Actions → "Auto-Discover FOSS Tools" → "Run workflow"
+### Manuell auslösen (Standard- oder Bulk-Run)
+
+GitHub Actions → "Auto-Discover FOSS Tools" → "Run workflow". Im Dialog
+können Parameter überschrieben werden:
+
+- `min_stars` (Default `200`) — runter z. B. auf `100` für mehr Kandidaten
+- `max_per_run` (Default `150`) — rauf z. B. auf `500` für einen
+  einmaligen Bulk-Lauf Richtung 1000+ Einträge
+- `dry_run` (`true`/`false`) — Testlauf ohne Commit/Push
+
+Beispiel für einen einmaligen Bulk-Run zur Katalog-Vergrößerung:
+`min_stars=100`, `max_per_run=500`, `dry_run=false`. Die License-
+Allowlist und der Beschreibung+Logo-Filter bleiben dabei aktiv, sodass
+kein non-FOSS-Eintrag und keine leeren Karten reinkommen.
 
 ---
 
