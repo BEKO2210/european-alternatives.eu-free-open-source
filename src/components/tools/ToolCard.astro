@@ -47,16 +47,18 @@ function getToolColor(name: string): string {
 }
 
 const toolColor = getToolColor(tool.name);
+const tagline = lang === 'en' && tool.taglineEn ? tool.taglineEn : tool.tagline;
+const replacesShown = tool.replacesTools.slice(0, 2);
+const replacesExtra = tool.replacesTools.length - replacesShown.length;
 ---
 
 <a
   href={`${base}${toolPath}/${tool.slug}/`}
-  class="card block no-underline hover:no-underline group"
+  class="tool-card-v2 card-polish block no-underline hover:no-underline group relative"
 >
-  <div class="flex items-start gap-3 mb-3 relative">
-    <div
-      class="icon-chip w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden"
-    >
+  {/* Top: identity + meta corner */}
+  <div class="flex items-start gap-3">
+    <div class="icon-chip w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden">
       {simpleIcon ? (
         <div class="w-5 h-5 flex items-center justify-center tool-simple-icon" style={`color: ${simpleIcon.color}`} set:html={simpleIcon.svg} />
       ) : (
@@ -65,11 +67,11 @@ const toolColor = getToolColor(tool.name);
             src={`${base}logos/${tool.slug}.png`}
             data-logo-url={tool.logoUrl ?? ''}
             alt=""
-            class="w-8 h-8 object-contain tool-logo"
+            class="w-7 h-7 object-contain tool-logo"
             loading="lazy"
           />
           <span
-            class="tool-logo-fallback hidden items-center justify-center w-full h-full text-lg font-bold text-white rounded-xl"
+            class="tool-logo-fallback hidden items-center justify-center w-full h-full text-base font-bold text-white rounded-xl"
             style={`background: ${toolColor}`}
           >
             {tool.name.charAt(0).toUpperCase()}
@@ -77,76 +79,79 @@ const toolColor = getToolColor(tool.name);
         </>
       )}
     </div>
+
     <div class="min-w-0 flex-1">
-      <h3 class="font-semibold text-base truncate" style="color: var(--color-text-primary)">
+      <h3 class="font-semibold text-[15px] leading-tight truncate" style="color: var(--color-text-primary)">
         {tool.name}
       </h3>
-      <p class="text-xs truncate" style="color: var(--color-text-secondary)">
-        {lang === 'en' && tool.taglineEn ? tool.taglineEn : tool.tagline}
+      <p class="text-xs leading-snug line-clamp-2 mt-1" style="color: var(--color-text-secondary)">
+        {tagline}
       </p>
     </div>
-    {tool.maintenanceStatus && (
-      <div class="absolute top-0 right-0">
-        <MaintenanceBadge status={tool.maintenanceStatus} note={tool.maintenanceNote} />
-      </div>
-    )}
-  </div>
 
-  <div class="flex flex-wrap gap-1.5 mb-3">
-    <span class:list={['badge', licenseBadge]}>{tool.license}</span>
-    <span class:list={['badge', diffBadge]}>{diffLabel}</span>
-    {tool.selfHostable && (
-      <span class="badge badge-selfhost inline-flex items-center gap-1">
-        <Icon name="lucide:home" size={12} />
-        {t('tool.selfHostable')}
-      </span>
-    )}
-  </div>
-
-  {tool.replacesTools.length > 0 && (
-    <div class="flex flex-wrap gap-1 mb-3">
-      {tool.replacesTools.map(r => (
-        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs bg-orange-500/10 text-orange-400">
-          <Icon name="lucide:zap" size={10} />
-          {r}
-        </span>
-      ))}
-    </div>
-  )}
-
-  <div class="flex items-center justify-between">
-    <div class="flex gap-1.5 items-center">
-      {tool.platforms.map(p => {
-        const meta = platformMeta[p];
-        return meta ? (
-          <span class="w-4 h-4" style="color: var(--color-text-muted)" title={meta.label}>
-            <Icon name={meta.icon} size={16} />
-          </span>
-        ) : (
-          <span class="text-xs" style="color: var(--color-text-muted)">{p}</span>
-        );
-      })}
-    </div>
-    <div class="flex items-center gap-2">
-      {lastUpdatedLabel && (
-        <span class:list={['text-[10px]', isStale ? 'text-orange-400' : '']} style={isStale ? '' : 'color: var(--color-text-muted)'}>
-          {t('tool.lastUpdated')} {lastUpdatedLabel}
-        </span>
-      )}
+    <div class="flex flex-col items-end gap-1.5 flex-shrink-0">
       {tool.stars !== undefined && tool.stars > 0 && (
-        <span class="flex items-center gap-1 text-xs" style="color: var(--color-text-muted)">
-          <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
+        <span class="flex items-center gap-1 text-[11px] tabular-nums" style="color: var(--color-text-muted)">
+          <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
           </svg>
           {tool.stars >= 1000 ? `${(tool.stars / 1000).toFixed(1)}k` : tool.stars}
         </span>
       )}
+      {tool.maintenanceStatus && (
+        <MaintenanceBadge status={tool.maintenanceStatus} note={tool.maintenanceNote} />
+      )}
     </div>
   </div>
 
-  <div class="mt-3 pt-3 opacity-0 group-hover:opacity-100 transition-opacity text-center text-xs font-medium text-red-400" style="border-top: 1px solid var(--color-border)">
-    {t('tool.viewDetails')}
+  {/* Replaces row (subtle) */}
+  {replacesShown.length > 0 && (
+    <div class="flex flex-wrap items-center gap-1.5 mt-3 text-[11px]" style="color: var(--color-text-muted)">
+      <span class="opacity-70">↳</span>
+      {replacesShown.map((r, i) => (
+        <span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-md bg-orange-500/10 text-orange-300/90 truncate max-w-[140px]">
+          {r}
+        </span>
+      ))}
+      {replacesExtra > 0 && (
+        <span class="opacity-60">+{replacesExtra}</span>
+      )}
+    </div>
+  )}
+
+  {/* Footer: license + difficulty + selfhost on the left, platforms + date on the right */}
+  <div class="flex items-center justify-between gap-2 mt-4 pt-3" style="border-top: 1px solid var(--color-border)">
+    <div class="flex flex-wrap items-center gap-1.5 min-w-0">
+      <span class:list={['badge', licenseBadge, 'text-[10px] py-0.5 px-1.5']}>{tool.license}</span>
+      <span class:list={['badge', diffBadge, 'text-[10px] py-0.5 px-1.5']}>{diffLabel}</span>
+      {tool.selfHostable && (
+        <span class="inline-flex items-center justify-center w-5 h-5 rounded-md" style="color: var(--color-text-muted); background: var(--color-bg-tertiary)" title={t('tool.selfHostable')}>
+          <Icon name="lucide:home" size={11} />
+        </span>
+      )}
+    </div>
+
+    <div class="flex items-center gap-2 flex-shrink-0">
+      <div class="flex gap-1 items-center" style="color: var(--color-text-muted)">
+        {tool.platforms.slice(0, 4).map(p => {
+          const meta = platformMeta[p];
+          return meta ? (
+            <span title={meta.label}><Icon name={meta.icon} size={13} /></span>
+          ) : null;
+        })}
+      </div>
+      {lastUpdatedLabel && (
+        <span class:list={['text-[10px] tabular-nums', isStale ? 'text-orange-400' : '']} style={isStale ? '' : 'color: var(--color-text-muted)'}>
+          {lastUpdatedLabel}
+        </span>
+      )}
+    </div>
   </div>
+
+  {/* Subtle hover arrow in bottom-right corner */}
+  <span class="absolute bottom-3 right-3 text-red-400 opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0 transition-all duration-200 pointer-events-none" aria-hidden="true">
+    <Icon name="lucide:arrow-up-right" size={14} />
+  </span>
 </a>
 
 <script>
@@ -164,7 +169,6 @@ const toolColor = getToolColor(tool.name);
       if (fallback) fallback.style.display = 'flex';
     };
     img.addEventListener('error', handleError);
-    // Catch errors that fired before this deferred script attached the listener
     if (img.complete && img.naturalWidth === 0) handleError();
   });
 </script>
