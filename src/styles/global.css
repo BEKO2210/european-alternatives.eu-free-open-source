@@ -153,6 +153,19 @@
       );
   }
 
+  /* Soft bottom transition: fade the hero image into the page background
+     so there is no hard horizontal edge between the hero and the next
+     section. Uses var(--color-bg-primary) so the same rule works in
+     both themes. */
+  .hero-fade-bottom {
+    height: clamp(80px, 14vh, 160px);
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      var(--color-bg-primary) 100%
+    );
+  }
+
   @keyframes gradientShift {
     0%,
     100% {
