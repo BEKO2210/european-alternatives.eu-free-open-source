@@ -6,20 +6,21 @@ import type { Tool } from '../types';
     "id": "coolify",
     "name": "Coolify",
     "slug": "coolify",
-    "tagline": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, ...",
+    "tagline": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy…",
     "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
     "website": "https://coolify.io",
     "github": "https://github.com/coollabsio/coolify",
     "license": "Apache-2.0",
     "categories": [
-      "datenbanken"
+      "ci-cd"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "GitHub Actions",
+      "Jenkins",
+      "CircleCI"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "🔄",
     "stars": 51179,
     "lastUpdated": "2026-03-01",
     "tags": [
@@ -44,20 +45,21 @@ import type { Tool } from '../types';
     "id": "dokploy",
     "name": "Dokploy",
     "slug": "dokploy",
-    "tagline": "Open Source Alternative to Vercel, Netlify and Heroku.",
+    "tagline": "Alternative to Vercel, Netlify and Heroku.",
     "description": "Open Source Alternative to Vercel, Netlify and Heroku.",
     "website": "https://dokploy.com/",
     "github": "https://github.com/Dokploy/dokploy",
     "license": "MIT",
     "categories": [
-      "datenbanken"
+      "ci-cd"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "GitHub Actions",
+      "Jenkins",
+      "CircleCI"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "🔄",
     "stars": 31076,
     "lastUpdated": "2026-02-28",
     "tags": [
@@ -122,7 +124,7 @@ import type { Tool } from '../types';
     "id": "signoz",
     "name": "Signoz",
     "slug": "signoz",
-    "tagline": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single app...",
+    "tagline": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a…",
     "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool",
     "website": "https://signoz.io",
     "github": "https://github.com/SigNoz/signoz",
@@ -161,7 +163,7 @@ import type { Tool } from '../types';
     "id": "automatisch",
     "name": "Automatisch",
     "slug": "automatisch",
-    "tagline": "The open source Zapier alternative. Build workflow automation without spending time and money.",
+    "tagline": "Zapier alternative. Build workflow automation without spending time and money.",
     "description": "The open source Zapier alternative. Build workflow automation without spending time and money.",
     "website": "https://automatisch.io",
     "github": "https://github.com/automatisch/automatisch",
@@ -199,7 +201,7 @@ import type { Tool } from '../types';
     "id": "notesnook",
     "name": "Notesnook",
     "slug": "notesnook",
-    "tagline": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
+    "tagline": "& end-to-end encrypted note taking alternative to Evernote.",
     "description": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
     "website": "https://notesnook.com/",
     "github": "https://github.com/streetwriters/notesnook",
@@ -238,20 +240,20 @@ import type { Tool } from '../types';
     "id": "documenso",
     "name": "Documenso",
     "slug": "documenso",
-    "tagline": "The Open Source DocuSign Alternative.",
+    "tagline": "DocuSign Alternative.",
     "description": "The Open Source DocuSign Alternative.",
     "website": "https://documenso.com",
     "github": "https://github.com/documenso/documenso",
     "license": "AGPL-3.0",
     "categories": [
-      "datenbanken"
+      "buerosoftware"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "Microsoft Office",
+      "Google Docs"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "📄",
     "stars": 12455,
     "lastUpdated": "2026-03-01",
     "tags": [
@@ -276,7 +278,7 @@ import type { Tool } from '../types';
     "id": "openpanel",
     "name": "Openpanel",
     "slug": "openpanel",
-    "tagline": "OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional ...",
+    "tagline": "OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel…",
     "description": "OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.",
     "website": "https://openpanel.dev",
     "github": "https://github.com/Openpanel-dev/openpanel",
@@ -313,7 +315,7 @@ import type { Tool } from '../types';
     "id": "colanode",
     "name": "Colanode",
     "slug": "colanode",
-    "tagline": "Open-source and local-first Slack and Notion alternative that puts you in control of your data",
+    "tagline": "And local-first Slack and Notion alternative that puts you in control of your data",
     "description": "Open-source and local-first Slack and Notion alternative that puts you in control of your data",
     "website": "https://colanode.com",
     "github": "https://github.com/colanode/colanode",
@@ -352,7 +354,7 @@ import type { Tool } from '../types';
     "id": "peppermint",
     "name": "Peppermint",
     "slug": "peppermint",
-    "tagline": "An open source issue management & help desk solution. A zendesk & jira alternative",
+    "tagline": "Issue management & help desk solution. A zendesk & jira alternative",
     "description": "An open source issue management & help desk solution. A zendesk & jira alternative",
     "website": "https://peppermint.sh",
     "github": "https://github.com/Peppermint-Lab/peppermint",
@@ -396,14 +398,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/thomiceli/opengist",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "code-hosting"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "GitHub",
+      "Bitbucket",
+      "Azure DevOps"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🗃️",
     "stars": 3006,
     "lastUpdated": "2026-02-25",
     "tags": [
@@ -506,7 +509,7 @@ import type { Tool } from '../types';
     "id": "openrecall",
     "name": "Openrecall",
     "slug": "openrecall",
-    "tagline": "OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall.",
+    "tagline": "OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's…",
     "description": "OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memory and productivity without compromising your privacy.",
     "website": "https://github.com/openrecall/openrecall",
     "github": "https://github.com/openrecall/openrecall",
@@ -546,7 +549,7 @@ import type { Tool } from '../types';
     "id": "checkcle",
     "name": "Checkcle",
     "slug": "checkcle",
-    "tagline": "CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, ...",
+    "tagline": "CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems,…",
     "description": "CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, and infrastructure. It provides real-time uptime monitoring, distributed checks, incident tracking, and alerts. All deployable anywhere.",
     "website": "https://checkcle.io",
     "github": "https://github.com/operacle/checkcle",
@@ -624,7 +627,7 @@ import type { Tool } from '../types';
     "id": "open-higgsfield-ai",
     "name": "Open Higgsfield Ai",
     "slug": "open-higgsfield-ai",
-    "tagline": "Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midj...",
+    "tagline": "Alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midj",
     "description": "Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.",
     "website": "https://github.com/Anil-matcha/Open-Higgsfield-AI",
     "github": "https://github.com/Anil-matcha/Open-Higgsfield-AI",
@@ -663,7 +666,7 @@ import type { Tool } from '../types';
     "id": "litlyx",
     "name": "Litlyx",
     "slug": "litlyx",
-    "tagline": "Powerful Analytics Solution. Setup in 30 seconds. Display all your data on a Simple, AI-powered dashboard. Fully self...",
+    "tagline": "Powerful Analytics Solution. Setup in 30 seconds. Display all your data on a Simple, AI-powered dashboard.…",
     "description": "Powerful Analytics Solution. Setup in 30 seconds. Display all your data on a Simple, AI-powered dashboard. Fully self-hostable and GDPR compliant. Alternative to Google Analytics, MixPanel, Plausible, Umami & Matomo.",
     "website": "https://litlyx.com",
     "github": "https://github.com/Litlyx/litlyx",
@@ -701,7 +704,7 @@ import type { Tool } from '../types';
     "id": "paddler",
     "name": "Paddler",
     "slug": "paddler",
-    "tagline": "Open-source LLM load balancer and serving platform for self-hosting LLMs at scale 🏓🦙 Alternative to projects like llm...",
+    "tagline": "LLM load balancer and serving platform for self-hosting LLMs at scale 🏓🦙 Alternative to projects like llm",
     "description": "Open-source LLM load balancer and serving platform for self-hosting LLMs at scale 🏓🦙 Alternative to projects like llm-d, Docker Model Runner, etc but with less moving parts and simple deployments built around ggml ecosystem. Runs on CPU and GPU.",
     "website": "https://paddler.intentee.com",
     "github": "https://github.com/intentee/paddler",
@@ -739,7 +742,7 @@ import type { Tool } from '../types';
     "id": "authgear-server",
     "name": "Authgear Server",
     "slug": "authgear-server",
-    "tagline": "Open source Auth0/Clerk/Firebase alternative.",
+    "tagline": "Auth0/Clerk/Firebase alternative.",
     "description": "Open source Auth0/Clerk/Firebase alternative. Passkeys, SSO, MFA, passwordless, biometric login. Self-hosted or cloud. Enterprise-ready for SaaS & mobile apps",
     "website": "https://www.authgear.com",
     "github": "https://github.com/authgear/authgear-server",
@@ -777,7 +780,7 @@ import type { Tool } from '../types';
     "id": "nixopus",
     "name": "Nixopus",
     "slug": "nixopus",
-    "tagline": "Open Source Alternative to vercel, heroku, netlify with simplified workflows",
+    "tagline": "Alternative to vercel, heroku, netlify with simplified workflows",
     "description": "Open Source Alternative to vercel, heroku, netlify with simplified workflows",
     "website": "https://nixopus.com",
     "github": "https://github.com/raghavyuva/nixopus",
@@ -861,14 +864,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/timothystewart6/littlelink-server",
     "license": "MIT",
     "categories": [
-      "container"
+      "cms"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🌍",
     "stars": 1105,
     "lastUpdated": "2026-02-26",
     "tags": [
@@ -893,7 +897,7 @@ import type { Tool } from '../types';
     "id": "peekaping",
     "name": "Peekaping",
     "slug": "peekaping",
-    "tagline": "Open Source Uptime Kuma Alternative",
+    "tagline": "Uptime Kuma Alternative",
     "description": "Open Source Uptime Kuma Alternative",
     "website": "https://peekaping.com",
     "github": "https://github.com/0xfurai/peekaping",
@@ -932,7 +936,7 @@ import type { Tool } from '../types';
     "id": "aegra",
     "name": "Aegra",
     "slug": "aegra",
-    "tagline": "Open source LangGraph Platform alternative - Self-hosted AI agent backend with FastAPI and PostgreSQL.",
+    "tagline": "LangGraph Platform alternative - Self-hosted AI agent backend with FastAPI and PostgreSQL.",
     "description": "Open source LangGraph Platform alternative - Self-hosted AI agent backend with FastAPI and PostgreSQL. Zero vendor lock-in, full control over your agent infrastructure.",
     "website": "https://aegra.dev",
     "github": "https://github.com/ibbybuilds/aegra",
@@ -970,7 +974,7 @@ import type { Tool } from '../types';
     "id": "prompts-chat",
     "name": "Prompts.chat",
     "slug": "prompts-chat",
-    "tagline": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-...",
+    "tagline": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open…",
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
     "website": "https://prompts.chat",
     "github": "https://github.com/f/prompts.chat",
@@ -1009,21 +1013,21 @@ import type { Tool } from '../types';
     "id": "langfuse",
     "name": "Langfuse",
     "slug": "langfuse",
-    "tagline": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets.",
+    "tagline": "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground,…",
     "description": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23",
     "website": "https://langfuse.com/docs",
     "github": "https://github.com/langfuse/langfuse",
     "license": "MIT",
     "categories": [
-      "monitoring"
+      "ki-ml"
     ],
     "replacesTools": [
-      "Datadog",
-      "New Relic",
-      "PagerDuty"
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📈",
+    "logoPlaceholderEmoji": "🤖",
     "stars": 22445,
     "lastUpdated": "2026-02-28",
     "tags": [
@@ -1048,7 +1052,7 @@ import type { Tool } from '../types';
     "id": "goreplay",
     "name": "Goreplay",
     "slug": "goreplay",
-    "tagline": "GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to con...",
+    "tagline": "GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in…",
     "description": "GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.",
     "website": "https://goreplay.org",
     "github": "https://github.com/probelabs/goreplay",
@@ -1084,7 +1088,7 @@ import type { Tool } from '../types';
     "id": "self-hosting-guide",
     "name": "Self Hosting Guide",
     "slug": "self-hosting-guide",
-    "tagline": "Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applic...",
+    "tagline": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing…",
     "description": "Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
     "website": "https://github.com/mikeroyal/Self-Hosting-Guide",
     "github": "https://github.com/mikeroyal/Self-Hosting-Guide",
@@ -1161,20 +1165,20 @@ import type { Tool } from '../types';
     "id": "encore",
     "name": "Encore",
     "slug": "encore",
-    "tagline": "Open source framework for building robust type-safe distributed systems with declarative infrastructure",
+    "tagline": "Framework for building robust type-safe distributed systems with declarative infrastructure",
     "description": "Open source framework for building robust type-safe distributed systems with declarative infrastructure",
     "website": "https://encore.dev",
     "github": "https://github.com/encoredev/encore",
     "license": "MPL-2.0",
     "categories": [
-      "datenbanken"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "⚙️",
     "stars": 11509,
     "lastUpdated": "2026-02-27",
     "tags": [
@@ -1199,7 +1203,7 @@ import type { Tool } from '../types';
     "id": "meetily",
     "name": "Meetily",
     "slug": "meetily",
-    "tagline": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Olla...",
+    "tagline": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker…",
     "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted,  Open-source Ai meeting note taker for macOS & Windows.",
     "website": "https://meetily.ai",
     "github": "https://github.com/Zackriya-Solutions/meetily",
@@ -1356,20 +1360,21 @@ import type { Tool } from '../types';
     "id": "checkov",
     "name": "Checkov",
     "slug": "checkov",
-    "tagline": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container image...",
+    "tagline": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code,…",
     "description": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.",
     "website": "https://www.checkov.io/",
     "github": "https://github.com/bridgecrewio/checkov",
     "license": "Apache-2.0",
     "categories": [
-      "container"
+      "monitoring"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "📈",
     "stars": 8491,
     "lastUpdated": "2026-02-24",
     "tags": [
@@ -1394,7 +1399,7 @@ import type { Tool } from '../types';
     "id": "openstatus",
     "name": "Openstatus",
     "slug": "openstatus",
-    "tagline": "🫖 Status page with uptime monitoring & API monitoring as code   🫖",
+    "tagline": "Status page with uptime monitoring & API monitoring as code 🫖",
     "description": "🫖 Status page with uptime monitoring & API monitoring as code   🫖",
     "website": "https://openstatus.dev",
     "github": "https://github.com/openstatusHQ/openstatus",
@@ -1471,7 +1476,7 @@ import type { Tool } from '../types';
     "id": "oxicloud",
     "name": "Oxicloud",
     "slug": "oxicloud",
-    "tagline": "☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one ...",
+    "tagline": "☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts,…",
     "description": "☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one place. Built in Rust.",
     "website": "https://github.com/DioCrafts/OxiCloud",
     "github": "https://github.com/DioCrafts/OxiCloud",
@@ -1510,7 +1515,7 @@ import type { Tool } from '../types';
     "id": "projectsend",
     "name": "Projectsend",
     "slug": "projectsend",
-    "tagline": "ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and p...",
+    "tagline": "ProjectSend is a free, open source software that lets you share files with your clients, focused on ease…",
     "description": "ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and privacy. It supports clients groups, system users roles, statistics, multiple languages, detailed logs... and much more!",
     "website": "https://www.projectsend.org/",
     "github": "https://github.com/projectsend/projectsend",
@@ -1549,7 +1554,7 @@ import type { Tool } from '../types';
     "id": "beecount",
     "name": "Beecount",
     "slug": "beecount",
-    "tagline": "🐝 开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud & self-hosted sync (S...",
+    "tagline": "开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud &…",
     "description": "🐝 开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud & self-hosted sync (Supabase/WebDAV/S3), AI-powered bookkeeping, cross-platform, privacy-first",
     "website": "https://github.com/TNT-Likely/BeeCount",
     "github": "https://github.com/TNT-Likely/BeeCount",
@@ -1587,7 +1592,7 @@ import type { Tool } from '../types';
     "id": "bricksllm",
     "name": "Bricksllm",
     "slug": "bricksllm",
-    "tagline": "🔒 Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key.",
+    "tagline": "Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key.",
     "description": "🔒 Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key. Get fine-grained access control and monitoring per user, application, or environment. Supports OpenAI, Azure OpenAI, Anthropic, vLLM, and open-source LLMs.",
     "website": "https://trybricks.ai/",
     "github": "https://github.com/bricks-cloud/BricksLLM",
@@ -1626,7 +1631,7 @@ import type { Tool } from '../types';
     "id": "agent",
     "name": "Agent",
     "slug": "agent",
-    "tagline": "Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀",
+    "tagline": "Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps…",
     "description": "Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀",
     "website": "https://stakpak.dev",
     "github": "https://github.com/stakpak/agent",
@@ -1704,21 +1709,20 @@ import type { Tool } from '../types';
     "id": "swetrix",
     "name": "Swetrix",
     "slug": "swetrix",
-    "tagline": "📈 Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error tracking ser...",
+    "tagline": "Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error…",
     "description": "📈 Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error tracking service that you can host yourself or use in the cloud. Get started for free!",
     "website": "https://swetrix.com",
     "github": "https://github.com/Swetrix/swetrix",
     "license": "AGPL-3.0",
     "categories": [
-      "monitoring"
+      "analytics"
     ],
     "replacesTools": [
-      "Datadog",
-      "New Relic",
-      "PagerDuty"
+      "Google Analytics",
+      "Mixpanel"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📈",
+    "logoPlaceholderEmoji": "📊",
     "stars": 891,
     "lastUpdated": "2026-03-01",
     "tags": [
@@ -1788,14 +1792,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/tess1o/geopulse",
     "license": "MIT",
     "categories": [
-      "analytics"
+      "karten"
     ],
     "replacesTools": [
-      "Google Analytics",
-      "Mixpanel"
+      "Google Maps API",
+      "Mapbox"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📊",
+    "logoPlaceholderEmoji": "🗺️",
     "stars": 613,
     "lastUpdated": "2026-02-27",
     "tags": [
@@ -1820,7 +1824,7 @@ import type { Tool } from '../types';
     "id": "thiss-link",
     "name": "Thiss.link",
     "slug": "thiss-link",
-    "tagline": "🔥 MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support",
+    "tagline": "MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support",
     "description": "🔥 MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support",
     "website": "https://maglit.me",
     "github": "https://github.com/NayamAmarshe/thiss.link",
@@ -1891,7 +1895,7 @@ import type { Tool } from '../types';
     "id": "super",
     "name": "Super",
     "slug": "super",
-    "tagline": "📡 SPR: Open Source, secure, user friendly and fast wifi routers for your home.",
+    "tagline": "SPR: Open Source, secure, user friendly and fast wifi routers for your home.",
     "description": "📡 SPR: Open Source, secure, user friendly and fast wifi routers for your home. One wifi password per device. Ad Blocking & Privacy Blocklists. Policy Based Network Access",
     "website": "https://www.supernetworks.org/",
     "github": "https://github.com/spr-networks/super",
@@ -1968,7 +1972,7 @@ import type { Tool } from '../types';
     "id": "onyx",
     "name": "Onyx",
     "slug": "onyx",
-    "tagline": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+    "tagline": "AI Platform - AI Chat with advanced features that works with every LLM",
     "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
     "website": "https://onyx.app",
     "github": "https://github.com/onyx-dot-app/onyx",
@@ -2007,7 +2011,7 @@ import type { Tool } from '../types';
     "id": "tinacms",
     "name": "Tinacms",
     "slug": "tinacms",
-    "tagline": "A fully open-source headless CMS that supports Markdown and Visual Editing",
+    "tagline": "Headless CMS that supports Markdown and Visual Editing",
     "description": "A fully open-source headless CMS that supports Markdown and Visual Editing",
     "website": "https://tina.io",
     "github": "https://github.com/tinacms/tinacms",
@@ -2046,7 +2050,7 @@ import type { Tool } from '../types';
     "id": "casdoor",
     "name": "Casdoor",
     "slug": "casdoor",
-    "tagline": "An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting M...",
+    "tagline": "AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting M",
     "description": "An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting MCP, A2A, OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD",
     "website": "https://casdoor.org",
     "github": "https://github.com/casdoor/casdoor",
@@ -2160,7 +2164,7 @@ import type { Tool } from '../types';
     "id": "webstudio",
     "name": "Webstudio",
     "slug": "webstudio",
-    "tagline": "Open source website builder and Webflow alternative.",
+    "tagline": "Website builder and Webflow alternative.",
     "description": "Open source website builder and Webflow alternative. Webstudio is an advanced visual builder that connects to any headless CMS, supports all CSS properties, and can be hosted anywhere, including with us.",
     "website": "https://webstudio.is",
     "github": "https://github.com/webstudio-is/webstudio",
@@ -2199,7 +2203,7 @@ import type { Tool } from '../types';
     "id": "webiny-js",
     "name": "Webiny Js",
     "slug": "webiny-js",
-    "tagline": "Open-source serverless enterprise CMS.",
+    "tagline": "Serverless enterprise CMS.",
     "description": "Open-source serverless enterprise CMS. Includes a headless CMS, page builder, form builder, and file manager. Easy to customize and expand. Deploys to AWS.",
     "website": "https://www.webiny.com",
     "github": "https://github.com/webiny/webiny-js",
@@ -2354,7 +2358,7 @@ import type { Tool } from '../types';
     "id": "openllmetry",
     "name": "Openllmetry",
     "slug": "openllmetry",
-    "tagline": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+    "tagline": "Observability for your GenAI or LLM application, based on OpenTelemetry",
     "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
     "website": "https://www.traceloop.com/openllmetry",
     "github": "https://github.com/traceloop/openllmetry",
@@ -2432,7 +2436,7 @@ import type { Tool } from '../types';
     "id": "coze-loop",
     "name": "Coze Loop",
     "slug": "coze-loop",
-    "tagline": "Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing fu...",
+    "tagline": "Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by…",
     "description": "Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.",
     "website": "https://github.com/coze-dev/coze-loop",
     "github": "https://github.com/coze-dev/coze-loop",
@@ -2471,7 +2475,7 @@ import type { Tool } from '../types';
     "id": "helicone",
     "name": "Helicone",
     "slug": "helicone",
-    "tagline": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
+    "tagline": "Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
     "description": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
     "website": "https://www.helicone.ai",
     "github": "https://github.com/Helicone/helicone",
@@ -2510,7 +2514,7 @@ import type { Tool } from '../types';
     "id": "apostrophe",
     "name": "Apostrophe",
     "slug": "apostrophe",
-    "tagline": "A full-featured, open-source content management framework built with Node.js that empowers organizations by combining...",
+    "tagline": "A full-featured, open-source content management framework built with Node.js that empowers organizations…",
     "description": "A full-featured, open-source content management framework built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment.",
     "website": "https://apostrophecms.com",
     "github": "https://github.com/apostrophecms/apostrophe",
@@ -2549,7 +2553,7 @@ import type { Tool } from '../types';
     "id": "uptrace",
     "name": "Uptrace",
     "slug": "uptrace",
-    "tagline": "Open source APM: OpenTelemetry traces, metrics, and logs",
+    "tagline": "APM: OpenTelemetry traces, metrics, and logs",
     "description": "Open source APM: OpenTelemetry traces, metrics, and logs",
     "website": "https://uptrace.dev/get/hosted/open-source-apm",
     "github": "https://github.com/uptrace/uptrace",
@@ -2588,7 +2592,7 @@ import type { Tool } from '../types';
     "id": "terminusdb",
     "name": "Terminusdb",
     "slug": "terminusdb",
-    "tagline": "TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and reasoning on stru...",
+    "tagline": "TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and…",
     "description": "TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and reasoning on structured data.",
     "website": "https://terminusdb.org",
     "github": "https://github.com/terminusdb/terminusdb",
@@ -2626,7 +2630,7 @@ import type { Tool } from '../types';
     "id": "pezzo",
     "name": "Pezzo",
     "slug": "pezzo",
-    "tagline": "🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant del...",
+    "tagline": "🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management,…",
     "description": "🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant delivery, collaboration, troubleshooting, observability and more.",
     "website": "https://pezzo.ai",
     "github": "https://github.com/pezzolabs/pezzo",
@@ -2704,7 +2708,7 @@ import type { Tool } from '../types';
     "id": "openlit",
     "name": "Openlit",
     "slug": "openlit",
-    "tagline": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluati...",
+    "tagline": "Platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluati",
     "description": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.",
     "website": "https://docs.openlit.io",
     "github": "https://github.com/openlit/openlit",
@@ -2743,7 +2747,7 @@ import type { Tool } from '../types';
     "id": "sveltia-cms",
     "name": "Sveltia Cms",
     "slug": "sveltia-cms",
-    "tagline": "Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support...",
+    "tagline": "Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support,…",
     "description": "Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source & free.",
     "website": "https://sveltiacms.app/en/",
     "github": "https://github.com/sveltia/sveltia-cms",
@@ -2782,7 +2786,7 @@ import type { Tool } from '../types';
     "id": "vrite",
     "name": "Vrite",
     "slug": "vrite",
-    "tagline": "Open-source developer content platform",
+    "tagline": "Developer content platform",
     "description": "Open-source developer content platform",
     "website": "https://vrite.io",
     "github": "https://github.com/vriteio/vrite",
@@ -2821,7 +2825,7 @@ import type { Tool } from '../types';
     "id": "gigapipe",
     "name": "Gigapipe",
     "slug": "gigapipe",
-    "tagline": "⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :ro...",
+    "tagline": "⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP…",
     "description": "⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :rocket: Indie All-in-One Opentelemetry, Loki, Prometheus, Tempo, Pyroscope On-Prem Alternative :star:",
     "website": "https://gigapipe.com",
     "github": "https://github.com/metrico/gigapipe",
@@ -2860,20 +2864,21 @@ import type { Tool } from '../types';
     "id": "atomic-server",
     "name": "Atomic Server",
     "slug": "atomic-server",
-    "tagline": "An open source headless CMS / real-time database.",
+    "tagline": "Headless CMS / real-time database.",
     "description": "An open source headless CMS / real-time database. Powerful table editor, full-text search, and SDKs for JS / React / Svelte.",
     "website": "https://atomicserver.eu",
     "github": "https://github.com/ontola/atomic-server",
     "license": "MIT",
     "categories": [
-      "datenbanken"
+      "cms"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "🌍",
     "stars": 1506,
     "lastUpdated": "2026-02-23",
     "tags": [
@@ -2975,7 +2980,7 @@ import type { Tool } from '../types';
     "id": "grafana-operator",
     "name": "Grafana Operator",
     "slug": "grafana-operator",
-    "tagline": "An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/Op...",
+    "tagline": "An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through…",
     "description": "An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/OpenShift CRs",
     "website": "https://grafana.github.io/grafana-operator/docs/",
     "github": "https://github.com/grafana/grafana-operator",
@@ -3053,7 +3058,7 @@ import type { Tool } from '../types';
     "id": "openam",
     "name": "Openam",
     "slug": "openam",
-    "tagline": "OpenAM is an open-source access management solution for identity authentication, authorization, and federation.",
+    "tagline": "OpenAM is an open-source access management solution for identity authentication, authorization, and…",
     "description": "OpenAM is an open-source access management solution for identity authentication, authorization, and federation. It provides single sign-on, adaptive authentication, and centralized policy control, enabling secure access to web, mobile, and cloud applications",
     "website": "https://www.openidentityplatform.org/openam",
     "github": "https://github.com/OpenIdentityPlatform/OpenAM",
@@ -3130,7 +3135,7 @@ import type { Tool } from '../types';
     "id": "nhost",
     "name": "Nhost",
     "slug": "nhost",
-    "tagline": "The Open Source Firebase Alternative with GraphQL.",
+    "tagline": "Firebase Alternative with GraphQL.",
     "description": "The Open Source Firebase Alternative with GraphQL.",
     "website": "https://nhost.io",
     "github": "https://github.com/nhost/nhost",
@@ -3207,7 +3212,7 @@ import type { Tool } from '../types';
     "id": "lsp-ai",
     "name": "Lsp Ai",
     "slug": "lsp-ai",
-    "tagline": "LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist an...",
+    "tagline": "LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed…",
     "description": "LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist and empower software engineers, not replace them.",
     "website": "https://github.com/SilasMarvin/lsp-ai",
     "github": "https://github.com/SilasMarvin/lsp-ai",
@@ -3246,7 +3251,7 @@ import type { Tool } from '../types';
     "id": "octobase",
     "name": "Octobase",
     "slug": "octobase",
-    "tagline": "🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative.",
+    "tagline": "OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative.",
     "description": "🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative. A light-weight, scalable, data engine written in Rust.",
     "website": "https://octobase.dev",
     "github": "https://github.com/toeverything/OctoBase",
@@ -3284,7 +3289,7 @@ import type { Tool } from '../types';
     "id": "graft",
     "name": "Graft",
     "slug": "graft",
-    "tagline": "Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication...",
+    "tagline": "Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent…",
     "description": "Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication—perfect for edge, offline-first, and distributed applications.",
     "website": "https://graft.rs",
     "github": "https://github.com/orbitinghail/graft",
@@ -3321,20 +3326,20 @@ import type { Tool } from '../types';
     "id": "audiomuse-ai",
     "name": "Audiomuse Ai",
     "slug": "audiomuse-ai",
-    "tagline": "AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to Jellyfin, Navidrom...",
+    "tagline": "AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to…",
     "description": "AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to Jellyfin, Navidrome, LMS, Lyrion and Emby. Using powerful tools like Librosa and ONNX, it performs sonic analysis on your audio files locally, allowing you to curate the perfect playlist for any mood or occasion without relying on external APIs.",
     "website": "https://neptunehub.github.io/AudioMuse-AI/",
     "github": "https://github.com/NeptuneHub/AudioMuse-AI",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "medienserver"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Plex Premium",
+      "Emby"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🎵",
     "stars": 1319,
     "lastUpdated": "2026-02-28",
     "tags": [
@@ -3398,7 +3403,7 @@ import type { Tool } from '../types';
     "id": "browserable",
     "name": "Browserable",
     "slug": "browserable",
-    "tagline": "Open source and self-hostable browser automation library for AI agents",
+    "tagline": "And self-hostable browser automation library for AI agents",
     "description": "Open source and self-hostable browser automation library for AI agents",
     "website": "https://browserable.ai",
     "github": "https://github.com/browserable/browserable",
@@ -3437,7 +3442,7 @@ import type { Tool } from '../types';
     "id": "alchemy-cms",
     "name": "Alchemy Cms",
     "slug": "alchemy-cms",
-    "tagline": "Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic server side re...",
+    "tagline": "Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic…",
     "description": "Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic server side rendered or headless CMS.",
     "website": "https://www.alchemy-cms.com",
     "github": "https://github.com/AlchemyCMS/alchemy_cms",
@@ -3476,7 +3481,7 @@ import type { Tool } from '../types';
     "id": "mix-core",
     "name": "Mix.core",
     "slug": "mix-core",
-    "tagline": "🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches.",
+    "tagline": "A future-proof enterprise web CMS supporting both headless and decoupled approaches.",
     "description": "🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches. Build any type of app with customizable APIs on ASP.NET Core/.NET Core. Completely open-source and designed for flexibility.",
     "website": "https://mixcore.org",
     "github": "https://github.com/mixcore/mix.core",
@@ -3553,7 +3558,7 @@ import type { Tool } from '../types';
     "id": "truthy",
     "name": "Truthy",
     "slug": "truthy",
-    "tagline": "Open source headless CMS API written using NestJS, that has pre built modules like User Management, Role Management, ...",
+    "tagline": "Headless CMS API written using NestJS, that has pre built modules like User Management, Role Management,",
     "description": "Open source headless CMS API written using NestJS, that has pre built modules like User Management, Role Management, Permission Management, Email Module, Account Settings, OTP, Throttling, RBAC support, Localization, and many more.",
     "website": "https://github.com/gobeam/truthy",
     "github": "https://github.com/gobeam/truthy",
@@ -3631,7 +3636,7 @@ import type { Tool } from '../types';
     "id": "vaahcms",
     "name": "Vaahcms",
     "slug": "vaahcms",
-    "tagline": "VaahCMS is a laravel based open-source web application development platform shipped with a headless content managemen...",
+    "tagline": "VaahCMS is a laravel based open-source web application development platform shipped with a headless…",
     "description": "VaahCMS is a laravel based open-source web application development platform shipped with a headless content management system (CMS).",
     "website": "https://vaah.dev/cms",
     "github": "https://github.com/webreinvent/vaahcms",
@@ -3709,7 +3714,7 @@ import type { Tool } from '../types';
     "id": "jaaz",
     "name": "Jaaz",
     "slug": "jaaz",
-    "tagline": "The world's first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritize...",
+    "tagline": "The world's first open-source multimodal creative assistant This is a substitute for Canva and Manus that…",
     "description": "The world's first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.",
     "website": "https://jaaz.app",
     "github": "https://github.com/11cafe/jaaz",
@@ -3748,7 +3753,7 @@ import type { Tool } from '../types';
     "id": "taskcafe",
     "name": "Taskcafe",
     "slug": "taskcafe",
-    "tagline": "An open source project management tool with Kanban boards",
+    "tagline": "Project management tool with Kanban boards",
     "description": "An open source project management tool with Kanban boards",
     "website": "https://github.com/JordanKnott/taskcafe",
     "github": "https://github.com/JordanKnott/taskcafe",
@@ -3788,7 +3793,7 @@ import type { Tool } from '../types';
     "id": "silverbullet",
     "name": "Silverbullet",
     "slug": "silverbullet",
-    "tagline": "An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua",
+    "tagline": "Personal productivity platform built on Markdown, turbo charged with the scripting power of Lua",
     "description": "An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua",
     "website": "https://silverbullet.md",
     "github": "https://github.com/silverbulletmd/silverbullet",
@@ -3826,7 +3831,7 @@ import type { Tool } from '../types';
     "id": "ant-media-server",
     "name": "Ant Media Server",
     "slug": "ant-media-server",
-    "tagline": "Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive bitrate, tr...",
+    "tagline": "Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive…",
     "description": "Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive bitrate, transcoding & scaling",
     "website": "https://antmedia.io",
     "github": "https://github.com/ant-media/Ant-Media-Server",
@@ -3865,7 +3870,7 @@ import type { Tool } from '../types';
     "id": "kaneo",
     "name": "Kaneo",
     "slug": "kaneo",
-    "tagline": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+    "tagline": "All you need. Nothing you don't. Open source project management that works for you, not against you.",
     "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
     "website": "https://kaneo.app/",
     "github": "https://github.com/usekaneo/kaneo",
@@ -3905,7 +3910,7 @@ import type { Tool } from '../types';
     "id": "actionview",
     "name": "Actionview",
     "slug": "actionview",
-    "tagline": "An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar...",
+    "tagline": "An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and…",
     "description": "An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar to Jira.",
     "website": "https://actionview.cn",
     "github": "https://github.com/lxerxa/actionview",
@@ -3945,7 +3950,7 @@ import type { Tool } from '../types';
     "id": "bareos",
     "name": "Bareos",
     "slug": "bareos",
-    "tagline": "Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives, and recovers...",
+    "tagline": "Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives,…",
     "description": "Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives, and recovers data from all major operating systems.",
     "website": "http://www.bareos.org",
     "github": "https://github.com/bareos/bareos",
@@ -3983,7 +3988,7 @@ import type { Tool } from '../types';
     "id": "project-management",
     "name": "Project Management",
     "slug": "project-management",
-    "tagline": "An open source Project management tool based on Laravel and Filament",
+    "tagline": "Project management tool based on Laravel and Filament",
     "description": "An open source Project management tool based on Laravel and Filament",
     "website": "https://devaslanphp.github.io/project-management",
     "github": "https://github.com/devaslanphp/project-management",
@@ -4023,7 +4028,7 @@ import type { Tool } from '../types';
     "id": "cubytext",
     "name": "Cubytext",
     "slug": "cubytext",
-    "tagline": "An open-source knowledge management app.",
+    "tagline": "Knowledge management app.",
     "description": "An open-source knowledge management app.",
     "website": "https://github.com/vincentdchan/CubyText",
     "github": "https://github.com/vincentdchan/CubyText",
@@ -4100,7 +4105,7 @@ import type { Tool } from '../types';
     "id": "openakita",
     "name": "Openakita",
     "slug": "openakita",
-    "tagline": "An open-source AI assistant framework with skills and agent architecture",
+    "tagline": "AI assistant framework with skills and agent architecture",
     "description": "An open-source AI assistant framework with skills and agent architecture",
     "website": "http://openakita.ai",
     "github": "https://github.com/openakita/openakita",
@@ -4139,7 +4144,7 @@ import type { Tool } from '../types';
     "id": "hello-halo",
     "name": "Hello Halo",
     "slug": "hello-halo",
-    "tagline": "Open-source Claude Code GUI — like Claude Cowork.",
+    "tagline": "Claude Code GUI — like Claude Cowork.",
     "description": "Open-source Claude Code GUI — like Claude Cowork. Visual AI assistant with remote access, file management, and built-in AI browser.",
     "website": "https://hello-halo.cc/",
     "github": "https://github.com/openkursar/hello-halo",
@@ -4174,21 +4179,21 @@ import type { Tool } from '../types';
     "id": "ethora",
     "name": "Ethora",
     "slug": "ethora",
-    "tagline": "Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪.",
+    "tagline": "Engine for chat 💬, AI assistants 🤖 & wallets 🪪.",
     "description": "Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪. React, Typescript, Python, XMPP. Build future apps with chat, AI agents and web3.",
     "website": "https://ethora.com/",
     "github": "https://github.com/dappros/ethora",
     "license": "AGPL-3.0",
     "categories": [
-      "ki-ml"
+      "kommunikation"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "WhatsApp",
+      "Slack",
+      "Microsoft Teams"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "💬",
     "logoUrl": "https://avatars.githubusercontent.com/u/63907257?v=4",
     "stars": 521,
     "lastUpdated": "2025-10-07",
@@ -4213,7 +4218,7 @@ import type { Tool } from '../types';
     "id": "astroplate",
     "name": "Astroplate",
     "slug": "astroplate",
-    "tagline": "Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jum...",
+    "tagline": "Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you…",
     "description": "Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jumpstart your Astro project. Get started with Astroplate and save yourself hours of work!",
     "website": "https://zeon.studio/preview?project=astroplate",
     "github": "https://github.com/zeon-studio/astroplate",
@@ -4289,7 +4294,7 @@ import type { Tool } from '../types';
     "id": "greptimedb",
     "name": "Greptimedb",
     "slug": "greptimedb",
-    "tagline": "The open-source Observability 2.0 database. One engine for metrics, logs, and traces — replacing Prometheus, Loki & ES.",
+    "tagline": "Observability 2.0 database. One engine for metrics, logs, and traces — replacing Prometheus, Loki & ES.",
     "description": "The open-source Observability 2.0 database. One engine for metrics, logs, and traces — replacing Prometheus, Loki & ES.",
     "website": "https://greptime.com/",
     "github": "https://github.com/GreptimeTeam/greptimedb",
@@ -4328,7 +4333,7 @@ import type { Tool } from '../types';
     "id": "mlflow",
     "name": "Mlflow",
     "slug": "mlflow",
-    "tagline": "The open source AI engineering platform for agents, LLMs, and ML models.",
+    "tagline": "AI engineering platform for agents, LLMs, and ML models.",
     "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
     "website": "https://mlflow.org",
     "github": "https://github.com/mlflow/mlflow",
@@ -4367,7 +4372,7 @@ import type { Tool } from '../types';
     "id": "db-gpt",
     "name": "Db Gpt",
     "slug": "db-gpt",
-    "tagline": "open-source agentic AI data assistant for the next generation of AI + Data products.",
+    "tagline": "Agentic AI data assistant for the next generation of AI + Data products.",
     "description": "open-source agentic AI data assistant for the next generation of AI + Data products.",
     "website": "http://docs.dbgpt.cn",
     "github": "https://github.com/eosphoros-ai/DB-GPT",
@@ -4444,7 +4449,7 @@ import type { Tool } from '../types';
     "id": "chaterm",
     "name": "Chaterm",
     "slug": "chaterm",
-    "tagline": "Open source AI native terminal for Cloud and Infrastructure",
+    "tagline": "AI native terminal for Cloud and Infrastructure",
     "description": "Open source AI native terminal for Cloud and Infrastructure",
     "website": "https://chaterm.ai",
     "github": "https://github.com/chaterm/Chaterm",
@@ -4482,7 +4487,7 @@ import type { Tool } from '../types';
     "id": "mission-control",
     "name": "Mission Control",
     "slug": "mission-control",
-    "tagline": "Open-source dashboard for AI agent orchestration.",
+    "tagline": "Dashboard for AI agent orchestration.",
     "description": "Open-source dashboard for AI agent orchestration. Manage agent fleets, dispatch tasks, track costs, and coordinate multi-agent workflows. Self-hosted, zero dependencies, SQLite-powered.",
     "website": "https://mc.builderz.dev",
     "github": "https://github.com/builderz-labs/mission-control",
@@ -4566,15 +4571,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/percona/pmm",
     "license": "AGPL-3.0",
     "categories": [
-      "monitoring"
+      "medienserver"
     ],
     "replacesTools": [
-      "Datadog",
-      "New Relic",
-      "PagerDuty"
+      "Plex Premium",
+      "Emby"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📈",
+    "logoPlaceholderEmoji": "🎵",
     "logoUrl": "https://avatars.githubusercontent.com/u/1683025?v=4",
     "stars": 1003,
     "lastUpdated": "2026-04-06",
@@ -4598,7 +4602,7 @@ import type { Tool } from '../types';
     "id": "analytics",
     "name": "Analytics",
     "slug": "analytics",
-    "tagline": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+    "tagline": "Open source, privacy-first web analytics.",
     "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
     "website": "https://plausible.io",
     "github": "https://github.com/plausible/analytics",
@@ -4636,7 +4640,7 @@ import type { Tool } from '../types';
     "id": "open-generative-ai",
     "name": "Open Generative Ai",
     "slug": "open-generative-ai",
-    "tagline": "Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 2...",
+    "tagline": "Alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 2",
     "description": "Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.",
     "website": "https://dev.muapi.ai/open-generative-ai",
     "github": "https://github.com/Anil-matcha/Open-Generative-AI",
@@ -4675,7 +4679,7 @@ import type { Tool } from '../types';
     "id": "mirotalk",
     "name": "Mirotalk",
     "slug": "mirotalk",
-    "tagline": "🚀 Self-hosted open-source WebRTC video conferencing platform built on peer-to-peer (P2P) architecture for fast, secur...",
+    "tagline": "Self-hosted open-source WebRTC video conferencing platform built on peer-to-peer (P2P) architecture for…",
     "description": "🚀 Self-hosted open-source WebRTC video conferencing platform built on peer-to-peer (P2P) architecture for fast, secure real-time communication with end-to-end privacy.",
     "website": "https://p2p.mirotalk.com",
     "github": "https://github.com/miroslavpejic85/mirotalk",
@@ -4714,7 +4718,7 @@ import type { Tool } from '../types';
     "id": "mirotalksfu",
     "name": "Mirotalksfu",
     "slug": "mirotalksfu",
-    "tagline": "🏆 Self-hosted open-source WebRTC video conferencing platform for real-time communication and collaboration.",
+    "tagline": "Self-hosted open-source WebRTC video conferencing platform for real-time communication and collaboration.",
     "description": "🏆 Self-hosted open-source WebRTC video conferencing platform for real-time communication and collaboration. A modern Zoom alternative built on SFU architecture.",
     "website": "https://sfu.mirotalk.com",
     "github": "https://github.com/miroslavpejic85/mirotalksfu",
@@ -4792,7 +4796,7 @@ import type { Tool } from '../types';
     "id": "mirotalkc2c",
     "name": "Mirotalkc2c",
     "slug": "mirotalkc2c",
-    "tagline": "✨ Self-hosted open-source WebRTC cam-to-cam peer-to-peer video calling platform for immersive 1-to-1 real-time commun...",
+    "tagline": "Self-hosted open-source WebRTC cam-to-cam peer-to-peer video calling platform for immersive 1-to-1…",
     "description": "✨ Self-hosted open-source WebRTC cam-to-cam peer-to-peer video calling platform for immersive 1-to-1 real-time communication with end-to-end privacy. Each room is limited to two participants for maximum security.",
     "website": "https://c2c.mirotalk.com",
     "github": "https://github.com/miroslavpejic85/mirotalkc2c",
@@ -4837,14 +4841,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/IceWhaleTech/CasaOS",
     "license": "Apache-2.0",
     "categories": [
-      "container"
+      "betriebssysteme"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Windows",
+      "macOS"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🖥️",
     "logoUrl": "https://avatars.githubusercontent.com/u/91336243?v=4",
     "stars": 33770,
     "lastUpdated": "2025-08-06",
@@ -4869,7 +4873,7 @@ import type { Tool } from '../types';
     "id": "aionui",
     "name": "Aionui",
     "slug": "aionui",
-    "tagline": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+...",
+    "tagline": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini…",
     "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
     "website": "https://www.aionui.com",
     "github": "https://github.com/iOfficeAI/AionUi",
@@ -4908,7 +4912,7 @@ import type { Tool } from '../types';
     "id": "kuzzle",
     "name": "Kuzzle",
     "slug": "kuzzle",
-    "tagline": "Open-source Back-end, self-hostable & ready to use - Real-time, storage, advanced search - Web, Apps, Mobile, IoT -",
+    "tagline": "Back-end, self-hostable & ready to use - Real-time, storage, advanced search - Web, Apps, Mobile, IoT -",
     "description": "Open-source Back-end, self-hostable & ready to use - Real-time, storage, advanced search - Web, Apps, Mobile, IoT -",
     "website": "https://kuzzle.io",
     "github": "https://github.com/kuzzleio/kuzzle",
@@ -4985,20 +4989,20 @@ import type { Tool } from '../types';
     "id": "meteroid",
     "name": "Meteroid",
     "slug": "meteroid",
-    "tagline": "Open-source Pricing and Billing Infrastructure 🚀 Subscription management, Invoicing, Pricing, Usage-based billing, Co...",
+    "tagline": "Pricing and Billing Infrastructure 🚀 Subscription management, Invoicing, Pricing, Usage-based billing, Co",
     "description": "Open-source Pricing and Billing Infrastructure 🚀 Subscription management, Invoicing, Pricing, Usage-based billing, Cost limiting, Grandfathering, Experiments, Revenue analytics & Actionable insights",
     "website": "https://meteroid.com",
     "github": "https://github.com/meteroid-oss/meteroid",
     "license": "AGPL-3.0",
     "categories": [
-      "analytics"
+      "erp"
     ],
     "replacesTools": [
-      "Google Analytics",
-      "Mixpanel"
+      "SAP Business One",
+      "Oracle ERP"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📊",
+    "logoPlaceholderEmoji": "🏭",
     "logoUrl": "https://avatars.githubusercontent.com/u/125682265?v=4",
     "stars": 1067,
     "lastUpdated": "2026-05-05",
@@ -5102,7 +5106,7 @@ import type { Tool } from '../types';
     "id": "open-lovart",
     "name": "Open Lovart",
     "slug": "open-lovart",
-    "tagline": "Open-source AI design agent — alternative to Lovart, Runway Agent, Luma Labs Agent, Higgsfield Agent, Krea Agent, Pik...",
+    "tagline": "AI design agent — alternative to Lovart, Runway Agent, Luma Labs Agent, Higgsfield Agent, Krea Agent, Pik",
     "description": "Open-source AI design agent — alternative to Lovart, Runway Agent, Luma Labs Agent, Higgsfield Agent, Krea Agent, Pika Agent, Galileo AI, Magic Patterns. Autonomous multi-step creative for posters, social, brand kits, ad creatives, and video. Free, MIT-licensed, self-hosted.",
     "website": "https://dev.muapi.ai/open-lovart",
     "github": "https://github.com/Anil-matcha/Open-Lovart",
@@ -5140,7 +5144,7 @@ import type { Tool } from '../types';
     "id": "opensail",
     "name": "Opensail",
     "slug": "opensail",
-    "tagline": "OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.",
+    "tagline": "OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic…",
     "description": "OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.",
     "website": "https://tesslate.com",
     "github": "https://github.com/TesslateAI/OpenSail",
@@ -5178,7 +5182,7 @@ import type { Tool } from '../types';
     "id": "willow-inference-server",
     "name": "Willow Inference Server",
     "slug": "willow-inference-server",
-    "tagline": "Open source, local, and self-hosted highly optimized language inference server supporting ASR/STT, TTS, and LLM acros...",
+    "tagline": "Open source, local, and self-hosted highly optimized language inference server supporting ASR/STT, TTS,…",
     "description": "Open source, local, and self-hosted highly optimized language inference server supporting ASR/STT, TTS, and LLM across WebRTC, REST, and WS",
     "website": "https://github.com/toverainc/willow-inference-server",
     "github": "https://github.com/toverainc/willow-inference-server",
@@ -5256,20 +5260,21 @@ import type { Tool } from '../types';
     "id": "neohabit",
     "name": "Neohabit",
     "slug": "neohabit",
-    "tagline": "A self-hosted habit-tracker with a new approach to heatmaps, and flexible habits that happen X times in Y days.",
+    "tagline": "A self-hosted habit-tracker with a new approach to heatmaps, and flexible habits that happen X times in Y…",
     "description": "A self-hosted habit-tracker with a new approach to heatmaps, and flexible habits that happen X times in Y days.",
     "website": "http://neohabit.org/",
     "github": "https://github.com/Vsein/Neohabit",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "notizen"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Notion",
+      "Evernote",
+      "Obsidian"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "📝",
     "logoUrl": "https://avatars.githubusercontent.com/u/61903799?v=4",
     "stars": 198,
     "lastUpdated": "2026-02-24",
@@ -5300,14 +5305,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/public-apis/public-apis",
     "license": "MIT",
     "categories": [
-      "backend-frameworks"
+      "dev-tools"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/51121562?v=4",
     "stars": 432670,
     "lastUpdated": "2026-05-05",
@@ -5333,21 +5338,20 @@ import type { Tool } from '../types';
     "id": "system-prompts-and-models-of-ai-tools",
     "name": "System Prompts And Models Of Ai Tools",
     "slug": "system-prompts-and-models-of-ai-tools",
-    "tagline": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, No...",
+    "tagline": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new,…",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
     "website": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "github": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "license": "GPL-3.0",
     "categories": [
-      "ki-ml"
+      "dev-tools"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/185671340?v=4",
     "stars": 136812,
     "lastUpdated": "2026-04-29",
@@ -5492,7 +5496,7 @@ import type { Tool } from '../types';
     "id": "memos",
     "name": "Memos",
     "slug": "memos",
-    "tagline": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+    "tagline": "Open-source, self-hosted note-taking tool built for quick capture.",
     "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
     "website": "https://usememos.com",
     "github": "https://github.com/usememos/memos",
@@ -5524,7 +5528,7 @@ import type { Tool } from '../types';
       "linux",
       "docker"
     ],
-    "simpleIconsSlug": null,
+    "simpleIconsSlug": "memos",
     "featured": false,
     "addedDate": "2026-05-06"
   },
@@ -5571,21 +5575,20 @@ import type { Tool } from '../types';
     "id": "career-ops",
     "name": "Career Ops",
     "slug": "career-ops",
-    "tagline": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+    "tagline": "AI-powered job search system built on Claude Code.",
     "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
     "website": "https://career-ops.org",
     "github": "https://github.com/santifer/career-ops",
     "license": "MIT",
     "categories": [
-      "ki-ml"
+      "crm"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "Salesforce",
+      "HubSpot"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "🤝",
     "logoUrl": "https://avatars.githubusercontent.com/u/256850418?v=4",
     "stars": 43065,
     "lastUpdated": "2026-05-06",
@@ -5611,7 +5614,7 @@ import type { Tool } from '../types';
     "id": "rtk",
     "name": "Rtk",
     "slug": "rtk",
-    "tagline": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "tagline": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands.",
     "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
     "website": "https://www.rtk-ai.app",
     "github": "https://github.com/rtk-ai/rtk",
@@ -5651,20 +5654,20 @@ import type { Tool } from '../types';
     "id": "hyperswitch",
     "name": "Hyperswitch",
     "slug": "hyperswitch",
-    "tagline": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
+    "tagline": "Payments switch written in Rust to make payments fast, reliable and affordable",
     "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
     "website": "https://hyperswitch.io/",
     "github": "https://github.com/juspay/hyperswitch",
     "license": "Apache-2.0",
     "categories": [
-      "datenbanken"
+      "e-commerce"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "Shopify",
+      "Magento Commerce"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "🛒",
     "logoUrl": "https://avatars.githubusercontent.com/u/11497632?v=4",
     "stars": 42587,
     "lastUpdated": "2026-05-06",
@@ -5696,14 +5699,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/calcom/cal.diy",
     "license": "MIT",
     "categories": [
-      "datenbanken"
+      "kalender"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "Google Calendar",
+      "iCloud"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "📅",
     "logoUrl": "https://avatars.githubusercontent.com/u/79145102?v=4",
     "stars": 42372,
     "lastUpdated": "2026-05-05",
@@ -5729,21 +5732,20 @@ import type { Tool } from '../types';
     "id": "puter",
     "name": "Puter",
     "slug": "puter",
-    "tagline": "🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.",
+    "tagline": "The Internet Computer! Free, Open-Source, and Self-Hostable.",
     "description": "🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.",
     "website": "https://puter.com",
     "github": "https://github.com/HeyPuter/puter",
     "license": "AGPL-3.0",
     "categories": [
-      "cloud-speicher"
+      "betriebssysteme"
     ],
     "replacesTools": [
-      "Google Drive",
-      "Dropbox",
-      "OneDrive"
+      "Windows",
+      "macOS"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "☁️",
+    "logoPlaceholderEmoji": "🖥️",
     "logoUrl": "https://avatars.githubusercontent.com/u/103972607?v=4",
     "stars": 40933,
     "lastUpdated": "2026-05-06",
@@ -5848,7 +5850,7 @@ import type { Tool } from '../types';
     "id": "filebrowser",
     "name": "Filebrowser",
     "slug": "filebrowser",
-    "tagline": "📂 Web File Browser",
+    "tagline": "Web File Browser",
     "description": "📂 Web File Browser",
     "website": "https://filebrowser.org",
     "github": "https://github.com/filebrowser/filebrowser",
@@ -5888,7 +5890,7 @@ import type { Tool } from '../types';
     "id": "khoj",
     "name": "Khoj",
     "slug": "khoj",
-    "tagline": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations...",
+    "tagline": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule…",
     "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
     "website": "https://khoj.dev",
     "github": "https://github.com/khoj-ai/khoj",
@@ -5934,15 +5936,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/glanceapp/glance",
     "license": "AGPL-3.0",
     "categories": [
-      "monitoring"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "Datadog",
-      "New Relic",
-      "PagerDuty"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📈",
+    "logoPlaceholderEmoji": "⚙️",
     "logoUrl": "https://avatars.githubusercontent.com/u/159397742?v=4",
     "stars": 33999,
     "lastUpdated": "2025-12-10",
@@ -6007,21 +6008,20 @@ import type { Tool } from '../types';
     "id": "continue",
     "name": "Continue",
     "slug": "continue",
-    "tagline": "⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI",
+    "tagline": "Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI",
     "description": "⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI",
     "website": "https://docs.continue.dev",
     "github": "https://github.com/continuedev/continue",
     "license": "Apache-2.0",
     "categories": [
-      "ki-ml"
+      "dev-tools"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/127876214?v=4",
     "stars": 33004,
     "lastUpdated": "2026-05-06",
@@ -6053,14 +6053,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/dokku/dokku",
     "license": "MIT",
     "categories": [
-      "container"
+      "ci-cd"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "GitHub Actions",
+      "Jenkins",
+      "CircleCI"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🔄",
     "logoUrl": "https://avatars.githubusercontent.com/u/13455795?v=4",
     "stars": 31858,
     "lastUpdated": "2026-05-06",
@@ -6166,20 +6167,20 @@ import type { Tool } from '../types';
     "id": "homepage",
     "name": "Homepage",
     "slug": "homepage",
-    "tagline": "A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.",
+    "tagline": "A highly customizable homepage (or startpage / application dashboard) with Docker and service API…",
     "description": "A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.",
     "website": "https://gethomepage.dev",
     "github": "https://github.com/gethomepage/homepage",
     "license": "GPL-3.0",
     "categories": [
-      "container"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "⚙️",
     "logoUrl": "https://avatars.githubusercontent.com/u/122929872?v=4",
     "stars": 29930,
     "lastUpdated": "2026-05-06",
@@ -6211,14 +6212,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/community-scripts/ProxmoxVE",
     "license": "MIT",
     "categories": [
-      "container"
+      "betriebssysteme"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Windows",
+      "macOS"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🖥️",
     "logoUrl": "https://avatars.githubusercontent.com/u/187033296?v=4",
     "stars": 27922,
     "lastUpdated": "2026-05-06",
@@ -6244,20 +6245,21 @@ import type { Tool } from '../types';
     "id": "archivebox",
     "name": "Archivebox",
     "slug": "archivebox",
-    "tagline": "🗃 Open source self-hosted web archiving.",
+    "tagline": "Open source self-hosted web archiving.",
     "description": "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...",
     "website": "https://archivebox.io",
     "github": "https://github.com/ArchiveBox/ArchiveBox",
     "license": "MIT",
     "categories": [
-      "browser"
+      "notizen"
     ],
     "replacesTools": [
-      "Chrome",
-      "Edge"
+      "Notion",
+      "Evernote",
+      "Obsidian"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🌐",
+    "logoPlaceholderEmoji": "📝",
     "logoUrl": "https://avatars.githubusercontent.com/u/74894248?v=4",
     "stars": 27406,
     "lastUpdated": "2026-04-24",
@@ -6283,20 +6285,20 @@ import type { Tool } from '../types';
     "id": "dashy",
     "name": "Dashy",
     "slug": "dashy",
-    "tagline": "🚀 A self-hostable personal dashboard built for you.",
+    "tagline": "A self-hostable personal dashboard built for you.",
     "description": "🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!",
     "website": "https://dashy.to",
     "github": "https://github.com/Lissy93/dashy",
     "license": "MIT",
     "categories": [
-      "container"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "⚙️",
     "logoUrl": "https://avatars.githubusercontent.com/u/1862727?v=4",
     "stars": 25001,
     "lastUpdated": "2026-05-03",
@@ -6322,7 +6324,7 @@ import type { Tool } from '../types';
     "id": "karakeep",
     "name": "Karakeep",
     "slug": "karakeep",
-    "tagline": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+    "tagline": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full…",
     "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
     "website": "https://karakeep.app",
     "github": "https://github.com/karakeep-app/karakeep",
@@ -6438,7 +6440,7 @@ import type { Tool } from '../types';
     "id": "safeline",
     "name": "Safeline",
     "slug": "safeline",
-    "tagline": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exp...",
+    "tagline": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from…",
     "description": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
     "website": "https://ly.safepoint.cloud/fUxS0GW",
     "github": "https://github.com/chaitin/SafeLine",
@@ -6483,14 +6485,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/m1k1o/neko",
     "license": "Apache-2.0",
     "categories": [
-      "container"
+      "browser"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Chrome",
+      "Edge"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🌐",
     "logoUrl": "https://avatars.githubusercontent.com/u/7534274?v=4",
     "stars": 20791,
     "lastUpdated": "2026-04-25",
@@ -6522,15 +6524,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/ImranR98/Obtainium",
     "license": "GPL-3.0",
     "categories": [
-      "code-hosting"
+      "betriebssysteme"
     ],
     "replacesTools": [
-      "GitHub",
-      "Bitbucket",
-      "Azure DevOps"
+      "Windows",
+      "macOS"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗃️",
+    "logoPlaceholderEmoji": "🖥️",
     "logoUrl": "https://avatars.githubusercontent.com/u/30463115?v=4",
     "stars": 16902,
     "lastUpdated": "2026-04-16",
@@ -6562,15 +6563,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/vxcontrol/pentagi",
     "license": "MIT",
     "categories": [
-      "ki-ml"
+      "firewall"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "🔥",
     "logoUrl": "https://avatars.githubusercontent.com/u/39194251?v=4",
     "stars": 16552,
     "lastUpdated": "2026-05-06",
@@ -6636,21 +6636,21 @@ import type { Tool } from '../types';
     "id": "deepwiki-open",
     "name": "Deepwiki Open",
     "slug": "deepwiki-open",
-    "tagline": "Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories.",
+    "tagline": "DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories.",
     "description": "Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme",
     "website": "https://asyncfunc.mintlify.app/",
     "github": "https://github.com/AsyncFuncAI/deepwiki-open",
     "license": "MIT",
     "categories": [
-      "ki-ml"
+      "wiki"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "Confluence",
+      "Notion",
+      "GitBook"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "📚",
     "logoUrl": "https://avatars.githubusercontent.com/u/194295535?v=4",
     "stars": 16135,
     "lastUpdated": "2026-04-21",
@@ -6676,7 +6676,7 @@ import type { Tool } from '../types';
     "id": "maxun",
     "name": "Maxun",
     "slug": "maxun",
-    "tagline": "🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into str...",
+    "tagline": "The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites…",
     "description": "🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥",
     "website": "https://www.maxun.dev",
     "github": "https://github.com/getmaxun/maxun",
@@ -6721,15 +6721,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/theonedev/onedev",
     "license": "MIT",
     "categories": [
-      "ci-cd"
+      "code-hosting"
     ],
     "replacesTools": [
-      "GitHub Actions",
-      "Jenkins",
-      "CircleCI"
+      "GitHub",
+      "Bitbucket",
+      "Azure DevOps"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🔄",
+    "logoPlaceholderEmoji": "🗃️",
     "logoUrl": "https://avatars.githubusercontent.com/u/44279871?v=4",
     "stars": 14947,
     "lastUpdated": "2026-05-03",
@@ -6760,15 +6760,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
     "license": "Apache-2.0",
     "categories": [
-      "ki-ml"
+      "dev-tools"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/45487711?v=4",
     "stars": 14769,
     "lastUpdated": "2026-01-06",
@@ -6798,14 +6797,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/alexta69/metube",
     "license": "AGPL-3.0",
     "categories": [
-      "dev-tools"
+      "video-audio"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "Adobe Premiere",
+      "Final Cut",
+      "Audition"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "🎬",
     "logoUrl": "https://avatars.githubusercontent.com/u/7450369?v=4",
     "stars": 13452,
     "lastUpdated": "2026-04-28",
@@ -6834,14 +6834,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/alam00000/bentopdf",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "buerosoftware"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Microsoft Office",
+      "Google Docs"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "📄",
     "logoUrl": "https://avatars.githubusercontent.com/u/50314772?v=4",
     "stars": 13106,
     "lastUpdated": "2026-05-06",
@@ -6867,7 +6867,7 @@ import type { Tool } from '../types';
     "id": "opensearch",
     "name": "Opensearch",
     "slug": "opensearch",
-    "tagline": "🔎 Open source distributed and RESTful search engine.",
+    "tagline": "Open source distributed and RESTful search engine.",
     "description": "🔎 Open source distributed and RESTful search engine.",
     "website": "https://opensearch.org/docs/latest/opensearch/index/",
     "github": "https://github.com/opensearch-project/OpenSearch",
@@ -6905,20 +6905,20 @@ import type { Tool } from '../types';
     "id": "portmaster",
     "name": "Portmaster",
     "slug": "portmaster",
-    "tagline": "🏔 Love Freedom - ❌ Block Mass Surveillance",
+    "tagline": "Love Freedom - ❌ Block Mass Surveillance",
     "description": "🏔 Love Freedom - ❌ Block Mass Surveillance",
     "website": "https://safing.io",
     "github": "https://github.com/safing/portmaster",
     "license": "GPL-3.0",
     "categories": [
-      "dns-adblock"
+      "firewall"
     ],
     "replacesTools": [
-      "Google DNS",
-      "kommerzielle Filter"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🚫",
+    "logoPlaceholderEmoji": "🔥",
     "logoUrl": "https://avatars.githubusercontent.com/u/20678162?v=4",
     "stars": 12572,
     "lastUpdated": "2026-05-06",
@@ -6944,7 +6944,7 @@ import type { Tool } from '../types';
     "id": "illa-builder",
     "name": "Illa Builder",
     "slug": "illa-builder",
-    "tagline": "Low-code platform allows you to build business apps, enables you to quickly create internal tools such as dashboard, ...",
+    "tagline": "Low-code platform allows you to build business apps, enables you to quickly create internal tools such as…",
     "description": "Low-code platform allows you to build business apps, enables you to quickly create internal tools such as dashboard, crud app, admin panel, crm, cms, etc. Supports PostgreSQL, MySQL, Supabase, GraphQL, MongoDB, MSSQL, Rest API, Hugging Face, Redis, etc. Automate workflows with schedule or webhook. Open source Retool.",
     "website": "https://github.com/illacloud/illa-builder",
     "github": "https://github.com/illacloud/illa-builder",
@@ -6983,20 +6983,21 @@ import type { Tool } from '../types';
     "id": "mealie",
     "name": "Mealie",
     "slug": "mealie",
-    "tagline": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application bu...",
+    "tagline": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend…",
     "description": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor",
     "website": "https://docs.mealie.io",
     "github": "https://github.com/mealie-recipes/mealie",
     "license": "AGPL-3.0",
     "categories": [
-      "backend-frameworks"
+      "notizen"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "Notion",
+      "Evernote",
+      "Obsidian"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "📝",
     "logoUrl": "https://avatars.githubusercontent.com/u/92342333?v=4",
     "stars": 12134,
     "lastUpdated": "2026-05-06",
@@ -7018,21 +7019,20 @@ import type { Tool } from '../types';
     "id": "owncast",
     "name": "Owncast",
     "slug": "owncast",
-    "tagline": "Take control over your live stream video by running it yourself.  Streaming + chat out of the box.",
+    "tagline": "Take control over your live stream video by running it yourself. Streaming + chat out of the box.",
     "description": "Take control over your live stream video by running it yourself.  Streaming + chat out of the box.",
     "website": "https://owncast.online",
     "github": "https://github.com/owncast/owncast",
     "license": "MIT",
     "categories": [
-      "social-media"
+      "medienserver"
     ],
     "replacesTools": [
-      "Twitter/X",
-      "Instagram",
-      "Facebook"
+      "Plex Premium",
+      "Emby"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📱",
+    "logoPlaceholderEmoji": "🎵",
     "logoUrl": "https://avatars.githubusercontent.com/u/69942503?v=4",
     "stars": 11224,
     "lastUpdated": "2026-05-06",
@@ -7064,14 +7064,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/0xJacky/nginx-ui",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "monitoring"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "📈",
     "logoUrl": "https://avatars.githubusercontent.com/u/13096985?v=4",
     "stars": 11120,
     "lastUpdated": "2026-05-06",
@@ -7145,14 +7146,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/sissbruecker/linkding",
     "license": "MIT",
     "categories": [
-      "container"
+      "notizen"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Notion",
+      "Evernote",
+      "Obsidian"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "📝",
     "logoUrl": "https://avatars.githubusercontent.com/u/357820?v=4",
     "stars": 10562,
     "lastUpdated": "2026-04-07",
@@ -7219,14 +7221,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/is-a-dev/register",
     "license": "GPL-3.0",
     "categories": [
-      "dns-adblock"
+      "dev-tools"
     ],
     "replacesTools": [
-      "Google DNS",
-      "kommerzielle Filter"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🚫",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/72358814?v=4",
     "stars": 10227,
     "lastUpdated": "2026-05-06",
@@ -7252,20 +7254,20 @@ import type { Tool } from '../types';
     "id": "lago",
     "name": "Lago",
     "slug": "lago",
-    "tagline": "Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations...",
+    "tagline": "Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations",
     "description": "Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics",
     "website": "https://www.getlago.com",
     "github": "https://github.com/getlago/lago",
     "license": "AGPL-3.0",
     "categories": [
-      "analytics"
+      "erp"
     ],
     "replacesTools": [
-      "Google Analytics",
-      "Mixpanel"
+      "SAP Business One",
+      "Oracle ERP"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📊",
+    "logoPlaceholderEmoji": "🏭",
     "logoUrl": "https://avatars.githubusercontent.com/u/75492405?v=4",
     "stars": 9629,
     "lastUpdated": "2026-05-06",
@@ -7370,20 +7372,21 @@ import type { Tool } from '../types';
     "id": "grocy",
     "name": "Grocy",
     "slug": "grocy",
-    "tagline": "ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home",
+    "tagline": "ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for…",
     "description": "ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home",
     "website": "https://grocy.info",
     "github": "https://github.com/grocy/grocy",
     "license": "MIT",
     "categories": [
-      "erp"
+      "notizen"
     ],
     "replacesTools": [
-      "SAP Business One",
-      "Oracle ERP"
+      "Notion",
+      "Evernote",
+      "Obsidian"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🏭",
+    "logoPlaceholderEmoji": "📝",
     "logoUrl": "https://avatars.githubusercontent.com/u/44542094?v=4",
     "stars": 9022,
     "lastUpdated": "2026-04-24",
@@ -7487,7 +7490,7 @@ import type { Tool } from '../types';
     "id": "certimate",
     "name": "Certimate",
     "slug": "certimate",
-    "tagline": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, ren...",
+    "tagline": "And free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, ren",
     "description": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, renewal, and monitoring visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期、监控全流程自动化可视化，支持各大主流云厂商。",
     "website": "https://docs.certimate.me",
     "github": "https://github.com/certimate-go/certimate",
@@ -7527,7 +7530,7 @@ import type { Tool } from '../types';
     "id": "simplewall",
     "name": "Simplewall",
     "slug": "simplewall",
-    "tagline": "Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your computer.",
+    "tagline": "Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your…",
     "description": "Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your computer.",
     "website": "https://github.com/henrypp/simplewall",
     "github": "https://github.com/henrypp/simplewall",
@@ -7572,14 +7575,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/homarr-labs/dashboard-icons",
     "license": "Apache-2.0",
     "categories": [
-      "container"
+      "dev-tools"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/153325344?v=4",
     "stars": 8103,
     "lastUpdated": "2026-05-06",
@@ -7643,20 +7646,21 @@ import type { Tool } from '../types';
     "id": "teslamate",
     "name": "Teslamate",
     "slug": "teslamate",
-    "tagline": "A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld]",
+    "tagline": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
     "description": "A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld]",
     "website": "https://docs.teslamate.org",
     "github": "https://github.com/teslamate-org/teslamate",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "monitoring"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "📈",
     "logoUrl": "https://avatars.githubusercontent.com/u/150616486?v=4",
     "stars": 7947,
     "lastUpdated": "2026-05-05",
@@ -7688,14 +7692,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/ellite/Wallos",
     "license": "GPL-3.0",
     "categories": [
-      "container"
+      "erp"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "SAP Business One",
+      "Oracle ERP"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🏭",
     "logoUrl": "https://avatars.githubusercontent.com/u/3831180?v=4",
     "stars": 7844,
     "lastUpdated": "2026-04-27",
@@ -7726,14 +7730,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/pocket-id/pocket-id",
     "license": "BSD-2-Clause",
     "categories": [
-      "dev-tools"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "⚙️",
     "logoUrl": "https://avatars.githubusercontent.com/u/197418917?v=4",
     "stars": 7737,
     "lastUpdated": "2026-05-05",
@@ -7762,14 +7766,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/btcpayserver/btcpayserver",
     "license": "MIT",
     "categories": [
-      "backend-frameworks"
+      "e-commerce"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "Shopify",
+      "Magento Commerce"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "🛒",
     "logoUrl": "https://avatars.githubusercontent.com/u/31132886?v=4",
     "stars": 7547,
     "lastUpdated": "2026-05-06",
@@ -7919,14 +7923,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/databasus/databasus",
     "license": "Apache-2.0",
     "categories": [
-      "datenbanken"
+      "backup"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "Backblaze",
+      "Acronis"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "💾",
     "logoUrl": "https://avatars.githubusercontent.com/u/250606279?v=4",
     "stars": 6734,
     "lastUpdated": "2026-05-06",
@@ -7952,7 +7956,7 @@ import type { Tool } from '../types';
     "id": "spacebarchat",
     "name": "Spacebarchat",
     "slug": "spacebarchat",
-    "tagline": "📬 Spacebar is a free open source selfhostable discord compatible communication platform",
+    "tagline": "Spacebar is a free open source selfhostable discord compatible communication platform",
     "description": "📬 Spacebar is a free open source selfhostable discord compatible communication platform",
     "website": "https://spacebar.chat",
     "github": "https://github.com/spacebarchat/spacebarchat",
@@ -8116,14 +8120,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/netalertx/NetAlertX",
     "license": "GPL-3.0",
     "categories": [
-      "firewall"
+      "monitoring"
     ],
     "replacesTools": [
-      "Cisco",
-      "proprietary"
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🔥",
+    "logoPlaceholderEmoji": "📈",
     "logoUrl": "https://avatars.githubusercontent.com/u/229217789?v=4",
     "stars": 6329,
     "lastUpdated": "2026-05-04",
@@ -8155,14 +8160,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/evidence-dev/evidence",
     "license": "MIT",
     "categories": [
-      "datenbanken"
+      "analytics"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "Google Analytics",
+      "Mixpanel"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "📊",
     "logoUrl": "https://avatars.githubusercontent.com/u/82418810?v=4",
     "stars": 6295,
     "lastUpdated": "2026-02-18",
@@ -8188,20 +8193,20 @@ import type { Tool } from '../types';
     "id": "microsandbox",
     "name": "Microsandbox",
     "slug": "microsandbox",
-    "tagline": "🧱 secure, local and programmable sandboxes for AI agents",
+    "tagline": "Secure, local and programmable sandboxes for AI agents",
     "description": "🧱 secure, local and programmable sandboxes for AI agents",
     "website": "https://docs.microsandbox.dev",
     "github": "https://github.com/superradcompany/microsandbox",
     "license": "Apache-2.0",
     "categories": [
-      "container"
+      "dev-tools"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/145875517?v=4",
     "stars": 5963,
     "lastUpdated": "2026-05-06",
@@ -8229,20 +8234,21 @@ import type { Tool } from '../types';
     "id": "pulse",
     "name": "Pulse",
     "slug": "pulse",
-    "tagline": "Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unif...",
+    "tagline": "Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a…",
     "description": "Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard",
     "website": "https://pulserelay.pro",
     "github": "https://github.com/rcourtman/Pulse",
     "license": "MIT",
     "categories": [
-      "container"
+      "monitoring"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "📈",
     "logoUrl": "https://avatars.githubusercontent.com/u/8825017?v=4",
     "stars": 5610,
     "lastUpdated": "2026-05-06",
@@ -8268,21 +8274,20 @@ import type { Tool } from '../types';
     "id": "taxhacker",
     "name": "Taxhacker",
     "slug": "taxhacker",
-    "tagline": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
+    "tagline": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and…",
     "description": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
     "website": "https://taxhacker.app",
     "github": "https://github.com/vas3k/TaxHacker",
     "license": "MIT",
     "categories": [
-      "ki-ml"
+      "buerosoftware"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "Microsoft Office",
+      "Google Docs"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "📄",
     "logoUrl": "https://avatars.githubusercontent.com/u/176344?v=4",
     "stars": 5545,
     "lastUpdated": "2026-04-17",
@@ -8308,7 +8313,7 @@ import type { Tool } from '../types';
     "id": "local-deep-research",
     "name": "Local Deep Research",
     "slug": "local-deep-research",
-    "tagline": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10...",
+    "tagline": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama,…",
     "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
     "website": "https://github.com/LearningCircuit/local-deep-research",
     "github": "https://github.com/LearningCircuit/local-deep-research",
@@ -8432,14 +8437,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/isso-comments/isso",
     "license": "MIT",
     "categories": [
-      "backend-frameworks"
+      "cms"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "🌍",
     "logoUrl": "https://avatars.githubusercontent.com/u/101195030?v=4",
     "stars": 5279,
     "lastUpdated": "2026-05-05",
@@ -8469,14 +8475,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/libreddit/libreddit",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "social-media"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Twitter/X",
+      "Instagram",
+      "Facebook"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "📱",
     "logoUrl": "https://avatars.githubusercontent.com/u/117129612?v=4",
     "stars": 5191,
     "lastUpdated": "2025-02-15",
@@ -8508,14 +8515,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/psviderski/uncloud",
     "license": "Apache-2.0",
     "categories": [
-      "container"
+      "ci-cd"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "GitHub Actions",
+      "Jenkins",
+      "CircleCI"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🔄",
     "logoUrl": "https://avatars.githubusercontent.com/u/783910?v=4",
     "stars": 5156,
     "lastUpdated": "2026-05-05",
@@ -8547,14 +8555,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/hslr-s/sun-panel",
     "license": "MIT",
     "categories": [
-      "container"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "⚙️",
     "logoUrl": "https://avatars.githubusercontent.com/u/38825747?v=4",
     "stars": 5116,
     "lastUpdated": "2025-12-31",
@@ -8580,21 +8588,20 @@ import type { Tool } from '../types';
     "id": "mediacms",
     "name": "Mediacms",
     "slug": "mediacms",
-    "tagline": "MediaCMS is a modern, fully featured open source video and media CMS, written in Python/Django and React, featuring a...",
+    "tagline": "MediaCMS is a modern, fully featured open source video and media CMS, written in Python/Django and React,…",
     "description": "MediaCMS is a modern, fully featured open source video and media CMS, written in Python/Django and React, featuring a REST API.",
     "website": "https://mediacms.io",
     "github": "https://github.com/mediacms-io/mediacms",
     "license": "AGPL-3.0",
     "categories": [
-      "cms"
+      "medienserver"
     ],
     "replacesTools": [
-      "WordPress.com",
-      "Squarespace",
-      "Wix"
+      "Plex Premium",
+      "Emby"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🌍",
+    "logoPlaceholderEmoji": "🎵",
     "logoUrl": "https://avatars.githubusercontent.com/u/54712209?v=4",
     "stars": 4889,
     "lastUpdated": "2026-05-06",
@@ -8626,15 +8633,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/scanopy/scanopy",
     "license": "AGPL-3.0",
     "categories": [
-      "wiki"
+      "cms"
     ],
     "replacesTools": [
-      "Confluence",
-      "Notion",
-      "GitBook"
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📚",
+    "logoPlaceholderEmoji": "🌍",
     "logoUrl": "https://avatars.githubusercontent.com/u/249509125?v=4",
     "stars": 4875,
     "lastUpdated": "2026-05-03",
@@ -8660,20 +8667,22 @@ import type { Tool } from '../types';
     "id": "trek",
     "name": "Trek",
     "slug": "trek",
-    "tagline": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing ...",
+    "tagline": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO,…",
     "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
     "website": "https://demo-nomad.pakulat.org",
     "github": "https://github.com/mauriceboe/TREK",
     "license": "AGPL-3.0",
     "categories": [
-      "backend-frameworks"
+      "projektmanagement"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "Asana",
+      "Monday",
+      "Jira",
+      "Trello"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "✅",
     "logoUrl": "https://avatars.githubusercontent.com/u/61554723?v=4",
     "stars": 4752,
     "lastUpdated": "2026-05-06",
@@ -8699,7 +8708,7 @@ import type { Tool } from '../types';
     "id": "ezbookkeeping",
     "name": "Ezbookkeeping",
     "slug": "ezbookkeeping",
-    "tagline": "A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.",
+    "tagline": "A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping…",
     "description": "A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.",
     "website": "https://ezbookkeeping.mayswind.net",
     "github": "https://github.com/mayswind/ezbookkeeping",
@@ -8744,14 +8753,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/beclab/Olares",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "betriebssysteme"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Windows",
+      "macOS"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🖥️",
     "logoUrl": "https://avatars.githubusercontent.com/u/166520503?v=4",
     "stars": 4517,
     "lastUpdated": "2026-05-06",
@@ -8783,15 +8792,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/Yooooomi/your_spotify",
     "license": "GPL-3.0",
     "categories": [
-      "monitoring"
+      "analytics"
     ],
     "replacesTools": [
-      "Datadog",
-      "New Relic",
-      "PagerDuty"
+      "Google Analytics",
+      "Mixpanel"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📈",
+    "logoPlaceholderEmoji": "📊",
     "logoUrl": "https://avatars.githubusercontent.com/u/17204739?v=4",
     "stars": 4416,
     "lastUpdated": "2026-03-30",
@@ -8816,20 +8824,21 @@ import type { Tool } from '../types';
     "id": "wakapi",
     "name": "Wakapi",
     "slug": "wakapi",
-    "tagline": "📊 A minimalist, self-hosted WakaTime-compatible backend for coding statistics",
+    "tagline": "A minimalist, self-hosted WakaTime-compatible backend for coding statistics",
     "description": "📊 A minimalist, self-hosted WakaTime-compatible backend for coding statistics",
     "website": "https://wakapi.dev",
     "github": "https://github.com/muety/wakapi",
     "license": "MIT",
     "categories": [
-      "dev-tools"
+      "zeiterfassung"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "Harvest",
+      "Toggl",
+      "Clockify Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "⏱️",
     "logoUrl": "https://avatars.githubusercontent.com/u/8978843?v=4",
     "stars": 4300,
     "lastUpdated": "2026-05-02",
@@ -8855,20 +8864,21 @@ import type { Tool } from '../types';
     "id": "kubero",
     "name": "Kubero",
     "slug": "kubero",
-    "tagline": "A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes",
+    "tagline": "A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running…",
     "description": "A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes",
     "website": "https://demo.kubero.dev",
     "github": "https://github.com/kubero-dev/kubero",
     "license": "GPL-3.0",
     "categories": [
-      "container"
+      "ci-cd"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "GitHub Actions",
+      "Jenkins",
+      "CircleCI"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🔄",
     "logoUrl": "https://avatars.githubusercontent.com/u/106908824?v=4",
     "stars": 4265,
     "lastUpdated": "2026-04-15",
@@ -8900,14 +8910,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/autobase-tech/autobase",
     "license": "MIT",
     "categories": [
-      "datenbanken"
+      "ci-cd"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "GitHub Actions",
+      "Jenkins",
+      "CircleCI"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "🔄",
     "logoUrl": "https://avatars.githubusercontent.com/u/271059185?v=4",
     "stars": 4168,
     "lastUpdated": "2026-05-02",
@@ -8933,20 +8944,20 @@ import type { Tool } from '../types';
     "id": "bitmagnet",
     "name": "Bitmagnet",
     "slug": "bitmagnet",
-    "tagline": "A self-hosted BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API ...",
+    "tagline": "A self-hosted BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI,…",
     "description": "A self-hosted BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API and Servarr stack integration.",
     "website": "https://bitmagnet.io/",
     "github": "https://github.com/bitmagnet-io/bitmagnet",
     "license": "MIT",
     "categories": [
-      "backend-frameworks"
+      "medienserver"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "Plex Premium",
+      "Emby"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "🎵",
     "logoUrl": "https://avatars.githubusercontent.com/u/146768397?v=4",
     "stars": 4023,
     "lastUpdated": "2026-01-31",
@@ -9011,21 +9022,20 @@ import type { Tool } from '../types';
     "id": "personal-management-system",
     "name": "Personal Management System",
     "slug": "personal-management-system",
-    "tagline": "Your web application for managing personal data.  personal.management.system.inbox@gmail.com",
+    "tagline": "Your web application for managing personal data. personal.management.system.inbox@gmail.com",
     "description": "Your web application for managing personal data.  personal.management.system.inbox@gmail.com",
     "website": "http://personal-management-system.pl/",
     "github": "https://github.com/Volmarg/personal-management-system",
     "license": "MIT",
     "categories": [
-      "cms"
+      "buerosoftware"
     ],
     "replacesTools": [
-      "WordPress.com",
-      "Squarespace",
-      "Wix"
+      "Microsoft Office",
+      "Google Docs"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🌍",
+    "logoPlaceholderEmoji": "📄",
     "logoUrl": "https://avatars.githubusercontent.com/u/37488679?v=4",
     "stars": 4000,
     "lastUpdated": "2026-05-02",
@@ -9057,14 +9067,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/Bubka/2FAuth",
     "license": "AGPL-3.0",
     "categories": [
-      "backend-frameworks"
+      "passwort-manager"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "LastPass",
+      "1Password"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "🔑",
     "logoUrl": "https://avatars.githubusercontent.com/u/858858?v=4",
     "stars": 3916,
     "lastUpdated": "2026-05-04",
@@ -9132,14 +9142,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/libredirect/browser_extension",
     "license": "GPL-3.0",
     "categories": [
-      "browser"
+      "dev-tools"
     ],
     "replacesTools": [
-      "Chrome",
-      "Edge"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🌐",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/95481720?v=4",
     "stars": 3872,
     "lastUpdated": "2026-03-24",
@@ -9205,7 +9215,7 @@ import type { Tool } from '../types';
     "id": "hermes-web-ui",
     "name": "Hermes Web Ui",
     "slug": "hermes-web-ui",
-    "tagline": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channe...",
+    "tagline": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage…",
     "description": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, WhatsApp)",
     "website": "https://github.com/EKKOLearnAI/hermes-web-ui",
     "github": "https://github.com/EKKOLearnAI/hermes-web-ui",
@@ -9251,14 +9261,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/davestephens/ansible-nas",
     "license": "MIT",
     "categories": [
-      "container"
+      "betriebssysteme"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Windows",
+      "macOS"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🖥️",
     "logoUrl": "https://avatars.githubusercontent.com/u/668464?v=4",
     "stars": 3732,
     "lastUpdated": "2026-02-17",
@@ -9290,14 +9300,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/open-wanderer/wanderer",
     "license": "AGPL-3.0",
     "categories": [
-      "datenbanken"
+      "karten"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "Google Maps API",
+      "Mapbox"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "🗺️",
     "logoUrl": "https://avatars.githubusercontent.com/u/252643751?v=4",
     "stars": 3587,
     "lastUpdated": "2026-05-06",
@@ -9361,7 +9371,7 @@ import type { Tool } from '../types';
     "id": "refact",
     "name": "Refact",
     "slug": "refact",
-    "tagline": "AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates ...",
+    "tagline": "AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes,…",
     "description": "AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates until it achieves a successful result.",
     "website": "https://refact.ai",
     "github": "https://github.com/smallcloudai/refact",
@@ -9401,7 +9411,7 @@ import type { Tool } from '../types';
     "id": "seanime",
     "name": "Seanime",
     "slug": "seanime",
-    "tagline": "Open-source media server with a web interface and desktop app for anime and manga.",
+    "tagline": "Media server with a web interface and desktop app for anime and manga.",
     "description": "Open-source media server with a web interface and desktop app for anime and manga.",
     "website": "https://seanime.app",
     "github": "https://github.com/5rahim/seanime",
@@ -9446,14 +9456,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/Finb/bark-server",
     "license": "MIT",
     "categories": [
-      "backend-frameworks"
+      "kommunikation"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "WhatsApp",
+      "Slack",
+      "Microsoft Teams"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "💬",
     "logoUrl": "https://avatars.githubusercontent.com/u/6845272?v=4",
     "stars": 3431,
     "lastUpdated": "2026-05-06",
@@ -9475,20 +9486,21 @@ import type { Tool } from '../types';
     "id": "pinry",
     "name": "Pinry",
     "slug": "pinry",
-    "tagline": "Pinry, a tiling image board system for people who want to save, tag, and share images, videos and webpages in an easy...",
+    "tagline": "Pinry, a tiling image board system for people who want to save, tag, and share images, videos and webpages…",
     "description": "Pinry, a tiling image board system for people who want to save, tag, and share images, videos and webpages in an easy to skim through format. It's open-source and self-hosted.",
     "website": "https://pinry.github.io/pinry/",
     "github": "https://github.com/pinry/pinry",
     "license": "BSD-2-Clause",
     "categories": [
-      "dev-tools"
+      "fotos"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "Google Photos",
+      "iCloud Photos",
+      "Amazon Photos"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "📷",
     "logoUrl": "https://avatars.githubusercontent.com/u/3700581?v=4",
     "stars": 3366,
     "lastUpdated": "2026-01-05",
@@ -9520,14 +9532,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/FossifyOrg/Gallery",
     "license": "GPL-3.0",
     "categories": [
-      "dev-tools"
+      "fotos"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "Google Photos",
+      "iCloud Photos",
+      "Amazon Photos"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "📷",
     "logoUrl": "https://avatars.githubusercontent.com/u/152776864?v=4",
     "stars": 3328,
     "lastUpdated": "2026-05-04",
@@ -9557,14 +9570,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/Kovah/LinkAce",
     "license": "GPL-3.0",
     "categories": [
-      "container"
+      "notizen"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Notion",
+      "Evernote",
+      "Obsidian"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "📝",
     "logoUrl": "https://avatars.githubusercontent.com/u/1816101?v=4",
     "stars": 3284,
     "lastUpdated": "2026-05-06",
@@ -9596,14 +9610,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/TomBursch/kitchenowl",
     "license": "AGPL-3.0",
     "categories": [
-      "backend-frameworks"
+      "notizen"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "Notion",
+      "Evernote",
+      "Obsidian"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "📝",
     "logoUrl": "https://avatars.githubusercontent.com/u/9092682?v=4",
     "stars": 3263,
     "lastUpdated": "2026-05-01",
@@ -9636,14 +9651,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/yourselfhosted/slash",
     "license": "AGPL-3.0",
     "categories": [
-      "datenbanken"
+      "cms"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "🌍",
     "logoUrl": "https://avatars.githubusercontent.com/u/140182318?v=4",
     "stars": 3150,
     "lastUpdated": "2026-03-01",
@@ -9714,14 +9730,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/amalshaji/portr",
     "license": "AGPL-3.0",
     "categories": [
-      "dev-tools"
+      "vpn"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "NordVPN",
+      "ExpressVPN"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "🛡️",
     "logoUrl": "https://avatars.githubusercontent.com/u/18011385?v=4",
     "stars": 3129,
     "lastUpdated": "2026-05-06",
@@ -9753,16 +9769,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/frappe/helpdesk",
     "license": "AGPL-3.0",
     "categories": [
-      "projektmanagement"
+      "crm"
     ],
     "replacesTools": [
-      "Asana",
-      "Monday",
-      "Jira",
-      "Trello"
+      "Salesforce",
+      "HubSpot"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "✅",
+    "logoPlaceholderEmoji": "🤝",
     "logoUrl": "https://avatars.githubusercontent.com/u/836974?v=4",
     "stars": 3113,
     "lastUpdated": "2026-05-06",
@@ -9794,14 +9808,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/sergiotapia/magnetissimo",
     "license": "MIT",
     "categories": [
-      "suchmaschinen"
+      "medienserver"
     ],
     "replacesTools": [
-      "Google",
-      "Bing"
+      "Plex Premium",
+      "Emby"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🔍",
+    "logoPlaceholderEmoji": "🎵",
     "logoUrl": "https://avatars.githubusercontent.com/u/686715?v=4",
     "stars": 3083,
     "lastUpdated": "2024-01-19",
@@ -9865,7 +9879,7 @@ import type { Tool } from '../types';
     "id": "tianji",
     "name": "Tianji",
     "slug": "tianji",
-    "tagline": "Tianji: Insight into everything, Website Analytics + Uptime Monitor + Server Status. not only another GA alternatives",
+    "tagline": "Tianji: Insight into everything, Website Analytics + Uptime Monitor + Server Status.",
     "description": "Tianji: Insight into everything, Website Analytics + Uptime Monitor + Server Status. not only another GA alternatives",
     "website": "https://tianji.dev",
     "github": "https://github.com/msgbyte/tianji",
@@ -9904,7 +9918,7 @@ import type { Tool } from '../types';
     "id": "passwordpusher",
     "name": "Passwordpusher",
     "slug": "passwordpusher",
-    "tagline": "🔐   Securely share sensitive information with automatic expiration & deletion after a set number of views or duration.",
+    "tagline": "Securely share sensitive information with automatic expiration & deletion after a set number of views or…",
     "description": "🔐   Securely share sensitive information with automatic expiration & deletion after a set number of views or duration.  Track who, what and when with full audit logs.",
     "website": "https://docs.pwpush.com",
     "github": "https://github.com/pglombardo/PasswordPusher",
@@ -9943,20 +9957,21 @@ import type { Tool } from '../types';
     "id": "waline",
     "name": "Waline",
     "slug": "waline",
-    "tagline": "💬 A Simple, Safe Comment System",
+    "tagline": "A Simple, Safe Comment System",
     "description": "💬 A Simple, Safe Comment System",
     "website": "https://waline.js.org/en/",
     "github": "https://github.com/walinejs/waline",
     "license": "GPL-2.0",
     "categories": [
-      "datenbanken"
+      "cms"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "🌍",
     "logoUrl": "https://avatars.githubusercontent.com/u/76174058?v=4",
     "stars": 2986,
     "lastUpdated": "2026-05-05",
@@ -10019,7 +10034,7 @@ import type { Tool } from '../types';
     "id": "virtualbrowser",
     "name": "Virtualbrowser",
     "slug": "virtualbrowser",
-    "tagline": "Free anti fingerprint browser, 指纹浏览器, 隐私浏览器, 防识别浏览器, 反识别浏览器, 防关联浏览器, 免费的web3空投专用指纹浏览器 https://virtualbrowser.cc/?src=...",
+    "tagline": "Free anti fingerprint browser, 指纹浏览器, 隐私浏览器, 防识别浏览器, 反识别浏览器, 防关联浏览器, 免费的web3空投专用指纹浏览器…",
     "description": "Free anti fingerprint browser, 指纹浏览器, 隐私浏览器, 防识别浏览器, 反识别浏览器, 防关联浏览器, 免费的web3空投专用指纹浏览器 https://virtualbrowser.cc/?src=github",
     "website": "https://virtualbrowser.cc/?src=github",
     "github": "https://github.com/Virtual-Browser/VirtualBrowser",
@@ -10144,14 +10159,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/Forceu/Gokapi",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "cloud-speicher"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Google Drive",
+      "Dropbox",
+      "OneDrive"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "☁️",
     "logoUrl": "https://avatars.githubusercontent.com/u/1593467?v=4",
     "stars": 2715,
     "lastUpdated": "2026-05-06",
@@ -10183,14 +10199,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/wgtunnel/android",
     "license": "MIT",
     "categories": [
-      "vpn"
+      "betriebssysteme"
     ],
     "replacesTools": [
-      "NordVPN",
-      "ExpressVPN"
+      "Windows",
+      "macOS"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🛡️",
+    "logoPlaceholderEmoji": "🖥️",
     "logoUrl": "https://avatars.githubusercontent.com/u/207392975?v=4",
     "stars": 2675,
     "lastUpdated": "2026-05-03",
@@ -10255,7 +10271,7 @@ import type { Tool } from '../types';
     "id": "cloudflare-ddns",
     "name": "Cloudflare Ddns",
     "slug": "cloudflare-ddns",
-    "tagline": "🌟 A small, feature-rich, and robust Cloudflare DDNS updater",
+    "tagline": "A small, feature-rich, and robust Cloudflare DDNS updater",
     "description": "🌟 A small, feature-rich, and robust Cloudflare DDNS updater",
     "website": "https://github.com/favonia/cloudflare-ddns",
     "github": "https://github.com/favonia/cloudflare-ddns",
@@ -10300,15 +10316,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/documize/community",
     "license": "AGPL-3.0",
     "categories": [
-      "wiki"
+      "dev-tools"
     ],
     "replacesTools": [
-      "Confluence",
-      "Notion",
-      "GitBook"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📚",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/7921789?v=4",
     "stars": 2387,
     "lastUpdated": "2025-09-19",
@@ -10372,20 +10387,20 @@ import type { Tool } from '../types';
     "id": "alternative-frontends",
     "name": "Alternative Frontends",
     "slug": "alternative-frontends",
-    "tagline": "🔐🌐 Privacy-respecting web frontends for popular services",
+    "tagline": "Privacy-respecting web frontends for popular services",
     "description": "🔐🌐 Privacy-respecting web frontends for popular services",
     "website": "https://github.com/digitalblossom/alternative-frontends",
     "github": "https://github.com/digitalblossom/alternative-frontends",
     "license": "GPL-3.0",
     "categories": [
-      "dns-adblock"
+      "browser"
     ],
     "replacesTools": [
-      "Google DNS",
-      "kommerzielle Filter"
+      "Chrome",
+      "Edge"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🚫",
+    "logoPlaceholderEmoji": "🌐",
     "logoUrl": "https://avatars.githubusercontent.com/u/80636305?v=4",
     "stars": 2243,
     "lastUpdated": "2024-03-21",
@@ -10417,14 +10432,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/logdyhq/logdy-core",
     "license": "Apache-2.0",
     "categories": [
-      "browser"
+      "monitoring"
     ],
     "replacesTools": [
-      "Chrome",
-      "Edge"
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🌐",
+    "logoPlaceholderEmoji": "📈",
     "logoUrl": "https://avatars.githubusercontent.com/u/157653306?v=4",
     "stars": 2189,
     "lastUpdated": "2025-08-25",
@@ -10450,20 +10466,22 @@ import type { Tool } from '../types';
     "id": "donetick",
     "name": "Donetick",
     "slug": "donetick",
-    "tagline": "Donetick an open-source, user-friendly app for managing tasks and chores, featuring customizable options to help you ...",
+    "tagline": "Donetick an open-source, user-friendly app for managing tasks and chores, featuring customizable options…",
     "description": "Donetick an open-source, user-friendly app for managing tasks and chores, featuring customizable options to help you and others stay organized",
     "website": "https://donetick.com",
     "github": "https://github.com/donetick/donetick",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "projektmanagement"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Asana",
+      "Monday",
+      "Jira",
+      "Trello"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "✅",
     "logoUrl": "https://avatars.githubusercontent.com/u/172952750?v=4",
     "stars": 2116,
     "lastUpdated": "2026-05-06",
@@ -10566,7 +10584,7 @@ import type { Tool } from '../types';
     "id": "opensearch-dashboards",
     "name": "Opensearch Dashboards",
     "slug": "opensearch-dashboards",
-    "tagline": "📊 Open source visualization dashboards for OpenSearch.",
+    "tagline": "Open source visualization dashboards for OpenSearch.",
     "description": "📊 Open source visualization dashboards for OpenSearch.",
     "website": "https://opensearch.org/docs/latest/dashboards/index/",
     "github": "https://github.com/opensearch-project/OpenSearch-Dashboards",
@@ -10609,14 +10627,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/EsperoTech/yaade",
     "license": "MIT",
     "categories": [
-      "container"
+      "dev-tools"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/76174142?v=4",
     "stars": 1982,
     "lastUpdated": "2025-09-08",
@@ -10685,14 +10703,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/StellarSand/privacy-settings",
     "license": "MIT",
     "categories": [
-      "dev-tools"
+      "firewall"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "🔥",
     "logoUrl": "https://avatars.githubusercontent.com/u/68168200?v=4",
     "stars": 1872,
     "lastUpdated": "2026-05-05",
@@ -10800,7 +10818,7 @@ import type { Tool } from '../types';
     "id": "fadcam",
     "name": "Fadcam",
     "slug": "fadcam",
-    "tagline": "Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, a...",
+    "tagline": "Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live…",
     "description": "Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
     "website": "https://fadcam.fadseclab.com",
     "github": "https://github.com/anonfaded/FadCam",
@@ -10999,21 +11017,21 @@ import type { Tool } from '../types';
     "id": "alexandrie",
     "name": "Alexandrie",
     "slug": "alexandrie",
-    "tagline": "Self-hosted knowledge base with extended Markdown, Kanban, OIDC/SSO, PWA & offline support. Deploy in one command.",
+    "tagline": "Self-hosted knowledge base with extended Markdown, Kanban, OIDC/SSO, PWA & offline support.",
     "description": "Self-hosted knowledge base with extended Markdown, Kanban, OIDC/SSO, PWA & offline support. Deploy in one command.",
     "website": "https://alexandrie-hub.fr",
     "github": "https://github.com/Smaug6739/Alexandrie",
     "license": "MIT",
     "categories": [
-      "notizen"
+      "wiki"
     ],
     "replacesTools": [
+      "Confluence",
       "Notion",
-      "Evernote",
-      "Obsidian"
+      "GitBook"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📝",
+    "logoPlaceholderEmoji": "📚",
     "logoUrl": "https://avatars.githubusercontent.com/u/59796136?v=4",
     "stars": 1595,
     "lastUpdated": "2026-05-06",
@@ -11045,15 +11063,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/cogwheel0/conduit",
     "license": "GPL-3.0",
     "categories": [
-      "ki-ml"
+      "kommunikation"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "WhatsApp",
+      "Slack",
+      "Microsoft Teams"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "💬",
     "logoUrl": "https://avatars.githubusercontent.com/u/172976095?v=4",
     "stars": 1483,
     "lastUpdated": "2026-05-06",
@@ -11082,15 +11100,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/balzack/databag",
     "license": "Apache-2.0",
     "categories": [
-      "videokonferenzen"
+      "kommunikation"
     ],
     "replacesTools": [
-      "Zoom",
-      "Google Meet",
-      "Teams"
+      "WhatsApp",
+      "Slack",
+      "Microsoft Teams"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📹",
+    "logoPlaceholderEmoji": "💬",
     "logoUrl": "https://avatars.githubusercontent.com/u/96387156?v=4",
     "stars": 1452,
     "lastUpdated": "2026-04-17",
@@ -11162,14 +11180,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/itskovacs/trip",
     "license": "MIT",
     "categories": [
-      "karten"
+      "erp"
     ],
     "replacesTools": [
-      "Google Maps API",
-      "Mapbox"
+      "SAP Business One",
+      "Oracle ERP"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗺️",
+    "logoPlaceholderEmoji": "🏭",
     "logoUrl": "https://avatars.githubusercontent.com/u/36224223?v=4",
     "stars": 1397,
     "lastUpdated": "2026-05-04",
@@ -11195,21 +11213,20 @@ import type { Tool } from '../types';
     "id": "deck",
     "name": "Deck",
     "slug": "deck",
-    "tagline": "🗂 Kanban-style project & personal management tool for Nextcloud, similar to Trello",
+    "tagline": "Kanban-style project & personal management tool for Nextcloud, similar to Trello",
     "description": "🗂 Kanban-style project & personal management tool for Nextcloud, similar to Trello",
     "website": "https://apps.nextcloud.com/apps/deck",
     "github": "https://github.com/nextcloud/deck",
     "license": "AGPL-3.0",
     "categories": [
-      "cloud-speicher"
+      "kalender"
     ],
     "replacesTools": [
-      "Google Drive",
-      "Dropbox",
-      "OneDrive"
+      "Google Calendar",
+      "iCloud"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "☁️",
+    "logoPlaceholderEmoji": "📅",
     "logoUrl": "https://avatars.githubusercontent.com/u/19211038?v=4",
     "stars": 1381,
     "lastUpdated": "2026-05-06",
@@ -11281,14 +11298,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/ShaneIsrael/fireshare",
     "license": "GPL-3.0",
     "categories": [
-      "medienserver"
+      "video-audio"
     ],
     "replacesTools": [
-      "Plex Premium",
-      "Emby"
+      "Adobe Premiere",
+      "Final Cut",
+      "Audition"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🎵",
+    "logoPlaceholderEmoji": "🎬",
     "logoUrl": "https://avatars.githubusercontent.com/u/1677199?v=4",
     "stars": 1336,
     "lastUpdated": "2026-05-06",
@@ -11314,20 +11332,21 @@ import type { Tool } from '../types';
     "id": "zane-ops",
     "name": "Zane Ops",
     "slug": "zane-ops",
-    "tagline": "A beautiful and fast self-hosted PaaS for deploying and managing web apps, databases, static websites and more.",
+    "tagline": "A beautiful and fast self-hosted PaaS for deploying and managing web apps, databases, static websites and…",
     "description": "A beautiful and fast self-hosted PaaS for deploying and managing web apps, databases, static websites and more.",
     "website": "https://zaneops.dev",
     "github": "https://github.com/zane-ops/zane-ops",
     "license": "MIT",
     "categories": [
-      "datenbanken"
+      "ci-cd"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "GitHub Actions",
+      "Jenkins",
+      "CircleCI"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "🔄",
     "logoUrl": "https://avatars.githubusercontent.com/u/164444658?v=4",
     "stars": 1321,
     "lastUpdated": "2026-05-05",
@@ -11472,7 +11491,7 @@ import type { Tool } from '../types';
     "id": "cloudflare-tunnel-ingress-controller",
     "name": "Cloudflare Tunnel Ingress Controller",
     "slug": "cloudflare-tunnel-ingress-controller",
-    "tagline": "🚀 Expose the website directly into the internet! The Kuberntes Ingress Controller based on Cloudflare Tunnel.",
+    "tagline": "Expose the website directly into the internet! The Kuberntes Ingress Controller based on Cloudflare Tunnel.",
     "description": "🚀 Expose the website directly into the internet! The Kuberntes Ingress Controller based on Cloudflare Tunnel.",
     "website": "https://tunnel.strrl.dev",
     "github": "https://github.com/STRRL/cloudflare-tunnel-ingress-controller",
@@ -11516,15 +11535,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/secluso/core",
     "license": "GPL-3.0",
     "categories": [
-      "ki-ml"
+      "dev-tools"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/271067237?v=4",
     "stars": 1102,
     "lastUpdated": "2026-05-06",
@@ -11593,15 +11611,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/utkusen/wholeaked",
     "license": "BSD-3-Clause",
     "categories": [
-      "cloud-speicher"
+      "firewall"
     ],
     "replacesTools": [
-      "Google Drive",
-      "Dropbox",
-      "OneDrive"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "☁️",
+    "logoPlaceholderEmoji": "🔥",
     "logoUrl": "https://avatars.githubusercontent.com/u/3511458?v=4",
     "stars": 1096,
     "lastUpdated": "2022-01-31",
@@ -11625,7 +11642,7 @@ import type { Tool } from '../types';
     "id": "websurfx",
     "name": "Websurfx",
     "slug": "websurfx",
-    "tagline": ":rocket: An open source alternative to searx which provides a modern-looking :sparkles:, lightning-fast :zap:, privac...",
+    "tagline": ":rocket: An open source alternative to searx which provides a modern-looking :sparkles:, lightning-fast…",
     "description": ":rocket: An open source alternative to searx which provides a modern-looking :sparkles:, lightning-fast :zap:, privacy respecting :disguised_face:, secure :lock: meta search engine",
     "website": "https://github.com/neon-mmd/websurfx/tree/rolling/docs",
     "github": "https://github.com/neon-mmd/websurfx",
@@ -11664,20 +11681,21 @@ import type { Tool } from '../types';
     "id": "musicrecognizer",
     "name": "Musicrecognizer",
     "slug": "musicrecognizer",
-    "tagline": "An open-source Android app for music recognition that integrates AudD, ACRCloud, and Shazam to perform song identific...",
+    "tagline": "Android app for music recognition that integrates AudD, ACRCloud, and Shazam to perform song identific",
     "description": "An open-source Android app for music recognition that integrates AudD, ACRCloud, and Shazam to perform song identification.",
     "website": "https://github.com/aleksey-saenko/MusicRecognizer",
     "github": "https://github.com/aleksey-saenko/MusicRecognizer",
     "license": "GPL-3.0",
     "categories": [
-      "dev-tools"
+      "video-audio"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "Adobe Premiere",
+      "Final Cut",
+      "Audition"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "🎬",
     "logoUrl": "https://avatars.githubusercontent.com/u/109096599?v=4",
     "stars": 1088,
     "lastUpdated": "2026-05-05",
@@ -11748,14 +11766,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/degoog-org/degoog",
     "license": "AGPL-3.0",
     "categories": [
-      "suchmaschinen"
+      "betriebssysteme"
     ],
     "replacesTools": [
-      "Google",
-      "Bing"
+      "Windows",
+      "macOS"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🔍",
+    "logoPlaceholderEmoji": "🖥️",
     "logoUrl": "https://avatars.githubusercontent.com/u/280656364?v=4",
     "stars": 977,
     "lastUpdated": "2026-05-06",
@@ -11826,15 +11844,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/Zibbp/ganymede",
     "license": "GPL-3.0",
     "categories": [
-      "kommunikation"
+      "medienserver"
     ],
     "replacesTools": [
-      "WhatsApp",
-      "Slack",
-      "Microsoft Teams"
+      "Plex Premium",
+      "Emby"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "💬",
+    "logoPlaceholderEmoji": "🎵",
     "logoUrl": "https://avatars.githubusercontent.com/u/21207065?v=4",
     "stars": 952,
     "lastUpdated": "2026-05-06",
@@ -11860,20 +11877,21 @@ import type { Tool } from '../types';
     "id": "hometube",
     "name": "Hometube",
     "slug": "hometube",
-    "tagline": "HomeTube is a friendly video downloader managing single video URL into organized content structure for automatic home...",
+    "tagline": "HomeTube is a friendly video downloader managing single video URL into organized content structure for…",
     "description": "HomeTube is a friendly video downloader managing single video URL into organized content structure for automatic home media server experience.",
     "website": "https://github.com/EgalitarianMonkey/hometube",
     "github": "https://github.com/EgalitarianMonkey/hometube",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "video-audio"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Adobe Premiere",
+      "Final Cut",
+      "Audition"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🎬",
     "logoUrl": "https://avatars.githubusercontent.com/u/48605580?v=4",
     "stars": 948,
     "lastUpdated": "2026-04-09",
@@ -11899,7 +11917,7 @@ import type { Tool } from '../types';
     "id": "swifty",
     "name": "Swifty",
     "slug": "swifty",
-    "tagline": "🔑   Free Offline-first Password Manager",
+    "tagline": "Free Offline-first Password Manager",
     "description": "🔑   Free Offline-first Password Manager",
     "website": "https://getswifty.pro",
     "github": "https://github.com/swiftyapp/swifty",
@@ -11939,20 +11957,20 @@ import type { Tool } from '../types';
     "id": "bitcart",
     "name": "Bitcart",
     "slug": "bitcart",
-    "tagline": "Bitcart is a free and open-source self-hosted payment processor for BTC, LTC, BCH, XMR, ETH, TRX, USDT and more",
+    "tagline": "Bitcart is a free and open-source self-hosted payment processor for BTC, LTC, BCH, XMR, ETH, TRX, USDT and…",
     "description": "Bitcart is a free and open-source self-hosted payment processor for BTC, LTC, BCH, XMR, ETH, TRX, USDT and more",
     "website": "https://bitcart.ai",
     "github": "https://github.com/bitcart/bitcart",
     "license": "MIT",
     "categories": [
-      "container"
+      "e-commerce"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Shopify",
+      "Magento Commerce"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🛒",
     "logoUrl": "https://avatars.githubusercontent.com/u/71035673?v=4",
     "stars": 939,
     "lastUpdated": "2026-05-05",
@@ -12017,7 +12035,7 @@ import type { Tool } from '../types';
     "id": "opentrashmail",
     "name": "Opentrashmail",
     "slug": "opentrashmail",
-    "tagline": "Open Source standalone trashmail solution that ships its own mail server",
+    "tagline": "Standalone trashmail solution that ships its own mail server",
     "description": "Open Source standalone trashmail solution that ships its own mail server",
     "website": "https://github.com/HaschekSolutions/opentrashmail",
     "github": "https://github.com/HaschekSolutions/opentrashmail",
@@ -12062,14 +12080,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/kittendevv/Invio",
     "license": "Unlicense",
     "categories": [
-      "erp"
+      "cloud-speicher"
     ],
     "replacesTools": [
-      "SAP Business One",
-      "Oracle ERP"
+      "Google Drive",
+      "Dropbox",
+      "OneDrive"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🏭",
+    "logoPlaceholderEmoji": "☁️",
     "logoUrl": "https://avatars.githubusercontent.com/u/121097932?v=4",
     "stars": 840,
     "lastUpdated": "2026-05-06",
@@ -12134,7 +12153,7 @@ import type { Tool } from '../types';
     "id": "social-amnesia",
     "name": "Social Amnesia",
     "slug": "social-amnesia",
-    "tagline": "Forget the past. Social Amnesia makes sure your social media accounts only show your posts from recent history, not f...",
+    "tagline": "Forget the past. Social Amnesia makes sure your social media accounts only show your posts from recent…",
     "description": "Forget the past. Social Amnesia makes sure your social media accounts only show your posts from recent history, not from \"that phase\" 5 years ago.",
     "website": "https://github.com/Nick-Gottschlich/Social-Amnesia",
     "github": "https://github.com/Nick-Gottschlich/Social-Amnesia",
@@ -12174,20 +12193,21 @@ import type { Tool } from '../types';
     "id": "portabase",
     "name": "Portabase",
     "slug": "portabase",
-    "tagline": "Portabase - Database backup & restore tool for PostgreSQL, MySQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis and V...",
+    "tagline": "Portabase - Database backup & restore tool for PostgreSQL, MySQL, MariaDB, Firebird SQL, SQLite, MongoDB,…",
     "description": "Portabase - Database backup & restore tool for PostgreSQL, MySQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis and Valkey (more engines coming soon 🚀)",
     "website": "https://portabase.io",
     "github": "https://github.com/Portabase/portabase",
     "license": "Apache-2.0",
     "categories": [
-      "datenbanken"
+      "notizen"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "Notion",
+      "Evernote",
+      "Obsidian"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "📝",
     "logoUrl": "https://avatars.githubusercontent.com/u/249081024?v=4",
     "stars": 803,
     "lastUpdated": "2026-04-29",
@@ -12250,20 +12270,20 @@ import type { Tool } from '../types';
     "id": "astroluma",
     "name": "Astroluma",
     "slug": "astroluma",
-    "tagline": "Astroluma is a feature-rich, user-friendly dashboard designed to help you manage multiple aspects of your daily tasks...",
+    "tagline": "Astroluma is a feature-rich, user-friendly dashboard designed to help you manage multiple aspects of your…",
     "description": "Astroluma is a feature-rich, user-friendly dashboard designed to help you manage multiple aspects of your daily tasks and services.",
     "website": "https://getastroluma.com/",
     "github": "https://github.com/Sanjeet990/Astroluma",
     "license": "GPL-3.0",
     "categories": [
-      "container"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "⚙️",
     "logoUrl": "https://avatars.githubusercontent.com/u/25366398?v=4",
     "stars": 774,
     "lastUpdated": "2025-07-04",
@@ -12293,14 +12313,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/TheNickOfTime/handbrake-web",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "video-audio"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Adobe Premiere",
+      "Final Cut",
+      "Audition"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🎬",
     "logoUrl": "https://avatars.githubusercontent.com/u/10342737?v=4",
     "stars": 758,
     "lastUpdated": "2026-03-27",
@@ -12326,7 +12347,7 @@ import type { Tool } from '../types';
     "id": "netgoat",
     "name": "Netgoat",
     "slug": "netgoat",
-    "tagline": "A Cloudflare alternative for local and cloud use, can be used ontop of cloudflare for cloudflares paid features, but ...",
+    "tagline": "A Cloudflare alternative for local and cloud use, can be used ontop of cloudflare for cloudflares paid…",
     "description": "A Cloudflare alternative for local and cloud use, can be used ontop of cloudflare for cloudflares paid features, but for free!",
     "website": "https://netgoat.xyz",
     "github": "https://github.com/netgoat-xyz/netgoat",
@@ -12443,7 +12464,7 @@ import type { Tool } from '../types';
     "id": "strix",
     "name": "Strix",
     "slug": "strix",
-    "tagline": "Smart IP camera stream finder. Tests 102K+ URL patterns in 30 seconds. Supports 67K camera models. Generates ready Fr...",
+    "tagline": "Smart IP camera stream finder. Tests 102K+ URL patterns in 30 seconds. Supports 67K camera models.…",
     "description": "Smart IP camera stream finder. Tests 102K+ URL patterns in 30 seconds. Supports 67K camera models. Generates ready Frigate/go2rtc configs.",
     "website": "https://github.com/eduard256/Strix",
     "github": "https://github.com/eduard256/Strix",
@@ -12482,7 +12503,7 @@ import type { Tool } from '../types';
     "id": "athena",
     "name": "Athena",
     "slug": "athena",
-    "tagline": "Athena is a Material You (Material 3) firewall and ad blocker that works seamlessly on both rooted and non-rooted dev...",
+    "tagline": "Athena is a Material You (Material 3) firewall and ad blocker that works seamlessly on both rooted and…",
     "description": "Athena is a Material You (Material 3) firewall and ad blocker that works seamlessly on both rooted and non-rooted devices.",
     "website": "https://easyapps.me",
     "github": "https://github.com/Kin69/Athena",
@@ -12521,20 +12542,20 @@ import type { Tool } from '../types';
     "id": "jump",
     "name": "Jump",
     "slug": "jump",
-    "tagline": "Jump is a self-hosted startpage and real-time status page for your server designed to be simple, stylish, fast and se...",
+    "tagline": "Jump is a self-hosted startpage and real-time status page for your server designed to be simple, stylish,…",
     "description": "Jump is a self-hosted startpage and real-time status page for your server designed to be simple, stylish, fast and secure.",
     "website": "https://github.com/daledavies/jump",
     "github": "https://github.com/daledavies/jump",
     "license": "MIT",
     "categories": [
-      "container"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "⚙️",
     "logoUrl": "https://avatars.githubusercontent.com/u/4996546?v=4",
     "stars": 602,
     "lastUpdated": "2024-05-15",
@@ -12566,14 +12587,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/karlicoss/cloudmacs",
     "license": "GPL-3.0",
     "categories": [
-      "container"
+      "dev-tools"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/291333?v=4",
     "stars": 578,
     "lastUpdated": "2025-09-22",
@@ -12725,15 +12746,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/adeekshith/watomatic",
     "license": "GPL-3.0",
     "categories": [
-      "ki-ml"
+      "kommunikation"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "WhatsApp",
+      "Slack",
+      "Microsoft Teams"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "💬",
     "logoUrl": "https://avatars.githubusercontent.com/u/2568945?v=4",
     "stars": 538,
     "lastUpdated": "2026-05-06",
@@ -12765,14 +12786,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/BlueprintFramework/framework",
     "license": "MIT",
     "categories": [
-      "backend-frameworks"
+      "dev-tools"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/123477919?v=4",
     "stars": 533,
     "lastUpdated": "2026-05-04",
@@ -12838,20 +12859,20 @@ import type { Tool } from '../types';
     "id": "windows-on-reins",
     "name": "Windows On Reins",
     "slug": "windows-on-reins",
-    "tagline": "Wor is a Powershell script to harden, debloat, optimize, enhance privacy, avoid fingerprinting and improve performanc...",
+    "tagline": "Wor is a Powershell script to harden, debloat, optimize, enhance privacy, avoid fingerprinting and improve…",
     "description": "Wor is a Powershell script to harden, debloat, optimize, enhance privacy, avoid fingerprinting and improve performance on Windows 10 and 11.",
     "website": "https://github.com/gordonbay/Windows-On-Reins",
     "github": "https://github.com/gordonbay/Windows-On-Reins",
     "license": "GPL-3.0",
     "categories": [
-      "erp"
+      "betriebssysteme"
     ],
     "replacesTools": [
-      "SAP Business One",
-      "Oracle ERP"
+      "Windows",
+      "macOS"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🏭",
+    "logoPlaceholderEmoji": "🖥️",
     "logoUrl": "https://avatars.githubusercontent.com/u/19177793?v=4",
     "stars": 472,
     "lastUpdated": "2025-06-21",
@@ -12877,7 +12898,7 @@ import type { Tool } from '../types';
     "id": "macos-fortress",
     "name": "Macos Fortress",
     "slug": "macos-fortress",
-    "tagline": "Firewall and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers with Anti-Virus On-Demand and O...",
+    "tagline": "Firewall and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers with Anti-Virus…",
     "description": "Firewall and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers with Anti-Virus On-Demand and On-Access Scanning (PF, squid, privoxy, hphosts, dshield, emergingthreats, hostsfile, PAC file, clamav)",
     "website": "https://github.com/essandess/macOS-Fortress",
     "github": "https://github.com/essandess/macOS-Fortress",
@@ -12957,20 +12978,21 @@ import type { Tool } from '../types';
     "id": "juggluco",
     "name": "Juggluco",
     "slug": "juggluco",
-    "tagline": "Android app for Freestyle Libre 1,2 and 3, Dexcom G7/ONE+, Sibionics GS1Sb, AccuChek SmartGuide, CareSens Air and Lin...",
+    "tagline": "Android app for Freestyle Libre 1,2 and 3, Dexcom G7/ONE+, Sibionics GS1Sb, AccuChek SmartGuide, CareSens…",
     "description": "Android app for Freestyle Libre 1,2 and 3, Dexcom G7/ONE+, Sibionics GS1Sb, AccuChek SmartGuide, CareSens Air and Linx/Aidex X sensors",
     "website": "https://www.juggluco.nl",
     "github": "https://github.com/j-kaltes/Juggluco",
     "license": "GPL-3.0",
     "categories": [
-      "dev-tools"
+      "notizen"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "Notion",
+      "Evernote",
+      "Obsidian"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "📝",
     "logoUrl": "https://avatars.githubusercontent.com/u/72013079?v=4",
     "stars": 395,
     "lastUpdated": "2026-04-29",
@@ -12996,7 +13018,7 @@ import type { Tool } from '../types';
     "id": "freshlytics",
     "name": "Freshlytics",
     "slug": "freshlytics",
-    "tagline": "Open source privacy-friendly analytics",
+    "tagline": "Privacy-friendly analytics",
     "description": "Open source privacy-friendly analytics",
     "website": "https://github.com/sheshbabu/freshlytics",
     "github": "https://github.com/sheshbabu/freshlytics",
@@ -13041,14 +13063,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/ghostery/local-sheriff",
     "license": "GPL-3.0",
     "categories": [
-      "dev-tools"
+      "firewall"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "🔥",
     "logoUrl": "https://avatars.githubusercontent.com/u/3441846?v=4",
     "stars": 309,
     "lastUpdated": "2022-12-11",
@@ -13079,14 +13101,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/OpenToolKit/CompressPDF",
     "license": "GPL-3.0",
     "categories": [
-      "backend-frameworks"
+      "buerosoftware"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "Microsoft Office",
+      "Google Docs"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "📄",
     "logoUrl": "https://avatars.githubusercontent.com/u/56498812?v=4",
     "stars": 282,
     "lastUpdated": "2020-10-03",
@@ -13113,16 +13135,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'coolify',
     name: 'Coolify',
     slug: 'coolify',
-    tagline: 'An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, ...',
+    tagline: 'An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy…',
     description:
       'An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.',
     website: 'https://coolify.io',
     github: 'https://github.com/coollabsio/coolify',
     license: 'Apache-2.0',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['ci-cd'],
+    replacesTools: ['GitHub Actions', 'Jenkins', 'CircleCI'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '🔄',
     logoUrl: 'https://github.com/coollabsio.png?size=128',
     stars: 51179,
     lastUpdated: '2026-03-01',
@@ -13136,16 +13158,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'dokploy',
     name: 'Dokploy',
     slug: 'dokploy',
-    tagline: 'Open Source Alternative to Vercel, Netlify and Heroku.',
+    tagline: 'Alternative to Vercel, Netlify and Heroku.',
     description:
       'Open Source Alternative to Vercel, Netlify and Heroku.',
     website: 'https://dokploy.com/',
     github: 'https://github.com/Dokploy/dokploy',
     license: 'MIT',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['ci-cd'],
+    replacesTools: ['GitHub Actions', 'Jenkins', 'CircleCI'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '🔄',
     logoUrl: 'https://github.com/Dokploy.png?size=128',
     stars: 31076,
     lastUpdated: '2026-02-28',
@@ -13182,7 +13204,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'signoz',
     name: 'Signoz',
     slug: 'signoz',
-    tagline: 'SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single app...',
+    tagline: 'SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a…',
     description:
       'SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool',
     website: 'https://signoz.io',
@@ -13205,7 +13227,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'automatisch',
     name: 'Automatisch',
     slug: 'automatisch',
-    tagline: 'The open source Zapier alternative. Build workflow automation without spending time and money.',
+    tagline: 'Zapier alternative. Build workflow automation without spending time and money.',
     description:
       'The open source Zapier alternative. Build workflow automation without spending time and money.',
     website: 'https://automatisch.io',
@@ -13228,7 +13250,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'notesnook',
     name: 'Notesnook',
     slug: 'notesnook',
-    tagline: 'A fully open source & end-to-end encrypted note taking alternative to Evernote.',
+    tagline: '& end-to-end encrypted note taking alternative to Evernote.',
     description:
       'A fully open source & end-to-end encrypted note taking alternative to Evernote.',
     website: 'https://notesnook.com/',
@@ -13251,16 +13273,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'documenso',
     name: 'Documenso',
     slug: 'documenso',
-    tagline: 'The Open Source DocuSign Alternative.',
+    tagline: 'DocuSign Alternative.',
     description:
       'The Open Source DocuSign Alternative.',
     website: 'https://documenso.com',
     github: 'https://github.com/documenso/documenso',
     license: 'AGPL-3.0',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['buerosoftware'],
+    replacesTools: ['Microsoft Office', 'Google Docs'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '📄',
     logoUrl: 'https://github.com/documenso.png?size=128',
     stars: 12455,
     lastUpdated: '2026-03-01',
@@ -13274,7 +13296,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openpanel',
     name: 'Openpanel',
     slug: 'openpanel',
-    tagline: 'OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional ...',
+    tagline: 'OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel…',
     description:
       'OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.',
     website: 'https://openpanel.dev',
@@ -13297,7 +13319,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'colanode',
     name: 'Colanode',
     slug: 'colanode',
-    tagline: 'Open-source and local-first Slack and Notion alternative that puts you in control of your data',
+    tagline: 'And local-first Slack and Notion alternative that puts you in control of your data',
     description:
       'Open-source and local-first Slack and Notion alternative that puts you in control of your data',
     website: 'https://colanode.com',
@@ -13320,7 +13342,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'peppermint',
     name: 'Peppermint',
     slug: 'peppermint',
-    tagline: 'An open source issue management & help desk solution. A zendesk & jira alternative',
+    tagline: 'Issue management & help desk solution. A zendesk & jira alternative',
     description:
       'An open source issue management & help desk solution. A zendesk & jira alternative',
     website: 'https://peppermint.sh',
@@ -13349,10 +13371,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://opengist.io',
     github: 'https://github.com/thomiceli/opengist',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['code-hosting'],
+    replacesTools: ['GitHub', 'Bitbucket', 'Azure DevOps'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🗃️',
     logoUrl: 'https://github.com/thomiceli.png?size=128',
     stars: 3006,
     lastUpdated: '2026-02-25',
@@ -13412,7 +13434,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openrecall',
     name: 'Openrecall',
     slug: 'openrecall',
-    tagline: 'OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft\'s Windows Recall.',
+    tagline: 'OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft\'s…',
     description:
       'OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft\'s Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memory and productivity without compromising your privacy.',
     website: 'https://github.com/openrecall/openrecall',
@@ -13435,7 +13457,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'checkcle',
     name: 'Checkcle',
     slug: 'checkcle',
-    tagline: 'CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, ...',
+    tagline: 'CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems,…',
     description:
       'CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, and infrastructure. It provides real-time uptime monitoring, distributed checks, incident tracking, and alerts. All deployable anywhere.',
     website: 'https://checkcle.io',
@@ -13481,7 +13503,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'open-higgsfield-ai',
     name: 'Open Higgsfield Ai',
     slug: 'open-higgsfield-ai',
-    tagline: 'Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midj...',
+    tagline: 'Alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midj',
     description:
       'Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.',
     website: 'https://github.com/Anil-matcha/Open-Higgsfield-AI',
@@ -13504,7 +13526,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'litlyx',
     name: 'Litlyx',
     slug: 'litlyx',
-    tagline: 'Powerful Analytics Solution. Setup in 30 seconds. Display all your data on a Simple, AI-powered dashboard. Fully self...',
+    tagline: 'Powerful Analytics Solution. Setup in 30 seconds. Display all your data on a Simple, AI-powered dashboard.…',
     description:
       'Powerful Analytics Solution. Setup in 30 seconds. Display all your data on a Simple, AI-powered dashboard. Fully self-hostable and GDPR compliant. Alternative to Google Analytics, MixPanel, Plausible, Umami & Matomo.',
     website: 'https://litlyx.com',
@@ -13527,7 +13549,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'paddler',
     name: 'Paddler',
     slug: 'paddler',
-    tagline: 'Open-source LLM load balancer and serving platform for self-hosting LLMs at scale 🏓🦙 Alternative to projects like llm...',
+    tagline: 'LLM load balancer and serving platform for self-hosting LLMs at scale 🏓🦙 Alternative to projects like llm',
     description:
       'Open-source LLM load balancer and serving platform for self-hosting LLMs at scale 🏓🦙 Alternative to projects like llm-d, Docker Model Runner, etc but with less moving parts and simple deployments built around ggml ecosystem. Runs on CPU and GPU.',
     website: 'https://paddler.intentee.com',
@@ -13550,7 +13572,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'authgear-server',
     name: 'Authgear Server',
     slug: 'authgear-server',
-    tagline: 'Open source Auth0/Clerk/Firebase alternative.',
+    tagline: 'Auth0/Clerk/Firebase alternative.',
     description:
       'Open source Auth0/Clerk/Firebase alternative. Passkeys, SSO, MFA, passwordless, biometric login. Self-hosted or cloud. Enterprise-ready for SaaS & mobile apps',
     website: 'https://www.authgear.com',
@@ -13573,7 +13595,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'nixopus',
     name: 'Nixopus',
     slug: 'nixopus',
-    tagline: 'Open Source Alternative to vercel, heroku, netlify with simplified workflows',
+    tagline: 'Alternative to vercel, heroku, netlify with simplified workflows',
     description:
       'Open Source Alternative to vercel, heroku, netlify with simplified workflows',
     website: 'https://nixopus.com',
@@ -13625,10 +13647,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://links.technotim.com',
     github: 'https://github.com/timothystewart6/littlelink-server',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🌍',
     logoUrl: 'https://github.com/timothystewart6.png?size=128',
     stars: 1105,
     lastUpdated: '2026-02-26',
@@ -13642,7 +13664,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'peekaping',
     name: 'Peekaping',
     slug: 'peekaping',
-    tagline: 'Open Source Uptime Kuma Alternative',
+    tagline: 'Uptime Kuma Alternative',
     description:
       'Open Source Uptime Kuma Alternative',
     website: 'https://peekaping.com',
@@ -13665,7 +13687,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'aegra',
     name: 'Aegra',
     slug: 'aegra',
-    tagline: 'Open source LangGraph Platform alternative - Self-hosted AI agent backend with FastAPI and PostgreSQL.',
+    tagline: 'LangGraph Platform alternative - Self-hosted AI agent backend with FastAPI and PostgreSQL.',
     description:
       'Open source LangGraph Platform alternative - Self-hosted AI agent backend with FastAPI and PostgreSQL. Zero vendor lock-in, full control over your agent infrastructure.',
     website: 'https://aegra.dev',
@@ -13688,7 +13710,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'prompts-chat',
     name: 'Prompts.chat',
     slug: 'prompts-chat',
-    tagline: 'f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-...',
+    tagline: 'f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open…',
     description:
       'f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.',
     website: 'https://prompts.chat',
@@ -13711,16 +13733,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'langfuse',
     name: 'Langfuse',
     slug: 'langfuse',
-    tagline: '🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets.',
+    tagline: 'Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground,…',
     description:
       '🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23',
     website: 'https://langfuse.com/docs',
     github: 'https://github.com/langfuse/langfuse',
     license: 'MIT',
-    categories: ['monitoring'],
-    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📈',
+    logoPlaceholderEmoji: '🤖',
     logoUrl: 'https://github.com/langfuse.png?size=128',
     stars: 22445,
     lastUpdated: '2026-02-28',
@@ -13734,7 +13756,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'goreplay',
     name: 'Goreplay',
     slug: 'goreplay',
-    tagline: 'GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to con...',
+    tagline: 'GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in…',
     description:
       'GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.',
     website: 'https://goreplay.org',
@@ -13757,7 +13779,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'self-hosting-guide',
     name: 'Self Hosting Guide',
     slug: 'self-hosting-guide',
-    tagline: 'Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applic...',
+    tagline: 'Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing…',
     description:
       'Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.',
     website: 'https://github.com/mikeroyal/Self-Hosting-Guide',
@@ -13803,16 +13825,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'encore',
     name: 'Encore',
     slug: 'encore',
-    tagline: 'Open source framework for building robust type-safe distributed systems with declarative infrastructure',
+    tagline: 'Framework for building robust type-safe distributed systems with declarative infrastructure',
     description:
       'Open source framework for building robust type-safe distributed systems with declarative infrastructure',
     website: 'https://encore.dev',
     github: 'https://github.com/encoredev/encore',
     license: 'MPL-2.0',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://github.com/encoredev.png?size=128',
     stars: 11509,
     lastUpdated: '2026-02-27',
@@ -13826,7 +13848,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'meetily',
     name: 'Meetily',
     slug: 'meetily',
-    tagline: 'Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Olla...',
+    tagline: 'Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker…',
     description:
       'Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted,  Open-source Ai meeting note taker for macOS & Windows.',
     website: 'https://meetily.ai',
@@ -13918,16 +13940,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'checkov',
     name: 'Checkov',
     slug: 'checkov',
-    tagline: 'Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container image...',
+    tagline: 'Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code,…',
     description:
       'Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.',
     website: 'https://www.checkov.io/',
     github: 'https://github.com/bridgecrewio/checkov',
     license: 'Apache-2.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '📈',
     logoUrl: 'https://github.com/bridgecrewio.png?size=128',
     stars: 8491,
     lastUpdated: '2026-02-24',
@@ -13941,7 +13963,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openstatus',
     name: 'Openstatus',
     slug: 'openstatus',
-    tagline: '🫖 Status page with uptime monitoring & API monitoring as code   🫖',
+    tagline: 'Status page with uptime monitoring & API monitoring as code 🫖',
     description:
       '🫖 Status page with uptime monitoring & API monitoring as code   🫖',
     website: 'https://openstatus.dev',
@@ -13987,7 +14009,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'oxicloud',
     name: 'Oxicloud',
     slug: 'oxicloud',
-    tagline: '☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one ...',
+    tagline: '☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts,…',
     description:
       '☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one place. Built in Rust.',
     website: 'https://github.com/DioCrafts/OxiCloud',
@@ -14010,7 +14032,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'projectsend',
     name: 'Projectsend',
     slug: 'projectsend',
-    tagline: 'ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and p...',
+    tagline: 'ProjectSend is a free, open source software that lets you share files with your clients, focused on ease…',
     description:
       'ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and privacy. It supports clients groups, system users roles, statistics, multiple languages, detailed logs... and much more!',
     website: 'https://www.projectsend.org/',
@@ -14033,7 +14055,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'beecount',
     name: 'Beecount',
     slug: 'beecount',
-    tagline: '🐝 开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud & self-hosted sync (S...',
+    tagline: '开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud &…',
     description:
       '🐝 开源记账App，支持iCloud/自建服务器同步(Supabase/WebDAV/S3)，AI智能记账 | Open-source finance tracker with iCloud & self-hosted sync (Supabase/WebDAV/S3), AI-powered bookkeeping, cross-platform, privacy-first',
     website: 'https://github.com/TNT-Likely/BeeCount',
@@ -14056,7 +14078,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'bricksllm',
     name: 'Bricksllm',
     slug: 'bricksllm',
-    tagline: '🔒 Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key.',
+    tagline: 'Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key.',
     description:
       '🔒 Enterprise-grade API gateway that helps you monitor and impose cost or rate limits per API key. Get fine-grained access control and monitoring per user, application, or environment. Supports OpenAI, Azure OpenAI, Anthropic, vLLM, and open-source LLMs.',
     website: 'https://trybricks.ai/',
@@ -14079,7 +14101,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'agent',
     name: 'Agent',
     slug: 'agent',
-    tagline: 'Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀',
+    tagline: 'Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps…',
     description:
       'Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀',
     website: 'https://stakpak.dev',
@@ -14125,16 +14147,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'swetrix',
     name: 'Swetrix',
     slug: 'swetrix',
-    tagline: '📈 Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error tracking ser...',
+    tagline: 'Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error…',
     description:
       '📈 Swetrix is a cookie-less, open source, privacy-first web analytics, website speed monitoring and error tracking service that you can host yourself or use in the cloud. Get started for free!',
     website: 'https://swetrix.com',
     github: 'https://github.com/Swetrix/swetrix',
     license: 'AGPL-3.0',
-    categories: ['monitoring'],
-    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    categories: ['analytics'],
+    replacesTools: ['Google Analytics', 'Mixpanel'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📈',
+    logoPlaceholderEmoji: '📊',
     logoUrl: 'https://github.com/Swetrix.png?size=128',
     stars: 891,
     lastUpdated: '2026-03-01',
@@ -14177,10 +14199,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://tess1o.github.io/geopulse/',
     github: 'https://github.com/tess1o/geopulse',
     license: 'MIT',
-    categories: ['analytics'],
-    replacesTools: ['Google Analytics', 'Mixpanel'],
+    categories: ['karten'],
+    replacesTools: ['Google Maps API', 'Mapbox'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📊',
+    logoPlaceholderEmoji: '🗺️',
     logoUrl: 'https://github.com/tess1o.png?size=128',
     stars: 613,
     lastUpdated: '2026-02-27',
@@ -14194,7 +14216,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'thiss-link',
     name: 'Thiss.link',
     slug: 'thiss-link',
-    tagline: '🔥 MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support',
+    tagline: 'MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support',
     description:
       '🔥 MagLit - Privacy Respecting Encrypted Link Shortener with Password Protection and Torrent Magnet Links support',
     website: 'https://maglit.me',
@@ -14240,7 +14262,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'super',
     name: 'Super',
     slug: 'super',
-    tagline: '📡 SPR: Open Source, secure, user friendly and fast wifi routers for your home.',
+    tagline: 'SPR: Open Source, secure, user friendly and fast wifi routers for your home.',
     description:
       '📡 SPR: Open Source, secure, user friendly and fast wifi routers for your home. One wifi password per device. Ad Blocking & Privacy Blocklists. Policy Based Network Access',
     website: 'https://www.supernetworks.org/',
@@ -14286,7 +14308,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'onyx',
     name: 'Onyx',
     slug: 'onyx',
-    tagline: 'Open Source AI Platform - AI Chat with advanced features that works with every LLM',
+    tagline: 'AI Platform - AI Chat with advanced features that works with every LLM',
     description:
       'Open Source AI Platform - AI Chat with advanced features that works with every LLM',
     website: 'https://onyx.app',
@@ -14309,7 +14331,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'tinacms',
     name: 'Tinacms',
     slug: 'tinacms',
-    tagline: 'A fully open-source headless CMS that supports Markdown and Visual Editing',
+    tagline: 'Headless CMS that supports Markdown and Visual Editing',
     description:
       'A fully open-source headless CMS that supports Markdown and Visual Editing',
     website: 'https://tina.io',
@@ -14332,7 +14354,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'casdoor',
     name: 'Casdoor',
     slug: 'casdoor',
-    tagline: 'An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting M...',
+    tagline: 'AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting M',
     description:
       'An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with web UI supporting MCP, A2A, OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD',
     website: 'https://casdoor.org',
@@ -14401,7 +14423,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'webstudio',
     name: 'Webstudio',
     slug: 'webstudio',
-    tagline: 'Open source website builder and Webflow alternative.',
+    tagline: 'Website builder and Webflow alternative.',
     description:
       'Open source website builder and Webflow alternative. Webstudio is an advanced visual builder that connects to any headless CMS, supports all CSS properties, and can be hosted anywhere, including with us.',
     website: 'https://webstudio.is',
@@ -14424,7 +14446,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'webiny-js',
     name: 'Webiny Js',
     slug: 'webiny-js',
-    tagline: 'Open-source serverless enterprise CMS.',
+    tagline: 'Serverless enterprise CMS.',
     description:
       'Open-source serverless enterprise CMS. Includes a headless CMS, page builder, form builder, and file manager. Easy to customize and expand. Deploys to AWS.',
     website: 'https://www.webiny.com',
@@ -14516,7 +14538,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openllmetry',
     name: 'Openllmetry',
     slug: 'openllmetry',
-    tagline: 'Open-source observability for your GenAI or LLM application, based on OpenTelemetry',
+    tagline: 'Observability for your GenAI or LLM application, based on OpenTelemetry',
     description:
       'Open-source observability for your GenAI or LLM application, based on OpenTelemetry',
     website: 'https://www.traceloop.com/openllmetry',
@@ -14562,7 +14584,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'coze-loop',
     name: 'Coze Loop',
     slug: 'coze-loop',
-    tagline: 'Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing fu...',
+    tagline: 'Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by…',
     description:
       'Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.',
     website: 'https://github.com/coze-dev/coze-loop',
@@ -14585,7 +14607,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'helicone',
     name: 'Helicone',
     slug: 'helicone',
-    tagline: '🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓',
+    tagline: 'Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓',
     description:
       '🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓',
     website: 'https://www.helicone.ai',
@@ -14608,7 +14630,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'apostrophe',
     name: 'Apostrophe',
     slug: 'apostrophe',
-    tagline: 'A full-featured, open-source content management framework built with Node.js that empowers organizations by combining...',
+    tagline: 'A full-featured, open-source content management framework built with Node.js that empowers organizations…',
     description:
       'A full-featured, open-source content management framework built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment.',
     website: 'https://apostrophecms.com',
@@ -14631,7 +14653,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'uptrace',
     name: 'Uptrace',
     slug: 'uptrace',
-    tagline: 'Open source APM: OpenTelemetry traces, metrics, and logs',
+    tagline: 'APM: OpenTelemetry traces, metrics, and logs',
     description:
       'Open source APM: OpenTelemetry traces, metrics, and logs',
     website: 'https://uptrace.dev/get/hosted/open-source-apm',
@@ -14654,7 +14676,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'terminusdb',
     name: 'Terminusdb',
     slug: 'terminusdb',
-    tagline: 'TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and reasoning on stru...',
+    tagline: 'TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and…',
     description:
       'TerminusDB is a distributed, collaborative database designed for building, sharing, versioning, and reasoning on structured data.',
     website: 'https://terminusdb.org',
@@ -14677,7 +14699,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'pezzo',
     name: 'Pezzo',
     slug: 'pezzo',
-    tagline: '🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant del...',
+    tagline: '🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management,…',
     description:
       '🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant delivery, collaboration, troubleshooting, observability and more.',
     website: 'https://pezzo.ai',
@@ -14723,7 +14745,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openlit',
     name: 'Openlit',
     slug: 'openlit',
-    tagline: 'Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluati...',
+    tagline: 'Platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluati',
     description:
       'Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.',
     website: 'https://docs.openlit.io',
@@ -14746,7 +14768,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'sveltia-cms',
     name: 'Sveltia Cms',
     slug: 'sveltia-cms',
-    tagline: 'Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support...',
+    tagline: 'Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support,…',
     description:
       'Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source & free.',
     website: 'https://sveltiacms.app/en/',
@@ -14769,7 +14791,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'vrite',
     name: 'Vrite',
     slug: 'vrite',
-    tagline: 'Open-source developer content platform',
+    tagline: 'Developer content platform',
     description:
       'Open-source developer content platform',
     website: 'https://vrite.io',
@@ -14792,7 +14814,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'gigapipe',
     name: 'Gigapipe',
     slug: 'gigapipe',
-    tagline: '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :ro...',
+    tagline: '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP…',
     description:
       '⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :rocket: Indie All-in-One Opentelemetry, Loki, Prometheus, Tempo, Pyroscope On-Prem Alternative :star:',
     website: 'https://gigapipe.com',
@@ -14815,16 +14837,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'atomic-server',
     name: 'Atomic Server',
     slug: 'atomic-server',
-    tagline: 'An open source headless CMS / real-time database.',
+    tagline: 'Headless CMS / real-time database.',
     description:
       'An open source headless CMS / real-time database. Powerful table editor, full-text search, and SDKs for JS / React / Svelte.',
     website: 'https://atomicserver.eu',
     github: 'https://github.com/ontola/atomic-server',
     license: 'MIT',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '🌍',
     logoUrl: 'https://github.com/ontola.png?size=128',
     stars: 1506,
     lastUpdated: '2026-02-23',
@@ -14884,7 +14906,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'grafana-operator',
     name: 'Grafana Operator',
     slug: 'grafana-operator',
-    tagline: 'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/Op...',
+    tagline: 'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through…',
     description:
       'An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/OpenShift CRs',
     website: 'https://grafana.github.io/grafana-operator/docs/',
@@ -14930,7 +14952,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openam',
     name: 'Openam',
     slug: 'openam',
-    tagline: 'OpenAM is an open-source access management solution for identity authentication, authorization, and federation.',
+    tagline: 'OpenAM is an open-source access management solution for identity authentication, authorization, and…',
     description:
       'OpenAM is an open-source access management solution for identity authentication, authorization, and federation. It provides single sign-on, adaptive authentication, and centralized policy control, enabling secure access to web, mobile, and cloud applications',
     website: 'https://www.openidentityplatform.org/openam',
@@ -14976,7 +14998,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'nhost',
     name: 'Nhost',
     slug: 'nhost',
-    tagline: 'The Open Source Firebase Alternative with GraphQL.',
+    tagline: 'Firebase Alternative with GraphQL.',
     description:
       'The Open Source Firebase Alternative with GraphQL.',
     website: 'https://nhost.io',
@@ -15022,7 +15044,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'lsp-ai',
     name: 'Lsp Ai',
     slug: 'lsp-ai',
-    tagline: 'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist an...',
+    tagline: 'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed…',
     description:
       'LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist and empower software engineers, not replace them.',
     website: 'https://github.com/SilasMarvin/lsp-ai',
@@ -15045,7 +15067,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'octobase',
     name: 'Octobase',
     slug: 'octobase',
-    tagline: '🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative.',
+    tagline: 'OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative.',
     description:
       '🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative. A light-weight, scalable, data engine written in Rust.',
     website: 'https://octobase.dev',
@@ -15068,7 +15090,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'graft',
     name: 'Graft',
     slug: 'graft',
-    tagline: 'Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication...',
+    tagline: 'Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent…',
     description:
       'Graft is an open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication—perfect for edge, offline-first, and distributed applications.',
     website: 'https://graft.rs',
@@ -15091,16 +15113,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'audiomuse-ai',
     name: 'Audiomuse Ai',
     slug: 'audiomuse-ai',
-    tagline: 'AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to Jellyfin, Navidrom...',
+    tagline: 'AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to…',
     description:
       'AudioMuse-AI is an Open Source Dockerized environment that brings automatic playlist generation to Jellyfin, Navidrome, LMS, Lyrion and Emby. Using powerful tools like Librosa and ONNX, it performs sonic analysis on your audio files locally, allowing you to curate the perfect playlist for any mood or occasion without relying on external APIs.',
     website: 'https://neptunehub.github.io/AudioMuse-AI/',
     github: 'https://github.com/NeptuneHub/AudioMuse-AI',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['medienserver'],
+    replacesTools: ['Plex Premium', 'Emby'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🎵',
     logoUrl: 'https://github.com/NeptuneHub.png?size=128',
     stars: 1319,
     lastUpdated: '2026-02-28',
@@ -15137,7 +15159,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'browserable',
     name: 'Browserable',
     slug: 'browserable',
-    tagline: 'Open source and self-hostable browser automation library for AI agents',
+    tagline: 'And self-hostable browser automation library for AI agents',
     description:
       'Open source and self-hostable browser automation library for AI agents',
     website: 'https://browserable.ai',
@@ -15160,7 +15182,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'alchemy-cms',
     name: 'Alchemy Cms',
     slug: 'alchemy-cms',
-    tagline: 'Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic server side re...',
+    tagline: 'Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic…',
     description:
       'Alchemy is the Open Source Rails CMS framework for the component based web that can be used as classic server side rendered or headless CMS.',
     website: 'https://www.alchemy-cms.com',
@@ -15183,7 +15205,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'mix-core',
     name: 'Mix.core',
     slug: 'mix-core',
-    tagline: '🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches.',
+    tagline: 'A future-proof enterprise web CMS supporting both headless and decoupled approaches.',
     description:
       '🚀 A future-proof enterprise web CMS supporting both headless and decoupled approaches. Build any type of app with customizable APIs on ASP.NET Core/.NET Core. Completely open-source and designed for flexibility.',
     website: 'https://mixcore.org',
@@ -15229,7 +15251,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'truthy',
     name: 'Truthy',
     slug: 'truthy',
-    tagline: 'Open source headless CMS API written using NestJS, that has pre built modules like User Management, Role Management, ...',
+    tagline: 'Headless CMS API written using NestJS, that has pre built modules like User Management, Role Management,',
     description:
       'Open source headless CMS API written using NestJS, that has pre built modules like User Management, Role Management, Permission Management, Email Module, Account Settings, OTP, Throttling, RBAC support, Localization, and many more.',
     website: 'https://github.com/gobeam/truthy',
@@ -15275,7 +15297,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'vaahcms',
     name: 'Vaahcms',
     slug: 'vaahcms',
-    tagline: 'VaahCMS is a laravel based open-source web application development platform shipped with a headless content managemen...',
+    tagline: 'VaahCMS is a laravel based open-source web application development platform shipped with a headless…',
     description:
       'VaahCMS is a laravel based open-source web application development platform shipped with a headless content management system (CMS).',
     website: 'https://vaah.dev/cms',
@@ -15321,7 +15343,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'jaaz',
     name: 'Jaaz',
     slug: 'jaaz',
-    tagline: 'The world\'s first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritize...',
+    tagline: 'The world\'s first open-source multimodal creative assistant This is a substitute for Canva and Manus that…',
     description:
       'The world\'s first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.',
     website: 'https://jaaz.app',
@@ -15344,7 +15366,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'taskcafe',
     name: 'Taskcafe',
     slug: 'taskcafe',
-    tagline: 'An open source project management tool with Kanban boards',
+    tagline: 'Project management tool with Kanban boards',
     description:
       'An open source project management tool with Kanban boards',
     website: 'https://github.com/JordanKnott/taskcafe',
@@ -15367,7 +15389,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'silverbullet',
     name: 'Silverbullet',
     slug: 'silverbullet',
-    tagline: 'An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua',
+    tagline: 'Personal productivity platform built on Markdown, turbo charged with the scripting power of Lua',
     description:
       'An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua',
     website: 'https://silverbullet.md',
@@ -15390,7 +15412,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'ant-media-server',
     name: 'Ant Media Server',
     slug: 'ant-media-server',
-    tagline: 'Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive bitrate, tr...',
+    tagline: 'Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive…',
     description:
       'Ant Media Server — Ultra-low latency streaming engine with WebRTC (~0.5s), SRT, RTMP, HLS, CMAF, adaptive bitrate, transcoding & scaling',
     website: 'https://antmedia.io',
@@ -15413,7 +15435,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'kaneo',
     name: 'Kaneo',
     slug: 'kaneo',
-    tagline: '🎯 All you need. Nothing you don\'t. Open source project management that works for you, not against you.',
+    tagline: 'All you need. Nothing you don\'t. Open source project management that works for you, not against you.',
     description:
       '🎯 All you need. Nothing you don\'t. Open source project management that works for you, not against you.',
     website: 'https://kaneo.app/',
@@ -15436,7 +15458,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'actionview',
     name: 'Actionview',
     slug: 'actionview',
-    tagline: 'An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar...',
+    tagline: 'An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and…',
     description:
       'An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar to Jira.',
     website: 'https://actionview.cn',
@@ -15459,7 +15481,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'bareos',
     name: 'Bareos',
     slug: 'bareos',
-    tagline: 'Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives, and recovers...',
+    tagline: 'Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives,…',
     description:
       'Bareos is a cross-network Open Source backup solution (licensed under AGPLv3) which preserves, archives, and recovers data from all major operating systems.',
     website: 'http://www.bareos.org',
@@ -15482,7 +15504,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'project-management',
     name: 'Project Management',
     slug: 'project-management',
-    tagline: 'An open source Project management tool based on Laravel and Filament',
+    tagline: 'Project management tool based on Laravel and Filament',
     description:
       'An open source Project management tool based on Laravel and Filament',
     website: 'https://devaslanphp.github.io/project-management',
@@ -15505,7 +15527,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'cubytext',
     name: 'Cubytext',
     slug: 'cubytext',
-    tagline: 'An open-source knowledge management app.',
+    tagline: 'Knowledge management app.',
     description:
       'An open-source knowledge management app.',
     website: 'https://github.com/vincentdchan/CubyText',
@@ -15551,7 +15573,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'openakita',
     name: 'Openakita',
     slug: 'openakita',
-    tagline: 'An open-source AI assistant framework with skills and agent architecture',
+    tagline: 'AI assistant framework with skills and agent architecture',
     description:
       'An open-source AI assistant framework with skills and agent architecture',
     website: 'http://openakita.ai',
@@ -15574,7 +15596,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'hello-halo',
     name: 'Hello Halo',
     slug: 'hello-halo',
-    tagline: 'Open-source Claude Code GUI — like Claude Cowork.',
+    tagline: 'Claude Code GUI — like Claude Cowork.',
     description:
       'Open-source Claude Code GUI — like Claude Cowork. Visual AI assistant with remote access, file management, and built-in AI browser.',
     website: 'https://hello-halo.cc/',
@@ -15597,16 +15619,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'ethora',
     name: 'Ethora',
     slug: 'ethora',
-    tagline: 'Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪.',
+    tagline: 'Engine for chat 💬, AI assistants 🤖 & wallets 🪪.',
     description:
       'Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪. React, Typescript, Python, XMPP. Build future apps with chat, AI agents and web3.',
     website: 'https://ethora.com/',
     github: 'https://github.com/dappros/ethora',
     license: 'AGPL-3.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['kommunikation'],
+    replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '💬',
     logoUrl: 'https://avatars.githubusercontent.com/u/63907257?v=4',
     stars: 521,
     lastUpdated: '2025-10-07',
@@ -15620,7 +15642,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'astroplate',
     name: 'Astroplate',
     slug: 'astroplate',
-    tagline: 'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jum...',
+    tagline: 'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you…',
     description:
       'Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jumpstart your Astro project. Get started with Astroplate and save yourself hours of work!',
     website: 'https://zeon.studio/preview?project=astroplate',
@@ -15666,7 +15688,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'greptimedb',
     name: 'Greptimedb',
     slug: 'greptimedb',
-    tagline: 'The open-source Observability 2.0 database. One engine for metrics, logs, and traces — replacing Prometheus, Loki & ES.',
+    tagline: 'Observability 2.0 database. One engine for metrics, logs, and traces — replacing Prometheus, Loki & ES.',
     description:
       'The open-source Observability 2.0 database. One engine for metrics, logs, and traces — replacing Prometheus, Loki & ES.',
     website: 'https://greptime.com/',
@@ -15689,7 +15711,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'mlflow',
     name: 'Mlflow',
     slug: 'mlflow',
-    tagline: 'The open source AI engineering platform for agents, LLMs, and ML models.',
+    tagline: 'AI engineering platform for agents, LLMs, and ML models.',
     description:
       'The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.',
     website: 'https://mlflow.org',
@@ -15712,7 +15734,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'db-gpt',
     name: 'Db Gpt',
     slug: 'db-gpt',
-    tagline: 'open-source agentic AI data assistant for the next generation of AI + Data products.',
+    tagline: 'Agentic AI data assistant for the next generation of AI + Data products.',
     description:
       'open-source agentic AI data assistant for the next generation of AI + Data products.',
     website: 'http://docs.dbgpt.cn',
@@ -15758,7 +15780,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'chaterm',
     name: 'Chaterm',
     slug: 'chaterm',
-    tagline: 'Open source AI native terminal for Cloud and Infrastructure',
+    tagline: 'AI native terminal for Cloud and Infrastructure',
     description:
       'Open source AI native terminal for Cloud and Infrastructure',
     website: 'https://chaterm.ai',
@@ -15781,7 +15803,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'mission-control',
     name: 'Mission Control',
     slug: 'mission-control',
-    tagline: 'Open-source dashboard for AI agent orchestration.',
+    tagline: 'Dashboard for AI agent orchestration.',
     description:
       'Open-source dashboard for AI agent orchestration. Manage agent fleets, dispatch tasks, track costs, and coordinate multi-agent workflows. Self-hosted, zero dependencies, SQLite-powered.',
     website: 'https://mc.builderz.dev',
@@ -15833,10 +15855,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://www.percona.com/software/database-tools/percona-monitoring-and-management',
     github: 'https://github.com/percona/pmm',
     license: 'AGPL-3.0',
-    categories: ['monitoring'],
-    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    categories: ['medienserver'],
+    replacesTools: ['Plex Premium', 'Emby'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📈',
+    logoPlaceholderEmoji: '🎵',
     logoUrl: 'https://avatars.githubusercontent.com/u/1683025?v=4',
     stars: 1003,
     lastUpdated: '2026-04-06',
@@ -15850,7 +15872,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'analytics',
     name: 'Analytics',
     slug: 'analytics',
-    tagline: 'Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.',
+    tagline: 'Open source, privacy-first web analytics.',
     description:
       'Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.',
     website: 'https://plausible.io',
@@ -15873,7 +15895,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'open-generative-ai',
     name: 'Open Generative Ai',
     slug: 'open-generative-ai',
-    tagline: 'Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 2...',
+    tagline: 'Alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 2',
     description:
       'Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.',
     website: 'https://dev.muapi.ai/open-generative-ai',
@@ -15896,7 +15918,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'mirotalk',
     name: 'Mirotalk',
     slug: 'mirotalk',
-    tagline: '🚀 Self-hosted open-source WebRTC video conferencing platform built on peer-to-peer (P2P) architecture for fast, secur...',
+    tagline: 'Self-hosted open-source WebRTC video conferencing platform built on peer-to-peer (P2P) architecture for…',
     description:
       '🚀 Self-hosted open-source WebRTC video conferencing platform built on peer-to-peer (P2P) architecture for fast, secure real-time communication with end-to-end privacy.',
     website: 'https://p2p.mirotalk.com',
@@ -15919,7 +15941,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'mirotalksfu',
     name: 'Mirotalksfu',
     slug: 'mirotalksfu',
-    tagline: '🏆 Self-hosted open-source WebRTC video conferencing platform for real-time communication and collaboration.',
+    tagline: 'Self-hosted open-source WebRTC video conferencing platform for real-time communication and collaboration.',
     description:
       '🏆 Self-hosted open-source WebRTC video conferencing platform for real-time communication and collaboration. A modern Zoom alternative built on SFU architecture.',
     website: 'https://sfu.mirotalk.com',
@@ -15965,7 +15987,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'mirotalkc2c',
     name: 'Mirotalkc2c',
     slug: 'mirotalkc2c',
-    tagline: '✨ Self-hosted open-source WebRTC cam-to-cam peer-to-peer video calling platform for immersive 1-to-1 real-time commun...',
+    tagline: 'Self-hosted open-source WebRTC cam-to-cam peer-to-peer video calling platform for immersive 1-to-1…',
     description:
       '✨ Self-hosted open-source WebRTC cam-to-cam peer-to-peer video calling platform for immersive 1-to-1 real-time communication with end-to-end privacy. Each room is limited to two participants for maximum security.',
     website: 'https://c2c.mirotalk.com',
@@ -15994,10 +16016,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://casaos.zimaspace.com',
     github: 'https://github.com/IceWhaleTech/CasaOS',
     license: 'Apache-2.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['betriebssysteme'],
+    replacesTools: ['Windows', 'macOS'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🖥️',
     logoUrl: 'https://avatars.githubusercontent.com/u/91336243?v=4',
     stars: 33770,
     lastUpdated: '2025-08-06',
@@ -16011,7 +16033,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'aionui',
     name: 'Aionui',
     slug: 'aionui',
-    tagline: 'Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+...',
+    tagline: 'Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini…',
     description:
       'Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!',
     website: 'https://www.aionui.com',
@@ -16034,7 +16056,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'kuzzle',
     name: 'Kuzzle',
     slug: 'kuzzle',
-    tagline: 'Open-source Back-end, self-hostable & ready to use - Real-time, storage, advanced search - Web, Apps, Mobile, IoT -',
+    tagline: 'Back-end, self-hostable & ready to use - Real-time, storage, advanced search - Web, Apps, Mobile, IoT -',
     description:
       'Open-source Back-end, self-hostable & ready to use - Real-time, storage, advanced search - Web, Apps, Mobile, IoT -',
     website: 'https://kuzzle.io',
@@ -16080,16 +16102,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'meteroid',
     name: 'Meteroid',
     slug: 'meteroid',
-    tagline: 'Open-source Pricing and Billing Infrastructure 🚀 Subscription management, Invoicing, Pricing, Usage-based billing, Co...',
+    tagline: 'Pricing and Billing Infrastructure 🚀 Subscription management, Invoicing, Pricing, Usage-based billing, Co',
     description:
       'Open-source Pricing and Billing Infrastructure 🚀 Subscription management, Invoicing, Pricing, Usage-based billing, Cost limiting, Grandfathering, Experiments, Revenue analytics & Actionable insights',
     website: 'https://meteroid.com',
     github: 'https://github.com/meteroid-oss/meteroid',
     license: 'AGPL-3.0',
-    categories: ['analytics'],
-    replacesTools: ['Google Analytics', 'Mixpanel'],
+    categories: ['erp'],
+    replacesTools: ['SAP Business One', 'Oracle ERP'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📊',
+    logoPlaceholderEmoji: '🏭',
     logoUrl: 'https://avatars.githubusercontent.com/u/125682265?v=4',
     stars: 1067,
     lastUpdated: '2026-05-05',
@@ -16149,7 +16171,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'open-lovart',
     name: 'Open Lovart',
     slug: 'open-lovart',
-    tagline: 'Open-source AI design agent — alternative to Lovart, Runway Agent, Luma Labs Agent, Higgsfield Agent, Krea Agent, Pik...',
+    tagline: 'AI design agent — alternative to Lovart, Runway Agent, Luma Labs Agent, Higgsfield Agent, Krea Agent, Pik',
     description:
       'Open-source AI design agent — alternative to Lovart, Runway Agent, Luma Labs Agent, Higgsfield Agent, Krea Agent, Pika Agent, Galileo AI, Magic Patterns. Autonomous multi-step creative for posters, social, brand kits, ad creatives, and video. Free, MIT-licensed, self-hosted.',
     website: 'https://dev.muapi.ai/open-lovart',
@@ -16172,7 +16194,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'opensail',
     name: 'Opensail',
     slug: 'opensail',
-    tagline: 'OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.',
+    tagline: 'OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic…',
     description:
       'OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.',
     website: 'https://tesslate.com',
@@ -16195,7 +16217,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'willow-inference-server',
     name: 'Willow Inference Server',
     slug: 'willow-inference-server',
-    tagline: 'Open source, local, and self-hosted highly optimized language inference server supporting ASR/STT, TTS, and LLM acros...',
+    tagline: 'Open source, local, and self-hosted highly optimized language inference server supporting ASR/STT, TTS,…',
     description:
       'Open source, local, and self-hosted highly optimized language inference server supporting ASR/STT, TTS, and LLM across WebRTC, REST, and WS',
     website: 'https://github.com/toverainc/willow-inference-server',
@@ -16241,16 +16263,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'neohabit',
     name: 'Neohabit',
     slug: 'neohabit',
-    tagline: 'A self-hosted habit-tracker with a new approach to heatmaps, and flexible habits that happen X times in Y days.',
+    tagline: 'A self-hosted habit-tracker with a new approach to heatmaps, and flexible habits that happen X times in Y…',
     description:
       'A self-hosted habit-tracker with a new approach to heatmaps, and flexible habits that happen X times in Y days.',
     website: 'http://neohabit.org/',
     github: 'https://github.com/Vsein/Neohabit',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['notizen'],
+    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '📝',
     logoUrl: 'https://avatars.githubusercontent.com/u/61903799?v=4',
     stars: 198,
     lastUpdated: '2026-02-24',
@@ -16270,10 +16292,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo',
     github: 'https://github.com/public-apis/public-apis',
     license: 'MIT',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/51121562?v=4',
     stars: 432670,
     lastUpdated: '2026-05-05',
@@ -16287,16 +16309,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'system-prompts-and-models-of-ai-tools',
     name: 'System Prompts And Models Of Ai Tools',
     slug: 'system-prompts-and-models-of-ai-tools',
-    tagline: 'FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, No...',
+    tagline: 'FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new,…',
     description:
       'FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models',
     website: 'https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools',
     github: 'https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools',
     license: 'GPL-3.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/185671340?v=4',
     stars: 136812,
     lastUpdated: '2026-04-29',
@@ -16379,7 +16401,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'memos',
     name: 'Memos',
     slug: 'memos',
-    tagline: 'Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.',
+    tagline: 'Open-source, self-hosted note-taking tool built for quick capture.',
     description:
       'Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.',
     website: 'https://usememos.com',
@@ -16397,6 +16419,7 @@ export const autoDiscoveredTools: Tool[] = [
     platforms: ['linux', 'docker'],
     featured: false,
     addedDate: '2026-05-06',
+    simpleIconsSlug: 'memos',
   },
   {
     id: 'clickhouse',
@@ -16426,16 +16449,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'career-ops',
     name: 'Career Ops',
     slug: 'career-ops',
-    tagline: 'AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.',
+    tagline: 'AI-powered job search system built on Claude Code.',
     description:
       'AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.',
     website: 'https://career-ops.org',
     github: 'https://github.com/santifer/career-ops',
     license: 'MIT',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['crm'],
+    replacesTools: ['Salesforce', 'HubSpot'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '🤝',
     logoUrl: 'https://avatars.githubusercontent.com/u/256850418?v=4',
     stars: 43065,
     lastUpdated: '2026-05-06',
@@ -16449,7 +16472,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'rtk',
     name: 'Rtk',
     slug: 'rtk',
-    tagline: 'CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies',
+    tagline: 'CLI proxy that reduces LLM token consumption by 60-90% on common dev commands.',
     description:
       'CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies',
     website: 'https://www.rtk-ai.app',
@@ -16472,16 +16495,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'hyperswitch',
     name: 'Hyperswitch',
     slug: 'hyperswitch',
-    tagline: 'An open source payments switch written in Rust to make payments fast, reliable and affordable',
+    tagline: 'Payments switch written in Rust to make payments fast, reliable and affordable',
     description:
       'An open source payments switch written in Rust to make payments fast, reliable and affordable',
     website: 'https://hyperswitch.io/',
     github: 'https://github.com/juspay/hyperswitch',
     license: 'Apache-2.0',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['e-commerce'],
+    replacesTools: ['Shopify', 'Magento Commerce'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '🛒',
     logoUrl: 'https://avatars.githubusercontent.com/u/11497632?v=4',
     stars: 42587,
     lastUpdated: '2026-05-06',
@@ -16501,10 +16524,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://cal.diy',
     github: 'https://github.com/calcom/cal.diy',
     license: 'MIT',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['kalender'],
+    replacesTools: ['Google Calendar', 'iCloud'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '📅',
     logoUrl: 'https://avatars.githubusercontent.com/u/79145102?v=4',
     stars: 42372,
     lastUpdated: '2026-05-05',
@@ -16518,16 +16541,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'puter',
     name: 'Puter',
     slug: 'puter',
-    tagline: '🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.',
+    tagline: 'The Internet Computer! Free, Open-Source, and Self-Hostable.',
     description:
       '🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.',
     website: 'https://puter.com',
     github: 'https://github.com/HeyPuter/puter',
     license: 'AGPL-3.0',
-    categories: ['cloud-speicher'],
-    replacesTools: ['Google Drive', 'Dropbox', 'OneDrive'],
+    categories: ['betriebssysteme'],
+    replacesTools: ['Windows', 'macOS'],
     selfHostable: true,
-    logoPlaceholderEmoji: '☁️',
+    logoPlaceholderEmoji: '🖥️',
     logoUrl: 'https://avatars.githubusercontent.com/u/103972607?v=4',
     stars: 40933,
     lastUpdated: '2026-05-06',
@@ -16588,7 +16611,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'filebrowser',
     name: 'Filebrowser',
     slug: 'filebrowser',
-    tagline: '📂 Web File Browser',
+    tagline: 'Web File Browser',
     description:
       '📂 Web File Browser',
     website: 'https://filebrowser.org',
@@ -16611,7 +16634,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'khoj',
     name: 'Khoj',
     slug: 'khoj',
-    tagline: 'Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations...',
+    tagline: 'Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule…',
     description:
       'Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.',
     website: 'https://khoj.dev',
@@ -16640,10 +16663,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/glanceapp/glance',
     github: 'https://github.com/glanceapp/glance',
     license: 'AGPL-3.0',
-    categories: ['monitoring'],
-    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📈',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://avatars.githubusercontent.com/u/159397742?v=4',
     stars: 33999,
     lastUpdated: '2025-12-10',
@@ -16680,16 +16703,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'continue',
     name: 'Continue',
     slug: 'continue',
-    tagline: '⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI',
+    tagline: 'Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI',
     description:
       '⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI',
     website: 'https://docs.continue.dev',
     github: 'https://github.com/continuedev/continue',
     license: 'Apache-2.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/127876214?v=4',
     stars: 33004,
     lastUpdated: '2026-05-06',
@@ -16709,10 +16732,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://dokku.com',
     github: 'https://github.com/dokku/dokku',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['ci-cd'],
+    replacesTools: ['GitHub Actions', 'Jenkins', 'CircleCI'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🔄',
     logoUrl: 'https://avatars.githubusercontent.com/u/13455795?v=4',
     stars: 31858,
     lastUpdated: '2026-05-06',
@@ -16772,16 +16795,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'homepage',
     name: 'Homepage',
     slug: 'homepage',
-    tagline: 'A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.',
+    tagline: 'A highly customizable homepage (or startpage / application dashboard) with Docker and service API…',
     description:
       'A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.',
     website: 'https://gethomepage.dev',
     github: 'https://github.com/gethomepage/homepage',
     license: 'GPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://avatars.githubusercontent.com/u/122929872?v=4',
     stars: 29930,
     lastUpdated: '2026-05-06',
@@ -16801,10 +16824,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://community-scripts.org/',
     github: 'https://github.com/community-scripts/ProxmoxVE',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['betriebssysteme'],
+    replacesTools: ['Windows', 'macOS'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🖥️',
     logoUrl: 'https://avatars.githubusercontent.com/u/187033296?v=4',
     stars: 27922,
     lastUpdated: '2026-05-06',
@@ -16818,16 +16841,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'archivebox',
     name: 'Archivebox',
     slug: 'archivebox',
-    tagline: '🗃 Open source self-hosted web archiving.',
+    tagline: 'Open source self-hosted web archiving.',
     description:
       '🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...',
     website: 'https://archivebox.io',
     github: 'https://github.com/ArchiveBox/ArchiveBox',
     license: 'MIT',
-    categories: ['browser'],
-    replacesTools: ['Chrome', 'Edge'],
+    categories: ['notizen'],
+    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🌐',
+    logoPlaceholderEmoji: '📝',
     logoUrl: 'https://avatars.githubusercontent.com/u/74894248?v=4',
     stars: 27406,
     lastUpdated: '2026-04-24',
@@ -16841,16 +16864,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'dashy',
     name: 'Dashy',
     slug: 'dashy',
-    tagline: '🚀 A self-hostable personal dashboard built for you.',
+    tagline: 'A self-hostable personal dashboard built for you.',
     description:
       '🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!',
     website: 'https://dashy.to',
     github: 'https://github.com/Lissy93/dashy',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://avatars.githubusercontent.com/u/1862727?v=4',
     stars: 25001,
     lastUpdated: '2026-05-03',
@@ -16864,7 +16887,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'karakeep',
     name: 'Karakeep',
     slug: 'karakeep',
-    tagline: 'A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search',
+    tagline: 'A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full…',
     description:
       'A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search',
     website: 'https://karakeep.app',
@@ -16933,7 +16956,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'safeline',
     name: 'Safeline',
     slug: 'safeline',
-    tagline: 'SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exp...',
+    tagline: 'SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from…',
     description:
       'SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.',
     website: 'https://ly.safepoint.cloud/fUxS0GW',
@@ -16962,10 +16985,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://neko.m1k1o.net/',
     github: 'https://github.com/m1k1o/neko',
     license: 'Apache-2.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['browser'],
+    replacesTools: ['Chrome', 'Edge'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🌐',
     logoUrl: 'https://avatars.githubusercontent.com/u/7534274?v=4',
     stars: 20791,
     lastUpdated: '2026-04-25',
@@ -16985,10 +17008,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://obtainium.imranr.dev',
     github: 'https://github.com/ImranR98/Obtainium',
     license: 'GPL-3.0',
-    categories: ['code-hosting'],
-    replacesTools: ['GitHub', 'Bitbucket', 'Azure DevOps'],
+    categories: ['betriebssysteme'],
+    replacesTools: ['Windows', 'macOS'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗃️',
+    logoPlaceholderEmoji: '🖥️',
     logoUrl: 'https://avatars.githubusercontent.com/u/30463115?v=4',
     stars: 16902,
     lastUpdated: '2026-04-16',
@@ -17008,10 +17031,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://pentagi.com',
     github: 'https://github.com/vxcontrol/pentagi',
     license: 'MIT',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://avatars.githubusercontent.com/u/39194251?v=4',
     stars: 16552,
     lastUpdated: '2026-05-06',
@@ -17048,16 +17071,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'deepwiki-open',
     name: 'Deepwiki Open',
     slug: 'deepwiki-open',
-    tagline: 'Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories.',
+    tagline: 'DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories.',
     description:
       'Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme',
     website: 'https://asyncfunc.mintlify.app/',
     github: 'https://github.com/AsyncFuncAI/deepwiki-open',
     license: 'MIT',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['wiki'],
+    replacesTools: ['Confluence', 'Notion', 'GitBook'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '📚',
     logoUrl: 'https://avatars.githubusercontent.com/u/194295535?v=4',
     stars: 16135,
     lastUpdated: '2026-04-21',
@@ -17071,7 +17094,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'maxun',
     name: 'Maxun',
     slug: 'maxun',
-    tagline: '🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into str...',
+    tagline: 'The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites…',
     description:
       '🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥',
     website: 'https://www.maxun.dev',
@@ -17100,10 +17123,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://onedev.io',
     github: 'https://github.com/theonedev/onedev',
     license: 'MIT',
-    categories: ['ci-cd'],
-    replacesTools: ['GitHub Actions', 'Jenkins', 'CircleCI'],
+    categories: ['code-hosting'],
+    replacesTools: ['GitHub', 'Bitbucket', 'Azure DevOps'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🔄',
+    logoPlaceholderEmoji: '🗃️',
     logoUrl: 'https://avatars.githubusercontent.com/u/44279871?v=4',
     stars: 14947,
     lastUpdated: '2026-05-03',
@@ -17123,10 +17146,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://n8n.io',
     github: 'https://github.com/n8n-io/self-hosted-ai-starter-kit',
     license: 'Apache-2.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/45487711?v=4',
     stars: 14769,
     lastUpdated: '2026-01-06',
@@ -17146,10 +17169,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/alexta69/metube',
     github: 'https://github.com/alexta69/metube',
     license: 'AGPL-3.0',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['video-audio'],
+    replacesTools: ['Adobe Premiere', 'Final Cut', 'Audition'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '🎬',
     logoUrl: 'https://avatars.githubusercontent.com/u/7450369?v=4',
     stars: 13452,
     lastUpdated: '2026-04-28',
@@ -17169,10 +17192,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://bentopdf.com/',
     github: 'https://github.com/alam00000/bentopdf',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['buerosoftware'],
+    replacesTools: ['Microsoft Office', 'Google Docs'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '📄',
     logoUrl: 'https://avatars.githubusercontent.com/u/50314772?v=4',
     stars: 13106,
     lastUpdated: '2026-05-06',
@@ -17186,7 +17209,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'opensearch',
     name: 'Opensearch',
     slug: 'opensearch',
-    tagline: '🔎 Open source distributed and RESTful search engine.',
+    tagline: 'Open source distributed and RESTful search engine.',
     description:
       '🔎 Open source distributed and RESTful search engine.',
     website: 'https://opensearch.org/docs/latest/opensearch/index/',
@@ -17209,16 +17232,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'portmaster',
     name: 'Portmaster',
     slug: 'portmaster',
-    tagline: '🏔 Love Freedom - ❌ Block Mass Surveillance',
+    tagline: 'Love Freedom - ❌ Block Mass Surveillance',
     description:
       '🏔 Love Freedom - ❌ Block Mass Surveillance',
     website: 'https://safing.io',
     github: 'https://github.com/safing/portmaster',
     license: 'GPL-3.0',
-    categories: ['dns-adblock'],
-    replacesTools: ['Google DNS', 'kommerzielle Filter'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🚫',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://avatars.githubusercontent.com/u/20678162?v=4',
     stars: 12572,
     lastUpdated: '2026-05-06',
@@ -17232,7 +17255,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'illa-builder',
     name: 'Illa Builder',
     slug: 'illa-builder',
-    tagline: 'Low-code platform allows you to build business apps, enables you to quickly create internal tools such as dashboard, ...',
+    tagline: 'Low-code platform allows you to build business apps, enables you to quickly create internal tools such as…',
     description:
       'Low-code platform allows you to build business apps, enables you to quickly create internal tools such as dashboard, crud app, admin panel, crm, cms, etc. Supports PostgreSQL, MySQL, Supabase, GraphQL, MongoDB, MSSQL, Rest API, Hugging Face, Redis, etc. Automate workflows with schedule or webhook. Open source Retool.',
     website: 'https://github.com/illacloud/illa-builder',
@@ -17255,16 +17278,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'mealie',
     name: 'Mealie',
     slug: 'mealie',
-    tagline: 'Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application bu...',
+    tagline: 'Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend…',
     description:
       'Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor',
     website: 'https://docs.mealie.io',
     github: 'https://github.com/mealie-recipes/mealie',
     license: 'AGPL-3.0',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['notizen'],
+    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '📝',
     logoUrl: 'https://avatars.githubusercontent.com/u/92342333?v=4',
     stars: 12134,
     lastUpdated: '2026-05-06',
@@ -17278,16 +17301,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'owncast',
     name: 'Owncast',
     slug: 'owncast',
-    tagline: 'Take control over your live stream video by running it yourself.  Streaming + chat out of the box.',
+    tagline: 'Take control over your live stream video by running it yourself. Streaming + chat out of the box.',
     description:
       'Take control over your live stream video by running it yourself.  Streaming + chat out of the box.',
     website: 'https://owncast.online',
     github: 'https://github.com/owncast/owncast',
     license: 'MIT',
-    categories: ['social-media'],
-    replacesTools: ['Twitter/X', 'Instagram', 'Facebook'],
+    categories: ['medienserver'],
+    replacesTools: ['Plex Premium', 'Emby'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📱',
+    logoPlaceholderEmoji: '🎵',
     logoUrl: 'https://avatars.githubusercontent.com/u/69942503?v=4',
     stars: 11224,
     lastUpdated: '2026-05-06',
@@ -17307,10 +17330,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://nginxui.com',
     github: 'https://github.com/0xJacky/nginx-ui',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '📈',
     logoUrl: 'https://avatars.githubusercontent.com/u/13096985?v=4',
     stars: 11120,
     lastUpdated: '2026-05-06',
@@ -17353,10 +17376,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://linkding.link/',
     github: 'https://github.com/sissbruecker/linkding',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['notizen'],
+    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '📝',
     logoUrl: 'https://avatars.githubusercontent.com/u/357820?v=4',
     stars: 10562,
     lastUpdated: '2026-04-07',
@@ -17399,10 +17422,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://docs.is-a.dev',
     github: 'https://github.com/is-a-dev/register',
     license: 'GPL-3.0',
-    categories: ['dns-adblock'],
-    replacesTools: ['Google DNS', 'kommerzielle Filter'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🚫',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/72358814?v=4',
     stars: 10227,
     lastUpdated: '2026-05-06',
@@ -17416,16 +17439,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'lago',
     name: 'Lago',
     slug: 'lago',
-    tagline: 'Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations...',
+    tagline: 'Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations',
     description:
       'Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics',
     website: 'https://www.getlago.com',
     github: 'https://github.com/getlago/lago',
     license: 'AGPL-3.0',
-    categories: ['analytics'],
-    replacesTools: ['Google Analytics', 'Mixpanel'],
+    categories: ['erp'],
+    replacesTools: ['SAP Business One', 'Oracle ERP'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📊',
+    logoPlaceholderEmoji: '🏭',
     logoUrl: 'https://avatars.githubusercontent.com/u/75492405?v=4',
     stars: 9629,
     lastUpdated: '2026-05-06',
@@ -17485,16 +17508,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'grocy',
     name: 'Grocy',
     slug: 'grocy',
-    tagline: 'ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home',
+    tagline: 'ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for…',
     description:
       'ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home',
     website: 'https://grocy.info',
     github: 'https://github.com/grocy/grocy',
     license: 'MIT',
-    categories: ['erp'],
-    replacesTools: ['SAP Business One', 'Oracle ERP'],
+    categories: ['notizen'],
+    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🏭',
+    logoPlaceholderEmoji: '📝',
     logoUrl: 'https://avatars.githubusercontent.com/u/44542094?v=4',
     stars: 9022,
     lastUpdated: '2026-04-24',
@@ -17554,7 +17577,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'certimate',
     name: 'Certimate',
     slug: 'certimate',
-    tagline: 'An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, ren...',
+    tagline: 'And free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, ren',
     description:
       'An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, renewal, and monitoring visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期、监控全流程自动化可视化，支持各大主流云厂商。',
     website: 'https://docs.certimate.me',
@@ -17577,7 +17600,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'simplewall',
     name: 'Simplewall',
     slug: 'simplewall',
-    tagline: 'Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your computer.',
+    tagline: 'Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your…',
     description:
       'Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your computer.',
     website: 'https://github.com/henrypp/simplewall',
@@ -17606,10 +17629,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://dashboardicons.com',
     github: 'https://github.com/homarr-labs/dashboard-icons',
     license: 'Apache-2.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/153325344?v=4',
     stars: 8103,
     lastUpdated: '2026-05-06',
@@ -17646,16 +17669,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'teslamate',
     name: 'Teslamate',
     slug: 'teslamate',
-    tagline: 'A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld]',
+    tagline: 'A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]',
     description:
       'A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld]',
     website: 'https://docs.teslamate.org',
     github: 'https://github.com/teslamate-org/teslamate',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '📈',
     logoUrl: 'https://avatars.githubusercontent.com/u/150616486?v=4',
     stars: 7947,
     lastUpdated: '2026-05-05',
@@ -17675,10 +17698,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://wallosapp.com',
     github: 'https://github.com/ellite/Wallos',
     license: 'GPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['erp'],
+    replacesTools: ['SAP Business One', 'Oracle ERP'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🏭',
     logoUrl: 'https://avatars.githubusercontent.com/u/3831180?v=4',
     stars: 7844,
     lastUpdated: '2026-04-27',
@@ -17698,10 +17721,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://pocket-id.org',
     github: 'https://github.com/pocket-id/pocket-id',
     license: 'BSD-2-Clause',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://avatars.githubusercontent.com/u/197418917?v=4',
     stars: 7737,
     lastUpdated: '2026-05-05',
@@ -17721,10 +17744,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://btcpayserver.org/',
     github: 'https://github.com/btcpayserver/btcpayserver',
     license: 'MIT',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['e-commerce'],
+    replacesTools: ['Shopify', 'Magento Commerce'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '🛒',
     logoUrl: 'https://avatars.githubusercontent.com/u/31132886?v=4',
     stars: 7547,
     lastUpdated: '2026-05-06',
@@ -17813,10 +17836,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://databasus.com',
     github: 'https://github.com/databasus/databasus',
     license: 'Apache-2.0',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['backup'],
+    replacesTools: ['Backblaze', 'Acronis'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '💾',
     logoUrl: 'https://avatars.githubusercontent.com/u/250606279?v=4',
     stars: 6734,
     lastUpdated: '2026-05-06',
@@ -17830,7 +17853,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'spacebarchat',
     name: 'Spacebarchat',
     slug: 'spacebarchat',
-    tagline: '📬 Spacebar is a free open source selfhostable discord compatible communication platform',
+    tagline: 'Spacebar is a free open source selfhostable discord compatible communication platform',
     description:
       '📬 Spacebar is a free open source selfhostable discord compatible communication platform',
     website: 'https://spacebar.chat',
@@ -17928,10 +17951,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://netalertx.com',
     github: 'https://github.com/netalertx/NetAlertX',
     license: 'GPL-3.0',
-    categories: ['firewall'],
-    replacesTools: ['Cisco', 'proprietary'],
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🔥',
+    logoPlaceholderEmoji: '📈',
     logoUrl: 'https://avatars.githubusercontent.com/u/229217789?v=4',
     stars: 6329,
     lastUpdated: '2026-05-04',
@@ -17951,10 +17974,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://evidence.dev',
     github: 'https://github.com/evidence-dev/evidence',
     license: 'MIT',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['analytics'],
+    replacesTools: ['Google Analytics', 'Mixpanel'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '📊',
     logoUrl: 'https://avatars.githubusercontent.com/u/82418810?v=4',
     stars: 6295,
     lastUpdated: '2026-02-18',
@@ -17968,16 +17991,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'microsandbox',
     name: 'Microsandbox',
     slug: 'microsandbox',
-    tagline: '🧱 secure, local and programmable sandboxes for AI agents',
+    tagline: 'Secure, local and programmable sandboxes for AI agents',
     description:
       '🧱 secure, local and programmable sandboxes for AI agents',
     website: 'https://docs.microsandbox.dev',
     github: 'https://github.com/superradcompany/microsandbox',
     license: 'Apache-2.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/145875517?v=4',
     stars: 5963,
     lastUpdated: '2026-05-06',
@@ -17991,16 +18014,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'pulse',
     name: 'Pulse',
     slug: 'pulse',
-    tagline: 'Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unif...',
+    tagline: 'Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a…',
     description:
       'Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard',
     website: 'https://pulserelay.pro',
     github: 'https://github.com/rcourtman/Pulse',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '📈',
     logoUrl: 'https://avatars.githubusercontent.com/u/8825017?v=4',
     stars: 5610,
     lastUpdated: '2026-05-06',
@@ -18014,16 +18037,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'taxhacker',
     name: 'Taxhacker',
     slug: 'taxhacker',
-    tagline: 'Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories',
+    tagline: 'Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and…',
     description:
       'Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories',
     website: 'https://taxhacker.app',
     github: 'https://github.com/vas3k/TaxHacker',
     license: 'MIT',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['buerosoftware'],
+    replacesTools: ['Microsoft Office', 'Google Docs'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '📄',
     logoUrl: 'https://avatars.githubusercontent.com/u/176344?v=4',
     stars: 5545,
     lastUpdated: '2026-04-17',
@@ -18037,7 +18060,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'local-deep-research',
     name: 'Local Deep Research',
     slug: 'local-deep-research',
-    tagline: '~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10...',
+    tagline: '~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama,…',
     description:
       '~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.',
     website: 'https://github.com/LearningCircuit/local-deep-research',
@@ -18112,10 +18135,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://isso-comments.de',
     github: 'https://github.com/isso-comments/isso',
     license: 'MIT',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '🌍',
     logoUrl: 'https://avatars.githubusercontent.com/u/101195030?v=4',
     stars: 5279,
     lastUpdated: '2026-05-05',
@@ -18135,10 +18158,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/libreddit/libreddit/issues/840',
     github: 'https://github.com/libreddit/libreddit',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['social-media'],
+    replacesTools: ['Twitter/X', 'Instagram', 'Facebook'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '📱',
     logoUrl: 'https://avatars.githubusercontent.com/u/117129612?v=4',
     stars: 5191,
     lastUpdated: '2025-02-15',
@@ -18158,10 +18181,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://uncloud.run',
     github: 'https://github.com/psviderski/uncloud',
     license: 'Apache-2.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['ci-cd'],
+    replacesTools: ['GitHub Actions', 'Jenkins', 'CircleCI'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🔄',
     logoUrl: 'https://avatars.githubusercontent.com/u/783910?v=4',
     stars: 5156,
     lastUpdated: '2026-05-05',
@@ -18181,10 +18204,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'http://doc.sun-panel.top',
     github: 'https://github.com/hslr-s/sun-panel',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://avatars.githubusercontent.com/u/38825747?v=4',
     stars: 5116,
     lastUpdated: '2025-12-31',
@@ -18198,16 +18221,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'mediacms',
     name: 'Mediacms',
     slug: 'mediacms',
-    tagline: 'MediaCMS is a modern, fully featured open source video and media CMS, written in Python/Django and React, featuring a...',
+    tagline: 'MediaCMS is a modern, fully featured open source video and media CMS, written in Python/Django and React,…',
     description:
       'MediaCMS is a modern, fully featured open source video and media CMS, written in Python/Django and React, featuring a REST API.',
     website: 'https://mediacms.io',
     github: 'https://github.com/mediacms-io/mediacms',
     license: 'AGPL-3.0',
-    categories: ['cms'],
-    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    categories: ['medienserver'],
+    replacesTools: ['Plex Premium', 'Emby'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🌍',
+    logoPlaceholderEmoji: '🎵',
     logoUrl: 'https://avatars.githubusercontent.com/u/54712209?v=4',
     stars: 4889,
     lastUpdated: '2026-05-06',
@@ -18227,10 +18250,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://scanopy.net',
     github: 'https://github.com/scanopy/scanopy',
     license: 'AGPL-3.0',
-    categories: ['wiki'],
-    replacesTools: ['Confluence', 'Notion', 'GitBook'],
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📚',
+    logoPlaceholderEmoji: '🌍',
     logoUrl: 'https://avatars.githubusercontent.com/u/249509125?v=4',
     stars: 4875,
     lastUpdated: '2026-05-03',
@@ -18244,16 +18267,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'trek',
     name: 'Trek',
     slug: 'trek',
-    tagline: 'A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing ...',
+    tagline: 'A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO,…',
     description:
       'A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.',
     website: 'https://demo-nomad.pakulat.org',
     github: 'https://github.com/mauriceboe/TREK',
     license: 'AGPL-3.0',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['projektmanagement'],
+    replacesTools: ['Asana', 'Monday', 'Jira', 'Trello'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '✅',
     logoUrl: 'https://avatars.githubusercontent.com/u/61554723?v=4',
     stars: 4752,
     lastUpdated: '2026-05-06',
@@ -18267,7 +18290,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'ezbookkeeping',
     name: 'Ezbookkeeping',
     slug: 'ezbookkeeping',
-    tagline: 'A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.',
+    tagline: 'A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping…',
     description:
       'A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.',
     website: 'https://ezbookkeeping.mayswind.net',
@@ -18296,10 +18319,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://www.olares.com/',
     github: 'https://github.com/beclab/Olares',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['betriebssysteme'],
+    replacesTools: ['Windows', 'macOS'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🖥️',
     logoUrl: 'https://avatars.githubusercontent.com/u/166520503?v=4',
     stars: 4517,
     lastUpdated: '2026-05-06',
@@ -18319,10 +18342,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/Yooooomi/your_spotify',
     github: 'https://github.com/Yooooomi/your_spotify',
     license: 'GPL-3.0',
-    categories: ['monitoring'],
-    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    categories: ['analytics'],
+    replacesTools: ['Google Analytics', 'Mixpanel'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📈',
+    logoPlaceholderEmoji: '📊',
     logoUrl: 'https://avatars.githubusercontent.com/u/17204739?v=4',
     stars: 4416,
     lastUpdated: '2026-03-30',
@@ -18336,16 +18359,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'wakapi',
     name: 'Wakapi',
     slug: 'wakapi',
-    tagline: '📊 A minimalist, self-hosted WakaTime-compatible backend for coding statistics',
+    tagline: 'A minimalist, self-hosted WakaTime-compatible backend for coding statistics',
     description:
       '📊 A minimalist, self-hosted WakaTime-compatible backend for coding statistics',
     website: 'https://wakapi.dev',
     github: 'https://github.com/muety/wakapi',
     license: 'MIT',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['zeiterfassung'],
+    replacesTools: ['Harvest', 'Toggl', 'Clockify Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '⏱️',
     logoUrl: 'https://avatars.githubusercontent.com/u/8978843?v=4',
     stars: 4300,
     lastUpdated: '2026-05-02',
@@ -18359,16 +18382,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'kubero',
     name: 'Kubero',
     slug: 'kubero',
-    tagline: 'A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes',
+    tagline: 'A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running…',
     description:
       'A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes',
     website: 'https://demo.kubero.dev',
     github: 'https://github.com/kubero-dev/kubero',
     license: 'GPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['ci-cd'],
+    replacesTools: ['GitHub Actions', 'Jenkins', 'CircleCI'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🔄',
     logoUrl: 'https://avatars.githubusercontent.com/u/106908824?v=4',
     stars: 4265,
     lastUpdated: '2026-04-15',
@@ -18388,10 +18411,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://autobase.tech',
     github: 'https://github.com/autobase-tech/autobase',
     license: 'MIT',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['ci-cd'],
+    replacesTools: ['GitHub Actions', 'Jenkins', 'CircleCI'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '🔄',
     logoUrl: 'https://avatars.githubusercontent.com/u/271059185?v=4',
     stars: 4168,
     lastUpdated: '2026-05-02',
@@ -18405,16 +18428,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'bitmagnet',
     name: 'Bitmagnet',
     slug: 'bitmagnet',
-    tagline: 'A self-hosted BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API ...',
+    tagline: 'A self-hosted BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI,…',
     description:
       'A self-hosted BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API and Servarr stack integration.',
     website: 'https://bitmagnet.io/',
     github: 'https://github.com/bitmagnet-io/bitmagnet',
     license: 'MIT',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['medienserver'],
+    replacesTools: ['Plex Premium', 'Emby'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '🎵',
     logoUrl: 'https://avatars.githubusercontent.com/u/146768397?v=4',
     stars: 4023,
     lastUpdated: '2026-01-31',
@@ -18451,16 +18474,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'personal-management-system',
     name: 'Personal Management System',
     slug: 'personal-management-system',
-    tagline: 'Your web application for managing personal data.  personal.management.system.inbox@gmail.com',
+    tagline: 'Your web application for managing personal data. personal.management.system.inbox@gmail.com',
     description:
       'Your web application for managing personal data.  personal.management.system.inbox@gmail.com',
     website: 'http://personal-management-system.pl/',
     github: 'https://github.com/Volmarg/personal-management-system',
     license: 'MIT',
-    categories: ['cms'],
-    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    categories: ['buerosoftware'],
+    replacesTools: ['Microsoft Office', 'Google Docs'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🌍',
+    logoPlaceholderEmoji: '📄',
     logoUrl: 'https://avatars.githubusercontent.com/u/37488679?v=4',
     stars: 4000,
     lastUpdated: '2026-05-02',
@@ -18480,10 +18503,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://docs.2fauth.app/',
     github: 'https://github.com/Bubka/2FAuth',
     license: 'AGPL-3.0',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['passwort-manager'],
+    replacesTools: ['LastPass', '1Password'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '🔑',
     logoUrl: 'https://avatars.githubusercontent.com/u/858858?v=4',
     stars: 3916,
     lastUpdated: '2026-05-04',
@@ -18526,10 +18549,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://libredirect.github.io',
     github: 'https://github.com/libredirect/browser_extension',
     license: 'GPL-3.0',
-    categories: ['browser'],
-    replacesTools: ['Chrome', 'Edge'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🌐',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/95481720?v=4',
     stars: 3872,
     lastUpdated: '2026-03-24',
@@ -18566,7 +18589,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'hermes-web-ui',
     name: 'Hermes Web Ui',
     slug: 'hermes-web-ui',
-    tagline: 'Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channe...',
+    tagline: 'Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage…',
     description:
       'Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, WhatsApp)',
     website: 'https://github.com/EKKOLearnAI/hermes-web-ui',
@@ -18595,10 +18618,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/davestephens/ansible-nas',
     github: 'https://github.com/davestephens/ansible-nas',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['betriebssysteme'],
+    replacesTools: ['Windows', 'macOS'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🖥️',
     logoUrl: 'https://avatars.githubusercontent.com/u/668464?v=4',
     stars: 3732,
     lastUpdated: '2026-02-17',
@@ -18618,10 +18641,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://wanderer.to',
     github: 'https://github.com/open-wanderer/wanderer',
     license: 'AGPL-3.0',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['karten'],
+    replacesTools: ['Google Maps API', 'Mapbox'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '🗺️',
     logoUrl: 'https://avatars.githubusercontent.com/u/252643751?v=4',
     stars: 3587,
     lastUpdated: '2026-05-06',
@@ -18658,7 +18681,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'refact',
     name: 'Refact',
     slug: 'refact',
-    tagline: 'AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates ...',
+    tagline: 'AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes,…',
     description:
       'AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates until it achieves a successful result.',
     website: 'https://refact.ai',
@@ -18681,7 +18704,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'seanime',
     name: 'Seanime',
     slug: 'seanime',
-    tagline: 'Open-source media server with a web interface and desktop app for anime and manga.',
+    tagline: 'Media server with a web interface and desktop app for anime and manga.',
     description:
       'Open-source media server with a web interface and desktop app for anime and manga.',
     website: 'https://seanime.app',
@@ -18710,10 +18733,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://bark.day.app',
     github: 'https://github.com/Finb/bark-server',
     license: 'MIT',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['kommunikation'],
+    replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '💬',
     logoUrl: 'https://avatars.githubusercontent.com/u/6845272?v=4',
     stars: 3431,
     lastUpdated: '2026-05-06',
@@ -18727,16 +18750,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'pinry',
     name: 'Pinry',
     slug: 'pinry',
-    tagline: 'Pinry, a tiling image board system for people who want to save, tag, and share images, videos and webpages in an easy...',
+    tagline: 'Pinry, a tiling image board system for people who want to save, tag, and share images, videos and webpages…',
     description:
       'Pinry, a tiling image board system for people who want to save, tag, and share images, videos and webpages in an easy to skim through format. It\'s open-source and self-hosted.',
     website: 'https://pinry.github.io/pinry/',
     github: 'https://github.com/pinry/pinry',
     license: 'BSD-2-Clause',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['fotos'],
+    replacesTools: ['Google Photos', 'iCloud Photos', 'Amazon Photos'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '📷',
     logoUrl: 'https://avatars.githubusercontent.com/u/3700581?v=4',
     stars: 3366,
     lastUpdated: '2026-01-05',
@@ -18756,10 +18779,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://www.fossify.org',
     github: 'https://github.com/FossifyOrg/Gallery',
     license: 'GPL-3.0',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['fotos'],
+    replacesTools: ['Google Photos', 'iCloud Photos', 'Amazon Photos'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '📷',
     logoUrl: 'https://avatars.githubusercontent.com/u/152776864?v=4',
     stars: 3328,
     lastUpdated: '2026-05-04',
@@ -18779,10 +18802,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://www.linkace.org',
     github: 'https://github.com/Kovah/LinkAce',
     license: 'GPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['notizen'],
+    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '📝',
     logoUrl: 'https://avatars.githubusercontent.com/u/1816101?v=4',
     stars: 3284,
     lastUpdated: '2026-05-06',
@@ -18802,10 +18825,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://kitchenowl.org/',
     github: 'https://github.com/TomBursch/kitchenowl',
     license: 'AGPL-3.0',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['notizen'],
+    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '📝',
     logoUrl: 'https://avatars.githubusercontent.com/u/9092682?v=4',
     stars: 3263,
     lastUpdated: '2026-05-01',
@@ -18825,10 +18848,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/yourselfhosted/slash',
     github: 'https://github.com/yourselfhosted/slash',
     license: 'AGPL-3.0',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '🌍',
     logoUrl: 'https://avatars.githubusercontent.com/u/140182318?v=4',
     stars: 3150,
     lastUpdated: '2026-03-01',
@@ -18871,10 +18894,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://portr.dev',
     github: 'https://github.com/amalshaji/portr',
     license: 'AGPL-3.0',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['vpn'],
+    replacesTools: ['NordVPN', 'ExpressVPN'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '🛡️',
     logoUrl: 'https://avatars.githubusercontent.com/u/18011385?v=4',
     stars: 3129,
     lastUpdated: '2026-05-06',
@@ -18894,10 +18917,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://frappe.io/helpdesk',
     github: 'https://github.com/frappe/helpdesk',
     license: 'AGPL-3.0',
-    categories: ['projektmanagement'],
-    replacesTools: ['Asana', 'Monday', 'Jira', 'Trello'],
+    categories: ['crm'],
+    replacesTools: ['Salesforce', 'HubSpot'],
     selfHostable: true,
-    logoPlaceholderEmoji: '✅',
+    logoPlaceholderEmoji: '🤝',
     logoUrl: 'https://avatars.githubusercontent.com/u/836974?v=4',
     stars: 3113,
     lastUpdated: '2026-05-06',
@@ -18917,10 +18940,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/sergiotapia/magnetissimo',
     github: 'https://github.com/sergiotapia/magnetissimo',
     license: 'MIT',
-    categories: ['suchmaschinen'],
-    replacesTools: ['Google', 'Bing'],
+    categories: ['medienserver'],
+    replacesTools: ['Plex Premium', 'Emby'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🔍',
+    logoPlaceholderEmoji: '🎵',
     logoUrl: 'https://avatars.githubusercontent.com/u/686715?v=4',
     stars: 3083,
     lastUpdated: '2024-01-19',
@@ -18957,7 +18980,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'tianji',
     name: 'Tianji',
     slug: 'tianji',
-    tagline: 'Tianji: Insight into everything, Website Analytics + Uptime Monitor + Server Status. not only another GA alternatives',
+    tagline: 'Tianji: Insight into everything, Website Analytics + Uptime Monitor + Server Status.',
     description:
       'Tianji: Insight into everything, Website Analytics + Uptime Monitor + Server Status. not only another GA alternatives',
     website: 'https://tianji.dev',
@@ -18980,7 +19003,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'passwordpusher',
     name: 'Passwordpusher',
     slug: 'passwordpusher',
-    tagline: '🔐   Securely share sensitive information with automatic expiration & deletion after a set number of views or duration.',
+    tagline: 'Securely share sensitive information with automatic expiration & deletion after a set number of views or…',
     description:
       '🔐   Securely share sensitive information with automatic expiration & deletion after a set number of views or duration.  Track who, what and when with full audit logs.',
     website: 'https://docs.pwpush.com',
@@ -19003,16 +19026,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'waline',
     name: 'Waline',
     slug: 'waline',
-    tagline: '💬 A Simple, Safe Comment System',
+    tagline: 'A Simple, Safe Comment System',
     description:
       '💬 A Simple, Safe Comment System',
     website: 'https://waline.js.org/en/',
     github: 'https://github.com/walinejs/waline',
     license: 'GPL-2.0',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '🌍',
     logoUrl: 'https://avatars.githubusercontent.com/u/76174058?v=4',
     stars: 2986,
     lastUpdated: '2026-05-05',
@@ -19049,7 +19072,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'virtualbrowser',
     name: 'Virtualbrowser',
     slug: 'virtualbrowser',
-    tagline: 'Free anti fingerprint browser, 指纹浏览器, 隐私浏览器, 防识别浏览器, 反识别浏览器, 防关联浏览器, 免费的web3空投专用指纹浏览器 https://virtualbrowser.cc/?src=...',
+    tagline: 'Free anti fingerprint browser, 指纹浏览器, 隐私浏览器, 防识别浏览器, 反识别浏览器, 防关联浏览器, 免费的web3空投专用指纹浏览器…',
     description:
       'Free anti fingerprint browser, 指纹浏览器, 隐私浏览器, 防识别浏览器, 反识别浏览器, 防关联浏览器, 免费的web3空投专用指纹浏览器 https://virtualbrowser.cc/?src=github',
     website: 'https://virtualbrowser.cc/?src=github',
@@ -19124,10 +19147,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/Forceu/Gokapi',
     github: 'https://github.com/Forceu/Gokapi',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['cloud-speicher'],
+    replacesTools: ['Google Drive', 'Dropbox', 'OneDrive'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '☁️',
     logoUrl: 'https://avatars.githubusercontent.com/u/1593467?v=4',
     stars: 2715,
     lastUpdated: '2026-05-06',
@@ -19147,10 +19170,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://wgtunnel.com',
     github: 'https://github.com/wgtunnel/android',
     license: 'MIT',
-    categories: ['vpn'],
-    replacesTools: ['NordVPN', 'ExpressVPN'],
+    categories: ['betriebssysteme'],
+    replacesTools: ['Windows', 'macOS'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🛡️',
+    logoPlaceholderEmoji: '🖥️',
     logoUrl: 'https://avatars.githubusercontent.com/u/207392975?v=4',
     stars: 2675,
     lastUpdated: '2026-05-03',
@@ -19187,7 +19210,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'cloudflare-ddns',
     name: 'Cloudflare Ddns',
     slug: 'cloudflare-ddns',
-    tagline: '🌟 A small, feature-rich, and robust Cloudflare DDNS updater',
+    tagline: 'A small, feature-rich, and robust Cloudflare DDNS updater',
     description:
       '🌟 A small, feature-rich, and robust Cloudflare DDNS updater',
     website: 'https://github.com/favonia/cloudflare-ddns',
@@ -19216,10 +19239,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://www.documize.com',
     github: 'https://github.com/documize/community',
     license: 'AGPL-3.0',
-    categories: ['wiki'],
-    replacesTools: ['Confluence', 'Notion', 'GitBook'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📚',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/7921789?v=4',
     stars: 2387,
     lastUpdated: '2025-09-19',
@@ -19256,16 +19279,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'alternative-frontends',
     name: 'Alternative Frontends',
     slug: 'alternative-frontends',
-    tagline: '🔐🌐 Privacy-respecting web frontends for popular services',
+    tagline: 'Privacy-respecting web frontends for popular services',
     description:
       '🔐🌐 Privacy-respecting web frontends for popular services',
     website: 'https://github.com/digitalblossom/alternative-frontends',
     github: 'https://github.com/digitalblossom/alternative-frontends',
     license: 'GPL-3.0',
-    categories: ['dns-adblock'],
-    replacesTools: ['Google DNS', 'kommerzielle Filter'],
+    categories: ['browser'],
+    replacesTools: ['Chrome', 'Edge'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🚫',
+    logoPlaceholderEmoji: '🌐',
     logoUrl: 'https://avatars.githubusercontent.com/u/80636305?v=4',
     stars: 2243,
     lastUpdated: '2024-03-21',
@@ -19285,10 +19308,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://logdy.dev',
     github: 'https://github.com/logdyhq/logdy-core',
     license: 'Apache-2.0',
-    categories: ['browser'],
-    replacesTools: ['Chrome', 'Edge'],
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🌐',
+    logoPlaceholderEmoji: '📈',
     logoUrl: 'https://avatars.githubusercontent.com/u/157653306?v=4',
     stars: 2189,
     lastUpdated: '2025-08-25',
@@ -19302,16 +19325,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'donetick',
     name: 'Donetick',
     slug: 'donetick',
-    tagline: 'Donetick an open-source, user-friendly app for managing tasks and chores, featuring customizable options to help you ...',
+    tagline: 'Donetick an open-source, user-friendly app for managing tasks and chores, featuring customizable options…',
     description:
       'Donetick an open-source, user-friendly app for managing tasks and chores, featuring customizable options to help you and others stay organized',
     website: 'https://donetick.com',
     github: 'https://github.com/donetick/donetick',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['projektmanagement'],
+    replacesTools: ['Asana', 'Monday', 'Jira', 'Trello'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '✅',
     logoUrl: 'https://avatars.githubusercontent.com/u/172952750?v=4',
     stars: 2116,
     lastUpdated: '2026-05-06',
@@ -19371,7 +19394,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'opensearch-dashboards',
     name: 'Opensearch Dashboards',
     slug: 'opensearch-dashboards',
-    tagline: '📊 Open source visualization dashboards for OpenSearch.',
+    tagline: 'Open source visualization dashboards for OpenSearch.',
     description:
       '📊 Open source visualization dashboards for OpenSearch.',
     website: 'https://opensearch.org/docs/latest/dashboards/index/',
@@ -19400,10 +19423,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/EsperoTech/yaade',
     github: 'https://github.com/EsperoTech/yaade',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/76174142?v=4',
     stars: 1982,
     lastUpdated: '2025-09-08',
@@ -19446,10 +19469,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/StellarSand/privacy-settings',
     github: 'https://github.com/StellarSand/privacy-settings',
     license: 'MIT',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://avatars.githubusercontent.com/u/68168200?v=4',
     stars: 1872,
     lastUpdated: '2026-05-05',
@@ -19509,7 +19532,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'fadcam',
     name: 'Fadcam',
     slug: 'fadcam',
-    tagline: 'Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, a...',
+    tagline: 'Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live…',
     description:
       'Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control',
     website: 'https://fadcam.fadseclab.com',
@@ -19624,16 +19647,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'alexandrie',
     name: 'Alexandrie',
     slug: 'alexandrie',
-    tagline: 'Self-hosted knowledge base with extended Markdown, Kanban, OIDC/SSO, PWA & offline support. Deploy in one command.',
+    tagline: 'Self-hosted knowledge base with extended Markdown, Kanban, OIDC/SSO, PWA & offline support.',
     description:
       'Self-hosted knowledge base with extended Markdown, Kanban, OIDC/SSO, PWA & offline support. Deploy in one command.',
     website: 'https://alexandrie-hub.fr',
     github: 'https://github.com/Smaug6739/Alexandrie',
     license: 'MIT',
-    categories: ['notizen'],
-    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
+    categories: ['wiki'],
+    replacesTools: ['Confluence', 'Notion', 'GitBook'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📝',
+    logoPlaceholderEmoji: '📚',
     logoUrl: 'https://avatars.githubusercontent.com/u/59796136?v=4',
     stars: 1595,
     lastUpdated: '2026-05-06',
@@ -19653,10 +19676,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'http://conduit.mobile',
     github: 'https://github.com/cogwheel0/conduit',
     license: 'GPL-3.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['kommunikation'],
+    replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '💬',
     logoUrl: 'https://avatars.githubusercontent.com/u/172976095?v=4',
     stars: 1483,
     lastUpdated: '2026-05-06',
@@ -19676,10 +19699,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/balzack/databag',
     github: 'https://github.com/balzack/databag',
     license: 'Apache-2.0',
-    categories: ['videokonferenzen'],
-    replacesTools: ['Zoom', 'Google Meet', 'Teams'],
+    categories: ['kommunikation'],
+    replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📹',
+    logoPlaceholderEmoji: '💬',
     logoUrl: 'https://avatars.githubusercontent.com/u/96387156?v=4',
     stars: 1452,
     lastUpdated: '2026-04-17',
@@ -19722,10 +19745,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://itskovacs-trip.netlify.app/',
     github: 'https://github.com/itskovacs/trip',
     license: 'MIT',
-    categories: ['karten'],
-    replacesTools: ['Google Maps API', 'Mapbox'],
+    categories: ['erp'],
+    replacesTools: ['SAP Business One', 'Oracle ERP'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗺️',
+    logoPlaceholderEmoji: '🏭',
     logoUrl: 'https://avatars.githubusercontent.com/u/36224223?v=4',
     stars: 1397,
     lastUpdated: '2026-05-04',
@@ -19739,16 +19762,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'deck',
     name: 'Deck',
     slug: 'deck',
-    tagline: '🗂 Kanban-style project & personal management tool for Nextcloud, similar to Trello',
+    tagline: 'Kanban-style project & personal management tool for Nextcloud, similar to Trello',
     description:
       '🗂 Kanban-style project & personal management tool for Nextcloud, similar to Trello',
     website: 'https://apps.nextcloud.com/apps/deck',
     github: 'https://github.com/nextcloud/deck',
     license: 'AGPL-3.0',
-    categories: ['cloud-speicher'],
-    replacesTools: ['Google Drive', 'Dropbox', 'OneDrive'],
+    categories: ['kalender'],
+    replacesTools: ['Google Calendar', 'iCloud'],
     selfHostable: true,
-    logoPlaceholderEmoji: '☁️',
+    logoPlaceholderEmoji: '📅',
     logoUrl: 'https://avatars.githubusercontent.com/u/19211038?v=4',
     stars: 1381,
     lastUpdated: '2026-05-06',
@@ -19791,10 +19814,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://fireshare.net',
     github: 'https://github.com/ShaneIsrael/fireshare',
     license: 'GPL-3.0',
-    categories: ['medienserver'],
-    replacesTools: ['Plex Premium', 'Emby'],
+    categories: ['video-audio'],
+    replacesTools: ['Adobe Premiere', 'Final Cut', 'Audition'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🎵',
+    logoPlaceholderEmoji: '🎬',
     logoUrl: 'https://avatars.githubusercontent.com/u/1677199?v=4',
     stars: 1336,
     lastUpdated: '2026-05-06',
@@ -19808,16 +19831,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'zane-ops',
     name: 'Zane Ops',
     slug: 'zane-ops',
-    tagline: 'A beautiful and fast self-hosted PaaS for deploying and managing web apps, databases, static websites and more.',
+    tagline: 'A beautiful and fast self-hosted PaaS for deploying and managing web apps, databases, static websites and…',
     description:
       'A beautiful and fast self-hosted PaaS for deploying and managing web apps, databases, static websites and more.',
     website: 'https://zaneops.dev',
     github: 'https://github.com/zane-ops/zane-ops',
     license: 'MIT',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['ci-cd'],
+    replacesTools: ['GitHub Actions', 'Jenkins', 'CircleCI'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '🔄',
     logoUrl: 'https://avatars.githubusercontent.com/u/164444658?v=4',
     stars: 1321,
     lastUpdated: '2026-05-05',
@@ -19900,7 +19923,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'cloudflare-tunnel-ingress-controller',
     name: 'Cloudflare Tunnel Ingress Controller',
     slug: 'cloudflare-tunnel-ingress-controller',
-    tagline: '🚀 Expose the website directly into the internet! The Kuberntes Ingress Controller based on Cloudflare Tunnel.',
+    tagline: 'Expose the website directly into the internet! The Kuberntes Ingress Controller based on Cloudflare Tunnel.',
     description:
       '🚀 Expose the website directly into the internet! The Kuberntes Ingress Controller based on Cloudflare Tunnel.',
     website: 'https://tunnel.strrl.dev',
@@ -19929,10 +19952,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://secluso.com',
     github: 'https://github.com/secluso/core',
     license: 'GPL-3.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/271067237?v=4',
     stars: 1102,
     lastUpdated: '2026-05-06',
@@ -19975,10 +19998,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/utkusen/wholeaked',
     github: 'https://github.com/utkusen/wholeaked',
     license: 'BSD-3-Clause',
-    categories: ['cloud-speicher'],
-    replacesTools: ['Google Drive', 'Dropbox', 'OneDrive'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '☁️',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://avatars.githubusercontent.com/u/3511458?v=4',
     stars: 1096,
     lastUpdated: '2022-01-31',
@@ -19992,7 +20015,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'websurfx',
     name: 'Websurfx',
     slug: 'websurfx',
-    tagline: ':rocket: An open source alternative to searx which provides a modern-looking :sparkles:, lightning-fast :zap:, privac...',
+    tagline: ':rocket: An open source alternative to searx which provides a modern-looking :sparkles:, lightning-fast…',
     description:
       ':rocket: An open source alternative to searx which provides a modern-looking :sparkles:, lightning-fast :zap:, privacy respecting :disguised_face:, secure :lock: meta search engine',
     website: 'https://github.com/neon-mmd/websurfx/tree/rolling/docs',
@@ -20015,16 +20038,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'musicrecognizer',
     name: 'Musicrecognizer',
     slug: 'musicrecognizer',
-    tagline: 'An open-source Android app for music recognition that integrates AudD, ACRCloud, and Shazam to perform song identific...',
+    tagline: 'Android app for music recognition that integrates AudD, ACRCloud, and Shazam to perform song identific',
     description:
       'An open-source Android app for music recognition that integrates AudD, ACRCloud, and Shazam to perform song identification.',
     website: 'https://github.com/aleksey-saenko/MusicRecognizer',
     github: 'https://github.com/aleksey-saenko/MusicRecognizer',
     license: 'GPL-3.0',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['video-audio'],
+    replacesTools: ['Adobe Premiere', 'Final Cut', 'Audition'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '🎬',
     logoUrl: 'https://avatars.githubusercontent.com/u/109096599?v=4',
     stars: 1088,
     lastUpdated: '2026-05-05',
@@ -20067,10 +20090,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://degoog-org.github.io/degoog/',
     github: 'https://github.com/degoog-org/degoog',
     license: 'AGPL-3.0',
-    categories: ['suchmaschinen'],
-    replacesTools: ['Google', 'Bing'],
+    categories: ['betriebssysteme'],
+    replacesTools: ['Windows', 'macOS'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🔍',
+    logoPlaceholderEmoji: '🖥️',
     logoUrl: 'https://avatars.githubusercontent.com/u/280656364?v=4',
     stars: 977,
     lastUpdated: '2026-05-06',
@@ -20113,10 +20136,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/Zibbp/ganymede',
     github: 'https://github.com/Zibbp/ganymede',
     license: 'GPL-3.0',
-    categories: ['kommunikation'],
-    replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
+    categories: ['medienserver'],
+    replacesTools: ['Plex Premium', 'Emby'],
     selfHostable: true,
-    logoPlaceholderEmoji: '💬',
+    logoPlaceholderEmoji: '🎵',
     logoUrl: 'https://avatars.githubusercontent.com/u/21207065?v=4',
     stars: 952,
     lastUpdated: '2026-05-06',
@@ -20130,16 +20153,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'hometube',
     name: 'Hometube',
     slug: 'hometube',
-    tagline: 'HomeTube is a friendly video downloader managing single video URL into organized content structure for automatic home...',
+    tagline: 'HomeTube is a friendly video downloader managing single video URL into organized content structure for…',
     description:
       'HomeTube is a friendly video downloader managing single video URL into organized content structure for automatic home media server experience.',
     website: 'https://github.com/EgalitarianMonkey/hometube',
     github: 'https://github.com/EgalitarianMonkey/hometube',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['video-audio'],
+    replacesTools: ['Adobe Premiere', 'Final Cut', 'Audition'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🎬',
     logoUrl: 'https://avatars.githubusercontent.com/u/48605580?v=4',
     stars: 948,
     lastUpdated: '2026-04-09',
@@ -20153,7 +20176,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'swifty',
     name: 'Swifty',
     slug: 'swifty',
-    tagline: '🔑   Free Offline-first Password Manager',
+    tagline: 'Free Offline-first Password Manager',
     description:
       '🔑   Free Offline-first Password Manager',
     website: 'https://getswifty.pro',
@@ -20176,16 +20199,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'bitcart',
     name: 'Bitcart',
     slug: 'bitcart',
-    tagline: 'Bitcart is a free and open-source self-hosted payment processor for BTC, LTC, BCH, XMR, ETH, TRX, USDT and more',
+    tagline: 'Bitcart is a free and open-source self-hosted payment processor for BTC, LTC, BCH, XMR, ETH, TRX, USDT and…',
     description:
       'Bitcart is a free and open-source self-hosted payment processor for BTC, LTC, BCH, XMR, ETH, TRX, USDT and more',
     website: 'https://bitcart.ai',
     github: 'https://github.com/bitcart/bitcart',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['e-commerce'],
+    replacesTools: ['Shopify', 'Magento Commerce'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🛒',
     logoUrl: 'https://avatars.githubusercontent.com/u/71035673?v=4',
     stars: 939,
     lastUpdated: '2026-05-05',
@@ -20222,7 +20245,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'opentrashmail',
     name: 'Opentrashmail',
     slug: 'opentrashmail',
-    tagline: 'Open Source standalone trashmail solution that ships its own mail server',
+    tagline: 'Standalone trashmail solution that ships its own mail server',
     description:
       'Open Source standalone trashmail solution that ships its own mail server',
     website: 'https://github.com/HaschekSolutions/opentrashmail',
@@ -20251,10 +20274,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://invio.dev',
     github: 'https://github.com/kittendevv/Invio',
     license: 'Unlicense',
-    categories: ['erp'],
-    replacesTools: ['SAP Business One', 'Oracle ERP'],
+    categories: ['cloud-speicher'],
+    replacesTools: ['Google Drive', 'Dropbox', 'OneDrive'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🏭',
+    logoPlaceholderEmoji: '☁️',
     logoUrl: 'https://avatars.githubusercontent.com/u/121097932?v=4',
     stars: 840,
     lastUpdated: '2026-05-06',
@@ -20291,7 +20314,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'social-amnesia',
     name: 'Social Amnesia',
     slug: 'social-amnesia',
-    tagline: 'Forget the past. Social Amnesia makes sure your social media accounts only show your posts from recent history, not f...',
+    tagline: 'Forget the past. Social Amnesia makes sure your social media accounts only show your posts from recent…',
     description:
       'Forget the past. Social Amnesia makes sure your social media accounts only show your posts from recent history, not from "that phase" 5 years ago.',
     website: 'https://github.com/Nick-Gottschlich/Social-Amnesia',
@@ -20314,16 +20337,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'portabase',
     name: 'Portabase',
     slug: 'portabase',
-    tagline: 'Portabase - Database backup & restore tool for PostgreSQL, MySQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis and V...',
+    tagline: 'Portabase - Database backup & restore tool for PostgreSQL, MySQL, MariaDB, Firebird SQL, SQLite, MongoDB,…',
     description:
       'Portabase - Database backup & restore tool for PostgreSQL, MySQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis and Valkey (more engines coming soon 🚀)',
     website: 'https://portabase.io',
     github: 'https://github.com/Portabase/portabase',
     license: 'Apache-2.0',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['notizen'],
+    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '📝',
     logoUrl: 'https://avatars.githubusercontent.com/u/249081024?v=4',
     stars: 803,
     lastUpdated: '2026-04-29',
@@ -20360,16 +20383,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'astroluma',
     name: 'Astroluma',
     slug: 'astroluma',
-    tagline: 'Astroluma is a feature-rich, user-friendly dashboard designed to help you manage multiple aspects of your daily tasks...',
+    tagline: 'Astroluma is a feature-rich, user-friendly dashboard designed to help you manage multiple aspects of your…',
     description:
       'Astroluma is a feature-rich, user-friendly dashboard designed to help you manage multiple aspects of your daily tasks and services.',
     website: 'https://getastroluma.com/',
     github: 'https://github.com/Sanjeet990/Astroluma',
     license: 'GPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://avatars.githubusercontent.com/u/25366398?v=4',
     stars: 774,
     lastUpdated: '2025-07-04',
@@ -20389,10 +20412,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/TheNickOfTime/handbrake-web',
     github: 'https://github.com/TheNickOfTime/handbrake-web',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['video-audio'],
+    replacesTools: ['Adobe Premiere', 'Final Cut', 'Audition'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🎬',
     logoUrl: 'https://avatars.githubusercontent.com/u/10342737?v=4',
     stars: 758,
     lastUpdated: '2026-03-27',
@@ -20406,7 +20429,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'netgoat',
     name: 'Netgoat',
     slug: 'netgoat',
-    tagline: 'A Cloudflare alternative for local and cloud use, can be used ontop of cloudflare for cloudflares paid features, but ...',
+    tagline: 'A Cloudflare alternative for local and cloud use, can be used ontop of cloudflare for cloudflares paid…',
     description:
       'A Cloudflare alternative for local and cloud use, can be used ontop of cloudflare for cloudflares paid features, but for free!',
     website: 'https://netgoat.xyz',
@@ -20475,7 +20498,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'strix',
     name: 'Strix',
     slug: 'strix',
-    tagline: 'Smart IP camera stream finder. Tests 102K+ URL patterns in 30 seconds. Supports 67K camera models. Generates ready Fr...',
+    tagline: 'Smart IP camera stream finder. Tests 102K+ URL patterns in 30 seconds. Supports 67K camera models.…',
     description:
       'Smart IP camera stream finder. Tests 102K+ URL patterns in 30 seconds. Supports 67K camera models. Generates ready Frigate/go2rtc configs.',
     website: 'https://github.com/eduard256/Strix',
@@ -20498,7 +20521,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'athena',
     name: 'Athena',
     slug: 'athena',
-    tagline: 'Athena is a Material You (Material 3) firewall and ad blocker that works seamlessly on both rooted and non-rooted dev...',
+    tagline: 'Athena is a Material You (Material 3) firewall and ad blocker that works seamlessly on both rooted and…',
     description:
       'Athena is a Material You (Material 3) firewall and ad blocker that works seamlessly on both rooted and non-rooted devices.',
     website: 'https://easyapps.me',
@@ -20521,16 +20544,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'jump',
     name: 'Jump',
     slug: 'jump',
-    tagline: 'Jump is a self-hosted startpage and real-time status page for your server designed to be simple, stylish, fast and se...',
+    tagline: 'Jump is a self-hosted startpage and real-time status page for your server designed to be simple, stylish,…',
     description:
       'Jump is a self-hosted startpage and real-time status page for your server designed to be simple, stylish, fast and secure.',
     website: 'https://github.com/daledavies/jump',
     github: 'https://github.com/daledavies/jump',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://avatars.githubusercontent.com/u/4996546?v=4',
     stars: 602,
     lastUpdated: '2024-05-15',
@@ -20550,10 +20573,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://beepb00p.xyz/cloudmacs.html',
     github: 'https://github.com/karlicoss/cloudmacs',
     license: 'GPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/291333?v=4',
     stars: 578,
     lastUpdated: '2025-09-22',
@@ -20642,10 +20665,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://watomatic.app',
     github: 'https://github.com/adeekshith/watomatic',
     license: 'GPL-3.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['kommunikation'],
+    replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '💬',
     logoUrl: 'https://avatars.githubusercontent.com/u/2568945?v=4',
     stars: 538,
     lastUpdated: '2026-05-06',
@@ -20665,10 +20688,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://blueprint.zip',
     github: 'https://github.com/BlueprintFramework/framework',
     license: 'MIT',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/123477919?v=4',
     stars: 533,
     lastUpdated: '2026-05-04',
@@ -20705,16 +20728,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'windows-on-reins',
     name: 'Windows On Reins',
     slug: 'windows-on-reins',
-    tagline: 'Wor is a Powershell script to harden, debloat, optimize, enhance privacy, avoid fingerprinting and improve performanc...',
+    tagline: 'Wor is a Powershell script to harden, debloat, optimize, enhance privacy, avoid fingerprinting and improve…',
     description:
       'Wor is a Powershell script to harden, debloat, optimize, enhance privacy, avoid fingerprinting and improve performance on Windows 10 and 11.',
     website: 'https://github.com/gordonbay/Windows-On-Reins',
     github: 'https://github.com/gordonbay/Windows-On-Reins',
     license: 'GPL-3.0',
-    categories: ['erp'],
-    replacesTools: ['SAP Business One', 'Oracle ERP'],
+    categories: ['betriebssysteme'],
+    replacesTools: ['Windows', 'macOS'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🏭',
+    logoPlaceholderEmoji: '🖥️',
     logoUrl: 'https://avatars.githubusercontent.com/u/19177793?v=4',
     stars: 472,
     lastUpdated: '2025-06-21',
@@ -20728,7 +20751,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'macos-fortress',
     name: 'Macos Fortress',
     slug: 'macos-fortress',
-    tagline: 'Firewall and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers with Anti-Virus On-Demand and O...',
+    tagline: 'Firewall and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers with Anti-Virus…',
     description:
       'Firewall and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers with Anti-Virus On-Demand and On-Access Scanning (PF, squid, privoxy, hphosts, dshield, emergingthreats, hostsfile, PAC file, clamav)',
     website: 'https://github.com/essandess/macOS-Fortress',
@@ -20774,16 +20797,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'juggluco',
     name: 'Juggluco',
     slug: 'juggluco',
-    tagline: 'Android app for Freestyle Libre 1,2 and 3, Dexcom G7/ONE+, Sibionics GS1Sb, AccuChek SmartGuide, CareSens Air and Lin...',
+    tagline: 'Android app for Freestyle Libre 1,2 and 3, Dexcom G7/ONE+, Sibionics GS1Sb, AccuChek SmartGuide, CareSens…',
     description:
       'Android app for Freestyle Libre 1,2 and 3, Dexcom G7/ONE+, Sibionics GS1Sb, AccuChek SmartGuide, CareSens Air and Linx/Aidex X sensors',
     website: 'https://www.juggluco.nl',
     github: 'https://github.com/j-kaltes/Juggluco',
     license: 'GPL-3.0',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['notizen'],
+    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '📝',
     logoUrl: 'https://avatars.githubusercontent.com/u/72013079?v=4',
     stars: 395,
     lastUpdated: '2026-04-29',
@@ -20797,7 +20820,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'freshlytics',
     name: 'Freshlytics',
     slug: 'freshlytics',
-    tagline: 'Open source privacy-friendly analytics',
+    tagline: 'Privacy-friendly analytics',
     description:
       'Open source privacy-friendly analytics',
     website: 'https://github.com/sheshbabu/freshlytics',
@@ -20826,10 +20849,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/ghostery/local-sheriff',
     github: 'https://github.com/ghostery/local-sheriff',
     license: 'GPL-3.0',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://avatars.githubusercontent.com/u/3441846?v=4',
     stars: 309,
     lastUpdated: '2022-12-11',
@@ -20849,10 +20872,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://opentoolkit.github.io/CompressPDF/',
     github: 'https://github.com/OpenToolKit/CompressPDF',
     license: 'GPL-3.0',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['buerosoftware'],
+    replacesTools: ['Microsoft Office', 'Google Docs'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '📄',
     logoUrl: 'https://avatars.githubusercontent.com/u/56498812?v=4',
     stars: 282,
     lastUpdated: '2020-10-03',
