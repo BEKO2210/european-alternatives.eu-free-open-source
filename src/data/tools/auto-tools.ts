@@ -4826,6 +4826,469 @@ import type { Tool } from '../types';
     ],
     "featured": false,
     "addedDate": "2026-04-13"
+  },
+  {
+    "id": "casaos",
+    "name": "Casaos",
+    "slug": "casaos",
+    "tagline": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+    "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+    "website": "https://casaos.zimaspace.com",
+    "github": "https://github.com/IceWhaleTech/CasaOS",
+    "license": "Apache-2.0",
+    "categories": [
+      "container"
+    ],
+    "replacesTools": [
+      "Docker Hub",
+      "Kubernetes EKS"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📦",
+    "logoUrl": "https://avatars.githubusercontent.com/u/91336243?v=4",
+    "stars": 33770,
+    "lastUpdated": "2025-08-06",
+    "tags": [
+      "casaos",
+      "docker",
+      "golang",
+      "home-automation",
+      "home-cloud",
+      "home-server",
+      "iot"
+    ],
+    "difficulty": "einfach",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
+  },
+  {
+    "id": "aionui",
+    "name": "Aionui",
+    "slug": "aionui",
+    "tagline": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+...",
+    "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+    "website": "https://www.aionui.com",
+    "github": "https://github.com/iOfficeAI/AionUi",
+    "license": "Apache-2.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/145246968?v=4",
+    "stars": 23887,
+    "lastUpdated": "2026-05-06",
+    "tags": [
+      "acp",
+      "agent-team",
+      "ai",
+      "ai-agent",
+      "chat",
+      "chatbot",
+      "claude-code"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
+  },
+  {
+    "id": "kuzzle",
+    "name": "Kuzzle",
+    "slug": "kuzzle",
+    "tagline": "Open-source Back-end, self-hostable & ready to use - Real-time, storage, advanced search - Web, Apps, Mobile, IoT -",
+    "description": "Open-source Back-end, self-hostable & ready to use - Real-time, storage, advanced search - Web, Apps, Mobile, IoT -",
+    "website": "https://kuzzle.io",
+    "github": "https://github.com/kuzzleio/kuzzle",
+    "license": "Apache-2.0",
+    "categories": [
+      "backend-frameworks"
+    ],
+    "replacesTools": [
+      "Firebase",
+      "Supabase Pro"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "⚙️",
+    "logoUrl": "https://avatars.githubusercontent.com/u/12933347?v=4",
+    "stars": 1641,
+    "lastUpdated": "2026-04-29",
+    "tags": [
+      "api-server",
+      "backend",
+      "elasticsearch",
+      "hacktoberfest",
+      "iot",
+      "kuzzle",
+      "kuzzle-server"
+    ],
+    "difficulty": "fortgeschritten",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
+  },
+  {
+    "id": "brightbean-studio",
+    "name": "Brightbean Studio",
+    "slug": "brightbean-studio",
+    "tagline": "Open-source, self-hostable social media management platform.",
+    "description": "Open-source, self-hostable social media management platform. Schedule, publish, and manage content across 10+ platforms from a single dashboard. Free alternative to Buffer, Sendible, and SocialPilot.",
+    "website": "https://brightbean.xyz/",
+    "github": "https://github.com/brightbeanxyz/brightbean-studio",
+    "license": "AGPL-3.0",
+    "categories": [
+      "cms"
+    ],
+    "replacesTools": [
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🌍",
+    "logoUrl": "https://avatars.githubusercontent.com/u/268594138?v=4",
+    "stars": 1583,
+    "lastUpdated": "2026-05-05",
+    "tags": [
+      "agpl",
+      "buffer-alternative",
+      "content-management",
+      "django",
+      "docker",
+      "htmx",
+      "multi-platform"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
+  },
+  {
+    "id": "meteroid",
+    "name": "Meteroid",
+    "slug": "meteroid",
+    "tagline": "Open-source Pricing and Billing Infrastructure 🚀 Subscription management, Invoicing, Pricing, Usage-based billing, Co...",
+    "description": "Open-source Pricing and Billing Infrastructure 🚀 Subscription management, Invoicing, Pricing, Usage-based billing, Cost limiting, Grandfathering, Experiments, Revenue analytics & Actionable insights",
+    "website": "https://meteroid.com",
+    "github": "https://github.com/meteroid-oss/meteroid",
+    "license": "AGPL-3.0",
+    "categories": [
+      "analytics"
+    ],
+    "replacesTools": [
+      "Google Analytics",
+      "Mixpanel"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📊",
+    "logoUrl": "https://avatars.githubusercontent.com/u/125682265?v=4",
+    "stars": 1067,
+    "lastUpdated": "2026-05-05",
+    "tags": [
+      "analytics",
+      "api",
+      "billing",
+      "clickhouse",
+      "invoicing",
+      "metering",
+      "modern-data-stack"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
+  },
+  {
+    "id": "openyak",
+    "name": "Openyak",
+    "slug": "openyak",
+    "tagline": "OpenYak — open-source local AI agent for Windows, macOS, and Linux.",
+    "description": "OpenYak — open-source local AI agent for Windows, macOS, and Linux. A private, BYOK alternative to Claude Code, Claude for Work, and OpenAI Codex with 20+ tools, 100+ models via OpenRouter, MCP, and Ollama. Free, MIT-licensed, no telemetry.",
+    "website": "https://open-yak.com/",
+    "github": "https://github.com/openyak/openyak",
+    "license": "MIT",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/269497421?v=4",
+    "stars": 780,
+    "lastUpdated": "2026-05-05",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai-agent",
+      "ai-coding-assistant",
+      "byok",
+      "chatgpt-alternative",
+      "claude-code"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
+  },
+  {
+    "id": "news-android",
+    "name": "News Android",
+    "slug": "news-android",
+    "tagline": "📱🗞️ Android client for the Nextcloud news/feed reader app",
+    "description": "📱🗞️ Android client for the Nextcloud news/feed reader app",
+    "website": "https://play.google.com/store/apps/details?id=de.luhmer.owncloudnewsreader",
+    "github": "https://github.com/nextcloud/news-android",
+    "license": "AGPL-3.0",
+    "categories": [
+      "cloud-speicher"
+    ],
+    "replacesTools": [
+      "Google Drive",
+      "Dropbox",
+      "OneDrive"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "☁️",
+    "logoUrl": "https://avatars.githubusercontent.com/u/19211038?v=4",
+    "stars": 759,
+    "lastUpdated": "2026-05-01",
+    "tags": [
+      "android",
+      "nextcloud",
+      "nextcloud-app",
+      "nextcloud-news",
+      "open-source",
+      "rss",
+      "rss-reader"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "android"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
+  },
+  {
+    "id": "open-lovart",
+    "name": "Open Lovart",
+    "slug": "open-lovart",
+    "tagline": "Open-source AI design agent — alternative to Lovart, Runway Agent, Luma Labs Agent, Higgsfield Agent, Krea Agent, Pik...",
+    "description": "Open-source AI design agent — alternative to Lovart, Runway Agent, Luma Labs Agent, Higgsfield Agent, Krea Agent, Pika Agent, Galileo AI, Magic Patterns. Autonomous multi-step creative for posters, social, brand kits, ad creatives, and video. Free, MIT-licensed, self-hosted.",
+    "website": "https://dev.muapi.ai/open-lovart",
+    "github": "https://github.com/Anil-matcha/Open-Lovart",
+    "license": "MIT",
+    "categories": [
+      "dev-tools"
+    ],
+    "replacesTools": [
+      "JetBrains Suite",
+      "Visual Studio"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "⌨️",
+    "logoUrl": "https://avatars.githubusercontent.com/u/4326215?v=4",
+    "stars": 639,
+    "lastUpdated": "2026-05-06",
+    "tags": [
+      "ai-creative-agent",
+      "ai-design-agent",
+      "ai-logo",
+      "ai-poster",
+      "ai-video-agent",
+      "brand-kit",
+      "design-agent"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
+  },
+  {
+    "id": "opensail",
+    "name": "Opensail",
+    "slug": "opensail",
+    "tagline": "OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.",
+    "description": "OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.",
+    "website": "https://tesslate.com",
+    "github": "https://github.com/TesslateAI/OpenSail",
+    "license": "Apache-2.0",
+    "categories": [
+      "container"
+    ],
+    "replacesTools": [
+      "Docker Hub",
+      "Kubernetes EKS"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📦",
+    "logoUrl": "https://avatars.githubusercontent.com/u/200633710?v=4",
+    "stars": 509,
+    "lastUpdated": "2026-05-06",
+    "tags": [
+      "agents",
+      "ai",
+      "automation",
+      "btrfs",
+      "connectors",
+      "deployment",
+      "desktop"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
+  },
+  {
+    "id": "willow-inference-server",
+    "name": "Willow Inference Server",
+    "slug": "willow-inference-server",
+    "tagline": "Open source, local, and self-hosted highly optimized language inference server supporting ASR/STT, TTS, and LLM acros...",
+    "description": "Open source, local, and self-hosted highly optimized language inference server supporting ASR/STT, TTS, and LLM across WebRTC, REST, and WS",
+    "website": "https://github.com/toverainc/willow-inference-server",
+    "github": "https://github.com/toverainc/willow-inference-server",
+    "license": "Apache-2.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/84786158?v=4",
+    "stars": 501,
+    "lastUpdated": "2026-02-12",
+    "tags": [
+      "cuda",
+      "deep-learning",
+      "llama",
+      "llm",
+      "privacy",
+      "speech-recognition",
+      "speech-to-text"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
+  },
+  {
+    "id": "homegenie",
+    "name": "Homegenie",
+    "slug": "homegenie",
+    "tagline": "HomeGenie: The Programmable Intelligence with 100% Local Agentic AI.",
+    "description": "HomeGenie: The Programmable Intelligence with 100% Local Agentic AI.",
+    "website": "https://homegenie.it",
+    "github": "https://github.com/genielabs/HomeGenie",
+    "license": "AGPL-3.0",
+    "categories": [
+      "ki-ml"
+    ],
+    "replacesTools": [
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "🤖",
+    "logoUrl": "https://avatars.githubusercontent.com/u/28220593?v=4",
+    "stars": 450,
+    "lastUpdated": "2026-05-03",
+    "tags": [
+      "artificial-intelligence",
+      "automation",
+      "building-automation",
+      "computer-vision",
+      "gpio",
+      "home-automation",
+      "iot"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
+  },
+  {
+    "id": "neohabit",
+    "name": "Neohabit",
+    "slug": "neohabit",
+    "tagline": "A self-hosted habit-tracker with a new approach to heatmaps, and flexible habits that happen X times in Y days.",
+    "description": "A self-hosted habit-tracker with a new approach to heatmaps, and flexible habits that happen X times in Y days.",
+    "website": "http://neohabit.org/",
+    "github": "https://github.com/Vsein/Neohabit",
+    "license": "AGPL-3.0",
+    "categories": [
+      "container"
+    ],
+    "replacesTools": [
+      "Docker Hub",
+      "Kubernetes EKS"
+    ],
+    "selfHostable": true,
+    "logoPlaceholderEmoji": "📦",
+    "logoUrl": "https://avatars.githubusercontent.com/u/61903799?v=4",
+    "stars": 198,
+    "lastUpdated": "2026-02-24",
+    "tags": [
+      "docker",
+      "go",
+      "habit-tracker",
+      "habit-tracking",
+      "habits",
+      "javascript",
+      "open-source"
+    ],
+    "difficulty": "mittel",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "featured": false,
+    "addedDate": "2026-05-06"
   }
 ]
 END_AUTO_TOOLS_JSON */
@@ -7705,5 +8168,281 @@ export const autoDiscoveredTools: Tool[] = [
     platforms: ['linux', 'docker'],
     featured: false,
     addedDate: '2026-04-13',
+  },
+  {
+    id: 'casaos',
+    name: 'Casaos',
+    slug: 'casaos',
+    tagline: 'CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.',
+    description:
+      'CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.',
+    website: 'https://casaos.zimaspace.com',
+    github: 'https://github.com/IceWhaleTech/CasaOS',
+    license: 'Apache-2.0',
+    categories: ['container'],
+    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📦',
+    logoUrl: 'https://avatars.githubusercontent.com/u/91336243?v=4',
+    stars: 33770,
+    lastUpdated: '2025-08-06',
+    tags: ['casaos', 'docker', 'golang', 'home-automation', 'home-cloud', 'home-server', 'iot'],
+    difficulty: 'einfach',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-05-06',
+  },
+  {
+    id: 'aionui',
+    name: 'Aionui',
+    slug: 'aionui',
+    tagline: 'Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+...',
+    description:
+      'Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!',
+    website: 'https://www.aionui.com',
+    github: 'https://github.com/iOfficeAI/AionUi',
+    license: 'Apache-2.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/145246968?v=4',
+    stars: 23887,
+    lastUpdated: '2026-05-06',
+    tags: ['acp', 'agent-team', 'ai', 'ai-agent', 'chat', 'chatbot', 'claude-code'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-05-06',
+  },
+  {
+    id: 'kuzzle',
+    name: 'Kuzzle',
+    slug: 'kuzzle',
+    tagline: 'Open-source Back-end, self-hostable & ready to use - Real-time, storage, advanced search - Web, Apps, Mobile, IoT -',
+    description:
+      'Open-source Back-end, self-hostable & ready to use - Real-time, storage, advanced search - Web, Apps, Mobile, IoT -',
+    website: 'https://kuzzle.io',
+    github: 'https://github.com/kuzzleio/kuzzle',
+    license: 'Apache-2.0',
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '⚙️',
+    logoUrl: 'https://avatars.githubusercontent.com/u/12933347?v=4',
+    stars: 1641,
+    lastUpdated: '2026-04-29',
+    tags: ['api-server', 'backend', 'elasticsearch', 'hacktoberfest', 'iot', 'kuzzle', 'kuzzle-server'],
+    difficulty: 'fortgeschritten',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-05-06',
+  },
+  {
+    id: 'brightbean-studio',
+    name: 'Brightbean Studio',
+    slug: 'brightbean-studio',
+    tagline: 'Open-source, self-hostable social media management platform.',
+    description:
+      'Open-source, self-hostable social media management platform. Schedule, publish, and manage content across 10+ platforms from a single dashboard. Free alternative to Buffer, Sendible, and SocialPilot.',
+    website: 'https://brightbean.xyz/',
+    github: 'https://github.com/brightbeanxyz/brightbean-studio',
+    license: 'AGPL-3.0',
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌍',
+    logoUrl: 'https://avatars.githubusercontent.com/u/268594138?v=4',
+    stars: 1583,
+    lastUpdated: '2026-05-05',
+    tags: ['agpl', 'buffer-alternative', 'content-management', 'django', 'docker', 'htmx', 'multi-platform'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-05-06',
+  },
+  {
+    id: 'meteroid',
+    name: 'Meteroid',
+    slug: 'meteroid',
+    tagline: 'Open-source Pricing and Billing Infrastructure 🚀 Subscription management, Invoicing, Pricing, Usage-based billing, Co...',
+    description:
+      'Open-source Pricing and Billing Infrastructure 🚀 Subscription management, Invoicing, Pricing, Usage-based billing, Cost limiting, Grandfathering, Experiments, Revenue analytics & Actionable insights',
+    website: 'https://meteroid.com',
+    github: 'https://github.com/meteroid-oss/meteroid',
+    license: 'AGPL-3.0',
+    categories: ['analytics'],
+    replacesTools: ['Google Analytics', 'Mixpanel'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📊',
+    logoUrl: 'https://avatars.githubusercontent.com/u/125682265?v=4',
+    stars: 1067,
+    lastUpdated: '2026-05-05',
+    tags: ['analytics', 'api', 'billing', 'clickhouse', 'invoicing', 'metering', 'modern-data-stack'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-05-06',
+  },
+  {
+    id: 'openyak',
+    name: 'Openyak',
+    slug: 'openyak',
+    tagline: 'OpenYak — open-source local AI agent for Windows, macOS, and Linux.',
+    description:
+      'OpenYak — open-source local AI agent for Windows, macOS, and Linux. A private, BYOK alternative to Claude Code, Claude for Work, and OpenAI Codex with 20+ tools, 100+ models via OpenRouter, MCP, and Ollama. Free, MIT-licensed, no telemetry.',
+    website: 'https://open-yak.com/',
+    github: 'https://github.com/openyak/openyak',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/269497421?v=4',
+    stars: 780,
+    lastUpdated: '2026-05-05',
+    tags: ['agent', 'agentic-ai', 'ai-agent', 'ai-coding-assistant', 'byok', 'chatgpt-alternative', 'claude-code'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'windows', 'macos'],
+    featured: false,
+    addedDate: '2026-05-06',
+  },
+  {
+    id: 'news-android',
+    name: 'News Android',
+    slug: 'news-android',
+    tagline: '📱🗞️ Android client for the Nextcloud news/feed reader app',
+    description:
+      '📱🗞️ Android client for the Nextcloud news/feed reader app',
+    website: 'https://play.google.com/store/apps/details?id=de.luhmer.owncloudnewsreader',
+    github: 'https://github.com/nextcloud/news-android',
+    license: 'AGPL-3.0',
+    categories: ['cloud-speicher'],
+    replacesTools: ['Google Drive', 'Dropbox', 'OneDrive'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '☁️',
+    logoUrl: 'https://avatars.githubusercontent.com/u/19211038?v=4',
+    stars: 759,
+    lastUpdated: '2026-05-01',
+    tags: ['android', 'nextcloud', 'nextcloud-app', 'nextcloud-news', 'open-source', 'rss', 'rss-reader'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'android'],
+    featured: false,
+    addedDate: '2026-05-06',
+  },
+  {
+    id: 'open-lovart',
+    name: 'Open Lovart',
+    slug: 'open-lovart',
+    tagline: 'Open-source AI design agent — alternative to Lovart, Runway Agent, Luma Labs Agent, Higgsfield Agent, Krea Agent, Pik...',
+    description:
+      'Open-source AI design agent — alternative to Lovart, Runway Agent, Luma Labs Agent, Higgsfield Agent, Krea Agent, Pika Agent, Galileo AI, Magic Patterns. Autonomous multi-step creative for posters, social, brand kits, ad creatives, and video. Free, MIT-licensed, self-hosted.',
+    website: 'https://dev.muapi.ai/open-lovart',
+    github: 'https://github.com/Anil-matcha/Open-Lovart',
+    license: 'MIT',
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '⌨️',
+    logoUrl: 'https://avatars.githubusercontent.com/u/4326215?v=4',
+    stars: 639,
+    lastUpdated: '2026-05-06',
+    tags: ['ai-creative-agent', 'ai-design-agent', 'ai-logo', 'ai-poster', 'ai-video-agent', 'brand-kit', 'design-agent'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-05-06',
+  },
+  {
+    id: 'opensail',
+    name: 'Opensail',
+    slug: 'opensail',
+    tagline: 'OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.',
+    description:
+      'OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.',
+    website: 'https://tesslate.com',
+    github: 'https://github.com/TesslateAI/OpenSail',
+    license: 'Apache-2.0',
+    categories: ['container'],
+    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📦',
+    logoUrl: 'https://avatars.githubusercontent.com/u/200633710?v=4',
+    stars: 509,
+    lastUpdated: '2026-05-06',
+    tags: ['agents', 'ai', 'automation', 'btrfs', 'connectors', 'deployment', 'desktop'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-05-06',
+  },
+  {
+    id: 'willow-inference-server',
+    name: 'Willow Inference Server',
+    slug: 'willow-inference-server',
+    tagline: 'Open source, local, and self-hosted highly optimized language inference server supporting ASR/STT, TTS, and LLM acros...',
+    description:
+      'Open source, local, and self-hosted highly optimized language inference server supporting ASR/STT, TTS, and LLM across WebRTC, REST, and WS',
+    website: 'https://github.com/toverainc/willow-inference-server',
+    github: 'https://github.com/toverainc/willow-inference-server',
+    license: 'Apache-2.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/84786158?v=4',
+    stars: 501,
+    lastUpdated: '2026-02-12',
+    tags: ['cuda', 'deep-learning', 'llama', 'llm', 'privacy', 'speech-recognition', 'speech-to-text'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-05-06',
+  },
+  {
+    id: 'homegenie',
+    name: 'Homegenie',
+    slug: 'homegenie',
+    tagline: 'HomeGenie: The Programmable Intelligence with 100% Local Agentic AI.',
+    description:
+      'HomeGenie: The Programmable Intelligence with 100% Local Agentic AI.',
+    website: 'https://homegenie.it',
+    github: 'https://github.com/genielabs/HomeGenie',
+    license: 'AGPL-3.0',
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🤖',
+    logoUrl: 'https://avatars.githubusercontent.com/u/28220593?v=4',
+    stars: 450,
+    lastUpdated: '2026-05-03',
+    tags: ['artificial-intelligence', 'automation', 'building-automation', 'computer-vision', 'gpio', 'home-automation', 'iot'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'macos'],
+    featured: false,
+    addedDate: '2026-05-06',
+  },
+  {
+    id: 'neohabit',
+    name: 'Neohabit',
+    slug: 'neohabit',
+    tagline: 'A self-hosted habit-tracker with a new approach to heatmaps, and flexible habits that happen X times in Y days.',
+    description:
+      'A self-hosted habit-tracker with a new approach to heatmaps, and flexible habits that happen X times in Y days.',
+    website: 'http://neohabit.org/',
+    github: 'https://github.com/Vsein/Neohabit',
+    license: 'AGPL-3.0',
+    categories: ['container'],
+    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '📦',
+    logoUrl: 'https://avatars.githubusercontent.com/u/61903799?v=4',
+    stars: 198,
+    lastUpdated: '2026-02-24',
+    tags: ['docker', 'go', 'habit-tracker', 'habit-tracking', 'habits', 'javascript', 'open-source'],
+    difficulty: 'mittel',
+    platforms: ['linux', 'docker'],
+    featured: false,
+    addedDate: '2026-05-06',
   },
 ];
