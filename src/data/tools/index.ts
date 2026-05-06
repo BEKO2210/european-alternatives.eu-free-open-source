@@ -39,6 +39,7 @@ import { backendFrameworksTools } from './backend-frameworks';
 import { ssgTools } from './ssg';
 import { kartenTools } from './karten';
 import { fotosTools } from './fotos';
+import { curatedClassicsTools } from './curated-classics';
 import { autoDiscoveredTools } from './auto-tools';
 
 export const allTools: Tool[] = [
@@ -82,5 +83,6 @@ export const allTools: Tool[] = [
   ...ssgTools,
   ...kartenTools,
   ...fotosTools,
+  ...curatedClassicsTools,
   ...autoDiscoveredTools,
 ];
