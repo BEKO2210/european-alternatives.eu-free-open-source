@@ -1,0 +1,106 @@
+name: "Refresh lastUpdated"
+
+# Pulls each tool's real `pushed_at` from GitHub and rewrites
+# `lastUpdated` in src/data/tools/*.ts. Runs weekly on Mondays at 06:30
+# UTC (30 min after the auto-discover slot, so it picks up the freshly
+# added tools too) and on demand via workflow_dispatch.
+
+on:
+  schedule:
+    - cron: "30 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (true/false)"
+        default: "false"
+      max_per_run:
+        description: "Max repos to check this run (0 = no cap)"
+        default: "0"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install requests
+
+      - name: Refresh lastUpdated
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          MAX_PER_RUN: ${{ github.event.inputs.max_per_run || '0' }}
+          REPO_ROOT: "."
+        run: python scripts/refresh_last_updated.py
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if git diff --quiet -- src/data/tools/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No date changes."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat -- src/data/tools/ | tail -1
+          fi
+
+      # Build smoke test to make sure no rewrite produced invalid TS.
+      - name: Set up Node.js 20
+        if: steps.diff.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install npm dependencies
+        if: steps.diff.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        run: npm ci
+
+      - name: Build test
+        id: build
+        if: steps.diff.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        run: npm run build
+        continue-on-error: true
+
+      - name: Rollback on build failure
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo "Build failed after refresh. Rolling back."
+          git checkout -- src/data/tools/
+          exit 1
+
+      - name: Commit and push changes
+        if: steps.diff.outputs.changed == 'true' && steps.build.outcome == 'success' && github.event.inputs.dry_run != 'true'
+        run: |
+          DATE=$(date -u +%Y-%m-%d)
+          COUNT=$(git diff --cached --shortstat src/data/tools/ 2>/dev/null | awk '{print $4 + $6}')
+          git add src/data/tools/
+          git commit -m "🤖 Refresh lastUpdated from GitHub [${DATE}]"
+          git push origin main
+
+      - name: Trigger GitHub Pages deployment
+        if: steps.diff.outputs.changed == 'true' && steps.build.outcome == 'success' && github.event.inputs.dry_run != 'true'
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy.yml/dispatches \
+            -d '{"ref":"main"}'
