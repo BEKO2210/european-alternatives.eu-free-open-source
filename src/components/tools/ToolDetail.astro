@@ -174,12 +174,12 @@ const categoryIconMap: Record<string, string> = {
     <p class="leading-relaxed" style="color: var(--color-text-secondary)">{lang === 'en' && tool.descriptionEn ? tool.descriptionEn : tool.description}</p>
   </div>
 
-  <div class="card p-6 mb-8">
+  <div class="card p-6 mb-8" data-preview-card>
     <h2 class="text-lg font-semibold mb-4 flex items-center gap-2" style="color: var(--color-text-primary)">
       <Icon name="lucide:monitor" size={20} />
       {t('detail.preview')}
     </h2>
-    <div class="rounded-lg overflow-hidden border" style="border-color: var(--color-border)">
+    <div class="relative rounded-lg overflow-hidden border" style="border-color: var(--color-border)">
       <img
         src={previewImageUrl}
         alt={`${tool.name} Preview`}
@@ -187,6 +187,12 @@ const categoryIconMap: Record<string, string> = {
         loading="lazy"
         style="background: #111; min-height: 200px;"
       />
+      <div class="tool-preview-shimmer absolute inset-0 pointer-events-none flex items-center justify-center text-xs" style="color: var(--color-text-muted); background: linear-gradient(90deg, transparent, rgba(255,255,255,0.04), transparent); display: none;">
+        <span class="px-2 py-1 rounded-md" style="background: rgba(0,0,0,0.6)">
+          <Icon name="lucide:loader" size={14} class="inline mr-1 animate-spin" />
+          {tool.name}…
+        </span>
+      </div>
     </div>
   </div>
 
@@ -315,43 +321,86 @@ const categoryIconMap: Record<string, string> = {
     const img = node as HTMLImageElement;
     const originalSrc = img.src;
     // mshots returns a small "still generating" placeholder on the first
-    // request to a fresh URL (typically 400x300 px). Poll with a
-    // cache-buster until the real screenshot arrives so users don't have
-    // to manually refresh the page.
+    // request to a fresh URL (typically 400x300 px). It can also return
+    // a transient error mid-generation. Poll on either condition until
+    // the real screenshot arrives, with a visible loading state so the
+    // page never looks broken.
     const isMshots = /s\.wordpress\.com\/mshots\//.test(originalSrc);
-    const requestedWidth = 1280;
-    const placeholderThreshold = 800; // anything narrower than this is the placeholder
-    const maxRetries = 10;
-    let retries = 0;
+    const placeholderThreshold = 800; // narrower naturalWidth than this = placeholder
+    const maxAttempts = 12;
+    let attempt = 0;
+    let timer: number | undefined;
+    let settled = false;
+
+    const card = img.closest('[data-preview-card]') as HTMLElement | null;
+    const shimmer = card?.querySelector('.tool-preview-shimmer') as HTMLElement | null;
+
+    const showLoading = () => {
+      img.style.opacity = '0.55';
+      img.style.filter = 'blur(2px)';
+      img.style.transition = 'opacity 200ms ease-out, filter 200ms ease-out';
+      if (shimmer) shimmer.style.display = 'flex';
+    };
+    const clearLoading = () => {
+      img.style.opacity = '';
+      img.style.filter = '';
+      if (shimmer) shimmer.style.display = 'none';
+    };
 
     const isPlaceholder = () =>
       img.naturalWidth > 0 && img.naturalWidth < placeholderThreshold;
 
-    const retry = () => {
-      if (retries >= maxRetries) return;
-      retries++;
+    const giveUp = () => {
+      settled = true;
+      clearLoading();
+      if (card) card.style.display = 'none';
+    };
+
+    const refetch = () => {
+      if (settled) return;
+      if (!isMshots || attempt >= maxAttempts) {
+        giveUp();
+        return;
+      }
+      attempt++;
+      showLoading();
       const sep = originalSrc.includes('?') ? '&' : '?';
       img.src = `${originalSrc}${sep}cb=${Date.now()}`;
     };
 
-    const handleError = () => {
-      const parent = img.closest('.card') as HTMLElement | null;
-      if (parent) parent.style.display = 'none';
-    };
-
-    const handleLoad = () => {
+    const onLoad = () => {
+      if (settled) return;
       if (isMshots && isPlaceholder()) {
-        // exponential-ish backoff: ~2s, 3s, 4s, ... capped
-        const delay = Math.min(2000 + retries * 1000, 8000);
-        setTimeout(retry, delay);
+        showLoading();
+        const delay = Math.min(1500 + attempt * 1000, 6000);
+        timer = window.setTimeout(refetch, delay);
+        return;
       }
+      settled = true;
+      clearLoading();
     };
 
-    img.addEventListener('error', handleError);
-    img.addEventListener('load', handleLoad);
+    const onError = () => {
+      if (settled) return;
+      // Transient mshots errors (504s during generation are common). Retry
+      // them like placeholders rather than hiding the card immediately.
+      if (isMshots && attempt < maxAttempts) {
+        showLoading();
+        const delay = Math.min(2000 + attempt * 1000, 6000);
+        timer = window.setTimeout(refetch, delay);
+        return;
+      }
+      giveUp();
+    };
+
+    img.addEventListener('load', onLoad);
+    img.addEventListener('error', onError);
     if (img.complete) {
-      if (img.naturalWidth === 0) handleError();
-      else handleLoad();
+      if (img.naturalWidth === 0) onError();
+      else onLoad();
+    } else if (isMshots) {
+      // Show loading hint immediately while the first request is in flight.
+      showLoading();
     }
   });
 </script>
