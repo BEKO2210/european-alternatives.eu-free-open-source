@@ -124,16 +124,33 @@
   :root {
     --hero-dark-display: block;
     --hero-light-display: none;
+    /* Scrim: subtle inner dim/lift centred where the hero text sits, so
+       headline + body stay readable regardless of where the hero image's
+       red hexagons fall. Driven by custom properties so the build's CSS
+       minifier doesn't strip the [data-theme] qualifier. */
+    --hero-scrim-color: 0, 0, 0;
+    --hero-scrim-strength: 0.55;
   }
   [data-theme='light'] {
     --hero-dark-display: none;
     --hero-light-display: block;
+    --hero-scrim-color: 255, 255, 255;
+    --hero-scrim-strength: 0.6;
   }
   .hero-bg.hero-bg-dark {
     display: var(--hero-dark-display);
   }
   .hero-bg.hero-bg-light {
     display: var(--hero-light-display);
+  }
+  .hero-scrim {
+    background:
+      radial-gradient(
+        ellipse 60% 55% at center,
+        rgba(var(--hero-scrim-color), var(--hero-scrim-strength)) 0%,
+        rgba(var(--hero-scrim-color), calc(var(--hero-scrim-strength) * 0.45)) 55%,
+        rgba(var(--hero-scrim-color), 0) 100%
+      );
   }
 
   @keyframes gradientShift {
