@@ -42,26 +42,32 @@ const iconName = categoryIconMap[category.icon] ?? 'lucide:folder';
 <a
   href={`${base}${categoryPath}/${category.slug}/`}
   class:list={[
-    'block rounded-xl p-5 border bg-gradient-to-br transition-all duration-200 no-underline hover:no-underline',
-    'hover:transform hover:-translate-y-1 hover:shadow-lg',
+    'category-card-v2 group block rounded-xl p-4 border bg-gradient-to-br transition-all duration-200 no-underline hover:no-underline',
+    'hover:-translate-y-0.5',
     colorClasses,
   ]}
 >
-  <div class="mb-3" style="color: var(--color-text-primary)">
-    <Icon name={iconName} size={28} />
+  <div class="flex items-start gap-3">
+    <div class="flex-shrink-0" style="color: var(--color-text-primary)">
+      <Icon name={iconName} size={22} />
+    </div>
+    <div class="min-w-0 flex-1">
+      <div class="flex items-center gap-2 min-w-0">
+        <h3 class="font-semibold text-sm truncate" style="color: var(--color-text-primary)">
+          {displayName}
+        </h3>
+        {category.toolCount !== undefined && category.toolCount > 0 && (
+          <span class="flex-shrink-0 inline-flex items-center px-1.5 py-0.5 rounded-md text-[10px] font-medium tabular-nums bg-red-500/15 text-red-300 border border-red-500/20">
+            {category.toolCount}
+          </span>
+        )}
+      </div>
+      <p class="text-xs line-clamp-2 mt-1.5" style="color: var(--color-text-muted)">
+        {displayDescription}
+      </p>
+      <p class="text-[11px] mt-2 truncate" style="color: var(--color-accent-orange)">
+        {t('category.replaces')} {displayReplaces}
+      </p>
+    </div>
   </div>
-  <h3 class="font-semibold text-sm mb-1" style="color: var(--color-text-primary)">
-    {displayName}
-  </h3>
-  {category.toolCount !== undefined && category.toolCount > 0 && (
-    <span class="inline-block px-2 py-0.5 rounded-full text-xs font-medium bg-red-500/20 text-red-300 mb-2">
-      {category.toolCount} {t('category.tools')}
-    </span>
-  )}
-  <p class="text-xs line-clamp-2 mb-2" style="color: var(--color-text-muted)">
-    {displayDescription}
-  </p>
-  <p class="text-xs" style="color: var(--color-accent-orange)">
-    {t('category.replaces')} {displayReplaces}
-  </p>
 </a>

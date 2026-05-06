@@ -137,6 +137,28 @@
     border-color: var(--color-border-accent);
   }
 
+  /* Polished card variant: tighter padding, subtler hover (no glow, slim
+     elevation lift), used by ToolCard / CategoryCard. References:
+     Vercel Templates, Raycast Store, Godly. */
+  .card-polish {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+    padding: 1rem 1.125rem 0.875rem;
+    transition: transform 180ms ease-out, border-color 180ms ease-out,
+      box-shadow 180ms ease-out, background-color 180ms ease-out;
+  }
+  .card-polish:hover {
+    transform: translateY(-2px);
+    border-color: rgba(239, 68, 68, 0.35);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35),
+      0 0 0 1px rgba(239, 68, 68, 0.08);
+  }
+  [data-theme='light'] .card-polish:hover {
+    box-shadow: 0 4px 24px rgba(15, 23, 42, 0.08),
+      0 0 0 1px rgba(220, 38, 38, 0.12);
+  }
+
   .badge {
     display: inline-flex;
     align-items: center;
