@@ -128,6 +128,51 @@ SEARCH_QUERIES = [
     # Misc / collaboration
     "open-source collaboration whiteboard self-hosted stars:>200",
     "open-source helpdesk ticket self-hosted stars:>200",
+    # --- Topic-based queries: GitHub topics that consistently host
+    # high-quality FOSS projects. Star floors are deliberately low; the
+    # license / description / avatar gates filter out the noise.
+    "topic:awesome-selfhosted stars:>200",
+    "topic:selfhosted stars:>500",
+    "topic:self-hosted stars:>500",
+    "topic:foss stars:>500",
+    "topic:libre stars:>200",
+    "topic:privacy-tools stars:>300",
+    "topic:privacy-by-design stars:>200",
+    "topic:open-source stars:>2000",
+    "topic:opensource stars:>2000",
+    "topic:hacktoberfest stars:>3000",
+    "topic:awesome-list stars:>2000",
+    # Trending-ish: recently-updated highly-starred repos
+    "stars:>5000 pushed:>2025-12-01",
+    "stars:>2000 pushed:>2026-01-01",
+    # CLI / TUI
+    "topic:cli stars:>1000",
+    "topic:tui stars:>500",
+    # Rust / Go / Zig native FOSS tools
+    "topic:rust stars:>3000",
+    "topic:zig stars:>500",
+    # Protocols / fediverse / activitypub variants we missed
+    "topic:activitypub stars:>200",
+    "topic:fediverse stars:>200",
+    "topic:nostr stars:>200",
+    # Useful long-tail topics
+    "topic:webdav stars:>200",
+    "topic:pwa stars:>500",
+    "topic:e2ee stars:>200",
+    "topic:zero-knowledge stars:>200",
+    # Specific famous FOSS niches that are still under-represented
+    "topic:torrent self-hosted stars:>500",
+    "topic:rss-reader stars:>200",
+    "topic:bookmark-manager stars:>200",
+    "topic:knowledge-graph stars:>500",
+    "topic:image-host stars:>300",
+    "topic:link-shortener stars:>300",
+    "topic:url-shortener stars:>500",
+    "topic:status-page stars:>500",
+    "topic:uptime stars:>500",
+    "topic:hugo-theme stars:>1000",
+    "topic:mastodon-bot stars:>200",
+    "topic:photo-gallery stars:>500",
 ]
 
 GITHUB_API = "https://api.github.com"
@@ -450,6 +495,147 @@ CATEGORY_EMOJI = {
     "fotos": "📷",
 }
 
+# slug -> simple-icons slug for popular FOSS tools so the auto-discovered
+# entry gets a real brand icon instead of the generic emoji fallback.
+# Conservative list: only entries that are unambiguous and known to be
+# present in the simple-icons set (we depend on simple-icons via the
+# /utils/icons.ts helper). Extend as new well-known tools come in.
+KNOWN_SIMPLE_ICONS = {
+    "actualbudget": "actualbudget",
+    "anaconda": "anaconda",
+    "ansible": "ansible",
+    "apache-airflow": "apacheairflow",
+    "apache-kafka": "apachekafka",
+    "argo-cd": "argocd",
+    "argocd": "argocd",
+    "audacity": "audacity",
+    "bitwarden": "bitwarden",
+    "blender": "blender",
+    "bookstack": "bookstack",
+    "caddy": "caddy",
+    "ceph": "ceph",
+    "cilium": "cilium",
+    "clickhouse": "clickhouse",
+    "codeberg": "codeberg",
+    "consul": "consul",  # blocked but for completeness
+    "containerd": "containerd",
+    "deno": "deno",
+    "directus": "directus",
+    "discourse": "discourse",
+    "docker": "docker",
+    "drone": "drone",
+    "drupal": "drupal",
+    "elasticsearch": "elasticsearch",  # blocked but mapped
+    "etcd": "etcd",
+    "excalidraw": "excalidraw",
+    "fastify": "fastify",
+    "ferretdb": "ferretdb",
+    "ffmpeg": "ffmpeg",
+    "firefox": "firefox",
+    "forgejo": "forgejo",
+    "gimp": "gimp",
+    "gitea": "gitea",
+    "github": "github",
+    "gitlab": "gitlab",
+    "go": "go",
+    "godot": "godot",
+    "gradle": "gradle",
+    "grafana": "grafana",
+    "graphql": "graphql",
+    "haproxy": "haproxy",
+    "hashicorp": "hashicorp",
+    "haxe": "haxe",
+    "hugo": "hugo",
+    "immich": "immich",
+    "inkscape": "inkscape",
+    "ipfs": "ipfs",
+    "jellyfin": "jellyfin",
+    "jenkins": "jenkins",
+    "joplin": "joplin",
+    "jupyter": "jupyter",
+    "kdenlive": "kdenlive",
+    "keycloak": "keycloak",
+    "krita": "krita",
+    "kubernetes": "kubernetes",
+    "libreoffice": "libreoffice",
+    "linuxmint": "linuxmint",
+    "loom": "loom",
+    "mariadb": "mariadb",
+    "mastodon": "mastodon",
+    "matomo": "matomo",
+    "matrix": "matrix",
+    "matterhorn": "mattermost",
+    "mattermost": "mattermost",
+    "mediawiki": "mediawiki",
+    "metabase": "metabase",
+    "minio": "minio",
+    "moodle": "moodle",
+    "mysql": "mysql",
+    "nestjs": "nestjs",
+    "nextcloud": "nextcloud",
+    "nginx": "nginx",
+    "node-red": "nodered",
+    "nodered": "nodered",
+    "nuxtjs": "nuxtdotjs",
+    "obsstudio": "obsstudio",
+    "obs-studio": "obsstudio",
+    "onlyoffice": "onlyoffice",
+    "openshift": "redhatopenshift",
+    "openvpn": "openvpn",
+    "openwrt": "openwrt",
+    "owncloud": "owncloud",
+    "pandas": "pandas",
+    "paperless-ngx": "paperlessngx",
+    "penpot": "penpot",
+    "pihole": "pihole",
+    "plausible": "plausibleanalytics",
+    "plausible-analytics": "plausibleanalytics",
+    "podman": "podman",
+    "portainer": "portainer",
+    "postgresql": "postgresql",
+    "postman": "postman",
+    "prometheus": "prometheus",
+    "proxmox": "proxmox",
+    "puppet": "puppet",
+    "python": "python",
+    "qbittorrent": "qbittorrent",
+    "rabbitmq": "rabbitmq",
+    "radarr": "radarr",
+    "react": "react",
+    "redis": "redis",  # blocked but mapped
+    "redux": "redux",
+    "rocket-chat": "rocketdotchat",
+    "rocketchat": "rocketdotchat",
+    "rust": "rust",
+    "rustdesk": "rustdesk",
+    "rsyslog": "rsyslog",
+    "scribus": "scribus",
+    "selenium": "selenium",
+    "shotcut": "shotcut",
+    "signal": "signal",
+    "sonarr": "sonarr",
+    "spinnaker": "spinnaker",
+    "sqlite": "sqlite",
+    "stack-overflow": "stackoverflow",
+    "strapi": "strapi",
+    "syncthing": "syncthing",
+    "syncplay": "syncplay",
+    "tor": "torproject",
+    "tor-browser": "torbrowser",
+    "transmission": "transmission",
+    "trilium": "trilium",
+    "trilium-next": "trilium",
+    "ubuntu": "ubuntu",
+    "umami": "umami",
+    "valkey": "valkey",
+    "vim": "vim",
+    "wireguard": "wireguard",
+    "wordpress": "wordpress",
+    "yarn": "yarn",
+    "youtube-dl": "youtube",
+    "yt-dlp": "youtube",
+}
+
 # replacesTools per category (from categories.ts replacesCategory)
 CATEGORY_REPLACES = {
     "betriebssysteme": ["Windows", "macOS"],
@@ -750,6 +936,8 @@ def generate_auto_tools_ts(tools: list[dict], repo_root: str) -> None:
         lines.append(f"    platforms: {_ts_string_array(tool['platforms'])},")
         lines.append(f"    featured: {'true' if tool['featured'] else 'false'},")
         lines.append(f"    addedDate: '{tool['addedDate']}',")
+        if tool.get("simpleIconsSlug"):
+            lines.append(f"    simpleIconsSlug: '{_ts_escape(tool['simpleIconsSlug'])}',")
         lines.append("  },")
 
     lines.append("];")
@@ -961,6 +1149,13 @@ def filter_and_categorize(
         if not tags:
             tags = [make_slug(w) for w in description.split()[:3]]
 
+        # Match a known simple-icons brand if we have one for this slug
+        # (or for the slug stripped of common -app / -server suffixes).
+        si_slug = (
+            KNOWN_SIMPLE_ICONS.get(slug)
+            or KNOWN_SIMPLE_ICONS.get(re.sub(r"-(app|server|core|community|ce|oss|ng|ngx)$", "", slug))
+        )
+
         tool_data = {
             "id": slug,
             "name": clean_name,
@@ -980,6 +1175,7 @@ def filter_and_categorize(
             "tags": tags,
             "difficulty": detect_difficulty(stars, topics, description),
             "platforms": detect_platforms(topics, description),
+            "simpleIconsSlug": si_slug,  # may be None
             "featured": False,
             "addedDate": today,
         }
