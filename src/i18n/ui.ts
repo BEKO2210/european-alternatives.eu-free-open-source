@@ -117,6 +117,8 @@ export const ui = {
     'filters.viewGrid': 'Karten',
     'filters.viewList': 'Liste',
     'filters.viewToggleLabel': 'Ansicht',
+    'filters.clearAll': 'Filter zurücksetzen',
+    'filters.activeCount': 'aktiv',
 
     // SearchModal
     'search.placeholder': 'Tools, Kategorien oder proprietäre Software suchen...',
@@ -266,6 +268,8 @@ export const ui = {
     'filters.viewGrid': 'Cards',
     'filters.viewList': 'List',
     'filters.viewToggleLabel': 'View',
+    'filters.clearAll': 'Clear filters',
+    'filters.activeCount': 'active',
 
     // SearchModal
     'search.placeholder': 'Search tools, categories or proprietary software...',

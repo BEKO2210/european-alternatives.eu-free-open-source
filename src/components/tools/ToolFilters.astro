@@ -13,99 +13,183 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<div class="mb-8 p-4 rounded-xl" style="background: var(--color-bg-secondary); border: 1px solid var(--color-border)">
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-    <div>
-      <label for="filter-search" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">{t('filters.search')}</label>
-      <input
-        type="text"
-        id="filter-search"
-        placeholder={t('filters.searchPlaceholder')}
-        class="w-full px-3 py-2 rounded-lg text-sm outline-none"
-        style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
-      />
+<div class="tool-filters sticky z-30 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 mb-6" style="top: 64px">
+  <div class="tool-filters-inner py-3" data-active-count="0">
+    <div class="flex flex-wrap items-stretch gap-2">
+      {/* Search — primary input */}
+      <label class="relative flex-1 min-w-[200px]">
+        <span class="sr-only">{t('filters.search')}</span>
+        <span class="absolute inset-y-0 left-3 flex items-center pointer-events-none" style="color: var(--color-text-muted)">
+          <Icon name="lucide:search" size={14} />
+        </span>
+        <input
+          type="text"
+          id="filter-search"
+          placeholder={t('filters.searchPlaceholder')}
+          class="w-full pl-9 pr-3 py-2 rounded-full text-sm outline-none transition-colors"
+          style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+        />
+      </label>
+
+      {/* Compact dropdowns */}
+      <div class="relative flex items-center">
+        <Icon name="lucide:folder" size={13} class="absolute left-3 pointer-events-none" style="color: var(--color-text-muted)" />
+        <select
+          id="filter-category"
+          aria-label={t('filters.category')}
+          class="appearance-none pl-8 pr-7 py-2 rounded-full text-sm outline-none cursor-pointer transition-colors"
+          style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+        >
+          <option value="">{t('filters.allCategories')}</option>
+          {categories.map(cat => (
+            <option value={cat.slug}>{getCategoryName(cat.slug, lang) || cat.name}</option>
+          ))}
+        </select>
+        <Icon name="lucide:chevron-down" size={13} class="absolute right-2.5 pointer-events-none" style="color: var(--color-text-muted)" />
+      </div>
+
+      <div class="relative flex items-center">
+        <Icon name="lucide:scale" size={13} class="absolute left-3 pointer-events-none" style="color: var(--color-text-muted)" />
+        <select
+          id="filter-license"
+          aria-label={t('filters.license')}
+          class="appearance-none pl-8 pr-7 py-2 rounded-full text-sm outline-none cursor-pointer transition-colors"
+          style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+        >
+          <option value="">{t('filters.allLicenses')}</option>
+          {licenses.map(lic => (
+            <option value={lic}>{lic}</option>
+          ))}
+        </select>
+        <Icon name="lucide:chevron-down" size={13} class="absolute right-2.5 pointer-events-none" style="color: var(--color-text-muted)" />
+      </div>
+
+      <div class="relative flex items-center">
+        <Icon name="lucide:arrow-up-down" size={13} class="absolute left-3 pointer-events-none" style="color: var(--color-text-muted)" />
+        <select
+          id="filter-sort"
+          aria-label={t('filters.sort')}
+          class="appearance-none pl-8 pr-7 py-2 rounded-full text-sm outline-none cursor-pointer transition-colors"
+          style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+        >
+          <option value="name">{t('filters.sortName')}</option>
+          <option value="stars">{t('filters.sortStars')}</option>
+          <option value="date">{t('filters.sortDate')}</option>
+        </select>
+        <Icon name="lucide:chevron-down" size={13} class="absolute right-2.5 pointer-events-none" style="color: var(--color-text-muted)" />
+      </div>
     </div>
 
-    <div>
-      <label for="filter-category" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">{t('filters.category')}</label>
-      <select
-        id="filter-category"
-        class="w-full px-3 py-2 rounded-lg text-sm outline-none"
-        style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+    <div class="flex flex-wrap items-center gap-1.5 mt-2.5">
+      <button
+        type="button"
+        class="filter-btn px-2.5 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
+        data-filter="selfhost"
+        style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
       >
-        <option value="">{t('filters.allCategories')}</option>
-        {categories.map(cat => (
-          <option value={cat.slug}>{getCategoryName(cat.slug, lang) || cat.name}</option>
-        ))}
-      </select>
-    </div>
-
-    <div>
-      <label for="filter-license" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">{t('filters.license')}</label>
-      <select
-        id="filter-license"
-        class="w-full px-3 py-2 rounded-lg text-sm outline-none"
-        style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+        <Icon name="lucide:home" size={11} />
+        {t('filters.selfHostOnly')}
+      </button>
+      <button
+        type="button"
+        class="filter-btn px-2.5 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
+        data-filter="easy"
+        style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
       >
-        <option value="">{t('filters.allLicenses')}</option>
-        {licenses.map(lic => (
-          <option value={lic}>{lic}</option>
-        ))}
-      </select>
-    </div>
-
-    <div>
-      <label for="filter-sort" class="block text-xs font-medium mb-1.5" style="color: var(--color-text-muted)">{t('filters.sort')}</label>
-      <select
-        id="filter-sort"
-        class="w-full px-3 py-2 rounded-lg text-sm outline-none"
-        style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
+        <span class="w-1.5 h-1.5 rounded-full bg-green-400 inline-block"></span>
+        {t('filters.easySetup')}
+      </button>
+      <button
+        type="button"
+        class="filter-btn px-2.5 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
+        data-filter="docker"
+        style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
       >
-        <option value="name">{t('filters.sortName')}</option>
-        <option value="stars">{t('filters.sortStars')}</option>
-        <option value="date">{t('filters.sortDate')}</option>
-      </select>
-    </div>
-  </div>
+        <Icon name="simple-icons:docker" size={11} />
+        {t('filters.dockerAvailable')}
+      </button>
 
-  <div class="flex flex-wrap gap-2 mt-4">
-    <button
-      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
-      data-filter="selfhost"
-      style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
-    >
-      <Icon name="lucide:home" size={12} />
-      {t('filters.selfHostOnly')}
-    </button>
-    <button
-      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
-      data-filter="easy"
-      style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
-    >
-      <span class="w-2 h-2 rounded-full bg-green-400 inline-block"></span>
-      {t('filters.easySetup')}
-    </button>
-    <button
-      class="filter-btn px-3 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
-      data-filter="docker"
-      style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
-    >
-      <Icon name="simple-icons:docker" size={12} />
-      {t('filters.dockerAvailable')}
-    </button>
+      <span class="filter-active-count hidden ml-auto inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[11px] font-medium tabular-nums" style="background: rgba(239, 68, 68, 0.12); color: #fca5a5; border: 1px solid rgba(239, 68, 68, 0.25)">
+        <span class="filter-active-count-num">0</span> {t('filters.activeCount')}
+      </span>
+      <button
+        type="button"
+        class="filter-clear-btn hidden inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium transition-colors"
+        style="background: transparent; color: var(--color-text-muted); border: 1px solid var(--color-border)"
+      >
+        <Icon name="lucide:x" size={11} />
+        {t('filters.clearAll')}
+      </button>
+    </div>
   </div>
 </div>
 
+<style>
+  .tool-filters {
+    /* When sticky-pinned, give it a glass background. We can't use
+       :sticky pseudo-classes everywhere, so this triggers based on a
+       body-side scroll state set by the page script. */
+    transition: background-color 200ms ease-out, backdrop-filter 200ms ease-out, border-color 200ms ease-out;
+    border-bottom: 1px solid transparent;
+  }
+  .tool-filters.is-pinned {
+    background-color: rgba(10, 10, 10, 0.78);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom-color: var(--color-border);
+  }
+  [data-theme='light'] .tool-filters.is-pinned {
+    background-color: rgba(255, 255, 255, 0.82);
+  }
+
+  /* Hover / focus polish for pill controls */
+  #filter-search:focus,
+  #filter-category:focus,
+  #filter-license:focus,
+  #filter-sort:focus {
+    border-color: rgba(239, 68, 68, 0.45);
+  }
+  .filter-btn:hover {
+    border-color: rgba(239, 68, 68, 0.35) !important;
+    color: var(--color-text-primary) !important;
+  }
+  .filter-btn[data-active="true"] {
+    background-color: rgba(239, 68, 68, 0.15) !important;
+    border-color: rgba(239, 68, 68, 0.45) !important;
+    color: #fca5a5 !important;
+  }
+  .filter-clear-btn:hover {
+    color: var(--color-text-primary) !important;
+    border-color: rgba(239, 68, 68, 0.35) !important;
+  }
+</style>
+
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    const root = document.querySelector('.tool-filters') as HTMLElement | null;
+    const inner = document.querySelector('.tool-filters-inner') as HTMLElement | null;
     const searchInput = document.getElementById('filter-search') as HTMLInputElement;
     const categorySelect = document.getElementById('filter-category') as HTMLSelectElement;
     const licenseSelect = document.getElementById('filter-license') as HTMLSelectElement;
     const sortSelect = document.getElementById('filter-sort') as HTMLSelectElement;
     const filterBtns = document.querySelectorAll('.filter-btn');
+    const clearBtn = document.querySelector('.filter-clear-btn') as HTMLButtonElement | null;
+    const activeCountEl = document.querySelector('.filter-active-count') as HTMLElement | null;
+    const activeCountNum = document.querySelector('.filter-active-count-num') as HTMLElement | null;
     const toolCards = document.querySelectorAll('[data-tool-card]');
 
     const activeFilters = new Set<string>();
+
+    function updateActiveCount() {
+      let n = 0;
+      if (searchInput?.value.trim()) n++;
+      if (categorySelect?.value) n++;
+      if (licenseSelect?.value) n++;
+      n += activeFilters.size;
+      if (activeCountNum) activeCountNum.textContent = String(n);
+      if (activeCountEl) activeCountEl.classList.toggle('hidden', n === 0);
+      if (clearBtn) clearBtn.classList.toggle('hidden', n === 0);
+    }
 
     function applyFilters() {
       const search = searchInput?.value.toLowerCase() ?? '';
@@ -122,7 +206,6 @@ const t = useTranslations(lang);
         const platforms = (el.dataset.toolPlatforms ?? '').split(',');
 
         let show = true;
-
         if (search && !name.includes(search)) show = false;
         if (category && !cats.includes(category)) show = false;
         if (license && lic !== license) show = false;
@@ -132,6 +215,7 @@ const t = useTranslations(lang);
 
         el.style.display = show ? '' : 'none';
       });
+      updateActiveCount();
     }
 
     searchInput?.addEventListener('input', applyFilters);
@@ -139,20 +223,45 @@ const t = useTranslations(lang);
     licenseSelect?.addEventListener('change', applyFilters);
     sortSelect?.addEventListener('change', applyFilters);
 
-    filterBtns.forEach(btn => {
+    filterBtns.forEach((btn) => {
       btn.addEventListener('click', () => {
-        const filter = (btn as HTMLElement).dataset.filter ?? '';
+        const el = btn as HTMLElement;
+        const filter = el.dataset.filter ?? '';
         if (activeFilters.has(filter)) {
           activeFilters.delete(filter);
-          (btn as HTMLElement).style.borderColor = 'var(--color-border)';
-          (btn as HTMLElement).style.color = 'var(--color-text-secondary)';
+          el.dataset.active = 'false';
         } else {
           activeFilters.add(filter);
-          (btn as HTMLElement).style.borderColor = 'var(--color-border-accent)';
-          (btn as HTMLElement).style.color = 'var(--color-text-accent)';
+          el.dataset.active = 'true';
         }
         applyFilters();
       });
     });
+
+    clearBtn?.addEventListener('click', () => {
+      if (searchInput) searchInput.value = '';
+      if (categorySelect) categorySelect.value = '';
+      if (licenseSelect) licenseSelect.value = '';
+      activeFilters.clear();
+      filterBtns.forEach((btn) => ((btn as HTMLElement).dataset.active = 'false'));
+      applyFilters();
+    });
+
+    // Pinned-state detection: toggle the glass background once the bar
+    // begins overlapping content (i.e. its sticky offset has kicked in).
+    if (root && inner) {
+      const sentinel = document.createElement('div');
+      sentinel.style.cssText = 'position:absolute; top:0; height:1px; width:1px;';
+      root.parentElement?.insertBefore(sentinel, root);
+      const io = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            root.classList.toggle('is-pinned', !entry.isIntersecting);
+          }
+        },
+        { rootMargin: '-65px 0px 0px 0px', threshold: 0 },
+      );
+      io.observe(sentinel);
+    }
   });
 </script>
