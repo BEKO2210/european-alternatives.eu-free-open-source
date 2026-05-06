@@ -26,9 +26,13 @@ const t = useTranslations(lang);
           type="text"
           id="filter-search"
           placeholder={t('filters.searchPlaceholder')}
-          class="w-full pl-9 pr-3 py-2 rounded-full text-sm outline-none transition-colors"
+          class="w-full pl-9 pr-9 py-2 rounded-full text-sm outline-none transition-colors"
           style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
         />
+        <kbd
+          class="filter-search-hint absolute inset-y-0 right-2 my-auto h-5 hidden sm:inline-flex items-center justify-center px-1.5 text-[10px] font-semibold rounded pointer-events-none"
+          style="background: var(--color-bg-secondary); color: var(--color-text-muted); border: 1px solid var(--color-border); top: 50%; transform: translateY(-50%)"
+        >/</kbd>
       </label>
 
       {/* Compact dropdowns */}
@@ -263,5 +267,39 @@ const t = useTranslations(lang);
       );
       io.observe(sentinel);
     }
+
+    // Keyboard shortcuts: '/' focuses the search input (GitHub-style),
+    // Esc clears the search and blurs. Ignored while the user is
+    // already typing in any input/select/textarea or contenteditable.
+    const hint = document.querySelector('.filter-search-hint') as HTMLElement | null;
+    document.addEventListener('keydown', (ev) => {
+      const target = ev.target as HTMLElement | null;
+      const editable =
+        target &&
+        (target.tagName === 'INPUT' ||
+          target.tagName === 'TEXTAREA' ||
+          target.tagName === 'SELECT' ||
+          (target as HTMLElement).isContentEditable);
+
+      if (ev.key === '/' && !editable && !ev.ctrlKey && !ev.metaKey && !ev.altKey) {
+        ev.preventDefault();
+        searchInput?.focus();
+        return;
+      }
+      if (ev.key === 'Escape' && document.activeElement === searchInput) {
+        if (searchInput && searchInput.value) {
+          searchInput.value = '';
+          applyFilters();
+        }
+        searchInput?.blur();
+      }
+    });
+    // Hide the '/' hint while the input has focus to reduce noise.
+    searchInput?.addEventListener('focus', () => {
+      if (hint) hint.style.opacity = '0';
+    });
+    searchInput?.addEventListener('blur', () => {
+      if (hint) hint.style.opacity = '';
+    });
   });
 </script>
