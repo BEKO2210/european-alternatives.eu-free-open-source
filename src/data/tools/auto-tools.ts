@@ -169,14 +169,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/automatisch/automatisch",
     "license": "MIT",
     "categories": [
-      "backend-frameworks"
+      "ci-cd"
     ],
     "replacesTools": [
-      "Firebase",
-      "Supabase Pro"
+      "GitHub Actions",
+      "Jenkins",
+      "CircleCI"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⚙️",
+    "logoPlaceholderEmoji": "🔄",
     "stars": 13732,
     "lastUpdated": "2026-02-11",
     "tags": [
@@ -1013,7 +1014,7 @@ import type { Tool } from '../types';
     "id": "langfuse",
     "name": "Langfuse",
     "slug": "langfuse",
-    "tagline": "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground,…",
+    "tagline": "LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground,…",
     "description": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23",
     "website": "https://langfuse.com/docs",
     "github": "https://github.com/langfuse/langfuse",
@@ -1598,15 +1599,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/bricks-cloud/BricksLLM",
     "license": "MIT",
     "categories": [
-      "ki-ml"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "⚙️",
     "stars": 1161,
     "lastUpdated": "2025-01-05",
     "tags": [
@@ -1637,15 +1637,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/stakpak/agent",
     "license": "Apache-2.0",
     "categories": [
-      "ki-ml"
+      "dev-tools"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "⌨️",
     "stars": 1038,
     "lastUpdated": "2026-05-06",
     "tags": [
@@ -1901,14 +1900,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/spr-networks/super",
     "license": "BSD-3-Clause",
     "categories": [
-      "vpn"
+      "firewall"
     ],
     "replacesTools": [
-      "NordVPN",
-      "ExpressVPN"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🛡️",
+    "logoPlaceholderEmoji": "🔥",
     "stars": 502,
     "lastUpdated": "2026-05-05",
     "tags": [
@@ -2170,15 +2169,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/webstudio-is/webstudio",
     "license": "AGPL-3.0",
     "categories": [
-      "cms"
+      "ssg"
     ],
     "replacesTools": [
-      "WordPress.com",
-      "Squarespace",
-      "Wix"
+      "Webflow",
+      "Framer"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🌍",
+    "logoPlaceholderEmoji": "🚀",
     "stars": 8270,
     "lastUpdated": "2026-05-02",
     "tags": [
@@ -2287,15 +2285,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/evidentlyai/evidently",
     "license": "Apache-2.0",
     "categories": [
-      "ki-ml"
+      "monitoring"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "📈",
     "stars": 7253,
     "lastUpdated": "2026-05-02",
     "tags": [
@@ -2364,15 +2362,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/traceloop/openllmetry",
     "license": "Apache-2.0",
     "categories": [
-      "ki-ml"
+      "monitoring"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "📈",
     "stars": 6867,
     "lastUpdated": "2026-05-06",
     "tags": [
@@ -2442,15 +2440,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/coze-dev/coze-loop",
     "license": "Apache-2.0",
     "categories": [
-      "monitoring"
+      "ki-ml"
     ],
     "replacesTools": [
-      "Datadog",
-      "New Relic",
-      "PagerDuty"
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📈",
+    "logoPlaceholderEmoji": "🤖",
     "stars": 5332,
     "lastUpdated": "2026-05-06",
     "tags": [
@@ -2475,21 +2473,21 @@ import type { Tool } from '../types';
     "id": "helicone",
     "name": "Helicone",
     "slug": "helicone",
-    "tagline": "Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
+    "tagline": "LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
     "description": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
     "website": "https://www.helicone.ai",
     "github": "https://github.com/Helicone/helicone",
     "license": "Apache-2.0",
     "categories": [
-      "ki-ml"
+      "monitoring"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "📈",
     "stars": 5164,
     "lastUpdated": "2026-05-05",
     "tags": [
@@ -3370,15 +3368,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/learnhouse/learnhouse",
     "license": "AGPL-3.0",
     "categories": [
-      "ki-ml"
+      "cms"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "WordPress.com",
+      "Squarespace",
+      "Wix"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "🌍",
     "stars": 1309,
     "lastUpdated": "2026-05-06",
     "tags": [
@@ -3564,15 +3562,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/gobeam/truthy",
     "license": "MIT",
     "categories": [
-      "cms"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "WordPress.com",
-      "Squarespace",
-      "Wix"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🌍",
+    "logoPlaceholderEmoji": "⚙️",
     "stars": 589,
     "lastUpdated": "2025-02-01",
     "tags": [
@@ -4378,14 +4375,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/eosphoros-ai/DB-GPT",
     "license": "MIT",
     "categories": [
-      "datenbanken"
+      "ki-ml"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "🤖",
     "logoUrl": "https://avatars.githubusercontent.com/u/140580304?v=4",
     "stars": 18267,
     "lastUpdated": "2026-05-05",
@@ -4532,15 +4530,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/theaiautomators/insights-lm-public",
     "license": "MIT",
     "categories": [
-      "kommunikation"
+      "ki-ml"
     ],
     "replacesTools": [
-      "WhatsApp",
-      "Slack",
-      "Microsoft Teams"
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "💬",
+    "logoPlaceholderEmoji": "🤖",
     "logoUrl": "https://avatars.githubusercontent.com/u/215132130?v=4",
     "stars": 501,
     "lastUpdated": "2026-01-16",
@@ -4571,14 +4569,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/percona/pmm",
     "license": "AGPL-3.0",
     "categories": [
-      "medienserver"
+      "monitoring"
     ],
     "replacesTools": [
-      "Plex Premium",
-      "Emby"
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🎵",
+    "logoPlaceholderEmoji": "📈",
     "logoUrl": "https://avatars.githubusercontent.com/u/1683025?v=4",
     "stars": 1003,
     "lastUpdated": "2026-05-06",
@@ -4956,15 +4955,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/brightbeanxyz/brightbean-studio",
     "license": "AGPL-3.0",
     "categories": [
-      "cms"
+      "social-media"
     ],
     "replacesTools": [
-      "WordPress.com",
-      "Squarespace",
-      "Wix"
+      "Twitter/X",
+      "Instagram",
+      "Facebook"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🌍",
+    "logoPlaceholderEmoji": "📱",
     "logoUrl": "https://avatars.githubusercontent.com/u/268594138?v=4",
     "stars": 1583,
     "lastUpdated": "2026-05-05",
@@ -5150,14 +5149,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/TesslateAI/OpenSail",
     "license": "Apache-2.0",
     "categories": [
-      "container"
+      "ki-ml"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🤖",
     "logoUrl": "https://avatars.githubusercontent.com/u/200633710?v=4",
     "stars": 509,
     "lastUpdated": "2026-05-06",
@@ -5344,14 +5344,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "license": "GPL-3.0",
     "categories": [
-      "dev-tools"
+      "ki-ml"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "🤖",
     "logoUrl": "https://avatars.githubusercontent.com/u/185671340?v=4",
     "stars": 136812,
     "lastUpdated": "2026-04-29",
@@ -5581,14 +5582,16 @@ import type { Tool } from '../types';
     "github": "https://github.com/santifer/career-ops",
     "license": "MIT",
     "categories": [
-      "crm"
+      "projektmanagement"
     ],
     "replacesTools": [
-      "Salesforce",
-      "HubSpot"
+      "Asana",
+      "Monday",
+      "Jira",
+      "Trello"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤝",
+    "logoPlaceholderEmoji": "✅",
     "logoUrl": "https://avatars.githubusercontent.com/u/256850418?v=4",
     "stars": 43065,
     "lastUpdated": "2026-05-06",
@@ -6245,7 +6248,7 @@ import type { Tool } from '../types';
     "id": "archivebox",
     "name": "Archivebox",
     "slug": "archivebox",
-    "tagline": "Open source self-hosted web archiving.",
+    "tagline": "Self-hosted web archiving.",
     "description": "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...",
     "website": "https://archivebox.io",
     "github": "https://github.com/ArchiveBox/ArchiveBox",
@@ -6524,14 +6527,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/ImranR98/Obtainium",
     "license": "GPL-3.0",
     "categories": [
-      "betriebssysteme"
+      "dev-tools"
     ],
     "replacesTools": [
-      "Windows",
-      "macOS"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🖥️",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/30463115?v=4",
     "stars": 16902,
     "lastUpdated": "2026-04-16",
@@ -6676,7 +6679,7 @@ import type { Tool } from '../types';
     "id": "maxun",
     "name": "Maxun",
     "slug": "maxun",
-    "tagline": "The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites…",
+    "tagline": "No-code platform for web scraping, crawling, search and AI data extraction • Turn websites…",
     "description": "🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥",
     "website": "https://www.maxun.dev",
     "github": "https://github.com/getmaxun/maxun",
@@ -6867,7 +6870,7 @@ import type { Tool } from '../types';
     "id": "opensearch",
     "name": "Opensearch",
     "slug": "opensearch",
-    "tagline": "Open source distributed and RESTful search engine.",
+    "tagline": "Distributed and RESTful search engine.",
     "description": "🔎 Open source distributed and RESTful search engine.",
     "website": "https://opensearch.org/docs/latest/opensearch/index/",
     "github": "https://github.com/opensearch-project/OpenSearch",
@@ -7064,15 +7067,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/0xJacky/nginx-ui",
     "license": "AGPL-3.0",
     "categories": [
-      "monitoring"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "Datadog",
-      "New Relic",
-      "PagerDuty"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📈",
+    "logoPlaceholderEmoji": "⚙️",
     "logoUrl": "https://avatars.githubusercontent.com/u/13096985?v=4",
     "stars": 11120,
     "lastUpdated": "2026-05-06",
@@ -7183,14 +7185,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/screego/server",
     "license": "GPL-3.0",
     "categories": [
-      "container"
+      "kommunikation"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "WhatsApp",
+      "Slack",
+      "Microsoft Teams"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "💬",
     "logoUrl": "https://avatars.githubusercontent.com/u/72201776?v=4",
     "stars": 10365,
     "lastUpdated": "2026-04-25",
@@ -8080,15 +8083,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/Flagsmith/flagsmith",
     "license": "BSD-3-Clause",
     "categories": [
-      "ci-cd"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "GitHub Actions",
-      "Jenkins",
-      "CircleCI"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🔄",
+    "logoPlaceholderEmoji": "⚙️",
     "logoUrl": "https://avatars.githubusercontent.com/u/58150233?v=4",
     "stars": 6335,
     "lastUpdated": "2026-05-06",
@@ -8359,14 +8361,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/crocodilestick/Calibre-Web-Automated",
     "license": "GPL-3.0",
     "categories": [
-      "container"
+      "medienserver"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Plex Premium",
+      "Emby"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🎵",
     "logoUrl": "https://avatars.githubusercontent.com/u/105450872?v=4",
     "stars": 5534,
     "lastUpdated": "2026-03-11",
@@ -8633,15 +8635,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/scanopy/scanopy",
     "license": "AGPL-3.0",
     "categories": [
-      "cms"
+      "monitoring"
     ],
     "replacesTools": [
-      "WordPress.com",
-      "Squarespace",
-      "Wix"
+      "Datadog",
+      "New Relic",
+      "PagerDuty"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🌍",
+    "logoPlaceholderEmoji": "📈",
     "logoUrl": "https://avatars.githubusercontent.com/u/249509125?v=4",
     "stars": 4875,
     "lastUpdated": "2026-05-03",
@@ -9338,14 +9340,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/OliveTin/OliveTin",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "dev-tools"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "JetBrains Suite",
+      "Visual Studio"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "⌨️",
     "logoUrl": "https://avatars.githubusercontent.com/u/85869711?v=4",
     "stars": 3550,
     "lastUpdated": "2026-05-03",
@@ -10199,14 +10201,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/wgtunnel/android",
     "license": "MIT",
     "categories": [
-      "betriebssysteme"
+      "vpn"
     ],
     "replacesTools": [
-      "Windows",
-      "macOS"
+      "NordVPN",
+      "ExpressVPN"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🖥️",
+    "logoPlaceholderEmoji": "🛡️",
     "logoUrl": "https://avatars.githubusercontent.com/u/207392975?v=4",
     "stars": 2675,
     "lastUpdated": "2026-05-03",
@@ -10355,14 +10357,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/owerdogan/whoami-project",
     "license": "GPL-3.0",
     "categories": [
-      "dev-tools"
+      "firewall"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "🔥",
     "logoUrl": "https://avatars.githubusercontent.com/u/59175356?v=4",
     "stars": 2274,
     "lastUpdated": "2025-10-13",
@@ -10584,7 +10586,7 @@ import type { Tool } from '../types';
     "id": "opensearch-dashboards",
     "name": "Opensearch Dashboards",
     "slug": "opensearch-dashboards",
-    "tagline": "Open source visualization dashboards for OpenSearch.",
+    "tagline": "Visualization dashboards for OpenSearch.",
     "description": "📊 Open source visualization dashboards for OpenSearch.",
     "website": "https://opensearch.org/docs/latest/dashboards/index/",
     "github": "https://github.com/opensearch-project/OpenSearch-Dashboards",
@@ -10944,14 +10946,16 @@ import type { Tool } from '../types';
     "github": "https://github.com/evroon/bracket",
     "license": "AGPL-3.0",
     "categories": [
-      "container"
+      "projektmanagement"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Asana",
+      "Monday",
+      "Jira",
+      "Trello"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "✅",
     "logoUrl": "https://avatars.githubusercontent.com/u/11857441?v=4",
     "stars": 1673,
     "lastUpdated": "2026-05-05",
@@ -11063,15 +11067,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/cogwheel0/conduit",
     "license": "GPL-3.0",
     "categories": [
-      "kommunikation"
+      "ki-ml"
     ],
     "replacesTools": [
-      "WhatsApp",
-      "Slack",
-      "Microsoft Teams"
+      "ChatGPT API",
+      "Midjourney",
+      "DALL-E"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "💬",
+    "logoPlaceholderEmoji": "🤖",
     "logoUrl": "https://avatars.githubusercontent.com/u/172976095?v=4",
     "stars": 1483,
     "lastUpdated": "2026-05-06",
@@ -11141,14 +11145,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/securitybunker/databunker",
     "license": "MIT",
     "categories": [
-      "datenbanken"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "Oracle",
-      "MSSQL"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🗄️",
+    "logoPlaceholderEmoji": "⚙️",
     "logoUrl": "https://avatars.githubusercontent.com/u/58372112?v=4",
     "stars": 1415,
     "lastUpdated": "2026-03-30",
@@ -11180,14 +11184,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/itskovacs/trip",
     "license": "MIT",
     "categories": [
-      "erp"
+      "karten"
     ],
     "replacesTools": [
-      "SAP Business One",
-      "Oracle ERP"
+      "Google Maps API",
+      "Mapbox"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🏭",
+    "logoPlaceholderEmoji": "🗺️",
     "logoUrl": "https://avatars.githubusercontent.com/u/36224223?v=4",
     "stars": 1397,
     "lastUpdated": "2026-05-04",
@@ -11219,14 +11223,16 @@ import type { Tool } from '../types';
     "github": "https://github.com/nextcloud/deck",
     "license": "AGPL-3.0",
     "categories": [
-      "kalender"
+      "projektmanagement"
     ],
     "replacesTools": [
-      "Google Calendar",
-      "iCloud"
+      "Asana",
+      "Monday",
+      "Jira",
+      "Trello"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📅",
+    "logoPlaceholderEmoji": "✅",
     "logoUrl": "https://avatars.githubusercontent.com/u/19211038?v=4",
     "stars": 1381,
     "lastUpdated": "2026-05-06",
@@ -11418,14 +11424,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/navilg/media-stack",
     "license": "GPL-3.0",
     "categories": [
-      "vpn"
+      "medienserver"
     ],
     "replacesTools": [
-      "NordVPN",
-      "ExpressVPN"
+      "Plex Premium",
+      "Emby"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🛡️",
+    "logoPlaceholderEmoji": "🎵",
     "logoUrl": "https://avatars.githubusercontent.com/u/37469234?v=4",
     "stars": 1191,
     "lastUpdated": "2026-04-01",
@@ -11535,14 +11541,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/secluso/core",
     "license": "GPL-3.0",
     "categories": [
-      "dev-tools"
+      "firewall"
     ],
     "replacesTools": [
-      "JetBrains Suite",
-      "Visual Studio"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "⌨️",
+    "logoPlaceholderEmoji": "🔥",
     "logoUrl": "https://avatars.githubusercontent.com/u/271067237?v=4",
     "stars": 1102,
     "lastUpdated": "2026-05-06",
@@ -11574,14 +11580,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/DumbWareio/DumbAssets",
     "license": "GPL-3.0",
     "categories": [
-      "container"
+      "erp"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "SAP Business One",
+      "Oracle ERP"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🏭",
     "logoUrl": "https://avatars.githubusercontent.com/u/196672422?v=4",
     "stars": 1100,
     "lastUpdated": "2025-07-25",
@@ -11727,15 +11733,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/ZimengXiong/ExcaliDash",
     "license": "AGPL-3.0",
     "categories": [
-      "monitoring"
+      "backend-frameworks"
     ],
     "replacesTools": [
-      "Datadog",
-      "New Relic",
-      "PagerDuty"
+      "Firebase",
+      "Supabase Pro"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📈",
+    "logoPlaceholderEmoji": "⚙️",
     "logoUrl": "https://avatars.githubusercontent.com/u/83783148?v=4",
     "stars": 1047,
     "lastUpdated": "2026-04-27",
@@ -11766,14 +11771,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/degoog-org/degoog",
     "license": "AGPL-3.0",
     "categories": [
-      "betriebssysteme"
+      "suchmaschinen"
     ],
     "replacesTools": [
-      "Windows",
-      "macOS"
+      "Google",
+      "Bing"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🖥️",
+    "logoPlaceholderEmoji": "🔍",
     "logoUrl": "https://avatars.githubusercontent.com/u/280656364?v=4",
     "stars": 977,
     "lastUpdated": "2026-05-06",
@@ -12041,14 +12046,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/HaschekSolutions/opentrashmail",
     "license": "Apache-2.0",
     "categories": [
-      "container"
+      "email-server"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Gmail-Server",
+      "Exchange"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "📮",
     "logoUrl": "https://avatars.githubusercontent.com/u/18282715?v=4",
     "stars": 861,
     "lastUpdated": "2025-08-28",
@@ -12080,15 +12085,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/kittendevv/Invio",
     "license": "Unlicense",
     "categories": [
-      "cloud-speicher"
+      "erp"
     ],
     "replacesTools": [
-      "Google Drive",
-      "Dropbox",
-      "OneDrive"
+      "SAP Business One",
+      "Oracle ERP"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "☁️",
+    "logoPlaceholderEmoji": "🏭",
     "logoUrl": "https://avatars.githubusercontent.com/u/121097932?v=4",
     "stars": 840,
     "lastUpdated": "2026-05-06",
@@ -12199,15 +12203,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/Portabase/portabase",
     "license": "Apache-2.0",
     "categories": [
-      "notizen"
+      "backup"
     ],
     "replacesTools": [
-      "Notion",
-      "Evernote",
-      "Obsidian"
+      "Backblaze",
+      "Acronis"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📝",
+    "logoPlaceholderEmoji": "💾",
     "logoUrl": "https://avatars.githubusercontent.com/u/249081024?v=4",
     "stars": 803,
     "lastUpdated": "2026-04-29",
@@ -12392,15 +12395,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/roryclear/clearcam",
     "license": "GPL-3.0",
     "categories": [
-      "ki-ml"
+      "firewall"
     ],
     "replacesTools": [
-      "ChatGPT API",
-      "Midjourney",
-      "DALL-E"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🤖",
+    "logoPlaceholderEmoji": "🔥",
     "logoUrl": "https://avatars.githubusercontent.com/u/45880510?v=4",
     "stars": 680,
     "lastUpdated": "2026-05-06",
@@ -12470,14 +12472,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/eduard256/Strix",
     "license": "MIT",
     "categories": [
-      "container"
+      "firewall"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "🔥",
     "logoUrl": "https://avatars.githubusercontent.com/u/93467350?v=4",
     "stars": 673,
     "lastUpdated": "2026-04-24",
@@ -12509,14 +12511,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/Kin69/Athena",
     "license": "GPL-3.0",
     "categories": [
-      "dns-adblock"
+      "firewall"
     ],
     "replacesTools": [
-      "Google DNS",
-      "kommerzielle Filter"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🚫",
+    "logoPlaceholderEmoji": "🔥",
     "logoUrl": "https://avatars.githubusercontent.com/u/109698804?v=4",
     "stars": 621,
     "lastUpdated": "2026-01-26",
@@ -12825,14 +12827,15 @@ import type { Tool } from '../types';
     "github": "https://github.com/ulsklyc/oikos",
     "license": "MIT",
     "categories": [
-      "container"
+      "notizen"
     ],
     "replacesTools": [
-      "Docker Hub",
-      "Kubernetes EKS"
+      "Notion",
+      "Evernote",
+      "Obsidian"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "📦",
+    "logoPlaceholderEmoji": "📝",
     "logoUrl": "https://avatars.githubusercontent.com/u/108589275?v=4",
     "stars": 507,
     "lastUpdated": "2026-05-06",
@@ -12865,14 +12868,14 @@ import type { Tool } from '../types';
     "github": "https://github.com/gordonbay/Windows-On-Reins",
     "license": "GPL-3.0",
     "categories": [
-      "betriebssysteme"
+      "firewall"
     ],
     "replacesTools": [
-      "Windows",
-      "macOS"
+      "Cisco",
+      "proprietary"
     ],
     "selfHostable": true,
-    "logoPlaceholderEmoji": "🖥️",
+    "logoPlaceholderEmoji": "🔥",
     "logoUrl": "https://avatars.githubusercontent.com/u/19177793?v=4",
     "stars": 472,
     "lastUpdated": "2025-06-21",
@@ -13233,10 +13236,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://automatisch.io',
     github: 'https://github.com/automatisch/automatisch',
     license: 'MIT',
-    categories: ['backend-frameworks'],
-    replacesTools: ['Firebase', 'Supabase Pro'],
+    categories: ['ci-cd'],
+    replacesTools: ['GitHub Actions', 'Jenkins', 'CircleCI'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⚙️',
+    logoPlaceholderEmoji: '🔄',
     logoUrl: 'https://github.com/automatisch.png?size=128',
     stars: 13732,
     lastUpdated: '2026-02-11',
@@ -13733,7 +13736,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'langfuse',
     name: 'Langfuse',
     slug: 'langfuse',
-    tagline: 'Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground,…',
+    tagline: 'LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground,…',
     description:
       '🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23',
     website: 'https://langfuse.com/docs',
@@ -14084,10 +14087,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://trybricks.ai/',
     github: 'https://github.com/bricks-cloud/BricksLLM',
     license: 'MIT',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://github.com/bricks-cloud.png?size=128',
     stars: 1161,
     lastUpdated: '2025-01-05',
@@ -14107,10 +14110,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://stakpak.dev',
     github: 'https://github.com/stakpak/agent',
     license: 'Apache-2.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://github.com/stakpak.png?size=128',
     stars: 1038,
     lastUpdated: '2026-05-06',
@@ -14268,10 +14271,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://www.supernetworks.org/',
     github: 'https://github.com/spr-networks/super',
     license: 'BSD-3-Clause',
-    categories: ['vpn'],
-    replacesTools: ['NordVPN', 'ExpressVPN'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🛡️',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://github.com/spr-networks.png?size=128',
     stars: 502,
     lastUpdated: '2026-05-05',
@@ -14429,10 +14432,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://webstudio.is',
     github: 'https://github.com/webstudio-is/webstudio',
     license: 'AGPL-3.0',
-    categories: ['cms'],
-    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    categories: ['ssg'],
+    replacesTools: ['Webflow', 'Framer'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🌍',
+    logoPlaceholderEmoji: '🚀',
     logoUrl: 'https://github.com/webstudio-is.png?size=128',
     stars: 8270,
     lastUpdated: '2026-05-02',
@@ -14498,10 +14501,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://discord.gg/xZjKRaNp8b',
     github: 'https://github.com/evidentlyai/evidently',
     license: 'Apache-2.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '📈',
     logoUrl: 'https://github.com/evidentlyai.png?size=128',
     stars: 7253,
     lastUpdated: '2026-05-02',
@@ -14544,10 +14547,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://www.traceloop.com/openllmetry',
     github: 'https://github.com/traceloop/openllmetry',
     license: 'Apache-2.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '📈',
     logoUrl: 'https://github.com/traceloop.png?size=128',
     stars: 6867,
     lastUpdated: '2026-05-06',
@@ -14590,10 +14593,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/coze-dev/coze-loop',
     github: 'https://github.com/coze-dev/coze-loop',
     license: 'Apache-2.0',
-    categories: ['monitoring'],
-    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📈',
+    logoPlaceholderEmoji: '🤖',
     logoUrl: 'https://github.com/coze-dev.png?size=128',
     stars: 5332,
     lastUpdated: '2026-05-06',
@@ -14607,16 +14610,16 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'helicone',
     name: 'Helicone',
     slug: 'helicone',
-    tagline: 'Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓',
+    tagline: 'LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓',
     description:
       '🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓',
     website: 'https://www.helicone.ai',
     github: 'https://github.com/Helicone/helicone',
     license: 'Apache-2.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '📈',
     logoUrl: 'https://github.com/Helicone.png?size=128',
     stars: 5164,
     lastUpdated: '2026-05-05',
@@ -15142,10 +15145,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://learnhouse.app',
     github: 'https://github.com/learnhouse/learnhouse',
     license: 'AGPL-3.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['cms'],
+    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '🌍',
     logoUrl: 'https://github.com/learnhouse.png?size=128',
     stars: 1309,
     lastUpdated: '2026-05-06',
@@ -15257,10 +15260,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/gobeam/truthy',
     github: 'https://github.com/gobeam/truthy',
     license: 'MIT',
-    categories: ['cms'],
-    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🌍',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://github.com/gobeam.png?size=128',
     stars: 589,
     lastUpdated: '2025-02-01',
@@ -15740,10 +15743,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'http://docs.dbgpt.cn',
     github: 'https://github.com/eosphoros-ai/DB-GPT',
     license: 'MIT',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '🤖',
     logoUrl: 'https://avatars.githubusercontent.com/u/140580304?v=4',
     stars: 18267,
     lastUpdated: '2026-05-05',
@@ -15832,10 +15835,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://www.theaiautomators.com/',
     github: 'https://github.com/theaiautomators/insights-lm-public',
     license: 'MIT',
-    categories: ['kommunikation'],
-    replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
     selfHostable: true,
-    logoPlaceholderEmoji: '💬',
+    logoPlaceholderEmoji: '🤖',
     logoUrl: 'https://avatars.githubusercontent.com/u/215132130?v=4',
     stars: 501,
     lastUpdated: '2026-01-16',
@@ -15855,10 +15858,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://www.percona.com/software/database-tools/percona-monitoring-and-management',
     github: 'https://github.com/percona/pmm',
     license: 'AGPL-3.0',
-    categories: ['medienserver'],
-    replacesTools: ['Plex Premium', 'Emby'],
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🎵',
+    logoPlaceholderEmoji: '📈',
     logoUrl: 'https://avatars.githubusercontent.com/u/1683025?v=4',
     stars: 1003,
     lastUpdated: '2026-05-06',
@@ -16085,10 +16088,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://brightbean.xyz/',
     github: 'https://github.com/brightbeanxyz/brightbean-studio',
     license: 'AGPL-3.0',
-    categories: ['cms'],
-    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    categories: ['social-media'],
+    replacesTools: ['Twitter/X', 'Instagram', 'Facebook'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🌍',
+    logoPlaceholderEmoji: '📱',
     logoUrl: 'https://avatars.githubusercontent.com/u/268594138?v=4',
     stars: 1583,
     lastUpdated: '2026-05-05',
@@ -16200,10 +16203,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://tesslate.com',
     github: 'https://github.com/TesslateAI/OpenSail',
     license: 'Apache-2.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🤖',
     logoUrl: 'https://avatars.githubusercontent.com/u/200633710?v=4',
     stars: 509,
     lastUpdated: '2026-05-06',
@@ -16315,10 +16318,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools',
     github: 'https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools',
     license: 'GPL-3.0',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '🤖',
     logoUrl: 'https://avatars.githubusercontent.com/u/185671340?v=4',
     stars: 136812,
     lastUpdated: '2026-04-29',
@@ -16455,10 +16458,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://career-ops.org',
     github: 'https://github.com/santifer/career-ops',
     license: 'MIT',
-    categories: ['crm'],
-    replacesTools: ['Salesforce', 'HubSpot'],
+    categories: ['projektmanagement'],
+    replacesTools: ['Asana', 'Monday', 'Jira', 'Trello'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤝',
+    logoPlaceholderEmoji: '✅',
     logoUrl: 'https://avatars.githubusercontent.com/u/256850418?v=4',
     stars: 43065,
     lastUpdated: '2026-05-06',
@@ -16841,7 +16844,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'archivebox',
     name: 'Archivebox',
     slug: 'archivebox',
-    tagline: 'Open source self-hosted web archiving.',
+    tagline: 'Self-hosted web archiving.',
     description:
       '🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...',
     website: 'https://archivebox.io',
@@ -17008,10 +17011,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://obtainium.imranr.dev',
     github: 'https://github.com/ImranR98/Obtainium',
     license: 'GPL-3.0',
-    categories: ['betriebssysteme'],
-    replacesTools: ['Windows', 'macOS'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🖥️',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/30463115?v=4',
     stars: 16902,
     lastUpdated: '2026-04-16',
@@ -17094,7 +17097,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'maxun',
     name: 'Maxun',
     slug: 'maxun',
-    tagline: 'The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites…',
+    tagline: 'No-code platform for web scraping, crawling, search and AI data extraction • Turn websites…',
     description:
       '🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥',
     website: 'https://www.maxun.dev',
@@ -17209,7 +17212,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'opensearch',
     name: 'Opensearch',
     slug: 'opensearch',
-    tagline: 'Open source distributed and RESTful search engine.',
+    tagline: 'Distributed and RESTful search engine.',
     description:
       '🔎 Open source distributed and RESTful search engine.',
     website: 'https://opensearch.org/docs/latest/opensearch/index/',
@@ -17330,10 +17333,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://nginxui.com',
     github: 'https://github.com/0xJacky/nginx-ui',
     license: 'AGPL-3.0',
-    categories: ['monitoring'],
-    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📈',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://avatars.githubusercontent.com/u/13096985?v=4',
     stars: 11120,
     lastUpdated: '2026-05-06',
@@ -17399,10 +17402,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://app.screego.net',
     github: 'https://github.com/screego/server',
     license: 'GPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['kommunikation'],
+    replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '💬',
     logoUrl: 'https://avatars.githubusercontent.com/u/72201776?v=4',
     stars: 10365,
     lastUpdated: '2026-04-25',
@@ -17928,10 +17931,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://www.flagsmith.com',
     github: 'https://github.com/Flagsmith/flagsmith',
     license: 'BSD-3-Clause',
-    categories: ['ci-cd'],
-    replacesTools: ['GitHub Actions', 'Jenkins', 'CircleCI'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🔄',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://avatars.githubusercontent.com/u/58150233?v=4',
     stars: 6335,
     lastUpdated: '2026-05-06',
@@ -18089,10 +18092,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/crocodilestick/Calibre-Web-Automated',
     github: 'https://github.com/crocodilestick/Calibre-Web-Automated',
     license: 'GPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['medienserver'],
+    replacesTools: ['Plex Premium', 'Emby'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🎵',
     logoUrl: 'https://avatars.githubusercontent.com/u/105450872?v=4',
     stars: 5534,
     lastUpdated: '2026-03-11',
@@ -18250,10 +18253,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://scanopy.net',
     github: 'https://github.com/scanopy/scanopy',
     license: 'AGPL-3.0',
-    categories: ['cms'],
-    replacesTools: ['WordPress.com', 'Squarespace', 'Wix'],
+    categories: ['monitoring'],
+    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🌍',
+    logoPlaceholderEmoji: '📈',
     logoUrl: 'https://avatars.githubusercontent.com/u/249509125?v=4',
     stars: 4875,
     lastUpdated: '2026-05-03',
@@ -18664,10 +18667,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://olivetin.app',
     github: 'https://github.com/OliveTin/OliveTin',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['dev-tools'],
+    replacesTools: ['JetBrains Suite', 'Visual Studio'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '⌨️',
     logoUrl: 'https://avatars.githubusercontent.com/u/85869711?v=4',
     stars: 3550,
     lastUpdated: '2026-05-03',
@@ -19170,10 +19173,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://wgtunnel.com',
     github: 'https://github.com/wgtunnel/android',
     license: 'MIT',
-    categories: ['betriebssysteme'],
-    replacesTools: ['Windows', 'macOS'],
+    categories: ['vpn'],
+    replacesTools: ['NordVPN', 'ExpressVPN'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🖥️',
+    logoPlaceholderEmoji: '🛡️',
     logoUrl: 'https://avatars.githubusercontent.com/u/207392975?v=4',
     stars: 2675,
     lastUpdated: '2026-05-03',
@@ -19262,10 +19265,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://owerdogan.github.io/whoami-project',
     github: 'https://github.com/owerdogan/whoami-project',
     license: 'GPL-3.0',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://avatars.githubusercontent.com/u/59175356?v=4',
     stars: 2274,
     lastUpdated: '2025-10-13',
@@ -19394,7 +19397,7 @@ export const autoDiscoveredTools: Tool[] = [
     id: 'opensearch-dashboards',
     name: 'Opensearch Dashboards',
     slug: 'opensearch-dashboards',
-    tagline: 'Open source visualization dashboards for OpenSearch.',
+    tagline: 'Visualization dashboards for OpenSearch.',
     description:
       '📊 Open source visualization dashboards for OpenSearch.',
     website: 'https://opensearch.org/docs/latest/dashboards/index/',
@@ -19607,10 +19610,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://docs.bracketapp.nl',
     github: 'https://github.com/evroon/bracket',
     license: 'AGPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['projektmanagement'],
+    replacesTools: ['Asana', 'Monday', 'Jira', 'Trello'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '✅',
     logoUrl: 'https://avatars.githubusercontent.com/u/11857441?v=4',
     stars: 1673,
     lastUpdated: '2026-05-05',
@@ -19676,10 +19679,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'http://conduit.mobile',
     github: 'https://github.com/cogwheel0/conduit',
     license: 'GPL-3.0',
-    categories: ['kommunikation'],
-    replacesTools: ['WhatsApp', 'Slack', 'Microsoft Teams'],
+    categories: ['ki-ml'],
+    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
     selfHostable: true,
-    logoPlaceholderEmoji: '💬',
+    logoPlaceholderEmoji: '🤖',
     logoUrl: 'https://avatars.githubusercontent.com/u/172976095?v=4',
     stars: 1483,
     lastUpdated: '2026-05-06',
@@ -19722,10 +19725,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://databunker.org/',
     github: 'https://github.com/securitybunker/databunker',
     license: 'MIT',
-    categories: ['datenbanken'],
-    replacesTools: ['Oracle', 'MSSQL'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🗄️',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://avatars.githubusercontent.com/u/58372112?v=4',
     stars: 1415,
     lastUpdated: '2026-03-30',
@@ -19745,10 +19748,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://itskovacs-trip.netlify.app/',
     github: 'https://github.com/itskovacs/trip',
     license: 'MIT',
-    categories: ['erp'],
-    replacesTools: ['SAP Business One', 'Oracle ERP'],
+    categories: ['karten'],
+    replacesTools: ['Google Maps API', 'Mapbox'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🏭',
+    logoPlaceholderEmoji: '🗺️',
     logoUrl: 'https://avatars.githubusercontent.com/u/36224223?v=4',
     stars: 1397,
     lastUpdated: '2026-05-04',
@@ -19768,10 +19771,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://apps.nextcloud.com/apps/deck',
     github: 'https://github.com/nextcloud/deck',
     license: 'AGPL-3.0',
-    categories: ['kalender'],
-    replacesTools: ['Google Calendar', 'iCloud'],
+    categories: ['projektmanagement'],
+    replacesTools: ['Asana', 'Monday', 'Jira', 'Trello'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📅',
+    logoPlaceholderEmoji: '✅',
     logoUrl: 'https://avatars.githubusercontent.com/u/19211038?v=4',
     stars: 1381,
     lastUpdated: '2026-05-06',
@@ -19883,10 +19886,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/navilg/media-stack',
     github: 'https://github.com/navilg/media-stack',
     license: 'GPL-3.0',
-    categories: ['vpn'],
-    replacesTools: ['NordVPN', 'ExpressVPN'],
+    categories: ['medienserver'],
+    replacesTools: ['Plex Premium', 'Emby'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🛡️',
+    logoPlaceholderEmoji: '🎵',
     logoUrl: 'https://avatars.githubusercontent.com/u/37469234?v=4',
     stars: 1191,
     lastUpdated: '2026-04-01',
@@ -19952,10 +19955,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://secluso.com',
     github: 'https://github.com/secluso/core',
     license: 'GPL-3.0',
-    categories: ['dev-tools'],
-    replacesTools: ['JetBrains Suite', 'Visual Studio'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '⌨️',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://avatars.githubusercontent.com/u/271067237?v=4',
     stars: 1102,
     lastUpdated: '2026-05-06',
@@ -19975,10 +19978,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://dumbassets.dumbware.io',
     github: 'https://github.com/DumbWareio/DumbAssets',
     license: 'GPL-3.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['erp'],
+    replacesTools: ['SAP Business One', 'Oracle ERP'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🏭',
     logoUrl: 'https://avatars.githubusercontent.com/u/196672422?v=4',
     stars: 1100,
     lastUpdated: '2025-07-25',
@@ -20067,10 +20070,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/ZimengXiong/ExcaliDash',
     github: 'https://github.com/ZimengXiong/ExcaliDash',
     license: 'AGPL-3.0',
-    categories: ['monitoring'],
-    replacesTools: ['Datadog', 'New Relic', 'PagerDuty'],
+    categories: ['backend-frameworks'],
+    replacesTools: ['Firebase', 'Supabase Pro'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📈',
+    logoPlaceholderEmoji: '⚙️',
     logoUrl: 'https://avatars.githubusercontent.com/u/83783148?v=4',
     stars: 1047,
     lastUpdated: '2026-04-27',
@@ -20090,10 +20093,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://degoog-org.github.io/degoog/',
     github: 'https://github.com/degoog-org/degoog',
     license: 'AGPL-3.0',
-    categories: ['betriebssysteme'],
-    replacesTools: ['Windows', 'macOS'],
+    categories: ['suchmaschinen'],
+    replacesTools: ['Google', 'Bing'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🖥️',
+    logoPlaceholderEmoji: '🔍',
     logoUrl: 'https://avatars.githubusercontent.com/u/280656364?v=4',
     stars: 977,
     lastUpdated: '2026-05-06',
@@ -20251,10 +20254,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/HaschekSolutions/opentrashmail',
     github: 'https://github.com/HaschekSolutions/opentrashmail',
     license: 'Apache-2.0',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['email-server'],
+    replacesTools: ['Gmail-Server', 'Exchange'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '📮',
     logoUrl: 'https://avatars.githubusercontent.com/u/18282715?v=4',
     stars: 861,
     lastUpdated: '2025-08-28',
@@ -20274,10 +20277,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://invio.dev',
     github: 'https://github.com/kittendevv/Invio',
     license: 'Unlicense',
-    categories: ['cloud-speicher'],
-    replacesTools: ['Google Drive', 'Dropbox', 'OneDrive'],
+    categories: ['erp'],
+    replacesTools: ['SAP Business One', 'Oracle ERP'],
     selfHostable: true,
-    logoPlaceholderEmoji: '☁️',
+    logoPlaceholderEmoji: '🏭',
     logoUrl: 'https://avatars.githubusercontent.com/u/121097932?v=4',
     stars: 840,
     lastUpdated: '2026-05-06',
@@ -20343,10 +20346,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://portabase.io',
     github: 'https://github.com/Portabase/portabase',
     license: 'Apache-2.0',
-    categories: ['notizen'],
-    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
+    categories: ['backup'],
+    replacesTools: ['Backblaze', 'Acronis'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📝',
+    logoPlaceholderEmoji: '💾',
     logoUrl: 'https://avatars.githubusercontent.com/u/249081024?v=4',
     stars: 803,
     lastUpdated: '2026-04-29',
@@ -20458,10 +20461,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://clearcam.org',
     github: 'https://github.com/roryclear/clearcam',
     license: 'GPL-3.0',
-    categories: ['ki-ml'],
-    replacesTools: ['ChatGPT API', 'Midjourney', 'DALL-E'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🤖',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://avatars.githubusercontent.com/u/45880510?v=4',
     stars: 680,
     lastUpdated: '2026-05-06',
@@ -20504,10 +20507,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/eduard256/Strix',
     github: 'https://github.com/eduard256/Strix',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://avatars.githubusercontent.com/u/93467350?v=4',
     stars: 673,
     lastUpdated: '2026-04-24',
@@ -20527,10 +20530,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://easyapps.me',
     github: 'https://github.com/Kin69/Athena',
     license: 'GPL-3.0',
-    categories: ['dns-adblock'],
-    replacesTools: ['Google DNS', 'kommerzielle Filter'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🚫',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://avatars.githubusercontent.com/u/109698804?v=4',
     stars: 621,
     lastUpdated: '2026-01-26',
@@ -20711,10 +20714,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://ulsklyc.github.io/oikos/',
     github: 'https://github.com/ulsklyc/oikos',
     license: 'MIT',
-    categories: ['container'],
-    replacesTools: ['Docker Hub', 'Kubernetes EKS'],
+    categories: ['notizen'],
+    replacesTools: ['Notion', 'Evernote', 'Obsidian'],
     selfHostable: true,
-    logoPlaceholderEmoji: '📦',
+    logoPlaceholderEmoji: '📝',
     logoUrl: 'https://avatars.githubusercontent.com/u/108589275?v=4',
     stars: 507,
     lastUpdated: '2026-05-06',
@@ -20734,10 +20737,10 @@ export const autoDiscoveredTools: Tool[] = [
     website: 'https://github.com/gordonbay/Windows-On-Reins',
     github: 'https://github.com/gordonbay/Windows-On-Reins',
     license: 'GPL-3.0',
-    categories: ['betriebssysteme'],
-    replacesTools: ['Windows', 'macOS'],
+    categories: ['firewall'],
+    replacesTools: ['Cisco', 'proprietary'],
     selfHostable: true,
-    logoPlaceholderEmoji: '🖥️',
+    logoPlaceholderEmoji: '🔥',
     logoUrl: 'https://avatars.githubusercontent.com/u/19177793?v=4',
     stars: 472,
     lastUpdated: '2025-06-21',
