@@ -56,11 +56,18 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "autobase": "ci-cd",
     "encore": "backend-frameworks",
     "nixopus": "ci-cd",
+    "automatisch": "ci-cd",  # Zapier alternative: workflow automation
+    "flagsmith": "backend-frameworks",  # feature flags
     "olares": "betriebssysteme",
     "casaos": "betriebssysteme",
     "yunohost": "betriebssysteme",
     "puter": "betriebssysteme",
     "ansible-nas": "betriebssysteme",
+    # Mis-named auto entries that landed in betriebssysteme by accident
+    "android": "vpn",  # actually a WireGuard Android client
+    "degoog": "suchmaschinen",  # search-engine aggregator
+    "windows-on-reins": "firewall",  # Windows hardening / privacy script
+    "obtainium": "dev-tools",  # Android app side-loader / updater
     # Virtualisation / hypervisor
     "proxmoxve": "betriebssysteme",
     # Dashboard / startpage
@@ -71,6 +78,8 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "astroluma": "backend-frameworks",
     "jump": "backend-frameworks",
     "dashboard-icons": "dev-tools",
+    "excalidash": "backend-frameworks",  # Excalidraw dashboard
+    "nginx-ui": "backend-frameworks",
     # E-Commerce / payments
     "btcpayserver": "e-commerce",
     "bitcart": "e-commerce",
@@ -87,7 +96,9 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "wallos": "erp",
     "lago": "erp",
     "meteroid": "erp",
-    "trip": "erp",
+    "trip": "karten",  # POI map + trip planner — actually maps not erp
+    "invio": "erp",  # 'Self-hosted invoicing' — was in cloud-speicher!
+    "dumbassets": "erp",  # asset/inventory tracker
     # Notes / memos / read-later / bookmarks / habits
     "memos": "notizen",
     "memories": "fotos",
@@ -105,7 +116,9 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "wanderer": "karten",
     "archivebox": "notizen",
     "jotty": "notizen",
-    "portabase": "notizen",
+    # 'portabase' description is actually about a multi-engine DB backup
+    # tool, not the Portabase personal-data app. Belongs in backup.
+    "portabase": "backup",
     "silverbullet": "notizen",
     "deepwiki-open": "wiki",
     "pandawiki": "wiki",
@@ -132,8 +145,10 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "musicrecognizer": "video-audio",
     "handbrake-web": "video-audio",
     "your-spotify": "analytics",
+    "calibre-web-automated": "medienserver",
+    "media-stack": "medienserver",
+    "pmm": "monitoring",  # Percona DB Monitoring & Management
     # Network / monitoring / status / uptime
-    "nginx-ui": "monitoring",
     "uptrace": "monitoring",
     "watchyourlan": "monitoring",
     "netalertx": "monitoring",
@@ -144,6 +159,10 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "wakapi": "zeiterfassung",
     "teslamate": "monitoring",
     "openstatus": "monitoring",
+    "scanopy": "monitoring",  # auto-updating network diagrams
+    "evidently": "monitoring",  # ML / LLM observability
+    "helicone": "monitoring",
+    "openllmetry": "monitoring",
     # Privacy / security / firewall
     "checkov": "monitoring",
     "portmaster": "firewall",
@@ -154,11 +173,15 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "firezone": "vpn",
     "pentagi": "firewall",
     "wholeaked": "firewall",
-    "windows-on-reins": "betriebssysteme",
     "social-amnesia": "social-media",
     "watomatic": "kommunikation",
-    "degoog": "betriebssysteme",
     "local-sheriff": "firewall",
+    "athena": "firewall",  # Android firewall + adblock
+    "core": "firewall",  # privacy-preserving security camera
+    "clearcam": "firewall",  # security camera with object detection
+    "strix": "firewall",  # camera stream finder / recon
+    "whoami-project": "firewall",  # privacy / anonymity Linux distro
+    "super": "firewall",  # SPR Wi-Fi router for home
     # Auth / identity / passwords / 2fa
     "voidauth": "backend-frameworks",
     "tinyauth": "backend-frameworks",
@@ -166,6 +189,9 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "swifty": "passwort-manager",
     "passwordpusher": "passwort-manager",
     "2fauth": "passwort-manager",
+    "databunker": "backend-frameworks",  # Customer PII vault
+    "bricksllm": "backend-frameworks",  # LLM API gateway
+    "truthy": "backend-frameworks",  # NestJS auth+CMS API
     # Browsers / front-ends
     "neko": "browser",
     "virtualbrowser": "browser",
@@ -183,46 +209,52 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "browser-extension": "dev-tools",
     "omni-tools": "dev-tools",
     "self-hosted-ai-starter-kit": "dev-tools",
-    "system-prompts-and-models-of-ai-tools": "dev-tools",
+    "system-prompts-and-models-of-ai-tools": "ki-ml",  # prompt collection
     "public-apis": "dev-tools",
     "register": "dev-tools",
     "framework": "dev-tools",
-    "core": "dev-tools",
+    "core-app": "dev-tools",
     "community": "dev-tools",
+    "olivetin": "dev-tools",  # web UI for shell commands
+    "agent": "dev-tools",  # autopilot code agent
     # CMS / link-in-bio / status / trackers
     "littlelink-server": "cms",
     "atomic-server": "cms",
     "waline": "cms",
     "isso": "cms",
     "slash": "cms",
-    "wholeaked-server": "cms",
-    "scanopy": "cms",
-    "scanopy-app": "cms",
-    "puter-server": "cms",
     "smartstore": "e-commerce",
     "vrite": "cms",
     "vaahcms": "cms",
+    "brightbean-studio": "social-media",  # social-media management platform
+    "webstudio": "ssg",  # Webflow alternative website builder
+    "learnhouse": "cms",  # learning / course platform
+    "career-ops": "projektmanagement",  # AI job-search system
     # Communication / chat / video
     "spacebarchat": "kommunikation",
     "rocket-chat-electron": "kommunikation",
-    "conduit": "kommunikation",
-    "databag": "kommunikation",
     "ethora": "kommunikation",
     "bark-server": "kommunikation",
     "toxic": "kommunikation",
     "baresip": "videokonferenzen",
     "switchai": "ki-ml",
+    "server": "kommunikation",  # screego screen sharing
+    "conduit": "ki-ml",  # OpenWebUI mobile client
+    "insights-lm-public": "ki-ml",  # NotebookLM alternative
+    "coze-loop": "ki-ml",  # AI Agent Optimisation
+    "opensail": "ki-ml",  # AI agentic coding tool
+    "db-gpt": "ki-ml",  # AI data assistant
     # DNS / ad-block
     "blocky": "dns-adblock",
     # Calendar / contacts / scheduling
     "cal-diy": "kalender",
     "manage-my-damn-life-nextjs": "kalender",
-    "deck": "kalender",
+    "deck": "projektmanagement",  # Nextcloud Kanban board
     "contacts": "kalender",
+    "calendar": "kalender",
     # File / storage
     "filebrowser": "cloud-speicher",
     "gokapi": "cloud-speicher",
-    "invio": "cloud-speicher",
     "gallery": "fotos",
     # GPS / maps
     "dawarich": "karten",
@@ -235,6 +267,9 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "microsandbox": "dev-tools",
     "sablier": "container",
     "portr": "vpn",
+    "opentrashmail": "email-server",
+    "bracket": "projektmanagement",  # self-hosted tournament system
+    "oikos": "notizen",  # family planner
     # Database backup utilities — these *are* db-related, keep
     "databasus": "backup",
     # Media downloaders / RSS
@@ -242,24 +277,15 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "bitmagnet": "medienserver",
     "fadcam": "video-audio",
     "stable-diffusion-android": "ki-ml",
-    "obtainium": "betriebssysteme",
     # Phishing / status page
     "pinry": "fotos",
     "foss-photo-libraries": "fotos",
-    "pmm": "medienserver",  # plex meta manager
     # Project mgmt / kanban / wiki
     "project-management": "projektmanagement",
-    "career-ops": "crm",
     "trek": "projektmanagement",
-    "core-app": "dev-tools",
-    "calendar": "kalender",
-    "android": "betriebssysteme",
     "docs": "wiki",
     "helpdesk": "crm",
-    # Misc dev / monitoring / data
-    "logdy-server": "monitoring",
-    "pmm-server": "monitoring",
-    # AI / LLM stuff that auto-discovery may have miscategorised
+    # AI / LLM stuff
     "langchain": "ki-ml",
     "langgraph": "ki-ml",
     "langfuse": "ki-ml",
@@ -270,7 +296,6 @@ SLUG_CATEGORY_OVERRIDES: dict[str, str] = {
     "refact": "ki-ml",
     "continue": "dev-tools",
     "mlflow": "ki-ml",
-    "deepwiki-open": "wiki",
 }
 
 # Slug overrides: leave 'tags' override empty for now. Future runs can
