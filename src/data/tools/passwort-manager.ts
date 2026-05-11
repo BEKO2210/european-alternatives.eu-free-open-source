@@ -97,7 +97,7 @@ export const passwortManagerTools: Tool[] = [
     hostedService: 'https://www.passbolt.com/pricing/cloud',
     logoPlaceholderEmoji: '🏷️',
     stars: 4800,
-    lastUpdated: '2026-04-30',
+    lastUpdated: '2026-05-07',
     tags: ['passwort', 'team', 'openpgp', 'verschluesselung', 'europaeisch', 'ldap', 'audit'],
     difficulty: 'mittel',
     platforms: ['web', 'linux', 'docker'],

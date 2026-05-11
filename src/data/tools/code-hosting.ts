@@ -20,7 +20,7 @@ export const codeHostingTools: Tool[] = [
     hostedService: 'https://codeberg.org',
     logoPlaceholderEmoji: '🏗️',
     stars: 6000,
-    lastUpdated: '2026-05-06',
+    lastUpdated: '2026-05-11',
     tags: ['git', 'go', 'community', 'code-review', 'ci-cd'],
     difficulty: 'einfach',
     platforms: ['web', 'linux', 'windows', 'macos', 'docker'],
