@@ -7,7 +7,7 @@
 
 **Deine Freiheit. Dein Code. Deine Zukunft.**
 
-> Eine kuratierte Sammlung von 370+ echten Open-Source-Alternativen zu proprietärer Software — organisiert in 40 Kategorien, vollständig durchsuchbar, zweisprachig (DE/EN), und mit dem Fokus auf Datenschutz und digitale Souveränität. **Strikt FOSS**: keine SSPL, BSL, „source-available" oder proprietären Einträge. Neue Tools werden jeden Montag automatisch via GitHub-API erkannt, gegen eine OSI/FSF-Lizenz-Allowlist gefiltert und hinzugefügt.
+> Eine kuratierte Sammlung von 500+ echten Open-Source-Alternativen zu proprietärer Software — organisiert in 40 Kategorien, vollständig durchsuchbar, zweisprachig (DE/EN), und mit dem Fokus auf Datenschutz und digitale Souveränität. **Strikt FOSS**: keine SSPL, BSL, „source-available" oder proprietären Einträge. Neue Tools werden jeden Montag automatisch via GitHub-API erkannt, gegen eine OSI/FSF-Lizenz-Allowlist gefiltert und hinzugefügt.
 
 🌐 **Live:** [BEKO2210.github.io/european-alternatives.eu-free-open-source](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
 
@@ -204,4 +204,4 @@ kein non-FOSS-Eintrag und keine leeren Karten reinkommen.
 Made with ❤️ for digital freedom
 
 
-> **[English]** A curated directory of 370+ genuinely free and open-source alternatives to proprietary software like Google, Microsoft, and Adobe — organized in 40 categories, fully searchable, self-hostable, available in German and English. Built for the DACH region but useful for everyone. Strictly FOSS: no SSPL, BSL, "source-available" or proprietary entries — the auto-discovery script enforces an OSI/FSF-approved license allowlist. → [Live Site](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
+> **[English]** A curated directory of 500+ genuinely free and open-source alternatives to proprietary software like Google, Microsoft, and Adobe — organized in 40 categories, fully searchable, self-hostable, available in German and English. Built for the DACH region but useful for everyone. Strictly FOSS: no SSPL, BSL, "source-available" or proprietary entries — the auto-discovery script enforces an OSI/FSF-approved license allowlist. → [Live Site](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
