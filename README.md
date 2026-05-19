@@ -1,5 +1,3 @@
-> **[English]** A curated directory of 370+ genuinely free and open-source alternatives to proprietary software like Google, Microsoft, and Adobe — organized in 40 categories, fully searchable, self-hostable, available in German and English. Built for the DACH region but useful for everyone. Strictly FOSS: no SSPL, BSL, "source-available" or proprietary entries — the auto-discovery script enforces an OSI/FSF-approved license allowlist. → [Live Site](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
-
 # 🛡️ FOSS Alternatives
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -204,3 +202,6 @@ kein non-FOSS-Eintrag und keine leeren Karten reinkommen.
 [![Star History Chart](https://api.star-history.com/image?repos=BEKO2210/european-alternatives.eu-free-open-source&type=date&legend=top-left)](https://www.star-history.com/?repos=BEKO2210%2Feuropean-alternatives.eu-free-open-source&type=date&legend=top-left)
 
 Made with ❤️ for digital freedom
+
+
+> **[English]** A curated directory of 370+ genuinely free and open-source alternatives to proprietary software like Google, Microsoft, and Adobe — organized in 40 categories, fully searchable, self-hostable, available in German and English. Built for the DACH region but useful for everyone. Strictly FOSS: no SSPL, BSL, "source-available" or proprietary entries — the auto-discovery script enforces an OSI/FSF-approved license allowlist. → [Live Site](https://BEKO2210.github.io/european-alternatives.eu-free-open-source)
