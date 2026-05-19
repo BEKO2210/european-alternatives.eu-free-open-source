@@ -15,7 +15,7 @@
 
 ## ✨ Features
 
-- 📦 **370+ FOSS-Tools** in 40 Kategorien (wächst automatisch)
+- 📦 **500+ FOSS-Tools** in 40 Kategorien (wächst automatisch)
 - 🛡️ **Strikt FOSS-kuratiert** — Auto-Discovery filtert gegen eine OSI/FSF-Lizenz-Allowlist; non-FOSS Re-Lizenzierungen (SSPL, BSL, VPL, „source-available") sind über eine Blocklist dauerhaft ausgeschlossen, inklusive der bekannten Beispiele MongoDB, Redis (→ Valkey), CockroachDB, HashiCorp Stack, Sentry, Elastic, Outline und Vtiger
 - 🤖 **Auto-Discovery** — neue Tools werden wöchentlich via GitHub API erkannt, kategorisiert und committed; bei Build-Fehler automatischer Rollback
 - 🖼️ **Hero-Section** mit dedizierten Bildern für Desktop (16:9) & Mobil (9:16), automatisch beschnitten via `object-fit: cover`, theme-aware (hell/dunkel) — gesteuert über CSS-Variablen, robust gegen aggressive CSS-Minifier-Optimierungen
