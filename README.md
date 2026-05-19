@@ -1,4 +1,8 @@
-# 🛡️ FOSS Alternatives
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BEKO2210/european-alternatives.eu-free-open-source/main/public/icon.png" alt="European Alternatives Icon" width="180">
+</p>
+
+# FOSS Alternatives
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Content: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC%20BY--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
