@@ -45,7 +45,7 @@ export const passwortManagerTools: Tool[] = [
     selfHostable: false,
     logoPlaceholderEmoji: '🔑',
     stars: 22000,
-    lastUpdated: '2026-05-17',
+    lastUpdated: '2026-05-23',
     tags: ['passwort', 'offline', 'kdbx', 'verschluesselung', 'totp', 'yubikey', 'browser-integration'],
     difficulty: 'einfach',
     platforms: ['linux', 'windows', 'macos'],
