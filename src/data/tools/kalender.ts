@@ -20,7 +20,7 @@ export const kalenderTools: Tool[] = [
     hostedService: 'https://nextcloud.com/signup/',
     logoPlaceholderEmoji: '📅',
     stars: 1100,
-    lastUpdated: '2026-07-20',
+    lastUpdated: '2026-07-27',
     tags: ['caldav', 'nextcloud', 'synchronisation', 'terminplanung', 'gruppenkalender'],
     difficulty: 'einfach',
     platforms: ['web', 'linux', 'windows', 'macos', 'android', 'ios', 'docker'],
