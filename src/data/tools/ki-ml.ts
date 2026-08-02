@@ -2,6 +2,31 @@ import type { Tool } from '../types';
 
 export const kiMlTools: Tool[] = [
   {
+    id: 'ai-dictation',
+    name: 'AI Dictation',
+    slug: 'ai-dictation',
+    tagline: 'Quelloffene Spracheingabe für Desktop und Mobilgeräte',
+    taglineEn: 'Open-source voice typing for desktop and mobile',
+    description:
+      'AI Dictation ist eine quelloffene Sprache-zu-Text-App für macOS, Windows, iPhone, iPad und Android. Sie bietet Offline-Spracherkennung auf unterstützten Geräten sowie optionale Cloud-Transkription und Textbereinigung; Funktionen unterscheiden sich je nach Plattform.',
+    descriptionEn:
+      'AI Dictation is an open-source voice-to-text app for macOS, Windows, iPhone, iPad, and Android. It provides offline speech recognition on supported devices plus optional cloud transcription and text cleanup; features vary by platform.',
+    website: 'https://aidictation.com',
+    github: 'https://github.com/writingmate/aidictation',
+    license: 'MIT',
+    categories: ['ki-ml'],
+    replacesTools: ['Superwhisper', 'Wispr Flow', 'Nuance Dragon'],
+    selfHostable: false,
+    logoPlaceholderEmoji: '🎙️',
+    logoUrl: 'https://github.com/user-attachments/assets/e4e380ae-043f-4fe3-9968-56a03851e1c2',
+    lastUpdated: '2026-08-02',
+    tags: ['sprache-zu-text', 'diktat', 'spracheingabe', 'offline', 'produktivitaet'],
+    difficulty: 'einfach',
+    platforms: ['windows', 'macos', 'android', 'ios'],
+    featured: false,
+    addedDate: '2026-08-02',
+  },
+  {
     id: 'ollama',
     name: 'Ollama',
     slug: 'ollama',
