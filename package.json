@@ -27,6 +27,8 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
+    "@typescript-eslint/parser": "^8.66.0",
+    "eslint": "^9.39.5",
     "pagefind": "^1.0.4",
     "prettier": "^3.2.4",
     "prettier-plugin-astro": "^0.13.0"
