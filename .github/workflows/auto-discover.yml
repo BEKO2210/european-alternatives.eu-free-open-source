@@ -69,11 +69,11 @@ jobs:
           echo "Found $COUNT new tools"
 
       # 6. Setup Node.js (only if new tools found)
-      - name: Set up Node.js 20
+      - name: Set up Node.js 22
         if: steps.count.outputs.new_tools != '0' && github.event.inputs.dry_run != 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22.12.0"
           cache: "npm"
 
       - name: Install npm dependencies
