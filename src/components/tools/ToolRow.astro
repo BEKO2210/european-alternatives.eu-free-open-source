@@ -57,8 +57,11 @@ const tagline = lang === 'en' && tool.taglineEn ? tool.taglineEn : tool.tagline;
           src={initialLogoUrl}
           data-logo-url={fallbackLogoUrl}
           alt=""
+          width="28"
+          height="28"
           class="w-7 h-7 object-contain tool-row-logo"
           loading="lazy"
+          decoding="async"
         />
         <span
           class="tool-row-logo-fallback hidden items-center justify-center w-full h-full text-sm font-bold text-white rounded-lg"

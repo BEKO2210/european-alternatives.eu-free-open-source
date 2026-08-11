@@ -102,7 +102,10 @@ const categoryIconMap: Record<string, string> = {
             src={initialLogoUrl}
             data-logo-url={fallbackLogoUrl}
             alt=""
+            width="56"
+            height="56"
             class="w-14 h-14 object-contain tool-logo-detail"
+            decoding="async"
           />
           <span
             class="tool-logo-detail-fallback hidden items-center justify-center w-full h-full text-3xl font-bold text-white rounded-2xl"
@@ -193,9 +196,12 @@ const categoryIconMap: Record<string, string> = {
       <img
         src={previewImageUrl}
         alt={`${tool.name} Preview`}
+        width="1280"
+        height="800"
         class="w-full h-auto tool-preview-img"
         loading="lazy"
-        style="background: #111; min-height: 200px;"
+        decoding="async"
+        style="background: #111;"
       />
       <div class="tool-preview-shimmer absolute inset-0 pointer-events-none flex items-center justify-center text-xs" style="color: var(--color-text-muted); background: linear-gradient(90deg, transparent, rgba(255,255,255,0.04), transparent); display: none;">
         <span class="px-2 py-1 rounded-md" style="background: rgba(0,0,0,0.6)">
