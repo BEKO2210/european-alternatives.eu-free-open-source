@@ -67,7 +67,7 @@ jobs:
         if: steps.diff.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: "22.12.0"
+          node-version: "22.13.0"
           cache: "npm"
 
       - name: Install npm dependencies
