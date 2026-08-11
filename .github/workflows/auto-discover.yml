@@ -26,7 +26,7 @@ jobs:
     steps:
       # 1. Checkout
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
@@ -39,7 +39,7 @@ jobs:
 
       # 3. Python setup
       - name: Set up Python 3.12
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -71,7 +71,7 @@ jobs:
       # 6. Setup Node.js (only if new tools found)
       - name: Set up Node.js 22
         if: steps.count.outputs.new_tools != '0' && github.event.inputs.dry_run != 'true'
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: "22.13.0"
           cache: "npm"
