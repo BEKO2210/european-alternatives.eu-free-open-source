@@ -92,6 +92,10 @@ export function getLocalizedPath(url: URL, targetLang: Lang): string {
     let segments = pathname.split('/').filter(Boolean);
     if (segments[0] === 'en') segments = segments.slice(1);
     const translatedSegments = segments.map(seg => enToDe[seg] || seg);
+    // Astro emits the root error page as /404.html, unlike nested locale pages.
+    if (translatedSegments.length === 1 && translatedSegments[0] === '404') {
+      return `${base}404.html`;
+    }
     const path = translatedSegments.length > 0 ? translatedSegments.join('/') + '/' : '';
     return `${base}${path}`;
   }
