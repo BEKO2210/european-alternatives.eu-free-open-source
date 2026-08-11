@@ -2,7 +2,7 @@
 import type { Tool, Category } from '../../data/types';
 import { Icon } from 'astro-icon/components';
 import { getLicenseBadgeClass, getDifficultyBadgeClass, getRelatedTools } from '../../utils/tools';
-import { getSimpleIcon } from '../../utils/icons';
+import { getSimpleIcon, hasLocalLogo } from '../../utils/icons';
 import MaintenanceBadge from '../ui/MaintenanceBadge.astro';
 import ToolCard from './ToolCard.astro';
 import { getLangFromUrl, useTranslations, getHomeHref, getCategoryName } from '../../i18n/utils';
@@ -23,6 +23,9 @@ const diffBadge = getDifficultyBadgeClass(tool.difficulty);
 const diffLabel = t(`difficulty.${tool.difficulty}` as any);
 const relatedTools = getRelatedTools(allTools, tool, 3);
 const simpleIcon = getSimpleIcon(tool.simpleIconsSlug ?? tool.slug);
+const localLogo = hasLocalLogo(tool.slug);
+const initialLogoUrl = localLogo ? `${base}logos/${tool.slug}.png` : tool.logoUrl;
+const fallbackLogoUrl = localLogo ? tool.logoUrl ?? '' : '';
 
 const lastUpdatedDate = tool.lastUpdated ? new Date(tool.lastUpdated) : null;
 const monthsAgo = lastUpdatedDate ? Math.floor((Date.now() - lastUpdatedDate.getTime()) / (1000 * 60 * 60 * 24 * 30)) : 0;
@@ -93,11 +96,11 @@ const categoryIconMap: Record<string, string> = {
     >
       {simpleIcon ? (
         <div class="w-10 h-10 flex items-center justify-center" style={`color: ${simpleIcon.color}`} set:html={simpleIcon.svg} />
-      ) : (
+      ) : initialLogoUrl ? (
         <>
           <img
-            src={`${base}logos/${tool.slug}.png`}
-            data-logo-url={tool.logoUrl ?? ''}
+            src={initialLogoUrl}
+            data-logo-url={fallbackLogoUrl}
             alt=""
             class="w-14 h-14 object-contain tool-logo-detail"
           />
@@ -108,6 +111,13 @@ const categoryIconMap: Record<string, string> = {
             {tool.name.charAt(0).toUpperCase()}
           </span>
         </>
+      ) : (
+        <span
+          class="flex items-center justify-center w-full h-full text-3xl font-bold text-white rounded-2xl"
+          style={`background: ${toolColor}`}
+        >
+          {tool.name.charAt(0).toUpperCase()}
+        </span>
       )}
     </div>
     <div class="flex-1">
