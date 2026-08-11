@@ -1,7 +1,7 @@
 {
   "name": "foss-alternatives",
   "type": "module",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "FOSS Alternatives – Deine Freiheit. Dein Code. Deine Zukunft.",
   "engines": {
     "node": ">=22.13.0"
