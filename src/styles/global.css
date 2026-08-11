@@ -419,7 +419,7 @@
   }
 
   .stagger-fade > * {
-    opacity: 0;
+    opacity: 1;
     animation: fadeInUp 360ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
   }
 
@@ -436,7 +436,7 @@
 
   @keyframes fadeInUp {
     from {
-      opacity: 0;
+      opacity: 1;
       transform: translateY(8px);
     }
     to {
