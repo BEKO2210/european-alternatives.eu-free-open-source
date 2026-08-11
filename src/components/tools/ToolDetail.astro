@@ -223,9 +223,9 @@ const categoryIconMap: Record<string, string> = {
       <h2 class="text-lg font-semibold mb-3" style="color: var(--color-text-primary)">
         {t('detail.replacesTools')}
       </h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
         {tool.replacesTools.map(r => (
-          <div class="flex items-center gap-3 p-3 rounded-lg" style="background: var(--color-bg-tertiary)">
+          <div class="flex items-center gap-3 min-h-16 p-3 rounded-lg" data-replacement-card style="background: var(--color-bg-tertiary)">
             <span class="text-red-400"><Icon name="lucide:x-circle" size={18} /></span>
             <span class="text-sm line-through" style="color: var(--color-text-muted)">{r}</span>
             <span style="color: var(--color-text-muted)">&rarr;</span>
