@@ -344,8 +344,8 @@ const categoryIconMap: Record<string, string> = {
     // page never looks broken.
     const isMshots = /s\.wordpress\.com\/mshots\//.test(originalSrc);
     const placeholderThreshold = 800; // narrower naturalWidth than this = placeholder
-    const maxAttempts = 2;
-    const maxLoadingMs = 10000;
+    const maxAttempts = 5;
+    const maxLoadingMs = 30000;
     let attempt = 0;
     let timer: number | undefined;
     let deadlineTimer: number | undefined;
@@ -396,8 +396,13 @@ const categoryIconMap: Record<string, string> = {
       }
       attempt++;
       showLoading();
-      const sep = originalSrc.includes('?') ? '&' : '?';
-      img.src = `${originalSrc}${sep}cb=${Date.now()}`;
+      // mShots generates screenshots asynchronously and expects clients to
+      // request the same URL again. A cache-busting query would start a new
+      // capture instead of retrieving the screenshot that is now ready.
+      img.removeAttribute('src');
+      window.requestAnimationFrame(() => {
+        if (!settled) img.src = originalSrc;
+      });
     };
 
     const onLoad = () => {
