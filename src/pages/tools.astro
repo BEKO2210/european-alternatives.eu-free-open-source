@@ -10,7 +10,6 @@ import { categories } from '../data/categories';
 import { getUniquelicenses, sortTools } from '../utils/tools';
 import { useTranslations } from '../i18n/utils';
 
-const base = import.meta.env.BASE_URL;
 const sortedTools = sortTools(allTools, 'name');
 const licenses = getUniquelicenses(allTools);
 const t = useTranslations('de');

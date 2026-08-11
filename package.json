@@ -9,9 +9,10 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && npx pagefind --site dist",
+    "build": "npm run check && astro build && npx pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
+    "check": "astro check --minimumFailingSeverity warning",
     "lint": "eslint src --ext .ts,.astro",
     "format": "prettier --write src"
   },
@@ -29,11 +30,13 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.10",
     "@types/node": "^22.20.1",
     "@typescript-eslint/parser": "^8.66.0",
     "eslint": "^9.39.5",
     "pagefind": "^1.0.4",
     "prettier": "^3.2.4",
-    "prettier-plugin-astro": "^0.13.0"
+    "prettier-plugin-astro": "^0.13.0",
+    "typescript": "^5.9.3"
   }
 }
