@@ -26,7 +26,14 @@ const footerLinks = [
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
     <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
       <a href={base} class="flex items-center gap-2 no-underline hover:no-underline shrink-0" aria-label={t('nav.home')}>
-        <img src={`${base}icon.png`} alt="" class="w-6 h-6 rounded-md" />
+        <img
+          src={`${base}icon.png`}
+          alt=""
+          width="24"
+          height="24"
+          class="w-6 h-6 rounded-md"
+          decoding="async"
+        />
         <span class="font-semibold text-sm" style="color: var(--color-text-primary)">
           FOSS <span class="gradient-text">Alternatives</span>
         </span>

@@ -39,7 +39,14 @@ function isActive(href: string): boolean {
         class="group flex min-w-0 items-center gap-2 no-underline hover:no-underline rounded-xl focus-visible:outline-offset-4"
         aria-label={t('nav.home')}
       >
-        <img src={`${base}icon.png`} alt="" class="w-8 h-8 rounded-lg transition-transform duration-200 group-hover:scale-105" />
+        <img
+          src={`${base}icon.png`}
+          alt=""
+          width="32"
+          height="32"
+          class="w-8 h-8 rounded-lg transition-transform duration-200 group-hover:scale-105"
+          decoding="async"
+        />
         <span class="hidden min-[350px]:inline text-sm sm:text-base lg:text-lg font-bold whitespace-nowrap" style="color: var(--color-text-primary)">
           FOSS <span class="nav-logo-gradient">Alternatives</span>
         </span>
