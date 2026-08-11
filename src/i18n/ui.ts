@@ -99,6 +99,7 @@ export const ui = {
     'detail.archived': 'Archiviert',
     'detail.reason': 'Grund:',
     'detail.preview': 'Vorschau',
+    'detail.previewUnavailable': 'Die Vorschau konnte nicht geladen werden.',
 
     // ToolFilters
     'filters.search': 'Suche',
@@ -250,6 +251,7 @@ export const ui = {
     'detail.archived': 'Archived',
     'detail.reason': 'Reason:',
     'detail.preview': 'Preview',
+    'detail.previewUnavailable': 'The preview could not be loaded.',
 
     // ToolFilters
     'filters.search': 'Search',

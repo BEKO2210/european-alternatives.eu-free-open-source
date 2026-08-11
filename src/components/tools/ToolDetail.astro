@@ -193,6 +193,13 @@ const categoryIconMap: Record<string, string> = {
           {tool.name}…
         </span>
       </div>
+      <div class="tool-preview-fallback min-h-[200px] hidden flex-col items-center justify-center gap-3 px-6 py-10 text-center" style="background: var(--color-bg-tertiary); color: var(--color-text-muted)">
+        <Icon name="lucide:image-off" size={28} />
+        <p class="text-sm">{t('detail.previewUnavailable')}</p>
+        <a href={tool.website} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-red-400 hover:text-red-300">
+          {t('detail.website')} &rarr;
+        </a>
+      </div>
     </div>
   </div>
 
@@ -327,19 +334,32 @@ const categoryIconMap: Record<string, string> = {
     // page never looks broken.
     const isMshots = /s\.wordpress\.com\/mshots\//.test(originalSrc);
     const placeholderThreshold = 800; // narrower naturalWidth than this = placeholder
-    const maxAttempts = 12;
+    const maxAttempts = 2;
+    const maxLoadingMs = 10000;
     let attempt = 0;
     let timer: number | undefined;
+    let deadlineTimer: number | undefined;
     let settled = false;
 
     const card = img.closest('[data-preview-card]') as HTMLElement | null;
     const shimmer = card?.querySelector('.tool-preview-shimmer') as HTMLElement | null;
+    const fallback = card?.querySelector('.tool-preview-fallback') as HTMLElement | null;
+
+    const clearTimers = () => {
+      if (timer) window.clearTimeout(timer);
+      if (deadlineTimer) window.clearTimeout(deadlineTimer);
+    };
+
+    const armDeadline = () => {
+      if (!deadlineTimer) deadlineTimer = window.setTimeout(giveUp, maxLoadingMs);
+    };
 
     const showLoading = () => {
       img.style.opacity = '0.55';
       img.style.filter = 'blur(2px)';
       img.style.transition = 'opacity 200ms ease-out, filter 200ms ease-out';
       if (shimmer) shimmer.style.display = 'flex';
+      armDeadline();
     };
     const clearLoading = () => {
       img.style.opacity = '';
@@ -352,8 +372,10 @@ const categoryIconMap: Record<string, string> = {
 
     const giveUp = () => {
       settled = true;
+      clearTimers();
       clearLoading();
-      if (card) card.style.display = 'none';
+      img.style.display = 'none';
+      if (fallback) fallback.style.display = 'flex';
     };
 
     const refetch = () => {
@@ -377,6 +399,7 @@ const categoryIconMap: Record<string, string> = {
         return;
       }
       settled = true;
+      clearTimers();
       clearLoading();
     };
 
