@@ -75,6 +75,7 @@ The development server prints the local URL. To create and inspect a production
 build:
 
 ```bash
+npm run check
 npm run lint
 npm run build
 npm run preview
@@ -109,6 +110,7 @@ change focused, and verify it locally:
 
 ```bash
 npm ci
+npm run check
 npm run lint
 npm run build
 ```

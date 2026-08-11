@@ -9,9 +9,10 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && npx pagefind --site dist",
+    "build": "npm run check && astro build && npx pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
+    "check": "astro check --minimumFailingSeverity warning",
     "lint": "eslint src --ext .ts,.astro",
     "format": "prettier --write src"
   },

@@ -71,6 +71,8 @@ Das verhindert, dass das Auto-Discovery-System ein Duplikat erstellt.
 #### Schritt 5: Build testen
 
 ```bash
+npm run check
+npm run lint
 npm run build
 ```
 

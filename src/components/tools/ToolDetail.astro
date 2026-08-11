@@ -32,7 +32,6 @@ const monthsAgo = lastUpdatedDate ? Math.floor((Date.now() - lastUpdatedDate.get
 const isStale = monthsAgo > 18;
 
 const toolCategories = categories.filter(c => tool.categories.includes(c.slug));
-const toolPath = t('path.tool');
 const categoryPath = t('path.category');
 
 const platformMeta: Record<string, { icon: string; label: string }> = {

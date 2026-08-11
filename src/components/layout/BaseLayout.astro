@@ -93,7 +93,7 @@ const enUrl = new URL(getLocalizedPath(Astro.url, 'en'), Astro.site);
     <meta name="twitter:image" content={ogImageUrl} />
 
     {serializedStructuredData && (
-      <script type="application/ld+json" set:html={serializedStructuredData} />
+      <script type="application/ld+json" set:html={serializedStructuredData} is:inline />
     )}
 
     <title>{title}</title>

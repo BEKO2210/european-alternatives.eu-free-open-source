@@ -121,7 +121,7 @@ const replacesExtra = tool.replacesTools.length - replacesShown.length;
   {replacesShown.length > 0 && (
     <div class="flex flex-wrap items-center gap-1.5 mt-3 text-[11px]" style="color: var(--color-text-muted)">
       <span class="opacity-70">↳</span>
-      {replacesShown.map((r, i) => (
+      {replacesShown.map((r) => (
         <span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-md bg-orange-500/10 text-orange-300/90 truncate max-w-[140px]">
           {r}
         </span>
