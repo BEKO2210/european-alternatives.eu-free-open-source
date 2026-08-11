@@ -1,9 +1,44 @@
 # Changelog
 
-Alle wesentlichen Änderungen an diesem Projekt werden in dieser Datei dokumentiert.
+All notable changes to this project are documented in this file.
 
-Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.1.0/)
-und dieses Projekt folgt [Semantic Versioning](https://semver.org/lang/de/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [2.0.0] - 2026-08-11
+
+### Added
+
+- Expanded the directory to 600+ FOSS tools across 40 categories and 1,326 generated German and English pages.
+- Completed bilingual routes, catalogue content, interface translations, and language switching throughout the site.
+- Added card and list views, responsive filters, Pagefind search, comparison workflows, and self-hosting guidance.
+
+### Changed
+
+- Refreshed the interface with a dark/light red visual system and responsive navigation.
+- Migrated the platform to Astro 7 and Tailwind CSS 4, with TypeScript checks and npm 10-compatible lockfiles.
+- Enforced recognized FOSS licenses in automated discovery and catalogue validation.
+
+### Fixed
+
+- Removed the duplicate BorgBackup catalogue entry and corrected navigation, language, link, search, and preview edge cases.
+
+### Performance
+
+- Added intrinsic image dimensions, stabilized shared logos, scoped Pagefind indexing, and bounded preview capture retries.
+
+### Accessibility
+
+- Improved WCAG contrast, focus handling, accessible labels, 24 px footer link targets, and reduced-motion behavior.
+
+### SEO
+
+- Added structured data, excluded 404 pages from indexing, and improved sitemap, language, and search metadata.
+
+### Build & Operations
+
+- Added Astro/TypeScript validation to the build workflow and aligned local and CI tooling on Node.js 22 and npm 10.
+- Serialized GitHub Pages deployments and prevented production deployments from pull requests.
 
 ## [1.4.0] - 2026-03-04
 
