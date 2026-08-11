@@ -7,6 +7,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
