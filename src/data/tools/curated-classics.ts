@@ -535,31 +535,6 @@ export const curatedClassicsTools: Tool[] = [
 
   // ───── Backup ───────────────────────────────────────────────────
   {
-    id: 'borgbackup',
-    name: 'BorgBackup',
-    slug: 'borgbackup',
-    tagline: 'Deduplizierende, verschlüsselte Backups mit Kompression',
-    taglineEn: 'Deduplicating, encrypted backups with compression',
-    description:
-      'BorgBackup („Borg") ist ein quelloffenes Deduplizierungs-Backup-Tool. Effiziente, inkrementelle Backups mit Authentifizierter Verschlüsselung, Kompression (lz4/zstd/lzma), atomic snapshots und einer riesigen Auswahl an Storage-Backends, einschließlich SSH-Remote-Repositories.',
-    descriptionEn:
-      'BorgBackup ("Borg") is an open-source deduplicating backup tool. Efficient, incremental backups with authenticated encryption, compression (lz4/zstd/lzma), atomic snapshots and a wide range of storage back-ends including SSH-remote repositories.',
-    website: 'https://www.borgbackup.org',
-    github: 'https://github.com/borgbackup/borg',
-    license: 'BSD-3-Clause',
-    categories: ['backup'],
-    replacesTools: ['Acronis', 'Backblaze B2 CLI'],
-    selfHostable: true,
-    logoPlaceholderEmoji: '🛡️',
-    stars: 11000,
-    lastUpdated: '2026-08-10',
-    tags: ['backup', 'deduplication', 'encrypted', 'cli', 'python'],
-    difficulty: 'mittel',
-    platforms: ['linux', 'macos'],
-    featured: true,
-    addedDate: '2026-05-06',
-  },
-  {
     id: 'urbackup',
     name: 'UrBackup',
     slug: 'urbackup',
