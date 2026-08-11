@@ -2,6 +2,30 @@ import type { Tool } from '../types';
 
 export const projektmanagementTools: Tool[] = [
   {
+    id: 'windshift',
+    name: 'Windshift',
+    slug: 'windshift',
+    tagline: 'Schnelle, komplette Jira-Alternative aus der Schweiz',
+    taglineEn: 'Fast, complete Jira alternative from Switzerland',
+    description:
+      'Windshift ist ein quelloffenes, selbst hostbares Arbeitsmanagement-System aus der Schweiz. Es bietet Boards, Backlogs, Sprints und Roadmaps und ist als schnelle, vollstaendige Alternative zu Jira konzipiert, die Teams einfach selbst betreiben und besitzen koennen.',
+    descriptionEn:
+      'Windshift is an open-source, self-hostable work management system from Switzerland. It offers boards, backlogs, sprints, and roadmaps and is designed as a fast, complete alternative to Jira that teams can easily run and own themselves.',
+    website: 'https://windshift.sh',
+    github: 'https://github.com/Windshiftapp/core',
+    license: 'AGPL-3.0',
+    categories: ['projektmanagement'],
+    replacesTools: ['Jira'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '🌬️',
+    lastUpdated: '2026-07-17',
+    tags: ['agile', 'scrum', 'kanban', 'backlog', 'roadmap', 'go'],
+    difficulty: 'einfach',
+    platforms: ['web', 'linux', 'docker'],
+    featured: false,
+    addedDate: '2026-07-17',
+  },
+  {
     id: 'vikunja',
     name: 'Vikunja',
     slug: 'vikunja',
