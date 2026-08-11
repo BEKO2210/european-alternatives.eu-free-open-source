@@ -1,4 +1,5 @@
 import * as SimpleIcons from 'simple-icons';
+import { existsSync } from 'node:fs';
 
 export const TOOL_ICON_MAP: Record<string, string> = {
   // Betriebssysteme
@@ -175,6 +176,10 @@ export function getSimpleIcon(toolSlug: string): { svg: string; color: string } 
   if (!icon) return null;
 
   return { svg: icon.svg, color: `#${icon.hex}` };
+}
+
+export function hasLocalLogo(toolSlug: string): boolean {
+  return existsSync(new URL(`../../public/logos/${toolSlug}.png`, import.meta.url));
 }
 
 export function getIconForTool(toolSlug: string, emoji: string): string {

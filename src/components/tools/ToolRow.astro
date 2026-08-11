@@ -2,7 +2,7 @@
 import type { Tool } from '../../data/types';
 import { Icon } from 'astro-icon/components';
 import { getLicenseBadgeClass } from '../../utils/tools';
-import { getSimpleIcon } from '../../utils/icons';
+import { getSimpleIcon, hasLocalLogo } from '../../utils/icons';
 import MaintenanceBadge from '../ui/MaintenanceBadge.astro';
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
@@ -16,6 +16,9 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const licenseBadge = getLicenseBadgeClass(tool.license);
 const simpleIcon = getSimpleIcon(tool.simpleIconsSlug ?? tool.slug);
+const localLogo = hasLocalLogo(tool.slug);
+const initialLogoUrl = localLogo ? `${base}logos/${tool.slug}.png` : tool.logoUrl;
+const fallbackLogoUrl = localLogo ? tool.logoUrl ?? '' : '';
 const toolPath = t('path.tool');
 
 const platformMeta: Record<string, { icon: string; label: string }> = {
@@ -48,11 +51,11 @@ const tagline = lang === 'en' && tool.taglineEn ? tool.taglineEn : tool.tagline;
   <div class="icon-chip w-9 h-9 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
     {simpleIcon ? (
       <div class="w-4 h-4 sm:w-5 sm:h-5 flex items-center justify-center" style={`color: ${simpleIcon.color}`} set:html={simpleIcon.svg} />
-    ) : (
+    ) : initialLogoUrl ? (
       <>
         <img
-          src={`${base}logos/${tool.slug}.png`}
-          data-logo-url={tool.logoUrl ?? ''}
+          src={initialLogoUrl}
+          data-logo-url={fallbackLogoUrl}
           alt=""
           class="w-7 h-7 object-contain tool-row-logo"
           loading="lazy"
@@ -64,6 +67,13 @@ const tagline = lang === 'en' && tool.taglineEn ? tool.taglineEn : tool.tagline;
           {tool.name.charAt(0).toUpperCase()}
         </span>
       </>
+    ) : (
+      <span
+        class="flex items-center justify-center w-full h-full text-sm font-bold text-white rounded-lg"
+        style={`background: ${toolColor}`}
+      >
+        {tool.name.charAt(0).toUpperCase()}
+      </span>
     )}
   </div>
 

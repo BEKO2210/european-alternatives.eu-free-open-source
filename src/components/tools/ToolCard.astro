@@ -2,7 +2,7 @@
 import type { Tool } from '../../data/types';
 import { Icon } from 'astro-icon/components';
 import { getLicenseBadgeClass, getDifficultyBadgeClass } from '../../utils/tools';
-import { getSimpleIcon } from '../../utils/icons';
+import { getSimpleIcon, hasLocalLogo } from '../../utils/icons';
 import MaintenanceBadge from '../ui/MaintenanceBadge.astro';
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
@@ -18,6 +18,9 @@ const licenseBadge = getLicenseBadgeClass(tool.license);
 const diffBadge = getDifficultyBadgeClass(tool.difficulty);
 const diffLabel = t(`difficulty.${tool.difficulty}` as any);
 const simpleIcon = getSimpleIcon(tool.simpleIconsSlug ?? tool.slug);
+const localLogo = hasLocalLogo(tool.slug);
+const initialLogoUrl = localLogo ? `${base}logos/${tool.slug}.png` : tool.logoUrl;
+const fallbackLogoUrl = localLogo ? tool.logoUrl ?? '' : '';
 
 const lastUpdatedDate = tool.lastUpdated ? new Date(tool.lastUpdated) : null;
 const monthKey = lastUpdatedDate ? `tool.months.${lastUpdatedDate.getMonth()}` as any : null;
@@ -61,11 +64,11 @@ const replacesExtra = tool.replacesTools.length - replacesShown.length;
     <div class="icon-chip w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden">
       {simpleIcon ? (
         <div class="w-5 h-5 flex items-center justify-center tool-simple-icon" style={`color: ${simpleIcon.color}`} set:html={simpleIcon.svg} />
-      ) : (
+      ) : initialLogoUrl ? (
         <>
           <img
-            src={`${base}logos/${tool.slug}.png`}
-            data-logo-url={tool.logoUrl ?? ''}
+            src={initialLogoUrl}
+            data-logo-url={fallbackLogoUrl}
             alt=""
             class="w-7 h-7 object-contain tool-logo"
             loading="lazy"
@@ -77,6 +80,13 @@ const replacesExtra = tool.replacesTools.length - replacesShown.length;
             {tool.name.charAt(0).toUpperCase()}
           </span>
         </>
+      ) : (
+        <span
+          class="flex items-center justify-center w-full h-full text-base font-bold text-white rounded-xl"
+          style={`background: ${toolColor}`}
+        >
+          {tool.name.charAt(0).toUpperCase()}
+        </span>
       )}
     </div>
 
