@@ -30,8 +30,11 @@ jobs:
       - run: npm ci
       - run: npm run build
       - uses: actions/configure-pages@v6
+        if: github.event_name != 'pull_request'
       - uses: actions/upload-pages-artifact@v5
+        if: github.event_name != 'pull_request'
         with:
           path: './dist'
       - id: deployment
         uses: actions/deploy-pages@v5
+        if: github.event_name != 'pull_request'
