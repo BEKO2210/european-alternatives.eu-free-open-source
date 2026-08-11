@@ -3,6 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "description": "FOSS Alternatives – Deine Freiheit. Dein Code. Deine Zukunft.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -19,14 +22,14 @@
     "@iconify-json/lucide": "^1.2.95",
     "@iconify-json/simple-icons": "^1.2.71",
     "@tailwindcss/vite": "^4.3.3",
-    "astro": "^6.4.8",
+    "astro": "^7.2.0",
     "astro-icon": "^1.1.5",
     "lucide": "^0.575.0",
     "simple-icons": "^16.10.0",
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "@types/node": "^20.11.0",
+    "@types/node": "^22.20.1",
     "@typescript-eslint/parser": "^8.66.0",
     "eslint": "^9.39.5",
     "pagefind": "^1.0.4",
