@@ -9,14 +9,43 @@ interface Props {
   description?: string;
   ogImage?: string;
   noindex?: boolean;
+  isHome?: boolean;
 }
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const { title, description = t('layout.defaultDescription'), ogImage, noindex = false } = Astro.props;
+const { title, description = t('layout.defaultDescription'), ogImage, noindex = false, isHome = false } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const base = import.meta.env.BASE_URL;
 const ogImageUrl = ogImage ?? `${Astro.site}${base}og-image.png`.replace(/\/\//g, '/').replace('https:/', 'https://');
+const siteURL = new URL(base, Astro.site);
+const websiteId = `${siteURL.href}#website`;
+
+const structuredData = noindex ? undefined : {
+  '@context': 'https://schema.org',
+  '@graph': [
+    ...(isHome ? [{
+      '@type': 'WebSite',
+      '@id': websiteId,
+      url: siteURL.href,
+      name: 'FOSS Alternatives',
+      description: t('layout.defaultDescription'),
+      inLanguage: ['de', 'en'],
+    }] : []),
+    {
+      '@type': 'WebPage',
+      '@id': `${canonicalURL.href}#webpage`,
+      url: canonicalURL.href,
+      name: title,
+      description,
+      inLanguage: lang,
+      isPartOf: { '@id': websiteId },
+    },
+  ],
+};
+const serializedStructuredData = structuredData
+  ? JSON.stringify(structuredData).replace(/</g, '\\u003c')
+  : undefined;
 
 const deUrl = new URL(getLocalizedPath(Astro.url, 'de'), Astro.site);
 const enUrl = new URL(getLocalizedPath(Astro.url, 'en'), Astro.site);
@@ -29,6 +58,8 @@ const enUrl = new URL(getLocalizedPath(Astro.url, 'en'), Astro.site);
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     <link rel="canonical" href={canonicalURL} />
@@ -48,13 +79,22 @@ const enUrl = new URL(getLocalizedPath(Astro.url, 'en'), Astro.site);
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:width" content="720" />
+    <meta property="og:image:height" content="420" />
+    <meta property="og:image:alt" content="FOSS Alternatives" />
+    <meta property="og:site_name" content="FOSS Alternatives" />
     <meta property="og:locale" content={lang === 'de' ? 'de_DE' : 'en_US'} />
+    <meta property="og:locale:alternate" content={lang === 'de' ? 'en_US' : 'de_DE'} />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />
+
+    {serializedStructuredData && (
+      <script type="application/ld+json" set:html={serializedStructuredData} />
+    )}
 
     <title>{title}</title>
 
