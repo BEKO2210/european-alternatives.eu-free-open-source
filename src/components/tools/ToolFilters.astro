@@ -15,9 +15,9 @@ const t = useTranslations(lang);
 
 <div class="tool-filters sticky z-30 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 mb-6" style="top: 64px">
   <div class="tool-filters-inner py-3" data-active-count="0">
-    <div class="flex flex-wrap items-stretch gap-2">
+    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-2">
       {/* Search — primary input */}
-      <label class="relative flex-1 min-w-[200px]">
+      <label class="relative min-w-0">
         <span class="sr-only">{t('filters.search')}</span>
         <span class="absolute inset-y-0 left-3 flex items-center pointer-events-none" style="color: var(--color-text-muted)">
           <Icon name="lucide:search" size={14} />
@@ -36,12 +36,12 @@ const t = useTranslations(lang);
       </label>
 
       {/* Compact dropdowns */}
-      <div class="relative flex items-center">
+      <div class="relative flex items-center min-w-0">
         <Icon name="lucide:folder" size={13} class="absolute left-3 pointer-events-none" style="color: var(--color-text-muted)" />
         <select
           id="filter-category"
           aria-label={t('filters.category')}
-          class="appearance-none pl-8 pr-7 py-2 rounded-full text-sm outline-none cursor-pointer transition-colors"
+          class="w-full appearance-none pl-8 pr-7 py-2 rounded-full text-sm outline-none cursor-pointer transition-colors"
           style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
         >
           <option value="">{t('filters.allCategories')}</option>
@@ -52,12 +52,12 @@ const t = useTranslations(lang);
         <Icon name="lucide:chevron-down" size={13} class="absolute right-2.5 pointer-events-none" style="color: var(--color-text-muted)" />
       </div>
 
-      <div class="relative flex items-center">
+      <div class="relative flex items-center min-w-0">
         <Icon name="lucide:scale" size={13} class="absolute left-3 pointer-events-none" style="color: var(--color-text-muted)" />
         <select
           id="filter-license"
           aria-label={t('filters.license')}
-          class="appearance-none pl-8 pr-7 py-2 rounded-full text-sm outline-none cursor-pointer transition-colors"
+          class="w-full appearance-none pl-8 pr-7 py-2 rounded-full text-sm outline-none cursor-pointer transition-colors"
           style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
         >
           <option value="">{t('filters.allLicenses')}</option>
@@ -68,12 +68,12 @@ const t = useTranslations(lang);
         <Icon name="lucide:chevron-down" size={13} class="absolute right-2.5 pointer-events-none" style="color: var(--color-text-muted)" />
       </div>
 
-      <div class="relative flex items-center">
+      <div class="relative flex items-center min-w-0">
         <Icon name="lucide:arrow-up-down" size={13} class="absolute left-3 pointer-events-none" style="color: var(--color-text-muted)" />
         <select
           id="filter-sort"
           aria-label={t('filters.sort')}
-          class="appearance-none pl-8 pr-7 py-2 rounded-full text-sm outline-none cursor-pointer transition-colors"
+          class="w-full appearance-none pl-8 pr-7 py-2 rounded-full text-sm outline-none cursor-pointer transition-colors"
           style="background: var(--color-bg-tertiary); color: var(--color-text-primary); border: 1px solid var(--color-border)"
         >
           <option value="name">{t('filters.sortName')}</option>
@@ -84,46 +84,50 @@ const t = useTranslations(lang);
       </div>
     </div>
 
-    <div class="flex flex-wrap items-center gap-1.5 mt-2.5">
-      <button
-        type="button"
-        class="filter-btn px-2.5 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
-        data-filter="selfhost"
-        style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
-      >
-        <Icon name="lucide:home" size={11} />
-        {t('filters.selfHostOnly')}
-      </button>
-      <button
-        type="button"
-        class="filter-btn px-2.5 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
-        data-filter="easy"
-        style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
-      >
-        <span class="w-1.5 h-1.5 rounded-full bg-green-400 inline-block"></span>
-        {t('filters.easySetup')}
-      </button>
-      <button
-        type="button"
-        class="filter-btn px-2.5 py-1 rounded-full text-xs font-medium transition-colors inline-flex items-center gap-1.5"
-        data-filter="docker"
-        style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
-      >
-        <Icon name="simple-icons:docker" size={11} />
-        {t('filters.dockerAvailable')}
-      </button>
+    <div class="flex flex-col lg:flex-row lg:items-center gap-2 mt-2.5">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 flex-1">
+        <button
+          type="button"
+          class="filter-btn w-full px-2.5 py-1.5 rounded-full text-xs font-medium transition-colors inline-flex items-center justify-center gap-1.5"
+          data-filter="selfhost"
+          style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
+        >
+          <Icon name="lucide:home" size={11} />
+          {t('filters.selfHostOnly')}
+        </button>
+        <button
+          type="button"
+          class="filter-btn w-full px-2.5 py-1.5 rounded-full text-xs font-medium transition-colors inline-flex items-center justify-center gap-1.5"
+          data-filter="easy"
+          style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
+        >
+          <span class="w-1.5 h-1.5 rounded-full bg-green-400 inline-block"></span>
+          {t('filters.easySetup')}
+        </button>
+        <button
+          type="button"
+          class="filter-btn w-full px-2.5 py-1.5 rounded-full text-xs font-medium transition-colors inline-flex items-center justify-center gap-1.5"
+          data-filter="docker"
+          style="background: var(--color-bg-tertiary); color: var(--color-text-secondary); border: 1px solid var(--color-border)"
+        >
+          <Icon name="simple-icons:docker" size={11} />
+          {t('filters.dockerAvailable')}
+        </button>
+      </div>
 
-      <span class="filter-active-count hidden ml-auto inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[11px] font-medium tabular-nums" style="background: rgba(239, 68, 68, 0.12); color: #fca5a5; border: 1px solid rgba(239, 68, 68, 0.25)">
-        <span class="filter-active-count-num">0</span> {t('filters.activeCount')}
-      </span>
-      <button
-        type="button"
-        class="filter-clear-btn hidden inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium transition-colors"
-        style="background: transparent; color: var(--color-text-muted); border: 1px solid var(--color-border)"
-      >
-        <Icon name="lucide:x" size={11} />
-        {t('filters.clearAll')}
-      </button>
+      <div class="flex flex-wrap items-center justify-end gap-1.5">
+        <span class="filter-active-count hidden inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[11px] font-medium tabular-nums" style="background: rgba(239, 68, 68, 0.12); color: #fca5a5; border: 1px solid rgba(239, 68, 68, 0.25)">
+          <span class="filter-active-count-num">0</span> {t('filters.activeCount')}
+        </span>
+        <button
+          type="button"
+          class="filter-clear-btn hidden inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium transition-colors"
+          style="background: transparent; color: var(--color-text-muted); border: 1px solid var(--color-border)"
+        >
+          <Icon name="lucide:x" size={11} />
+          {t('filters.clearAll')}
+        </button>
+      </div>
     </div>
   </div>
 </div>
