@@ -13,13 +13,13 @@
     "format": "prettier --write src"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.1.6",
+    "@astrojs/sitemap": "^3.7.3",
     "@fontsource/inter": "^5.0.16",
     "@fontsource/jetbrains-mono": "^5.0.18",
     "@iconify-json/lucide": "^1.2.95",
     "@iconify-json/simple-icons": "^1.2.71",
     "@tailwindcss/vite": "^4.3.3",
-    "astro": "^5.18.2",
+    "astro": "^6.4.8",
     "astro-icon": "^1.1.5",
     "lucide": "^0.575.0",
     "simple-icons": "^16.10.0",
