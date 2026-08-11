@@ -149,4 +149,28 @@ export const bildbearbeitungTools: Tool[] = [
     featured: true,
     addedDate: '2025-06-01',
   },
+  {
+    id: 'itspaint',
+    name: 'ItsPaint',
+    slug: 'itspaint',
+    tagline: 'Natives macOS-Malprogramm im Stil von MS Paint',
+    taglineEn: 'Native macOS paint app in the style of MS Paint',
+    description:
+      'ItsPaint ist ein freies, natives Malprogramm und Screenshot-Werkzeug fuer macOS. Es bietet eine leere Leinwand in beliebiger Groesse, Zuschneiden, nummerierte Schritt-Markierungen, Verpixeln und acht Exportformate. Die App enthaelt keinen Netzwerkcode.',
+    descriptionEn:
+      'ItsPaint is a free, native paint and screenshot markup app for macOS. It offers a blank canvas at any size, cropping, numbered step badges, pixelation and eight export formats. The app contains no network code at all.',
+    website: 'https://itspaintmac.com',
+    github: 'https://github.com/joshlin2201/itspaint',
+    license: 'MIT',
+    categories: ['bildbearbeitung'],
+    replacesTools: ['MS Paint', 'Skitch'],
+    selfHostable: false,
+    logoPlaceholderEmoji: '🎨',
+    lastUpdated: '2026-08-11',
+    tags: ['macos', 'screenshot', 'markup', 'pixel-art', 'native'],
+    difficulty: 'einfach',
+    platforms: ['macos'],
+    featured: false,
+    addedDate: '2026-08-11',
+  },
 ];
