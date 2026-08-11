@@ -46,7 +46,7 @@ function isActive(href: string): boolean {
       </a>
 
       <!-- Desktop Nav -->
-      <div class="hidden md:flex items-center gap-1">
+      <div class="hidden lg:flex items-center gap-1">
         {navLinks.map(link => (
           <a
             href={link.href}
@@ -113,7 +113,7 @@ function isActive(href: string): boolean {
         <!-- Mobile Menu Button -->
         <button
           id="mobile-menu-btn"
-          class="md:hidden p-2 rounded-lg hover:bg-white/5"
+          class="lg:hidden p-2 rounded-lg hover:bg-white/5"
           aria-label={t('nav.menuOpen')}
           aria-expanded="false"
         >
@@ -131,7 +131,7 @@ function isActive(href: string): boolean {
   <!-- Mobile Menu -->
   <div
     id="mobile-menu"
-    class="md:hidden hidden border-t"
+    class="lg:hidden hidden border-t"
     style="background: var(--color-bg-secondary); border-color: var(--color-border)"
   >
     <div class="px-4 py-3 space-y-1">
