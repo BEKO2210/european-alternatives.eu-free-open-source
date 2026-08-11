@@ -127,6 +127,7 @@ export const ui = {
     'search.noResults': 'Keine Ergebnisse für',
     'search.buildOnly': 'Suche ist nur im Build-Modus verfügbar.',
     'search.label': 'Suche',
+    'search.close': 'Suche schließen',
 
     // MaintenanceBadge
     'maintenance.active': '✓ Aktiv gepflegt',
@@ -279,6 +280,7 @@ export const ui = {
     'search.noResults': 'No results for',
     'search.buildOnly': 'Search is only available in build mode.',
     'search.label': 'Search',
+    'search.close': 'Close search',
 
     // MaintenanceBadge
     'maintenance.active': '✓ Actively maintained',

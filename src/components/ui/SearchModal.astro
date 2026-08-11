@@ -37,10 +37,13 @@ const t = useTranslations(lang);
           style="color: var(--color-text-primary)"
           autocomplete="off"
         />
-        <kbd
-          class="flex-shrink-0 px-2 py-1 text-xs rounded"
+        <button
+          id="search-close"
+          type="button"
+          aria-label={t('search.close')}
+          class="flex-shrink-0 px-2 py-1 text-xs font-mono rounded hover:bg-white/10 transition-colors"
           style="background: var(--color-bg-tertiary); color: var(--color-text-muted)"
-        >ESC</kbd>
+        >ESC</button>
       </div>
     </div>
 
@@ -61,6 +64,7 @@ const t = useTranslations(lang);
 <script>
   const modal = document.getElementById('search-modal');
   const backdrop = document.getElementById('search-backdrop');
+  const closeButton = document.getElementById('search-close');
   const searchInput = document.getElementById('search-input') as HTMLInputElement;
   const resultsContainer = document.getElementById('search-results');
   let opener: HTMLElement | null = null;
@@ -82,6 +86,7 @@ const t = useTranslations(lang);
   }
 
   backdrop?.addEventListener('click', closeModal);
+  closeButton?.addEventListener('click', closeModal);
 
   document.addEventListener('keydown', (e) => {
     if (!modal || modal.classList.contains('hidden')) return;
