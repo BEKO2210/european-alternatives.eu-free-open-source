@@ -67,7 +67,7 @@ const enUrl = new URL(getLocalizedPath(Astro.url, 'en'), Astro.site);
   <body class="min-h-screen flex flex-col">
     <a href="#main-content" class="skip-link">{t('layout.skipToContent')}</a>
     <Navigation />
-    <main id="main-content" class="flex-1">
+    <main id="main-content" class="flex-1" data-pagefind-body>
       <slot />
     </main>
     <Footer />
