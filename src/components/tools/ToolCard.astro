@@ -70,8 +70,11 @@ const replacesExtra = tool.replacesTools.length - replacesShown.length;
             src={initialLogoUrl}
             data-logo-url={fallbackLogoUrl}
             alt=""
+            width="28"
+            height="28"
             class="w-7 h-7 object-contain tool-logo"
             loading="lazy"
+            decoding="async"
           />
           <span
             class="tool-logo-fallback hidden items-center justify-center w-full h-full text-base font-bold text-white rounded-xl"
