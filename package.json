@@ -3,6 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "description": "FOSS Alternatives – Deine Freiheit. Dein Code. Deine Zukunft.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -26,7 +29,7 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "@types/node": "^20.11.0",
+    "@types/node": "^22.20.1",
     "@typescript-eslint/parser": "^8.66.0",
     "eslint": "^9.39.5",
     "pagefind": "^1.0.4",

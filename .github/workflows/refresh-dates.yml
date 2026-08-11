@@ -63,11 +63,11 @@ jobs:
           fi
 
       # Build smoke test to make sure no rewrite produced invalid TS.
-      - name: Set up Node.js 20
+      - name: Set up Node.js 22
         if: steps.diff.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22.12.0"
           cache: "npm"
 
       - name: Install npm dependencies
