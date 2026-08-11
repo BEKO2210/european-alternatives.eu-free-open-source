@@ -63,23 +63,52 @@ const t = useTranslations(lang);
   const backdrop = document.getElementById('search-backdrop');
   const searchInput = document.getElementById('search-input') as HTMLInputElement;
   const resultsContainer = document.getElementById('search-results');
+  let opener: HTMLElement | null = null;
 
   const hintText = modal?.dataset.hint || 'Start typing to find tools and categories...';
   const noResultsText = modal?.dataset.noResults || 'No results for';
   const buildOnlyText = modal?.dataset.buildOnly || 'Search is only available in build mode.';
 
   function closeModal() {
-    modal?.classList.add('hidden');
+    if (!modal || modal.classList.contains('hidden')) return;
+
+    modal.classList.add('hidden');
     if (searchInput) searchInput.value = '';
     if (resultsContainer) {
       resultsContainer.innerHTML = `<div class="py-8 text-center text-sm" style="color: var(--color-text-muted)">${hintText}</div>`;
     }
+    opener?.focus();
+    opener = null;
   }
 
   backdrop?.addEventListener('click', closeModal);
 
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeModal();
+    if (!modal || modal.classList.contains('hidden')) return;
+
+    if (e.key === 'Escape') {
+      closeModal();
+      return;
+    }
+
+    if (e.key === 'Tab') {
+      const focusable = Array.from(
+        modal.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        )
+      ).filter((element) => element.getClientRects().length > 0);
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (!first || !last) return;
+      if (e.shiftKey && (document.activeElement === first || !modal.contains(document.activeElement))) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && (document.activeElement === last || !modal.contains(document.activeElement))) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
   });
 
   modal?.addEventListener('click', (e) => {
@@ -89,6 +118,7 @@ const t = useTranslations(lang);
   // When modal opens, focus input
   const observer = new MutationObserver(() => {
     if (modal && !modal.classList.contains('hidden')) {
+      opener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
       searchInput?.focus();
     }
   });
