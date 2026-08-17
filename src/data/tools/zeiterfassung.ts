@@ -19,7 +19,7 @@ export const zeiterfassungTools: Tool[] = [
     hostedService: 'https://www.kimai.cloud',
     logoPlaceholderEmoji: '⏱️',
     stars: 3200,
-    lastUpdated: '2026-08-10',
+    lastUpdated: '2026-08-17',
     tags: ['zeiterfassung', 'rechnungen', 'berichte', 'projekte', 'php'],
     difficulty: 'einfach',
     platforms: ['web', 'linux', 'docker'],

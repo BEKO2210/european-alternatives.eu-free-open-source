@@ -47,7 +47,7 @@ export const vpnTools: Tool[] = [
     hostedService: 'https://openvpn.net/cloud/',
     logoPlaceholderEmoji: '🛡️',
     stars: 11000,
-    lastUpdated: '2026-08-09',
+    lastUpdated: '2026-08-15',
     tags: ['ssl', 'tls', 'verschlüsselung', 'site-to-site', 'remote-access', 'c'],
     difficulty: 'mittel',
     platforms: ['linux', 'windows', 'macos', 'android', 'ios', 'docker'],
