@@ -111,9 +111,9 @@ export const passwortManagerTools: Tool[] = [
     tagline: 'Browserorientierter Open-Source-Passwort-Manager mit Geraetefreigabe',
     taglineEn: 'Browser-first open-source password manager with trusted-device approval',
     description:
-      'Authier ist ein quelloffener Passwort-Manager mit Browser-Autofill, clientseitig verschluesselter Vault-Synchronisation und integriertem TOTP. Neue Browser werden ueber einen bereits genehmigten Geraete-Workflow aufgenommen. Der gesamte Stack liegt in einem oeffentlichen AGPL-Monorepo.',
+      'Authier ist ein in Tschechien entwickelter, quelloffener Passwort-Manager mit Browser-Autofill, clientseitig verschluesselter Vault-Synchronisation und integriertem TOTP. Neue Browser werden ueber einen bereits genehmigten Geraete-Workflow aufgenommen. Der gesamte Stack liegt in einem oeffentlichen AGPL-Monorepo.',
     descriptionEn:
-      'Authier is an open-source password manager with browser autofill, client-side encrypted vault sync, and built-in TOTP. New browsers enroll through an already approved trusted-device workflow. The full stack lives in one public AGPL monorepo.',
+      'Authier is an open-source password manager developed in Czechia, with browser autofill, client-side encrypted vault sync, and built-in TOTP. New browsers enroll through an already approved trusted-device workflow. The full stack lives in one public AGPL monorepo.',
     website: 'https://www.authier.pm/',
     github: 'https://github.com/authier-pm/authier',
     license: 'AGPL-3.0',
@@ -128,6 +128,7 @@ export const passwortManagerTools: Tool[] = [
     difficulty: 'einfach',
     platforms: ['web', 'android', 'ios'],
     featured: false,
-    addedDate: '2026-09-01',
+    addedDate: '2026-08-31',
+    maintenanceStatus: 'active',
   },
 ];
