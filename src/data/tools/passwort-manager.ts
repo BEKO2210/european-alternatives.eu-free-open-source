@@ -19,7 +19,7 @@ export const passwortManagerTools: Tool[] = [
     selfHostable: true,
     logoPlaceholderEmoji: '🔐',
     stars: 40000,
-    lastUpdated: '2026-08-22',
+    lastUpdated: '2026-08-29',
     tags: ['passwort', 'bitwarden', 'rust', 'self-hosted', 'verschluesselung', 'totp'],
     difficulty: 'mittel',
     platforms: ['web', 'linux', 'windows', 'macos', 'android', 'ios', 'docker'],
