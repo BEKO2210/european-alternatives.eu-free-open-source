@@ -126,7 +126,7 @@ export const passwortManagerTools: Tool[] = [
     lastUpdated: '2026-08-31',
     tags: ['passwort', 'open-source', 'verschluesselung', 'browser', 'totp', 'geraetefreigabe'],
     difficulty: 'einfach',
-    platforms: ['web', 'android'],
+    platforms: ['web', 'linux', 'windows', 'macos', 'android'],
     featured: false,
     addedDate: '2026-08-31',
     maintenanceStatus: 'active',
