@@ -162,10 +162,10 @@ export const eCommerceTools: Tool[] = [
     id: 'posnic',
     name: 'Posnic',
     slug: 'posnic',
-    tagline: 'Offline-first POS- und Rechnungssoftware fuer Shops und Restaurants',
+    tagline: 'Offline-first POS- und Rechnungssoftware für Shops und Restaurants',
     taglineEn: 'Offline-first POS and billing software for shops and restaurants',
     description:
-      'Posnic ist eine freie, offline-first Point-of-Sale- und Rechnungssoftware fuer Einzelhandel und Restaurants. Die lokale Edition laeuft mit eigener Datenbank auf dem Kassencomputer oder auf einem selbst kontrollierten Server und bietet Verkauf, Bestand, Kunden, Steuerberichte und Restaurantfunktionen. Desktop-Pakete gibt es fuer Windows, macOS und Linux; der Quellcode liegt auf GitHub unter AGPL-3.0.',
+      'Posnic ist eine freie, offline-first Point-of-Sale- und Rechnungssoftware für Einzelhandel und Restaurants. Die lokale Edition läuft mit eigener Datenbank auf dem Kassencomputer oder auf einem selbst kontrollierten Server und bietet Verkauf, Bestand, Kunden, Steuerberichte und Restaurantfunktionen. Desktop-Pakete gibt es für Windows, macOS und Linux; der Quellcode liegt auf GitHub unter AGPL-3.0.',
     descriptionEn:
       'Posnic is free, offline-first point-of-sale and billing software for retail shops and restaurants. Its local edition runs with its own database on the till computer or on a self-controlled server and includes sales, inventory, customers, tax reports and restaurant workflows. Desktop packages are available for Windows, macOS and Linux; the source code is published on GitHub under AGPL-3.0.',
     website: 'https://posnic.io/',
