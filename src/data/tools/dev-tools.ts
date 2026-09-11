@@ -152,4 +152,28 @@ export const devToolsTools: Tool[] = [
     featured: true,
     addedDate: '2025-07-01',
   },
+  {
+    id: '3code',
+    name: '3code',
+    slug: '3code',
+    tagline: 'Token-effizienter Open-Source-Coding-Agent fürs Terminal',
+    taglineEn: 'Token-efficient open-source coding agent for the terminal',
+    description:
+      '3code ist ein Open-Source-Coding-Agent (Alternative zu Claude Code) mit Fokus auf Token-Effizienz: aggressives Caching, Cybernetic Mode und selbstlöschender Kontext ermöglichen deutlich mehr Arbeit pro Token. BYOK — funktioniert mit EU-Anbietern wie TensorX sowie internationalen wie Z.ai, DeepSeek und OpenRouter. Eine einzige 3,2-MB-Nim-Binary, keine Telemetrie, kein Daemon.',
+    descriptionEn:
+      "3code is an open-source coding agent (a Claude Code alternative) built for token economy: aggressive caching, cybernetic context mode and self-clearing execution let the same model do 5x more work per token. BYOK — works with EU providers like TensorX as well as international ones like Z.ai, DeepSeek and OpenRouter. Single 3.2 MB Nim binary, no telemetry, no daemon.",
+    website: 'https://3code.capocasa.dev',
+    github: 'https://github.com/capocasa/3code',
+    license: 'MIT',
+    categories: ['dev-tools'],
+    replacesTools: ['Claude Code', 'Cursor', 'Copilot'],
+    selfHostable: true,
+    logoPlaceholderEmoji: '⚡',
+    lastUpdated: '2026-02-13',
+    tags: ['coding-agent', 'cli', 'ki', 'terminal', 'byok', 'token-effizienz', 'datenschutz'],
+    difficulty: 'einfach',
+    platforms: ['linux', 'windows', 'macos'],
+    featured: false,
+    addedDate: '2026-02-13',
+  },
 ];
