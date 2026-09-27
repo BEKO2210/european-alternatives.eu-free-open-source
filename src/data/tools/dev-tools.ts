@@ -152,4 +152,27 @@ export const devToolsTools: Tool[] = [
     featured: true,
     addedDate: '2025-07-01',
   },
+  {
+    id: '3code',
+    name: '3code',
+    slug: '3code',
+    tagline: 'Freies Open-Source-Kommandozeilen-Coding-Agent, effizient ohne Flatrate',
+    taglineEn: 'Free open-source CLI coding agent, efficient without a subscription',
+    description:
+      '3code ist ein freies, open source Kommandozeilen-Tool für die KI-unterstützte Programmierung, das von Grund auf auf Effizienz angelegt ist, damit Dritt-KI-Provider ohne Flatrate verwendet werden können. Die Benutzeroberfläche ist simpel gehalten, startet sofort, und läuft auf Windows, OSX, Linux und Termux und unterstützt eine sehr grosse Auswahl Provider — auch EU-Provider wie Mistral und TensorX für hohe Datenschutzansprüche.',
+    descriptionEn:
+      "3code is a free and open source command-line coding agent built from the ground up to be efficient enough to use 3rd party token providers without a coding plan. It has a tight, no-frills user interface design and instant startup time, works on osx/windows/linux/termux and probably supports the provider you're using — including EU providers such as Mistral and TensorX for sensitive work on up-to-date models.",
+    website: 'https://3code.capocasa.dev',
+    github: 'https://github.com/capocasa/3code',
+    license: 'MIT',
+    categories: ['dev-tools'],
+    replacesTools: ['Claude Code', 'Cursor', 'Copilot'],
+    selfHostable: true,
+    lastUpdated: '2026-02-13',
+    tags: ['coding-agent', 'cli', 'ki', 'terminal', 'byok', 'datenschutz'],
+    difficulty: 'einfach',
+    platforms: ['linux', 'windows', 'macos'],
+    featured: false,
+    addedDate: '2026-02-13',
+  },
 ];
