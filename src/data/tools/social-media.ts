@@ -2,6 +2,31 @@ import type { Tool } from '../types';
 
 export const socialMediaTools: Tool[] = [
   {
+    id: 'openpost',
+    name: 'OpenPost',
+    slug: 'openpost',
+    tagline: 'Social-Media-Beitraege planen und auf mehreren Plattformen veroeffentlichen',
+    taglineEn: 'Plan and publish social posts across multiple platforms',
+    description:
+      'OpenPost ist ein quelloffenes Tool zum Schreiben, Anpassen und Planen von Social-Media-Beitraegen. Es veroeffentlicht auf mehreren Plattformen und zeigt den Status jeder Veroeffentlichung. OpenPost kann selbst gehostet oder als gehosteter Dienst genutzt werden.',
+    descriptionEn:
+      'OpenPost is an open-source tool for writing, adapting, and scheduling social posts. It publishes across multiple platforms and shows the status of each publication. You can self-host it or use the hosted service.',
+    website: 'https://openpo.st',
+    github: 'https://github.com/getopenpost/openpost',
+    license: 'AGPL-3.0',
+    categories: ['social-media'],
+    replacesTools: ['Buffer', 'Hootsuite'],
+    selfHostable: true,
+    hostedService: 'https://openpo.st',
+    logoPlaceholderEmoji: '📣',
+    lastUpdated: '2026-09-12',
+    tags: ['social-media', 'publishing', 'scheduling', 'self-hosted', 'go', 'sveltekit'],
+    difficulty: 'mittel',
+    platforms: ['web', 'linux', 'docker'],
+    featured: false,
+    addedDate: '2026-09-12',
+  },
+  {
     id: 'mastodon',
     name: 'Mastodon',
     slug: 'mastodon',
