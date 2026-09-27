@@ -2,6 +2,31 @@ import type { Tool } from '../types';
 
 export const crmTools: Tool[] = [
   {
+    id: 'fastcrm',
+    name: 'FastCRM',
+    slug: 'fastcrm',
+    tagline: 'Schlankes Vertriebs-CRM mit Kanban-Pipeline',
+    taglineEn: 'Lean sales CRM with a Kanban deal pipeline',
+    description:
+      'FastCRM ist ein quelloffenes Vertriebs-CRM auf Basis von FastHTML. Es verwaltet Leads, Kontakte, Organisationen, Aufgaben und Aktivitätsverläufe und zeigt Deals in einer Kanban-Pipeline. Ein optionaler KI-Assistent beantwortet Fragen zu den eigenen Daten. FastCRM lässt sich per Docker Compose selbst hosten.',
+    descriptionEn:
+      'FastCRM is an open-source sales CRM built with FastHTML. It manages leads, contacts, organizations, tasks, and activity timelines and shows deals in a Kanban pipeline. An optional AI assistant answers questions about your own data. FastCRM can be self-hosted with Docker Compose.',
+    website: 'https://crm.fastsme.com',
+    github: 'https://github.com/predictivelabsai/FastCRM',
+    license: 'MIT',
+    categories: ['crm'],
+    replacesTools: ['Salesforce', 'HubSpot', 'Pipedrive'],
+    selfHostable: true,
+    hostedService: 'https://fastsme.com',
+    logoPlaceholderEmoji: '🤝',
+    lastUpdated: '2026-09-27',
+    tags: ['crm', 'vertrieb', 'pipeline', 'kanban', 'python'],
+    difficulty: 'mittel',
+    platforms: ['web', 'linux', 'docker'],
+    featured: false,
+    addedDate: '2026-09-27',
+  },
+  {
     id: 'suitecrm',
     name: 'SuiteCRM',
     slug: 'suitecrm',
