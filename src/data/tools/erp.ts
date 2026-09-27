@@ -2,6 +2,31 @@ import type { Tool } from '../types';
 
 export const erpTools: Tool[] = [
   {
+    id: 'fasterp',
+    name: 'FastERP',
+    slug: 'fasterp',
+    tagline: 'Kompaktes ERP für kleine und mittlere Unternehmen',
+    taglineEn: 'Compact ERP for small and medium businesses',
+    description:
+      'FastERP ist ein quelloffenes ERP-System auf Basis von FastHTML. Es deckt Auftragsabwicklung, Einkauf, Lagerverwaltung und Buchhaltung ab und bietet optionale KI-Unterstützung für den Betrieb. FastERP lässt sich per Docker Compose selbst hosten.',
+    descriptionEn:
+      'FastERP is an open-source ERP system built with FastHTML. It covers order-to-cash, procurement, inventory, and accounting, with optional AI assistance for operations. FastERP can be self-hosted with Docker Compose.',
+    website: 'https://erp.fastsme.com',
+    github: 'https://github.com/predictivelabsai/FastERP',
+    license: 'MIT',
+    categories: ['erp'],
+    replacesTools: ['SAP Business One', 'Oracle ERP'],
+    selfHostable: true,
+    hostedService: 'https://fastsme.com',
+    logoPlaceholderEmoji: '🏢',
+    lastUpdated: '2026-09-27',
+    tags: ['erp', 'buchhaltung', 'lagerverwaltung', 'einkauf', 'python'],
+    difficulty: 'mittel',
+    platforms: ['web', 'linux', 'docker'],
+    featured: false,
+    addedDate: '2026-09-27',
+  },
+  {
     id: 'odoo-ce',
     name: 'Odoo CE',
     slug: 'odoo-ce',
