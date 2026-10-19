@@ -189,7 +189,7 @@ export const devToolsTools: Tool[] = [
     github: 'https://github.com/NeoPanic/Glim',
     license: 'MIT',
     categories: ['dev-tools'],
-    replacesTools: ['Marked 2'],
+    replacesTools: [],
     selfHostable: false,
     logoUrl: 'https://raw.githubusercontent.com/NeoPanic/Glim/main/assets/branding/glim.png',
     logoPlaceholderEmoji: '📄',
