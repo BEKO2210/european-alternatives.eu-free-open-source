@@ -20,7 +20,7 @@ export const suchmaschinenTools: Tool[] = [
     hostedService: 'https://searx.space/',
     logoPlaceholderEmoji: '🔍',
     stars: 14000,
-    lastUpdated: '2026-10-11',
+    lastUpdated: '2026-10-19',
     tags: ['metasuche', 'datenschutz', 'tracking-frei', 'aggregation', 'anpassbar'],
     difficulty: 'mittel',
     platforms: ['web', 'linux', 'docker'],
