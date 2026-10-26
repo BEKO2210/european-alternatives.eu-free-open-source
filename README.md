@@ -61,7 +61,7 @@ licenses such as BSL and SSPL are excluded.
 
 Requirements:
 
-- Node.js 22.13 or newer
+- Node.js 22.23.4 or newer (CI uses Node.js 24)
 - npm 10 or newer
 
 ```bash
