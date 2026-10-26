@@ -61,7 +61,7 @@ verwenden; Source-available-Lizenzen wie BSL und SSPL sind ausgeschlossen.
 
 Voraussetzungen:
 
-- Node.js 22.13 oder neuer
+- Node.js 22.23.4 oder neuer (CI nutzt Node.js 24)
 - npm 10 oder neuer
 
 ```bash
