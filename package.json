@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "description": "FOSS Alternatives – Deine Freiheit. Dein Code. Deine Zukunft.",
   "engines": {
-    "node": ">=22.13.0"
+    "node": ">=22.23.4"
   },
   "scripts": {
     "dev": "astro dev",
