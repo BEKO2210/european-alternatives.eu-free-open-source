@@ -179,4 +179,28 @@ export const browserTools: Tool[] = [
     featured: false,
     addedDate: '2025-03-01',
   },
+  {
+    id: 'truediscount',
+    name: 'truediscount',
+    slug: 'truediscount',
+    tagline: 'Prueft Rabatte in EU-Shops gegen den niedrigsten Preis der letzten 30 Tage',
+    taglineEn: 'Checks EU shop discounts against the lowest price of the last 30 days',
+    description:
+      'truediscount ist eine Browser-Erweiterung fuer Firefox und Chromium-Browser sowie ein Userscript. Auf Produktseiten von EU-Shops wie Amazon, Zalando oder MediaMarkt vergleicht sie den beworbenen Rabatt mit dem niedrigsten Preis der letzten 30 Tage, den Shops nach der Omnibus-Richtlinie (EU) 2019/2161 als Referenz nutzen muessen, und markiert ueberhoehte Rabatte direkt neben dem Preis. Preisverlauf, Preisalarme und Merkliste bleiben lokal im Browser, ohne Konto und ohne Tracking.',
+    descriptionEn:
+      'truediscount is a browser extension for Firefox and Chromium-based browsers, plus a userscript. On product pages of EU shops such as Amazon, Zalando or MediaMarkt it compares the advertised discount with the lowest price of the last 30 days, which shops must use as the reference under the Omnibus Directive (EU) 2019/2161, and flags inflated discounts right next to the price. Price history, price alerts and the watchlist stay local in the browser, with no account and no tracking.',
+    website: 'https://emirmrkaljevic.github.io/truediscount/',
+    github: 'https://github.com/emirmrkaljevic/truediscount',
+    license: 'MIT',
+    categories: ['browser'],
+    replacesTools: ['Keepa', 'camelcamelcamel'],
+    selfHostable: false,
+    logoPlaceholderEmoji: '🏷️',
+    lastUpdated: '2026-11-20',
+    tags: ['browser-erweiterung', 'preisvergleich', 'verbraucherschutz', 'datenschutz', 'omnibus', 'europaeisch'],
+    difficulty: 'einfach',
+    platforms: ['linux', 'windows', 'macos'],
+    featured: false,
+    addedDate: '2026-11-25',
+  },
 ];
